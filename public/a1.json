@@ -1,0 +1,3604 @@
+{
+  "list": [
+    {
+      "word": "an",
+      "classes": ["an indefinite article"]
+    },
+    {
+      "word": "about",
+      "classes": ["prep.", "adv."]
+    },
+    {
+      "word": "above",
+      "classes": ["prep.", "adv."]
+    },
+    {
+      "word": "across",
+      "classes": ["prep.", "adv."]
+    },
+    {
+      "word": "action",
+      "classes": ["n."]
+    },
+    {
+      "word": "activity",
+      "classes": ["n."]
+    },
+    {
+      "word": "actor",
+      "classes": ["n."]
+    },
+    {
+      "word": "actress",
+      "classes": ["n."]
+    },
+    {
+      "word": "add",
+      "classes": ["v."]
+    },
+    {
+      "word": "address",
+      "classes": ["n."]
+    },
+    {
+      "word": "adult",
+      "classes": ["n."]
+    },
+    {
+      "word": "advice",
+      "classes": ["n."]
+    },
+    {
+      "word": "afraid",
+      "classes": ["adj."]
+    },
+    {
+      "word": "after",
+      "classes": ["prep."]
+    },
+    {
+      "word": "afternoon",
+      "classes": ["n."]
+    },
+    {
+      "word": "again",
+      "classes": ["adv."]
+    },
+    {
+      "word": "age",
+      "classes": ["n."]
+    },
+    {
+      "word": "ago",
+      "classes": ["adv."]
+    },
+    {
+      "word": "agree",
+      "classes": ["v."]
+    },
+    {
+      "word": "air",
+      "classes": ["n."]
+    },
+    {
+      "word": "airport",
+      "classes": ["n."]
+    },
+    {
+      "word": "all",
+      "classes": ["det.", "pron."]
+    },
+    {
+      "word": "also",
+      "classes": ["adv."]
+    },
+    {
+      "word": "always",
+      "classes": ["adv."]
+    },
+    {
+      "word": "amazing",
+      "classes": ["adj."]
+    },
+    {
+      "word": "and",
+      "classes": ["conj."]
+    },
+    {
+      "word": "angry",
+      "classes": ["adj."]
+    },
+    {
+      "word": "animal",
+      "classes": ["n."]
+    },
+    {
+      "word": "another",
+      "classes": ["det./pron."]
+    },
+    {
+      "word": "answer",
+      "classes": ["n.", "v."]
+    },
+    {
+      "word": "any",
+      "classes": ["det.", "pron."]
+    },
+    {
+      "word": "anyone",
+      "classes": ["pron."]
+    },
+    {
+      "word": "anything",
+      "classes": ["pron."]
+    },
+    {
+      "word": "apartment",
+      "classes": ["n."]
+    },
+    {
+      "word": "apple",
+      "classes": ["n."]
+    },
+    {
+      "word": "April",
+      "classes": ["n."]
+    },
+    {
+      "word": "area",
+      "classes": ["n."]
+    },
+    {
+      "word": "arm",
+      "classes": ["n."]
+    },
+    {
+      "word": "around",
+      "classes": ["prep.", "adv."]
+    },
+    {
+      "word": "arrive",
+      "classes": ["v."]
+    },
+    {
+      "word": "art",
+      "classes": ["n."]
+    },
+    {
+      "word": "article",
+      "classes": ["n."]
+    },
+    {
+      "word": "artist",
+      "classes": ["n."]
+    },
+    {
+      "word": "as",
+      "classes": ["prep."]
+    },
+    {
+      "word": "ask",
+      "classes": ["v."]
+    },
+    {
+      "word": "at",
+      "classes": ["prep."]
+    },
+    {
+      "word": "August",
+      "classes": ["n."]
+    },
+    {
+      "word": "aunt",
+      "classes": ["n."]
+    },
+    {
+      "word": "autumn",
+      "classes": ["n."]
+    },
+    {
+      "word": "away",
+      "classes": ["adv."]
+    },
+    {
+      "word": "baby",
+      "classes": ["n."]
+    },
+    {
+      "word": "back",
+      "classes": ["n.", "adv."]
+    },
+    {
+      "word": "bad",
+      "classes": ["adj."]
+    },
+    {
+      "word": "bag",
+      "classes": ["n."]
+    },
+    {
+      "word": "ball",
+      "classes": ["n."]
+    },
+    {
+      "word": "banana",
+      "classes": ["n."]
+    },
+    {
+      "word": "band",
+      "classes": ["n."]
+    },
+    {
+      "word": "bank",
+      "classes": ["(money) n."]
+    },
+    {
+      "word": "bath",
+      "classes": ["n."]
+    },
+    {
+      "word": "bathroom",
+      "classes": ["n."]
+    },
+    {
+      "word": "be",
+      "classes": ["v.", "auxiliary v."]
+    },
+    {
+      "word": "beach",
+      "classes": ["n."]
+    },
+    {
+      "word": "beautiful",
+      "classes": ["adj."]
+    },
+    {
+      "word": "because",
+      "classes": ["conj."]
+    },
+    {
+      "word": "become",
+      "classes": ["v."]
+    },
+    {
+      "word": "bed",
+      "classes": ["n."]
+    },
+    {
+      "word": "bedroom",
+      "classes": ["n."]
+    },
+    {
+      "word": "beer",
+      "classes": ["n."]
+    },
+    {
+      "word": "before",
+      "classes": ["prep."]
+    },
+    {
+      "word": "begin",
+      "classes": ["v."]
+    },
+    {
+      "word": "beginning",
+      "classes": ["n."]
+    },
+    {
+      "word": "behind",
+      "classes": ["prep.", "adv."]
+    },
+    {
+      "word": "believe",
+      "classes": ["v."]
+    },
+    {
+      "word": "below",
+      "classes": ["adv.", "prep."]
+    },
+    {
+      "word": "best",
+      "classes": ["adj."]
+    },
+    {
+      "word": "better",
+      "classes": ["adj."]
+    },
+    {
+      "word": "between",
+      "classes": ["prep."]
+    },
+    {
+      "word": "bicycle",
+      "classes": ["n."]
+    },
+    {
+      "word": "big",
+      "classes": ["adj."]
+    },
+    {
+      "word": "bike",
+      "classes": ["n."]
+    },
+    {
+      "word": "bill",
+      "classes": ["n."]
+    },
+    {
+      "word": "bird",
+      "classes": ["n."]
+    },
+    {
+      "word": "birthday",
+      "classes": ["n."]
+    },
+    {
+      "word": "black",
+      "classes": ["adj.", "n."]
+    },
+    {
+      "word": "blog",
+      "classes": ["n."]
+    },
+    {
+      "word": "blonde",
+      "classes": ["adj."]
+    },
+    {
+      "word": "blue",
+      "classes": ["adj.", "n."]
+    },
+    {
+      "word": "boat",
+      "classes": ["n."]
+    },
+    {
+      "word": "body",
+      "classes": ["n."]
+    },
+    {
+      "word": "book",
+      "classes": ["n."]
+    },
+    {
+      "word": "boot",
+      "classes": ["n."]
+    },
+    {
+      "word": "bored",
+      "classes": ["adj."]
+    },
+    {
+      "word": "boring",
+      "classes": ["adj."]
+    },
+    {
+      "word": "born",
+      "classes": ["v."]
+    },
+    {
+      "word": "both",
+      "classes": ["det./pron."]
+    },
+    {
+      "word": "bottle",
+      "classes": ["n."]
+    },
+    {
+      "word": "box",
+      "classes": ["n."]
+    },
+    {
+      "word": "boy",
+      "classes": ["n."]
+    },
+    {
+      "word": "boyfriend",
+      "classes": ["n."]
+    },
+    {
+      "word": "bread",
+      "classes": ["n."]
+    },
+    {
+      "word": "break",
+      "classes": ["v.", "n."]
+    },
+    {
+      "word": "breakfast",
+      "classes": ["n."]
+    },
+    {
+      "word": "bring",
+      "classes": ["v."]
+    },
+    {
+      "word": "brother",
+      "classes": ["n."]
+    },
+    {
+      "word": "brown",
+      "classes": ["adj.", "n."]
+    },
+    {
+      "word": "build",
+      "classes": ["v."]
+    },
+    {
+      "word": "building",
+      "classes": ["n."]
+    },
+    {
+      "word": "bus",
+      "classes": ["n."]
+    },
+    {
+      "word": "business",
+      "classes": ["n."]
+    },
+    {
+      "word": "busy",
+      "classes": ["adj."]
+    },
+    {
+      "word": "but",
+      "classes": ["conj."]
+    },
+    {
+      "word": "butter",
+      "classes": ["n."]
+    },
+    {
+      "word": "buy",
+      "classes": ["v."]
+    },
+    {
+      "word": "by",
+      "classes": ["prep."]
+    },
+    {
+      "word": "bye",
+      "classes": ["exclam."]
+    },
+    {
+      "word": "cafe",
+      "classes": ["n."]
+    },
+    {
+      "word": "cake",
+      "classes": ["n."]
+    },
+    {
+      "word": "call",
+      "classes": ["v.", "n."]
+    },
+    {
+      "word": "camera",
+      "classes": ["n."]
+    },
+    {
+      "word": "can1",
+      "classes": ["modal v."]
+    },
+    {
+      "word": "cannot",
+      "classes": ["modal v."]
+    },
+    {
+      "word": "capital",
+      "classes": ["n.", "adj."]
+    },
+    {
+      "word": "car",
+      "classes": ["n."]
+    },
+    {
+      "word": "card",
+      "classes": ["n."]
+    },
+    {
+      "word": "career",
+      "classes": ["n."]
+    },
+    {
+      "word": "carrot",
+      "classes": ["n."]
+    },
+    {
+      "word": "carry",
+      "classes": ["v."]
+    },
+    {
+      "word": "cat",
+      "classes": ["n."]
+    },
+    {
+      "word": "CD",
+      "classes": ["n."]
+    },
+    {
+      "word": "cent",
+      "classes": ["n."]
+    },
+    {
+      "word": "centre",
+      "classes": ["n."]
+    },
+    {
+      "word": "century",
+      "classes": ["n."]
+    },
+    {
+      "word": "chair",
+      "classes": ["n."]
+    },
+    {
+      "word": "change",
+      "classes": ["v.", "n."]
+    },
+    {
+      "word": "chart",
+      "classes": ["n."]
+    },
+    {
+      "word": "cheap",
+      "classes": ["adj."]
+    },
+    {
+      "word": "check",
+      "classes": ["v."]
+    },
+    {
+      "word": "cheese",
+      "classes": ["n."]
+    },
+    {
+      "word": "chicken",
+      "classes": ["n."]
+    },
+    {
+      "word": "child",
+      "classes": ["n."]
+    },
+    {
+      "word": "chocolate",
+      "classes": ["n."]
+    },
+    {
+      "word": "choose",
+      "classes": ["v."]
+    },
+    {
+      "word": "cinema",
+      "classes": ["n."]
+    },
+    {
+      "word": "city",
+      "classes": ["n."]
+    },
+    {
+      "word": "class",
+      "classes": ["n."]
+    },
+    {
+      "word": "classroom",
+      "classes": ["n."]
+    },
+    {
+      "word": "clean",
+      "classes": ["adj.", "v."]
+    },
+    {
+      "word": "climb",
+      "classes": ["v."]
+    },
+    {
+      "word": "clock",
+      "classes": ["n."]
+    },
+    {
+      "word": "close1",
+      "classes": ["v."]
+    },
+    {
+      "word": "clothes",
+      "classes": ["n."]
+    },
+    {
+      "word": "club",
+      "classes": ["n."]
+    },
+    {
+      "word": "coat",
+      "classes": ["n."]
+    },
+    {
+      "word": "coffee",
+      "classes": ["n."]
+    },
+    {
+      "word": "cold",
+      "classes": ["adj.", "n."]
+    },
+    {
+      "word": "college",
+      "classes": ["n."]
+    },
+    {
+      "word": "colour",
+      "classes": ["n."]
+    },
+    {
+      "word": "come",
+      "classes": ["v."]
+    },
+    {
+      "word": "common",
+      "classes": ["adj."]
+    },
+    {
+      "word": "company",
+      "classes": ["n."]
+    },
+    {
+      "word": "compare",
+      "classes": ["v."]
+    },
+    {
+      "word": "complete",
+      "classes": ["adj.", "v."]
+    },
+    {
+      "word": "computer",
+      "classes": ["n."]
+    },
+    {
+      "word": "concert",
+      "classes": ["n."]
+    },
+    {
+      "word": "conversation",
+      "classes": ["n."]
+    },
+    {
+      "word": "cook",
+      "classes": ["v."]
+    },
+    {
+      "word": "cooking",
+      "classes": ["n."]
+    },
+    {
+      "word": "cool",
+      "classes": ["adj."]
+    },
+    {
+      "word": "correct",
+      "classes": ["adj.", "v."]
+    },
+    {
+      "word": "cost",
+      "classes": ["n.", "v."]
+    },
+    {
+      "word": "could",
+      "classes": ["modal v."]
+    },
+    {
+      "word": "country",
+      "classes": ["n."]
+    },
+    {
+      "word": "course",
+      "classes": ["n."]
+    },
+    {
+      "word": "cousin",
+      "classes": ["n."]
+    },
+    {
+      "word": "cow",
+      "classes": ["n."]
+    },
+    {
+      "word": "cream",
+      "classes": ["n."]
+    },
+    {
+      "word": "create",
+      "classes": ["v."]
+    },
+    {
+      "word": "culture",
+      "classes": ["n."]
+    },
+    {
+      "word": "cup",
+      "classes": ["n."]
+    },
+    {
+      "word": "customer",
+      "classes": ["n."]
+    },
+    {
+      "word": "cut",
+      "classes": ["v."]
+    },
+    {
+      "word": "dad",
+      "classes": ["n."]
+    },
+    {
+      "word": "dance",
+      "classes": ["n.", "v."]
+    },
+    {
+      "word": "dancer",
+      "classes": ["n."]
+    },
+    {
+      "word": "dancing",
+      "classes": ["n."]
+    },
+    {
+      "word": "dangerous",
+      "classes": ["adj."]
+    },
+    {
+      "word": "dark",
+      "classes": ["adj."]
+    },
+    {
+      "word": "date",
+      "classes": ["n."]
+    },
+    {
+      "word": "daughter",
+      "classes": ["n."]
+    },
+    {
+      "word": "day",
+      "classes": ["n."]
+    },
+    {
+      "word": "dear",
+      "classes": ["adj."]
+    },
+    {
+      "word": "December",
+      "classes": ["n."]
+    },
+    {
+      "word": "decide",
+      "classes": ["v."]
+    },
+    {
+      "word": "delicious",
+      "classes": ["adj."]
+    },
+    {
+      "word": "describe",
+      "classes": ["v."]
+    },
+    {
+      "word": "description",
+      "classes": ["n."]
+    },
+    {
+      "word": "design",
+      "classes": ["n.", "v."]
+    },
+    {
+      "word": "desk",
+      "classes": ["n."]
+    },
+    {
+      "word": "detail",
+      "classes": ["n."]
+    },
+    {
+      "word": "dialogue",
+      "classes": ["n."]
+    },
+    {
+      "word": "dictionary",
+      "classes": ["n."]
+    },
+    {
+      "word": "die",
+      "classes": ["v."]
+    },
+    {
+      "word": "diet",
+      "classes": ["n."]
+    },
+    {
+      "word": "difference",
+      "classes": ["n."]
+    },
+    {
+      "word": "different",
+      "classes": ["adj."]
+    },
+    {
+      "word": "difficult",
+      "classes": ["adj."]
+    },
+    {
+      "word": "dinner",
+      "classes": ["n."]
+    },
+    {
+      "word": "dirty",
+      "classes": ["adj."]
+    },
+    {
+      "word": "discuss",
+      "classes": ["v."]
+    },
+    {
+      "word": "dish",
+      "classes": ["n."]
+    },
+    {
+      "word": "do1",
+      "classes": ["v.", "auxiliary v."]
+    },
+    {
+      "word": "doctor",
+      "classes": ["n."]
+    },
+    {
+      "word": "dog",
+      "classes": ["n."]
+    },
+    {
+      "word": "dollar",
+      "classes": ["n."]
+    },
+    {
+      "word": "door",
+      "classes": ["n."]
+    },
+    {
+      "word": "down",
+      "classes": ["adv.", "prep."]
+    },
+    {
+      "word": "downstairs",
+      "classes": ["adv."]
+    },
+    {
+      "word": "draw",
+      "classes": ["v."]
+    },
+    {
+      "word": "dress",
+      "classes": ["n.", "v."]
+    },
+    {
+      "word": "drink",
+      "classes": ["n.", "v."]
+    },
+    {
+      "word": "drive",
+      "classes": ["v."]
+    },
+    {
+      "word": "driver",
+      "classes": ["n."]
+    },
+    {
+      "word": "during",
+      "classes": ["prep."]
+    },
+    {
+      "word": "DVD",
+      "classes": ["n."]
+    },
+    {
+      "word": "each",
+      "classes": ["det./pron./adv."]
+    },
+    {
+      "word": "ear",
+      "classes": ["n."]
+    },
+    {
+      "word": "early",
+      "classes": ["adj.", "adv."]
+    },
+    {
+      "word": "east",
+      "classes": ["n.", "adj.", "adv."]
+    },
+    {
+      "word": "easy",
+      "classes": ["adj."]
+    },
+    {
+      "word": "eat",
+      "classes": ["v."]
+    },
+    {
+      "word": "egg",
+      "classes": ["n."]
+    },
+    {
+      "word": "eight",
+      "classes": ["number"]
+    },
+    {
+      "word": "eighteen",
+      "classes": ["number"]
+    },
+    {
+      "word": "eighty",
+      "classes": ["number"]
+    },
+    {
+      "word": "elephant",
+      "classes": ["n."]
+    },
+    {
+      "word": "eleven",
+      "classes": ["number"]
+    },
+    {
+      "word": "else",
+      "classes": ["adv."]
+    },
+    {
+      "word": "email",
+      "classes": ["n.", "v."]
+    },
+    {
+      "word": "end",
+      "classes": ["n.", "v."]
+    },
+    {
+      "word": "enjoy",
+      "classes": ["v."]
+    },
+    {
+      "word": "enough",
+      "classes": ["det.", "pron.", "adv."]
+    },
+    {
+      "word": "euro",
+      "classes": ["n."]
+    },
+    {
+      "word": "even",
+      "classes": ["adv."]
+    },
+    {
+      "word": "evening",
+      "classes": ["n."]
+    },
+    {
+      "word": "event",
+      "classes": ["n."]
+    },
+    {
+      "word": "ever",
+      "classes": ["adv."]
+    },
+    {
+      "word": "every",
+      "classes": ["det."]
+    },
+    {
+      "word": "everybody",
+      "classes": ["pron."]
+    },
+    {
+      "word": "everyone",
+      "classes": ["pron."]
+    },
+    {
+      "word": "everything",
+      "classes": ["pron."]
+    },
+    {
+      "word": "exam",
+      "classes": ["n."]
+    },
+    {
+      "word": "example",
+      "classes": ["n."]
+    },
+    {
+      "word": "excited",
+      "classes": ["adj."]
+    },
+    {
+      "word": "exciting",
+      "classes": ["adj."]
+    },
+    {
+      "word": "exercise",
+      "classes": ["n.", "v."]
+    },
+    {
+      "word": "expensive",
+      "classes": ["adj."]
+    },
+    {
+      "word": "explain",
+      "classes": ["v."]
+    },
+    {
+      "word": "extra",
+      "classes": ["adj."]
+    },
+    {
+      "word": "eye",
+      "classes": ["n."]
+    },
+    {
+      "word": "face",
+      "classes": ["n."]
+    },
+    {
+      "word": "fact",
+      "classes": ["n."]
+    },
+    {
+      "word": "fall",
+      "classes": ["v."]
+    },
+    {
+      "word": "false",
+      "classes": ["adj."]
+    },
+    {
+      "word": "family",
+      "classes": ["n.", "adj."]
+    },
+    {
+      "word": "famous",
+      "classes": ["adj."]
+    },
+    {
+      "word": "fantastic",
+      "classes": ["adj."]
+    },
+    {
+      "word": "far",
+      "classes": ["adv."]
+    },
+    {
+      "word": "farm",
+      "classes": ["n."]
+    },
+    {
+      "word": "farmer",
+      "classes": ["n."]
+    },
+    {
+      "word": "fast",
+      "classes": ["adj.", "adv."]
+    },
+    {
+      "word": "fat",
+      "classes": ["adj."]
+    },
+    {
+      "word": "father",
+      "classes": ["n."]
+    },
+    {
+      "word": "favourite",
+      "classes": ["adj.", "n."]
+    },
+    {
+      "word": "February",
+      "classes": ["n."]
+    },
+    {
+      "word": "feel",
+      "classes": ["v."]
+    },
+    {
+      "word": "feeling",
+      "classes": ["n."]
+    },
+    {
+      "word": "festival",
+      "classes": ["n."]
+    },
+    {
+      "word": "few",
+      "classes": ["det./adj.", "pron."]
+    },
+    {
+      "word": "fifteen",
+      "classes": ["number"]
+    },
+    {
+      "word": "fifth",
+      "classes": ["number"]
+    },
+    {
+      "word": "fifty",
+      "classes": ["number"]
+    },
+    {
+      "word": "fill",
+      "classes": ["v."]
+    },
+    {
+      "word": "film",
+      "classes": ["n."]
+    },
+    {
+      "word": "final",
+      "classes": ["adj."]
+    },
+    {
+      "word": "find",
+      "classes": ["v."]
+    },
+    {
+      "word": "fine",
+      "classes": ["adj."]
+    },
+    {
+      "word": "finish",
+      "classes": ["v."]
+    },
+    {
+      "word": "fire",
+      "classes": ["n."]
+    },
+    {
+      "word": "first",
+      "classes": ["det./number", "adv."]
+    },
+    {
+      "word": "fish",
+      "classes": ["n."]
+    },
+    {
+      "word": "five",
+      "classes": ["number"]
+    },
+    {
+      "word": "flat",
+      "classes": ["n."]
+    },
+    {
+      "word": "flight",
+      "classes": ["n."]
+    },
+    {
+      "word": "floor",
+      "classes": ["n."]
+    },
+    {
+      "word": "flower",
+      "classes": ["n."]
+    },
+    {
+      "word": "fly",
+      "classes": ["v."]
+    },
+    {
+      "word": "follow",
+      "classes": ["v."]
+    },
+    {
+      "word": "food",
+      "classes": ["n."]
+    },
+    {
+      "word": "foot",
+      "classes": ["n."]
+    },
+    {
+      "word": "football",
+      "classes": ["n."]
+    },
+    {
+      "word": "for",
+      "classes": ["prep."]
+    },
+    {
+      "word": "forget",
+      "classes": ["v."]
+    },
+    {
+      "word": "form",
+      "classes": ["n.", "v."]
+    },
+    {
+      "word": "forty",
+      "classes": ["number"]
+    },
+    {
+      "word": "four",
+      "classes": ["number"]
+    },
+    {
+      "word": "fourteen",
+      "classes": ["number"]
+    },
+    {
+      "word": "fourth",
+      "classes": ["number"]
+    },
+    {
+      "word": "free",
+      "classes": ["adj."]
+    },
+    {
+      "word": "Friday",
+      "classes": ["n."]
+    },
+    {
+      "word": "friend",
+      "classes": ["n."]
+    },
+    {
+      "word": "friendly",
+      "classes": ["adj."]
+    },
+    {
+      "word": "from",
+      "classes": ["prep."]
+    },
+    {
+      "word": "front",
+      "classes": ["n.", "adj."]
+    },
+    {
+      "word": "fruit",
+      "classes": ["n."]
+    },
+    {
+      "word": "full",
+      "classes": ["adj."]
+    },
+    {
+      "word": "fun",
+      "classes": ["n."]
+    },
+    {
+      "word": "funny",
+      "classes": ["adj."]
+    },
+    {
+      "word": "future",
+      "classes": ["n."]
+    },
+    {
+      "word": "game",
+      "classes": ["n."]
+    },
+    {
+      "word": "garden",
+      "classes": ["n."]
+    },
+    {
+      "word": "geography",
+      "classes": ["n."]
+    },
+    {
+      "word": "get",
+      "classes": ["v."]
+    },
+    {
+      "word": "girl",
+      "classes": ["n."]
+    },
+    {
+      "word": "girlfriend",
+      "classes": ["n."]
+    },
+    {
+      "word": "give",
+      "classes": ["v."]
+    },
+    {
+      "word": "glass",
+      "classes": ["n."]
+    },
+    {
+      "word": "go",
+      "classes": ["v."]
+    },
+    {
+      "word": "good",
+      "classes": ["adj."]
+    },
+    {
+      "word": "goodbye",
+      "classes": ["exclam./n."]
+    },
+    {
+      "word": "grandfather",
+      "classes": ["n."]
+    },
+    {
+      "word": "grandmother",
+      "classes": ["n."]
+    },
+    {
+      "word": "grandparent",
+      "classes": ["n."]
+    },
+    {
+      "word": "great",
+      "classes": ["adj."]
+    },
+    {
+      "word": "green",
+      "classes": ["adj.", "n."]
+    },
+    {
+      "word": "grey",
+      "classes": ["adj.", "n."]
+    },
+    {
+      "word": "group",
+      "classes": ["n."]
+    },
+    {
+      "word": "grow",
+      "classes": ["v."]
+    },
+    {
+      "word": "guess",
+      "classes": ["v.", "n."]
+    },
+    {
+      "word": "guitar",
+      "classes": ["n."]
+    },
+    {
+      "word": "gym",
+      "classes": ["n."]
+    },
+    {
+      "word": "hair",
+      "classes": ["n."]
+    },
+    {
+      "word": "half",
+      "classes": ["n.", "det./pron."]
+    },
+    {
+      "word": "hand",
+      "classes": ["n."]
+    },
+    {
+      "word": "happen",
+      "classes": ["v."]
+    },
+    {
+      "word": "happy",
+      "classes": ["adj."]
+    },
+    {
+      "word": "hard",
+      "classes": ["adj.", "adv."]
+    },
+    {
+      "word": "hat",
+      "classes": ["n."]
+    },
+    {
+      "word": "hate",
+      "classes": ["v."]
+    },
+    {
+      "word": "have",
+      "classes": ["v."]
+    },
+    {
+      "word": "have",
+      "classes": ["to modal v."]
+    },
+    {
+      "word": "he",
+      "classes": ["pron."]
+    },
+    {
+      "word": "head",
+      "classes": ["n."]
+    },
+    {
+      "word": "health",
+      "classes": ["n."]
+    },
+    {
+      "word": "healthy",
+      "classes": ["adj."]
+    },
+    {
+      "word": "hear",
+      "classes": ["v."]
+    },
+    {
+      "word": "hello",
+      "classes": ["exclam./n."]
+    },
+    {
+      "word": "help",
+      "classes": ["v.", "n."]
+    },
+    {
+      "word": "her",
+      "classes": ["pron.", "det."]
+    },
+    {
+      "word": "here",
+      "classes": ["adv."]
+    },
+    {
+      "word": "hey",
+      "classes": ["exclam."]
+    },
+    {
+      "word": "hi",
+      "classes": ["exclam."]
+    },
+    {
+      "word": "high",
+      "classes": ["adj."]
+    },
+    {
+      "word": "him",
+      "classes": ["pron."]
+    },
+    {
+      "word": "his",
+      "classes": ["det."]
+    },
+    {
+      "word": "history",
+      "classes": ["n."]
+    },
+    {
+      "word": "hobby",
+      "classes": ["n."]
+    },
+    {
+      "word": "holiday",
+      "classes": ["n."]
+    },
+    {
+      "word": "home",
+      "classes": ["n.", "adv."]
+    },
+    {
+      "word": "homework",
+      "classes": ["n."]
+    },
+    {
+      "word": "hope",
+      "classes": ["v."]
+    },
+    {
+      "word": "horse",
+      "classes": ["n."]
+    },
+    {
+      "word": "hospital",
+      "classes": ["n."]
+    },
+    {
+      "word": "hot",
+      "classes": ["adj."]
+    },
+    {
+      "word": "hotel",
+      "classes": ["n."]
+    },
+    {
+      "word": "hour",
+      "classes": ["n."]
+    },
+    {
+      "word": "house",
+      "classes": ["n."]
+    },
+    {
+      "word": "how",
+      "classes": ["adv."]
+    },
+    {
+      "word": "however",
+      "classes": ["adv."]
+    },
+    {
+      "word": "hundred",
+      "classes": ["number"]
+    },
+    {
+      "word": "hungry",
+      "classes": ["adj."]
+    },
+    {
+      "word": "husband",
+      "classes": ["n."]
+    },
+    {
+      "word": "I",
+      "classes": ["pron."]
+    },
+    {
+      "word": "ice",
+      "classes": ["n."]
+    },
+    {
+      "word": "ice",
+      "classes": ["cream n."]
+    },
+    {
+      "word": "idea",
+      "classes": ["n."]
+    },
+    {
+      "word": "if",
+      "classes": ["conj."]
+    },
+    {
+      "word": "imagine",
+      "classes": ["v."]
+    },
+    {
+      "word": "important",
+      "classes": ["adj."]
+    },
+    {
+      "word": "improve",
+      "classes": ["v."]
+    },
+    {
+      "word": "in",
+      "classes": ["prep.", "adv."]
+    },
+    {
+      "word": "include",
+      "classes": ["v."]
+    },
+    {
+      "word": "information",
+      "classes": ["n."]
+    },
+    {
+      "word": "interest",
+      "classes": ["n.", "v."]
+    },
+    {
+      "word": "interested",
+      "classes": ["adj."]
+    },
+    {
+      "word": "interesting",
+      "classes": ["adj."]
+    },
+    {
+      "word": "internet",
+      "classes": ["n."]
+    },
+    {
+      "word": "interview",
+      "classes": ["n.", "v."]
+    },
+    {
+      "word": "into",
+      "classes": ["prep."]
+    },
+    {
+      "word": "introduce",
+      "classes": ["v."]
+    },
+    {
+      "word": "island",
+      "classes": ["n."]
+    },
+    {
+      "word": "it",
+      "classes": ["pron."]
+    },
+    {
+      "word": "its",
+      "classes": ["det."]
+    },
+    {
+      "word": "jacket",
+      "classes": ["n."]
+    },
+    {
+      "word": "January",
+      "classes": ["n."]
+    },
+    {
+      "word": "jeans",
+      "classes": ["n."]
+    },
+    {
+      "word": "job",
+      "classes": ["n."]
+    },
+    {
+      "word": "join",
+      "classes": ["v."]
+    },
+    {
+      "word": "journey",
+      "classes": ["n."]
+    },
+    {
+      "word": "juice",
+      "classes": ["n."]
+    },
+    {
+      "word": "July",
+      "classes": ["n."]
+    },
+    {
+      "word": "June",
+      "classes": ["n."]
+    },
+    {
+      "word": "just",
+      "classes": ["adv."]
+    },
+    {
+      "word": "keep",
+      "classes": ["v."]
+    },
+    {
+      "word": "key",
+      "classes": ["n.", "adj."]
+    },
+    {
+      "word": "kilometre",
+      "classes": ["n."]
+    },
+    {
+      "word": "kind",
+      "classes": ["(type) n."]
+    },
+    {
+      "word": "kitchen",
+      "classes": ["n."]
+    },
+    {
+      "word": "know",
+      "classes": ["v."]
+    },
+    {
+      "word": "land",
+      "classes": ["n."]
+    },
+    {
+      "word": "language",
+      "classes": ["n."]
+    },
+    {
+      "word": "large",
+      "classes": ["adj."]
+    },
+    {
+      "word": "last1",
+      "classes": ["(final) det."]
+    },
+    {
+      "word": "late",
+      "classes": ["adj.", "adv."]
+    },
+    {
+      "word": "later",
+      "classes": ["adv."]
+    },
+    {
+      "word": "laugh",
+      "classes": ["v.", "n."]
+    },
+    {
+      "word": "learn",
+      "classes": ["v."]
+    },
+    {
+      "word": "leave",
+      "classes": ["v."]
+    },
+    {
+      "word": "left",
+      "classes": ["adj.", "adv.", "n."]
+    },
+    {
+      "word": "leg",
+      "classes": ["n."]
+    },
+    {
+      "word": "lesson",
+      "classes": ["n."]
+    },
+    {
+      "word": "let",
+      "classes": ["v."]
+    },
+    {
+      "word": "letter",
+      "classes": ["n."]
+    },
+    {
+      "word": "library",
+      "classes": ["n."]
+    },
+    {
+      "word": "lie1",
+      "classes": ["v."]
+    },
+    {
+      "word": "life",
+      "classes": ["n."]
+    },
+    {
+      "word": "light",
+      "classes": ["(from the sun/a lamp) n.,"]
+    },
+    {
+      "word": "adj",
+      "classes": ["."]
+    },
+    {
+      "word": "like",
+      "classes": ["(similar) prep."]
+    },
+    {
+      "word": "like",
+      "classes": ["(find sb/sth pleasant) v."]
+    },
+    {
+      "word": "line",
+      "classes": ["n."]
+    },
+    {
+      "word": "lion",
+      "classes": ["n."]
+    },
+    {
+      "word": "list",
+      "classes": ["n.", "v."]
+    },
+    {
+      "word": "listen",
+      "classes": ["v."]
+    },
+    {
+      "word": "little",
+      "classes": ["adj.", "det./pron."]
+    },
+    {
+      "word": "live1",
+      "classes": ["v."]
+    },
+    {
+      "word": "local",
+      "classes": ["adj."]
+    },
+    {
+      "word": "long1",
+      "classes": ["adj.", "adv."]
+    },
+    {
+      "word": "look",
+      "classes": ["v."]
+    },
+    {
+      "word": "lose",
+      "classes": ["v."]
+    },
+    {
+      "word": "lot",
+      "classes": ["pron.", "det.", "adv."]
+    },
+    {
+      "word": "love",
+      "classes": ["n.", "v."]
+    },
+    {
+      "word": "lunch",
+      "classes": ["n."]
+    },
+    {
+      "word": "machine",
+      "classes": ["n."]
+    },
+    {
+      "word": "magazine",
+      "classes": ["n."]
+    },
+    {
+      "word": "main",
+      "classes": ["adj."]
+    },
+    {
+      "word": "make",
+      "classes": ["v."]
+    },
+    {
+      "word": "man",
+      "classes": ["n."]
+    },
+    {
+      "word": "many",
+      "classes": ["det./pron."]
+    },
+    {
+      "word": "map",
+      "classes": ["n."]
+    },
+    {
+      "word": "March",
+      "classes": ["n."]
+    },
+    {
+      "word": "market",
+      "classes": ["n."]
+    },
+    {
+      "word": "married",
+      "classes": ["adj."]
+    },
+    {
+      "word": "match",
+      "classes": ["(contest/correspond) n.", "v."]
+    },
+    {
+      "word": "May",
+      "classes": ["n."]
+    },
+    {
+      "word": "maybe",
+      "classes": ["adv."]
+    },
+    {
+      "word": "me",
+      "classes": ["pron."]
+    },
+    {
+      "word": "meal",
+      "classes": ["n."]
+    },
+    {
+      "word": "mean",
+      "classes": ["v."]
+    },
+    {
+      "word": "meaning",
+      "classes": ["n."]
+    },
+    {
+      "word": "meat",
+      "classes": ["n."]
+    },
+    {
+      "word": "meet",
+      "classes": ["v."]
+    },
+    {
+      "word": "meeting",
+      "classes": ["n."]
+    },
+    {
+      "word": "member",
+      "classes": ["n."]
+    },
+    {
+      "word": "menu",
+      "classes": ["n."]
+    },
+    {
+      "word": "message",
+      "classes": ["n."]
+    },
+    {
+      "word": "metre",
+      "classes": ["n."]
+    },
+    {
+      "word": "midnight",
+      "classes": ["n."]
+    },
+    {
+      "word": "mile",
+      "classes": ["n."]
+    },
+    {
+      "word": "milk",
+      "classes": ["n."]
+    },
+    {
+      "word": "million",
+      "classes": ["number"]
+    },
+    {
+      "word": "minute1",
+      "classes": ["n."]
+    },
+    {
+      "word": "miss",
+      "classes": ["v."]
+    },
+    {
+      "word": "mistake",
+      "classes": ["n."]
+    },
+    {
+      "word": "model",
+      "classes": ["n."]
+    },
+    {
+      "word": "modern",
+      "classes": ["adj."]
+    },
+    {
+      "word": "moment",
+      "classes": ["n."]
+    },
+    {
+      "word": "Monday",
+      "classes": ["n."]
+    },
+    {
+      "word": "money",
+      "classes": ["n."]
+    },
+    {
+      "word": "month",
+      "classes": ["n."]
+    },
+    {
+      "word": "more",
+      "classes": ["det./pron.", "adv."]
+    },
+    {
+      "word": "morning",
+      "classes": ["n."]
+    },
+    {
+      "word": "most",
+      "classes": ["det./pron.", "adv."]
+    },
+    {
+      "word": "mother",
+      "classes": ["n."]
+    },
+    {
+      "word": "mountain",
+      "classes": ["n."]
+    },
+    {
+      "word": "mouse",
+      "classes": ["n."]
+    },
+    {
+      "word": "mouth",
+      "classes": ["n."]
+    },
+    {
+      "word": "move",
+      "classes": ["v."]
+    },
+    {
+      "word": "movie",
+      "classes": ["n."]
+    },
+    {
+      "word": "much",
+      "classes": ["det./pron.", "adv."]
+    },
+    {
+      "word": "mum",
+      "classes": ["n."]
+    },
+    {
+      "word": "museum",
+      "classes": ["n."]
+    },
+    {
+      "word": "music",
+      "classes": ["n."]
+    },
+    {
+      "word": "must",
+      "classes": ["modal v."]
+    },
+    {
+      "word": "my",
+      "classes": ["det."]
+    },
+    {
+      "word": "name",
+      "classes": ["n.", "v."]
+    },
+    {
+      "word": "natural",
+      "classes": ["adj."]
+    },
+    {
+      "word": "near",
+      "classes": ["prep.", "adj.", "adv."]
+    },
+    {
+      "word": "need",
+      "classes": ["v."]
+    },
+    {
+      "word": "negative",
+      "classes": ["adj."]
+    },
+    {
+      "word": "neighbour",
+      "classes": ["n."]
+    },
+    {
+      "word": "never",
+      "classes": ["adv."]
+    },
+    {
+      "word": "new",
+      "classes": ["adj."]
+    },
+    {
+      "word": "news",
+      "classes": ["n."]
+    },
+    {
+      "word": "newspaper",
+      "classes": ["n."]
+    },
+    {
+      "word": "next",
+      "classes": ["adj.", "adv."]
+    },
+    {
+      "word": "next",
+      "classes": ["to prep."]
+    },
+    {
+      "word": "nice",
+      "classes": ["adj."]
+    },
+    {
+      "word": "night",
+      "classes": ["n."]
+    },
+    {
+      "word": "nine",
+      "classes": ["number"]
+    },
+    {
+      "word": "nineteen",
+      "classes": ["number"]
+    },
+    {
+      "word": "ninety",
+      "classes": ["number"]
+    },
+    {
+      "word": "no",
+      "classes": ["exclam.", "det."]
+    },
+    {
+      "word": "no",
+      "classes": ["one pron."]
+    },
+    {
+      "word": "nobody",
+      "classes": ["pron."]
+    },
+    {
+      "word": "north",
+      "classes": ["n.", "adj.", "adv."]
+    },
+    {
+      "word": "nose",
+      "classes": ["n."]
+    },
+    {
+      "word": "not",
+      "classes": ["adv."]
+    },
+    {
+      "word": "note",
+      "classes": ["n."]
+    },
+    {
+      "word": "nothing",
+      "classes": ["pron."]
+    },
+    {
+      "word": "November",
+      "classes": ["n."]
+    },
+    {
+      "word": "now",
+      "classes": ["adv."]
+    },
+    {
+      "word": "number",
+      "classes": ["n."]
+    },
+    {
+      "word": "nurse",
+      "classes": ["n."]
+    },
+    {
+      "word": "object",
+      "classes": ["n."]
+    },
+    {
+      "word": "o’clock",
+      "classes": ["adv."]
+    },
+    {
+      "word": "October",
+      "classes": ["n."]
+    },
+    {
+      "word": "of",
+      "classes": ["prep."]
+    },
+    {
+      "word": "off",
+      "classes": ["adv.", "prep."]
+    },
+    {
+      "word": "office",
+      "classes": ["n."]
+    },
+    {
+      "word": "often",
+      "classes": ["adv."]
+    },
+    {
+      "word": "oh",
+      "classes": ["exclam."]
+    },
+    {
+      "word": "OK",
+      "classes": ["exclam.", "adj./adv."]
+    },
+    {
+      "word": "old",
+      "classes": ["adj."]
+    },
+    {
+      "word": "on",
+      "classes": ["prep.", "adv."]
+    },
+    {
+      "word": "once",
+      "classes": ["adv."]
+    },
+    {
+      "word": "one",
+      "classes": ["number/det.", "pron."]
+    },
+    {
+      "word": "onion",
+      "classes": ["n."]
+    },
+    {
+      "word": "online",
+      "classes": ["adj.", "adv."]
+    },
+    {
+      "word": "only",
+      "classes": ["adj.", "adv."]
+    },
+    {
+      "word": "open",
+      "classes": ["adj.", "v."]
+    },
+    {
+      "word": "opinion",
+      "classes": ["n."]
+    },
+    {
+      "word": "opposite",
+      "classes": ["adj.", "n.", "prep.", "adv."]
+    },
+    {
+      "word": "or",
+      "classes": ["conj."]
+    },
+    {
+      "word": "orange",
+      "classes": ["n.", "adj."]
+    },
+    {
+      "word": "order",
+      "classes": ["n.", "v."]
+    },
+    {
+      "word": "other",
+      "classes": ["adj./pron."]
+    },
+    {
+      "word": "our",
+      "classes": ["det."]
+    },
+    {
+      "word": "out",
+      "classes": ["adv./prep."]
+    },
+    {
+      "word": "outside",
+      "classes": ["adv."]
+    },
+    {
+      "word": "over",
+      "classes": ["prep.", "adv."]
+    },
+    {
+      "word": "own",
+      "classes": ["adj./pron."]
+    },
+    {
+      "word": "page",
+      "classes": ["n."]
+    },
+    {
+      "word": "paint",
+      "classes": ["v.", "n."]
+    },
+    {
+      "word": "painting",
+      "classes": ["n."]
+    },
+    {
+      "word": "pair",
+      "classes": ["n."]
+    },
+    {
+      "word": "paper",
+      "classes": ["n."]
+    },
+    {
+      "word": "paragraph",
+      "classes": ["n."]
+    },
+    {
+      "word": "parent",
+      "classes": ["n."]
+    },
+    {
+      "word": "park",
+      "classes": ["n.", "v."]
+    },
+    {
+      "word": "part",
+      "classes": ["n."]
+    },
+    {
+      "word": "partner",
+      "classes": ["n."]
+    },
+    {
+      "word": "party",
+      "classes": ["n."]
+    },
+    {
+      "word": "passport",
+      "classes": ["n."]
+    },
+    {
+      "word": "past",
+      "classes": ["adj.", "n.", "prep."]
+    },
+    {
+      "word": "pay",
+      "classes": ["v."]
+    },
+    {
+      "word": "pen",
+      "classes": ["n."]
+    },
+    {
+      "word": "pencil",
+      "classes": ["n."]
+    },
+    {
+      "word": "people",
+      "classes": ["n."]
+    },
+    {
+      "word": "pepper",
+      "classes": ["n."]
+    },
+    {
+      "word": "perfect",
+      "classes": ["adj."]
+    },
+    {
+      "word": "period",
+      "classes": ["n."]
+    },
+    {
+      "word": "person",
+      "classes": ["n."]
+    },
+    {
+      "word": "personal",
+      "classes": ["adj."]
+    },
+    {
+      "word": "phone",
+      "classes": ["n.", "v."]
+    },
+    {
+      "word": "photo",
+      "classes": ["n."]
+    },
+    {
+      "word": "photograph",
+      "classes": ["n."]
+    },
+    {
+      "word": "phrase",
+      "classes": ["n."]
+    },
+    {
+      "word": "piano",
+      "classes": ["n."]
+    },
+    {
+      "word": "picture",
+      "classes": ["n."]
+    },
+    {
+      "word": "piece",
+      "classes": ["n."]
+    },
+    {
+      "word": "pig",
+      "classes": ["n."]
+    },
+    {
+      "word": "pink",
+      "classes": ["adj.", "n."]
+    },
+    {
+      "word": "place",
+      "classes": ["n."]
+    },
+    {
+      "word": "plan",
+      "classes": ["n.", "v."]
+    },
+    {
+      "word": "plane",
+      "classes": ["n."]
+    },
+    {
+      "word": "plant",
+      "classes": ["n."]
+    },
+    {
+      "word": "play",
+      "classes": ["v.", "n."]
+    },
+    {
+      "word": "player",
+      "classes": ["n."]
+    },
+    {
+      "word": "please",
+      "classes": ["exclam."]
+    },
+    {
+      "word": "point",
+      "classes": ["n."]
+    },
+    {
+      "word": "police",
+      "classes": ["n."]
+    },
+    {
+      "word": "policeman",
+      "classes": ["n."]
+    },
+    {
+      "word": "pool",
+      "classes": ["n."]
+    },
+    {
+      "word": "poor",
+      "classes": ["adj."]
+    },
+    {
+      "word": "popular",
+      "classes": ["adj."]
+    },
+    {
+      "word": "positive",
+      "classes": ["adj."]
+    },
+    {
+      "word": "possible",
+      "classes": ["adj."]
+    },
+    {
+      "word": "post",
+      "classes": ["n.", "v."]
+    },
+    {
+      "word": "potato",
+      "classes": ["n."]
+    },
+    {
+      "word": "pound",
+      "classes": ["n."]
+    },
+    {
+      "word": "practice",
+      "classes": ["n."]
+    },
+    {
+      "word": "practise",
+      "classes": ["v."]
+    },
+    {
+      "word": "prefer",
+      "classes": ["v."]
+    },
+    {
+      "word": "prepare",
+      "classes": ["v."]
+    },
+    {
+      "word": "present",
+      "classes": ["adj.", "n."]
+    },
+    {
+      "word": "pretty",
+      "classes": ["adj.", "adv."]
+    },
+    {
+      "word": "price",
+      "classes": ["n."]
+    },
+    {
+      "word": "probably",
+      "classes": ["adv."]
+    },
+    {
+      "word": "problem",
+      "classes": ["n."]
+    },
+    {
+      "word": "product",
+      "classes": ["n."]
+    },
+    {
+      "word": "programme",
+      "classes": ["n."]
+    },
+    {
+      "word": "project",
+      "classes": ["n."]
+    },
+    {
+      "word": "purple",
+      "classes": ["adj.", "n."]
+    },
+    {
+      "word": "put",
+      "classes": ["v."]
+    },
+    {
+      "word": "quarter",
+      "classes": ["n."]
+    },
+    {
+      "word": "question",
+      "classes": ["n."]
+    },
+    {
+      "word": "quick",
+      "classes": ["adj."]
+    },
+    {
+      "word": "quickly",
+      "classes": ["adv."]
+    },
+    {
+      "word": "quiet",
+      "classes": ["adj."]
+    },
+    {
+      "word": "quite",
+      "classes": ["adv."]
+    },
+    {
+      "word": "radio",
+      "classes": ["n."]
+    },
+    {
+      "word": "rain",
+      "classes": ["n.", "v."]
+    },
+    {
+      "word": "read",
+      "classes": ["v."]
+    },
+    {
+      "word": "reader",
+      "classes": ["n."]
+    },
+    {
+      "word": "reading",
+      "classes": ["n."]
+    },
+    {
+      "word": "ready",
+      "classes": ["adj."]
+    },
+    {
+      "word": "real",
+      "classes": ["adj."]
+    },
+    {
+      "word": "really",
+      "classes": ["adv."]
+    },
+    {
+      "word": "reason",
+      "classes": ["n."]
+    },
+    {
+      "word": "red",
+      "classes": ["adj.", "n."]
+    },
+    {
+      "word": "relax",
+      "classes": ["v."]
+    },
+    {
+      "word": "remember",
+      "classes": ["v."]
+    },
+    {
+      "word": "repeat",
+      "classes": ["v."]
+    },
+    {
+      "word": "report",
+      "classes": ["n."]
+    },
+    {
+      "word": "restaurant",
+      "classes": ["n."]
+    },
+    {
+      "word": "result",
+      "classes": ["n."]
+    },
+    {
+      "word": "return",
+      "classes": ["v.", "n."]
+    },
+    {
+      "word": "rice",
+      "classes": ["n."]
+    },
+    {
+      "word": "rich",
+      "classes": ["adj."]
+    },
+    {
+      "word": "ride",
+      "classes": ["v."]
+    },
+    {
+      "word": "right",
+      "classes": ["adj.", "adv.", "n."]
+    },
+    {
+      "word": "river",
+      "classes": ["n."]
+    },
+    {
+      "word": "road",
+      "classes": ["n."]
+    },
+    {
+      "word": "room",
+      "classes": ["n."]
+    },
+    {
+      "word": "routine",
+      "classes": ["n."]
+    },
+    {
+      "word": "rule",
+      "classes": ["n."]
+    },
+    {
+      "word": "run",
+      "classes": ["v."]
+    },
+    {
+      "word": "sad",
+      "classes": ["adj."]
+    },
+    {
+      "word": "salad",
+      "classes": ["n."]
+    },
+    {
+      "word": "salt",
+      "classes": ["n."]
+    },
+    {
+      "word": "same",
+      "classes": ["adj.", "pron.", "adv."]
+    },
+    {
+      "word": "sandwich",
+      "classes": ["n."]
+    },
+    {
+      "word": "Saturday",
+      "classes": ["n."]
+    },
+    {
+      "word": "say",
+      "classes": ["v."]
+    },
+    {
+      "word": "school",
+      "classes": ["n."]
+    },
+    {
+      "word": "science",
+      "classes": ["n."]
+    },
+    {
+      "word": "scientist",
+      "classes": ["n."]
+    },
+    {
+      "word": "sea",
+      "classes": ["n."]
+    },
+    {
+      "word": "second",
+      "classes": ["number", "n."]
+    },
+    {
+      "word": "section",
+      "classes": ["n."]
+    },
+    {
+      "word": "see",
+      "classes": ["v."]
+    },
+    {
+      "word": "sell",
+      "classes": ["v."]
+    },
+    {
+      "word": "send",
+      "classes": ["v."]
+    },
+    {
+      "word": "sentence",
+      "classes": ["n."]
+    },
+    {
+      "word": "September",
+      "classes": ["n."]
+    },
+    {
+      "word": "seven",
+      "classes": ["number"]
+    },
+    {
+      "word": "seventeen",
+      "classes": ["number"]
+    },
+    {
+      "word": "seventy",
+      "classes": ["number"]
+    },
+    {
+      "word": "share",
+      "classes": ["v."]
+    },
+    {
+      "word": "she",
+      "classes": ["pron."]
+    },
+    {
+      "word": "sheep",
+      "classes": ["n."]
+    },
+    {
+      "word": "shirt",
+      "classes": ["n."]
+    },
+    {
+      "word": "shoe",
+      "classes": ["n."]
+    },
+    {
+      "word": "shop",
+      "classes": ["n.", "v."]
+    },
+    {
+      "word": "shopping",
+      "classes": ["n."]
+    },
+    {
+      "word": "short",
+      "classes": ["adj."]
+    },
+    {
+      "word": "should",
+      "classes": ["modal v."]
+    },
+    {
+      "word": "show",
+      "classes": ["v.", "n."]
+    },
+    {
+      "word": "shower",
+      "classes": ["n."]
+    },
+    {
+      "word": "sick",
+      "classes": ["adj."]
+    },
+    {
+      "word": "similar",
+      "classes": ["adj."]
+    },
+    {
+      "word": "sing",
+      "classes": ["v."]
+    },
+    {
+      "word": "singer",
+      "classes": ["n."]
+    },
+    {
+      "word": "sister",
+      "classes": ["n."]
+    },
+    {
+      "word": "sit",
+      "classes": ["v."]
+    },
+    {
+      "word": "situation",
+      "classes": ["n."]
+    },
+    {
+      "word": "six",
+      "classes": ["number"]
+    },
+    {
+      "word": "sixteen",
+      "classes": ["number"]
+    },
+    {
+      "word": "sixty",
+      "classes": ["number"]
+    },
+    {
+      "word": "skill",
+      "classes": ["n."]
+    },
+    {
+      "word": "skirt",
+      "classes": ["n."]
+    },
+    {
+      "word": "sleep",
+      "classes": ["v."]
+    },
+    {
+      "word": "slow",
+      "classes": ["adj."]
+    },
+    {
+      "word": "small",
+      "classes": ["adj."]
+    },
+    {
+      "word": "snake",
+      "classes": ["n."]
+    },
+    {
+      "word": "snow",
+      "classes": ["n.", "v."]
+    },
+    {
+      "word": "so",
+      "classes": ["adv.", "conj."]
+    },
+    {
+      "word": "some",
+      "classes": ["det.", "pron."]
+    },
+    {
+      "word": "somebody",
+      "classes": ["pron."]
+    },
+    {
+      "word": "someone",
+      "classes": ["pron."]
+    },
+    {
+      "word": "something",
+      "classes": ["pron."]
+    },
+    {
+      "word": "sometimes",
+      "classes": ["adv."]
+    },
+    {
+      "word": "son",
+      "classes": ["n."]
+    },
+    {
+      "word": "song",
+      "classes": ["n."]
+    },
+    {
+      "word": "soon",
+      "classes": ["adv."]
+    },
+    {
+      "word": "sorry",
+      "classes": ["adj.", "exclam."]
+    },
+    {
+      "word": "sound",
+      "classes": ["n.", "v."]
+    },
+    {
+      "word": "soup",
+      "classes": ["n."]
+    },
+    {
+      "word": "south",
+      "classes": ["n.", "adj.", "adv."]
+    },
+    {
+      "word": "space",
+      "classes": ["n."]
+    },
+    {
+      "word": "speak",
+      "classes": ["v."]
+    },
+    {
+      "word": "special",
+      "classes": ["adj."]
+    },
+    {
+      "word": "spell",
+      "classes": ["v."]
+    },
+    {
+      "word": "spelling",
+      "classes": ["n."]
+    },
+    {
+      "word": "spend",
+      "classes": ["v."]
+    },
+    {
+      "word": "sport",
+      "classes": ["n."]
+    },
+    {
+      "word": "spring",
+      "classes": ["n."]
+    },
+    {
+      "word": "stand",
+      "classes": ["v."]
+    },
+    {
+      "word": "star",
+      "classes": ["n."]
+    },
+    {
+      "word": "start",
+      "classes": ["v."]
+    },
+    {
+      "word": "statement",
+      "classes": ["n."]
+    },
+    {
+      "word": "station",
+      "classes": ["n."]
+    },
+    {
+      "word": "stay",
+      "classes": ["v."]
+    },
+    {
+      "word": "still",
+      "classes": ["adv."]
+    },
+    {
+      "word": "stop",
+      "classes": ["v.", "n."]
+    },
+    {
+      "word": "story",
+      "classes": ["n."]
+    },
+    {
+      "word": "street",
+      "classes": ["n."]
+    },
+    {
+      "word": "strong",
+      "classes": ["adj."]
+    },
+    {
+      "word": "student",
+      "classes": ["n."]
+    },
+    {
+      "word": "study",
+      "classes": ["n.", "v."]
+    },
+    {
+      "word": "style",
+      "classes": ["n."]
+    },
+    {
+      "word": "subject",
+      "classes": ["n."]
+    },
+    {
+      "word": "success",
+      "classes": ["n."]
+    },
+    {
+      "word": "sugar",
+      "classes": ["n."]
+    },
+    {
+      "word": "summer",
+      "classes": ["n."]
+    },
+    {
+      "word": "sun",
+      "classes": ["n."]
+    },
+    {
+      "word": "Sunday",
+      "classes": ["n."]
+    },
+    {
+      "word": "supermarket",
+      "classes": ["n."]
+    },
+    {
+      "word": "sure",
+      "classes": ["adj."]
+    },
+    {
+      "word": "sweater",
+      "classes": ["n."]
+    },
+    {
+      "word": "swim",
+      "classes": ["v."]
+    },
+    {
+      "word": "swimming",
+      "classes": ["n."]
+    },
+    {
+      "word": "table",
+      "classes": ["n."]
+    },
+    {
+      "word": "take",
+      "classes": ["v."]
+    },
+    {
+      "word": "talk",
+      "classes": ["v."]
+    },
+    {
+      "word": "tall",
+      "classes": ["adj."]
+    },
+    {
+      "word": "taxi",
+      "classes": ["n."]
+    },
+    {
+      "word": "tea",
+      "classes": ["n."]
+    },
+    {
+      "word": "teach",
+      "classes": ["v."]
+    },
+    {
+      "word": "teacher",
+      "classes": ["n."]
+    },
+    {
+      "word": "team",
+      "classes": ["n."]
+    },
+    {
+      "word": "teenager",
+      "classes": ["n."]
+    },
+    {
+      "word": "telephone",
+      "classes": ["n.", "v."]
+    },
+    {
+      "word": "television",
+      "classes": ["n."]
+    },
+    {
+      "word": "tell",
+      "classes": ["v."]
+    },
+    {
+      "word": "ten",
+      "classes": ["number"]
+    },
+    {
+      "word": "tennis",
+      "classes": ["n."]
+    },
+    {
+      "word": "terrible",
+      "classes": ["adj."]
+    },
+    {
+      "word": "test",
+      "classes": ["n.", "v."]
+    },
+    {
+      "word": "text",
+      "classes": ["n."]
+    },
+    {
+      "word": "than",
+      "classes": ["conj."]
+    },
+    {
+      "word": "thank",
+      "classes": ["v."]
+    },
+    {
+      "word": "thanks",
+      "classes": ["exclam.", "n."]
+    },
+    {
+      "word": "that",
+      "classes": ["det.", "pron.", "conj."]
+    },
+    {
+      "word": "the",
+      "classes": ["definite article"]
+    },
+    {
+      "word": "theatre",
+      "classes": ["n."]
+    },
+    {
+      "word": "their",
+      "classes": ["det."]
+    },
+    {
+      "word": "them",
+      "classes": ["pron."]
+    },
+    {
+      "word": "then",
+      "classes": ["adv."]
+    },
+    {
+      "word": "there",
+      "classes": ["adv."]
+    },
+    {
+      "word": "they",
+      "classes": ["pron."]
+    },
+    {
+      "word": "thing",
+      "classes": ["n."]
+    },
+    {
+      "word": "think",
+      "classes": ["v."]
+    },
+    {
+      "word": "third",
+      "classes": ["number"]
+    },
+    {
+      "word": "thirsty",
+      "classes": ["adj."]
+    },
+    {
+      "word": "thirteen",
+      "classes": ["number"]
+    },
+    {
+      "word": "thirty",
+      "classes": ["number"]
+    },
+    {
+      "word": "this",
+      "classes": ["det./pron."]
+    },
+    {
+      "word": "thousand",
+      "classes": ["number"]
+    },
+    {
+      "word": "three",
+      "classes": ["number"]
+    },
+    {
+      "word": "through",
+      "classes": ["prep.", "adv."]
+    },
+    {
+      "word": "Thursday",
+      "classes": ["n."]
+    },
+    {
+      "word": "ticket",
+      "classes": ["n."]
+    },
+    {
+      "word": "time",
+      "classes": ["n."]
+    },
+    {
+      "word": "tired",
+      "classes": ["adj."]
+    },
+    {
+      "word": "title",
+      "classes": ["n."]
+    },
+    {
+      "word": "to",
+      "classes": ["prep.", "infinitive marker"]
+    },
+    {
+      "word": "today",
+      "classes": ["adv.", "n."]
+    },
+    {
+      "word": "together",
+      "classes": ["adv."]
+    },
+    {
+      "word": "toilet",
+      "classes": ["n."]
+    },
+    {
+      "word": "tomato",
+      "classes": ["n."]
+    },
+    {
+      "word": "tomorrow",
+      "classes": ["adv.", "n."]
+    },
+    {
+      "word": "tonight",
+      "classes": ["adv.", "n."]
+    },
+    {
+      "word": "too",
+      "classes": ["adv."]
+    },
+    {
+      "word": "tooth",
+      "classes": ["n."]
+    },
+    {
+      "word": "topic",
+      "classes": ["n."]
+    },
+    {
+      "word": "tourist",
+      "classes": ["n."]
+    },
+    {
+      "word": "town",
+      "classes": ["n."]
+    },
+    {
+      "word": "traffic",
+      "classes": ["n."]
+    },
+    {
+      "word": "train",
+      "classes": ["n."]
+    },
+    {
+      "word": "travel",
+      "classes": ["v.", "n."]
+    },
+    {
+      "word": "tree",
+      "classes": ["n."]
+    },
+    {
+      "word": "trip",
+      "classes": ["n."]
+    },
+    {
+      "word": "trousers",
+      "classes": ["n."]
+    },
+    {
+      "word": "true",
+      "classes": ["adj."]
+    },
+    {
+      "word": "try",
+      "classes": ["v."]
+    },
+    {
+      "word": "T-shirt",
+      "classes": ["n."]
+    },
+    {
+      "word": "Tuesday",
+      "classes": ["n."]
+    },
+    {
+      "word": "turn",
+      "classes": ["v.", "n."]
+    },
+    {
+      "word": "TV",
+      "classes": ["n."]
+    },
+    {
+      "word": "twelve",
+      "classes": ["number"]
+    },
+    {
+      "word": "twenty",
+      "classes": ["number"]
+    },
+    {
+      "word": "twice",
+      "classes": ["adv."]
+    },
+    {
+      "word": "two",
+      "classes": ["number"]
+    },
+    {
+      "word": "type",
+      "classes": ["n."]
+    },
+    {
+      "word": "umbrella",
+      "classes": ["n."]
+    },
+    {
+      "word": "uncle",
+      "classes": ["n."]
+    },
+    {
+      "word": "under",
+      "classes": ["prep.", "adv."]
+    },
+    {
+      "word": "understand",
+      "classes": ["v."]
+    },
+    {
+      "word": "university",
+      "classes": ["n."]
+    },
+    {
+      "word": "until",
+      "classes": ["conj./prep."]
+    },
+    {
+      "word": "up",
+      "classes": ["adv.", "prep."]
+    },
+    {
+      "word": "upstairs",
+      "classes": ["adv."]
+    },
+    {
+      "word": "us",
+      "classes": ["pron."]
+    },
+    {
+      "word": "use",
+      "classes": ["v."]
+    },
+    {
+      "word": "useful",
+      "classes": ["adj."]
+    },
+    {
+      "word": "usually",
+      "classes": ["adv."]
+    },
+    {
+      "word": "vacation",
+      "classes": ["n."]
+    },
+    {
+      "word": "vegetable",
+      "classes": ["n."]
+    },
+    {
+      "word": "very",
+      "classes": ["adv."]
+    },
+    {
+      "word": "video",
+      "classes": ["n."]
+    },
+    {
+      "word": "village",
+      "classes": ["n."]
+    },
+    {
+      "word": "visit",
+      "classes": ["v.", "n."]
+    },
+    {
+      "word": "visitor",
+      "classes": ["n."]
+    },
+    {
+      "word": "wait",
+      "classes": ["v."]
+    },
+    {
+      "word": "waiter",
+      "classes": ["n."]
+    },
+    {
+      "word": "wake",
+      "classes": ["v."]
+    },
+    {
+      "word": "walk",
+      "classes": ["v.", "n."]
+    },
+    {
+      "word": "wall",
+      "classes": ["n."]
+    },
+    {
+      "word": "want",
+      "classes": ["v."]
+    },
+    {
+      "word": "warm",
+      "classes": ["adj."]
+    },
+    {
+      "word": "wash",
+      "classes": ["v."]
+    },
+    {
+      "word": "watch",
+      "classes": ["v.", "n."]
+    },
+    {
+      "word": "water",
+      "classes": ["n."]
+    },
+    {
+      "word": "way",
+      "classes": ["n."]
+    },
+    {
+      "word": "we",
+      "classes": ["pron."]
+    },
+    {
+      "word": "wear",
+      "classes": ["v."]
+    },
+    {
+      "word": "weather",
+      "classes": ["n."]
+    },
+    {
+      "word": "website",
+      "classes": ["n."]
+    },
+    {
+      "word": "Wednesday",
+      "classes": ["n."]
+    },
+    {
+      "word": "week",
+      "classes": ["n."]
+    },
+    {
+      "word": "weekend",
+      "classes": ["n."]
+    },
+    {
+      "word": "welcome",
+      "classes": ["exclam.", "v.", "adj."]
+    },
+    {
+      "word": "well",
+      "classes": ["adv.", "adj.", "exclam."]
+    },
+    {
+      "word": "west",
+      "classes": ["n.", "adj.", "adv."]
+    },
+    {
+      "word": "what",
+      "classes": ["pron./det."]
+    },
+    {
+      "word": "when",
+      "classes": ["adv.", "pron.", "conj."]
+    },
+    {
+      "word": "where",
+      "classes": ["adv.", "conj."]
+    },
+    {
+      "word": "which",
+      "classes": ["pron./det."]
+    },
+    {
+      "word": "white",
+      "classes": ["adj.", "n."]
+    },
+    {
+      "word": "who",
+      "classes": ["pron."]
+    },
+    {
+      "word": "why",
+      "classes": ["adv."]
+    },
+    {
+      "word": "wife",
+      "classes": ["n."]
+    },
+    {
+      "word": "will",
+      "classes": ["modal v."]
+    },
+    {
+      "word": "win",
+      "classes": ["v."]
+    },
+    {
+      "word": "window",
+      "classes": ["n."]
+    },
+    {
+      "word": "wine",
+      "classes": ["n."]
+    },
+    {
+      "word": "winter",
+      "classes": ["n."]
+    },
+    {
+      "word": "with",
+      "classes": ["prep."]
+    },
+    {
+      "word": "without",
+      "classes": ["prep."]
+    },
+    {
+      "word": "woman",
+      "classes": ["n."]
+    },
+    {
+      "word": "wonderful",
+      "classes": ["adj."]
+    },
+    {
+      "word": "word",
+      "classes": ["n."]
+    },
+    {
+      "word": "work",
+      "classes": ["v.", "n."]
+    },
+    {
+      "word": "worker",
+      "classes": ["n."]
+    },
+    {
+      "word": "world",
+      "classes": ["n."]
+    },
+    {
+      "word": "would",
+      "classes": ["modal v."]
+    },
+    {
+      "word": "write",
+      "classes": ["v."]
+    },
+    {
+      "word": "writer",
+      "classes": ["n."]
+    },
+    {
+      "word": "writing",
+      "classes": ["n."]
+    },
+    {
+      "word": "wrong",
+      "classes": ["adj."]
+    },
+    {
+      "word": "yeah",
+      "classes": ["exclam."]
+    },
+    {
+      "word": "year",
+      "classes": ["n."]
+    },
+    {
+      "word": "yellow",
+      "classes": ["adj.", "n."]
+    },
+    {
+      "word": "yes",
+      "classes": ["exclam."]
+    },
+    {
+      "word": "yesterday",
+      "classes": ["adv.", "n."]
+    },
+    {
+      "word": "you",
+      "classes": ["pron."]
+    },
+    {
+      "word": "young",
+      "classes": ["adj."]
+    },
+    {
+      "word": "your",
+      "classes": ["det."]
+    },
+    {
+      "word": "yourself",
+      "classes": ["pron."]
+    }
+  ]
+}
