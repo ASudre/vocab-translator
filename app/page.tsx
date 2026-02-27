@@ -23,6 +23,7 @@ export default function Home() {
   const [showSolutions, setShowSolutions] = useState(false);
 
   const normalizeString = (str: string) => {
+    if(!str) return '';
     return str
       .toLowerCase()
       .trim()
@@ -253,7 +254,7 @@ export default function Home() {
                           
                           {result.isCorrect === true && result.translations.length > 1 && (
                             <div className="text-xs sm:text-sm text-gray-600 dark:text-gray-400">
-                              Other correct answers: {result.translations.filter(t => t.toLowerCase() !== result.userAnswer?.toLowerCase()).join(', ')}
+                              Other correct answers: {result.translations.filter(t => t && (t.toLowerCase() !== result.userAnswer?.toLowerCase())).join(', ')}
                             </div>
                           )}
                           
