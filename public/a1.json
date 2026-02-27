@@ -477,7 +477,7 @@
       "classes": ["n."]
     },
     {
-      "word": "can1",
+      "word": "can",
       "classes": ["modal v."]
     },
     {
@@ -597,7 +597,7 @@
       "classes": ["n."]
     },
     {
-      "word": "close1",
+      "word": "close",
       "classes": ["v."]
     },
     {
@@ -841,7 +841,7 @@
       "classes": ["n."]
     },
     {
-      "word": "do1",
+      "word": "do",
       "classes": ["v.", "auxiliary v."]
     },
     {
@@ -1685,7 +1685,7 @@
       "classes": ["adj."]
     },
     {
-      "word": "last1",
+      "word": "last",
       "classes": ["(final) det."]
     },
     {
@@ -1733,7 +1733,7 @@
       "classes": ["n."]
     },
     {
-      "word": "lie1",
+      "word": "lie",
       "classes": ["v."]
     },
     {
@@ -1777,7 +1777,7 @@
       "classes": ["adj.", "det./pron."]
     },
     {
-      "word": "live1",
+      "word": "live",
       "classes": ["v."]
     },
     {
@@ -1785,7 +1785,7 @@
       "classes": ["adj."]
     },
     {
-      "word": "long1",
+      "word": "long",
       "classes": ["adj.", "adv."]
     },
     {
@@ -1921,7 +1921,7 @@
       "classes": ["number"]
     },
     {
-      "word": "minute1",
+      "word": "minute",
       "classes": ["n."]
     },
     {
