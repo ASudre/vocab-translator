@@ -1,0 +1,4134 @@
+{
+  "list": [
+    {
+      "spanish": "hola",
+      "english": "hello, hi",
+      "french": "salut",
+      "category": "Saludos",
+      "class": "interjection"
+    },
+    {
+      "spanish": "¿Cómo estás?",
+      "english": "How are you?",
+      "french": "Comment vas-tu ?",
+      "category": "Saludos",
+      "class": "phrase"
+    },
+    {
+      "spanish": "¿Qué tal?",
+      "english": "How's it going?, What's up?",
+      "french": "Ça va ?",
+      "category": "Saludos",
+      "class": "phrase"
+    },
+    {
+      "spanish": "buenos días",
+      "english": "good morning",
+      "french": "bonjour",
+      "category": "Saludos",
+      "class": "phrase"
+    },
+    {
+      "spanish": "buenas tardes",
+      "english": "good afternoon",
+      "french": "bon après-midi",
+      "category": "Saludos",
+      "class": "phrase"
+    },
+    {
+      "spanish": "buenas noches",
+      "english": "good evening, good night",
+      "french": "bonsoir",
+      "category": "Saludos",
+      "class": "phrase"
+    },
+    {
+      "spanish": "mucho gusto",
+      "english": "nice to meet you, pleased to meet you",
+      "french": "enchanté",
+      "category": "Saludos",
+      "class": "phrase"
+    },
+    {
+      "spanish": "adiós",
+      "english": "goodbye, bye",
+      "french": "au revoir",
+      "category": "Saludos",
+      "class": "interjection"
+    },
+    {
+      "spanish": "hasta luego",
+      "english": "see you later",
+      "french": "à bientôt",
+      "category": "Saludos",
+      "class": "phrase"
+    },
+    {
+      "spanish": "gracias",
+      "english": "thank you",
+      "french": "merci",
+      "category": "Saludos",
+      "class": "interjection"
+    },
+    {
+      "spanish": "de nada",
+      "english": "you're welcome",
+      "french": "de rien",
+      "category": "Saludos",
+      "class": "phrase"
+    },
+    {
+      "spanish": "por favor",
+      "english": "please",
+      "french": "s'il te plaît",
+      "category": "Saludos",
+      "class": "phrase"
+    },
+    {
+      "spanish": "lo siento",
+      "english": "I'm sorry",
+      "french": "je suis désolé",
+      "category": "Saludos",
+      "class": "phrase"
+    },
+    {
+      "spanish": "perdón",
+      "english": "excuse me, pardon",
+      "french": "pardon",
+      "category": "Saludos",
+      "class": "noun"
+    },
+    {
+      "spanish": "nombre",
+      "english": "name",
+      "french": "prénom",
+      "category": "Información",
+      "class": "noun"
+    },
+    {
+      "spanish": "apellido",
+      "english": "surname, last name",
+      "french": "nom",
+      "category": "Información",
+      "class": "noun"
+    },
+    {
+      "spanish": "edad",
+      "english": "age",
+      "french": "âge",
+      "category": "Información",
+      "class": "noun"
+    },
+    {
+      "spanish": "cumpleaños",
+      "english": "birthday",
+      "french": "anniversaire",
+      "category": "Información",
+      "class": "noun"
+    },
+    {
+      "spanish": "nacionalidad",
+      "english": "nationality",
+      "french": "nationalité",
+      "category": "Información",
+      "class": "noun"
+    },
+    {
+      "spanish": "género",
+      "english": "gender",
+      "french": "genre, sexe",
+      "category": "Información",
+      "class": "noun"
+    },
+    {
+      "spanish": "dirección",
+      "english": "address, direction",
+      "french": "adresse",
+      "category": "Información",
+      "class": "noun"
+    },
+    {
+      "spanish": "número de teléfono",
+      "english": "phone number",
+      "french": "numéro de téléphone",
+      "category": "Información",
+      "class": "noun"
+    },
+    {
+      "spanish": "correo electrónico",
+      "english": "email, e-mail",
+      "french": "email, courriel",
+      "category": "Información",
+      "class": "noun"
+    },
+    {
+      "spanish": "mujer",
+      "english": "woman",
+      "french": "femme",
+      "category": "Información",
+      "class": "noun"
+    },
+    {
+      "spanish": "hombre",
+      "english": "man",
+      "french": "homme",
+      "category": "Información",
+      "class": "noun"
+    },
+    {
+      "spanish": "niño",
+      "english": "boy, child",
+      "french": "garçon, enfant",
+      "category": "Información",
+      "class": "noun"
+    },
+    {
+      "spanish": "niña",
+      "english": "girl, child",
+      "french": "fille, enfant",
+      "category": "Información",
+      "class": "noun"
+    },
+    {
+      "spanish": "persona",
+      "english": "person",
+      "french": "personne",
+      "category": "Información",
+      "class": "noun"
+    },
+    {
+      "spanish": "gente",
+      "english": "people",
+      "french": "gens",
+      "category": "Información",
+      "class": "noun"
+    },
+    {
+      "spanish": "soltero",
+      "english": "single, unmarried",
+      "french": "célibataire",
+      "category": "Información",
+      "class": "adjective"
+    },
+    {
+      "spanish": "casado",
+      "english": "married",
+      "french": "marié",
+      "category": "Información",
+      "class": "adjective"
+    },
+    {
+      "spanish": "divorciado",
+      "english": "divorced",
+      "french": "divorcé",
+      "category": "Información",
+      "class": "adjective"
+    },
+    {
+      "spanish": "español",
+      "english": "Spanish",
+      "french": "espagnol",
+      "category": "Nacionalidad",
+      "class": "adjective"
+    },
+    {
+      "spanish": "inglés, english",
+      "english": "English",
+      "french": "anglais",
+      "category": "Nacionalidad",
+      "class": "adjective"
+    },
+    {
+      "spanish": "francés",
+      "english": "French",
+      "french": "français",
+      "category": "Nacionalidad",
+      "class": "adjective"
+    },
+    {
+      "spanish": "italiano",
+      "english": "Italian",
+      "french": "italien",
+      "category": "Nacionalidad",
+      "class": "adjective"
+    },
+    {
+      "spanish": "alemán",
+      "english": "German",
+      "french": "allemand",
+      "category": "Nacionalidad",
+      "class": "adjective"
+    },
+    {
+      "spanish": "mexicano",
+      "english": "Mexican",
+      "french": "mexicain",
+      "category": "Nacionalidad",
+      "class": "adjective"
+    },
+    {
+      "spanish": "argentino",
+      "english": "Argentine, Argentinian",
+      "french": "argentin",
+      "category": "Nacionalidad",
+      "class": "adjective"
+    },
+    {
+      "spanish": "colombiano",
+      "english": "Colombian",
+      "french": "colombien",
+      "category": "Nacionalidad",
+      "class": "adjective"
+    },
+    {
+      "spanish": "peruano",
+      "english": "Peruvian",
+      "french": "péruvien",
+      "category": "Nacionalidad",
+      "class": "adjective"
+    },
+    {
+      "spanish": "chileno",
+      "english": "Chilean",
+      "french": "chilien",
+      "category": "Nacionalidad",
+      "class": "adjective"
+    },
+    {
+      "spanish": "venezolano",
+      "english": "Venezuelan",
+      "french": "vénézuélien",
+      "category": "Nacionalidad",
+      "class": "adjective"
+    },
+    {
+      "spanish": "cubano",
+      "english": "Cuban",
+      "french": "cubain",
+      "category": "Nacionalidad",
+      "class": "adjective"
+    },
+    {
+      "spanish": "paraguayo",
+      "english": "Paraguayan",
+      "french": "paraguayen",
+      "category": "Nacionalidad",
+      "class": "adjective"
+    },
+    {
+      "spanish": "uruguayo",
+      "english": "Uruguayan",
+      "french": "uruguayen",
+      "category": "Nacionalidad",
+      "class": "adjective"
+    },
+    {
+      "spanish": "dominicano",
+      "english": "Dominican",
+      "french": "dominicain",
+      "category": "Nacionalidad",
+      "class": "adjective"
+    },
+    {
+      "spanish": "puertorriqueño",
+      "english": "Puerto Rican",
+      "french": "portoricain",
+      "category": "Nacionalidad",
+      "class": "adjective"
+    },
+    {
+      "spanish": "costarricense",
+      "english": "Costa Rican",
+      "french": "costaricain",
+      "category": "Nacionalidad",
+      "class": "adjective"
+    },
+    {
+      "spanish": "nicaragüense",
+      "english": "Nicaraguan",
+      "french": "nicaraguayens",
+      "category": "Nacionalidad",
+      "class": "adjective"
+    },
+    {
+      "spanish": "boliviano",
+      "english": "Bolivian",
+      "french": "bolivien",
+      "category": "Nacionalidad",
+      "class": "adjective"
+    },
+    {
+      "spanish": "padre",
+      "english": "father, dad",
+      "french": "père, papa",
+      "category": "Familia",
+      "class": "noun"
+    },
+    {
+      "spanish": "madre",
+      "english": "mother, mom",
+      "french": "mère, maman",
+      "category": "Familia",
+      "class": "noun"
+    },
+    {
+      "spanish": "esposo",
+      "english": "husband, spouse",
+      "french": "mari, époux",
+      "category": "Familia",
+      "class": "noun"
+    },
+    {
+      "spanish": "esposa",
+      "english": "wife, spouse",
+      "french": "femme, épouse",
+      "category": "Familia",
+      "class": "noun"
+    },
+    {
+      "spanish": "hijo",
+      "english": "son, child",
+      "french": "fils",
+      "category": "Familia",
+      "class": "noun"
+    },
+    {
+      "spanish": "hija",
+      "english": "daughter, child",
+      "french": "fille",
+      "category": "Familia",
+      "class": "noun"
+    },
+    {
+      "spanish": "hermano",
+      "english": "brother",
+      "french": "frère",
+      "category": "Familia",
+      "class": "noun"
+    },
+    {
+      "spanish": "hermana",
+      "english": "sister",
+      "french": "sœur",
+      "category": "Familia",
+      "class": "noun"
+    },
+    {
+      "spanish": "sobrino",
+      "english": "nephew",
+      "french": "neveu",
+      "category": "Familia",
+      "class": "noun"
+    },
+    {
+      "spanish": "abuelo",
+      "english": "grandfather, grandpa",
+      "french": "grand-père, papi",
+      "category": "Familia",
+      "class": "noun"
+    },
+    {
+      "spanish": "abuela",
+      "english": "grandmother, grandma",
+      "french": "grand-mère, mamie",
+      "category": "Familia",
+      "class": "noun"
+    },
+    {
+      "spanish": "nieto",
+      "english": "grandson",
+      "french": "petit-fils",
+      "category": "Familia",
+      "class": "noun"
+    },
+    {
+      "spanish": "nieta",
+      "english": "granddaughter",
+      "french": "petite-fille",
+      "category": "Familia",
+      "class": "noun"
+    },
+    {
+      "spanish": "tío",
+      "english": "uncle",
+      "french": "oncle",
+      "category": "Familia",
+      "class": "noun"
+    },
+    {
+      "spanish": "tía",
+      "english": "aunt",
+      "french": "tante",
+      "category": "Familia",
+      "class": "noun"
+    },
+    {
+      "spanish": "primo",
+      "english": "cousin",
+      "french": "cousin",
+      "category": "Familia",
+      "class": "noun"
+    },
+    {
+      "spanish": "sobrina",
+      "english": "niece",
+      "french": "nièce",
+      "category": "Familia",
+      "class": "noun"
+    },
+    {
+      "spanish": "amigo",
+      "english": "friend",
+      "french": "ami",
+      "category": "Familia",
+      "class": "noun"
+    },
+    {
+      "spanish": "compañero",
+      "english": "classmate, colleague",
+      "french": "camarade, collègue, compagnon",
+      "category": "Familia",
+      "class": ","
+    },
+    {
+      "spanish": "vecino",
+      "english": "neighbor",
+      "french": "voisin",
+      "category": "Familia",
+      "class": "noun"
+    },
+    {
+      "spanish": "pizza",
+      "english": "pizza",
+      "french": "pizza",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "spanish": "sándwich",
+      "english": "sandwich",
+      "french": "sandwich",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "spanish": "hamburguesa",
+      "english": "hamburger",
+      "french": "hamburger",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "spanish": "patatas fritas",
+      "english": "French fries, fried potatoes",
+      "french": "frites",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "spanish": "sopa",
+      "english": "soup",
+      "french": "soupe",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "spanish": "ensalada",
+      "english": "salad",
+      "french": "salade",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "spanish": "tamal",
+      "english": "tamale",
+      "french": "tamale",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "spanish": "tortilla de patatas",
+      "english": "Spanish omelette, potato omelet",
+      "french": "tortilla",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "spanish": "sándwich mixto",
+      "english": "ham and cheese sandwich",
+      "french": "croque-monsieur",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "spanish": "paella",
+      "english": "paella",
+      "french": "paella",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "spanish": "gazpacho",
+      "english": "gazpacho",
+      "french": "gazpacho",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "spanish": "café con leche",
+      "english": "coffee with milk, latte",
+      "french": "café au lait",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "spanish": "café",
+      "english": "coffee",
+      "french": "café",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "spanish": "té",
+      "english": "tea",
+      "french": "thé",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "spanish": "agua",
+      "english": "water",
+      "french": "eau",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "spanish": "jugo",
+      "english": "juice",
+      "french": "jus",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "spanish": "limonada",
+      "english": "lemonade",
+      "french": "limonade",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "spanish": "soda",
+      "english": "soda, soft drink",
+      "french": "soda",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "spanish": "refresco",
+      "english": "soft drink, soda",
+      "french": "rafraîchissement, boisson",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "spanish": "cerveza",
+      "english": "beer",
+      "french": "bière",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "spanish": "vino",
+      "english": "wine",
+      "french": "vin",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "spanish": "arroz",
+      "english": "rice",
+      "french": "riz",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "spanish": "pan",
+      "english": "bread",
+      "french": "pain",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "spanish": "pasta",
+      "english": "pasta, noodles",
+      "french": "pâte",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "spanish": "azúcar",
+      "english": "sugar",
+      "french": "sucre",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "spanish": "sal",
+      "english": "salt",
+      "french": "sel",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "spanish": "carne",
+      "english": "meat",
+      "french": "viande",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "spanish": "pollo",
+      "english": "chicken",
+      "french": "poulet",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "spanish": "vaca",
+      "english": "cow",
+      "french": "vache",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "spanish": "pescado",
+      "english": "fish",
+      "french": "poisson",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "spanish": "jamón",
+      "english": "ham",
+      "french": "jambon",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "spanish": "huevo",
+      "english": "egg",
+      "french": "oeuf",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "spanish": "leche",
+      "english": "milk",
+      "french": "lait",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "spanish": "queso",
+      "english": "cheese",
+      "french": "fromage",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "spanish": "mantequilla",
+      "english": "butter",
+      "french": "beurre",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "spanish": "yogur",
+      "english": "yogurt",
+      "french": "yaourt",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "spanish": "chocolate",
+      "english": "chocolate",
+      "french": "chocolat",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "spanish": "churro",
+      "english": "churro",
+      "french": "churro",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "spanish": "helado",
+      "english": "ice cream",
+      "french": "glace",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "spanish": "galleta",
+      "english": "cookie, biscuit",
+      "french": "biscuit",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "spanish": "dulces",
+      "english": "sweets, candies",
+      "french": "bonbons",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "spanish": "pastel",
+      "english": "cake",
+      "french": "gâteau",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "spanish": "manzana",
+      "english": "apple",
+      "french": "pomme",
+      "category": "Frutas",
+      "class": "noun"
+    },
+    {
+      "spanish": "naranja",
+      "english": "orange",
+      "french": "orange",
+      "category": "Frutas",
+      "class": "noun"
+    },
+    {
+      "spanish": "plátano",
+      "english": "banana",
+      "french": "banane",
+      "category": "Frutas",
+      "class": "noun"
+    },
+    {
+      "spanish": "uva",
+      "english": "grape",
+      "french": "raisin",
+      "category": "Frutas",
+      "class": "noun"
+    },
+    {
+      "spanish": "fresa",
+      "english": "strawberry",
+      "french": "fraise",
+      "category": "Frutas",
+      "class": "noun"
+    },
+    {
+      "spanish": "piña",
+      "english": "pineapple",
+      "french": "ananas",
+      "category": "Frutas",
+      "class": "noun"
+    },
+    {
+      "spanish": "limón",
+      "english": "lemon",
+      "french": "citron",
+      "category": "Frutas",
+      "class": "noun"
+    },
+    {
+      "spanish": "papa",
+      "english": "potato",
+      "french": "patate",
+      "category": "Frutas",
+      "class": "noun"
+    },
+    {
+      "spanish": "tomate",
+      "english": "tomato",
+      "french": "tomate",
+      "category": "Frutas",
+      "class": "noun"
+    },
+    {
+      "spanish": "lechuga",
+      "english": "lettuce",
+      "french": "laitue",
+      "category": "Frutas",
+      "class": "noun"
+    },
+    {
+      "spanish": "zanahoria",
+      "english": "carrot",
+      "french": "carrotte",
+      "category": "Frutas",
+      "class": "noun"
+    },
+    {
+      "spanish": "pimiento",
+      "english": "bell pepper, pepper",
+      "french": "poivron",
+      "category": "Frutas",
+      "class": "noun"
+    },
+    {
+      "spanish": "cebolla",
+      "english": "onion",
+      "french": "oignon",
+      "category": "Frutas",
+      "class": "noun"
+    },
+    {
+      "spanish": "pepino",
+      "english": "cucumber",
+      "french": "concombre",
+      "category": "Frutas",
+      "class": "noun"
+    },
+    {
+      "spanish": "comida",
+      "english": "food, meal",
+      "french": "nourriture, repas",
+      "category": "Comidas",
+      "class": "noun"
+    },
+    {
+      "spanish": "desayuno",
+      "english": "breakfast",
+      "french": "petit-déjeuner",
+      "category": "Comidas",
+      "class": "noun"
+    },
+    {
+      "spanish": "almuerzo",
+      "english": "lunch",
+      "french": "déjeuner",
+      "category": "Comidas",
+      "class": "noun"
+    },
+    {
+      "spanish": "cena",
+      "english": "dinner, supper",
+      "french": "dîner",
+      "category": "Comidas",
+      "class": "noun"
+    },
+    {
+      "spanish": "restaurante",
+      "english": "restaurant",
+      "french": "restaurant",
+      "category": "Comidas",
+      "class": "noun"
+    },
+    {
+      "spanish": "café, cafetería",
+      "english": "café, coffee shop",
+      "french": "café, cafétéria",
+      "category": "Comidas",
+      "class": "noun"
+    },
+    {
+      "spanish": "bar",
+      "english": "bar",
+      "french": "bar",
+      "category": "Comidas",
+      "class": "noun"
+    },
+    {
+      "spanish": "menú",
+      "english": "menu",
+      "french": "menu",
+      "category": "Comidas",
+      "class": "noun"
+    },
+    {
+      "spanish": "cuenta",
+      "english": "bill, check",
+      "french": "addition",
+      "category": "Comidas",
+      "class": "noun"
+    },
+    {
+      "spanish": "camarero",
+      "english": "waiter",
+      "french": "serveur",
+      "category": "Comidas",
+      "class": "noun"
+    },
+    {
+      "spanish": "propina",
+      "english": "tip",
+      "french": "pourboire",
+      "category": "Comidas",
+      "class": "noun"
+    },
+    {
+      "spanish": "pedir",
+      "english": "to order",
+      "french": "commander",
+      "category": "Comidas",
+      "class": "noun"
+    },
+    {
+      "spanish": "pagar",
+      "english": "to pay",
+      "french": "payer",
+      "category": "Comidas",
+      "class": "verb"
+    },
+    {
+      "spanish": "cuchara",
+      "english": "spoon",
+      "french": "cuillère",
+      "category": "Comidas",
+      "class": "verb"
+    },
+    {
+      "spanish": "tenedor",
+      "english": "fork",
+      "french": "fourchette",
+      "category": "Comidas",
+      "class": "noun"
+    },
+    {
+      "spanish": "cuchillo",
+      "english": "knife",
+      "french": "couteau",
+      "category": "Comidas",
+      "class": "noun"
+    },
+    {
+      "spanish": "plato",
+      "english": "plate, dish",
+      "french": "assiette",
+      "category": "Comidas",
+      "class": "noun"
+    },
+    {
+      "spanish": "taza",
+      "english": "cup",
+      "french": "tasse",
+      "category": "Comidas",
+      "class": "noun"
+    },
+    {
+      "spanish": "vaso",
+      "english": "glass",
+      "french": "verre",
+      "category": "Comidas",
+      "class": "noun"
+    },
+    {
+      "spanish": "bol",
+      "english": "bowl",
+      "french": "bol",
+      "category": "Comidas",
+      "class": "noun"
+    },
+    {
+      "spanish": "cuerpo",
+      "english": "body",
+      "french": "corps",
+      "category": "Cuerpo",
+      "class": "noun"
+    },
+    {
+      "spanish": "brazo",
+      "english": "arm",
+      "french": "bras",
+      "category": "Cuerpo",
+      "class": "noun"
+    },
+    {
+      "spanish": "mano",
+      "english": "hand",
+      "french": "main",
+      "category": "Cuerpo",
+      "class": "noun"
+    },
+    {
+      "spanish": "dedo",
+      "english": "finger",
+      "french": "doigt",
+      "category": "Cuerpo",
+      "class": "noun"
+    },
+    {
+      "spanish": "uña",
+      "english": "nail",
+      "french": "ongle",
+      "category": "Cuerpo",
+      "class": "noun"
+    },
+    {
+      "spanish": "pecho",
+      "english": "chest",
+      "french": "poitrine",
+      "category": "Cuerpo",
+      "class": "noun"
+    },
+    {
+      "spanish": "espalda",
+      "english": "back",
+      "french": "dos",
+      "category": "Cuerpo",
+      "class": "noun"
+    },
+    {
+      "spanish": "pierna",
+      "english": "leg",
+      "french": "jambe",
+      "category": "Cuerpo",
+      "class": "noun"
+    },
+    {
+      "spanish": "rodilla",
+      "english": "knee",
+      "french": "genou",
+      "category": "Cuerpo",
+      "class": "noun"
+    },
+    {
+      "spanish": "pie",
+      "english": "foot",
+      "french": "pied",
+      "category": "Cuerpo",
+      "class": "noun"
+    },
+    {
+      "spanish": "corazón",
+      "english": "heart",
+      "french": "cœur",
+      "category": "Cuerpo",
+      "class": "noun"
+    },
+    {
+      "spanish": "estómago",
+      "english": "stomach",
+      "french": "estomac",
+      "category": "Cuerpo",
+      "class": "noun"
+    },
+    {
+      "spanish": "cerebro",
+      "english": "brain",
+      "french": "cerveau",
+      "category": "Cuerpo",
+      "class": "noun"
+    },
+    {
+      "spanish": "piel",
+      "english": "skin",
+      "french": "peau",
+      "category": "Cuerpo",
+      "class": "noun"
+    },
+    {
+      "spanish": "cuello",
+      "english": "neck",
+      "french": "cou",
+      "category": "Cabeza",
+      "class": "noun"
+    },
+    {
+      "spanish": "cabeza",
+      "english": "head",
+      "french": "tête",
+      "category": "Cabeza",
+      "class": "noun"
+    },
+    {
+      "spanish": "cara",
+      "english": "face",
+      "french": "visage",
+      "category": "Cabeza",
+      "class": "noun"
+    },
+    {
+      "spanish": "cabello",
+      "english": "hair",
+      "french": "cheveu",
+      "category": "Cabeza",
+      "class": "noun"
+    },
+    {
+      "spanish": "pelo",
+      "english": "hair",
+      "french": "cheveu",
+      "category": "Cabeza",
+      "class": "noun"
+    },
+    {
+      "spanish": "frente",
+      "english": "forehead",
+      "french": "front",
+      "category": "Cabeza",
+      "class": "noun"
+    },
+    {
+      "spanish": "ojo",
+      "english": "eye",
+      "french": "œil",
+      "category": "Cabeza",
+      "class": "noun"
+    },
+    {
+      "spanish": "oreja",
+      "english": "ear",
+      "french": "oreille",
+      "category": "Cabeza",
+      "class": "noun"
+    },
+    {
+      "spanish": "nariz",
+      "english": "nose",
+      "french": "nez",
+      "category": "Cabeza",
+      "class": "noun"
+    },
+    {
+      "spanish": "boca",
+      "english": "mouth",
+      "french": "bouche",
+      "category": "Cabeza",
+      "class": "noun"
+    },
+    {
+      "spanish": "diente",
+      "english": "tooth",
+      "french": "dent",
+      "category": "Cabeza",
+      "class": "noun"
+    },
+    {
+      "spanish": "labio",
+      "english": "lip",
+      "french": "lèvre",
+      "category": "Cabeza",
+      "class": "noun"
+    },
+    {
+      "spanish": "muerto",
+      "english": "dead",
+      "french": "mort",
+      "category": "Salud",
+      "class": "noun"
+    },
+    {
+      "spanish": "vivo",
+      "english": "alive, living",
+      "french": "vivant",
+      "category": "Salud",
+      "class": "noun"
+    },
+    {
+      "spanish": "enfermo",
+      "english": "sick, ill",
+      "french": "malade",
+      "category": "Salud",
+      "class": "noun"
+    },
+    {
+      "spanish": "mareo",
+      "english": "dizziness",
+      "french": "avoir des vertiges",
+      "category": "Salud",
+      "class": "noun"
+    },
+    {
+      "spanish": "náusea",
+      "english": "nausea",
+      "french": "avoir la nausée, être nauséeux",
+      "category": "Salud",
+      "class": "noun"
+    },
+    {
+      "spanish": "salud",
+      "english": "health",
+      "french": "santé",
+      "category": "Salud",
+      "class": "noun"
+    },
+    {
+      "spanish": "gripe",
+      "english": "flu, influenza",
+      "french": "grippe",
+      "category": "Salud",
+      "class": "noun"
+    },
+    {
+      "spanish": "resfriado",
+      "english": "cold",
+      "french": "rhume",
+      "category": "Salud",
+      "class": "noun"
+    },
+    {
+      "spanish": "alergia",
+      "english": "allergy",
+      "french": "allergie",
+      "category": "Salud",
+      "class": "noun"
+    },
+    {
+      "spanish": "infección",
+      "english": "infection",
+      "french": "infection",
+      "category": "Salud",
+      "class": "noun"
+    },
+    {
+      "spanish": "vómito",
+      "english": "vomit",
+      "french": "vomir",
+      "category": "Salud",
+      "class": "noun"
+    },
+    {
+      "spanish": "dolor",
+      "english": "pain",
+      "french": "douleur",
+      "category": "Salud",
+      "class": "noun"
+    },
+    {
+      "spanish": "fiebre",
+      "english": "fever",
+      "french": "fièvre",
+      "category": "Salud",
+      "class": "noun"
+    },
+    {
+      "spanish": "tos",
+      "english": "cough",
+      "french": "toux",
+      "category": "Salud",
+      "class": "noun"
+    },
+    {
+      "spanish": "medicina",
+      "english": "medicine",
+      "french": "médecine",
+      "category": "Salud",
+      "class": "noun"
+    },
+    {
+      "spanish": "operar",
+      "english": "to operate",
+      "french": "opérer",
+      "category": "Salud",
+      "class": "noun"
+    },
+    {
+      "spanish": "farmacia",
+      "english": "pharmacy",
+      "french": "pharmacie",
+      "category": "Salud",
+      "class": "verb"
+    },
+    {
+      "spanish": "pastilla",
+      "english": "pill, tablet",
+      "french": "médicament",
+      "category": "Salud",
+      "class": "noun"
+    },
+    {
+      "spanish": "vacuna",
+      "english": "vaccine",
+      "french": "vaccin",
+      "category": "Salud",
+      "class": "noun"
+    },
+    {
+      "spanish": "jabón",
+      "english": "soap",
+      "french": "savon",
+      "category": "Higiene",
+      "class": "noun"
+    },
+    {
+      "spanish": "champú",
+      "english": "shampoo",
+      "french": "shampooing",
+      "category": "Higiene",
+      "class": "noun"
+    },
+    {
+      "spanish": "toalla",
+      "english": "towel",
+      "french": "serviette",
+      "category": "Higiene",
+      "class": "noun"
+    },
+    {
+      "spanish": "cepillo de dientes",
+      "english": "toothbrush",
+      "french": "brosse à dents",
+      "category": "Higiene",
+      "class": "noun"
+    },
+    {
+      "spanish": "pasta de dientes",
+      "english": "toothpaste",
+      "french": "dentifrice",
+      "category": "Higiene",
+      "class": "noun"
+    },
+    {
+      "spanish": "cepillo",
+      "english": "brush",
+      "french": "brosse à cheveux",
+      "category": "Higiene",
+      "class": "noun"
+    },
+    {
+      "spanish": "lavar",
+      "english": "to wash",
+      "french": "laver",
+      "category": "Higiene",
+      "class": "noun"
+    },
+    {
+      "spanish": "duchar",
+      "english": "to shower",
+      "french": "doucher",
+      "category": "Higiene",
+      "class": "verb"
+    },
+    {
+      "spanish": "bañar",
+      "english": "to bathe",
+      "french": "baigner",
+      "category": "Higiene",
+      "class": "verb"
+    },
+    {
+      "spanish": "lavabo",
+      "english": "sink, washbasin",
+      "french": "lavabo",
+      "category": "Higiene",
+      "class": "verb"
+    },
+    {
+      "spanish": "ducha",
+      "english": "shower",
+      "french": "douche",
+      "category": "Higiene",
+      "class": "noun"
+    },
+    {
+      "spanish": "bañera",
+      "english": "bathtub",
+      "french": "bain",
+      "category": "Higiene",
+      "class": "noun"
+    },
+    {
+      "spanish": "detergente",
+      "english": "detergent",
+      "french": "détergent",
+      "category": "Higiene",
+      "class": "noun"
+    },
+    {
+      "spanish": "casa",
+      "english": "house",
+      "french": "maison",
+      "category": "Casa",
+      "class": "noun"
+    },
+    {
+      "spanish": "apartamento",
+      "english": "apartment",
+      "french": "appartement",
+      "category": "Casa",
+      "class": "noun"
+    },
+    {
+      "spanish": "puerta",
+      "english": "door",
+      "french": "porte",
+      "category": "Casa",
+      "class": "noun"
+    },
+    {
+      "spanish": "llave",
+      "english": "key",
+      "french": "clef, clé",
+      "category": "Casa",
+      "class": "noun"
+    },
+    {
+      "spanish": "ventana",
+      "english": "window",
+      "french": "fenêtre",
+      "category": "Casa",
+      "class": "noun"
+    },
+    {
+      "spanish": "techo",
+      "english": "ceiling, roof",
+      "french": "toit",
+      "category": "Casa",
+      "class": "noun"
+    },
+    {
+      "spanish": "pared",
+      "english": "wall",
+      "french": "mur",
+      "category": "Casa",
+      "class": "noun"
+    },
+    {
+      "spanish": "suelo",
+      "english": "floor",
+      "french": "sol",
+      "category": "Casa",
+      "class": "noun"
+    },
+    {
+      "spanish": "sala",
+      "english": "living room",
+      "french": "séjour, salle",
+      "category": "Casa",
+      "class": "noun"
+    },
+    {
+      "spanish": "cocina",
+      "english": "kitchen",
+      "french": "cuisine",
+      "category": "Casa",
+      "class": "noun"
+    },
+    {
+      "spanish": "dormitorio",
+      "english": "bedroom",
+      "french": "chambre, dortoir",
+      "category": "Casa",
+      "class": "noun"
+    },
+    {
+      "spanish": "habitación",
+      "english": "room",
+      "french": "chambre",
+      "category": "Casa",
+      "class": "noun"
+    },
+    {
+      "spanish": "baño",
+      "english": "bathroom",
+      "french": "salle de bain",
+      "category": "Casa",
+      "class": "noun"
+    },
+    {
+      "spanish": "comedor",
+      "english": "dining room",
+      "french": "salle à manger",
+      "category": "Casa",
+      "class": "noun"
+    },
+    {
+      "spanish": "ático",
+      "english": "attic",
+      "french": "grenier",
+      "category": "Casa",
+      "class": "noun"
+    },
+    {
+      "spanish": "balcón",
+      "english": "balcony",
+      "french": "balcon",
+      "category": "Casa",
+      "class": "noun"
+    },
+    {
+      "spanish": "cama",
+      "english": "bed",
+      "french": "lit",
+      "category": "Muebles",
+      "class": "noun"
+    },
+    {
+      "spanish": "mesa",
+      "english": "table",
+      "french": "table",
+      "category": "Muebles",
+      "class": "noun"
+    },
+    {
+      "spanish": "silla",
+      "english": "chair",
+      "french": "chaise",
+      "category": "Muebles",
+      "class": "noun"
+    },
+    {
+      "spanish": "sofá",
+      "english": "sofa, couch",
+      "french": "canapé",
+      "category": "Muebles",
+      "class": "noun"
+    },
+    {
+      "spanish": "alfombra",
+      "english": "carpet, rug",
+      "french": "tapis",
+      "category": "Muebles",
+      "class": "noun"
+    },
+    {
+      "spanish": "espejo",
+      "english": "mirror",
+      "french": "miroir",
+      "category": "Muebles",
+      "class": "noun"
+    },
+    {
+      "spanish": "armario",
+      "english": "wardrobe, closet",
+      "french": "armoire",
+      "category": "Muebles",
+      "class": "noun"
+    },
+    {
+      "spanish": "estufa",
+      "english": "stove, heater",
+      "french": "plaque de cuisson",
+      "category": "Muebles",
+      "class": "noun"
+    },
+    {
+      "spanish": "nevera",
+      "english": "refrigerator, fridge",
+      "french": "réfrigérateur",
+      "category": "Muebles",
+      "class": "noun"
+    },
+    {
+      "spanish": "microondas",
+      "english": "microwave",
+      "french": "micro-ondes",
+      "category": "Muebles",
+      "class": "noun"
+    },
+    {
+      "spanish": "lavadora",
+      "english": "washing machine",
+      "french": "machine à laver",
+      "category": "Muebles",
+      "class": "noun"
+    },
+    {
+      "spanish": "plancha",
+      "english": "iron",
+      "french": "fer à repasser",
+      "category": "Muebles",
+      "class": "noun"
+    },
+    {
+      "spanish": "televisor",
+      "english": "television, TV",
+      "french": "télévision",
+      "category": "Muebles",
+      "class": "noun"
+    },
+    {
+      "spanish": "camiseta",
+      "english": "t-shirt",
+      "french": "t-shirt",
+      "category": "Ropa",
+      "class": "noun"
+    },
+    {
+      "spanish": "camisa",
+      "english": "shirt",
+      "french": "chemise",
+      "category": "Ropa",
+      "class": "noun"
+    },
+    {
+      "spanish": "pantalón",
+      "english": "pants, trousers",
+      "french": "pantalon",
+      "category": "Ropa",
+      "class": "noun"
+    },
+    {
+      "spanish": "vaqueros",
+      "english": "jeans",
+      "french": "jeans",
+      "category": "Ropa",
+      "class": "noun"
+    },
+    {
+      "spanish": "falda",
+      "english": "skirt",
+      "french": "jupe",
+      "category": "Ropa",
+      "class": "noun"
+    },
+    {
+      "spanish": "vestido",
+      "english": "dress",
+      "french": "robe",
+      "category": "Ropa",
+      "class": "noun"
+    },
+    {
+      "spanish": "suéter",
+      "english": "sweater",
+      "french": "sweatshirt",
+      "category": "Ropa",
+      "class": "noun"
+    },
+    {
+      "spanish": "chaqueta",
+      "english": "jacket",
+      "french": "veste",
+      "category": "Ropa",
+      "class": "noun"
+    },
+    {
+      "spanish": "abrigo",
+      "english": "coat",
+      "french": "manteau",
+      "category": "Ropa",
+      "class": "noun"
+    },
+    {
+      "spanish": "zapato",
+      "english": "shoe",
+      "french": "chaussure",
+      "category": "Ropa",
+      "class": "noun"
+    },
+    {
+      "spanish": "bota",
+      "english": "boot",
+      "french": "botte",
+      "category": "Ropa",
+      "class": "noun"
+    },
+    {
+      "spanish": "sandalia",
+      "english": "sandal",
+      "french": "sandale",
+      "category": "Ropa",
+      "class": "noun"
+    },
+    {
+      "spanish": "calcetín",
+      "english": "sock",
+      "french": "chaussette",
+      "category": "Ropa",
+      "class": "noun"
+    },
+    {
+      "spanish": "sombrero",
+      "english": "hat",
+      "french": "chapeau",
+      "category": "Ropa",
+      "class": "noun"
+    },
+    {
+      "spanish": "gorra",
+      "english": "cap",
+      "french": "casquette",
+      "category": "Ropa",
+      "class": "noun"
+    },
+    {
+      "spanish": "bufanda",
+      "english": "scarf",
+      "french": "écharpe",
+      "category": "Ropa",
+      "class": "noun"
+    },
+    {
+      "spanish": "cinturón",
+      "english": "belt",
+      "french": "ceinture",
+      "category": "Ropa",
+      "class": "noun"
+    },
+    {
+      "spanish": "reloj",
+      "english": "watch",
+      "french": "montre",
+      "category": "Ropa",
+      "class": "noun"
+    },
+    {
+      "spanish": "bolso",
+      "english": "bag, purse",
+      "french": "sac à main",
+      "category": "Ropa",
+      "class": "noun"
+    },
+    {
+      "spanish": "despertarse",
+      "english": "to wake up",
+      "french": "se réveiller",
+      "category": "Rutinas",
+      "class": "noun"
+    },
+    {
+      "spanish": "levantarse",
+      "english": "to get up",
+      "french": "se lever",
+      "category": "Rutinas",
+      "class": "noun"
+    },
+    {
+      "spanish": "peinar",
+      "english": "to comb",
+      "french": "peigner",
+      "category": "Rutinas",
+      "class": "verb"
+    },
+    {
+      "spanish": "desayunar",
+      "english": "to have breakfast",
+      "french": "petit-déjeuner",
+      "category": "Rutinas",
+      "class": "verb"
+    },
+    {
+      "spanish": "almorzar",
+      "english": "to have lunch",
+      "french": "déjeuner",
+      "category": "Rutinas",
+      "class": "verb"
+    },
+    {
+      "spanish": "cenar",
+      "english": "to have dinner",
+      "french": "dîner",
+      "category": "Rutinas",
+      "class": "verb"
+    },
+    {
+      "spanish": "estudiar",
+      "english": "to study",
+      "french": "étudier",
+      "category": "Rutinas",
+      "class": "verb"
+    },
+    {
+      "spanish": "trabajar",
+      "english": "to work",
+      "french": "travailler",
+      "category": "Rutinas",
+      "class": "verb"
+    },
+    {
+      "spanish": "descansarse",
+      "english": "to rest",
+      "french": "se reposer",
+      "category": "Rutinas",
+      "class": "verb"
+    },
+    {
+      "spanish": "dormir",
+      "english": "to sleep",
+      "french": "dormir",
+      "category": "Rutinas",
+      "class": "verb"
+    },
+    {
+      "spanish": "limpiar",
+      "english": "to clean",
+      "french": "nettoyer",
+      "category": "Rutinas",
+      "class": "verb"
+    },
+    {
+      "spanish": "fregar",
+      "english": "to scrub, to wash",
+      "french": "nettoyer (ménage)",
+      "category": "Rutinas",
+      "class": "verb"
+    },
+    {
+      "spanish": "cocinar",
+      "english": "to cook",
+      "french": "cuisiner",
+      "category": "Rutinas",
+      "class": "verb"
+    },
+    {
+      "spanish": "escuela",
+      "english": "school",
+      "french": "école",
+      "category": "Escuela",
+      "class": "verb"
+    },
+    {
+      "spanish": "colegio",
+      "english": "school",
+      "french": "école, collège",
+      "category": "Escuela",
+      "class": "noun"
+    },
+    {
+      "spanish": "instituto",
+      "english": "secondary school, institute",
+      "french": "institut, collège, lycée",
+      "category": "Escuela",
+      "class": "noun"
+    },
+    {
+      "spanish": "universidad",
+      "english": "university",
+      "french": "université",
+      "category": "Escuela",
+      "class": "noun"
+    },
+    {
+      "spanish": "clase",
+      "english": "classroom, class",
+      "french": "classe",
+      "category": "Escuela",
+      "class": "noun"
+    },
+    {
+      "spanish": "estudiante",
+      "english": "student",
+      "french": "étudiant",
+      "category": "Escuela",
+      "class": ","
+    },
+    {
+      "spanish": "lección",
+      "english": "lesson",
+      "french": "leçon",
+      "category": "Escuela",
+      "class": "category\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nverb\nverb\nverb\nverb\nverb\nverb\nverb\nverb\nverb\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nverb\nverb\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nadjective\nadjective\nadjective\nadjective\nadjective\nadjective\nadjective\nadjective\nadjective\nadjective\nadjective\nadjective\nverb\nverb\nverb\nverb\nverb\nverb\nverb\nverb\nverb\nverb\nverb\nverb\nverb\nverb\nverb\nverb\nverb\nverb\nverb\nverb\nverb\nverb\nverb\nverb\nverb\nverb\nverb\nverb\nverb\nverb\nverb\nverb\nverb\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnoun\nnumber\nnumber\nnumber\nnumber\nnumber\nnumber\nnumber\nnumber\nnumber\nnumber\nnumber\nnumber\nnumber\nnumber\nnumber\nnumber\nnumber\nnumber\nnumber\nnumber\nnumber\nnumber\nnumber\nnumber\nnumber\nnumber\nnumber\nnumber\nadjective\nadjective\nadjective\nadjective\nadjective\nadjective\nadjective\nadjective\nadjective\nadjective\nadjective\nadjective\nadjective\nadjective\nadjective\nadjective\nadjective\nadjective\nadverb\nadverb\nadverb\nadverb\nadverb\nadverb\nadverb\nadverb\nadverb\nadverb\nadverb\nadverb\nadverb\nadverb\nadverb\npronoun\npronoun\npronoun\npronoun\npronoun\npronoun\npronoun\npronoun\npronoun\npronoun\npreposition\npreposition\npreposition\npreposition\npreposition\npreposition\npreposition"
+    },
+    {
+      "spanish": "examen",
+      "english": "exam, test",
+      "french": "examen",
+      "category": "Escuela",
+      "class": ""
+    },
+    {
+      "spanish": "tarea",
+      "english": "homework",
+      "french": "devoir",
+      "category": "Escuela",
+      "class": ""
+    },
+    {
+      "spanish": "pizarra",
+      "english": "board, blackboard",
+      "french": "tableau",
+      "category": "Escuela",
+      "class": ""
+    },
+    {
+      "spanish": "libro",
+      "english": "book",
+      "french": "livre",
+      "category": "Escuela",
+      "class": ""
+    },
+    {
+      "spanish": "cuaderno",
+      "english": "notebook",
+      "french": "cahier",
+      "category": "Escuela",
+      "class": ""
+    },
+    {
+      "spanish": "papel",
+      "english": "paper",
+      "french": "papier",
+      "category": "Escuela",
+      "class": ""
+    },
+    {
+      "spanish": "lápiz",
+      "english": "pencil",
+      "french": "crayon",
+      "category": "Escuela",
+      "class": ""
+    },
+    {
+      "spanish": "bolígrafo",
+      "english": "pen",
+      "french": "stylo",
+      "category": "Escuela",
+      "class": ""
+    },
+    {
+      "spanish": "mochila",
+      "english": "backpack",
+      "french": "sac à dos",
+      "category": "Escuela",
+      "class": ""
+    },
+    {
+      "spanish": "matemáticas",
+      "english": "mathematics, math",
+      "french": "mathématiques",
+      "category": "Escuela",
+      "class": ""
+    },
+    {
+      "spanish": "ciencias",
+      "english": "science",
+      "french": "sciences",
+      "category": "Escuela",
+      "class": ""
+    },
+    {
+      "spanish": "historia",
+      "english": "history",
+      "french": "histoire",
+      "category": "Escuela",
+      "class": ""
+    },
+    {
+      "spanish": "geografía",
+      "english": "geography",
+      "french": "géographie",
+      "category": "Escuela",
+      "class": ""
+    },
+    {
+      "spanish": "arte",
+      "english": "art",
+      "french": "art",
+      "category": "Escuela",
+      "class": ""
+    },
+    {
+      "spanish": "lengua",
+      "english": "language",
+      "french": "langue",
+      "category": "Escuela",
+      "class": ""
+    },
+    {
+      "spanish": "educación física",
+      "english": "physical education",
+      "french": "éducation physique",
+      "category": "Escuela",
+      "class": ""
+    },
+    {
+      "spanish": "leer",
+      "english": "to read",
+      "french": "lire",
+      "category": "Aficiones",
+      "class": ""
+    },
+    {
+      "spanish": "dibujar",
+      "english": "to draw",
+      "french": "dessiner",
+      "category": "Aficiones",
+      "class": ""
+    },
+    {
+      "spanish": "pintar",
+      "english": "to paint",
+      "french": "peindre",
+      "category": "Aficiones",
+      "class": ""
+    },
+    {
+      "spanish": "bailar",
+      "english": "to dance",
+      "french": "danser",
+      "category": "Aficiones",
+      "class": ""
+    },
+    {
+      "spanish": "cantar",
+      "english": "to sing",
+      "french": "chanter",
+      "category": "Aficiones",
+      "class": ""
+    },
+    {
+      "spanish": "tocar",
+      "english": "to play (an instrument)",
+      "french": "toucher",
+      "category": "Aficiones",
+      "class": ""
+    },
+    {
+      "spanish": "jugar",
+      "english": "to play",
+      "french": "jouer",
+      "category": "Aficiones",
+      "class": ""
+    },
+    {
+      "spanish": "pasear",
+      "english": "to stroll, to walk",
+      "french": "se balader",
+      "category": "Aficiones",
+      "class": ""
+    },
+    {
+      "spanish": "escribir",
+      "english": "to write",
+      "french": "écrire",
+      "category": "Aficiones",
+      "class": ""
+    },
+    {
+      "spanish": "película",
+      "english": "movie, film",
+      "french": "film",
+      "category": "Aficiones",
+      "class": ""
+    },
+    {
+      "spanish": "música",
+      "english": "music",
+      "french": "musique",
+      "category": "Aficiones",
+      "class": ""
+    },
+    {
+      "spanish": "fiesta",
+      "english": "party",
+      "french": "fête",
+      "category": "Aficiones",
+      "class": ""
+    },
+    {
+      "spanish": "juego",
+      "english": "game",
+      "french": "jeu",
+      "category": "Aficiones",
+      "class": ""
+    },
+    {
+      "spanish": "fútbol",
+      "english": "soccer, football",
+      "french": "football",
+      "category": "Aficiones",
+      "class": ""
+    },
+    {
+      "spanish": "baloncesto",
+      "english": "basketball",
+      "french": "basketball",
+      "category": "Aficiones",
+      "class": ""
+    },
+    {
+      "spanish": "tenis",
+      "english": "tennis",
+      "french": "tennis",
+      "category": "Aficiones",
+      "class": ""
+    },
+    {
+      "spanish": "voleibol",
+      "english": "volleyball",
+      "french": "volleyball",
+      "category": "Aficiones",
+      "class": ""
+    },
+    {
+      "spanish": "ciclismo",
+      "english": "cycling",
+      "french": "cyclisme",
+      "category": "Aficiones",
+      "class": ""
+    },
+    {
+      "spanish": "esquí",
+      "english": "skiing",
+      "french": "ski",
+      "category": "Aficiones",
+      "class": ""
+    },
+    {
+      "spanish": "golf",
+      "english": "golf",
+      "french": "golf",
+      "category": "Aficiones",
+      "class": ""
+    },
+    {
+      "spanish": "médico",
+      "english": "doctor",
+      "french": "médecin",
+      "category": "Trabajos",
+      "class": ""
+    },
+    {
+      "spanish": "enfermero",
+      "english": "nurse",
+      "french": "infirmier",
+      "category": "Trabajos",
+      "class": ""
+    },
+    {
+      "spanish": "maestro",
+      "english": "teacher",
+      "french": "maître, professeur",
+      "category": "Trabajos",
+      "class": ""
+    },
+    {
+      "spanish": "abogado",
+      "english": "lawyer",
+      "french": "avocat",
+      "category": "Trabajos",
+      "class": ""
+    },
+    {
+      "spanish": "ingeniero",
+      "english": "engineer",
+      "french": "ingénieur",
+      "category": "Trabajos",
+      "class": ""
+    },
+    {
+      "spanish": "policía",
+      "english": "police officer",
+      "french": "police",
+      "category": "Trabajos",
+      "class": ""
+    },
+    {
+      "spanish": "conductor",
+      "english": "driver",
+      "french": "conducteur, chauffeur",
+      "category": "Trabajos",
+      "class": ""
+    },
+    {
+      "spanish": "actor",
+      "english": "actor",
+      "french": "acteur",
+      "category": "Trabajos",
+      "class": ""
+    },
+    {
+      "spanish": "artista",
+      "english": "artist",
+      "french": "artiste",
+      "category": "Trabajos",
+      "class": ""
+    },
+    {
+      "spanish": "jefe",
+      "english": "boss, manager",
+      "french": "chef",
+      "category": "Trabajos",
+      "class": ""
+    },
+    {
+      "spanish": "empleado",
+      "english": "employee",
+      "french": "employé",
+      "category": "Trabajos",
+      "class": ""
+    },
+    {
+      "spanish": "oficina",
+      "english": "office",
+      "french": "bureau",
+      "category": "Trabajos",
+      "class": ""
+    },
+    {
+      "spanish": "fábrica",
+      "english": "factory",
+      "french": "usine",
+      "category": "Trabajos",
+      "class": ""
+    },
+    {
+      "spanish": "tienda",
+      "english": "store, shop",
+      "french": "boutique",
+      "category": "Trabajos",
+      "class": ""
+    },
+    {
+      "spanish": "ciudad",
+      "english": "city",
+      "french": "ville",
+      "category": "Espacios",
+      "class": ""
+    },
+    {
+      "spanish": "calle",
+      "english": "street",
+      "french": "rue",
+      "category": "Espacios",
+      "class": ""
+    },
+    {
+      "spanish": "avenida",
+      "english": "avenue",
+      "french": "avenue",
+      "category": "Espacios",
+      "class": ""
+    },
+    {
+      "spanish": "plaza",
+      "english": "square, plaza",
+      "french": "place",
+      "category": "Espacios",
+      "class": ""
+    },
+    {
+      "spanish": "esquina",
+      "english": "corner",
+      "french": "coin de rue",
+      "category": "Espacios",
+      "class": ""
+    },
+    {
+      "spanish": "cruce",
+      "english": "crossing, intersection",
+      "french": "intersection",
+      "category": "Espacios",
+      "class": ""
+    },
+    {
+      "spanish": "callejón",
+      "english": "alley",
+      "french": "allée",
+      "category": "Espacios",
+      "class": ""
+    },
+    {
+      "spanish": "parque",
+      "english": "park",
+      "french": "parc",
+      "category": "Espacios",
+      "class": ""
+    },
+    {
+      "spanish": "hospital",
+      "english": "hospital",
+      "french": "hôpital",
+      "category": "Espacios",
+      "class": ""
+    },
+    {
+      "spanish": "clínica",
+      "english": "clinic",
+      "french": "clinique",
+      "category": "Espacios",
+      "class": ""
+    },
+    {
+      "spanish": "museo",
+      "english": "museum",
+      "french": "musée",
+      "category": "Espacios",
+      "class": ""
+    },
+    {
+      "spanish": "biblioteca",
+      "english": "library",
+      "french": "bibliothèque",
+      "category": "Espacios",
+      "class": ""
+    },
+    {
+      "spanish": "cine",
+      "english": "movie theater, cinema",
+      "french": "cinéma",
+      "category": "Espacios",
+      "class": ""
+    },
+    {
+      "spanish": "teatro",
+      "english": "theater",
+      "french": "théâtre",
+      "category": "Espacios",
+      "class": ""
+    },
+    {
+      "spanish": "estación",
+      "english": "station",
+      "french": "station",
+      "category": "Espacios",
+      "class": ""
+    },
+    {
+      "spanish": "supermercado",
+      "english": "supermarket",
+      "french": "supermarché",
+      "category": "Espacios",
+      "class": ""
+    },
+    {
+      "spanish": "banco",
+      "english": "bank",
+      "french": "banque",
+      "category": "Espacios",
+      "class": ""
+    },
+    {
+      "spanish": "mercado",
+      "english": "market",
+      "french": "marché",
+      "category": "Espacios",
+      "class": ""
+    },
+    {
+      "spanish": "coche",
+      "english": "car",
+      "french": "voiture",
+      "category": "Vehículos",
+      "class": ""
+    },
+    {
+      "spanish": "moto",
+      "english": "motorcycle, motorbike",
+      "french": "moto",
+      "category": "Vehículos",
+      "class": ""
+    },
+    {
+      "spanish": "bicicleta",
+      "english": "bicycle, bike",
+      "french": "vélo, byciclette",
+      "category": "Vehículos",
+      "class": ""
+    },
+    {
+      "spanish": "autobús",
+      "english": "bus",
+      "french": "autobus",
+      "category": "Vehículos",
+      "class": ""
+    },
+    {
+      "spanish": "tren",
+      "english": "train",
+      "french": "train",
+      "category": "Vehículos",
+      "class": ""
+    },
+    {
+      "spanish": "metro",
+      "english": "subway, metro",
+      "french": "métro",
+      "category": "Vehículos",
+      "class": ""
+    },
+    {
+      "spanish": "taxi",
+      "english": "taxi, cab",
+      "french": "taxi",
+      "category": "Vehículos",
+      "class": ""
+    },
+    {
+      "spanish": "avión",
+      "english": "airplane, plane",
+      "french": "avion",
+      "category": "Vehículos",
+      "class": ""
+    },
+    {
+      "spanish": "barco",
+      "english": "boat, ship",
+      "french": "bateau",
+      "category": "Vehículos",
+      "class": ""
+    },
+    {
+      "spanish": "camión",
+      "english": "truck",
+      "french": "camion",
+      "category": "Vehículos",
+      "class": ""
+    },
+    {
+      "spanish": "ambulancia",
+      "english": "ambulance",
+      "french": "ambulance",
+      "category": "Vehículos",
+      "class": ""
+    },
+    {
+      "spanish": "aeropuerto",
+      "english": "airport",
+      "french": "aéroport",
+      "category": "Vehículos",
+      "class": ""
+    },
+    {
+      "spanish": "puerto",
+      "english": "port, harbor",
+      "french": "port",
+      "category": "Vehículos",
+      "class": ""
+    },
+    {
+      "spanish": "parada",
+      "english": "stop",
+      "french": "arrêt",
+      "category": "Vehículos",
+      "class": ""
+    },
+    {
+      "spanish": "tráfico",
+      "english": "traffic",
+      "french": "trafic",
+      "category": "Vehículos",
+      "class": ""
+    },
+    {
+      "spanish": "viaje",
+      "english": "trip, journey",
+      "french": "voyage",
+      "category": "Viajes",
+      "class": ""
+    },
+    {
+      "spanish": "turista",
+      "english": "tourist",
+      "french": "touriste",
+      "category": "Viajes",
+      "class": ""
+    },
+    {
+      "spanish": "mapa",
+      "english": "map",
+      "french": "carte",
+      "category": "Viajes",
+      "class": ""
+    },
+    {
+      "spanish": "boleto",
+      "english": "ticket",
+      "french": "billet, ticket",
+      "category": "Viajes",
+      "class": ""
+    },
+    {
+      "spanish": "reserva",
+      "english": "reservation, booking",
+      "french": "réservation",
+      "category": "Viajes",
+      "class": ""
+    },
+    {
+      "spanish": "pasaporte",
+      "english": "passport",
+      "french": "passeport",
+      "category": "Viajes",
+      "class": ""
+    },
+    {
+      "spanish": "maleta",
+      "english": "suitcase",
+      "french": "valise, malette",
+      "category": "Viajes",
+      "class": ""
+    },
+    {
+      "spanish": "equipaje",
+      "english": "luggage",
+      "french": "bagage",
+      "category": "Viajes",
+      "class": ""
+    },
+    {
+      "spanish": "hotel",
+      "english": "hotel",
+      "french": "hôtel",
+      "category": "Viajes",
+      "class": ""
+    },
+    {
+      "spanish": "recepción",
+      "english": "reception, front desk",
+      "french": "réception",
+      "category": "Viajes",
+      "class": ""
+    },
+    {
+      "spanish": "hostal",
+      "english": "hostel, guesthouse",
+      "french": "auberge",
+      "category": "Viajes",
+      "class": ""
+    },
+    {
+      "spanish": "excursión",
+      "english": "excursion, outing",
+      "french": "excursion",
+      "category": "Viajes",
+      "class": ""
+    },
+    {
+      "spanish": "monumento",
+      "english": "monument",
+      "french": "monument",
+      "category": "Viajes",
+      "class": ""
+    },
+    {
+      "spanish": "visitar",
+      "english": "to visit",
+      "french": "visiter",
+      "category": "Viajes",
+      "class": ""
+    },
+    {
+      "spanish": "viajar",
+      "english": "to travel",
+      "french": "voyager",
+      "category": "Viajes",
+      "class": ""
+    },
+    {
+      "spanish": "tierra",
+      "english": "earth, soil",
+      "french": "terre",
+      "category": "Naturaleza",
+      "class": ""
+    },
+    {
+      "spanish": "cielo",
+      "english": "sky",
+      "french": "ciel",
+      "category": "Naturaleza",
+      "class": ""
+    },
+    {
+      "spanish": "sol",
+      "english": "sun",
+      "french": "soleil",
+      "category": "Naturaleza",
+      "class": ""
+    },
+    {
+      "spanish": "luna",
+      "english": "moon",
+      "french": "lune",
+      "category": "Naturaleza",
+      "class": ""
+    },
+    {
+      "spanish": "estrella",
+      "english": "star",
+      "french": "étoile",
+      "category": "Naturaleza",
+      "class": ""
+    },
+    {
+      "spanish": "luz",
+      "english": "light",
+      "french": "lumière",
+      "category": "Naturaleza",
+      "class": ""
+    },
+    {
+      "spanish": "fuego",
+      "english": "fire",
+      "french": "feu",
+      "category": "Naturaleza",
+      "class": ""
+    },
+    {
+      "spanish": "árbol",
+      "english": "tree",
+      "french": "arbre",
+      "category": "Naturaleza",
+      "class": ""
+    },
+    {
+      "spanish": "flor",
+      "english": "flower",
+      "french": "fleur",
+      "category": "Naturaleza",
+      "class": ""
+    },
+    {
+      "spanish": "hierba",
+      "english": "grass, herb",
+      "french": "herbe",
+      "category": "Naturaleza",
+      "class": ""
+    },
+    {
+      "spanish": "hoja",
+      "english": "leaf",
+      "french": "feuille",
+      "category": "Naturaleza",
+      "class": ""
+    },
+    {
+      "spanish": "bosque",
+      "english": "forest, woods",
+      "french": "forêt",
+      "category": "Naturaleza",
+      "class": ""
+    },
+    {
+      "spanish": "jardín",
+      "english": "garden",
+      "french": "jardin",
+      "category": "Naturaleza",
+      "class": ""
+    },
+    {
+      "spanish": "montaña",
+      "english": "mountain",
+      "french": "montage",
+      "category": "Naturaleza",
+      "class": ""
+    },
+    {
+      "spanish": "río",
+      "english": "river",
+      "french": "rivière",
+      "category": "Naturaleza",
+      "class": ""
+    },
+    {
+      "spanish": "lago",
+      "english": "lake",
+      "french": "lac",
+      "category": "Naturaleza",
+      "class": ""
+    },
+    {
+      "spanish": "mar",
+      "english": "sea",
+      "french": "mer",
+      "category": "Naturaleza",
+      "class": ""
+    },
+    {
+      "spanish": "playa",
+      "english": "beach",
+      "french": "plage",
+      "category": "Naturaleza",
+      "class": ""
+    },
+    {
+      "spanish": "campo",
+      "english": "countryside, field",
+      "french": "champ",
+      "category": "Naturaleza",
+      "class": ""
+    },
+    {
+      "spanish": "frío",
+      "english": "cold",
+      "french": "froid",
+      "category": "Clima",
+      "class": ""
+    },
+    {
+      "spanish": "calor",
+      "english": "heat",
+      "french": "chaud",
+      "category": "Clima",
+      "class": ""
+    },
+    {
+      "spanish": "soleado",
+      "english": "sunny",
+      "french": "ensoleillé",
+      "category": "Clima",
+      "class": ""
+    },
+    {
+      "spanish": "despejado",
+      "english": "clear",
+      "french": "temps clair",
+      "category": "Clima",
+      "class": ""
+    },
+    {
+      "spanish": "viento",
+      "english": "wind",
+      "french": "vent",
+      "category": "Clima",
+      "class": ""
+    },
+    {
+      "spanish": "nublado",
+      "english": "cloudy",
+      "french": "couvert",
+      "category": "Clima",
+      "class": ""
+    },
+    {
+      "spanish": "lluvia",
+      "english": "rain",
+      "french": "pluie",
+      "category": "Clima",
+      "class": ""
+    },
+    {
+      "spanish": "nieve",
+      "english": "snow",
+      "french": "neige",
+      "category": "Clima",
+      "class": ""
+    },
+    {
+      "spanish": "húmedo",
+      "english": "humid, damp",
+      "french": "humide",
+      "category": "Clima",
+      "class": ""
+    },
+    {
+      "spanish": "tormenta",
+      "english": "storm",
+      "french": "tournage",
+      "category": "Clima",
+      "class": ""
+    },
+    {
+      "spanish": "primavera",
+      "english": "spring",
+      "french": "printemps",
+      "category": "Clima",
+      "class": ""
+    },
+    {
+      "spanish": "verano",
+      "english": "summer",
+      "french": "été",
+      "category": "Clima",
+      "class": ""
+    },
+    {
+      "spanish": "otoño",
+      "english": "autumn, fall",
+      "french": "automne",
+      "category": "Clima",
+      "class": ""
+    },
+    {
+      "spanish": "invierno",
+      "english": "winter",
+      "french": "hiver",
+      "category": "Clima",
+      "class": ""
+    },
+    {
+      "spanish": "año",
+      "english": "year",
+      "french": "an",
+      "category": "Hora",
+      "class": ""
+    },
+    {
+      "spanish": "hoy",
+      "english": "today",
+      "french": "aujourd'hui",
+      "category": "Hora",
+      "class": ""
+    },
+    {
+      "spanish": "ayer",
+      "english": "yesterday",
+      "french": "hier",
+      "category": "Hora",
+      "class": ""
+    },
+    {
+      "spanish": "segundo",
+      "english": "second",
+      "french": "seconde",
+      "category": "Hora",
+      "class": ""
+    },
+    {
+      "spanish": "minuto",
+      "english": "minute",
+      "french": "minute",
+      "category": "Hora",
+      "class": ""
+    },
+    {
+      "spanish": "hora",
+      "english": "hour",
+      "french": "heure",
+      "category": "Hora",
+      "class": ""
+    },
+    {
+      "spanish": "día",
+      "english": "day",
+      "french": "jour",
+      "category": "Hora",
+      "class": ""
+    },
+    {
+      "spanish": "semana",
+      "english": "week",
+      "french": "semaine",
+      "category": "Hora",
+      "class": ""
+    },
+    {
+      "spanish": "mes",
+      "english": "month",
+      "french": "mois",
+      "category": "Hora",
+      "class": ""
+    },
+    {
+      "spanish": "mañana",
+      "english": "tomorrow",
+      "french": "demain",
+      "category": "Hora",
+      "class": ""
+    },
+    {
+      "spanish": "anoche",
+      "english": "last night",
+      "french": "hier soir",
+      "category": "Hora",
+      "class": ""
+    },
+    {
+      "spanish": "tarde",
+      "english": "afternoon",
+      "french": "après-midi",
+      "category": "Hora",
+      "class": ""
+    },
+    {
+      "spanish": "noche",
+      "english": "night",
+      "french": "nuit",
+      "category": "Hora",
+      "class": ""
+    },
+    {
+      "spanish": "mediodía",
+      "english": "noon",
+      "french": "midi",
+      "category": "Hora",
+      "class": ""
+    },
+    {
+      "spanish": "medianoche",
+      "english": "midnight",
+      "french": "minuit",
+      "category": "Hora",
+      "class": ""
+    },
+    {
+      "spanish": "fin de semana",
+      "english": "weekend",
+      "french": "week-end",
+      "category": "Hora",
+      "class": ""
+    },
+    {
+      "spanish": "lunes",
+      "english": "Monday",
+      "french": "lundi",
+      "category": "Días",
+      "class": ""
+    },
+    {
+      "spanish": "martes",
+      "english": "Tuesday",
+      "french": "mardi",
+      "category": "Días",
+      "class": ""
+    },
+    {
+      "spanish": "miércoles",
+      "english": "Wednesday",
+      "french": "mercredi",
+      "category": "Días",
+      "class": ""
+    },
+    {
+      "spanish": "jueves",
+      "english": "Thursday",
+      "french": "jeudi",
+      "category": "Días",
+      "class": ""
+    },
+    {
+      "spanish": "viernes",
+      "english": "Friday",
+      "french": "vendredi",
+      "category": "Días",
+      "class": ""
+    },
+    {
+      "spanish": "sábado",
+      "english": "Saturday",
+      "french": "samedi",
+      "category": "Días",
+      "class": ""
+    },
+    {
+      "spanish": "domingo",
+      "english": "Sunday",
+      "french": "dimanche",
+      "category": "Días",
+      "class": ""
+    },
+    {
+      "spanish": "enero",
+      "english": "January",
+      "french": "janvier",
+      "category": "Días",
+      "class": ""
+    },
+    {
+      "spanish": "febrero",
+      "english": "February",
+      "french": "février",
+      "category": "Días",
+      "class": ""
+    },
+    {
+      "spanish": "marzo",
+      "english": "March",
+      "french": "mars",
+      "category": "Días",
+      "class": ""
+    },
+    {
+      "spanish": "abril",
+      "english": "April",
+      "french": "avril",
+      "category": "Días",
+      "class": ""
+    },
+    {
+      "spanish": "mayo",
+      "english": "May",
+      "french": "mai",
+      "category": "Días",
+      "class": ""
+    },
+    {
+      "spanish": "junio",
+      "english": "June",
+      "french": "juin",
+      "category": "Días",
+      "class": ""
+    },
+    {
+      "spanish": "julio",
+      "english": "July",
+      "french": "juillet",
+      "category": "Días",
+      "class": ""
+    },
+    {
+      "spanish": "agosto",
+      "english": "August",
+      "french": "août",
+      "category": "Días",
+      "class": ""
+    },
+    {
+      "spanish": "septiembre",
+      "english": "September",
+      "french": "septembre",
+      "category": "Días",
+      "class": ""
+    },
+    {
+      "spanish": "octubre",
+      "english": "October",
+      "french": "octobre",
+      "category": "Días",
+      "class": ""
+    },
+    {
+      "spanish": "noviembre",
+      "english": "November",
+      "french": "novembre",
+      "category": "Días",
+      "class": ""
+    },
+    {
+      "spanish": "diciembre",
+      "english": "December",
+      "french": "décembre",
+      "category": "Días",
+      "class": ""
+    },
+    {
+      "spanish": "feliz",
+      "english": "happy",
+      "french": "joyeux, heureux",
+      "category": "Emociones",
+      "class": ""
+    },
+    {
+      "spanish": "contento",
+      "english": "content, pleased",
+      "french": "content",
+      "category": "Emociones",
+      "class": ""
+    },
+    {
+      "spanish": "tranquilo",
+      "english": "calm, relaxed",
+      "french": "tranquille",
+      "category": "Emociones",
+      "class": ""
+    },
+    {
+      "spanish": "alegre",
+      "english": "cheerful, joyful",
+      "french": "joyeux",
+      "category": "Emociones",
+      "class": ""
+    },
+    {
+      "spanish": "triste",
+      "english": "sad",
+      "french": "triste",
+      "category": "Emociones",
+      "class": ""
+    },
+    {
+      "spanish": "cansado",
+      "english": "tired",
+      "french": "fatigué",
+      "category": "Emociones",
+      "class": ""
+    },
+    {
+      "spanish": "enojado",
+      "english": "angry, mad",
+      "french": "énervé",
+      "category": "Emociones",
+      "class": ""
+    },
+    {
+      "spanish": "nervioso",
+      "english": "nervous",
+      "french": "nerveux",
+      "category": "Emociones",
+      "class": ""
+    },
+    {
+      "spanish": "preocupado",
+      "english": "worried",
+      "french": "préoccupé",
+      "category": "Emociones",
+      "class": ""
+    },
+    {
+      "spanish": "aburrido",
+      "english": "bored",
+      "french": "ennuyeux",
+      "category": "Emociones",
+      "class": ""
+    },
+    {
+      "spanish": "asustado",
+      "english": "scared, frightened",
+      "french": "effrayé",
+      "category": "Emociones",
+      "class": ""
+    },
+    {
+      "spanish": "sorprendido",
+      "english": "surprised",
+      "french": "surpris",
+      "category": "Emociones",
+      "class": ""
+    },
+    {
+      "spanish": "ir",
+      "english": "to go",
+      "french": "aller",
+      "category": "Movimiento",
+      "class": ""
+    },
+    {
+      "spanish": "venir",
+      "english": "to come",
+      "french": "venir",
+      "category": "Movimiento",
+      "class": ""
+    },
+    {
+      "spanish": "salir",
+      "english": "to leave, to go out",
+      "french": "partir",
+      "category": "Movimiento",
+      "class": ""
+    },
+    {
+      "spanish": "entrar",
+      "english": "to enter, to go in",
+      "french": "entrer",
+      "category": "Movimiento",
+      "class": ""
+    },
+    {
+      "spanish": "volver",
+      "english": "to return, to go back",
+      "french": "revenir",
+      "category": "Movimiento",
+      "class": ""
+    },
+    {
+      "spanish": "caminar",
+      "english": "to walk",
+      "french": "marcher",
+      "category": "Movimiento",
+      "class": ""
+    },
+    {
+      "spanish": "correr",
+      "english": "to run",
+      "french": "courir",
+      "category": "Movimiento",
+      "class": ""
+    },
+    {
+      "spanish": "subir",
+      "english": "to go up, to rise",
+      "french": "monter",
+      "category": "Movimiento",
+      "class": ""
+    },
+    {
+      "spanish": "bajar",
+      "english": "to go down, to descend",
+      "french": "descendre",
+      "category": "Movimiento",
+      "class": ""
+    },
+    {
+      "spanish": "sentarse",
+      "english": "to sit",
+      "french": "s'asseoir",
+      "category": "Movimiento",
+      "class": ""
+    },
+    {
+      "spanish": "volar",
+      "english": "to fly",
+      "french": "voler",
+      "category": "Movimiento",
+      "class": ""
+    },
+    {
+      "spanish": "caer",
+      "english": "to fall",
+      "french": "tomber",
+      "category": "Movimiento",
+      "class": ""
+    },
+    {
+      "spanish": "saltar",
+      "english": "to jump",
+      "french": "sauter",
+      "category": "Movimiento",
+      "class": ""
+    },
+    {
+      "spanish": "hacer",
+      "english": "to do, to make",
+      "french": "faire",
+      "category": "Acciónes",
+      "class": ""
+    },
+    {
+      "spanish": "vivir",
+      "english": "to live",
+      "french": "vivre",
+      "category": "Acciónes",
+      "class": ""
+    },
+    {
+      "spanish": "comer",
+      "english": "to eat",
+      "french": "manger",
+      "category": "Acciónes",
+      "class": ""
+    },
+    {
+      "spanish": "beber",
+      "english": "to drink",
+      "french": "boire",
+      "category": "Acciónes",
+      "class": ""
+    },
+    {
+      "spanish": "escuchar",
+      "english": "to listen",
+      "french": "écouter",
+      "category": "Acciónes",
+      "class": ""
+    },
+    {
+      "spanish": "hablar",
+      "english": "to speak, to talk",
+      "french": "parler",
+      "category": "Acciónes",
+      "class": ""
+    },
+    {
+      "spanish": "ver",
+      "english": "to see",
+      "french": "voir",
+      "category": "Acciónes",
+      "class": ""
+    },
+    {
+      "spanish": "comprar",
+      "english": "to buy",
+      "french": "acheter",
+      "category": "Acciónes",
+      "class": ""
+    },
+    {
+      "spanish": "ser",
+      "english": "to be",
+      "french": "être",
+      "category": "Acciónes",
+      "class": ""
+    },
+    {
+      "spanish": "estar",
+      "english": "to be (temporary)",
+      "french": "être (qui n'est pas permanent)",
+      "category": "Acciónes",
+      "class": ""
+    },
+    {
+      "spanish": "tener",
+      "english": "to have",
+      "french": "avoir",
+      "category": "Acciónes",
+      "class": ""
+    },
+    {
+      "spanish": "gustar",
+      "english": "to like",
+      "french": "aimer",
+      "category": "Acciónes",
+      "class": ""
+    },
+    {
+      "spanish": "querer",
+      "english": "to want, to love",
+      "french": "vouloir",
+      "category": "Acciónes",
+      "class": ""
+    },
+    {
+      "spanish": "usar",
+      "english": "to use",
+      "french": "utiliser",
+      "category": "Acciónes",
+      "class": ""
+    },
+    {
+      "spanish": "necesitar",
+      "english": "to need",
+      "french": "avoir besoin",
+      "category": "Acciónes",
+      "class": ""
+    },
+    {
+      "spanish": "poder",
+      "english": "can, to be able to",
+      "french": "pouvoir",
+      "category": "Acciónes",
+      "class": ""
+    },
+    {
+      "spanish": "saber",
+      "english": "to know (facts, information)",
+      "french": "savoir",
+      "category": "Acciónes",
+      "class": ""
+    },
+    {
+      "spanish": "sentir",
+      "english": "to feel",
+      "french": "sentir",
+      "category": "Acciónes",
+      "class": ""
+    },
+    {
+      "spanish": "poner",
+      "english": "to put, to place",
+      "french": "mettre",
+      "category": "Acciónes",
+      "class": ""
+    },
+    {
+      "spanish": "coger",
+      "english": "to take, to grab",
+      "french": "prendre, attraper",
+      "category": "Acciónes",
+      "class": ""
+    },
+    {
+      "spanish": "rojo",
+      "english": "red",
+      "french": "rouge",
+      "category": "Colores",
+      "class": ""
+    },
+    {
+      "spanish": "azul",
+      "english": "blue",
+      "french": "bleu",
+      "category": "Colores",
+      "class": ""
+    },
+    {
+      "spanish": "amarillo",
+      "english": "yellow",
+      "french": "jaune",
+      "category": "Colores",
+      "class": ""
+    },
+    {
+      "spanish": "verde",
+      "english": "green",
+      "french": "vert",
+      "category": "Colores",
+      "class": ""
+    },
+    {
+      "spanish": "negro",
+      "english": "black",
+      "french": "noir",
+      "category": "Colores",
+      "class": ""
+    },
+    {
+      "spanish": "blanco",
+      "english": "white",
+      "french": "blanc",
+      "category": "Colores",
+      "class": ""
+    },
+    {
+      "spanish": "marrón",
+      "english": "brown",
+      "french": "marron",
+      "category": "Colores",
+      "class": ""
+    },
+    {
+      "spanish": "rosa",
+      "english": "pink",
+      "french": "rose",
+      "category": "Colores",
+      "class": ""
+    },
+    {
+      "spanish": "violeta",
+      "english": "violet, purple",
+      "french": "violet, pourpre",
+      "category": "Colores",
+      "class": ""
+    },
+    {
+      "spanish": "círculo",
+      "english": "circle",
+      "french": "cercle",
+      "category": "Colores",
+      "class": ""
+    },
+    {
+      "spanish": "cuadrado",
+      "english": "square",
+      "french": "carré",
+      "category": "Colores",
+      "class": ""
+    },
+    {
+      "spanish": "rectángulo",
+      "english": "rectangle",
+      "french": "rectangle",
+      "category": "Colores",
+      "class": ""
+    },
+    {
+      "spanish": "triángulo",
+      "english": "triangle",
+      "french": "triangle",
+      "category": "Colores",
+      "class": ""
+    },
+    {
+      "spanish": "gato",
+      "english": "cat",
+      "french": "chat",
+      "category": "Animales",
+      "class": ""
+    },
+    {
+      "spanish": "perro",
+      "english": "dog",
+      "french": "chien",
+      "category": "Animales",
+      "class": ""
+    },
+    {
+      "spanish": "ratón",
+      "english": "mouse",
+      "french": "souris",
+      "category": "Animales",
+      "class": ""
+    },
+    {
+      "spanish": "caballo",
+      "english": "horse",
+      "french": "cheval",
+      "category": "Animales",
+      "class": ""
+    },
+    {
+      "spanish": "pez",
+      "english": "fish",
+      "french": "poisson",
+      "category": "Animales",
+      "class": ""
+    },
+    {
+      "spanish": "pájaro",
+      "english": "bird",
+      "french": "oiseau",
+      "category": "Animales",
+      "class": ""
+    },
+    {
+      "spanish": "conejo",
+      "english": "rabbit",
+      "french": "lapin",
+      "category": "Animales",
+      "class": ""
+    },
+    {
+      "spanish": "oveja",
+      "english": "sheep",
+      "french": "mouton",
+      "category": "Animales",
+      "class": ""
+    },
+    {
+      "spanish": "león",
+      "english": "lion",
+      "french": "lion",
+      "category": "Animales",
+      "class": ""
+    },
+    {
+      "spanish": "tigre",
+      "english": "tiger",
+      "french": "tigre",
+      "category": "Animales",
+      "class": ""
+    },
+    {
+      "spanish": "oso",
+      "english": "bear",
+      "french": "ours",
+      "category": "Animales",
+      "class": ""
+    },
+    {
+      "spanish": "mono",
+      "english": "monkey",
+      "french": "singe",
+      "category": "Animales",
+      "class": ""
+    },
+    {
+      "spanish": "gallina",
+      "english": "hen",
+      "french": "poule",
+      "category": "Animales",
+      "class": ""
+    },
+    {
+      "spanish": "gallo",
+      "english": "rooster",
+      "french": "coq",
+      "category": "Animales",
+      "class": ""
+    },
+    {
+      "spanish": "uno",
+      "english": "one",
+      "french": "un",
+      "category": "Números",
+      "class": ""
+    },
+    {
+      "spanish": "dos",
+      "english": "two",
+      "french": "deux",
+      "category": "Números",
+      "class": ""
+    },
+    {
+      "spanish": "tres",
+      "english": "three",
+      "french": "trois",
+      "category": "Números",
+      "class": ""
+    },
+    {
+      "spanish": "cuatro",
+      "english": "four",
+      "french": "quatre",
+      "category": "Números",
+      "class": ""
+    },
+    {
+      "spanish": "cinco",
+      "english": "five",
+      "french": "cinq",
+      "category": "Números",
+      "class": ""
+    },
+    {
+      "spanish": "seis",
+      "english": "six",
+      "french": "six",
+      "category": "Números",
+      "class": ""
+    },
+    {
+      "spanish": "siete",
+      "english": "seven",
+      "french": "sept",
+      "category": "Números",
+      "class": ""
+    },
+    {
+      "spanish": "ocho",
+      "english": "eight",
+      "french": "huit",
+      "category": "Números",
+      "class": ""
+    },
+    {
+      "spanish": "nueve",
+      "english": "nine",
+      "french": "neuf",
+      "category": "Números",
+      "class": ""
+    },
+    {
+      "spanish": "diez",
+      "english": "ten",
+      "french": "dix",
+      "category": "Números",
+      "class": ""
+    },
+    {
+      "spanish": "once",
+      "english": "eleven",
+      "french": "onze",
+      "category": "Números",
+      "class": ""
+    },
+    {
+      "spanish": "doce",
+      "english": "twelve",
+      "french": "douze",
+      "category": "Números",
+      "class": ""
+    },
+    {
+      "spanish": "trece",
+      "english": "thirteen",
+      "french": "treize",
+      "category": "Números",
+      "class": ""
+    },
+    {
+      "spanish": "catorce",
+      "english": "fourteen",
+      "french": "quatorze",
+      "category": "Números",
+      "class": ""
+    },
+    {
+      "spanish": "quince",
+      "english": "fifteen",
+      "french": "quinze",
+      "category": "Números",
+      "class": ""
+    },
+    {
+      "spanish": "dieciséis",
+      "english": "sixteen",
+      "french": "seize",
+      "category": "Números",
+      "class": ""
+    },
+    {
+      "spanish": "diecisiete",
+      "english": "seventeen",
+      "french": "dix-sept",
+      "category": "Números",
+      "class": ""
+    },
+    {
+      "spanish": "dieciocho",
+      "english": "eighteen",
+      "french": "dix-huit",
+      "category": "Números",
+      "class": ""
+    },
+    {
+      "spanish": "diecinueve",
+      "english": "nineteen",
+      "french": "dix-neuf",
+      "category": "Números",
+      "class": ""
+    },
+    {
+      "spanish": "veinte",
+      "english": "twenty",
+      "french": "vingt",
+      "category": "Números",
+      "class": ""
+    },
+    {
+      "spanish": "treinta",
+      "english": "thirty",
+      "french": "trente",
+      "category": "Números",
+      "class": ""
+    },
+    {
+      "spanish": "cuarenta",
+      "english": "forty",
+      "french": "quarante",
+      "category": "Números",
+      "class": ""
+    },
+    {
+      "spanish": "cincuenta",
+      "english": "fifty",
+      "french": "cinquante",
+      "category": "Números",
+      "class": ""
+    },
+    {
+      "spanish": "sesenta",
+      "english": "sixty",
+      "french": "soixante",
+      "category": "Números",
+      "class": ""
+    },
+    {
+      "spanish": "setenta",
+      "english": "seventy",
+      "french": "soixante-dix",
+      "category": "Números",
+      "class": ""
+    },
+    {
+      "spanish": "ochenta",
+      "english": "eighty",
+      "french": "quatre-vingts",
+      "category": "Números",
+      "class": ""
+    },
+    {
+      "spanish": "noventa",
+      "english": "ninety",
+      "french": "quatre-vingts-dix",
+      "category": "Números",
+      "class": ""
+    },
+    {
+      "spanish": "cien",
+      "english": "one hundred",
+      "french": "cent",
+      "category": "Números",
+      "class": ""
+    },
+    {
+      "spanish": "alto",
+      "english": "tall, high",
+      "french": "grand",
+      "category": "Adjetivos",
+      "class": ""
+    },
+    {
+      "spanish": "bajo",
+      "english": "short, low",
+      "french": "petit, bas",
+      "category": "Adjetivos",
+      "class": ""
+    },
+    {
+      "spanish": "joven",
+      "english": "young",
+      "french": "jeune",
+      "category": "Adjetivos",
+      "class": ""
+    },
+    {
+      "spanish": "viejo",
+      "english": "old",
+      "french": "vieux",
+      "category": "Adjetivos",
+      "class": ""
+    },
+    {
+      "spanish": "bonito",
+      "english": "pretty, nice",
+      "french": "beau",
+      "category": "Adjetivos",
+      "class": ""
+    },
+    {
+      "spanish": "feo",
+      "english": "ugly",
+      "french": "moche",
+      "category": "Adjetivos",
+      "class": ""
+    },
+    {
+      "spanish": "sucio",
+      "english": "dirty",
+      "french": "sâle",
+      "category": "Adjetivos",
+      "class": ""
+    },
+    {
+      "spanish": "limpio",
+      "english": "clean",
+      "french": "propre",
+      "category": "Adjetivos",
+      "class": ""
+    },
+    {
+      "spanish": "bueno",
+      "english": "good",
+      "french": "bon",
+      "category": "Adjetivos",
+      "class": ""
+    },
+    {
+      "spanish": "malo",
+      "english": "bad",
+      "french": "mauvais",
+      "category": "Adjetivos",
+      "class": ""
+    },
+    {
+      "spanish": "grande",
+      "english": "big, large",
+      "french": "grand, gros, large",
+      "category": "Adjetivos",
+      "class": ""
+    },
+    {
+      "spanish": "pequeño",
+      "english": "small, little",
+      "french": "petit",
+      "category": "Adjetivos",
+      "class": ""
+    },
+    {
+      "spanish": "nuevo",
+      "english": "new",
+      "french": "nouveau",
+      "category": "Adjetivos",
+      "class": ""
+    },
+    {
+      "spanish": "caro",
+      "english": "expensive",
+      "french": "cher",
+      "category": "Adjetivos",
+      "class": ""
+    },
+    {
+      "spanish": "barato",
+      "english": "cheap",
+      "french": "bon marché",
+      "category": "Adjetivos",
+      "class": ""
+    },
+    {
+      "spanish": "fácil",
+      "english": "easy",
+      "french": "facile",
+      "category": "Adjetivos",
+      "class": ""
+    },
+    {
+      "spanish": "difícil",
+      "english": "difficult, hard",
+      "french": "difficile",
+      "category": "Adjetivos",
+      "class": ""
+    },
+    {
+      "spanish": "inteligente",
+      "english": "intelligent, smart",
+      "french": "intelligent",
+      "category": "Adjetivos",
+      "class": ""
+    },
+    {
+      "spanish": "temprano",
+      "english": "early",
+      "french": "tôt",
+      "category": "Adverbios",
+      "class": ""
+    },
+    {
+      "spanish": "siempre",
+      "english": "always",
+      "french": "toujours",
+      "category": "Adverbios",
+      "class": ""
+    },
+    {
+      "spanish": "nunca",
+      "english": "never",
+      "french": "jamais",
+      "category": "Adverbios",
+      "class": ""
+    },
+    {
+      "spanish": "a veces",
+      "english": "sometimes",
+      "french": "souvent",
+      "category": "Adverbios",
+      "class": ""
+    },
+    {
+      "spanish": "pronto",
+      "english": "soon",
+      "french": "bientôt",
+      "category": "Adverbios",
+      "class": ""
+    },
+    {
+      "spanish": "ahora",
+      "english": "now",
+      "french": "maintenant",
+      "category": "Adverbios",
+      "class": ""
+    },
+    {
+      "spanish": "aquí",
+      "english": "here",
+      "french": "ici",
+      "category": "Adverbios",
+      "class": ""
+    },
+    {
+      "spanish": "allí",
+      "english": "there",
+      "french": "là-bas",
+      "category": "Adverbios",
+      "class": ""
+    },
+    {
+      "spanish": "cerca",
+      "english": "near, close",
+      "french": "proche",
+      "category": "Adverbios",
+      "class": ""
+    },
+    {
+      "spanish": "lejos",
+      "english": "far",
+      "french": "loin",
+      "category": "Adverbios",
+      "class": ""
+    },
+    {
+      "spanish": "bien",
+      "english": "well",
+      "french": "bien",
+      "category": "Adverbios",
+      "class": ""
+    },
+    {
+      "spanish": "despacio",
+      "english": "slowly",
+      "french": "lent, lentement",
+      "category": "Adverbios",
+      "class": ""
+    },
+    {
+      "spanish": "rápido",
+      "english": "fast, quickly",
+      "french": "rapide, rapidement",
+      "category": "Adverbios",
+      "class": ""
+    },
+    {
+      "spanish": "muy",
+      "english": "very",
+      "french": "très",
+      "category": "Adverbios",
+      "class": ""
+    },
+    {
+      "spanish": "demasiado",
+      "english": "too much, excessively",
+      "french": "trop",
+      "category": "Adverbios",
+      "class": ""
+    },
+    {
+      "spanish": "yo",
+      "english": "I",
+      "french": "je",
+      "category": "Pronombres",
+      "class": ""
+    },
+    {
+      "spanish": "tú",
+      "english": "you (informal)",
+      "french": "tu",
+      "category": "Pronombres",
+      "class": ""
+    },
+    {
+      "spanish": "usted",
+      "english": "you (formal)",
+      "french": "vous (politesse sing.)",
+      "category": "Pronombres",
+      "class": ""
+    },
+    {
+      "spanish": "él",
+      "english": "he",
+      "french": "il",
+      "category": "Pronombres",
+      "class": ""
+    },
+    {
+      "spanish": "ella",
+      "english": "she",
+      "french": "elle",
+      "category": "Pronombres",
+      "class": ""
+    },
+    {
+      "spanish": "nosotros",
+      "english": "we (masc./mixed)",
+      "french": "nous",
+      "category": "Pronombres",
+      "class": ""
+    },
+    {
+      "spanish": "vosotros",
+      "english": "you",
+      "french": "vous",
+      "category": "Pronombres",
+      "class": ""
+    },
+    {
+      "spanish": "ustedes",
+      "english": "you (plural)",
+      "french": "vous (politesse pl.)",
+      "category": "Pronombres",
+      "class": ""
+    },
+    {
+      "spanish": "nosotras",
+      "english": "we (fem.)",
+      "french": "nous",
+      "category": "Pronombres",
+      "class": ""
+    },
+    {
+      "spanish": "ellos",
+      "english": "they (masc./mixed)",
+      "french": "ils",
+      "category": "Pronombres",
+      "class": ""
+    },
+    {
+      "spanish": "ellas",
+      "english": "they (fem.)",
+      "french": "elles",
+      "category": "Pronombres",
+      "class": ""
+    },
+    {
+      "spanish": "en",
+      "english": "in, on",
+      "french": "dans, sur",
+      "category": "Pronombres",
+      "class": ""
+    },
+    {
+      "spanish": "a",
+      "english": "to, at",
+      "french": "à",
+      "category": "Pronombres",
+      "class": ""
+    },
+    {
+      "spanish": "de",
+      "english": "of, from",
+      "french": "de",
+      "category": "Pronombres",
+      "class": ""
+    },
+    {
+      "spanish": "con",
+      "english": "with",
+      "french": "avec",
+      "category": "Pronombres",
+      "class": ""
+    },
+    {
+      "spanish": "sobre",
+      "english": "about, on, over",
+      "french": "sur",
+      "category": "Pronombres",
+      "class": ""
+    },
+    {
+      "spanish": "para",
+      "english": "for, to, in order to",
+      "french": "pour, a fin de",
+      "category": "Pronombres",
+      "class": ""
+    },
+    {
+      "spanish": "por",
+      "english": "for, by, because of",
+      "french": "pour, à cause de",
+      "category": "",
+      "class": ""
+    }
+  ]
+}

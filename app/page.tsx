@@ -2,16 +2,17 @@
 
 import { useState } from 'react';
 
-interface WordItem {
-  word: string;
-  classes: string[];
+interface VocabItem {
+  spanish: string;
+  english: string;
+  french: string;
+  category: string;
+  class: string;
 }
 
 interface TranslationResult {
-  word: string;
-  translations: string[];
-  loading?: boolean;
-  error?: string;
+  spanish: string;
+  french: string;
   userAnswer?: string;
   isCorrect?: boolean | null;
   showSolution?: boolean;
@@ -48,14 +49,19 @@ export default function Home() {
       const newWords = [...prevWords];
       const word = newWords[index];
       const userAnswer = normalizeString(word.userAnswer || '');
+      const correctAnswer = normalizeString(word.spanish);
       
-      const isCorrect = word.translations.some(translation => 
-        normalizeString(translation) === userAnswer
-      );
+      const isCorrect = userAnswer === correctAnswer;
+      
+      // Show solution only if normalized versions match but original versions don't (missing accent)
+      const normalizedMatch = userAnswer === correctAnswer;
+      const exactMatch = (word.userAnswer || '').toLowerCase().trim() === word.spanish.toLowerCase().trim();
+      const showSolution = normalizedMatch && !exactMatch;
       
       newWords[index] = {
         ...newWords[index],
-        isCorrect
+        isCorrect,
+        showSolution
       };
       return newWords;
     });
@@ -78,58 +84,22 @@ export default function Home() {
     setShowSolutions(false);
 
     try {
-      const response = await fetch('/a1.json');
+      const response = await fetch('/spanish-a1-vocab-with-french.json');
       const data = await response.json();
-      const wordList: WordItem[] = data.list;
+      const wordList: VocabItem[] = data.list;
 
       const shuffled = [...wordList].sort(() => 0.5 - Math.random());
       const randomWords = shuffled.slice(0, 10);
 
-      const initialWords: TranslationResult[] = randomWords.map(item => ({
-        word: item.word,
-        translations: [],
-        loading: true,
+      const vocabItems: TranslationResult[] = randomWords.map(item => ({
+        spanish: item.spanish,
+        french: item.french,
         userAnswer: '',
         isCorrect: null,
         showSolution: false
       }));
-      setWords(initialWords);
-
-      const translationPromises = randomWords.map(async (item, index) => {
-        try {
-          const res = await fetch(`/api/translate?word=${encodeURIComponent(item.word)}`);
-          const data = await res.json();
-          
-          return {
-            index,
-            word: item.word,
-            translations: data.translations || [],
-            error: data.error
-          };
-        } catch {
-          return {
-            index,
-            word: item.word,
-            translations: [],
-            error: 'Failed to fetch translation'
-          };
-        }
-      });
-
-      const results = await Promise.all(translationPromises);
       
-      setWords(prevWords => {
-        const newWords = [...prevWords];
-        results.forEach(result => {
-          newWords[result.index] = {
-            word: result.word,
-            translations: result.translations,
-            loading: false,
-            error: result.error
-          };
-        });
-        return newWords;
-      });
+      setWords(vocabItems);
     } catch (error) {
       console.error('Error loading vocabulary:', error);
     } finally {
@@ -142,10 +112,10 @@ export default function Home() {
       <main className="container mx-auto px-4 py-6 sm:py-12 max-w-4xl">
         <div className="text-center mb-8 sm:mb-12">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-3 sm:mb-4">
-            Vocabulary Translator
+            Trouver la traduction
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-6 sm:mb-8">
-            Learn English to Spanish translations
+            Trouver la traduction en français de la phrase en espagnol
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
             <button
@@ -153,14 +123,14 @@ export default function Home() {
               disabled={loading}
               className="bg-indigo-600 hover:bg-indigo-700 disabled:bg-indigo-400 text-white font-semibold py-3 px-6 sm:px-8 rounded-lg shadow-lg transition-all transform hover:scale-105 disabled:scale-100 w-full sm:w-auto"
             >
-              {loading ? 'Loading...' : 'Get 10 Random Words'}
+              {loading ? 'Chargement...' : 'Afficher 10 nouveaux mots'}
             </button>
             {words.length > 0 && (
               <button
                 onClick={() => setShowSolutions(!showSolutions)}
                 className="bg-amber-600 hover:bg-amber-700 text-white font-semibold py-3 px-6 sm:px-8 rounded-lg shadow-lg transition-all transform hover:scale-105 w-full sm:w-auto"
               >
-                {showSolutions ? 'Hide Solutions' : 'Show Solutions'}
+                {showSolutions ? 'Cacher les solutions' : 'Afficher les solutions'}
               </button>
             )}
           </div>
@@ -169,7 +139,7 @@ export default function Home() {
         {words.length > 0 && (
           <div className="bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-4 sm:p-6 md:p-8">
             <h2 className="text-xl sm:text-2xl font-bold text-gray-800 dark:text-white mb-4 sm:mb-6 border-b pb-3 sm:pb-4">
-              Translations
+              Traductions
             </h2>
             <div className="space-y-3 sm:space-y-4">
               {words.map((result, index) => (
@@ -189,15 +159,10 @@ export default function Home() {
                     </div>
                     <div className="flex-1 min-w-0">
                       <div className="font-semibold text-base sm:text-lg text-gray-900 dark:text-white mb-2 sm:mb-3">
-                        {result.word}
+                        {result.french}
                       </div>
                       
-                      {result.loading ? (
-                        <span className="italic text-gray-500">Loading translation...</span>
-                      ) : result.error ? (
-                        <span className="text-red-500">{result.error}</span>
-                      ) : (
-                        <div className="space-y-2">
+                      <div className="space-y-2">
                           <div className="flex flex-col sm:flex-row gap-2">
                             <input
                               type="text"
@@ -218,13 +183,13 @@ export default function Home() {
                                 disabled={!result.userAnswer || result.isCorrect === true}
                                 className="flex-1 sm:flex-none px-4 py-2.5 sm:py-2 bg-indigo-600 hover:bg-indigo-700 disabled:bg-gray-400 text-white font-medium rounded-lg transition-colors disabled:cursor-not-allowed text-sm sm:text-base"
                               >
-                                Check
+                                Vérifier
                               </button>
                               <button
                                 onClick={() => toggleSolution(index)}
                                 className="flex-1 sm:flex-none px-4 py-2.5 sm:py-2 bg-amber-600 hover:bg-amber-700 text-white font-medium rounded-lg transition-colors text-sm sm:text-base"
                               >
-                                {result.showSolution ? 'Hide' : 'Solution'}
+                                {result.showSolution ? 'Cacher' : 'Solution'}
                               </button>
                             </div>
                           </div>
@@ -234,7 +199,7 @@ export default function Home() {
                               <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="currentColor" viewBox="0 0 20 20">
                                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                               </svg>
-                              Correct!
+                              Correcte!
                             </div>
                           )}
                           
@@ -244,29 +209,22 @@ export default function Home() {
                                 <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="currentColor" viewBox="0 0 20 20">
                                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
                                 </svg>
-                                Try again!
+                                Réessayer!
                               </div>
                               <div className="text-xs sm:text-sm text-gray-600 dark:text-gray-400">
-                                Hint: {result.translations.length > 0 ? `Starts with "${result.translations[0][0]}"` : 'No translation available'}
+                                Indice: Commence par &quot;{result.spanish[0]}&quot;
                               </div>
                             </div>
                           )}
                           
-                          {result.isCorrect === true && result.translations.length > 1 && (
-                            <div className="text-xs sm:text-sm text-gray-600 dark:text-gray-400">
-                              Other correct answers: {result.translations.filter(t => t && (t.toLowerCase() !== result.userAnswer?.toLowerCase())).join(', ')}
-                            </div>
-                          )}
-                          
-                          {(showSolutions || result.showSolution) && result.translations.length > 0 && (
+                          {(showSolutions || result.showSolution) && (
                             <div className="mt-2 p-2 sm:p-2.5 bg-blue-50 dark:bg-blue-900/20 rounded border border-blue-200 dark:border-blue-800">
                               <div className="text-xs sm:text-sm font-medium text-blue-900 dark:text-blue-100 break-words">
-                                Solutions: <span className="text-blue-600 dark:text-blue-400">{result.translations.join(', ')}</span>
+                                Solution: <span className="text-blue-600 dark:text-blue-400">{result.spanish}</span>
                               </div>
                             </div>
                           )}
                         </div>
-                      )}
                     </div>
                   </div>
                 </div>
@@ -277,7 +235,7 @@ export default function Home() {
 
         {words.length === 0 && !loading && (
           <div className="text-center text-gray-500 dark:text-gray-400 mt-12">
-            <p className="text-lg">Click the button above to start learning!</p>
+            <p className="text-lg">Cliquez sur le bouton ci-dessus pour commencer à apprendre!</p>
           </div>
         )}
       </main>
