@@ -1,14 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-
-interface VocabItem {
-  spanish: string;
-  english: string;
-  french: string;
-  category: string;
-  class: string;
-}
+import { supabase, VocabularyItem } from '@/lib/supabase';
 
 interface TranslationResult {
   spanish: string;
@@ -84,14 +77,16 @@ export default function Home() {
     setShowSolutions(false);
 
     try {
-      const response = await fetch('/spanish-a1-vocab-with-french.json');
-      const data = await response.json();
-      const wordList: VocabItem[] = data.list;
+      // Fetch random words from Supabase using the stored function
+      const { data, error } = await supabase
+        .rpc('get_random_vocabulary', { word_count: 10 });
 
-      const shuffled = [...wordList].sort(() => 0.5 - Math.random());
-      const randomWords = shuffled.slice(0, 10);
+      if (error) {
+        console.error('Error loading vocabulary:', error);
+        return;
+      }
 
-      const vocabItems: TranslationResult[] = randomWords.map(item => ({
+      const vocabItems: TranslationResult[] = (data as VocabularyItem[]).map(item => ({
         spanish: item.spanish,
         french: item.french,
         userAnswer: '',
