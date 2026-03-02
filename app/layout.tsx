@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { RegisterSW } from "./register-sw";
+import { Loading } from "./components/Loading";
+import { AppleSplashMeta } from "./apple-splash-meta";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,9 +38,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <AppleSplashMeta />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Loading />
         <RegisterSW />
         {children}
       </body>
