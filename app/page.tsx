@@ -5,6 +5,7 @@ import { useCardNavigation } from '@/hooks/useCardNavigation';
 import { checkAnswerCorrectness } from '@/lib/helpers';
 import { VocabularyCard } from './components/VocabularyCard';
 import { NavigationButtons } from './components/NavigationButtons';
+import { FixedKeyboard } from './components/FixedKeyboard';
 
 export default function Home() {
   const { words, setWords, loading, fetchWords } = useVocabulary(10);
@@ -75,7 +76,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800">
-      <main className="container mx-auto px-4 py-6 sm:py-12 max-w-2xl">
+      <main className="container mx-auto px-4 py-6 sm:py-12 max-w-2xl pb-[400px]">
         <div className="text-center mb-6">
           <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-2">
             Trouver la traduction
@@ -100,8 +101,8 @@ export default function Home() {
                 key={currentWord.french}
                 word={currentWord}
                 onAnswerChange={handleAnswerChange}
-                onCheckAnswer={handleCheckAnswer}
                 onToggleSolution={handleToggleSolution}
+                onCheckAnswer={handleCheckAnswer}
               />
               <NavigationButtons
                 currentIndex={currentIndex}
@@ -120,6 +121,12 @@ export default function Home() {
           </div>
         )}
       </main>
+
+      <FixedKeyboard
+        currentWord={currentWord}
+        onAnswerChange={handleAnswerChange}
+        onCheckAnswer={handleCheckAnswer}
+      />
     </div>
   );
 }

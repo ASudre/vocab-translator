@@ -1,22 +1,20 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import { TranslationResult } from '@/hooks/useVocabulary';
-import { SpanishKeyboard } from './SpanishKeyboard';
 
 interface VocabularyCardProps {
   word: TranslationResult;
   onAnswerChange: (value: string) => void;
-  onCheckAnswer: () => void;
   onToggleSolution: () => void;
+  onCheckAnswer: () => void;
 }
 
 export function VocabularyCard({
   word,
   onAnswerChange,
-  onCheckAnswer,
   onToggleSolution,
+  onCheckAnswer,
 }: VocabularyCardProps) {
   const inputRef = useRef<HTMLInputElement>(null);
-  const [showKeyboard, setShowKeyboard] = useState(true);
 
   useEffect(() => {
     // Keep focus on iOS Safari by maintaining the same input element
@@ -29,26 +27,23 @@ export function VocabularyCard({
     }
   }, [word.french, word.isCorrect]);
 
-  const handleKeyPress = (key: string) => {
-    const currentValue = word.userAnswer || '';
-    onAnswerChange(currentValue + key);
-  };
-
-  const handleBackspace = () => {
-    const currentValue = word.userAnswer || '';
-    onAnswerChange(currentValue.slice(0, -1));
-  };
-
   return (
-    <div className="space-y-4">
-      {/* Main card with word and input */}
-      <div className={`bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-6 sm:p-8 md:p-10 transition-all ${
+    <div className={`relative bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-6 sm:p-8 md:p-10 transition-all ${
         word.isCorrect === true
           ? 'ring-4 ring-green-500 ring-offset-0'
           : word.isCorrect === false
           ? 'ring-4 ring-red-500 ring-offset-0'
           : ''
       }`}>
+        {/* Hint/Solution button - top right corner */}
+        <button
+          onClick={onToggleSolution}
+          className="absolute top-4 right-4 w-10 h-10 bg-amber-600 hover:bg-amber-700 text-white font-semibold rounded-full transition-all transform hover:scale-110 shadow-lg flex items-center justify-center"
+          title={word.showSolution ? 'Cacher la solution' : 'Afficher un indice'}
+        >
+          {word.showSolution ? '🙈' : '💡'}
+        </button>
+
         <div className="text-center mb-8">
           <div className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4">
             {word.french}
@@ -63,8 +58,8 @@ export function VocabularyCard({
           type="text"
           value={word.userAnswer || ''}
           onChange={(e) => onAnswerChange(e.target.value)}
-          onKeyPress={(e) => {
-            if (e.key === 'Enter') {
+          onKeyDown={(e) => {
+            if (e.key === 'Enter' && word.userAnswer) {
               onCheckAnswer();
             }
           }}
@@ -113,38 +108,5 @@ export function VocabularyCard({
           </div>
         )}
       </div>
-
-      {/* Custom keyboard - full width */}
-      {showKeyboard && !word.isCorrect && (
-        <SpanishKeyboard
-          onKeyPress={handleKeyPress}
-          onBackspace={handleBackspace}
-        />
-      )}
-
-      {/* Action buttons - full width */}
-      <div className="flex gap-3">
-        <button
-          onClick={onCheckAnswer}
-          disabled={!word.userAnswer || word.isCorrect === true}
-          className="flex-1 px-6 py-4 bg-indigo-600 hover:bg-indigo-700 disabled:bg-gray-400 text-white font-semibold text-lg rounded-xl transition-all transform hover:scale-105 disabled:scale-100 disabled:cursor-not-allowed"
-        >
-          Vérifier
-        </button>
-        <button
-          onClick={onToggleSolution}
-          className="px-6 py-4 bg-amber-600 hover:bg-amber-700 text-white font-semibold rounded-xl transition-all transform hover:scale-105"
-        >
-          {word.showSolution ? '🙈' : '💡'}
-        </button>
-        <button
-          onClick={() => setShowKeyboard(!showKeyboard)}
-          className="px-6 py-4 bg-gray-600 hover:bg-gray-700 text-white font-semibold rounded-xl transition-all transform hover:scale-105"
-          title={showKeyboard ? 'Cacher le clavier' : 'Afficher le clavier'}
-        >
-          ⌨️
-        </button>
-      </div>
-    </div>
   );
 }
