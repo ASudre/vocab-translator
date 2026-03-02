@@ -1,5 +1,6 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { TranslationResult } from '@/hooks/useVocabulary';
+import { SpanishKeyboard } from './SpanishKeyboard';
 
 interface VocabularyCardProps {
   word: TranslationResult;
@@ -15,6 +16,7 @@ export function VocabularyCard({
   onToggleSolution,
 }: VocabularyCardProps) {
   const inputRef = useRef<HTMLInputElement>(null);
+  const [showKeyboard, setShowKeyboard] = useState(true);
 
   useEffect(() => {
     // Keep focus on iOS Safari by maintaining the same input element
@@ -26,6 +28,16 @@ export function VocabularyCard({
       return () => clearTimeout(timer);
     }
   }, [word.french, word.isCorrect]);
+
+  const handleKeyPress = (key: string) => {
+    const currentValue = word.userAnswer || '';
+    onAnswerChange(currentValue + key);
+  };
+
+  const handleBackspace = () => {
+    const currentValue = word.userAnswer || '';
+    onAnswerChange(currentValue.slice(0, -1));
+  };
 
   return (
     <div className={`bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-6 sm:p-8 md:p-10 transition-all ${
@@ -58,8 +70,20 @@ export function VocabularyCard({
           placeholder="Écris la traduction en espagnol..."
           disabled={word.isCorrect === true}
           autoFocus
+          autoComplete="off"
+          autoCorrect="off"
+          autoCapitalize="off"
+          spellCheck="false"
+          inputMode="none"
           className="w-full px-4 py-4 text-lg text-center border-2 border-gray-300 dark:border-gray-600 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-transparent dark:bg-gray-700 dark:text-white disabled:bg-gray-100 dark:disabled:bg-gray-900 disabled:cursor-not-allowed"
         />
+
+        {showKeyboard && !word.isCorrect && (
+          <SpanishKeyboard
+            onKeyPress={handleKeyPress}
+            onBackspace={handleBackspace}
+          />
+        )}
 
         <div className="flex gap-3">
           <button
@@ -74,6 +98,13 @@ export function VocabularyCard({
             className="px-6 py-4 bg-amber-600 hover:bg-amber-700 text-white font-semibold rounded-xl transition-all transform hover:scale-105"
           >
             {word.showSolution ? '🙈' : '💡'}
+          </button>
+          <button
+            onClick={() => setShowKeyboard(!showKeyboard)}
+            className="px-6 py-4 bg-gray-600 hover:bg-gray-700 text-white font-semibold rounded-xl transition-all transform hover:scale-105"
+            title={showKeyboard ? 'Cacher le clavier' : 'Afficher le clavier'}
+          >
+            ⌨️
           </button>
         </div>
 
