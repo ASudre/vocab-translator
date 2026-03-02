@@ -1,3 +1,4 @@
+import { useCallback } from 'react';
 import { SpanishKeyboard } from './SpanishKeyboard';
 import { TranslationResult } from '@/hooks/useVocabulary';
 
@@ -12,20 +13,25 @@ export function FixedKeyboard({
   onAnswerChange,
   onCheckAnswer,
 }: FixedKeyboardProps) {
-  if (!currentWord) return null;
-
-  const handleKeyPress = (key: string) => {
+  const handleKeyPress = useCallback((key: string) => {
+    if (!currentWord) return;
     const currentValue = currentWord.userAnswer || '';
     onAnswerChange(currentValue + key);
-  };
+  }, [currentWord, onAnswerChange]);
 
-  const handleBackspace = () => {
+  const handleBackspace = useCallback(() => {
+    if (!currentWord) return;
     const currentValue = currentWord.userAnswer || '';
     onAnswerChange(currentValue.slice(0, -1));
-  };
+  }, [currentWord, onAnswerChange]);
+
+  if (!currentWord) return null;
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 bg-gradient-to-t from-blue-50 to-transparent dark:from-gray-900 dark:to-transparent pt-4">
+    <div 
+      className="fixed bottom-0 left-0 right-0 bg-gradient-to-t from-blue-50 to-transparent dark:from-gray-900 dark:to-transparent pt-4"
+      style={{ paddingBottom: 'max(env(safe-area-inset-bottom), 1rem)' }}
+    >
       <div className="container mx-auto max-w-2xl">
         <SpanishKeyboard
           onKeyPress={handleKeyPress}
