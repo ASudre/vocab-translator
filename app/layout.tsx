@@ -20,9 +20,15 @@ export const metadata: Metadata = {
   description: "Learn vocabulary with interactive translations. Practice A1 level words and track your progress.",
   manifest: '/manifest.json',
   themeColor: '#4F46E5',
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 1,
+    userScalable: false,
+  },
   appleWebApp: {
     capable: true,
-    statusBarStyle: 'default',
+    statusBarStyle: 'black-translucent',
     title: 'Vocab Translator',
   },
   icons: {
