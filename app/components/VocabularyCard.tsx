@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react';
 import { TranslationResult } from '@/hooks/useVocabulary';
 
 interface VocabularyCardProps {
@@ -13,6 +14,12 @@ export function VocabularyCard({
   onCheckAnswer,
   onToggleSolution,
 }: VocabularyCardProps) {
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    inputRef.current?.focus();
+  }, [word.french]);
+
   return (
     <div className={`bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-6 sm:p-8 md:p-10 transition-all ${
       word.isCorrect === true
@@ -32,6 +39,7 @@ export function VocabularyCard({
 
       <div className="space-y-4">
         <input
+          ref={inputRef}
           type="text"
           value={word.userAnswer || ''}
           onChange={(e) => onAnswerChange(e.target.value)}
@@ -43,7 +51,6 @@ export function VocabularyCard({
           placeholder="Écris la traduction en espagnol..."
           disabled={word.isCorrect === true}
           className="w-full px-4 py-4 text-lg text-center border-2 border-gray-300 dark:border-gray-600 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-transparent dark:bg-gray-700 dark:text-white disabled:bg-gray-100 dark:disabled:bg-gray-900 disabled:cursor-not-allowed"
-          autoFocus
         />
 
         <div className="flex gap-3">
