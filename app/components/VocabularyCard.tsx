@@ -17,8 +17,17 @@ export function VocabularyCard({
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    inputRef.current?.focus();
-  }, [word.french]);
+    // iOS Safari requires a delay and multiple attempts for programmatic focus
+    const timer = setTimeout(() => {
+      if (inputRef.current && !word.isCorrect) {
+        inputRef.current.focus();
+        // Force focus on iOS by also calling click
+        inputRef.current.click();
+      }
+    }, 100);
+
+    return () => clearTimeout(timer);
+  }, [word.french, word.isCorrect]);
 
   return (
     <div className={`bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-6 sm:p-8 md:p-10 transition-all ${
