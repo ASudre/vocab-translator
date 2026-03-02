@@ -9,18 +9,15 @@ interface SpanishKeyboardProps {
 export function SpanishKeyboard({ onKeyPress, onBackspace, onEnter }: SpanishKeyboardProps) {
   const specialChars = ['á', 'é', 'í', 'ó', 'ú', '¿', '¡'];
   const activeTouchesRef = useRef<Set<number>>(new Set());
+  const touchUsedRef = useRef(false);
 
-  const handleKeyAction = (e: React.TouchEvent | React.MouseEvent, key: string, action: () => void) => {
+  const handleKeyAction = (e: React.TouchEvent, action: () => void) => {
     e.preventDefault();
+    e.stopPropagation();
+    touchUsedRef.current = true;
     
-    // Handle mouse clicks (desktop)
-    if ('button' in e) {
-      action();
-      return;
-    }
-    
-    // Handle touch events (mobile)
-    const touches = Array.from((e as React.TouchEvent).touches);
+    // Handle touch events (mobile) with multi-touch support
+    const touches = Array.from(e.touches);
     const newTouch = touches[touches.length - 1];
     
     // Only trigger if this touch hasn't been registered yet
@@ -28,6 +25,18 @@ export function SpanishKeyboard({ onKeyPress, onBackspace, onEnter }: SpanishKey
       activeTouchesRef.current.add(newTouch.identifier);
       action();
     }
+  };
+
+  const handleMouseAction = (e: React.MouseEvent, action: () => void) => {
+    // If touch was used, ignore mouse events (they're compatibility events on mobile)
+    if (touchUsedRef.current) {
+      e.preventDefault();
+      return;
+    }
+    
+    e.preventDefault();
+    e.stopPropagation();
+    action();
   };
 
   const handleTouchEnd = (e: React.TouchEvent) => {
@@ -38,7 +47,7 @@ export function SpanishKeyboard({ onKeyPress, onBackspace, onEnter }: SpanishKey
 
   return (
     <div 
-      className="bg-gray-100 dark:bg-gray-700 p-1 space-y-2"
+      className="bg-gray-100 dark:bg-gray-700 p-1 space-y-2 select-none"
       onTouchEnd={handleTouchEnd}
     >
       {/* Special characters row */}
@@ -47,8 +56,8 @@ export function SpanishKeyboard({ onKeyPress, onBackspace, onEnter }: SpanishKey
           <button
             key={char}
             data-key={char}
-            onMouseDown={(e) => handleKeyAction(e, char, () => onKeyPress(char))}
-            onTouchStart={(e) => handleKeyAction(e, char, () => onKeyPress(char))}
+            onMouseDown={(e) => handleMouseAction(e, () => onKeyPress(char))}
+            onTouchStart={(e) => handleKeyAction(e, () => onKeyPress(char))}
             className="flex-1 max-w-[40px] sm:max-w-[50px] h-12 bg-amber-500 hover:bg-amber-600 dark:bg-amber-600 dark:hover:bg-amber-700 rounded-lg font-semibold text-white transition-colors active:scale-95 shadow-sm"
           >
             {char}
@@ -62,8 +71,8 @@ export function SpanishKeyboard({ onKeyPress, onBackspace, onEnter }: SpanishKey
           <button
             key={key}
             data-key={key}
-            onMouseDown={(e) => handleKeyAction(e, key, () => onKeyPress(key))}
-            onTouchStart={(e) => handleKeyAction(e, key, () => onKeyPress(key))}
+            onMouseDown={(e) => handleMouseAction(e, () => onKeyPress(key))}
+            onTouchStart={(e) => handleKeyAction(e, () => onKeyPress(key))}
             className="flex-1 max-w-[40px] sm:max-w-[50px] h-12 bg-white dark:bg-gray-600 hover:bg-gray-200 dark:hover:bg-gray-500 rounded-lg font-semibold text-gray-900 dark:text-white transition-colors active:scale-95 shadow-sm"
           >
             {key}
@@ -77,8 +86,8 @@ export function SpanishKeyboard({ onKeyPress, onBackspace, onEnter }: SpanishKey
           <button
             key={key}
             data-key={key}
-            onMouseDown={(e) => handleKeyAction(e, key, () => onKeyPress(key))}
-            onTouchStart={(e) => handleKeyAction(e, key, () => onKeyPress(key))}
+            onMouseDown={(e) => handleMouseAction(e, () => onKeyPress(key))}
+            onTouchStart={(e) => handleKeyAction(e, () => onKeyPress(key))}
             className="flex-1 max-w-[40px] sm:max-w-[50px] h-12 bg-white dark:bg-gray-600 hover:bg-gray-200 dark:hover:bg-gray-500 rounded-lg font-semibold text-gray-900 dark:text-white transition-colors active:scale-95 shadow-sm"
           >
             {key}
@@ -92,8 +101,8 @@ export function SpanishKeyboard({ onKeyPress, onBackspace, onEnter }: SpanishKey
           <button
             key={key}
             data-key={key}
-            onMouseDown={(e) => handleKeyAction(e, key, () => onKeyPress(key))}
-            onTouchStart={(e) => handleKeyAction(e, key, () => onKeyPress(key))}
+            onMouseDown={(e) => handleMouseAction(e, () => onKeyPress(key))}
+            onTouchStart={(e) => handleKeyAction(e, () => onKeyPress(key))}
             className="flex-1 max-w-[40px] sm:max-w-[50px] h-12 bg-white dark:bg-gray-600 hover:bg-gray-200 dark:hover:bg-gray-500 rounded-lg font-semibold text-gray-900 dark:text-white transition-colors active:scale-95 shadow-sm"
           >
             {key}
@@ -101,8 +110,8 @@ export function SpanishKeyboard({ onKeyPress, onBackspace, onEnter }: SpanishKey
         ))}
         <button
           data-key="backspace"
-          onMouseDown={(e) => handleKeyAction(e, 'backspace', onBackspace)}
-          onTouchStart={(e) => handleKeyAction(e, 'backspace', onBackspace)}
+          onMouseDown={(e) => handleMouseAction(e, onBackspace)}
+          onTouchStart={(e) => handleKeyAction(e, onBackspace)}
           className="flex-1 max-w-[60px] h-12 bg-red-500 hover:bg-red-600 dark:bg-red-600 dark:hover:bg-red-700 rounded-lg font-semibold text-white transition-colors active:scale-95 shadow-sm"
         >
           ⌫
@@ -113,16 +122,16 @@ export function SpanishKeyboard({ onKeyPress, onBackspace, onEnter }: SpanishKey
       <div className="flex justify-center gap-1 sm:gap-2">
         <button
           data-key=" "
-          onMouseDown={(e) => handleKeyAction(e, ' ', () => onKeyPress(' '))}
-          onTouchStart={(e) => handleKeyAction(e, ' ', () => onKeyPress(' '))}
+          onMouseDown={(e) => handleMouseAction(e, () => onKeyPress(' '))}
+          onTouchStart={(e) => handleKeyAction(e, () => onKeyPress(' '))}
           className="flex-[4] h-12 bg-white dark:bg-gray-600 hover:bg-gray-200 dark:hover:bg-gray-500 rounded-lg font-semibold text-gray-900 dark:text-white transition-colors active:scale-95 shadow-sm"
         >
           espacio
         </button>
         <button
           data-key="enter"
-          onMouseDown={(e) => handleKeyAction(e, 'enter', onEnter)}
-          onTouchStart={(e) => handleKeyAction(e, 'enter', onEnter)}
+          onMouseDown={(e) => handleMouseAction(e, onEnter)}
+          onTouchStart={(e) => handleKeyAction(e, onEnter)}
           className="flex-1 max-w-[80px] h-12 bg-green-500 hover:bg-green-600 dark:bg-green-600 dark:hover:bg-green-700 rounded-lg font-semibold text-white transition-colors active:scale-95 shadow-sm"
         >
           ↵
