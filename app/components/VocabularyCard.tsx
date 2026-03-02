@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react';
 import { TranslationResult } from '@/hooks/useVocabulary';
 
 interface VocabularyCardProps {
@@ -13,6 +14,18 @@ export function VocabularyCard({
   onCheckAnswer,
   onToggleSolution,
 }: VocabularyCardProps) {
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    // Keep focus on iOS Safari by maintaining the same input element
+    if (inputRef.current && !word.isCorrect) {
+      // Small delay to ensure DOM is ready after state update
+      const timer = setTimeout(() => {
+        inputRef.current?.focus();
+      }, 50);
+      return () => clearTimeout(timer);
+    }
+  }, [word.french, word.isCorrect]);
 
   return (
     <div className={`bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-6 sm:p-8 md:p-10 transition-all ${
@@ -33,6 +46,7 @@ export function VocabularyCard({
 
       <div className="space-y-4">
         <input
+          ref={inputRef}
           type="text"
           value={word.userAnswer || ''}
           onChange={(e) => onAnswerChange(e.target.value)}

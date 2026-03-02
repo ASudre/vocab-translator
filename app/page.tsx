@@ -90,7 +90,6 @@ export default function Home() {
         {words.length > 0 && currentWord && (
           <div className="relative">
             <div
-              key={currentIndex}
               className={`transition-all duration-300 ${
                 slideDirection === 'left' ? '-translate-x-full opacity-0' : 
                 slideDirection === 'right' ? 'translate-x-full opacity-0' : 
@@ -98,6 +97,7 @@ export default function Home() {
               } ${shakeAnimation ? 'animate-shake' : ''}`}
             >
               <VocabularyCard
+                key={currentWord.french}
                 word={currentWord}
                 onAnswerChange={handleAnswerChange}
                 onCheckAnswer={handleCheckAnswer}
