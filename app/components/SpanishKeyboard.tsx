@@ -7,7 +7,7 @@ interface SpanishKeyboardProps {
 }
 
 export function SpanishKeyboard({ onKeyPress, onBackspace, onEnter }: SpanishKeyboardProps) {
-  const specialChars = ['á', 'é', 'í', 'ó', 'ú', '¿', '¡'];
+  const specialChars = ['á', 'é', 'í', 'ó', 'ú',  '¡', '!','¿', '?'];
   const activeTouchesRef = useRef<Set<number>>(new Set());
   const touchUsedRef = useRef(false);
 
