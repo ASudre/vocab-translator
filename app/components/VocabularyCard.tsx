@@ -3,13 +3,11 @@ import { TranslationResult } from '@/hooks/useVocabulary';
 
 interface VocabularyCardProps {
   word: TranslationResult;
-  onAnswerChange: (value: string) => void;
   onCheckAnswer: () => void;
 }
 
 export function VocabularyCard({
   word,
-  onAnswerChange,
   onCheckAnswer,
 }: VocabularyCardProps) {
   const inputRef = useRef<HTMLInputElement>(null);
@@ -35,7 +33,7 @@ export function VocabularyCard({
           ref={inputRef}
           type="text"
           value={word.showSolution ? word.spanish : (word.userAnswer || '')}
-          onChange={(e) => onAnswerChange(e.target.value)}
+          readOnly
           onKeyDown={(e) => {
             if (e.key === 'Enter' && word.userAnswer) {
               onCheckAnswer();

@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useMemo, useCallback } from 'react';
 import { useVocabulary } from '@/hooks/useVocabulary';
 import { useCardNavigation } from '@/hooks/useCardNavigation';
 import { checkAnswerCorrectness } from '@/lib/helpers';
@@ -17,12 +17,19 @@ export default function Home() {
     triggerShake,
     autoAdvance,
   } = useCardNavigation(words.length);
-
+  
   const currentWord = words[currentIndex];
 
-  const correctAnswers = words.filter(w => w.isCorrect === true).length;
-  const incorrectAnswers = words.filter(w => w.isCorrect === false).length;
-  const totalAnswers = correctAnswers + incorrectAnswers;
+  // Memoize statistics calculation to avoid recalculating on every keystroke
+  const { correctAnswers, incorrectAnswers, totalAnswers } = useMemo(() => {
+    const correct = words.filter(w => w.isCorrect === true).length;
+    const incorrect = words.filter(w => w.isCorrect === false).length;
+    return {
+      correctAnswers: correct,
+      incorrectAnswers: incorrect,
+      totalAnswers: correct + incorrect
+    };
+  }, [words]);
 
   useEffect(() => {
     const wordsRemaining = words.length - currentIndex;
@@ -31,19 +38,33 @@ export default function Home() {
     }
   }, [currentIndex, words.length, loading, fetchWords]);
 
-  const handleAnswerChange = (value: string) => {
+  const handleKeyPress = useCallback((key: string) => {
     setWords(prevWords => {
       const newWords = [...prevWords];
+      const currentValue = newWords[currentIndex].userAnswer || '';
       newWords[currentIndex] = {
         ...newWords[currentIndex],
-        userAnswer: value,
+        userAnswer: currentValue + key,
         isCorrect: null
       };
       return newWords;
     });
-  };
+  }, [currentIndex, setWords]);
 
-  const handleCheckAnswer = () => {
+  const handleBackspace = useCallback(() => {
+    setWords(prevWords => {
+      const newWords = [...prevWords];
+      const currentValue = newWords[currentIndex].userAnswer || '';
+      newWords[currentIndex] = {
+        ...newWords[currentIndex],
+        userAnswer: currentValue.slice(0, -1),
+        isCorrect: null
+      };
+      return newWords;
+    });
+  }, [currentIndex, setWords]);
+
+  const handleCheckAnswer = useCallback(() => {
     const word = words[currentIndex];
     const isCorrect = checkAnswerCorrectness(
       word.userAnswer || '',
@@ -65,25 +86,28 @@ export default function Home() {
     } else {
       triggerShake();
     }
-  };
+  }, [words, currentIndex, setWords, autoAdvance, triggerShake]);
 
-  const handleToggleSolution = () => {
+  const handleToggleSolution = useCallback(() => {
     setWords(prevWords => {
       const newWords = [...prevWords];
       const currentWord = newWords[currentIndex];
+      const wasNull = currentWord.isCorrect === null;
+      const willShowSolution = !currentWord.showSolution;
+
       newWords[currentIndex] = {
         ...currentWord,
-        showSolution: !currentWord.showSolution,
+        showSolution: willShowSolution,
         // Mark as incorrect when showing solution (if not already answered)
-        isCorrect: !currentWord.showSolution && currentWord.isCorrect === null ? false : currentWord.isCorrect
+        isCorrect: willShowSolution && wasNull ? false : currentWord.isCorrect
       };
       return newWords;
     });
-  };
+  }, [currentIndex, setWords]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800">
-      <main className="container mx-auto px-4 py-6 sm:py-12 max-w-2xl pb-[400px]">
+    <div className="h-screen flex flex-col bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 overflow-hidden">
+      <main className="flex-1 overflow-y-auto container mx-auto px-4 py-6 sm:py-12 max-w-2xl">
         <div className="text-center mb-6">
           <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-2">
             Trouver la traduction
@@ -110,7 +134,6 @@ export default function Home() {
               <VocabularyCard
                 key={currentWord.french}
                 word={currentWord}
-                onAnswerChange={handleAnswerChange}
                 onCheckAnswer={handleCheckAnswer}
               />
             </div>
@@ -126,7 +149,8 @@ export default function Home() {
 
       <FixedKeyboard
         currentWord={currentWord}
-        onAnswerChange={handleAnswerChange}
+        onKeyPress={handleKeyPress}
+        onBackspace={handleBackspace}
         onCheckAnswer={handleCheckAnswer}
         onToggleSolution={handleToggleSolution}
         onNext={goToNext}
