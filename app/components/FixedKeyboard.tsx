@@ -6,12 +6,16 @@ interface FixedKeyboardProps {
   currentWord: TranslationResult | undefined;
   onAnswerChange: (value: string) => void;
   onCheckAnswer: () => void;
+  onToggleSolution: () => void;
+  onNext: () => void;
 }
 
 export function FixedKeyboard({
   currentWord,
   onAnswerChange,
   onCheckAnswer,
+  onToggleSolution,
+  onNext,
 }: FixedKeyboardProps) {
   const handleKeyPress = useCallback((key: string) => {
     if (!currentWord) return;
@@ -37,6 +41,9 @@ export function FixedKeyboard({
           onKeyPress={handleKeyPress}
           onBackspace={handleBackspace}
           onEnter={onCheckAnswer}
+          onToggleSolution={onToggleSolution}
+          onNext={onNext}
+          showSolution={currentWord?.showSolution || false}
         />
       </div>
     </div>

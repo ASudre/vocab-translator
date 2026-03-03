@@ -4,14 +4,12 @@ import { TranslationResult } from '@/hooks/useVocabulary';
 interface VocabularyCardProps {
   word: TranslationResult;
   onAnswerChange: (value: string) => void;
-  onToggleSolution: () => void;
   onCheckAnswer: () => void;
 }
 
 export function VocabularyCard({
   word,
   onAnswerChange,
-  onToggleSolution,
   onCheckAnswer,
 }: VocabularyCardProps) {
   const inputRef = useRef<HTMLInputElement>(null);
@@ -20,19 +18,10 @@ export function VocabularyCard({
     <div className={`relative bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-6 sm:p-8 md:p-10 transition-all ${
         word.isCorrect === true
           ? 'ring-4 ring-green-500 ring-offset-0'
-          : word.isCorrect === false
+          : word.isCorrect === false && !word.showSolution
           ? 'ring-4 ring-red-500 ring-offset-0'
           : ''
       }`}>
-        {/* Hint/Solution button - top right corner */}
-        <button
-          onClick={onToggleSolution}
-          className="absolute top-4 right-4 w-10 h-10 bg-amber-600 hover:bg-amber-700 text-white font-semibold rounded-full transition-all transform hover:scale-110 shadow-lg flex items-center justify-center"
-          title={word.showSolution ? 'Cacher la solution' : 'Afficher un indice'}
-        >
-          {word.showSolution ? '🙈' : '💡'}
-        </button>
-
         <div className="text-center mb-8">
           <div className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4">
             {word.french}
@@ -45,7 +34,7 @@ export function VocabularyCard({
         <input
           ref={inputRef}
           type="text"
-          value={word.userAnswer || ''}
+          value={word.showSolution ? word.spanish : (word.userAnswer || '')}
           onChange={(e) => onAnswerChange(e.target.value)}
           onKeyDown={(e) => {
             if (e.key === 'Enter' && word.userAnswer) {
@@ -53,14 +42,16 @@ export function VocabularyCard({
             }
           }}
           placeholder="Écris la traduction en espagnol..."
-          disabled={word.isCorrect === true}
+          disabled={word.isCorrect === true || word.showSolution}
           autoFocus
           autoComplete="off"
           autoCorrect="off"
           autoCapitalize="off"
           spellCheck="false"
           inputMode="none"
-          className="w-full px-4 py-4 text-lg text-center border-2 border-gray-300 dark:border-gray-600 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-transparent dark:bg-gray-700 dark:text-white disabled:bg-gray-100 dark:disabled:bg-gray-900 disabled:cursor-not-allowed"
+          className={`w-full px-4 py-4 text-lg text-center border-2 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-transparent dark:bg-gray-700 dark:text-white disabled:bg-gray-100 dark:disabled:bg-gray-900 disabled:cursor-not-allowed caret-transparent ${
+            word.showSolution ? 'border-blue-500 dark:border-blue-400 text-blue-600 dark:text-blue-400 font-bold' : 'border-gray-300 dark:border-gray-600'
+          }`}
         />
 
         {word.isCorrect === true && (
@@ -72,7 +63,7 @@ export function VocabularyCard({
           </div>
         )}
 
-        {word.isCorrect === false && (
+        {word.isCorrect === false && !word.showSolution && (
           <div className="space-y-2 mt-4">
             <div className="flex items-center justify-center gap-3 text-red-600 dark:text-red-400 font-bold text-xl">
               <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
@@ -82,17 +73,6 @@ export function VocabularyCard({
             </div>
             <div className="text-center text-gray-600 dark:text-gray-400">
               Indice: Commence par <span className="font-bold text-indigo-600 dark:text-indigo-400">&quot;{word.spanish[0]}&quot;</span>
-            </div>
-          </div>
-        )}
-
-        {word.showSolution && (
-          <div className="p-4 bg-blue-50 dark:bg-blue-900/20 rounded-xl border-2 border-blue-200 dark:border-blue-800 text-center mt-4">
-            <div className="text-sm font-medium text-blue-900 dark:text-blue-100 mb-1">
-              Solution:
-            </div>
-            <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">
-              {word.spanish}
             </div>
           </div>
         )}

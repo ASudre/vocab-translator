@@ -15,7 +15,6 @@ export const useVocabulary = (wordCount: number = 10) => {
 
   const fetchWords = useCallback(async () => {
     setLoading(true);
-    setWords([]);
 
     try {
       const { data, error } = await supabase
@@ -34,7 +33,7 @@ export const useVocabulary = (wordCount: number = 10) => {
         showSolution: false
       }));
       
-      setWords(vocabItems);
+      setWords(prevWords => [...prevWords, ...vocabItems]);
     } catch (error) {
       console.error('Error loading vocabulary:', error);
     } finally {

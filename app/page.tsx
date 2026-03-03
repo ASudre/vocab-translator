@@ -1,10 +1,10 @@
 'use client';
 
+import { useEffect } from 'react';
 import { useVocabulary } from '@/hooks/useVocabulary';
 import { useCardNavigation } from '@/hooks/useCardNavigation';
 import { checkAnswerCorrectness } from '@/lib/helpers';
 import { VocabularyCard } from './components/VocabularyCard';
-import { NavigationButtons } from './components/NavigationButtons';
 import { FixedKeyboard } from './components/FixedKeyboard';
 
 export default function Home() {
@@ -14,13 +14,22 @@ export default function Home() {
     slideDirection,
     shakeAnimation,
     goToNext,
-    goToPrevious,
     triggerShake,
     autoAdvance,
-    reset,
   } = useCardNavigation(words.length);
 
   const currentWord = words[currentIndex];
+
+  const correctAnswers = words.filter(w => w.isCorrect === true).length;
+  const incorrectAnswers = words.filter(w => w.isCorrect === false).length;
+  const totalAnswers = correctAnswers + incorrectAnswers;
+
+  useEffect(() => {
+    const wordsRemaining = words.length - currentIndex;
+    if (wordsRemaining === 1 && !loading) {
+      fetchWords();
+    }
+  }, [currentIndex, words.length, loading, fetchWords]);
 
   const handleAnswerChange = (value: string) => {
     setWords(prevWords => {
@@ -36,7 +45,7 @@ export default function Home() {
 
   const handleCheckAnswer = () => {
     const word = words[currentIndex];
-    const { isCorrect, showSolution } = checkAnswerCorrectness(
+    const isCorrect = checkAnswerCorrectness(
       word.userAnswer || '',
       word.spanish
     );
@@ -46,7 +55,7 @@ export default function Home() {
       newWords[currentIndex] = {
         ...newWords[currentIndex],
         isCorrect,
-        showSolution
+        userAnswer: isCorrect ? newWords[currentIndex].userAnswer : ''
       };
       return newWords;
     });
@@ -61,17 +70,15 @@ export default function Home() {
   const handleToggleSolution = () => {
     setWords(prevWords => {
       const newWords = [...prevWords];
+      const currentWord = newWords[currentIndex];
       newWords[currentIndex] = {
-        ...newWords[currentIndex],
-        showSolution: !newWords[currentIndex].showSolution
+        ...currentWord,
+        showSolution: !currentWord.showSolution,
+        // Mark as incorrect when showing solution (if not already answered)
+        isCorrect: !currentWord.showSolution && currentWord.isCorrect === null ? false : currentWord.isCorrect
       };
       return newWords;
     });
-  };
-
-  const handleNewWords = async () => {
-    reset();
-    await fetchWords();
   };
 
   return (
@@ -81,11 +88,14 @@ export default function Home() {
           <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-2">
             Trouver la traduction
           </h1>
-          {words.length > 0 && (
-            <p className="text-sm text-gray-600 dark:text-gray-400">
-              Mot {currentIndex + 1} sur {words.length}
-            </p>
-          )}
+          <p className="text-sm text-gray-600 dark:text-gray-400">
+            <span className="text-green-600 dark:text-green-400 font-semibold">{correctAnswers}</span>
+            {' / '}
+            <span className="text-red-600 dark:text-red-400 font-semibold">{incorrectAnswers}</span>
+            {' sur '}
+            <span className="font-semibold">{totalAnswers}</span>
+            {' réponses'}
+          </p>
         </div>
 
         {words.length > 0 && currentWord && (
@@ -101,15 +111,7 @@ export default function Home() {
                 key={currentWord.french}
                 word={currentWord}
                 onAnswerChange={handleAnswerChange}
-                onToggleSolution={handleToggleSolution}
                 onCheckAnswer={handleCheckAnswer}
-              />
-              <NavigationButtons
-                currentIndex={currentIndex}
-                totalWords={words.length}
-                onPrevious={goToPrevious}
-                onNext={goToNext}
-                onNewWords={handleNewWords}
               />
             </div>
           </div>
@@ -126,6 +128,8 @@ export default function Home() {
         currentWord={currentWord}
         onAnswerChange={handleAnswerChange}
         onCheckAnswer={handleCheckAnswer}
+        onToggleSolution={handleToggleSolution}
+        onNext={goToNext}
       />
     </div>
   );
