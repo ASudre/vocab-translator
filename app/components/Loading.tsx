@@ -67,8 +67,8 @@ export function Loading() {
           </div>
         </div>
         
-        <h1 className="text-3xl font-bold text-white mb-2">Vocab Translator</h1>
-        <p className="text-indigo-100 text-sm">Loading your vocabulary...</p>
+        <h1 className="text-3xl font-bold text-white mb-2">Vocalista</h1>
+        <p className="text-indigo-100 text-sm">Maîtrisez l&apos;espagnol, un mot à la fois</p>
       </div>
     </div>
   );

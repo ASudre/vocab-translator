@@ -1,4 +1,5 @@
 import { useRef } from 'react';
+import { Key } from './Key';
 
 interface SpanishKeyboardProps {
   onKeyPress: (key: string) => void;
@@ -50,114 +51,99 @@ export function SpanishKeyboard({ onKeyPress, onBackspace, onEnter, onToggleSolu
 
   return (
     <div 
-      className="bg-gray-100 dark:bg-gray-700 p-1 space-y-2 select-none"
+      className="bg-gray-100 dark:bg-gray-700 select-none"
       onTouchEnd={handleTouchEnd}
     >
       {/* Special characters row */}
-      <div className="flex justify-center gap-1 sm:gap-2">
+      <div className="flex justify-center">
         {specialChars.map((char) => (
-          <button
+          <Key
             key={char}
-            data-key={char}
-            onMouseDown={(e) => handleMouseAction(e, () => onKeyPress(char))}
-            onTouchStart={(e) => handleKeyAction(e, () => onKeyPress(char))}
-            className="flex-1 max-w-[40px] sm:max-w-[50px] h-12 bg-amber-500 hover:bg-amber-600 dark:bg-amber-600 dark:hover:bg-amber-700 rounded-lg font-semibold text-lg text-white transition-colors active:scale-95 shadow-sm"
-          >
-            {char}
-          </button>
+            value={char}
+            onPress={() => onKeyPress(char)}
+            onMouseAction={handleMouseAction}
+            onTouchAction={handleKeyAction}
+            variant="special"
+          />
         ))}
       </div>
 
       {/* First row */}
-      <div className="flex justify-center gap-1 sm:gap-2">
+      <div className="flex justify-center">
         {['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p'].map((key) => (
-          <button
+          <Key
             key={key}
-            data-key={key}
-            onMouseDown={(e) => handleMouseAction(e, () => onKeyPress(key))}
-            onTouchStart={(e) => handleKeyAction(e, () => onKeyPress(key))}
-            className="flex-1 max-w-[40px] sm:max-w-[50px] h-12 bg-white dark:bg-gray-600 hover:bg-gray-200 dark:hover:bg-gray-500 rounded-lg font-semibold text-lg text-gray-900 dark:text-white transition-colors active:scale-95 shadow-sm"
-          >
-            {key}
-          </button>
+            value={key}
+            onPress={() => onKeyPress(key)}
+            onMouseAction={handleMouseAction}
+            onTouchAction={handleKeyAction}
+          />
         ))}
       </div>
 
       {/* Second row */}
-      <div className="flex justify-center gap-1 sm:gap-2">
+      <div className="flex justify-center">
         {['a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'ñ'].map((key) => (
-          <button
+          <Key
             key={key}
-            data-key={key}
-            onMouseDown={(e) => handleMouseAction(e, () => onKeyPress(key))}
-            onTouchStart={(e) => handleKeyAction(e, () => onKeyPress(key))}
-            className="flex-1 max-w-[40px] sm:max-w-[50px] h-12 bg-white dark:bg-gray-600 hover:bg-gray-200 dark:hover:bg-gray-500 rounded-lg font-semibold text-lg text-gray-900 dark:text-white transition-colors active:scale-95 shadow-sm"
-          >
-            {key}
-          </button>
+            value={key}
+            onPress={() => onKeyPress(key)}
+            onMouseAction={handleMouseAction}
+            onTouchAction={handleKeyAction}
+          />
         ))}
       </div>
 
       {/* Third row with backspace */}
-      <div className="flex justify-center gap-1 sm:gap-2">
+      <div className="flex justify-center">
         {['z', 'x', 'c', 'v', 'b', 'n', 'm'].map((key) => (
-          <button
+          <Key
             key={key}
-            data-key={key}
-            onMouseDown={(e) => handleMouseAction(e, () => onKeyPress(key))}
-            onTouchStart={(e) => handleKeyAction(e, () => onKeyPress(key))}
-            className="flex-1 max-w-[40px] sm:max-w-[50px] h-12 bg-white dark:bg-gray-600 hover:bg-gray-200 dark:hover:bg-gray-500 rounded-lg font-semibold text-lg text-gray-900 dark:text-white transition-colors active:scale-95 shadow-sm"
-          >
-            {key}
-          </button>
+            value={key}
+            onPress={() => onKeyPress(key)}
+            onMouseAction={handleMouseAction}
+            onTouchAction={handleKeyAction}
+          />
         ))}
-        <button
-          data-key="backspace"
-          onMouseDown={(e) => !showSolution && handleMouseAction(e, onBackspace)}
-          onTouchStart={(e) => !showSolution && handleKeyAction(e, onBackspace)}
+        <Key
+          value="⌫"
+          onPress={onBackspace}
+          onMouseAction={handleMouseAction}
+          onTouchAction={handleKeyAction}
+          variant="danger"
           disabled={showSolution}
-          className={`flex-1 max-w-[60px] h-12 rounded-lg font-semibold text-lg text-white transition-colors active:scale-95 shadow-sm ${
-            showSolution 
-              ? 'bg-gray-400 dark:bg-gray-600 cursor-not-allowed opacity-50' 
-              : 'bg-red-500 hover:bg-red-600 dark:bg-red-600 dark:hover:bg-red-700'
-          }`}
-        >
-          ⌫
-        </button>
+          maxWidth="max-w-[60px]"
+        />
       </div>
 
       {/* Space and enter row */}
-      <div className="flex justify-center gap-1 sm:gap-2">
-        <button
-          data-key="solution"
-          onMouseDown={(e) => handleMouseAction(e, showSolution ? onNext : onToggleSolution)}
-          onTouchStart={(e) => handleKeyAction(e, showSolution ? onNext : onToggleSolution)}
-          className="flex-1 max-w-[60px] h-12 bg-amber-500 hover:bg-amber-600 dark:bg-amber-600 dark:hover:bg-amber-700 rounded-lg font-semibold text-xl text-white transition-colors shadow-sm"
-          title={showSolution ? 'Mot suivant' : 'Afficher un indice'}
-        >
-          {showSolution ? '→' : '💡'}
-        </button>
-        <button
-          data-key=" "
-          onMouseDown={(e) => handleMouseAction(e, () => onKeyPress(' '))}
-          onTouchStart={(e) => handleKeyAction(e, () => onKeyPress(' '))}
-          className="flex-[4] h-12 bg-white dark:bg-gray-600 hover:bg-gray-200 dark:hover:bg-gray-500 rounded-lg font-semibold text-lg text-gray-900 dark:text-white transition-colors active:scale-95 shadow-sm"
-        >
-          espacio
-        </button>
-        <button
-          data-key="enter"
-          onMouseDown={(e) => !showSolution && handleMouseAction(e, onEnter)}
-          onTouchStart={(e) => !showSolution && handleKeyAction(e, onEnter)}
+      <div className="flex justify-center">
+        <Key
+          value={showSolution ? '→' : '💡'}
+          onPress={showSolution ? onNext : onToggleSolution}
+          onMouseAction={handleMouseAction}
+          onTouchAction={handleKeyAction}
+          variant="special"
+          maxWidth="max-w-[60px]"
+          className="text-xl"
+        />
+        <Key
+          value="espacio"
+          onPress={() => onKeyPress(' ')}
+          onMouseAction={handleMouseAction}
+          onTouchAction={handleKeyAction}
+          flex="flex-[4]"
+          maxWidth=""
+        />
+        <Key
+          value="↵"
+          onPress={onEnter}
+          onMouseAction={handleMouseAction}
+          onTouchAction={handleKeyAction}
+          variant="success"
           disabled={showSolution}
-          className={`flex-1 max-w-[80px] h-12 rounded-lg font-semibold text-lg text-white transition-colors active:scale-95 shadow-sm ${
-            showSolution 
-              ? 'bg-gray-400 dark:bg-gray-600 cursor-not-allowed opacity-50' 
-              : 'bg-green-500 hover:bg-green-600 dark:bg-green-600 dark:hover:bg-green-700'
-          }`}
-        >
-          ↵
-        </button>
+          maxWidth="max-w-[80px]"
+        />
       </div>
     </div>
   );

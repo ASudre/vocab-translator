@@ -1,7 +1,7 @@
 {
-  "name": "Vocab Translator",
-  "short_name": "Vocab",
-  "description": "Learn vocabulary with interactive translations. Practice A1 level words and track your progress.",
+  "name": "Vocalista",
+  "short_name": "Vocalista",
+  "description": "Apprenez l'espagnol avec des traductions interactives. Pratiquez le vocabulaire et suivez vos progrès.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -38,9 +38,9 @@
   ],
   "shortcuts": [
     {
-      "name": "Practice Vocabulary",
-      "short_name": "Practice",
-      "description": "Start practicing vocabulary",
+      "name": "Pratiquer le vocabulaire",
+      "short_name": "Pratiquer",
+      "description": "Commencer à pratiquer le vocabulaire",
       "url": "/",
       "icons": [{ "src": "/icon.svg", "sizes": "96x96" }]
     }
