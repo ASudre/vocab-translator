@@ -89,9 +89,13 @@ export default function Home() {
         
         setWords(prevWords => {
           const newWords = [...prevWords];
+          const currentAttemptHistory = newWords[currentIndex].attemptHistory || [];
+          const newAttemptHistory = [...currentAttemptHistory, isCorrect].slice(-3);
+          
           newWords[currentIndex] = {
             ...newWords[currentIndex],
-            progressSaved: true
+            progressSaved: true,
+            attemptHistory: newAttemptHistory
           };
           return newWords;
         });
@@ -132,9 +136,13 @@ export default function Home() {
         
         setWords(prevWords => {
           const newWords = [...prevWords];
+          const currentAttemptHistory = newWords[currentIndex].attemptHistory || [];
+          const newAttemptHistory = [...currentAttemptHistory, false].slice(-3);
+          
           newWords[currentIndex] = {
             ...newWords[currentIndex],
-            progressSaved: true
+            progressSaved: true,
+            attemptHistory: newAttemptHistory
           };
           return newWords;
         });
