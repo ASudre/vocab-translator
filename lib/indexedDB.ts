@@ -1,5 +1,5 @@
 const DB_NAME = 'VocabTranslatorDB';
-const DB_VERSION = 3;
+const DB_VERSION = 4;
 const STORE_NAME = 'vocabulary';
 const PROGRESS_STORE_NAME = 'userProgress';
 
@@ -21,7 +21,7 @@ export interface UserProgress {
   currentStreak: number;
   lastPracticed: string;
   attemptHistory: boolean[];
-  isMastered: number;
+  masteryLevel: number;
 }
 
 let dbInstance: IDBDatabase | null = null;
@@ -65,14 +65,19 @@ export const initDB = (): Promise<IDBDatabase> => {
         
         progressStore.createIndex('vocabularyId', 'vocabularyId', { unique: true });
         progressStore.createIndex('lastPracticed', 'lastPracticed', { unique: false });
-        progressStore.createIndex('isMastered', 'isMastered', { unique: false });
+        progressStore.createIndex('masteryLevel', 'masteryLevel', { unique: false });
       }
       
-      if (db.objectStoreNames.contains(PROGRESS_STORE_NAME) && event.oldVersion < 3) {
+      if (db.objectStoreNames.contains(PROGRESS_STORE_NAME) && event.oldVersion < 4) {
         const tx = (event.target as IDBOpenDBRequest).transaction!;
         const progressStore = tx.objectStore(PROGRESS_STORE_NAME);
-        if (!progressStore.indexNames.contains('isMastered')) {
-          progressStore.createIndex('isMastered', 'isMastered', { unique: false });
+        
+        if (progressStore.indexNames.contains('isMastered')) {
+          progressStore.deleteIndex('isMastered');
+        }
+        
+        if (!progressStore.indexNames.contains('masteryLevel')) {
+          progressStore.createIndex('masteryLevel', 'masteryLevel', { unique: false });
         }
       }
     };
@@ -119,16 +124,16 @@ export const getVocabularyCount = async (): Promise<number> => {
   });
 };
 
-export const getRandomVocabulary = async (count: number): Promise<VocabularyEntry[]> => {
+export const getUnmasteredVocabulary = async (count: number): Promise<VocabularyEntry[]> => {
   const db = await initDB();
   
   return new Promise((resolve, reject) => {
     const transaction = db.transaction([STORE_NAME, PROGRESS_STORE_NAME], 'readonly');
     const vocabStore = transaction.objectStore(STORE_NAME);
     const progressStore = transaction.objectStore(PROGRESS_STORE_NAME);
-    const masteredIndex = progressStore.index('isMastered');
+    const masteryIndex = progressStore.index('masteryLevel');
     
-    const masteredRequest = masteredIndex.getAll(IDBKeyRange.only(1));
+    const masteredRequest = masteryIndex.getAll(IDBKeyRange.only(3));
     
     masteredRequest.onsuccess = () => {
       const masteredProgress = masteredRequest.result as UserProgress[];
@@ -239,7 +244,16 @@ export const saveUserProgress = async (vocabularyId: number, isCorrect: boolean)
         const newBestStreak = Math.max(existingProgress.bestStreak, newCurrentStreak);
         
         const newAttemptHistory = [...(existingProgress.attemptHistory || []), isCorrect].slice(-3);
-        const isMastered = (newAttemptHistory.length >= 3 && newAttemptHistory.every(attempt => attempt === true)) ? 1 : 0;
+        
+        // Calculate masteryLevel: count consecutive successes from the end (0-3)
+        let masteryLevel = 0;
+        for (let i = newAttemptHistory.length - 1; i >= 0; i--) {
+          if (newAttemptHistory[i] === true) {
+            masteryLevel++;
+          } else {
+            break;
+          }
+        }
 
         progressData = {
           id: existingProgress.id,
@@ -250,12 +264,12 @@ export const saveUserProgress = async (vocabularyId: number, isCorrect: boolean)
           bestStreak: newBestStreak,
           lastPracticed: new Date().toISOString(),
           attemptHistory: newAttemptHistory,
-          isMastered
+          masteryLevel
         };
 
         objectStore.put(progressData);
       } else {
-        const isMastered = isCorrect ? 1 : 0;
+        const masteryLevel = isCorrect ? 1 : 0;
 
         progressData = {
           vocabularyId,
@@ -265,7 +279,7 @@ export const saveUserProgress = async (vocabularyId: number, isCorrect: boolean)
           bestStreak: isCorrect ? 1 : 0,
           lastPracticed: new Date().toISOString(),
           attemptHistory: [isCorrect],
-          isMastered
+          masteryLevel
         };
 
         objectStore.add(progressData);
@@ -301,6 +315,52 @@ export const getAllUserProgress = async (): Promise<UserProgress[]> => {
 
     getAllRequest.onerror = () => {
       reject(new Error('Failed to get all user progress'));
+    };
+  });
+};
+
+export const getMasteryStats = async (): Promise<{ total: number; mastered: number; percentage: number }> => {
+  const db = await initDB();
+  
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction([STORE_NAME, PROGRESS_STORE_NAME], 'readonly');
+    const vocabStore = transaction.objectStore(STORE_NAME);
+    const progressStore = transaction.objectStore(PROGRESS_STORE_NAME);
+    
+    const countRequest = vocabStore.count();
+    
+    countRequest.onsuccess = () => {
+      const totalWords = countRequest.result;
+      
+      const getAllProgressRequest = progressStore.getAll();
+      
+      getAllProgressRequest.onsuccess = () => {
+        const allProgress = getAllProgressRequest.result as UserProgress[];
+        
+        // Sum all mastery levels (0-3 per word)
+        const totalMasteryPoints = allProgress.reduce((sum, progress) => sum + (progress.masteryLevel || 0), 0);
+        
+        // Count words with masteryLevel = 3
+        const masteredWords = allProgress.filter(p => p.masteryLevel === 3).length;
+        
+        // Maximum possible points: totalWords * 3
+        const maxPoints = totalWords * 3;
+        const percentage = maxPoints > 0 ? Math.round((totalMasteryPoints / maxPoints) * 100) : 0;
+        
+        resolve({
+          total: totalWords,
+          mastered: masteredWords,
+          percentage
+        });
+      };
+      
+      getAllProgressRequest.onerror = () => {
+        reject(new Error('Failed to get progress data'));
+      };
+    };
+    
+    countRequest.onerror = () => {
+      reject(new Error('Failed to count total words'));
     };
   });
 };

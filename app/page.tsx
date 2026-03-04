@@ -1,15 +1,16 @@
 'use client';
 
-import { useEffect, useMemo, useCallback } from 'react';
+import { useEffect, useCallback, useState } from 'react';
 import { useVocabularyDB } from '@/hooks/useVocabularyDB';
 import { useCardNavigation } from '@/hooks/useCardNavigation';
 import { checkAnswerCorrectness } from '@/lib/helpers';
-import { saveUserProgress } from '@/lib/indexedDB';
+import { saveUserProgress, getMasteryStats } from '@/lib/indexedDB';
 import { VocabularyCard } from './components/VocabularyCard';
 import { FixedKeyboard } from './components/FixedKeyboard';
 
 export default function Home() {
   const { words, setWords, loading, fetchWords } = useVocabularyDB(10);
+  const [masteryStats, setMasteryStats] = useState({ total: 0, mastered: 0, percentage: 0 });
   const {
     currentIndex,
     slideDirection,
@@ -21,16 +22,27 @@ export default function Home() {
   
   const currentWord = words[currentIndex];
 
-  // Memoize statistics calculation to avoid recalculating on every keystroke
-  const { correctAnswers, incorrectAnswers, totalAnswers } = useMemo(() => {
-    const correct = words.filter(w => w.isCorrect === true).length;
-    const incorrect = words.filter(w => w.isCorrect === false).length;
-    return {
-      correctAnswers: correct,
-      incorrectAnswers: incorrect,
-      totalAnswers: correct + incorrect
+  // Load mastery stats on mount
+  useEffect(() => {
+    const loadStats = async () => {
+      try {
+        const stats = await getMasteryStats();
+        setMasteryStats(stats);
+      } catch (error) {
+        console.error('Failed to load mastery stats:', error);
+      }
     };
-  }, [words]);
+    loadStats();
+  }, []);
+
+  const updateMasteryStats = useCallback(async () => {
+    try {
+      const stats = await getMasteryStats();
+      setMasteryStats(stats);
+    } catch (error) {
+      console.error('Failed to update mastery stats:', error);
+    }
+  }, []);
 
   useEffect(() => {
     const wordsRemaining = words.length - currentIndex;
@@ -99,6 +111,8 @@ export default function Home() {
           };
           return newWords;
         });
+        
+        await updateMasteryStats();
       } catch (error) {
         console.error('Failed to save progress:', error);
       }
@@ -109,7 +123,7 @@ export default function Home() {
     } else {
       triggerShake();
     }
-  }, [words, currentIndex, setWords, autoAdvance, triggerShake]);
+  }, [words, currentIndex, setWords, autoAdvance, triggerShake, updateMasteryStats]);
 
   const handleToggleSolution = useCallback(async () => {
     const word = words[currentIndex];
@@ -146,11 +160,13 @@ export default function Home() {
           };
           return newWords;
         });
+        
+        await updateMasteryStats();
       } catch (error) {
         console.error('Failed to save progress:', error);
       }
     }
-  }, [currentIndex, setWords, words]);
+  }, [currentIndex, setWords, words, updateMasteryStats]);
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -182,17 +198,31 @@ export default function Home() {
     <div className="h-screen flex flex-col bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 overflow-hidden">
       <main className="flex-1 overflow-y-auto container mx-auto px-4 py-6 sm:py-12 max-w-2xl">
         <div className="text-center mb-6">
-          <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-2">
+          <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
             Trouver la traduction
           </h1>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
-            <span className="text-green-600 dark:text-green-400 font-semibold">{correctAnswers}</span>
-            {' / '}
-            <span className="text-red-600 dark:text-red-400 font-semibold">{incorrectAnswers}</span>
-            {' sur '}
-            <span className="font-semibold">{totalAnswers}</span>
-            {' réponses'}
-          </p>
+          
+          <div className="max-w-md mx-auto">
+            <div className="flex justify-between items-center mb-2">
+              <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
+                Progression de maîtrise
+              </span>
+              <span className="text-sm font-bold text-indigo-600 dark:text-indigo-400">
+                {masteryStats.percentage}%
+              </span>
+            </div>
+            
+            <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-4 overflow-hidden shadow-inner">
+              <div
+                className="h-full bg-gradient-to-r from-green-400 to-green-600 dark:from-green-500 dark:to-green-700 transition-all duration-500 ease-out rounded-full shadow-sm"
+                style={{ width: `${masteryStats.percentage}%` }}
+              />
+            </div>
+            
+            <p className="text-xs text-gray-500 dark:text-gray-400 mt-2">
+              {masteryStats.mastered} / {masteryStats.total} mots maîtrisés (3 réussites consécutives)
+            </p>
+          </div>
         </div>
 
         {words.length > 0 && currentWord && (

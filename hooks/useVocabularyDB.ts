@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import {  loadVocabularyFromJSON, VocabularyEntry, getUserProgress, getRandomVocabulary } from '@/lib/indexedDB';
+import { getUnmasteredVocabulary, loadVocabularyFromJSON, VocabularyEntry, getUserProgress } from '@/lib/indexedDB';
 
 export interface TranslationResult {
   vocabularyId: number;
@@ -48,7 +48,7 @@ export const useVocabularyDB = (wordCount: number = 10) => {
     setLoading(true);
 
     try {
-      const vocabEntries = await getRandomVocabulary(wordCount);
+      const vocabEntries = await getUnmasteredVocabulary(wordCount);
 
       const vocabItemsPromises = vocabEntries.map(async (item: VocabularyEntry) => {
         const progress = await getUserProgress(item.id!);
