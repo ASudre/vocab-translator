@@ -345,7 +345,7 @@ export const getMasteryStats = async (): Promise<{ total: number; mastered: numb
         
         // Maximum possible points: totalWords * 3
         const maxPoints = totalWords * 3;
-        const percentage = maxPoints > 0 ? Math.round((totalMasteryPoints / maxPoints) * 100) : 0;
+        const percentage = maxPoints > 0 ? Math.round((totalMasteryPoints / maxPoints) * 1000) / 10 : 0;
         
         resolve({
           total: totalWords,
