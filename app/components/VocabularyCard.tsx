@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import { TranslationResult } from '@/hooks/useVocabulary';
+import { TranslationResult } from '@/hooks/useVocabularyDB';
 
 interface VocabularyCardProps {
   word: TranslationResult;
@@ -12,6 +12,32 @@ export function VocabularyCard({
 }: VocabularyCardProps) {
   const inputRef = useRef<HTMLInputElement>(null);
 
+  const renderAttemptDots = () => {
+    const history = word.attemptHistory || [];
+    const dots = [];
+    
+    for (let i = 0; i < 3; i++) {
+      const attempt = history[i];
+      let dotColor = 'bg-gray-300 dark:bg-gray-600';
+      
+      if (attempt === true) {
+        dotColor = 'bg-green-500';
+      } else if (attempt === false) {
+        dotColor = 'bg-red-500';
+      }
+      
+      dots.push(
+        <div
+          key={i}
+          className={`w-3 h-3 rounded-full ${dotColor} transition-colors`}
+          title={attempt === true ? 'Réussi' : attempt === false ? 'Échoué' : 'Pas encore essayé'}
+        />
+      );
+    }
+    
+    return dots;
+  };
+
   return (
     <div className={`relative bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-6 sm:p-8 md:p-10 transition-all ${
         word.isCorrect === true
@@ -21,6 +47,9 @@ export function VocabularyCard({
           : ''
       }`}>
         <div className="text-center mb-8">
+          <div className="flex justify-center gap-2 mb-3">
+            {renderAttemptDots()}
+          </div>
           <div className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4">
             {word.french}
           </div>

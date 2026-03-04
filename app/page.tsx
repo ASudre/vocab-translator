@@ -4,6 +4,7 @@ import { useEffect, useMemo, useCallback } from 'react';
 import { useVocabularyDB } from '@/hooks/useVocabularyDB';
 import { useCardNavigation } from '@/hooks/useCardNavigation';
 import { checkAnswerCorrectness } from '@/lib/helpers';
+import { saveUserProgress } from '@/lib/indexedDB';
 import { VocabularyCard } from './components/VocabularyCard';
 import { FixedKeyboard } from './components/FixedKeyboard';
 
@@ -64,7 +65,7 @@ export default function Home() {
     });
   }, [currentIndex, setWords]);
 
-  const handleCheckAnswer = useCallback(() => {
+  const handleCheckAnswer = useCallback(async () => {
     const word = words[currentIndex];
     const isCorrect = checkAnswerCorrectness(
       word.userAnswer || '',
@@ -81,6 +82,24 @@ export default function Home() {
       return newWords;
     });
 
+    if (!word.progressSaved) {
+      try {
+        await saveUserProgress(word.vocabularyId, isCorrect);
+        console.log(`Progress saved for word ${word.vocabularyId}: ${isCorrect ? 'correct' : 'incorrect'}`);
+        
+        setWords(prevWords => {
+          const newWords = [...prevWords];
+          newWords[currentIndex] = {
+            ...newWords[currentIndex],
+            progressSaved: true
+          };
+          return newWords;
+        });
+      } catch (error) {
+        console.error('Failed to save progress:', error);
+      }
+    }
+
     if (isCorrect) {
       autoAdvance();
     } else {
@@ -88,12 +107,14 @@ export default function Home() {
     }
   }, [words, currentIndex, setWords, autoAdvance, triggerShake]);
 
-  const handleToggleSolution = useCallback(() => {
+  const handleToggleSolution = useCallback(async () => {
+    const word = words[currentIndex];
+    const wasNull = word.isCorrect === null;
+    const willShowSolution = !word.showSolution;
+
     setWords(prevWords => {
       const newWords = [...prevWords];
       const currentWord = newWords[currentIndex];
-      const wasNull = currentWord.isCorrect === null;
-      const willShowSolution = !currentWord.showSolution;
 
       newWords[currentIndex] = {
         ...currentWord,
@@ -103,7 +124,25 @@ export default function Home() {
       };
       return newWords;
     });
-  }, [currentIndex, setWords]);
+
+    if (willShowSolution && wasNull && !word.progressSaved) {
+      try {
+        await saveUserProgress(word.vocabularyId, false);
+        console.log(`Progress saved for word ${word.vocabularyId}: incorrect (solution shown)`);
+        
+        setWords(prevWords => {
+          const newWords = [...prevWords];
+          newWords[currentIndex] = {
+            ...newWords[currentIndex],
+            progressSaved: true
+          };
+          return newWords;
+        });
+      } catch (error) {
+        console.error('Failed to save progress:', error);
+      }
+    }
+  }, [currentIndex, setWords, words]);
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {

@@ -1,12 +1,15 @@
 import { useState, useEffect, useCallback } from 'react';
-import { getRandomVocabulary, loadVocabularyFromJSON, VocabularyEntry } from '@/lib/indexedDB';
+import {  loadVocabularyFromJSON, VocabularyEntry, getUserProgress, getRandomVocabulary } from '@/lib/indexedDB';
 
 export interface TranslationResult {
+  vocabularyId: number;
   spanish: string;
   french: string;
   userAnswer?: string;
   isCorrect?: boolean | null;
   showSolution?: boolean;
+  attemptHistory?: boolean[];
+  progressSaved?: boolean;
 }
 
 export const useVocabularyDB = (wordCount: number = 10) => {
@@ -47,13 +50,22 @@ export const useVocabularyDB = (wordCount: number = 10) => {
     try {
       const vocabEntries = await getRandomVocabulary(wordCount);
 
-      const vocabItems: TranslationResult[] = vocabEntries.map((item: VocabularyEntry) => ({
-        spanish: item.Español,
-        french: item.Français,
-        userAnswer: '',
-        isCorrect: null,
-        showSolution: false
-      }));
+      const vocabItemsPromises = vocabEntries.map(async (item: VocabularyEntry) => {
+        const progress = await getUserProgress(item.id!);
+        
+        return {
+          vocabularyId: item.id!,
+          spanish: item.Español,
+          french: item.Français,
+          userAnswer: '',
+          isCorrect: null,
+          showSolution: false,
+          attemptHistory: progress?.attemptHistory || [],
+          progressSaved: false
+        };
+      });
+
+      const vocabItems = await Promise.all(vocabItemsPromises);
       
       setWords(prevWords => [...prevWords, ...vocabItems]);
     } catch (error) {
