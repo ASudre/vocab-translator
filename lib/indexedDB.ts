@@ -21,7 +21,7 @@ export interface UserProgress {
   currentStreak: number;
   lastPracticed: string;
   attemptHistory: boolean[];
-  isMastered: boolean;
+  isMastered: number;
 }
 
 let dbInstance: IDBDatabase | null = null;
@@ -128,7 +128,7 @@ export const getRandomVocabulary = async (count: number): Promise<VocabularyEntr
     const progressStore = transaction.objectStore(PROGRESS_STORE_NAME);
     const masteredIndex = progressStore.index('isMastered');
     
-    const masteredRequest = masteredIndex.getAll(IDBKeyRange.only(true));
+    const masteredRequest = masteredIndex.getAll(IDBKeyRange.only(1));
     
     masteredRequest.onsuccess = () => {
       const masteredProgress = masteredRequest.result as UserProgress[];
@@ -239,7 +239,7 @@ export const saveUserProgress = async (vocabularyId: number, isCorrect: boolean)
         const newBestStreak = Math.max(existingProgress.bestStreak, newCurrentStreak);
         
         const newAttemptHistory = [...(existingProgress.attemptHistory || []), isCorrect].slice(-3);
-        const isMastered = newAttemptHistory.length >= 3 && newAttemptHistory.every(attempt => attempt === true);
+        const isMastered = (newAttemptHistory.length >= 3 && newAttemptHistory.every(attempt => attempt === true)) ? 1 : 0;
 
         progressData = {
           id: existingProgress.id,
@@ -255,7 +255,7 @@ export const saveUserProgress = async (vocabularyId: number, isCorrect: boolean)
 
         objectStore.put(progressData);
       } else {
-        const isMastered = isCorrect;
+        const isMastered = isCorrect ? 1 : 0;
 
         progressData = {
           vocabularyId,
