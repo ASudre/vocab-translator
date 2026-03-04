@@ -1,14 +1,14 @@
 'use client';
 
 import { useEffect, useMemo, useCallback } from 'react';
-import { useVocabulary } from '@/hooks/useVocabulary';
+import { useVocabularyDB } from '@/hooks/useVocabularyDB';
 import { useCardNavigation } from '@/hooks/useCardNavigation';
 import { checkAnswerCorrectness } from '@/lib/helpers';
 import { VocabularyCard } from './components/VocabularyCard';
 import { FixedKeyboard } from './components/FixedKeyboard';
 
 export default function Home() {
-  const { words, setWords, loading, fetchWords } = useVocabulary(10);
+  const { words, setWords, loading, fetchWords } = useVocabularyDB(10);
   const {
     currentIndex,
     slideDirection,
@@ -104,6 +104,32 @@ export default function Home() {
       return newWords;
     });
   }, [currentIndex, setWords]);
+
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (!currentWord) return;
+
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        handleCheckAnswer();
+      } else if (e.key === 'Backspace') {
+        e.preventDefault();
+        handleBackspace();
+      } else if (e.key === 'ArrowRight' || e.key === 'Tab') {
+        e.preventDefault();
+        goToNext();
+      } else if (e.key === 'Escape') {
+        e.preventDefault();
+        handleToggleSolution();
+      } else if (e.key.length === 1 && !e.ctrlKey && !e.metaKey && !e.altKey) {
+        e.preventDefault();
+        handleKeyPress(e.key);
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [currentWord, handleKeyPress, handleBackspace, handleCheckAnswer, handleToggleSolution, goToNext]);
 
   return (
     <div className="h-screen flex flex-col bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 overflow-hidden">
