@@ -19,11 +19,11 @@ export function SpanishKeyboard({ onKeyPress, onBackspace, onEnter, onToggleSolu
     e.preventDefault();
     e.stopPropagation();
     touchUsedRef.current = true;
-    
+
     // Handle touch events (mobile) with multi-touch support
     const touches = Array.from(e.touches);
     const newTouch = touches[touches.length - 1];
-    
+
     // Only trigger if this touch hasn't been registered yet
     if (!activeTouchesRef.current.has(newTouch.identifier)) {
       activeTouchesRef.current.add(newTouch.identifier);
@@ -37,7 +37,7 @@ export function SpanishKeyboard({ onKeyPress, onBackspace, onEnter, onToggleSolu
       e.preventDefault();
       return;
     }
-    
+
     e.preventDefault();
     e.stopPropagation();
     action();
@@ -50,7 +50,7 @@ export function SpanishKeyboard({ onKeyPress, onBackspace, onEnter, onToggleSolu
   };
 
   return (
-    <div 
+    <div
       className="bg-gray-100 dark:bg-gray-700 select-none"
       onTouchEnd={handleTouchEnd}
     >
@@ -95,24 +95,28 @@ export function SpanishKeyboard({ onKeyPress, onBackspace, onEnter, onToggleSolu
       </div>
 
       {/* Third row with backspace */}
-      <div className="flex justify-center">
-        {['z', 'x', 'c', 'v', 'b', 'n', 'm'].map((key) => (
-          <Key
-            key={key}
-            value={key}
-            onPress={() => onKeyPress(key)}
-            onMouseAction={handleMouseAction}
-            onTouchAction={handleKeyAction}
-          />
-        ))}
+      <div className="flex">
+        <div className="flex justify-center flex-1">
+          {['z', 'x', 'c', 'v', 'b', 'n', 'm'].map((key) => (
+            <Key
+              key={key}
+              value={key}
+              onPress={() => onKeyPress(key)}
+              onMouseAction={handleMouseAction}
+              onTouchAction={handleKeyAction}
+            />
+          ))}
+        </div>
         <Key
-          value="⌫"
+          value="←"
           onPress={onBackspace}
           onMouseAction={handleMouseAction}
           onTouchAction={handleKeyAction}
           variant="danger"
           disabled={showSolution}
-          maxWidth="max-w-[60px]"
+          maxWidth="max-w-[50px]"
+          flex="flex-none min-w-[50px]"
+          className="text-2xl font-bold"
         />
       </div>
 

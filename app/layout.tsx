@@ -27,6 +27,9 @@ export const metadata: Metadata = {
     userScalable: false,
     viewportFit: 'cover',
   },
+  other: {
+    'screen-orientation': 'portrait',
+  },
   appleWebApp: {
     capable: true,
     statusBarStyle: 'black-translucent',

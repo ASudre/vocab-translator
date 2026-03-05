@@ -24,10 +24,10 @@ export function Key({
   flex = 'flex-1'
 }: KeyProps) {
   // Button takes full space with no gaps
-  const buttonClasses = `${flex} ${maxWidth} h-12 p-0.5`;
+  const buttonClasses = `${flex} ${maxWidth} h-14 px-0.5 py-1`;
   
   // Inner span has the visual styling with rounded corners
-  const innerBaseClasses = 'w-full h-full flex items-center justify-center rounded-lg font-semibold text-lg transition-colors shadow-sm';
+  const innerBaseClasses = 'w-full h-full flex items-center justify-center rounded-lg font-semibold text-xl transition-colors shadow-sm';
   
   const variantClasses = {
     default: 'bg-white dark:bg-gray-600 hover:bg-gray-200 dark:hover:bg-gray-500 text-gray-900 dark:text-white',

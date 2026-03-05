@@ -22,7 +22,7 @@ export function FixedKeyboard({
 
   return (
     <div 
-      className="flex-shrink-0 bg-gradient-to-t from-blue-50 to-transparent dark:from-gray-900 dark:to-transparent pt-4 touch-none"
+      className="flex-shrink-0 bg-gradient-to-t from-blue-50 to-transparent dark:from-gray-900 dark:to-transparent touch-none"
       style={{ paddingBottom: 'max(env(safe-area-inset-bottom), 1rem)' }}
     >
       <div className="container mx-auto max-w-2xl">

@@ -195,13 +195,9 @@ export default function Home() {
   }, [currentWord, handleKeyPress, handleBackspace, handleCheckAnswer, handleToggleSolution, goToNext]);
 
   return (
-    <div className="h-screen flex flex-col bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 overflow-hidden">
-      <main className="flex-1 overflow-y-auto container mx-auto px-4 py-6 sm:py-12 max-w-2xl">
+    <div className="fixed inset-0 flex flex-col bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 overflow-hidden">
+      <main className="flex-1 overflow-y-auto container mx-auto px-4 py-6 sm:py-12">
         <div className="text-center mb-6">
-          <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            Trouver la traduction
-          </h1>
-          
           <div className="max-w-md mx-auto">
             <div className="flex justify-between items-center mb-2">
               <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
@@ -240,12 +236,6 @@ export default function Home() {
                 onCheckAnswer={handleCheckAnswer}
               />
             </div>
-          </div>
-        )}
-
-        {words.length === 0 && !loading && (
-          <div className="text-center text-gray-500 dark:text-gray-400 mt-12">
-            <p className="text-lg">Cliquez sur le bouton ci-dessus pour commencer à apprendre!</p>
           </div>
         )}
       </main>
