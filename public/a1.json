@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "list": [
     {
       "id": 1,
@@ -3133,7 +3133,7 @@
       "id": 392,
       "spanish": "calor",
       "english": "heat",
-      "french": "chaud",
+      "french": "chaleur",
       "category": "Clima",
       "class": "noun"
     },
@@ -3651,7 +3651,7 @@
     },
     {
       "id": 457,
-      "spanish": "caminar",
+      "spanish": "caminar, andar",
       "english": "to walk",
       "french": "marcher",
       "category": "Movimiento",
