@@ -1,16 +1,15 @@
 'use client';
 
 import { useEffect, useCallback, useState } from 'react';
-import { useTranslations } from 'next-intl';
 import { useVocabularyDB } from '@/hooks/useVocabularyDB';
 import { useCardNavigation } from '@/hooks/useCardNavigation';
 import { checkAnswerCorrectness } from '@/lib/helpers';
 import { saveUserProgress, getMasteryStats } from '@/lib/indexedDB';
 import { VocabularyCard } from './components/VocabularyCard';
 import { FixedKeyboard } from './components/FixedKeyboard';
+import { TopBar } from './components/TopBar';
 
 export default function Home() {
-  const t = useTranslations('Home');
   const { words, setWords, loading, fetchWords } = useVocabularyDB(10);
   const [masteryStats, setMasteryStats] = useState({ total: 0, mastered: 0, percentage: 0 });
   const {
@@ -198,31 +197,8 @@ export default function Home() {
 
   return (
     <div className="fixed inset-0 flex flex-col bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 overflow-hidden">
+      <TopBar masteryStats={masteryStats} />
       <main className="flex-1 overflow-y-auto container mx-auto px-4 py-6 sm:py-12">
-        <div className="text-center mb-6">
-          <div className="max-w-md mx-auto">
-            <div className="flex justify-between items-center mb-2">
-              <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
-                {t('masteryProgress')}
-              </span>
-              <span className="text-sm font-bold text-indigo-600 dark:text-indigo-400">
-                {masteryStats.percentage}%
-              </span>
-            </div>
-            
-            <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-4 overflow-hidden shadow-inner">
-              <div
-                className="h-full bg-gradient-to-r from-green-400 to-green-600 dark:from-green-500 dark:to-green-700 transition-all duration-500 ease-out rounded-full shadow-sm"
-                style={{ width: `${masteryStats.percentage}%` }}
-              />
-            </div>
-            
-            <p className="text-xs text-gray-500 dark:text-gray-400 mt-2">
-              {masteryStats.mastered} / {masteryStats.total} {t('masteredWords')}
-            </p>
-          </div>
-        </div>
-
         {words.length > 0 && currentWord && (
           <div className="relative">
             <div

@@ -58,9 +58,6 @@ export function VocabularyCard({
           <div className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4">
             {word.french}
           </div>
-          <p className="text-gray-600 dark:text-gray-400">
-            {t('questionPrompt')}
-          </p>
         </div>
 
         <input
