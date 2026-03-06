@@ -2195,9 +2195,9 @@
     },
     {
       "id": 275,
-      "spanish": "tarea",
+      "spanish": "tarea, deberes",
       "english": "homework",
-      "french": "devoir",
+      "french": "devoir (à la maison)",
       "category": "Escuela",
       "class": "noun"
     },
