@@ -31,7 +31,7 @@ export function ProgressBar({ masteryStats }: ProgressBarProps) {
           />
         </div>
         <span className="text-xs font-bold text-indigo-600 dark:text-indigo-400">
-          {masteryStats.percentage}%
+          {masteryStats.percentage.toFixed(1)}%
         </span>
       </div>
     </div>
