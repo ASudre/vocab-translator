@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vocab-translator-v2';
+const CACHE_NAME = 'palabras-v1';
 const urlsToCache = [
   '/icon.svg',
   '/icon-192.png',

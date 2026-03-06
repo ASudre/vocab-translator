@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vocalista",
+  title: "Palabras",
   description: "Apprenez l'espagnol avec des traductions interactives. Pratiquez le vocabulaire et suivez vos progrès.",
   manifest: '/manifest.json',
   themeColor: '#4F46E5',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: 'black-translucent',
-    title: 'Vocalista',
+    title: 'Palabras',
   },
   icons: {
     icon: '/icon.svg',

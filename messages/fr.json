@@ -26,5 +26,8 @@
     "preposition": "préposition",
     "pronoun": "pronom",
     "verb": "verbe"
+  },
+  "ProgressBar": {
+    "unlocked": "Palabras validées"
   }
 }

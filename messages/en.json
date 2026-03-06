@@ -26,5 +26,8 @@
     "preposition": "preposition",
     "pronoun": "pronoun",
     "verb": "verb"
+  },
+  "ProgressBar": {
+    "unlocked": "unlocked Palabras"
   }
 }

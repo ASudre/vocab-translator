@@ -1,6 +1,6 @@
 {
-  "name": "Vocalista",
-  "short_name": "Vocalista",
+  "name": "Palabras",
+  "short_name": "Palabras",
   "description": "Apprenez l'espagnol avec des traductions interactives. Pratiquez le vocabulaire et suivez vos progrès.",
   "start_url": "/",
   "display": "standalone",
