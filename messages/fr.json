@@ -1,0 +1,30 @@
+{
+  "VocabularyCard": {
+    "attemptSuccess": "Réussi",
+    "attemptFailed": "Échoué",
+    "attemptNotTried": "Pas encore essayé",
+    "questionPrompt": "Quelle est la traduction en espagnol ?",
+    "inputPlaceholder": "Écris la traduction en espagnol...",
+    "correctMessage": "Correct ! 🎉",
+    "retryMessage": "Réessaye ! 💪",
+    "hintPrefix": "Indice: Commence par"
+  },
+  "Home": {
+    "masteryProgress": "Progression de maîtrise",
+    "masteredWords": "mots maîtrisés (3 réussites consécutives)"
+  },
+  "SpanishKeyboard": {
+    "space": "espacio"
+  },
+  "WordClass": {
+    "adjective": "adjectif",
+    "adverb": "adverbe",
+    "interjection": "interjection",
+    "noun": "nom",
+    "number": "nombre",
+    "phrase": "phrase",
+    "preposition": "préposition",
+    "pronoun": "pronom",
+    "verb": "verbe"
+  }
+}

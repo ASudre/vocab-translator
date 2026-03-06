@@ -1,0 +1,30 @@
+{
+  "VocabularyCard": {
+    "attemptSuccess": "Success",
+    "attemptFailed": "Failed",
+    "attemptNotTried": "Not yet tried",
+    "questionPrompt": "What is the Spanish translation?",
+    "inputPlaceholder": "Write the Spanish translation...",
+    "correctMessage": "Correct! 🎉",
+    "retryMessage": "Try again! 💪",
+    "hintPrefix": "Hint: Starts with"
+  },
+  "Home": {
+    "masteryProgress": "Mastery Progress",
+    "masteredWords": "words mastered (3 consecutive successes)"
+  },
+  "SpanishKeyboard": {
+    "space": "space"
+  },
+  "WordClass": {
+    "adjective": "adjective",
+    "adverb": "adverb",
+    "interjection": "interjection",
+    "noun": "noun",
+    "number": "number",
+    "phrase": "phrase",
+    "preposition": "preposition",
+    "pronoun": "pronoun",
+    "verb": "verb"
+  }
+}

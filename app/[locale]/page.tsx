@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useCallback, useState } from 'react';
+import { useTranslations } from 'next-intl';
 import { useVocabularyDB } from '@/hooks/useVocabularyDB';
 import { useCardNavigation } from '@/hooks/useCardNavigation';
 import { checkAnswerCorrectness } from '@/lib/helpers';
@@ -9,6 +10,7 @@ import { VocabularyCard } from './components/VocabularyCard';
 import { FixedKeyboard } from './components/FixedKeyboard';
 
 export default function Home() {
+  const t = useTranslations('Home');
   const { words, setWords, loading, fetchWords } = useVocabularyDB(10);
   const [masteryStats, setMasteryStats] = useState({ total: 0, mastered: 0, percentage: 0 });
   const {
@@ -201,7 +203,7 @@ export default function Home() {
           <div className="max-w-md mx-auto">
             <div className="flex justify-between items-center mb-2">
               <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
-                Progression de maîtrise
+                {t('masteryProgress')}
               </span>
               <span className="text-sm font-bold text-indigo-600 dark:text-indigo-400">
                 {masteryStats.percentage}%
@@ -216,7 +218,7 @@ export default function Home() {
             </div>
             
             <p className="text-xs text-gray-500 dark:text-gray-400 mt-2">
-              {masteryStats.mastered} / {masteryStats.total} mots maîtrisés (3 réussites consécutives)
+              {masteryStats.mastered} / {masteryStats.total} {t('masteredWords')}
             </p>
           </div>
         </div>
