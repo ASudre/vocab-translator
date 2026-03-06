@@ -3,7 +3,7 @@ export const checkAnswerCorrectness = (
   correctAnswer: string
 ): boolean => {
   const normalizedUser = userAnswer.toLowerCase().trim();
-  const normalizedCorrect = correctAnswer.toLowerCase().trim();
+  const normalizedCorrect = correctAnswer.split(', ').map(a => a.toLowerCase().trim());
   
-  return normalizedUser === normalizedCorrect;
+  return normalizedCorrect.includes(normalizedUser);
 };

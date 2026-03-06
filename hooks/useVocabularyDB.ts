@@ -5,6 +5,8 @@ export interface TranslationResult {
   vocabularyId: number;
   spanish: string;
   french: string;
+  class: string;
+  category: string;
   userAnswer?: string;
   isCorrect?: boolean | null;
   showSolution?: boolean;
@@ -20,18 +22,7 @@ export const useVocabularyDB = (wordCount: number = 10) => {
   useEffect(() => {
     const initializeDB = async () => {
       try {
-        const lastUpdate = localStorage.getItem('vocabDB_lastUpdate');
-        
-        if (!lastUpdate) {
-          console.log('First time loading vocabulary database...');
-          await loadVocabularyFromJSON('/a1.json');
-          
-          const currentTimestamp = new Date().toISOString();
-          localStorage.setItem('vocabDB_lastUpdate', currentTimestamp);
-          console.log('DB initialized at:', currentTimestamp);
-        } else {
-          console.log('DB already loaded. Last update:', lastUpdate);
-        }
+        await loadVocabularyFromJSON('/a1.json');
         
         setInitialized(true);
       } catch (error) {
@@ -57,6 +48,8 @@ export const useVocabularyDB = (wordCount: number = 10) => {
           vocabularyId: item.id!,
           spanish: item.Español,
           french: item.Français,
+          class: item.Class,
+          category: item.Category,
           userAnswer: '',
           isCorrect: null,
           showSolution: false,

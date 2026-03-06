@@ -3,12 +3,10 @@ import { TranslationResult } from '@/hooks/useVocabularyDB';
 
 interface VocabularyCardProps {
   word: TranslationResult;
-  onCheckAnswer: () => void;
 }
 
 export function VocabularyCard({
   word,
-  onCheckAnswer,
 }: VocabularyCardProps) {
   const inputRef = useRef<HTMLInputElement>(null);
 
@@ -46,6 +44,10 @@ export function VocabularyCard({
           ? 'ring-4 ring-red-500 ring-offset-0'
           : ''
       }`}>
+        <span className="absolute top-4 right-4 px-2 py-1 text-xs font-semibold rounded-full bg-indigo-100 dark:bg-indigo-900 text-indigo-700 dark:text-indigo-300">
+          {word.class}
+        </span>
+        
         <div className="text-center mb-8">
           <div className="flex justify-center gap-2 mb-3">
             {renderAttemptDots()}
@@ -63,11 +65,6 @@ export function VocabularyCard({
           type="text"
           value={word.showSolution ? word.spanish : (word.userAnswer || '')}
           readOnly
-          onKeyDown={(e) => {
-            if (e.key === 'Enter' && word.userAnswer) {
-              onCheckAnswer();
-            }
-          }}
           placeholder="Écris la traduction en espagnol..."
           disabled={word.isCorrect === true || word.showSolution}
           autoFocus

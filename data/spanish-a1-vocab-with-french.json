@@ -1,6 +1,8 @@
 {
+  "version": "1.0.0",
   "list": [
     {
+      "id": 1,
       "spanish": "hola",
       "english": "hello, hi",
       "french": "salut",
@@ -8,6 +10,7 @@
       "class": "interjection"
     },
     {
+      "id": 2,
       "spanish": "¿Cómo estás?",
       "english": "How are you?",
       "french": "Comment vas-tu ?",
@@ -15,6 +18,7 @@
       "class": "phrase"
     },
     {
+      "id": 3,
       "spanish": "¿Qué tal?",
       "english": "How's it going?, What's up?",
       "french": "Ça va ?",
@@ -22,6 +26,7 @@
       "class": "phrase"
     },
     {
+      "id": 4,
       "spanish": "buenos días",
       "english": "good morning",
       "french": "bonjour",
@@ -29,6 +34,7 @@
       "class": "phrase"
     },
     {
+      "id": 5,
       "spanish": "buenas tardes",
       "english": "good afternoon",
       "french": "bon après-midi",
@@ -36,6 +42,7 @@
       "class": "phrase"
     },
     {
+      "id": 6,
       "spanish": "buenas noches",
       "english": "good evening, good night",
       "french": "bonsoir",
@@ -43,6 +50,7 @@
       "class": "phrase"
     },
     {
+      "id": 7,
       "spanish": "mucho gusto",
       "english": "nice to meet you, pleased to meet you",
       "french": "enchanté",
@@ -50,6 +58,7 @@
       "class": "phrase"
     },
     {
+      "id": 8,
       "spanish": "adiós",
       "english": "goodbye, bye",
       "french": "au revoir",
@@ -57,6 +66,7 @@
       "class": "interjection"
     },
     {
+      "id": 9,
       "spanish": "hasta luego",
       "english": "see you later",
       "french": "à bientôt",
@@ -64,6 +74,7 @@
       "class": "phrase"
     },
     {
+      "id": 10,
       "spanish": "gracias",
       "english": "thank you",
       "french": "merci",
@@ -71,6 +82,7 @@
       "class": "interjection"
     },
     {
+      "id": 11,
       "spanish": "de nada",
       "english": "you're welcome",
       "french": "de rien",
@@ -78,6 +90,7 @@
       "class": "phrase"
     },
     {
+      "id": 12,
       "spanish": "por favor",
       "english": "please",
       "french": "s'il te plaît",
@@ -85,6 +98,7 @@
       "class": "phrase"
     },
     {
+      "id": 13,
       "spanish": "lo siento",
       "english": "I'm sorry",
       "french": "je suis désolé",
@@ -92,6 +106,7 @@
       "class": "phrase"
     },
     {
+      "id": 14,
       "spanish": "perdón",
       "english": "excuse me, pardon",
       "french": "pardon",
@@ -99,6 +114,7 @@
       "class": "noun"
     },
     {
+      "id": 15,
       "spanish": "nombre",
       "english": "name",
       "french": "prénom",
@@ -106,6 +122,7 @@
       "class": "noun"
     },
     {
+      "id": 16,
       "spanish": "apellido",
       "english": "surname, last name",
       "french": "nom",
@@ -113,6 +130,7 @@
       "class": "noun"
     },
     {
+      "id": 17,
       "spanish": "edad",
       "english": "age",
       "french": "âge",
@@ -120,6 +138,7 @@
       "class": "noun"
     },
     {
+      "id": 18,
       "spanish": "cumpleaños",
       "english": "birthday",
       "french": "anniversaire",
@@ -127,6 +146,7 @@
       "class": "noun"
     },
     {
+      "id": 19,
       "spanish": "nacionalidad",
       "english": "nationality",
       "french": "nationalité",
@@ -134,6 +154,7 @@
       "class": "noun"
     },
     {
+      "id": 20,
       "spanish": "género",
       "english": "gender",
       "french": "genre, sexe",
@@ -141,6 +162,7 @@
       "class": "noun"
     },
     {
+      "id": 21,
       "spanish": "dirección",
       "english": "address, direction",
       "french": "adresse",
@@ -148,6 +170,7 @@
       "class": "noun"
     },
     {
+      "id": 22,
       "spanish": "número de teléfono",
       "english": "phone number",
       "french": "numéro de téléphone",
@@ -155,6 +178,7 @@
       "class": "noun"
     },
     {
+      "id": 23,
       "spanish": "correo electrónico",
       "english": "email, e-mail",
       "french": "email, courriel",
@@ -162,6 +186,7 @@
       "class": "noun"
     },
     {
+      "id": 24,
       "spanish": "mujer",
       "english": "woman",
       "french": "femme",
@@ -169,6 +194,7 @@
       "class": "noun"
     },
     {
+      "id": 25,
       "spanish": "hombre",
       "english": "man",
       "french": "homme",
@@ -176,6 +202,7 @@
       "class": "noun"
     },
     {
+      "id": 26,
       "spanish": "niño",
       "english": "boy, child",
       "french": "garçon, enfant",
@@ -183,6 +210,7 @@
       "class": "noun"
     },
     {
+      "id": 27,
       "spanish": "niña",
       "english": "girl, child",
       "french": "fille, enfant",
@@ -190,6 +218,7 @@
       "class": "noun"
     },
     {
+      "id": 28,
       "spanish": "persona",
       "english": "person",
       "french": "personne",
@@ -197,6 +226,7 @@
       "class": "noun"
     },
     {
+      "id": 29,
       "spanish": "gente",
       "english": "people",
       "french": "gens",
@@ -204,6 +234,7 @@
       "class": "noun"
     },
     {
+      "id": 30,
       "spanish": "soltero",
       "english": "single, unmarried",
       "french": "célibataire",
@@ -211,6 +242,7 @@
       "class": "adjective"
     },
     {
+      "id": 31,
       "spanish": "casado",
       "english": "married",
       "french": "marié",
@@ -218,6 +250,7 @@
       "class": "adjective"
     },
     {
+      "id": 32,
       "spanish": "divorciado",
       "english": "divorced",
       "french": "divorcé",
@@ -225,6 +258,7 @@
       "class": "adjective"
     },
     {
+      "id": 33,
       "spanish": "español",
       "english": "Spanish",
       "french": "espagnol",
@@ -232,6 +266,7 @@
       "class": "adjective"
     },
     {
+      "id": 34,
       "spanish": "inglés, english",
       "english": "English",
       "french": "anglais",
@@ -239,6 +274,7 @@
       "class": "adjective"
     },
     {
+      "id": 35,
       "spanish": "francés",
       "english": "French",
       "french": "français",
@@ -246,6 +282,7 @@
       "class": "adjective"
     },
     {
+      "id": 36,
       "spanish": "italiano",
       "english": "Italian",
       "french": "italien",
@@ -253,6 +290,7 @@
       "class": "adjective"
     },
     {
+      "id": 37,
       "spanish": "alemán",
       "english": "German",
       "french": "allemand",
@@ -260,6 +298,7 @@
       "class": "adjective"
     },
     {
+      "id": 38,
       "spanish": "mexicano",
       "english": "Mexican",
       "french": "mexicain",
@@ -267,6 +306,7 @@
       "class": "adjective"
     },
     {
+      "id": 39,
       "spanish": "argentino",
       "english": "Argentine, Argentinian",
       "french": "argentin",
@@ -274,6 +314,7 @@
       "class": "adjective"
     },
     {
+      "id": 40,
       "spanish": "colombiano",
       "english": "Colombian",
       "french": "colombien",
@@ -281,6 +322,7 @@
       "class": "adjective"
     },
     {
+      "id": 41,
       "spanish": "peruano",
       "english": "Peruvian",
       "french": "péruvien",
@@ -288,6 +330,7 @@
       "class": "adjective"
     },
     {
+      "id": 42,
       "spanish": "chileno",
       "english": "Chilean",
       "french": "chilien",
@@ -295,6 +338,7 @@
       "class": "adjective"
     },
     {
+      "id": 43,
       "spanish": "venezolano",
       "english": "Venezuelan",
       "french": "vénézuélien",
@@ -302,6 +346,7 @@
       "class": "adjective"
     },
     {
+      "id": 44,
       "spanish": "cubano",
       "english": "Cuban",
       "french": "cubain",
@@ -309,6 +354,7 @@
       "class": "adjective"
     },
     {
+      "id": 45,
       "spanish": "paraguayo",
       "english": "Paraguayan",
       "french": "paraguayen",
@@ -316,6 +362,7 @@
       "class": "adjective"
     },
     {
+      "id": 46,
       "spanish": "uruguayo",
       "english": "Uruguayan",
       "french": "uruguayen",
@@ -323,6 +370,7 @@
       "class": "adjective"
     },
     {
+      "id": 47,
       "spanish": "dominicano",
       "english": "Dominican",
       "french": "dominicain",
@@ -330,6 +378,7 @@
       "class": "adjective"
     },
     {
+      "id": 48,
       "spanish": "puertorriqueño",
       "english": "Puerto Rican",
       "french": "portoricain",
@@ -337,6 +386,7 @@
       "class": "adjective"
     },
     {
+      "id": 49,
       "spanish": "costarricense",
       "english": "Costa Rican",
       "french": "costaricain",
@@ -344,6 +394,7 @@
       "class": "adjective"
     },
     {
+      "id": 50,
       "spanish": "nicaragüense",
       "english": "Nicaraguan",
       "french": "nicaraguayens",
@@ -351,6 +402,7 @@
       "class": "adjective"
     },
     {
+      "id": 51,
       "spanish": "boliviano",
       "english": "Bolivian",
       "french": "bolivien",
@@ -358,6 +410,7 @@
       "class": "adjective"
     },
     {
+      "id": 52,
       "spanish": "padre",
       "english": "father, dad",
       "french": "père, papa",
@@ -365,6 +418,7 @@
       "class": "noun"
     },
     {
+      "id": 53,
       "spanish": "madre",
       "english": "mother, mom",
       "french": "mère, maman",
@@ -372,6 +426,7 @@
       "class": "noun"
     },
     {
+      "id": 54,
       "spanish": "esposo",
       "english": "husband, spouse",
       "french": "mari, époux",
@@ -379,6 +434,7 @@
       "class": "noun"
     },
     {
+      "id": 55,
       "spanish": "esposa",
       "english": "wife, spouse",
       "french": "femme, épouse",
@@ -386,6 +442,7 @@
       "class": "noun"
     },
     {
+      "id": 56,
       "spanish": "hijo",
       "english": "son, child",
       "french": "fils",
@@ -393,6 +450,7 @@
       "class": "noun"
     },
     {
+      "id": 57,
       "spanish": "hija",
       "english": "daughter, child",
       "french": "fille",
@@ -400,6 +458,7 @@
       "class": "noun"
     },
     {
+      "id": 58,
       "spanish": "hermano",
       "english": "brother",
       "french": "frère",
@@ -407,6 +466,7 @@
       "class": "noun"
     },
     {
+      "id": 59,
       "spanish": "hermana",
       "english": "sister",
       "french": "sœur",
@@ -414,6 +474,7 @@
       "class": "noun"
     },
     {
+      "id": 60,
       "spanish": "sobrino",
       "english": "nephew",
       "french": "neveu",
@@ -421,6 +482,7 @@
       "class": "noun"
     },
     {
+      "id": 61,
       "spanish": "abuelo",
       "english": "grandfather, grandpa",
       "french": "grand-père, papi",
@@ -428,6 +490,7 @@
       "class": "noun"
     },
     {
+      "id": 62,
       "spanish": "abuela",
       "english": "grandmother, grandma",
       "french": "grand-mère, mamie",
@@ -435,6 +498,7 @@
       "class": "noun"
     },
     {
+      "id": 63,
       "spanish": "nieto",
       "english": "grandson",
       "french": "petit-fils",
@@ -442,6 +506,7 @@
       "class": "noun"
     },
     {
+      "id": 64,
       "spanish": "nieta",
       "english": "granddaughter",
       "french": "petite-fille",
@@ -449,6 +514,7 @@
       "class": "noun"
     },
     {
+      "id": 65,
       "spanish": "tío",
       "english": "uncle",
       "french": "oncle",
@@ -456,6 +522,7 @@
       "class": "noun"
     },
     {
+      "id": 66,
       "spanish": "tía",
       "english": "aunt",
       "french": "tante",
@@ -463,6 +530,7 @@
       "class": "noun"
     },
     {
+      "id": 67,
       "spanish": "primo",
       "english": "cousin",
       "french": "cousin",
@@ -470,6 +538,7 @@
       "class": "noun"
     },
     {
+      "id": 68,
       "spanish": "sobrina",
       "english": "niece",
       "french": "nièce",
@@ -477,6 +546,7 @@
       "class": "noun"
     },
     {
+      "id": 69,
       "spanish": "amigo",
       "english": "friend",
       "french": "ami",
@@ -484,6 +554,7 @@
       "class": "noun"
     },
     {
+      "id": 70,
       "spanish": "compañero",
       "english": "classmate, colleague",
       "french": "camarade, collègue, compagnon",
@@ -491,6 +562,7 @@
       "class": "noun"
     },
     {
+      "id": 71,
       "spanish": "vecino",
       "english": "neighbor",
       "french": "voisin",
@@ -498,6 +570,7 @@
       "class": "noun"
     },
     {
+      "id": 72,
       "spanish": "pizza",
       "english": "pizza",
       "french": "pizza",
@@ -505,6 +578,7 @@
       "class": "noun"
     },
     {
+      "id": 73,
       "spanish": "sándwich",
       "english": "sandwich",
       "french": "sandwich",
@@ -512,6 +586,7 @@
       "class": "noun"
     },
     {
+      "id": 74,
       "spanish": "hamburguesa",
       "english": "hamburger",
       "french": "hamburger",
@@ -519,6 +594,7 @@
       "class": "noun"
     },
     {
+      "id": 75,
       "spanish": "patatas fritas",
       "english": "French fries, fried potatoes",
       "french": "frites",
@@ -526,6 +602,7 @@
       "class": "noun"
     },
     {
+      "id": 76,
       "spanish": "sopa",
       "english": "soup",
       "french": "soupe",
@@ -533,6 +610,7 @@
       "class": "noun"
     },
     {
+      "id": 77,
       "spanish": "ensalada",
       "english": "salad",
       "french": "salade",
@@ -540,6 +618,7 @@
       "class": "noun"
     },
     {
+      "id": 78,
       "spanish": "tamal",
       "english": "tamale",
       "french": "tamale",
@@ -547,6 +626,7 @@
       "class": "noun"
     },
     {
+      "id": 79,
       "spanish": "tortilla de patatas",
       "english": "Spanish omelette, potato omelet",
       "french": "tortilla",
@@ -554,6 +634,7 @@
       "class": "noun"
     },
     {
+      "id": 80,
       "spanish": "sándwich mixto",
       "english": "ham and cheese sandwich",
       "french": "croque-monsieur",
@@ -561,6 +642,7 @@
       "class": "noun"
     },
     {
+      "id": 81,
       "spanish": "paella",
       "english": "paella",
       "french": "paella",
@@ -568,6 +650,7 @@
       "class": "noun"
     },
     {
+      "id": 82,
       "spanish": "gazpacho",
       "english": "gazpacho",
       "french": "gazpacho",
@@ -575,6 +658,7 @@
       "class": "noun"
     },
     {
+      "id": 83,
       "spanish": "café con leche",
       "english": "coffee with milk, latte",
       "french": "café au lait",
@@ -582,6 +666,7 @@
       "class": "noun"
     },
     {
+      "id": 84,
       "spanish": "café",
       "english": "coffee",
       "french": "café",
@@ -589,6 +674,7 @@
       "class": "noun"
     },
     {
+      "id": 85,
       "spanish": "té",
       "english": "tea",
       "french": "thé",
@@ -596,6 +682,7 @@
       "class": "noun"
     },
     {
+      "id": 86,
       "spanish": "agua",
       "english": "water",
       "french": "eau",
@@ -603,6 +690,7 @@
       "class": "noun"
     },
     {
+      "id": 87,
       "spanish": "jugo",
       "english": "juice",
       "french": "jus",
@@ -610,6 +698,7 @@
       "class": "noun"
     },
     {
+      "id": 88,
       "spanish": "limonada",
       "english": "lemonade",
       "french": "limonade",
@@ -617,6 +706,7 @@
       "class": "noun"
     },
     {
+      "id": 89,
       "spanish": "soda",
       "english": "soda, soft drink",
       "french": "soda",
@@ -624,6 +714,7 @@
       "class": "noun"
     },
     {
+      "id": 90,
       "spanish": "refresco",
       "english": "soft drink, soda",
       "french": "rafraîchissement, boisson",
@@ -631,6 +722,7 @@
       "class": "noun"
     },
     {
+      "id": 91,
       "spanish": "cerveza",
       "english": "beer",
       "french": "bière",
@@ -638,6 +730,7 @@
       "class": "noun"
     },
     {
+      "id": 92,
       "spanish": "vino",
       "english": "wine",
       "french": "vin",
@@ -645,6 +738,7 @@
       "class": "noun"
     },
     {
+      "id": 93,
       "spanish": "arroz",
       "english": "rice",
       "french": "riz",
@@ -652,6 +746,7 @@
       "class": "noun"
     },
     {
+      "id": 94,
       "spanish": "pan",
       "english": "bread",
       "french": "pain",
@@ -659,6 +754,7 @@
       "class": "noun"
     },
     {
+      "id": 95,
       "spanish": "pasta",
       "english": "pasta, noodles",
       "french": "pâte",
@@ -666,6 +762,7 @@
       "class": "noun"
     },
     {
+      "id": 96,
       "spanish": "azúcar",
       "english": "sugar",
       "french": "sucre",
@@ -673,6 +770,7 @@
       "class": "noun"
     },
     {
+      "id": 97,
       "spanish": "sal",
       "english": "salt",
       "french": "sel",
@@ -680,6 +778,7 @@
       "class": "noun"
     },
     {
+      "id": 98,
       "spanish": "carne",
       "english": "meat",
       "french": "viande",
@@ -687,6 +786,7 @@
       "class": "noun"
     },
     {
+      "id": 99,
       "spanish": "pollo",
       "english": "chicken",
       "french": "poulet",
@@ -694,6 +794,7 @@
       "class": "noun"
     },
     {
+      "id": 100,
       "spanish": "vaca",
       "english": "cow",
       "french": "vache",
@@ -701,6 +802,7 @@
       "class": "noun"
     },
     {
+      "id": 101,
       "spanish": "pescado",
       "english": "fish",
       "french": "poisson",
@@ -708,6 +810,7 @@
       "class": "noun"
     },
     {
+      "id": 102,
       "spanish": "jamón",
       "english": "ham",
       "french": "jambon",
@@ -715,6 +818,7 @@
       "class": "noun"
     },
     {
+      "id": 103,
       "spanish": "huevo",
       "english": "egg",
       "french": "oeuf",
@@ -722,6 +826,7 @@
       "class": "noun"
     },
     {
+      "id": 104,
       "spanish": "leche",
       "english": "milk",
       "french": "lait",
@@ -729,6 +834,7 @@
       "class": "noun"
     },
     {
+      "id": 105,
       "spanish": "queso",
       "english": "cheese",
       "french": "fromage",
@@ -736,6 +842,7 @@
       "class": "noun"
     },
     {
+      "id": 106,
       "spanish": "mantequilla",
       "english": "butter",
       "french": "beurre",
@@ -743,6 +850,7 @@
       "class": "noun"
     },
     {
+      "id": 107,
       "spanish": "yogur",
       "english": "yogurt",
       "french": "yaourt",
@@ -750,6 +858,7 @@
       "class": "noun"
     },
     {
+      "id": 108,
       "spanish": "chocolate",
       "english": "chocolate",
       "french": "chocolat",
@@ -757,6 +866,7 @@
       "class": "noun"
     },
     {
+      "id": 109,
       "spanish": "churro",
       "english": "churro",
       "french": "churro",
@@ -764,6 +874,7 @@
       "class": "noun"
     },
     {
+      "id": 110,
       "spanish": "helado",
       "english": "ice cream",
       "french": "glace",
@@ -771,6 +882,7 @@
       "class": "noun"
     },
     {
+      "id": 111,
       "spanish": "galleta",
       "english": "cookie, biscuit",
       "french": "biscuit",
@@ -778,6 +890,7 @@
       "class": "noun"
     },
     {
+      "id": 112,
       "spanish": "dulces",
       "english": "sweets, candies",
       "french": "bonbons",
@@ -785,6 +898,7 @@
       "class": "noun"
     },
     {
+      "id": 113,
       "spanish": "pastel",
       "english": "cake",
       "french": "gâteau",
@@ -792,6 +906,7 @@
       "class": "noun"
     },
     {
+      "id": 114,
       "spanish": "manzana",
       "english": "apple",
       "french": "pomme",
@@ -799,6 +914,7 @@
       "class": "noun"
     },
     {
+      "id": 115,
       "spanish": "naranja",
       "english": "orange",
       "french": "orange",
@@ -806,6 +922,7 @@
       "class": "noun"
     },
     {
+      "id": 116,
       "spanish": "plátano",
       "english": "banana",
       "french": "banane",
@@ -813,6 +930,7 @@
       "class": "noun"
     },
     {
+      "id": 117,
       "spanish": "uva",
       "english": "grape",
       "french": "raisin",
@@ -820,6 +938,7 @@
       "class": "noun"
     },
     {
+      "id": 118,
       "spanish": "fresa",
       "english": "strawberry",
       "french": "fraise",
@@ -827,6 +946,7 @@
       "class": "noun"
     },
     {
+      "id": 119,
       "spanish": "piña",
       "english": "pineapple",
       "french": "ananas",
@@ -834,6 +954,7 @@
       "class": "noun"
     },
     {
+      "id": 120,
       "spanish": "limón",
       "english": "lemon",
       "french": "citron",
@@ -841,6 +962,7 @@
       "class": "noun"
     },
     {
+      "id": 121,
       "spanish": "papa",
       "english": "potato",
       "french": "patate",
@@ -848,6 +970,7 @@
       "class": "noun"
     },
     {
+      "id": 122,
       "spanish": "tomate",
       "english": "tomato",
       "french": "tomate",
@@ -855,6 +978,7 @@
       "class": "noun"
     },
     {
+      "id": 123,
       "spanish": "lechuga",
       "english": "lettuce",
       "french": "laitue",
@@ -862,6 +986,7 @@
       "class": "noun"
     },
     {
+      "id": 124,
       "spanish": "zanahoria",
       "english": "carrot",
       "french": "carrotte",
@@ -869,6 +994,7 @@
       "class": "noun"
     },
     {
+      "id": 125,
       "spanish": "pimiento",
       "english": "bell pepper, pepper",
       "french": "poivron",
@@ -876,6 +1002,7 @@
       "class": "noun"
     },
     {
+      "id": 126,
       "spanish": "cebolla",
       "english": "onion",
       "french": "oignon",
@@ -883,6 +1010,7 @@
       "class": "noun"
     },
     {
+      "id": 127,
       "spanish": "pepino",
       "english": "cucumber",
       "french": "concombre",
@@ -890,6 +1018,7 @@
       "class": "noun"
     },
     {
+      "id": 128,
       "spanish": "comida",
       "english": "food, meal",
       "french": "nourriture, repas",
@@ -897,6 +1026,7 @@
       "class": "noun"
     },
     {
+      "id": 129,
       "spanish": "desayuno",
       "english": "breakfast",
       "french": "petit-déjeuner",
@@ -904,6 +1034,7 @@
       "class": "noun"
     },
     {
+      "id": 130,
       "spanish": "almuerzo",
       "english": "lunch",
       "french": "déjeuner",
@@ -911,6 +1042,7 @@
       "class": "noun"
     },
     {
+      "id": 131,
       "spanish": "cena",
       "english": "dinner, supper",
       "french": "dîner",
@@ -918,6 +1050,7 @@
       "class": "noun"
     },
     {
+      "id": 132,
       "spanish": "restaurante",
       "english": "restaurant",
       "french": "restaurant",
@@ -925,6 +1058,7 @@
       "class": "noun"
     },
     {
+      "id": 133,
       "spanish": "café, cafetería",
       "english": "café, coffee shop",
       "french": "café, cafétéria",
@@ -932,6 +1066,7 @@
       "class": "noun"
     },
     {
+      "id": 134,
       "spanish": "bar",
       "english": "bar",
       "french": "bar",
@@ -939,6 +1074,7 @@
       "class": "noun"
     },
     {
+      "id": 135,
       "spanish": "menú",
       "english": "menu",
       "french": "menu",
@@ -946,6 +1082,7 @@
       "class": "noun"
     },
     {
+      "id": 136,
       "spanish": "cuenta",
       "english": "bill, check",
       "french": "addition",
@@ -953,6 +1090,7 @@
       "class": "noun"
     },
     {
+      "id": 137,
       "spanish": "camarero",
       "english": "waiter",
       "french": "serveur",
@@ -960,6 +1098,7 @@
       "class": "noun"
     },
     {
+      "id": 138,
       "spanish": "propina",
       "english": "tip",
       "french": "pourboire",
@@ -967,6 +1106,7 @@
       "class": "noun"
     },
     {
+      "id": 139,
       "spanish": "pedir",
       "english": "to order",
       "french": "commander",
@@ -974,6 +1114,7 @@
       "class": "noun"
     },
     {
+      "id": 140,
       "spanish": "pagar",
       "english": "to pay",
       "french": "payer",
@@ -981,6 +1122,7 @@
       "class": "verb"
     },
     {
+      "id": 141,
       "spanish": "cuchara",
       "english": "spoon",
       "french": "cuillère",
@@ -988,6 +1130,7 @@
       "class": "verb"
     },
     {
+      "id": 142,
       "spanish": "tenedor",
       "english": "fork",
       "french": "fourchette",
@@ -995,6 +1138,7 @@
       "class": "noun"
     },
     {
+      "id": 143,
       "spanish": "cuchillo",
       "english": "knife",
       "french": "couteau",
@@ -1002,6 +1146,7 @@
       "class": "noun"
     },
     {
+      "id": 144,
       "spanish": "plato",
       "english": "plate, dish",
       "french": "assiette",
@@ -1009,6 +1154,7 @@
       "class": "noun"
     },
     {
+      "id": 145,
       "spanish": "taza",
       "english": "cup",
       "french": "tasse",
@@ -1016,6 +1162,7 @@
       "class": "noun"
     },
     {
+      "id": 146,
       "spanish": "vaso",
       "english": "glass",
       "french": "verre",
@@ -1023,6 +1170,7 @@
       "class": "noun"
     },
     {
+      "id": 147,
       "spanish": "bol",
       "english": "bowl",
       "french": "bol",
@@ -1030,6 +1178,7 @@
       "class": "noun"
     },
     {
+      "id": 148,
       "spanish": "cuerpo",
       "english": "body",
       "french": "corps",
@@ -1037,6 +1186,7 @@
       "class": "noun"
     },
     {
+      "id": 149,
       "spanish": "brazo",
       "english": "arm",
       "french": "bras",
@@ -1044,6 +1194,7 @@
       "class": "noun"
     },
     {
+      "id": 150,
       "spanish": "mano",
       "english": "hand",
       "french": "main",
@@ -1051,6 +1202,7 @@
       "class": "noun"
     },
     {
+      "id": 151,
       "spanish": "dedo",
       "english": "finger",
       "french": "doigt",
@@ -1058,6 +1210,7 @@
       "class": "noun"
     },
     {
+      "id": 152,
       "spanish": "uña",
       "english": "nail",
       "french": "ongle",
@@ -1065,6 +1218,7 @@
       "class": "noun"
     },
     {
+      "id": 153,
       "spanish": "pecho",
       "english": "chest",
       "french": "poitrine",
@@ -1072,6 +1226,7 @@
       "class": "noun"
     },
     {
+      "id": 154,
       "spanish": "espalda",
       "english": "back",
       "french": "dos",
@@ -1079,6 +1234,7 @@
       "class": "noun"
     },
     {
+      "id": 155,
       "spanish": "pierna",
       "english": "leg",
       "french": "jambe",
@@ -1086,6 +1242,7 @@
       "class": "noun"
     },
     {
+      "id": 156,
       "spanish": "rodilla",
       "english": "knee",
       "french": "genou",
@@ -1093,6 +1250,7 @@
       "class": "noun"
     },
     {
+      "id": 157,
       "spanish": "pie",
       "english": "foot",
       "french": "pied",
@@ -1100,6 +1258,7 @@
       "class": "noun"
     },
     {
+      "id": 158,
       "spanish": "corazón",
       "english": "heart",
       "french": "cœur",
@@ -1107,6 +1266,7 @@
       "class": "noun"
     },
     {
+      "id": 159,
       "spanish": "estómago",
       "english": "stomach",
       "french": "estomac",
@@ -1114,6 +1274,7 @@
       "class": "noun"
     },
     {
+      "id": 160,
       "spanish": "cerebro",
       "english": "brain",
       "french": "cerveau",
@@ -1121,6 +1282,7 @@
       "class": "noun"
     },
     {
+      "id": 161,
       "spanish": "piel",
       "english": "skin",
       "french": "peau",
@@ -1128,6 +1290,7 @@
       "class": "noun"
     },
     {
+      "id": 162,
       "spanish": "cuello",
       "english": "neck",
       "french": "cou",
@@ -1135,6 +1298,7 @@
       "class": "noun"
     },
     {
+      "id": 163,
       "spanish": "cabeza",
       "english": "head",
       "french": "tête",
@@ -1142,6 +1306,7 @@
       "class": "noun"
     },
     {
+      "id": 164,
       "spanish": "cara",
       "english": "face",
       "french": "visage",
@@ -1149,6 +1314,7 @@
       "class": "noun"
     },
     {
+      "id": 165,
       "spanish": "cabello",
       "english": "hair",
       "french": "cheveu",
@@ -1156,6 +1322,7 @@
       "class": "noun"
     },
     {
+      "id": 166,
       "spanish": "pelo",
       "english": "hair",
       "french": "cheveu",
@@ -1163,6 +1330,7 @@
       "class": "noun"
     },
     {
+      "id": 167,
       "spanish": "frente",
       "english": "forehead",
       "french": "front",
@@ -1170,6 +1338,7 @@
       "class": "noun"
     },
     {
+      "id": 168,
       "spanish": "ojo",
       "english": "eye",
       "french": "œil",
@@ -1177,6 +1346,7 @@
       "class": "noun"
     },
     {
+      "id": 169,
       "spanish": "oreja",
       "english": "ear",
       "french": "oreille",
@@ -1184,6 +1354,7 @@
       "class": "noun"
     },
     {
+      "id": 170,
       "spanish": "nariz",
       "english": "nose",
       "french": "nez",
@@ -1191,6 +1362,7 @@
       "class": "noun"
     },
     {
+      "id": 171,
       "spanish": "boca",
       "english": "mouth",
       "french": "bouche",
@@ -1198,6 +1370,7 @@
       "class": "noun"
     },
     {
+      "id": 172,
       "spanish": "diente",
       "english": "tooth",
       "french": "dent",
@@ -1205,6 +1378,7 @@
       "class": "noun"
     },
     {
+      "id": 173,
       "spanish": "labio",
       "english": "lip",
       "french": "lèvre",
@@ -1212,6 +1386,7 @@
       "class": "noun"
     },
     {
+      "id": 174,
       "spanish": "muerto",
       "english": "dead",
       "french": "mort",
@@ -1219,6 +1394,7 @@
       "class": "noun"
     },
     {
+      "id": 175,
       "spanish": "vivo",
       "english": "alive, living",
       "french": "vivant",
@@ -1226,6 +1402,7 @@
       "class": "noun"
     },
     {
+      "id": 176,
       "spanish": "enfermo",
       "english": "sick, ill",
       "french": "malade",
@@ -1233,20 +1410,23 @@
       "class": "noun"
     },
     {
+      "id": 177,
       "spanish": "mareo",
       "english": "dizziness",
-      "french": "avoir des vertiges",
+      "french": "mal au cœur, mal des transports, mal de mer",
       "category": "Salud",
       "class": "noun"
     },
     {
+      "id": 178,
       "spanish": "náusea",
       "english": "nausea",
-      "french": "avoir la nausée, être nauséeux",
+      "french": "nausée",
       "category": "Salud",
       "class": "noun"
     },
     {
+      "id": 179,
       "spanish": "salud",
       "english": "health",
       "french": "santé",
@@ -1254,6 +1434,7 @@
       "class": "noun"
     },
     {
+      "id": 180,
       "spanish": "gripe",
       "english": "flu, influenza",
       "french": "grippe",
@@ -1261,6 +1442,7 @@
       "class": "noun"
     },
     {
+      "id": 181,
       "spanish": "resfriado",
       "english": "cold",
       "french": "rhume",
@@ -1268,6 +1450,7 @@
       "class": "noun"
     },
     {
+      "id": 182,
       "spanish": "alergia",
       "english": "allergy",
       "french": "allergie",
@@ -1275,6 +1458,7 @@
       "class": "noun"
     },
     {
+      "id": 183,
       "spanish": "infección",
       "english": "infection",
       "french": "infection",
@@ -1282,6 +1466,7 @@
       "class": "noun"
     },
     {
+      "id": 184,
       "spanish": "vómito",
       "english": "vomit",
       "french": "vomir",
@@ -1289,6 +1474,7 @@
       "class": "noun"
     },
     {
+      "id": 185,
       "spanish": "dolor",
       "english": "pain",
       "french": "douleur",
@@ -1296,6 +1482,7 @@
       "class": "noun"
     },
     {
+      "id": 186,
       "spanish": "fiebre",
       "english": "fever",
       "french": "fièvre",
@@ -1303,6 +1490,7 @@
       "class": "noun"
     },
     {
+      "id": 187,
       "spanish": "tos",
       "english": "cough",
       "french": "toux",
@@ -1310,6 +1498,7 @@
       "class": "noun"
     },
     {
+      "id": 188,
       "spanish": "medicina",
       "english": "medicine",
       "french": "médecine",
@@ -1317,6 +1506,7 @@
       "class": "noun"
     },
     {
+      "id": 189,
       "spanish": "operar",
       "english": "to operate",
       "french": "opérer",
@@ -1324,6 +1514,7 @@
       "class": "noun"
     },
     {
+      "id": 190,
       "spanish": "farmacia",
       "english": "pharmacy",
       "french": "pharmacie",
@@ -1331,6 +1522,7 @@
       "class": "verb"
     },
     {
+      "id": 191,
       "spanish": "pastilla",
       "english": "pill, tablet",
       "french": "médicament",
@@ -1338,6 +1530,7 @@
       "class": "noun"
     },
     {
+      "id": 192,
       "spanish": "vacuna",
       "english": "vaccine",
       "french": "vaccin",
@@ -1345,6 +1538,7 @@
       "class": "noun"
     },
     {
+      "id": 193,
       "spanish": "jabón",
       "english": "soap",
       "french": "savon",
@@ -1352,6 +1546,7 @@
       "class": "noun"
     },
     {
+      "id": 194,
       "spanish": "champú",
       "english": "shampoo",
       "french": "shampooing",
@@ -1359,6 +1554,7 @@
       "class": "noun"
     },
     {
+      "id": 195,
       "spanish": "toalla",
       "english": "towel",
       "french": "serviette",
@@ -1366,6 +1562,7 @@
       "class": "noun"
     },
     {
+      "id": 196,
       "spanish": "cepillo de dientes",
       "english": "toothbrush",
       "french": "brosse à dents",
@@ -1373,6 +1570,7 @@
       "class": "noun"
     },
     {
+      "id": 197,
       "spanish": "pasta de dientes",
       "english": "toothpaste",
       "french": "dentifrice",
@@ -1380,6 +1578,7 @@
       "class": "noun"
     },
     {
+      "id": 198,
       "spanish": "cepillo",
       "english": "brush",
       "french": "brosse à cheveux",
@@ -1387,6 +1586,7 @@
       "class": "noun"
     },
     {
+      "id": 199,
       "spanish": "lavar",
       "english": "to wash",
       "french": "laver",
@@ -1394,6 +1594,7 @@
       "class": "noun"
     },
     {
+      "id": 200,
       "spanish": "duchar",
       "english": "to shower",
       "french": "doucher",
@@ -1401,6 +1602,7 @@
       "class": "verb"
     },
     {
+      "id": 201,
       "spanish": "bañar",
       "english": "to bathe",
       "french": "baigner",
@@ -1408,6 +1610,7 @@
       "class": "verb"
     },
     {
+      "id": 202,
       "spanish": "lavabo",
       "english": "sink, washbasin",
       "french": "lavabo",
@@ -1415,6 +1618,7 @@
       "class": "verb"
     },
     {
+      "id": 203,
       "spanish": "ducha",
       "english": "shower",
       "french": "douche",
@@ -1422,6 +1626,7 @@
       "class": "noun"
     },
     {
+      "id": 204,
       "spanish": "bañera",
       "english": "bathtub",
       "french": "bain",
@@ -1429,6 +1634,7 @@
       "class": "noun"
     },
     {
+      "id": 205,
       "spanish": "detergente",
       "english": "detergent",
       "french": "détergent",
@@ -1436,6 +1642,7 @@
       "class": "noun"
     },
     {
+      "id": 206,
       "spanish": "casa",
       "english": "house",
       "french": "maison",
@@ -1443,6 +1650,7 @@
       "class": "noun"
     },
     {
+      "id": 207,
       "spanish": "apartamento",
       "english": "apartment",
       "french": "appartement",
@@ -1450,6 +1658,7 @@
       "class": "noun"
     },
     {
+      "id": 208,
       "spanish": "puerta",
       "english": "door",
       "french": "porte",
@@ -1457,6 +1666,7 @@
       "class": "noun"
     },
     {
+      "id": 209,
       "spanish": "llave",
       "english": "key",
       "french": "clef, clé",
@@ -1464,6 +1674,7 @@
       "class": "noun"
     },
     {
+      "id": 210,
       "spanish": "ventana",
       "english": "window",
       "french": "fenêtre",
@@ -1471,6 +1682,7 @@
       "class": "noun"
     },
     {
+      "id": 211,
       "spanish": "techo",
       "english": "ceiling, roof",
       "french": "toit",
@@ -1478,6 +1690,7 @@
       "class": "noun"
     },
     {
+      "id": 212,
       "spanish": "pared",
       "english": "wall",
       "french": "mur",
@@ -1485,6 +1698,7 @@
       "class": "noun"
     },
     {
+      "id": 213,
       "spanish": "suelo",
       "english": "floor",
       "french": "sol",
@@ -1492,6 +1706,7 @@
       "class": "noun"
     },
     {
+      "id": 214,
       "spanish": "sala",
       "english": "living room",
       "french": "séjour, salle",
@@ -1499,6 +1714,7 @@
       "class": "noun"
     },
     {
+      "id": 215,
       "spanish": "cocina",
       "english": "kitchen",
       "french": "cuisine",
@@ -1506,6 +1722,7 @@
       "class": "noun"
     },
     {
+      "id": 216,
       "spanish": "dormitorio",
       "english": "bedroom",
       "french": "chambre, dortoir",
@@ -1513,6 +1730,7 @@
       "class": "noun"
     },
     {
+      "id": 217,
       "spanish": "habitación",
       "english": "room",
       "french": "chambre",
@@ -1520,6 +1738,7 @@
       "class": "noun"
     },
     {
+      "id": 218,
       "spanish": "baño",
       "english": "bathroom",
       "french": "salle de bain",
@@ -1527,6 +1746,7 @@
       "class": "noun"
     },
     {
+      "id": 219,
       "spanish": "comedor",
       "english": "dining room",
       "french": "salle à manger",
@@ -1534,6 +1754,7 @@
       "class": "noun"
     },
     {
+      "id": 220,
       "spanish": "ático",
       "english": "attic",
       "french": "grenier",
@@ -1541,6 +1762,7 @@
       "class": "noun"
     },
     {
+      "id": 221,
       "spanish": "balcón",
       "english": "balcony",
       "french": "balcon",
@@ -1548,6 +1770,7 @@
       "class": "noun"
     },
     {
+      "id": 222,
       "spanish": "cama",
       "english": "bed",
       "french": "lit",
@@ -1555,6 +1778,7 @@
       "class": "noun"
     },
     {
+      "id": 223,
       "spanish": "mesa",
       "english": "table",
       "french": "table",
@@ -1562,6 +1786,7 @@
       "class": "noun"
     },
     {
+      "id": 224,
       "spanish": "silla",
       "english": "chair",
       "french": "chaise",
@@ -1569,6 +1794,7 @@
       "class": "noun"
     },
     {
+      "id": 225,
       "spanish": "sofá",
       "english": "sofa, couch",
       "french": "canapé",
@@ -1576,6 +1802,7 @@
       "class": "noun"
     },
     {
+      "id": 226,
       "spanish": "alfombra",
       "english": "carpet, rug",
       "french": "tapis",
@@ -1583,6 +1810,7 @@
       "class": "noun"
     },
     {
+      "id": 227,
       "spanish": "espejo",
       "english": "mirror",
       "french": "miroir",
@@ -1590,6 +1818,7 @@
       "class": "noun"
     },
     {
+      "id": 228,
       "spanish": "armario",
       "english": "wardrobe, closet",
       "french": "armoire",
@@ -1597,6 +1826,7 @@
       "class": "noun"
     },
     {
+      "id": 229,
       "spanish": "estufa",
       "english": "stove, heater",
       "french": "plaque de cuisson",
@@ -1604,6 +1834,7 @@
       "class": "noun"
     },
     {
+      "id": 230,
       "spanish": "nevera",
       "english": "refrigerator, fridge",
       "french": "réfrigérateur",
@@ -1611,6 +1842,7 @@
       "class": "noun"
     },
     {
+      "id": 231,
       "spanish": "microondas",
       "english": "microwave",
       "french": "micro-ondes",
@@ -1618,6 +1850,7 @@
       "class": "noun"
     },
     {
+      "id": 232,
       "spanish": "lavadora",
       "english": "washing machine",
       "french": "machine à laver",
@@ -1625,6 +1858,7 @@
       "class": "noun"
     },
     {
+      "id": 233,
       "spanish": "plancha",
       "english": "iron",
       "french": "fer à repasser",
@@ -1632,6 +1866,7 @@
       "class": "noun"
     },
     {
+      "id": 234,
       "spanish": "televisor",
       "english": "television, TV",
       "french": "télévision",
@@ -1639,6 +1874,7 @@
       "class": "noun"
     },
     {
+      "id": 235,
       "spanish": "camiseta",
       "english": "t-shirt",
       "french": "t-shirt",
@@ -1646,6 +1882,7 @@
       "class": "noun"
     },
     {
+      "id": 236,
       "spanish": "camisa",
       "english": "shirt",
       "french": "chemise",
@@ -1653,6 +1890,7 @@
       "class": "noun"
     },
     {
+      "id": 237,
       "spanish": "pantalón",
       "english": "pants, trousers",
       "french": "pantalon",
@@ -1660,6 +1898,7 @@
       "class": "noun"
     },
     {
+      "id": 238,
       "spanish": "vaqueros",
       "english": "jeans",
       "french": "jeans",
@@ -1667,6 +1906,7 @@
       "class": "noun"
     },
     {
+      "id": 239,
       "spanish": "falda",
       "english": "skirt",
       "french": "jupe",
@@ -1674,6 +1914,7 @@
       "class": "noun"
     },
     {
+      "id": 240,
       "spanish": "vestido",
       "english": "dress",
       "french": "robe",
@@ -1681,6 +1922,7 @@
       "class": "noun"
     },
     {
+      "id": 241,
       "spanish": "suéter",
       "english": "sweater",
       "french": "sweatshirt",
@@ -1688,6 +1930,7 @@
       "class": "noun"
     },
     {
+      "id": 242,
       "spanish": "chaqueta",
       "english": "jacket",
       "french": "veste",
@@ -1695,6 +1938,7 @@
       "class": "noun"
     },
     {
+      "id": 243,
       "spanish": "abrigo",
       "english": "coat",
       "french": "manteau",
@@ -1702,6 +1946,7 @@
       "class": "noun"
     },
     {
+      "id": 244,
       "spanish": "zapato",
       "english": "shoe",
       "french": "chaussure",
@@ -1709,6 +1954,7 @@
       "class": "noun"
     },
     {
+      "id": 245,
       "spanish": "bota",
       "english": "boot",
       "french": "botte",
@@ -1716,6 +1962,7 @@
       "class": "noun"
     },
     {
+      "id": 246,
       "spanish": "sandalia",
       "english": "sandal",
       "french": "sandale",
@@ -1723,6 +1970,7 @@
       "class": "noun"
     },
     {
+      "id": 247,
       "spanish": "calcetín",
       "english": "sock",
       "french": "chaussette",
@@ -1730,6 +1978,7 @@
       "class": "noun"
     },
     {
+      "id": 248,
       "spanish": "sombrero",
       "english": "hat",
       "french": "chapeau",
@@ -1737,6 +1986,7 @@
       "class": "noun"
     },
     {
+      "id": 249,
       "spanish": "gorra",
       "english": "cap",
       "french": "casquette",
@@ -1744,6 +1994,7 @@
       "class": "noun"
     },
     {
+      "id": 250,
       "spanish": "bufanda",
       "english": "scarf",
       "french": "écharpe",
@@ -1751,6 +2002,7 @@
       "class": "noun"
     },
     {
+      "id": 251,
       "spanish": "cinturón",
       "english": "belt",
       "french": "ceinture",
@@ -1758,6 +2010,7 @@
       "class": "noun"
     },
     {
+      "id": 252,
       "spanish": "reloj",
       "english": "watch",
       "french": "montre",
@@ -1765,6 +2018,7 @@
       "class": "noun"
     },
     {
+      "id": 253,
       "spanish": "bolso",
       "english": "bag, purse",
       "french": "sac à main",
@@ -1772,6 +2026,7 @@
       "class": "noun"
     },
     {
+      "id": 254,
       "spanish": "despertarse",
       "english": "to wake up",
       "french": "se réveiller",
@@ -1779,6 +2034,7 @@
       "class": "noun"
     },
     {
+      "id": 255,
       "spanish": "levantarse",
       "english": "to get up",
       "french": "se lever",
@@ -1786,6 +2042,7 @@
       "class": "noun"
     },
     {
+      "id": 256,
       "spanish": "peinar",
       "english": "to comb",
       "french": "peigner",
@@ -1793,6 +2050,7 @@
       "class": "verb"
     },
     {
+      "id": 257,
       "spanish": "desayunar",
       "english": "to have breakfast",
       "french": "petit-déjeuner",
@@ -1800,6 +2058,7 @@
       "class": "verb"
     },
     {
+      "id": 258,
       "spanish": "almorzar",
       "english": "to have lunch",
       "french": "déjeuner",
@@ -1807,6 +2066,7 @@
       "class": "verb"
     },
     {
+      "id": 259,
       "spanish": "cenar",
       "english": "to have dinner",
       "french": "dîner",
@@ -1814,6 +2074,7 @@
       "class": "verb"
     },
     {
+      "id": 260,
       "spanish": "estudiar",
       "english": "to study",
       "french": "étudier",
@@ -1821,6 +2082,7 @@
       "class": "verb"
     },
     {
+      "id": 261,
       "spanish": "trabajar",
       "english": "to work",
       "french": "travailler",
@@ -1828,6 +2090,7 @@
       "class": "verb"
     },
     {
+      "id": 262,
       "spanish": "descansarse",
       "english": "to rest",
       "french": "se reposer",
@@ -1835,6 +2098,7 @@
       "class": "verb"
     },
     {
+      "id": 263,
       "spanish": "dormir",
       "english": "to sleep",
       "french": "dormir",
@@ -1842,6 +2106,7 @@
       "class": "verb"
     },
     {
+      "id": 264,
       "spanish": "limpiar",
       "english": "to clean",
       "french": "nettoyer",
@@ -1849,6 +2114,7 @@
       "class": "verb"
     },
     {
+      "id": 265,
       "spanish": "fregar",
       "english": "to scrub, to wash",
       "french": "nettoyer (ménage)",
@@ -1856,6 +2122,7 @@
       "class": "verb"
     },
     {
+      "id": 266,
       "spanish": "cocinar",
       "english": "to cook",
       "french": "cuisiner",
@@ -1863,6 +2130,7 @@
       "class": "verb"
     },
     {
+      "id": 267,
       "spanish": "escuela",
       "english": "school",
       "french": "école",
@@ -1870,6 +2138,7 @@
       "class": "verb"
     },
     {
+      "id": 268,
       "spanish": "colegio",
       "english": "school",
       "french": "école, collège",
@@ -1877,6 +2146,7 @@
       "class": "noun"
     },
     {
+      "id": 269,
       "spanish": "instituto",
       "english": "secondary school, institute",
       "french": "institut, collège, lycée",
@@ -1884,6 +2154,7 @@
       "class": "noun"
     },
     {
+      "id": 270,
       "spanish": "universidad",
       "english": "university",
       "french": "université",
@@ -1891,6 +2162,7 @@
       "class": "noun"
     },
     {
+      "id": 271,
       "spanish": "clase",
       "english": "classroom, class",
       "french": "classe",
@@ -1898,6 +2170,7 @@
       "class": "noun"
     },
     {
+      "id": 272,
       "spanish": "estudiante",
       "english": "student",
       "french": "étudiant",
@@ -1905,6 +2178,7 @@
       "class": "noun"
     },
     {
+      "id": 273,
       "spanish": "lección",
       "english": "lesson",
       "french": "leçon",
@@ -1912,6 +2186,7 @@
       "class": "noun"
     },
     {
+      "id": 274,
       "spanish": "examen",
       "english": "exam, test",
       "french": "examen",
@@ -1919,6 +2194,7 @@
       "class": "noun"
     },
     {
+      "id": 275,
       "spanish": "tarea",
       "english": "homework",
       "french": "devoir",
@@ -1926,6 +2202,7 @@
       "class": "noun"
     },
     {
+      "id": 276,
       "spanish": "pizarra",
       "english": "board, blackboard",
       "french": "tableau",
@@ -1933,6 +2210,7 @@
       "class": "noun"
     },
     {
+      "id": 277,
       "spanish": "libro",
       "english": "book",
       "french": "livre",
@@ -1940,6 +2218,7 @@
       "class": "noun"
     },
     {
+      "id": 278,
       "spanish": "cuaderno",
       "english": "notebook",
       "french": "cahier",
@@ -1947,6 +2226,7 @@
       "class": "noun"
     },
     {
+      "id": 279,
       "spanish": "papel",
       "english": "paper",
       "french": "papier",
@@ -1954,6 +2234,7 @@
       "class": "noun"
     },
     {
+      "id": 280,
       "spanish": "lápiz",
       "english": "pencil",
       "french": "crayon",
@@ -1961,6 +2242,7 @@
       "class": "noun"
     },
     {
+      "id": 281,
       "spanish": "bolígrafo",
       "english": "pen",
       "french": "stylo",
@@ -1968,6 +2250,7 @@
       "class": "noun"
     },
     {
+      "id": 282,
       "spanish": "mochila",
       "english": "backpack",
       "french": "sac à dos",
@@ -1975,6 +2258,7 @@
       "class": "noun"
     },
     {
+      "id": 283,
       "spanish": "matemáticas",
       "english": "mathematics, math",
       "french": "mathématiques",
@@ -1982,6 +2266,7 @@
       "class": "noun"
     },
     {
+      "id": 284,
       "spanish": "ciencias",
       "english": "science",
       "french": "sciences",
@@ -1989,6 +2274,7 @@
       "class": "noun"
     },
     {
+      "id": 285,
       "spanish": "historia",
       "english": "history",
       "french": "histoire",
@@ -1996,6 +2282,7 @@
       "class": "noun"
     },
     {
+      "id": 286,
       "spanish": "geografía",
       "english": "geography",
       "french": "géographie",
@@ -2003,6 +2290,7 @@
       "class": "noun"
     },
     {
+      "id": 287,
       "spanish": "arte",
       "english": "art",
       "french": "art",
@@ -2010,6 +2298,7 @@
       "class": "noun"
     },
     {
+      "id": 288,
       "spanish": "lengua",
       "english": "language",
       "french": "langue",
@@ -2017,6 +2306,7 @@
       "class": "noun"
     },
     {
+      "id": 289,
       "spanish": "educación física",
       "english": "physical education",
       "french": "éducation physique",
@@ -2024,6 +2314,7 @@
       "class": "noun"
     },
     {
+      "id": 290,
       "spanish": "leer",
       "english": "to read",
       "french": "lire",
@@ -2031,6 +2322,7 @@
       "class": "verb"
     },
     {
+      "id": 291,
       "spanish": "dibujar",
       "english": "to draw",
       "french": "dessiner",
@@ -2038,6 +2330,7 @@
       "class": "verb"
     },
     {
+      "id": 292,
       "spanish": "pintar",
       "english": "to paint",
       "french": "peindre",
@@ -2045,6 +2338,7 @@
       "class": "verb"
     },
     {
+      "id": 293,
       "spanish": "bailar",
       "english": "to dance",
       "french": "danser",
@@ -2052,6 +2346,7 @@
       "class": "verb"
     },
     {
+      "id": 294,
       "spanish": "cantar",
       "english": "to sing",
       "french": "chanter",
@@ -2059,6 +2354,7 @@
       "class": "verb"
     },
     {
+      "id": 295,
       "spanish": "tocar",
       "english": "to play (an instrument)",
       "french": "toucher",
@@ -2066,6 +2362,7 @@
       "class": "verb"
     },
     {
+      "id": 296,
       "spanish": "jugar",
       "english": "to play",
       "french": "jouer",
@@ -2073,6 +2370,7 @@
       "class": "verb"
     },
     {
+      "id": 297,
       "spanish": "pasear",
       "english": "to stroll, to walk",
       "french": "se balader",
@@ -2080,6 +2378,7 @@
       "class": "verb"
     },
     {
+      "id": 298,
       "spanish": "escribir",
       "english": "to write",
       "french": "écrire",
@@ -2087,6 +2386,7 @@
       "class": "verb"
     },
     {
+      "id": 299,
       "spanish": "película",
       "english": "movie, film",
       "french": "film",
@@ -2094,6 +2394,7 @@
       "class": "noun"
     },
     {
+      "id": 300,
       "spanish": "música",
       "english": "music",
       "french": "musique",
@@ -2101,6 +2402,7 @@
       "class": "noun"
     },
     {
+      "id": 301,
       "spanish": "fiesta",
       "english": "party",
       "french": "fête",
@@ -2108,6 +2410,7 @@
       "class": "noun"
     },
     {
+      "id": 302,
       "spanish": "juego",
       "english": "game",
       "french": "jeu",
@@ -2115,6 +2418,7 @@
       "class": "noun"
     },
     {
+      "id": 303,
       "spanish": "fútbol",
       "english": "soccer, football",
       "french": "football",
@@ -2122,6 +2426,7 @@
       "class": "noun"
     },
     {
+      "id": 304,
       "spanish": "baloncesto",
       "english": "basketball",
       "french": "basketball",
@@ -2129,6 +2434,7 @@
       "class": "noun"
     },
     {
+      "id": 305,
       "spanish": "tenis",
       "english": "tennis",
       "french": "tennis",
@@ -2136,6 +2442,7 @@
       "class": "noun"
     },
     {
+      "id": 306,
       "spanish": "voleibol",
       "english": "volleyball",
       "french": "volleyball",
@@ -2143,6 +2450,7 @@
       "class": "noun"
     },
     {
+      "id": 307,
       "spanish": "ciclismo",
       "english": "cycling",
       "french": "cyclisme",
@@ -2150,6 +2458,7 @@
       "class": "noun"
     },
     {
+      "id": 308,
       "spanish": "esquí",
       "english": "skiing",
       "french": "ski",
@@ -2157,6 +2466,7 @@
       "class": "noun"
     },
     {
+      "id": 309,
       "spanish": "golf",
       "english": "golf",
       "french": "golf",
@@ -2164,6 +2474,7 @@
       "class": "noun"
     },
     {
+      "id": 310,
       "spanish": "médico",
       "english": "doctor",
       "french": "médecin",
@@ -2171,6 +2482,7 @@
       "class": "noun"
     },
     {
+      "id": 311,
       "spanish": "enfermero",
       "english": "nurse",
       "french": "infirmier",
@@ -2178,6 +2490,7 @@
       "class": "noun"
     },
     {
+      "id": 312,
       "spanish": "maestro",
       "english": "teacher",
       "french": "maître, professeur",
@@ -2185,6 +2498,7 @@
       "class": "noun"
     },
     {
+      "id": 313,
       "spanish": "abogado",
       "english": "lawyer",
       "french": "avocat",
@@ -2192,6 +2506,7 @@
       "class": "noun"
     },
     {
+      "id": 314,
       "spanish": "ingeniero",
       "english": "engineer",
       "french": "ingénieur",
@@ -2199,6 +2514,7 @@
       "class": "noun"
     },
     {
+      "id": 315,
       "spanish": "policía",
       "english": "police officer",
       "french": "police",
@@ -2206,6 +2522,7 @@
       "class": "noun"
     },
     {
+      "id": 316,
       "spanish": "conductor",
       "english": "driver",
       "french": "conducteur, chauffeur",
@@ -2213,6 +2530,7 @@
       "class": "noun"
     },
     {
+      "id": 317,
       "spanish": "actor",
       "english": "actor",
       "french": "acteur",
@@ -2220,6 +2538,7 @@
       "class": "noun"
     },
     {
+      "id": 318,
       "spanish": "artista",
       "english": "artist",
       "french": "artiste",
@@ -2227,6 +2546,7 @@
       "class": "noun"
     },
     {
+      "id": 319,
       "spanish": "jefe",
       "english": "boss, manager",
       "french": "chef",
@@ -2234,6 +2554,7 @@
       "class": "noun"
     },
     {
+      "id": 320,
       "spanish": "empleado",
       "english": "employee",
       "french": "employé",
@@ -2241,6 +2562,7 @@
       "class": "noun"
     },
     {
+      "id": 321,
       "spanish": "oficina",
       "english": "office",
       "french": "bureau",
@@ -2248,6 +2570,7 @@
       "class": "noun"
     },
     {
+      "id": 322,
       "spanish": "fábrica",
       "english": "factory",
       "french": "usine",
@@ -2255,6 +2578,7 @@
       "class": "noun"
     },
     {
+      "id": 323,
       "spanish": "tienda",
       "english": "store, shop",
       "french": "boutique",
@@ -2262,6 +2586,7 @@
       "class": "noun"
     },
     {
+      "id": 324,
       "spanish": "ciudad",
       "english": "city",
       "french": "ville",
@@ -2269,6 +2594,7 @@
       "class": "noun"
     },
     {
+      "id": 325,
       "spanish": "calle",
       "english": "street",
       "french": "rue",
@@ -2276,6 +2602,7 @@
       "class": "noun"
     },
     {
+      "id": 326,
       "spanish": "avenida",
       "english": "avenue",
       "french": "avenue",
@@ -2283,6 +2610,7 @@
       "class": "noun"
     },
     {
+      "id": 327,
       "spanish": "plaza",
       "english": "square, plaza",
       "french": "place",
@@ -2290,6 +2618,7 @@
       "class": "noun"
     },
     {
+      "id": 328,
       "spanish": "esquina",
       "english": "corner",
       "french": "coin de rue",
@@ -2297,6 +2626,7 @@
       "class": "noun"
     },
     {
+      "id": 329,
       "spanish": "cruce",
       "english": "crossing, intersection",
       "french": "intersection",
@@ -2304,6 +2634,7 @@
       "class": "noun"
     },
     {
+      "id": 330,
       "spanish": "callejón",
       "english": "alley",
       "french": "allée",
@@ -2311,6 +2642,7 @@
       "class": "noun"
     },
     {
+      "id": 331,
       "spanish": "parque",
       "english": "park",
       "french": "parc",
@@ -2318,6 +2650,7 @@
       "class": "noun"
     },
     {
+      "id": 332,
       "spanish": "hospital",
       "english": "hospital",
       "french": "hôpital",
@@ -2325,6 +2658,7 @@
       "class": "noun"
     },
     {
+      "id": 333,
       "spanish": "clínica",
       "english": "clinic",
       "french": "clinique",
@@ -2332,6 +2666,7 @@
       "class": "noun"
     },
     {
+      "id": 334,
       "spanish": "museo",
       "english": "museum",
       "french": "musée",
@@ -2339,6 +2674,7 @@
       "class": "noun"
     },
     {
+      "id": 335,
       "spanish": "biblioteca",
       "english": "library",
       "french": "bibliothèque",
@@ -2346,6 +2682,7 @@
       "class": "noun"
     },
     {
+      "id": 336,
       "spanish": "cine",
       "english": "movie theater, cinema",
       "french": "cinéma",
@@ -2353,6 +2690,7 @@
       "class": "noun"
     },
     {
+      "id": 337,
       "spanish": "teatro",
       "english": "theater",
       "french": "théâtre",
@@ -2360,6 +2698,7 @@
       "class": "noun"
     },
     {
+      "id": 338,
       "spanish": "estación",
       "english": "station",
       "french": "station",
@@ -2367,6 +2706,7 @@
       "class": "noun"
     },
     {
+      "id": 339,
       "spanish": "supermercado",
       "english": "supermarket",
       "french": "supermarché",
@@ -2374,6 +2714,7 @@
       "class": "noun"
     },
     {
+      "id": 340,
       "spanish": "banco",
       "english": "bank",
       "french": "banque",
@@ -2381,6 +2722,7 @@
       "class": "noun"
     },
     {
+      "id": 341,
       "spanish": "mercado",
       "english": "market",
       "french": "marché",
@@ -2388,6 +2730,7 @@
       "class": "noun"
     },
     {
+      "id": 342,
       "spanish": "coche",
       "english": "car",
       "french": "voiture",
@@ -2395,6 +2738,7 @@
       "class": "noun"
     },
     {
+      "id": 343,
       "spanish": "moto",
       "english": "motorcycle, motorbike",
       "french": "moto",
@@ -2402,6 +2746,7 @@
       "class": "noun"
     },
     {
+      "id": 344,
       "spanish": "bicicleta",
       "english": "bicycle, bike",
       "french": "vélo, byciclette",
@@ -2409,6 +2754,7 @@
       "class": "noun"
     },
     {
+      "id": 345,
       "spanish": "autobús",
       "english": "bus",
       "french": "autobus",
@@ -2416,6 +2762,7 @@
       "class": "noun"
     },
     {
+      "id": 346,
       "spanish": "tren",
       "english": "train",
       "french": "train",
@@ -2423,6 +2770,7 @@
       "class": "noun"
     },
     {
+      "id": 347,
       "spanish": "metro",
       "english": "subway, metro",
       "french": "métro",
@@ -2430,6 +2778,7 @@
       "class": "noun"
     },
     {
+      "id": 348,
       "spanish": "taxi",
       "english": "taxi, cab",
       "french": "taxi",
@@ -2437,6 +2786,7 @@
       "class": "noun"
     },
     {
+      "id": 349,
       "spanish": "avión",
       "english": "airplane, plane",
       "french": "avion",
@@ -2444,6 +2794,7 @@
       "class": "noun"
     },
     {
+      "id": 350,
       "spanish": "barco",
       "english": "boat, ship",
       "french": "bateau",
@@ -2451,6 +2802,7 @@
       "class": "noun"
     },
     {
+      "id": 351,
       "spanish": "camión",
       "english": "truck",
       "french": "camion",
@@ -2458,6 +2810,7 @@
       "class": "noun"
     },
     {
+      "id": 352,
       "spanish": "ambulancia",
       "english": "ambulance",
       "french": "ambulance",
@@ -2465,6 +2818,7 @@
       "class": "noun"
     },
     {
+      "id": 353,
       "spanish": "aeropuerto",
       "english": "airport",
       "french": "aéroport",
@@ -2472,6 +2826,7 @@
       "class": "noun"
     },
     {
+      "id": 354,
       "spanish": "puerto",
       "english": "port, harbor",
       "french": "port",
@@ -2479,6 +2834,7 @@
       "class": "noun"
     },
     {
+      "id": 355,
       "spanish": "parada",
       "english": "stop",
       "french": "arrêt",
@@ -2486,6 +2842,7 @@
       "class": "noun"
     },
     {
+      "id": 356,
       "spanish": "tráfico",
       "english": "traffic",
       "french": "trafic",
@@ -2493,6 +2850,7 @@
       "class": "noun"
     },
     {
+      "id": 357,
       "spanish": "viaje",
       "english": "trip, journey",
       "french": "voyage",
@@ -2500,6 +2858,7 @@
       "class": "noun"
     },
     {
+      "id": 358,
       "spanish": "turista",
       "english": "tourist",
       "french": "touriste",
@@ -2507,6 +2866,7 @@
       "class": "noun"
     },
     {
+      "id": 359,
       "spanish": "mapa",
       "english": "map",
       "french": "carte",
@@ -2514,6 +2874,7 @@
       "class": "noun"
     },
     {
+      "id": 360,
       "spanish": "boleto",
       "english": "ticket",
       "french": "billet, ticket",
@@ -2521,6 +2882,7 @@
       "class": "noun"
     },
     {
+      "id": 361,
       "spanish": "reserva",
       "english": "reservation, booking",
       "french": "réservation",
@@ -2528,6 +2890,7 @@
       "class": "noun"
     },
     {
+      "id": 362,
       "spanish": "pasaporte",
       "english": "passport",
       "french": "passeport",
@@ -2535,6 +2898,7 @@
       "class": "noun"
     },
     {
+      "id": 363,
       "spanish": "maleta",
       "english": "suitcase",
       "french": "valise, malette",
@@ -2542,6 +2906,7 @@
       "class": "noun"
     },
     {
+      "id": 364,
       "spanish": "equipaje",
       "english": "luggage",
       "french": "bagage",
@@ -2549,6 +2914,7 @@
       "class": "noun"
     },
     {
+      "id": 365,
       "spanish": "hotel",
       "english": "hotel",
       "french": "hôtel",
@@ -2556,6 +2922,7 @@
       "class": "noun"
     },
     {
+      "id": 366,
       "spanish": "recepción",
       "english": "reception, front desk",
       "french": "réception",
@@ -2563,6 +2930,7 @@
       "class": "noun"
     },
     {
+      "id": 367,
       "spanish": "hostal",
       "english": "hostel, guesthouse",
       "french": "auberge",
@@ -2570,6 +2938,7 @@
       "class": "noun"
     },
     {
+      "id": 368,
       "spanish": "excursión",
       "english": "excursion, outing",
       "french": "excursion",
@@ -2577,6 +2946,7 @@
       "class": "noun"
     },
     {
+      "id": 369,
       "spanish": "monumento",
       "english": "monument",
       "french": "monument",
@@ -2584,6 +2954,7 @@
       "class": "noun"
     },
     {
+      "id": 370,
       "spanish": "visitar",
       "english": "to visit",
       "french": "visiter",
@@ -2591,6 +2962,7 @@
       "class": "verb"
     },
     {
+      "id": 371,
       "spanish": "viajar",
       "english": "to travel",
       "french": "voyager",
@@ -2598,6 +2970,7 @@
       "class": "verb"
     },
     {
+      "id": 372,
       "spanish": "tierra",
       "english": "earth, soil",
       "french": "terre",
@@ -2605,6 +2978,7 @@
       "class": "noun"
     },
     {
+      "id": 373,
       "spanish": "cielo",
       "english": "sky",
       "french": "ciel",
@@ -2612,6 +2986,7 @@
       "class": "noun"
     },
     {
+      "id": 374,
       "spanish": "sol",
       "english": "sun",
       "french": "soleil",
@@ -2619,6 +2994,7 @@
       "class": "noun"
     },
     {
+      "id": 375,
       "spanish": "luna",
       "english": "moon",
       "french": "lune",
@@ -2626,6 +3002,7 @@
       "class": "noun"
     },
     {
+      "id": 376,
       "spanish": "estrella",
       "english": "star",
       "french": "étoile",
@@ -2633,6 +3010,7 @@
       "class": "noun"
     },
     {
+      "id": 377,
       "spanish": "luz",
       "english": "light",
       "french": "lumière",
@@ -2640,6 +3018,7 @@
       "class": "noun"
     },
     {
+      "id": 378,
       "spanish": "fuego",
       "english": "fire",
       "french": "feu",
@@ -2647,6 +3026,7 @@
       "class": "noun"
     },
     {
+      "id": 379,
       "spanish": "árbol",
       "english": "tree",
       "french": "arbre",
@@ -2654,6 +3034,7 @@
       "class": "noun"
     },
     {
+      "id": 380,
       "spanish": "flor",
       "english": "flower",
       "french": "fleur",
@@ -2661,6 +3042,7 @@
       "class": "noun"
     },
     {
+      "id": 381,
       "spanish": "hierba",
       "english": "grass, herb",
       "french": "herbe",
@@ -2668,6 +3050,7 @@
       "class": "noun"
     },
     {
+      "id": 382,
       "spanish": "hoja",
       "english": "leaf",
       "french": "feuille",
@@ -2675,6 +3058,7 @@
       "class": "noun"
     },
     {
+      "id": 383,
       "spanish": "bosque",
       "english": "forest, woods",
       "french": "forêt",
@@ -2682,6 +3066,7 @@
       "class": "noun"
     },
     {
+      "id": 384,
       "spanish": "jardín",
       "english": "garden",
       "french": "jardin",
@@ -2689,13 +3074,15 @@
       "class": "noun"
     },
     {
+      "id": 385,
       "spanish": "montaña",
       "english": "mountain",
-      "french": "montage",
+      "french": "montagne",
       "category": "Naturaleza",
       "class": "noun"
     },
     {
+      "id": 386,
       "spanish": "río",
       "english": "river",
       "french": "rivière",
@@ -2703,6 +3090,7 @@
       "class": "noun"
     },
     {
+      "id": 387,
       "spanish": "lago",
       "english": "lake",
       "french": "lac",
@@ -2710,6 +3098,7 @@
       "class": "noun"
     },
     {
+      "id": 388,
       "spanish": "mar",
       "english": "sea",
       "french": "mer",
@@ -2717,6 +3106,7 @@
       "class": "verb"
     },
     {
+      "id": 389,
       "spanish": "playa",
       "english": "beach",
       "french": "plage",
@@ -2724,6 +3114,7 @@
       "class": "noun"
     },
     {
+      "id": 390,
       "spanish": "campo",
       "english": "countryside, field",
       "french": "champ",
@@ -2731,6 +3122,7 @@
       "class": "noun"
     },
     {
+      "id": 391,
       "spanish": "frío",
       "english": "cold",
       "french": "froid",
@@ -2738,6 +3130,7 @@
       "class": "noun"
     },
     {
+      "id": 392,
       "spanish": "calor",
       "english": "heat",
       "french": "chaud",
@@ -2745,6 +3138,7 @@
       "class": "noun"
     },
     {
+      "id": 393,
       "spanish": "soleado",
       "english": "sunny",
       "french": "ensoleillé",
@@ -2752,6 +3146,7 @@
       "class": "noun"
     },
     {
+      "id": 394,
       "spanish": "despejado",
       "english": "clear",
       "french": "temps clair",
@@ -2759,6 +3154,7 @@
       "class": "noun"
     },
     {
+      "id": 395,
       "spanish": "viento",
       "english": "wind",
       "french": "vent",
@@ -2766,6 +3162,7 @@
       "class": "noun"
     },
     {
+      "id": 396,
       "spanish": "nublado",
       "english": "cloudy",
       "french": "couvert",
@@ -2773,6 +3170,7 @@
       "class": "noun"
     },
     {
+      "id": 397,
       "spanish": "lluvia",
       "english": "rain",
       "french": "pluie",
@@ -2780,6 +3178,7 @@
       "class": "noun"
     },
     {
+      "id": 398,
       "spanish": "nieve",
       "english": "snow",
       "french": "neige",
@@ -2787,6 +3186,7 @@
       "class": "noun"
     },
     {
+      "id": 399,
       "spanish": "húmedo",
       "english": "humid, damp",
       "french": "humide",
@@ -2794,6 +3194,7 @@
       "class": "noun"
     },
     {
+      "id": 400,
       "spanish": "tormenta",
       "english": "storm",
       "french": "tournage",
@@ -2801,6 +3202,7 @@
       "class": "noun"
     },
     {
+      "id": 401,
       "spanish": "primavera",
       "english": "spring",
       "french": "printemps",
@@ -2808,6 +3210,7 @@
       "class": "noun"
     },
     {
+      "id": 402,
       "spanish": "verano",
       "english": "summer",
       "french": "été",
@@ -2815,6 +3218,7 @@
       "class": "noun"
     },
     {
+      "id": 403,
       "spanish": "otoño",
       "english": "autumn, fall",
       "french": "automne",
@@ -2822,6 +3226,7 @@
       "class": "noun"
     },
     {
+      "id": 404,
       "spanish": "invierno",
       "english": "winter",
       "french": "hiver",
@@ -2829,6 +3234,7 @@
       "class": "noun"
     },
     {
+      "id": 405,
       "spanish": "año",
       "english": "year",
       "french": "an",
@@ -2836,6 +3242,7 @@
       "class": "noun"
     },
     {
+      "id": 406,
       "spanish": "hoy",
       "english": "today",
       "french": "aujourd'hui",
@@ -2843,6 +3250,7 @@
       "class": "noun"
     },
     {
+      "id": 407,
       "spanish": "ayer",
       "english": "yesterday",
       "french": "hier",
@@ -2850,6 +3258,7 @@
       "class": "verb"
     },
     {
+      "id": 408,
       "spanish": "segundo",
       "english": "second",
       "french": "seconde",
@@ -2857,6 +3266,7 @@
       "class": "noun"
     },
     {
+      "id": 409,
       "spanish": "minuto",
       "english": "minute",
       "french": "minute",
@@ -2864,6 +3274,7 @@
       "class": "noun"
     },
     {
+      "id": 410,
       "spanish": "hora",
       "english": "hour",
       "french": "heure",
@@ -2871,6 +3282,7 @@
       "class": "noun"
     },
     {
+      "id": 411,
       "spanish": "día",
       "english": "day",
       "french": "jour",
@@ -2878,6 +3290,7 @@
       "class": "noun"
     },
     {
+      "id": 412,
       "spanish": "semana",
       "english": "week",
       "french": "semaine",
@@ -2885,6 +3298,7 @@
       "class": "noun"
     },
     {
+      "id": 413,
       "spanish": "mes",
       "english": "month",
       "french": "mois",
@@ -2892,6 +3306,7 @@
       "class": "noun"
     },
     {
+      "id": 414,
       "spanish": "mañana",
       "english": "tomorrow",
       "french": "demain",
@@ -2899,6 +3314,7 @@
       "class": "noun"
     },
     {
+      "id": 415,
       "spanish": "anoche",
       "english": "last night",
       "french": "hier soir",
@@ -2906,6 +3322,7 @@
       "class": "noun"
     },
     {
+      "id": 416,
       "spanish": "tarde",
       "english": "afternoon",
       "french": "après-midi",
@@ -2913,6 +3330,7 @@
       "class": "noun"
     },
     {
+      "id": 417,
       "spanish": "noche",
       "english": "night",
       "french": "nuit",
@@ -2920,6 +3338,7 @@
       "class": "noun"
     },
     {
+      "id": 418,
       "spanish": "mediodía",
       "english": "noon",
       "french": "midi",
@@ -2927,6 +3346,7 @@
       "class": "noun"
     },
     {
+      "id": 419,
       "spanish": "medianoche",
       "english": "midnight",
       "french": "minuit",
@@ -2934,6 +3354,7 @@
       "class": "noun"
     },
     {
+      "id": 420,
       "spanish": "fin de semana",
       "english": "weekend",
       "french": "week-end",
@@ -2941,6 +3362,7 @@
       "class": "phrase"
     },
     {
+      "id": 421,
       "spanish": "lunes",
       "english": "Monday",
       "french": "lundi",
@@ -2948,6 +3370,7 @@
       "class": "noun"
     },
     {
+      "id": 422,
       "spanish": "martes",
       "english": "Tuesday",
       "french": "mardi",
@@ -2955,6 +3378,7 @@
       "class": "noun"
     },
     {
+      "id": 423,
       "spanish": "miércoles",
       "english": "Wednesday",
       "french": "mercredi",
@@ -2962,6 +3386,7 @@
       "class": "noun"
     },
     {
+      "id": 424,
       "spanish": "jueves",
       "english": "Thursday",
       "french": "jeudi",
@@ -2969,6 +3394,7 @@
       "class": "noun"
     },
     {
+      "id": 425,
       "spanish": "viernes",
       "english": "Friday",
       "french": "vendredi",
@@ -2976,6 +3402,7 @@
       "class": "noun"
     },
     {
+      "id": 426,
       "spanish": "sábado",
       "english": "Saturday",
       "french": "samedi",
@@ -2983,6 +3410,7 @@
       "class": "noun"
     },
     {
+      "id": 427,
       "spanish": "domingo",
       "english": "Sunday",
       "french": "dimanche",
@@ -2990,6 +3418,7 @@
       "class": "noun"
     },
     {
+      "id": 428,
       "spanish": "enero",
       "english": "January",
       "french": "janvier",
@@ -2997,6 +3426,7 @@
       "class": "noun"
     },
     {
+      "id": 429,
       "spanish": "febrero",
       "english": "February",
       "french": "février",
@@ -3004,6 +3434,7 @@
       "class": "noun"
     },
     {
+      "id": 430,
       "spanish": "marzo",
       "english": "March",
       "french": "mars",
@@ -3011,6 +3442,7 @@
       "class": "noun"
     },
     {
+      "id": 431,
       "spanish": "abril",
       "english": "April",
       "french": "avril",
@@ -3018,6 +3450,7 @@
       "class": "noun"
     },
     {
+      "id": 432,
       "spanish": "mayo",
       "english": "May",
       "french": "mai",
@@ -3025,6 +3458,7 @@
       "class": "noun"
     },
     {
+      "id": 433,
       "spanish": "junio",
       "english": "June",
       "french": "juin",
@@ -3032,6 +3466,7 @@
       "class": "noun"
     },
     {
+      "id": 434,
       "spanish": "julio",
       "english": "July",
       "french": "juillet",
@@ -3039,6 +3474,7 @@
       "class": "noun"
     },
     {
+      "id": 435,
       "spanish": "agosto",
       "english": "August",
       "french": "août",
@@ -3046,6 +3482,7 @@
       "class": "noun"
     },
     {
+      "id": 436,
       "spanish": "septiembre",
       "english": "September",
       "french": "septembre",
@@ -3053,6 +3490,7 @@
       "class": "noun"
     },
     {
+      "id": 437,
       "spanish": "octubre",
       "english": "October",
       "french": "octobre",
@@ -3060,6 +3498,7 @@
       "class": "noun"
     },
     {
+      "id": 438,
       "spanish": "noviembre",
       "english": "November",
       "french": "novembre",
@@ -3067,6 +3506,7 @@
       "class": "noun"
     },
     {
+      "id": 439,
       "spanish": "diciembre",
       "english": "December",
       "french": "décembre",
@@ -3074,6 +3514,7 @@
       "class": "noun"
     },
     {
+      "id": 440,
       "spanish": "feliz",
       "english": "happy",
       "french": "joyeux, heureux",
@@ -3081,6 +3522,7 @@
       "class": "adjective"
     },
     {
+      "id": 441,
       "spanish": "contento",
       "english": "content, pleased",
       "french": "content",
@@ -3088,6 +3530,7 @@
       "class": "adjective"
     },
     {
+      "id": 442,
       "spanish": "tranquilo",
       "english": "calm, relaxed",
       "french": "tranquille",
@@ -3095,6 +3538,7 @@
       "class": "adjective"
     },
     {
+      "id": 443,
       "spanish": "alegre",
       "english": "cheerful, joyful",
       "french": "joyeux",
@@ -3102,6 +3546,7 @@
       "class": "adjective"
     },
     {
+      "id": 444,
       "spanish": "triste",
       "english": "sad",
       "french": "triste",
@@ -3109,6 +3554,7 @@
       "class": "adjective"
     },
     {
+      "id": 445,
       "spanish": "cansado",
       "english": "tired",
       "french": "fatigué",
@@ -3116,6 +3562,7 @@
       "class": "adjective"
     },
     {
+      "id": 446,
       "spanish": "enojado",
       "english": "angry, mad",
       "french": "énervé",
@@ -3123,6 +3570,7 @@
       "class": "adjective"
     },
     {
+      "id": 447,
       "spanish": "nervioso",
       "english": "nervous",
       "french": "nerveux",
@@ -3130,6 +3578,7 @@
       "class": "adjective"
     },
     {
+      "id": 448,
       "spanish": "preocupado",
       "english": "worried",
       "french": "préoccupé",
@@ -3137,6 +3586,7 @@
       "class": "adjective"
     },
     {
+      "id": 449,
       "spanish": "aburrido",
       "english": "bored",
       "french": "ennuyeux",
@@ -3144,6 +3594,7 @@
       "class": "adjective"
     },
     {
+      "id": 450,
       "spanish": "asustado",
       "english": "scared, frightened",
       "french": "effrayé",
@@ -3151,6 +3602,7 @@
       "class": "adjective"
     },
     {
+      "id": 451,
       "spanish": "sorprendido",
       "english": "surprised",
       "french": "surpris",
@@ -3158,6 +3610,7 @@
       "class": "adjective"
     },
     {
+      "id": 452,
       "spanish": "ir",
       "english": "to go",
       "french": "aller",
@@ -3165,6 +3618,7 @@
       "class": "verb"
     },
     {
+      "id": 453,
       "spanish": "venir",
       "english": "to come",
       "french": "venir",
@@ -3172,6 +3626,7 @@
       "class": "verb"
     },
     {
+      "id": 454,
       "spanish": "salir",
       "english": "to leave, to go out",
       "french": "partir",
@@ -3179,6 +3634,7 @@
       "class": "verb"
     },
     {
+      "id": 455,
       "spanish": "entrar",
       "english": "to enter, to go in",
       "french": "entrer",
@@ -3186,6 +3642,7 @@
       "class": "verb"
     },
     {
+      "id": 456,
       "spanish": "volver",
       "english": "to return, to go back",
       "french": "revenir",
@@ -3193,6 +3650,7 @@
       "class": "verb"
     },
     {
+      "id": 457,
       "spanish": "caminar",
       "english": "to walk",
       "french": "marcher",
@@ -3200,6 +3658,7 @@
       "class": "verb"
     },
     {
+      "id": 458,
       "spanish": "correr",
       "english": "to run",
       "french": "courir",
@@ -3207,6 +3666,7 @@
       "class": "verb"
     },
     {
+      "id": 459,
       "spanish": "subir",
       "english": "to go up, to rise",
       "french": "monter",
@@ -3214,6 +3674,7 @@
       "class": "verb"
     },
     {
+      "id": 460,
       "spanish": "bajar",
       "english": "to go down, to descend",
       "french": "descendre",
@@ -3221,6 +3682,7 @@
       "class": "verb"
     },
     {
+      "id": 461,
       "spanish": "sentarse",
       "english": "to sit",
       "french": "s'asseoir",
@@ -3228,6 +3690,7 @@
       "class": "verb"
     },
     {
+      "id": 462,
       "spanish": "volar",
       "english": "to fly",
       "french": "voler",
@@ -3235,6 +3698,7 @@
       "class": "verb"
     },
     {
+      "id": 463,
       "spanish": "caer",
       "english": "to fall",
       "french": "tomber",
@@ -3242,6 +3706,7 @@
       "class": "verb"
     },
     {
+      "id": 464,
       "spanish": "saltar",
       "english": "to jump",
       "french": "sauter",
@@ -3249,6 +3714,7 @@
       "class": "verb"
     },
     {
+      "id": 465,
       "spanish": "hacer",
       "english": "to do, to make",
       "french": "faire",
@@ -3256,6 +3722,7 @@
       "class": "verb"
     },
     {
+      "id": 466,
       "spanish": "vivir",
       "english": "to live",
       "french": "vivre",
@@ -3263,6 +3730,7 @@
       "class": "verb"
     },
     {
+      "id": 467,
       "spanish": "comer",
       "english": "to eat",
       "french": "manger",
@@ -3270,6 +3738,7 @@
       "class": "verb"
     },
     {
+      "id": 468,
       "spanish": "beber",
       "english": "to drink",
       "french": "boire",
@@ -3277,6 +3746,7 @@
       "class": "verb"
     },
     {
+      "id": 469,
       "spanish": "escuchar",
       "english": "to listen",
       "french": "écouter",
@@ -3284,6 +3754,7 @@
       "class": "verb"
     },
     {
+      "id": 470,
       "spanish": "hablar",
       "english": "to speak, to talk",
       "french": "parler",
@@ -3291,6 +3762,7 @@
       "class": "verb"
     },
     {
+      "id": 471,
       "spanish": "ver",
       "english": "to see",
       "french": "voir",
@@ -3298,6 +3770,7 @@
       "class": "verb"
     },
     {
+      "id": 472,
       "spanish": "comprar",
       "english": "to buy",
       "french": "acheter",
@@ -3305,6 +3778,7 @@
       "class": "verb"
     },
     {
+      "id": 473,
       "spanish": "ser",
       "english": "to be",
       "french": "être",
@@ -3312,6 +3786,7 @@
       "class": "verb"
     },
     {
+      "id": 474,
       "spanish": "estar",
       "english": "to be (temporary)",
       "french": "être (qui n'est pas permanent)",
@@ -3319,6 +3794,7 @@
       "class": "verb"
     },
     {
+      "id": 475,
       "spanish": "tener",
       "english": "to have",
       "french": "avoir",
@@ -3326,6 +3802,7 @@
       "class": "verb"
     },
     {
+      "id": 476,
       "spanish": "gustar",
       "english": "to like",
       "french": "aimer",
@@ -3333,6 +3810,7 @@
       "class": "verb"
     },
     {
+      "id": 477,
       "spanish": "querer",
       "english": "to want, to love",
       "french": "vouloir",
@@ -3340,6 +3818,7 @@
       "class": "verb"
     },
     {
+      "id": 478,
       "spanish": "usar",
       "english": "to use",
       "french": "utiliser",
@@ -3347,6 +3826,7 @@
       "class": "verb"
     },
     {
+      "id": 479,
       "spanish": "necesitar",
       "english": "to need",
       "french": "avoir besoin",
@@ -3354,6 +3834,7 @@
       "class": "verb"
     },
     {
+      "id": 480,
       "spanish": "poder",
       "english": "can, to be able to",
       "french": "pouvoir",
@@ -3361,6 +3842,7 @@
       "class": "verb"
     },
     {
+      "id": 481,
       "spanish": "saber",
       "english": "to know (facts, information)",
       "french": "savoir",
@@ -3368,6 +3850,7 @@
       "class": "verb"
     },
     {
+      "id": 482,
       "spanish": "sentir",
       "english": "to feel",
       "french": "sentir",
@@ -3375,6 +3858,7 @@
       "class": "verb"
     },
     {
+      "id": 483,
       "spanish": "poner",
       "english": "to put, to place",
       "french": "mettre",
@@ -3382,6 +3866,7 @@
       "class": "verb"
     },
     {
+      "id": 484,
       "spanish": "coger",
       "english": "to take, to grab",
       "french": "prendre, attraper",
@@ -3389,6 +3874,7 @@
       "class": "verb"
     },
     {
+      "id": 485,
       "spanish": "rojo",
       "english": "red",
       "french": "rouge",
@@ -3396,6 +3882,7 @@
       "class": "adjective"
     },
     {
+      "id": 486,
       "spanish": "azul",
       "english": "blue",
       "french": "bleu",
@@ -3403,6 +3890,7 @@
       "class": "adjective"
     },
     {
+      "id": 487,
       "spanish": "amarillo",
       "english": "yellow",
       "french": "jaune",
@@ -3410,6 +3898,7 @@
       "class": "adjective"
     },
     {
+      "id": 488,
       "spanish": "verde",
       "english": "green",
       "french": "vert",
@@ -3417,6 +3906,7 @@
       "class": "adjective"
     },
     {
+      "id": 489,
       "spanish": "negro",
       "english": "black",
       "french": "noir",
@@ -3424,6 +3914,7 @@
       "class": "adjective"
     },
     {
+      "id": 490,
       "spanish": "blanco",
       "english": "white",
       "french": "blanc",
@@ -3431,6 +3922,7 @@
       "class": "adjective"
     },
     {
+      "id": 491,
       "spanish": "marrón",
       "english": "brown",
       "french": "marron",
@@ -3438,6 +3930,7 @@
       "class": "adjective"
     },
     {
+      "id": 492,
       "spanish": "rosa",
       "english": "pink",
       "french": "rose",
@@ -3445,6 +3938,7 @@
       "class": "adjective"
     },
     {
+      "id": 493,
       "spanish": "violeta",
       "english": "violet, purple",
       "french": "violet, pourpre",
@@ -3452,6 +3946,7 @@
       "class": "adjective"
     },
     {
+      "id": 494,
       "spanish": "círculo",
       "english": "circle",
       "french": "cercle",
@@ -3459,6 +3954,7 @@
       "class": "noun"
     },
     {
+      "id": 495,
       "spanish": "cuadrado",
       "english": "square",
       "french": "carré",
@@ -3466,6 +3962,7 @@
       "class": "noun"
     },
     {
+      "id": 496,
       "spanish": "rectángulo",
       "english": "rectangle",
       "french": "rectangle",
@@ -3473,6 +3970,7 @@
       "class": "noun"
     },
     {
+      "id": 497,
       "spanish": "triángulo",
       "english": "triangle",
       "french": "triangle",
@@ -3480,6 +3978,7 @@
       "class": "noun"
     },
     {
+      "id": 498,
       "spanish": "gato",
       "english": "cat",
       "french": "chat",
@@ -3487,6 +3986,7 @@
       "class": "noun"
     },
     {
+      "id": 499,
       "spanish": "perro",
       "english": "dog",
       "french": "chien",
@@ -3494,6 +3994,7 @@
       "class": "noun"
     },
     {
+      "id": 500,
       "spanish": "ratón",
       "english": "mouse",
       "french": "souris",
@@ -3501,6 +4002,7 @@
       "class": "noun"
     },
     {
+      "id": 501,
       "spanish": "caballo",
       "english": "horse",
       "french": "cheval",
@@ -3508,6 +4010,7 @@
       "class": "noun"
     },
     {
+      "id": 502,
       "spanish": "pez",
       "english": "fish",
       "french": "poisson",
@@ -3515,6 +4018,7 @@
       "class": "noun"
     },
     {
+      "id": 503,
       "spanish": "pájaro",
       "english": "bird",
       "french": "oiseau",
@@ -3522,6 +4026,7 @@
       "class": "noun"
     },
     {
+      "id": 504,
       "spanish": "conejo",
       "english": "rabbit",
       "french": "lapin",
@@ -3529,6 +4034,7 @@
       "class": "noun"
     },
     {
+      "id": 505,
       "spanish": "oveja",
       "english": "sheep",
       "french": "mouton",
@@ -3536,6 +4042,7 @@
       "class": "noun"
     },
     {
+      "id": 506,
       "spanish": "león",
       "english": "lion",
       "french": "lion",
@@ -3543,6 +4050,7 @@
       "class": "noun"
     },
     {
+      "id": 507,
       "spanish": "tigre",
       "english": "tiger",
       "french": "tigre",
@@ -3550,6 +4058,7 @@
       "class": "noun"
     },
     {
+      "id": 508,
       "spanish": "oso",
       "english": "bear",
       "french": "ours",
@@ -3557,6 +4066,7 @@
       "class": "noun"
     },
     {
+      "id": 509,
       "spanish": "mono",
       "english": "monkey",
       "french": "singe",
@@ -3564,6 +4074,7 @@
       "class": "noun"
     },
     {
+      "id": 510,
       "spanish": "gallina",
       "english": "hen",
       "french": "poule",
@@ -3571,6 +4082,7 @@
       "class": "noun"
     },
     {
+      "id": 511,
       "spanish": "gallo",
       "english": "rooster",
       "french": "coq",
@@ -3578,6 +4090,7 @@
       "class": "noun"
     },
     {
+      "id": 512,
       "spanish": "uno",
       "english": "one",
       "french": "un",
@@ -3585,6 +4098,7 @@
       "class": "number"
     },
     {
+      "id": 513,
       "spanish": "dos",
       "english": "two",
       "french": "deux",
@@ -3592,6 +4106,7 @@
       "class": "number"
     },
     {
+      "id": 514,
       "spanish": "tres",
       "english": "three",
       "french": "trois",
@@ -3599,6 +4114,7 @@
       "class": "number"
     },
     {
+      "id": 515,
       "spanish": "cuatro",
       "english": "four",
       "french": "quatre",
@@ -3606,6 +4122,7 @@
       "class": "number"
     },
     {
+      "id": 516,
       "spanish": "cinco",
       "english": "five",
       "french": "cinq",
@@ -3613,6 +4130,7 @@
       "class": "number"
     },
     {
+      "id": 517,
       "spanish": "seis",
       "english": "six",
       "french": "six",
@@ -3620,6 +4138,7 @@
       "class": "number"
     },
     {
+      "id": 518,
       "spanish": "siete",
       "english": "seven",
       "french": "sept",
@@ -3627,6 +4146,7 @@
       "class": "number"
     },
     {
+      "id": 519,
       "spanish": "ocho",
       "english": "eight",
       "french": "huit",
@@ -3634,6 +4154,7 @@
       "class": "number"
     },
     {
+      "id": 520,
       "spanish": "nueve",
       "english": "nine",
       "french": "neuf",
@@ -3641,6 +4162,7 @@
       "class": "number"
     },
     {
+      "id": 521,
       "spanish": "diez",
       "english": "ten",
       "french": "dix",
@@ -3648,6 +4170,7 @@
       "class": "number"
     },
     {
+      "id": 522,
       "spanish": "once",
       "english": "eleven",
       "french": "onze",
@@ -3655,6 +4178,7 @@
       "class": "number"
     },
     {
+      "id": 523,
       "spanish": "doce",
       "english": "twelve",
       "french": "douze",
@@ -3662,6 +4186,7 @@
       "class": "number"
     },
     {
+      "id": 524,
       "spanish": "trece",
       "english": "thirteen",
       "french": "treize",
@@ -3669,6 +4194,7 @@
       "class": "number"
     },
     {
+      "id": 525,
       "spanish": "catorce",
       "english": "fourteen",
       "french": "quatorze",
@@ -3676,6 +4202,7 @@
       "class": "number"
     },
     {
+      "id": 526,
       "spanish": "quince",
       "english": "fifteen",
       "french": "quinze",
@@ -3683,6 +4210,7 @@
       "class": "number"
     },
     {
+      "id": 527,
       "spanish": "dieciséis",
       "english": "sixteen",
       "french": "seize",
@@ -3690,6 +4218,7 @@
       "class": "number"
     },
     {
+      "id": 528,
       "spanish": "diecisiete",
       "english": "seventeen",
       "french": "dix-sept",
@@ -3697,6 +4226,7 @@
       "class": "number"
     },
     {
+      "id": 529,
       "spanish": "dieciocho",
       "english": "eighteen",
       "french": "dix-huit",
@@ -3704,6 +4234,7 @@
       "class": "number"
     },
     {
+      "id": 530,
       "spanish": "diecinueve",
       "english": "nineteen",
       "french": "dix-neuf",
@@ -3711,6 +4242,7 @@
       "class": "number"
     },
     {
+      "id": 531,
       "spanish": "veinte",
       "english": "twenty",
       "french": "vingt",
@@ -3718,6 +4250,7 @@
       "class": "number"
     },
     {
+      "id": 532,
       "spanish": "treinta",
       "english": "thirty",
       "french": "trente",
@@ -3725,6 +4258,7 @@
       "class": "number"
     },
     {
+      "id": 533,
       "spanish": "cuarenta",
       "english": "forty",
       "french": "quarante",
@@ -3732,6 +4266,7 @@
       "class": "number"
     },
     {
+      "id": 534,
       "spanish": "cincuenta",
       "english": "fifty",
       "french": "cinquante",
@@ -3739,6 +4274,7 @@
       "class": "number"
     },
     {
+      "id": 535,
       "spanish": "sesenta",
       "english": "sixty",
       "french": "soixante",
@@ -3746,6 +4282,7 @@
       "class": "number"
     },
     {
+      "id": 536,
       "spanish": "setenta",
       "english": "seventy",
       "french": "soixante-dix",
@@ -3753,6 +4290,7 @@
       "class": "number"
     },
     {
+      "id": 537,
       "spanish": "ochenta",
       "english": "eighty",
       "french": "quatre-vingts",
@@ -3760,6 +4298,7 @@
       "class": "number"
     },
     {
+      "id": 538,
       "spanish": "noventa",
       "english": "ninety",
       "french": "quatre-vingts-dix",
@@ -3767,6 +4306,7 @@
       "class": "number"
     },
     {
+      "id": 539,
       "spanish": "cien",
       "english": "one hundred",
       "french": "cent",
@@ -3774,6 +4314,7 @@
       "class": "number"
     },
     {
+      "id": 540,
       "spanish": "alto",
       "english": "tall, high",
       "french": "grand",
@@ -3781,6 +4322,7 @@
       "class": "adjective"
     },
     {
+      "id": 541,
       "spanish": "bajo",
       "english": "short, low",
       "french": "petit, bas",
@@ -3788,6 +4330,7 @@
       "class": "adjective"
     },
     {
+      "id": 542,
       "spanish": "joven",
       "english": "young",
       "french": "jeune",
@@ -3795,6 +4338,7 @@
       "class": "adjective"
     },
     {
+      "id": 543,
       "spanish": "viejo",
       "english": "old",
       "french": "vieux",
@@ -3802,6 +4346,7 @@
       "class": "adjective"
     },
     {
+      "id": 544,
       "spanish": "bonito",
       "english": "pretty, nice",
       "french": "beau",
@@ -3809,6 +4354,7 @@
       "class": "adjective"
     },
     {
+      "id": 545,
       "spanish": "feo",
       "english": "ugly",
       "french": "moche",
@@ -3816,6 +4362,7 @@
       "class": "adjective"
     },
     {
+      "id": 546,
       "spanish": "sucio",
       "english": "dirty",
       "french": "sâle",
@@ -3823,6 +4370,7 @@
       "class": "adjective"
     },
     {
+      "id": 547,
       "spanish": "limpio",
       "english": "clean",
       "french": "propre",
@@ -3830,6 +4378,7 @@
       "class": "adjective"
     },
     {
+      "id": 548,
       "spanish": "bueno",
       "english": "good",
       "french": "bon",
@@ -3837,6 +4386,7 @@
       "class": "adjective"
     },
     {
+      "id": 549,
       "spanish": "malo",
       "english": "bad",
       "french": "mauvais",
@@ -3844,6 +4394,7 @@
       "class": "adjective"
     },
     {
+      "id": 550,
       "spanish": "grande",
       "english": "big, large",
       "french": "grand, gros, large",
@@ -3851,6 +4402,7 @@
       "class": "adjective"
     },
     {
+      "id": 551,
       "spanish": "pequeño",
       "english": "small, little",
       "french": "petit",
@@ -3858,6 +4410,7 @@
       "class": "adjective"
     },
     {
+      "id": 552,
       "spanish": "nuevo",
       "english": "new",
       "french": "nouveau",
@@ -3865,6 +4418,7 @@
       "class": "adjective"
     },
     {
+      "id": 553,
       "spanish": "caro",
       "english": "expensive",
       "french": "cher",
@@ -3872,6 +4426,7 @@
       "class": "adjective"
     },
     {
+      "id": 554,
       "spanish": "barato",
       "english": "cheap",
       "french": "bon marché",
@@ -3879,6 +4434,7 @@
       "class": "adjective"
     },
     {
+      "id": 555,
       "spanish": "fácil",
       "english": "easy",
       "french": "facile",
@@ -3886,6 +4442,7 @@
       "class": "adjective"
     },
     {
+      "id": 556,
       "spanish": "difícil",
       "english": "difficult, hard",
       "french": "difficile",
@@ -3893,6 +4450,7 @@
       "class": "adjective"
     },
     {
+      "id": 557,
       "spanish": "inteligente",
       "english": "intelligent, smart",
       "french": "intelligent",
@@ -3900,6 +4458,7 @@
       "class": "adjective"
     },
     {
+      "id": 558,
       "spanish": "temprano",
       "english": "early",
       "french": "tôt",
@@ -3907,6 +4466,7 @@
       "class": "adverb"
     },
     {
+      "id": 559,
       "spanish": "siempre",
       "english": "always",
       "french": "toujours",
@@ -3914,6 +4474,7 @@
       "class": "adverb"
     },
     {
+      "id": 560,
       "spanish": "nunca",
       "english": "never",
       "french": "jamais",
@@ -3921,6 +4482,7 @@
       "class": "adverb"
     },
     {
+      "id": 561,
       "spanish": "a veces",
       "english": "sometimes",
       "french": "souvent",
@@ -3928,6 +4490,7 @@
       "class": "adverb"
     },
     {
+      "id": 562,
       "spanish": "pronto",
       "english": "soon",
       "french": "bientôt",
@@ -3935,6 +4498,7 @@
       "class": "adverb"
     },
     {
+      "id": 563,
       "spanish": "ahora",
       "english": "now",
       "french": "maintenant",
@@ -3942,6 +4506,7 @@
       "class": "adverb"
     },
     {
+      "id": 564,
       "spanish": "aquí",
       "english": "here",
       "french": "ici",
@@ -3949,6 +4514,7 @@
       "class": "adverb"
     },
     {
+      "id": 565,
       "spanish": "allí",
       "english": "there",
       "french": "là-bas",
@@ -3956,6 +4522,7 @@
       "class": "adverb"
     },
     {
+      "id": 566,
       "spanish": "cerca",
       "english": "near, close",
       "french": "proche",
@@ -3963,6 +4530,7 @@
       "class": "adverb"
     },
     {
+      "id": 567,
       "spanish": "lejos",
       "english": "far",
       "french": "loin",
@@ -3970,6 +4538,7 @@
       "class": "adverb"
     },
     {
+      "id": 568,
       "spanish": "bien",
       "english": "well",
       "french": "bien",
@@ -3977,6 +4546,7 @@
       "class": "adverb"
     },
     {
+      "id": 569,
       "spanish": "despacio",
       "english": "slowly",
       "french": "lent, lentement",
@@ -3984,6 +4554,7 @@
       "class": "adverb"
     },
     {
+      "id": 570,
       "spanish": "rápido",
       "english": "fast, quickly",
       "french": "rapide, rapidement",
@@ -3991,6 +4562,7 @@
       "class": "adverb"
     },
     {
+      "id": 571,
       "spanish": "muy",
       "english": "very",
       "french": "très",
@@ -3998,6 +4570,7 @@
       "class": "adverb"
     },
     {
+      "id": 572,
       "spanish": "demasiado",
       "english": "too much, excessively",
       "french": "trop",
@@ -4005,6 +4578,7 @@
       "class": "adverb"
     },
     {
+      "id": 573,
       "spanish": "yo",
       "english": "I",
       "french": "je",
@@ -4012,6 +4586,7 @@
       "class": "pronoun"
     },
     {
+      "id": 574,
       "spanish": "tú",
       "english": "you (informal)",
       "french": "tu",
@@ -4019,6 +4594,7 @@
       "class": "pronoun"
     },
     {
+      "id": 575,
       "spanish": "usted",
       "english": "you (formal)",
       "french": "vous (politesse sing.)",
@@ -4026,6 +4602,7 @@
       "class": "pronoun"
     },
     {
+      "id": 576,
       "spanish": "él",
       "english": "he",
       "french": "il",
@@ -4033,6 +4610,7 @@
       "class": "pronoun"
     },
     {
+      "id": 577,
       "spanish": "ella",
       "english": "she",
       "french": "elle",
@@ -4040,6 +4618,7 @@
       "class": "pronoun"
     },
     {
+      "id": 578,
       "spanish": "nosotros",
       "english": "we (masc./mixed)",
       "french": "nous",
@@ -4047,6 +4626,7 @@
       "class": "pronoun"
     },
     {
+      "id": 579,
       "spanish": "vosotros",
       "english": "you",
       "french": "vous",
@@ -4054,6 +4634,7 @@
       "class": "pronoun"
     },
     {
+      "id": 580,
       "spanish": "ustedes",
       "english": "you (plural)",
       "french": "vous (politesse pl.)",
@@ -4061,6 +4642,7 @@
       "class": "pronoun"
     },
     {
+      "id": 581,
       "spanish": "nosotras",
       "english": "we (fem.)",
       "french": "nous",
@@ -4068,6 +4650,7 @@
       "class": "pronoun"
     },
     {
+      "id": 582,
       "spanish": "ellos",
       "english": "they (masc./mixed)",
       "french": "ils",
@@ -4075,6 +4658,7 @@
       "class": "pronoun"
     },
     {
+      "id": 583,
       "spanish": "ellas",
       "english": "they (fem.)",
       "french": "elles",
@@ -4082,6 +4666,7 @@
       "class": "pronoun"
     },
     {
+      "id": 584,
       "spanish": "en",
       "english": "in, on",
       "french": "dans, sur",
@@ -4089,6 +4674,7 @@
       "class": "preposition"
     },
     {
+      "id": 585,
       "spanish": "a",
       "english": "to, at",
       "french": "à",
@@ -4096,6 +4682,7 @@
       "class": "preposition"
     },
     {
+      "id": 586,
       "spanish": "de",
       "english": "of, from",
       "french": "de",
@@ -4103,6 +4690,7 @@
       "class": "preposition"
     },
     {
+      "id": 587,
       "spanish": "con",
       "english": "with",
       "french": "avec",
@@ -4110,6 +4698,7 @@
       "class": "preposition"
     },
     {
+      "id": 588,
       "spanish": "sobre",
       "english": "about, on, over",
       "french": "sur",
@@ -4117,6 +4706,7 @@
       "class": "preposition"
     },
     {
+      "id": 589,
       "spanish": "para",
       "english": "for, to, in order to",
       "french": "pour, a fin de",
@@ -4124,6 +4714,7 @@
       "class": "preposition"
     },
     {
+      "id": 590,
       "spanish": "por",
       "english": "for, by, because of",
       "french": "pour, à cause de",

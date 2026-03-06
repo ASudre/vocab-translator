@@ -233,7 +233,6 @@ export default function Home() {
               <VocabularyCard
                 key={currentWord.french}
                 word={currentWord}
-                onCheckAnswer={handleCheckAnswer}
               />
             </div>
           </div>

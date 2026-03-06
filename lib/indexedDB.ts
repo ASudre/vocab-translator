@@ -1,10 +1,10 @@
 const DB_NAME = 'VocabTranslatorDB';
-const DB_VERSION = 4;
+const DB_VERSION = 5;
 const STORE_NAME = 'vocabulary';
 const PROGRESS_STORE_NAME = 'userProgress';
 
 export interface VocabularyEntry {
-  id?: number;
+  id: number;
   English: string;
   Español: string;
   Français: string;
@@ -49,12 +49,25 @@ export const initDB = (): Promise<IDBDatabase> => {
       
       if (!db.objectStoreNames.contains(STORE_NAME)) {
         const objectStore = db.createObjectStore(STORE_NAME, { 
-          keyPath: 'id', 
-          autoIncrement: true 
+          keyPath: 'id'
         });
         
         objectStore.createIndex('Category', 'Category', { unique: false });
         objectStore.createIndex('Class', 'Class', { unique: false });
+      }
+      
+      // Migration for version 5: recreate vocabulary store to remove auto-increment
+      // User progress is preserved since vocabulary order remains the same (IDs will match)
+      if (db.objectStoreNames.contains(STORE_NAME) && event.oldVersion < 5) {
+        db.deleteObjectStore(STORE_NAME);
+        const objectStore = db.createObjectStore(STORE_NAME, { 
+          keyPath: 'id'
+        });
+        
+        objectStore.createIndex('Category', 'Category', { unique: false });
+        objectStore.createIndex('Class', 'Class', { unique: false });
+        
+        console.log('Vocabulary store migrated to use stable IDs from JSON');
       }
 
       if (!db.objectStoreNames.contains(PROGRESS_STORE_NAME)) {
@@ -181,25 +194,90 @@ export const clearVocabulary = async (): Promise<void> => {
   });
 };
 
+/**
+ * Force reload vocabulary from JSON
+ * Clears existing vocabulary and reloads from the JSON file
+ */
+export const forceReloadVocabulary = async (jsonPath: string): Promise<void> => {
+  try {
+    console.log('Force reloading vocabulary...');
+    
+    // Clear existing vocabulary
+    await clearVocabulary();
+    
+    // Clear the lastUpdate flag
+    localStorage.removeItem('vocabDB_lastUpdate');
+    
+    // Reload from JSON
+    await loadVocabularyFromJSON(jsonPath);
+    
+    console.log('Vocabulary force reloaded successfully');
+  } catch (error) {
+    console.error('Error force reloading vocabulary:', error);
+    throw error;
+  }
+};
+
 export const loadVocabularyFromJSON = async (jsonPath: string): Promise<void> => {
   try {
-    const count = await getVocabularyCount();
-    
-    if (count > 0) {
-      console.log('Vocabulary already loaded in IndexedDB');
-      return;
-    }
-
-    console.log('Loading vocabulary from JSON...');
+    console.log('Checking vocabulary version...');
     const response = await fetch(jsonPath);
     
     if (!response.ok) {
       throw new Error(`Failed to fetch JSON: ${response.statusText}`);
     }
     
-    const data: VocabularyEntry[] = await response.json();
+    const jsonData = await response.json();
+    const jsonVersion = jsonData.version || '1.0.0';
+    const storedVersion = localStorage.getItem('vocabDB_version');
+    
+    // Check if we need to reload
+    const count = await getVocabularyCount();
+    const needsReload = storedVersion !== jsonVersion;
+    
+    if (count > 0 && !needsReload) {
+      console.log(`Vocabulary already loaded (version ${storedVersion})`);
+      return;
+    }
+    
+    if (needsReload && count > 0) {
+      console.log(`Version changed: ${storedVersion} → ${jsonVersion}. Reloading vocabulary...`);
+      await clearVocabulary();
+    } else {
+      console.log(`Loading vocabulary version ${jsonVersion}...`);
+    }
+    
+    // Handle both formats: { list: [...] } or direct array
+    const rawData = Array.isArray(jsonData) ? jsonData : jsonData.list;
+    
+    // Normalize the data to VocabularyEntry format
+    const data: VocabularyEntry[] = rawData.map((entry: {
+      id: number;
+      spanish?: string;
+      Español?: string;
+      english?: string;
+      English?: string;
+      french?: string;
+      Français?: string;
+      category?: string;
+      Category?: string;
+      class?: string;
+      Class?: string;
+    }) => ({
+      id: entry.id,
+      English: entry.english || entry.English || '',
+      Español: entry.spanish || entry.Español || '',
+      Français: entry.french || entry.Français || '',
+      Category: entry.category || entry.Category || '',
+      Class: entry.class || entry.Class || '',
+    }));
+    
     await importVocabulary(data);
-    console.log('Vocabulary successfully loaded into IndexedDB');
+    
+    // Store the version
+    localStorage.setItem('vocabDB_version', jsonVersion);
+    
+    console.log(`Vocabulary version ${jsonVersion} successfully loaded into IndexedDB`);
   } catch (error) {
     console.error('Error loading vocabulary from JSON:', error);
     throw error;
