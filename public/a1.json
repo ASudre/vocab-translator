@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "list": [
     {
       "id": 1,
@@ -453,7 +453,7 @@
       "id": 57,
       "spanish": "hija",
       "english": "daughter, child",
-      "french": "fille",
+      "french": "fille (de)",
       "category": "Familia",
       "class": "noun"
     },
