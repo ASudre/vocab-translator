@@ -1,8 +1,13 @@
-const CACHE_NAME = 'palabras-v2';
+const CACHE_NAME = 'palabras-v3';
 const urlsToCache = [
+  '/',
+  '/fr/',
+  '/en/',
   '/icon.svg',
   '/icon-192.png',
   '/icon-512.png',
+  '/a1.json',
+  '/manifest.json',
 ];
 
 self.addEventListener('install', (event) => {
@@ -18,8 +23,13 @@ self.addEventListener('install', (event) => {
 self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
   
-  // Network-first strategy for HTML pages and API calls
-  if (event.request.mode === 'navigate' || url.pathname.startsWith('/api/')) {
+  // Skip cross-origin requests
+  if (url.origin !== location.origin) {
+    return;
+  }
+  
+  // Network-first strategy for HTML pages
+  if (event.request.mode === 'navigate') {
     event.respondWith(
       fetch(event.request)
         .then((response) => {
@@ -36,14 +46,24 @@ self.addEventListener('fetch', (event) => {
         })
     );
   } else {
-    // Cache-first strategy for static assets (images, icons, etc.)
+    // Cache-first strategy for all other resources (JS, CSS, JSON, images, etc.)
     event.respondWith(
       caches.match(event.request)
         .then((response) => {
           if (response) {
             return response;
           }
-          return fetch(event.request);
+          // If not in cache, fetch from network and cache it
+          return fetch(event.request).then((response) => {
+            // Only cache successful responses
+            if (response && response.status === 200) {
+              const responseToCache = response.clone();
+              caches.open(CACHE_NAME).then((cache) => {
+                cache.put(event.request, responseToCache);
+              });
+            }
+            return response;
+          });
         })
     );
   }
