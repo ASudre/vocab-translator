@@ -1,5 +1,5 @@
 {
-  "version": "1.0.6",
+  "version": "1.0.7",
   "list": [
     {
       "id": 1,
@@ -877,7 +877,7 @@
       "id": 110,
       "spanish": "helado",
       "english": "ice cream",
-      "french": "glace",
+      "french": "glace 🍦",
       "category": "Ingredientes",
       "class": "noun"
     },
