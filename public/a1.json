@@ -1,5 +1,5 @@
 {
-  "version": "1.0.5",
+  "version": "1.0.6",
   "list": [
     {
       "id": 1,
@@ -267,7 +267,7 @@
     },
     {
       "id": 34,
-      "spanish": "inglés, english",
+      "spanish": "inglés",
       "english": "English",
       "french": "anglais",
       "category": "Nacionalidad",
