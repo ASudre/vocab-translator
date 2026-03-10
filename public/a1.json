@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "list": [
     {
       "id": 1,
@@ -1469,7 +1469,7 @@
       "id": 184,
       "spanish": "vómito",
       "english": "vomit",
-      "french": "vomir",
+      "french": "vomi",
       "category": "Salud",
       "class": "noun"
     },
