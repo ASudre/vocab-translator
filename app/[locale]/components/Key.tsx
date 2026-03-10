@@ -27,14 +27,14 @@ export function Key({
   const buttonClasses = `${flex} ${maxWidth} h-14 px-0.5 py-1`;
   
   // Inner span has the visual styling with rounded corners
-  const innerBaseClasses = 'w-full h-full flex items-center justify-center rounded-lg font-semibold text-xl transition-colors shadow-sm';
+  const innerBaseClasses = 'w-full h-full flex items-center justify-center rounded-lg font-semibold text-xl transition-colors duration-150 shadow-sm';
   
   const variantClasses = {
-    default: 'bg-white dark:bg-gray-600 hover:bg-gray-200 dark:hover:bg-gray-500 text-gray-900 dark:text-white',
-    special: 'bg-amber-500 hover:bg-amber-600 dark:bg-amber-600 dark:hover:bg-amber-700 text-white',
-    action: 'bg-blue-500 hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700 text-white',
-    danger: 'bg-red-500 hover:bg-red-600 dark:bg-red-600 dark:hover:bg-red-700 text-white',
-    success: 'bg-green-500 hover:bg-green-600 dark:bg-green-600 dark:hover:bg-green-700 text-white'
+    default: 'bg-white dark:bg-gray-600 hover:bg-gray-200 dark:hover:bg-gray-500 active:bg-gray-300 dark:active:bg-gray-400 text-gray-900 dark:text-white',
+    special: 'bg-amber-500 hover:bg-amber-600 dark:bg-amber-600 dark:hover:bg-amber-700 active:bg-amber-700 dark:active:bg-amber-800 text-white',
+    action: 'bg-blue-500 hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700 active:bg-blue-700 dark:active:bg-blue-800 text-white',
+    danger: 'bg-red-500 hover:bg-red-600 dark:bg-red-600 dark:hover:bg-red-700 active:bg-red-700 dark:active:bg-red-800 text-white',
+    success: 'bg-green-500 hover:bg-green-600 dark:bg-green-600 dark:hover:bg-green-700 active:bg-green-700 dark:active:bg-green-800 text-white'
   };
   
   const disabledClasses = disabled 
