@@ -67,7 +67,6 @@ export function VocabularyCard({
           readOnly
           placeholder={t('inputPlaceholder')}
           disabled={word.isCorrect === true || word.showSolution}
-          autoFocus
           autoComplete="off"
           autoCorrect="off"
           autoCapitalize="off"
