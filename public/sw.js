@@ -1,4 +1,4 @@
-const CACHE_NAME = 'palabras-v3';
+const CACHE_NAME = 'palabras-v3.1';
 const urlsToCache = [
   '/',
   '/fr/',

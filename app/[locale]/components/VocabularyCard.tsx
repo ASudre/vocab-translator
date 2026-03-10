@@ -63,7 +63,7 @@ export function VocabularyCard({
         <input
           ref={inputRef}
           type="text"
-          value={word.showSolution ? word.spanish : (word.userAnswer || '')}
+          value={word.showSolution || word.isCorrect === true ? word.spanish : (word.userAnswer || '')}
           readOnly
           placeholder={t('inputPlaceholder')}
           disabled={word.isCorrect === true || word.showSolution}
@@ -74,7 +74,9 @@ export function VocabularyCard({
           spellCheck="false"
           inputMode="none"
           className={`w-full px-4 py-4 text-lg text-center border-2 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-transparent dark:bg-gray-700 dark:text-white disabled:bg-gray-100 dark:disabled:bg-gray-900 disabled:cursor-not-allowed caret-transparent ${
-            word.showSolution ? 'border-blue-500 dark:border-blue-400 text-blue-600 dark:text-blue-400 font-bold' : 'border-gray-300 dark:border-gray-600'
+            word.showSolution ? 'border-blue-500 dark:border-blue-400 text-blue-600 dark:text-blue-400 font-bold' : 
+            word.isCorrect === true ? 'border-green-500 dark:border-green-400 text-green-600 dark:text-green-400 font-bold' :
+            'border-gray-300 dark:border-gray-600'
           }`}
         />
 

@@ -1,11 +1,11 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "list": [
     {
       "id": 1,
       "spanish": "hola",
       "english": "hello, hi",
-      "french": "salut",
+      "french": "salut, coucou",
       "category": "Saludos",
       "class": "interjection"
     },
@@ -691,7 +691,7 @@
     },
     {
       "id": 87,
-      "spanish": "jugo",
+      "spanish": "jugo, zumo",
       "english": "juice",
       "french": "jus",
       "category": "Comida",
@@ -805,7 +805,7 @@
       "id": 101,
       "spanish": "pescado",
       "english": "fish",
-      "french": "poisson",
+      "french": "poisson (nourriture)",
       "category": "Ingredientes",
       "class": "noun"
     },
@@ -1315,7 +1315,7 @@
     },
     {
       "id": 165,
-      "spanish": "cabello",
+      "spanish": "cabello, pelo",
       "english": "hair",
       "french": "cheveu",
       "category": "Cabeza",
@@ -1323,7 +1323,7 @@
     },
     {
       "id": 166,
-      "spanish": "pelo",
+      "spanish": "pelo, cabello",
       "english": "hair",
       "french": "cheveu",
       "category": "Cabeza",
@@ -1525,7 +1525,7 @@
       "id": 191,
       "spanish": "pastilla",
       "english": "pill, tablet",
-      "french": "médicament",
+      "french": "cachet, comprimé, pilule",
       "category": "Salud",
       "class": "noun"
     },
@@ -2373,7 +2373,7 @@
       "id": 297,
       "spanish": "pasear",
       "english": "to stroll, to walk",
-      "french": "se balader",
+      "french": "se balader, se promener",
       "category": "Aficiones",
       "class": "verb"
     },
@@ -2565,7 +2565,7 @@
       "id": 321,
       "spanish": "oficina",
       "english": "office",
-      "french": "bureau",
+      "french": "bureau, agence",
       "category": "Trabajos",
       "class": "noun"
     },
@@ -2875,7 +2875,7 @@
     },
     {
       "id": 360,
-      "spanish": "boleto",
+      "spanish": "boleto, billete, tiquete",
       "english": "ticket",
       "french": "billet, ticket",
       "category": "Viajes",
@@ -3149,7 +3149,7 @@
       "id": 394,
       "spanish": "despejado",
       "english": "clear",
-      "french": "temps clair",
+      "french": "clair, dégagé (météo)",
       "category": "Clima",
       "class": "noun"
     },
@@ -3165,7 +3165,7 @@
       "id": 396,
       "spanish": "nublado",
       "english": "cloudy",
-      "french": "couvert",
+      "french": "couvert, nuageux",
       "category": "Clima",
       "class": "noun"
     },
@@ -3197,7 +3197,7 @@
       "id": 400,
       "spanish": "tormenta",
       "english": "storm",
-      "french": "tournage",
+      "french": "tempête",
       "category": "Clima",
       "class": "noun"
     },
@@ -3819,7 +3819,7 @@
     },
     {
       "id": 478,
-      "spanish": "usar",
+      "spanish": "usar, utilizar",
       "english": "to use",
       "french": "utiliser",
       "category": "Acciónes",
@@ -3939,7 +3939,7 @@
     },
     {
       "id": 493,
-      "spanish": "violeta",
+      "spanish": "violeta, morado, púrpura",
       "english": "violet, purple",
       "french": "violet, pourpre",
       "category": "Colores",
@@ -4013,7 +4013,7 @@
       "id": 502,
       "spanish": "pez",
       "english": "fish",
-      "french": "poisson",
+      "french": "poisson (animal)",
       "category": "Animales",
       "class": "noun"
     },
@@ -4317,7 +4317,7 @@
       "id": 540,
       "spanish": "alto",
       "english": "tall, high",
-      "french": "grand",
+      "french": "grand, haut",
       "category": "Adjetivos",
       "class": "adjective"
     },
@@ -4485,7 +4485,7 @@
       "id": 561,
       "spanish": "a veces",
       "english": "sometimes",
-      "french": "souvent",
+      "french": "parfois",
       "category": "Adverbios",
       "class": "adverb"
     },
@@ -4621,7 +4621,7 @@
       "id": 578,
       "spanish": "nosotros",
       "english": "we (masc./mixed)",
-      "french": "nous",
+      "french": "nous (masc.)",
       "category": "Pronombres",
       "class": "pronoun"
     },
@@ -4629,7 +4629,7 @@
       "id": 579,
       "spanish": "vosotros",
       "english": "you",
-      "french": "vous",
+      "french": "vous (masc.)",
       "category": "Pronombres",
       "class": "pronoun"
     },
@@ -4645,7 +4645,7 @@
       "id": 581,
       "spanish": "nosotras",
       "english": "we (fem.)",
-      "french": "nous",
+      "french": "nous (fem.)",
       "category": "Pronombres",
       "class": "pronoun"
     },
