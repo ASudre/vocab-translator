@@ -1,5 +1,5 @@
 {
-  "version": "1.0.7",
+  "version": "1.0.8",
   "list": [
     {
       "id": 1,
@@ -3861,7 +3861,7 @@
       "id": 483,
       "spanish": "poner",
       "english": "to put, to place",
-      "french": "mettre",
+      "french": "mettre, poser",
       "category": "Acciónes",
       "class": "verb"
     },
