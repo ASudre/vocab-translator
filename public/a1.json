@@ -1,5 +1,5 @@
 {
-  "version": "1.0.8",
+  "version": "1.0.9",
   "list": [
     {
       "id": 1,
@@ -51,7 +51,7 @@
     },
     {
       "id": 7,
-      "spanish": "mucho gusto",
+      "spanish": "mucho gusto, encantado",
       "english": "nice to meet you, pleased to meet you",
       "french": "enchanté",
       "category": "Saludos",
