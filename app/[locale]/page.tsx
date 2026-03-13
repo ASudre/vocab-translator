@@ -4,20 +4,14 @@ import { useEffect, useCallback, useState } from 'react';
 import { useVocabularyDB } from '@/hooks/useVocabularyDB';
 import { useCardNavigation } from '@/hooks/useCardNavigation';
 import { checkAnswerCorrectness } from '@/lib/helpers';
-import { saveUserProgress, getMasteryStats, getUserProgress } from '@/lib/indexedDB';
+import { saveUserProgress, getMasteryStats } from '@/lib/indexedDB';
 import { VocabularyCard } from './components/VocabularyCard';
 import { FixedKeyboard } from './components/FixedKeyboard';
 import { TopBar } from './components/TopBar';
-import { RewardOverlay } from './components/RewardOverlay';
-
-type RewardKind = 'mastered' | 'level';
-
-const LEVEL_COMPLETED_KEY = 'palabras-level-a1-completed';
 
 export default function Home() {
   const { words, setWords, loading, fetchWords } = useVocabularyDB(10);
   const [masteryStats, setMasteryStats] = useState({ total: 0, mastered: 0, percentage: 0 });
-  const [reward, setReward] = useState<RewardKind | null>(null);
   const {
     currentIndex,
     slideDirection,
@@ -46,11 +40,9 @@ export default function Home() {
     try {
       const stats = await getMasteryStats();
       setMasteryStats(stats);
-      return stats;
     } catch (error) {
       console.error('Failed to update mastery stats:', error);
     }
-    return null;
   }, []);
 
   useEffect(() => {
@@ -105,19 +97,8 @@ export default function Home() {
 
     if (!word.progressSaved) {
       try {
-        const previousProgress = await getUserProgress(word.vocabularyId);
-
         await saveUserProgress(word.vocabularyId, isCorrect);
         console.log(`Progress saved for word ${word.vocabularyId}: ${isCorrect ? 'correct' : 'incorrect'}`);
-
-        const nextProgress = await getUserProgress(word.vocabularyId);
-        const justMastered =
-          previousProgress?.masteryLevel !== 3 &&
-          nextProgress?.masteryLevel === 3;
-
-        if (justMastered) {
-          setReward('mastered');
-        }
         
         setWords(prevWords => {
           const newWords = [...prevWords];
@@ -131,16 +112,8 @@ export default function Home() {
           };
           return newWords;
         });
-
-        const stats = await updateMasteryStats();
-        if (stats && stats.total > 0 && stats.mastered === stats.total) {
-          const alreadyCompleted = localStorage.getItem(LEVEL_COMPLETED_KEY) === '1';
-
-          if (!alreadyCompleted) {
-            localStorage.setItem(LEVEL_COMPLETED_KEY, '1');
-            setReward('level');
-          }
-        }
+        
+        await updateMasteryStats();
       } catch (error) {
         console.error('Failed to save progress:', error);
       }
@@ -252,15 +225,6 @@ export default function Home() {
         onToggleSolution={handleToggleSolution}
         onNext={goToNext}
       />
-
-      {reward && (
-        <RewardOverlay
-          kind={reward}
-          onDone={() => {
-            setReward(null);
-          }}
-        />
-      )}
     </div>
   );
 }
