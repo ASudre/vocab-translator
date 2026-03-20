@@ -47,7 +47,7 @@ export function VocabularyCard({
           ? 'ring-4 ring-red-500 ring-offset-0'
           : ''
       }`}>
-        <span className="absolute top-4 right-4 px-2 py-1 text-xs font-semibold rounded-full bg-indigo-100 dark:bg-indigo-900 text-indigo-700 dark:text-indigo-300">
+        <span className="absolute top-4 right-4 px-2 py-1 text-s font-semibold rounded-full bg-indigo-100 dark:bg-indigo-900 text-indigo-700 dark:text-indigo-300">
           {tClass(word.class as 'adjective' | 'adverb' | 'interjection' | 'noun' | 'number' | 'phrase' | 'preposition' | 'pronoun' | 'verb')}
         </span>
         

@@ -4855,7 +4855,7 @@
       "english": "someones",
       "french": "quelques-uns",
       "category": "",
-      "class": "determiner"
+      "class": "pronoun"
     },
     {
       "id": 608,
@@ -4895,7 +4895,7 @@
       "english": "both",
       "french": "les deux",
       "category": "",
-      "class": "determiner"
+      "class": "pronoun"
     },
     {
       "id": 613,
@@ -5447,7 +5447,7 @@
       "english": "which",
       "french": "quel",
       "category": "",
-      "class": "determiner"
+      "class": "pronoun"
     },
     {
       "id": 685,
@@ -5455,7 +5455,7 @@
       "english": "any",
       "french": "n'importe lequel",
       "category": "",
-      "class": "determiner"
+      "class": "pronoun"
     },
     {
       "id": 686,
@@ -6807,7 +6807,7 @@
       "english": "my",
       "french": "mon",
       "category": "",
-      "class": "determiner"
+      "class": "pronoun"
     },
     {
       "id": 856,
@@ -6943,7 +6943,7 @@
       "english": "many",
       "french": "beaucoup",
       "category": "",
-      "class": "determiner"
+      "class": "pronoun"
     },
     {
       "id": 873,
@@ -7015,7 +7015,7 @@
       "english": "no",
       "french": "non",
       "category": "",
-      "class": "determiner"
+      "class": "noun"
     },
     {
       "id": 882,
@@ -7079,7 +7079,7 @@
       "english": "our",
       "french": "notre",
       "category": "",
-      "class": "determiner"
+      "class": "pronoun"
     },
     {
       "id": 891,
@@ -7231,7 +7231,7 @@
       "english": "other",
       "french": "autre",
       "category": "",
-      "class": "determiner"
+      "class": "noun"
     },
     {
       "id": 910,
@@ -8047,7 +8047,7 @@
       "english": "his/her/their",
       "french": "son/sa/leur",
       "category": "",
-      "class": "determiner"
+      "class": "pronoun"
     },
     {
       "id": 1013,
@@ -8063,7 +8063,7 @@
       "english": "enough",
       "french": "suffisant",
       "category": "",
-      "class": "determiner"
+      "class": "adverb"
     },
     {
       "id": 1015,
@@ -8255,7 +8255,7 @@
       "english": "last",
       "french": "dernier",
       "category": "",
-      "class": "determiner"
+      "class": "adverb"
     },
     {
       "id": 1039,
