@@ -1,5 +1,5 @@
 {
-  "version": "1.0.9",
+  "version": "1.0.10",
   "list": [
     {
       "id": 1,
@@ -4738,14 +4738,6 @@
       "class": "verb"
     },
     {
-      "id": 593,
-      "spanish": "abuelo/a",
-      "english": "grandparent",
-      "french": "grand-parent",
-      "category": "",
-      "class": "noun"
-    },
-    {
       "id": 594,
       "spanish": "acción",
       "english": "action",
@@ -5519,7 +5511,7 @@
       "english": "should",
       "french": "devrait",
       "category": "",
-      "class": "mod"
+      "class": "modal"
     },
     {
       "id": 694,
@@ -5527,7 +5519,7 @@
       "english": "should",
       "french": "devrait",
       "category": "",
-      "class": "mod"
+      "class": "modal"
     },
     {
       "id": 695,
@@ -6893,7 +6885,7 @@
       "id": 866,
       "spanish": "montar",
       "english": "to mount",
-      "french": "monter",
+      "french": "monter (sur)",
       "category": "",
       "class": "verb"
     },
@@ -8135,7 +8127,7 @@
       "english": "third",
       "french": "troisième",
       "category": "",
-      "class": "numeral"
+      "class": "ordinal"
     },
     {
       "id": 1024,
