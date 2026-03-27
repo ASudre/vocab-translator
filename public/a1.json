@@ -1,5 +1,5 @@
 {
-  "version": "1.0.10",
+  "version": "1.0.11",
   "list": [
     {
       "id": 1,
@@ -3629,7 +3629,7 @@
       "id": 454,
       "spanish": "salir",
       "english": "to leave, to go out",
-      "french": "partir",
+      "french": "sortir, partir",
       "category": "Movimiento",
       "class": "verb"
     },
@@ -4939,7 +4939,7 @@
     },
     {
       "id": 619,
-      "spanish": "arriba",
+      "spanish": "arriba, encima",
       "english": "up",
       "french": "dessus",
       "category": "",
@@ -5197,7 +5197,7 @@
       "id": 653,
       "spanish": "chica",
       "english": "girl",
-      "french": "fille",
+      "french": "fille, petite",
       "category": "",
       "class": "noun"
     },
@@ -5467,7 +5467,7 @@
     },
     {
       "id": 688,
-      "spanish": "cuarto",
+      "spanish": "cuarto, habitación",
       "english": "room",
       "french": "chambre",
       "category": "",
@@ -5635,7 +5635,7 @@
     },
     {
       "id": 709,
-      "spanish": "detener",
+      "spanish": "detener, parar",
       "english": "to stop",
       "french": "arrêter",
       "category": "",
@@ -5957,7 +5957,7 @@
       "id": 749,
       "spanish": "escritorio",
       "english": "desk",
-      "french": "bureau",
+      "french": "bureau (mobilier)",
       "category": "",
       "class": "noun"
     },
@@ -6349,7 +6349,7 @@
       "id": 798,
       "spanish": "hace",
       "english": "ago",
-      "french": "il y a",
+      "french": "il y a (temps)",
       "category": "",
       "class": "adverb"
     },
@@ -6613,7 +6613,7 @@
       "id": 832,
       "spanish": "libra",
       "english": "pound",
-      "french": "livre",
+      "french": "livre (unité de mesure)",
       "category": "",
       "class": "noun"
     },
@@ -6815,7 +6815,7 @@
       "english": "thousand",
       "french": "mille",
       "category": "",
-      "class": "num"
+      "class": "number"
     },
     {
       "id": 858,
@@ -6831,7 +6831,7 @@
       "english": "million",
       "french": "million",
       "category": "",
-      "class": "num"
+      "class": "number"
     },
     {
       "id": 860,
@@ -7685,7 +7685,7 @@
       "id": 968,
       "spanish": "querido",
       "english": "dear",
-      "french": "cher",
+      "french": "cher, chéri",
       "category": "",
       "class": "adjective"
     },
@@ -7703,7 +7703,7 @@
       "english": "fifth",
       "french": "cinquième",
       "category": "",
-      "class": "num"
+      "class": "number"
     },
     {
       "id": 971,
@@ -8085,7 +8085,7 @@
       "id": 1018,
       "spanish": "tarjeta",
       "english": "card",
-      "french": "carte",
+      "french": "carte (bancaire, postale, ...)",
       "category": "",
       "class": "noun"
     },
@@ -8109,7 +8109,7 @@
       "id": 1021,
       "spanish": "tema",
       "english": "topic",
-      "french": "sujet",
+      "french": "sujet (thème)",
       "category": "",
       "class": "noun"
     },
