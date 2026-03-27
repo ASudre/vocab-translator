@@ -19,6 +19,7 @@
   "WordClass": {
     "adjective": "adjectif",
     "adverb": "adverbe",
+    "conjunction": "conjonction",
     "interjection": "interjection",
     "modal": "modal",
     "noun": "nom",

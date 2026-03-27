@@ -4709,7 +4709,7 @@
       "id": 589,
       "spanish": "para",
       "english": "for, to, in order to",
-      "french": "pour, a fin de",
+      "french": "pour, afin de",
       "category": "Pronombres",
       "class": "preposition"
     },
@@ -5157,7 +5157,7 @@
       "id": 648,
       "spanish": "centavo",
       "english": "cent",
-      "french": "cent",
+      "french": "cent, centime",
       "category": "",
       "class": "noun"
     },
@@ -5243,7 +5243,7 @@
     },
     {
       "id": 660,
-      "spanish": "comenzar",
+      "spanish": "comenzar, empezar",
       "english": "to begin",
       "french": "commencer",
       "category": "",
@@ -5251,7 +5251,7 @@
     },
     {
       "id": 661,
-      "spanish": "comienzo",
+      "spanish": "comienzo, empiezo",
       "english": "beginning",
       "french": "début",
       "category": "",
@@ -7053,7 +7053,7 @@
       "id": 888,
       "spanish": "novia",
       "english": "girlfriend",
-      "french": "copine",
+      "french": "(petite) copine",
       "category": "",
       "class": "noun"
     },
@@ -7061,7 +7061,7 @@
       "id": 889,
       "spanish": "novio",
       "english": "boyfriend",
-      "french": "copain",
+      "french": "(petit) copain",
       "category": "",
       "class": "noun"
     },
@@ -7179,7 +7179,7 @@
     },
     {
       "id": 904,
-      "spanish": "oración",
+      "spanish": "oración, frase",
       "english": "sentence",
       "french": "phrase",
       "category": "",
