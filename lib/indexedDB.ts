@@ -203,18 +203,18 @@ export const clearVocabulary = async (): Promise<void> => {
  * Force reload vocabulary from JSON
  * Clears existing vocabulary and reloads from the JSON file
  */
-export const forceReloadVocabulary = async (jsonPath: string): Promise<void> => {
+export const forceReloadVocabulary = async (jsonPath: string, level: string): Promise<void> => {
   try {
     console.log('Force reloading vocabulary...');
-    
+
     // Clear existing vocabulary
     await clearVocabulary();
-    
+
     // Clear the lastUpdate flag
     localStorage.removeItem('vocabDB_lastUpdate');
-    
+
     // Reload from JSON
-    await loadVocabularyFromJSON(jsonPath);
+    await loadVocabularyFromJSON(jsonPath, level);
     
     console.log('Vocabulary force reloaded successfully');
   } catch (error) {
@@ -223,33 +223,34 @@ export const forceReloadVocabulary = async (jsonPath: string): Promise<void> => 
   }
 };
 
-export const loadVocabularyFromJSON = async (jsonPath: string): Promise<void> => {
+export const loadVocabularyFromJSON = async (jsonPath: string, level: string): Promise<void> => {
   try {
     console.log('Checking vocabulary version...');
     const response = await fetch(jsonPath);
-    
+
     if (!response.ok) {
       throw new Error(`Failed to fetch JSON: ${response.statusText}`);
     }
-    
+
     const jsonData = await response.json();
     const jsonVersion = jsonData.version || '1.0.0';
-    const storedVersion = localStorage.getItem('vocabDB_version');
-    
-    // Check if we need to reload
+    const storedVersion = localStorage.getItem(`vocabDB_version_${level}`);
+    const activeLevel = localStorage.getItem('vocabDB_activeLevel');
+
+    // Check if we need to reload: level switched, or this level's data changed
     const count = await getVocabularyCount();
-    const needsReload = storedVersion !== jsonVersion;
-    
+    const needsReload = activeLevel !== level || storedVersion !== jsonVersion;
+
     if (count > 0 && !needsReload) {
-      console.log(`Vocabulary already loaded (version ${storedVersion})`);
+      console.log(`Vocabulary already loaded (level ${level}, version ${storedVersion})`);
       return;
     }
-    
-    if (needsReload && count > 0) {
-      console.log(`Version changed: ${storedVersion} → ${jsonVersion}. Reloading vocabulary...`);
+
+    if (count > 0) {
+      console.log(`Loading level ${level} (was ${activeLevel}, version ${storedVersion} → ${jsonVersion}). Reloading vocabulary...`);
       await clearVocabulary();
     } else {
-      console.log(`Loading vocabulary version ${jsonVersion}...`);
+      console.log(`Loading vocabulary level ${level}, version ${jsonVersion}...`);
     }
     
     // Handle both formats: { list: [...] } or direct array
@@ -278,11 +279,12 @@ export const loadVocabularyFromJSON = async (jsonPath: string): Promise<void> =>
     }));
     
     await importVocabulary(data);
-    
-    // Store the version
-    localStorage.setItem('vocabDB_version', jsonVersion);
-    
-    console.log(`Vocabulary version ${jsonVersion} successfully loaded into IndexedDB`);
+
+    // Store the version and active level
+    localStorage.setItem(`vocabDB_version_${level}`, jsonVersion);
+    localStorage.setItem('vocabDB_activeLevel', level);
+
+    console.log(`Vocabulary level ${level} (version ${jsonVersion}) successfully loaded into IndexedDB`);
   } catch (error) {
     console.error('Error loading vocabulary from JSON:', error);
     throw error;

@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useCallback, useState } from 'react';
-import { useVocabularyDB } from '@/hooks/useVocabularyDB';
+import { useVocabularyDB, CEFRLevel, CEFR_LEVELS } from '@/hooks/useVocabularyDB';
 import { useCardNavigation } from '@/hooks/useCardNavigation';
 import { checkAnswerCorrectness } from '@/lib/helpers';
 import { saveUserProgress, getMasteryStats } from '@/lib/indexedDB';
@@ -9,8 +9,15 @@ import { VocabularyCard } from './components/VocabularyCard';
 import { FixedKeyboard } from './components/FixedKeyboard';
 import { TopBar } from './components/TopBar';
 
+const LEVEL_STORAGE_KEY = 'vocabDB_selectedLevel';
+
+const isCEFRLevel = (value: string | null): value is CEFRLevel =>
+  value !== null && (CEFR_LEVELS as readonly string[]).includes(value);
+
 export default function Home() {
-  const { words, setWords, loading, fetchWords } = useVocabularyDB(10);
+  const [level, setLevel] = useState<CEFRLevel>('a1');
+  const [levelRestored, setLevelRestored] = useState(false);
+  const { words, setWords, loading, fetchWords, initialized } = useVocabularyDB(level, 10, levelRestored);
   const [masteryStats, setMasteryStats] = useState({ total: 0, mastered: 0, percentage: 0 });
   const {
     currentIndex,
@@ -19,12 +26,39 @@ export default function Home() {
     goToNext,
     triggerShake,
     autoAdvance,
+    reset: resetNavigation,
   } = useCardNavigation(words.length);
-  
+
   const currentWord = words[currentIndex];
 
-  // Load mastery stats on mount
+  // Restore the previously selected level after mount, before letting
+  // useVocabularyDB load anything. This can't be done via a useState lazy
+  // initializer because localStorage isn't available during SSR — reading it
+  // there would produce a value that mismatches the server-rendered 'a1'
+  // default and break hydration. Gating on levelRestored (rather than just
+  // setting the level here) avoids a race where the default 'a1' load and a
+  // subsequent restored-level load both hit IndexedDB concurrently.
   useEffect(() => {
+    const stored = localStorage.getItem(LEVEL_STORAGE_KEY);
+    if (isCEFRLevel(stored)) {
+      // Syncing from localStorage (unavailable during SSR) on mount, not derived from React state.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setLevel(stored);
+    }
+    setLevelRestored(true);
+  }, []);
+
+  const handleLevelChange = useCallback((newLevel: CEFRLevel) => {
+    setLevel(newLevel);
+    localStorage.setItem(LEVEL_STORAGE_KEY, newLevel);
+    resetNavigation();
+  }, [resetNavigation]);
+
+  // Load mastery stats once the current level's data has finished loading into
+  // IndexedDB (avoids reading stats mid-reload while switching levels)
+  useEffect(() => {
+    if (!initialized) return;
+
     const loadStats = async () => {
       try {
         const stats = await getMasteryStats();
@@ -34,7 +68,7 @@ export default function Home() {
       }
     };
     loadStats();
-  }, []);
+  }, [initialized]);
 
   const updateMasteryStats = useCallback(async () => {
     try {
@@ -197,7 +231,7 @@ export default function Home() {
 
   return (
     <div className="fixed inset-0 flex flex-col bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 overflow-hidden">
-      <TopBar masteryStats={masteryStats} />
+      <TopBar masteryStats={masteryStats} level={level} onLevelChange={handleLevelChange} />
       <main className="flex-1 overflow-y-auto container mx-auto px-4 py-6 sm:py-12">
         {words.length > 0 && currentWord && (
           <div className="relative">

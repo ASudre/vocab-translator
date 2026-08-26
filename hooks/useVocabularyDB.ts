@@ -1,6 +1,9 @@
 import { useState, useEffect, useCallback } from 'react';
 import { getUnmasteredVocabulary, loadVocabularyFromJSON, VocabularyEntry, getUserProgress } from '@/lib/indexedDB';
 
+export const CEFR_LEVELS = ['a1', 'a2', 'b1', 'b2', 'c1'] as const;
+export type CEFRLevel = (typeof CEFR_LEVELS)[number];
+
 export interface TranslationResult {
   vocabularyId: number;
   spanish: string;
@@ -14,24 +17,40 @@ export interface TranslationResult {
   progressSaved?: boolean;
 }
 
-export const useVocabularyDB = (wordCount: number = 10) => {
+export const useVocabularyDB = (level: CEFRLevel, wordCount: number = 10, enabled: boolean = true) => {
   const [words, setWords] = useState<TranslationResult[]>([]);
   const [loading, setLoading] = useState(false);
   const [initialized, setInitialized] = useState(false);
 
   useEffect(() => {
+    // Skip until the caller has settled on the real starting level (e.g.
+    // after restoring it from localStorage) — otherwise a default level's
+    // load can race a subsequent level switch and corrupt IndexedDB, since
+    // both hit the same shared vocabulary store concurrently.
+    if (!enabled) return;
+
+    let cancelled = false;
+    setInitialized(false);
+    setWords([]);
+
     const initializeDB = async () => {
       try {
-        await loadVocabularyFromJSON('/a1.json');
-        
-        setInitialized(true);
+        await loadVocabularyFromJSON(`/${level}.json`, level);
+
+        if (!cancelled) {
+          setInitialized(true);
+        }
       } catch (error) {
         console.error('Failed to initialize vocabulary database:', error);
       }
     };
 
     initializeDB();
-  }, []);
+
+    return () => {
+      cancelled = true;
+    };
+  }, [level, enabled]);
 
   const fetchWords = useCallback(async () => {
     if (!initialized) return;
@@ -74,5 +93,5 @@ export const useVocabularyDB = (wordCount: number = 10) => {
     }
   }, [initialized, fetchWords]);
 
-  return { words, setWords, loading, fetchWords };
+  return { words, setWords, loading, fetchWords, initialized };
 };
