@@ -1,0 +1,4958 @@
+[
+  {
+    "spanish": "bienestar",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 15.8365,
+    "nb_doc_at_level": 7.0
+  },
+  {
+    "spanish": "pastilla",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 13.861,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "matrícula",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 13.717,
+    "nb_doc_at_level": 6.0
+  },
+  {
+    "spanish": "murciélago",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 13.3129,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "desigualdad",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 13.1902,
+    "nb_doc_at_level": 5.0
+  },
+  {
+    "spanish": "elaboración",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 11.755,
+    "nb_doc_at_level": 6.0
+  },
+  {
+    "spanish": "emocional",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 11.6691,
+    "nb_doc_at_level": 8.0
+  },
+  {
+    "spanish": "era",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 11.6634,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "vinagre",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 10.8229,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "silencioso",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 10.6982,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "equivalente",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 10.3834,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "cooperativa",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 10.1521,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "celo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 9.9225,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "relatar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 9.7301,
+    "nb_doc_at_level": 6.0
+  },
+  {
+    "spanish": "cortesía",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 9.6394,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "entretener",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 9.4066,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "fortalecer",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 9.2177,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "contradicción",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 8.8107,
+    "nb_doc_at_level": 6.0
+  },
+  {
+    "spanish": "almendra",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 8.7985,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "disfrute",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 8.6033,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "reflexión",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 8.5019,
+    "nb_doc_at_level": 5.0
+  },
+  {
+    "spanish": "ahogar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 8.4513,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "sacerdote",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 8.3938,
+    "nb_doc_at_level": 5.0
+  },
+  {
+    "spanish": "indemnización",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 8.3705,
+    "nb_doc_at_level": 5.0
+  },
+  {
+    "spanish": "convencional",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 8.3337,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "estallar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 8.2074,
+    "nb_doc_at_level": 6.0
+  },
+  {
+    "spanish": "mosquito",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 8.1315,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "prisión",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 7.9945,
+    "nb_doc_at_level": 5.0
+  },
+  {
+    "spanish": "oculto",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 7.8291,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "golpear",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 7.794,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "expedición",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 7.7557,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "modificar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 7.7286,
+    "nb_doc_at_level": 5.0
+  },
+  {
+    "spanish": "confuso",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 7.7121,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "televisivo",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 7.6417,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "marina",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 7.6389,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "perspectiva",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 7.6111,
+    "nb_doc_at_level": 7.0
+  },
+  {
+    "spanish": "foca",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 7.5907,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "minero",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 7.5771,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "caída",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 7.4935,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "beneficiar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 7.4557,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "profecía",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 7.3942,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "operar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 7.3805,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "figurar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 7.3723,
+    "nb_doc_at_level": 5.0
+  },
+  {
+    "spanish": "diplomático",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 7.1496,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "célula",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 7.126,
+    "nb_doc_at_level": 5.0
+  },
+  {
+    "spanish": "compuesto",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 7.1173,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "singular",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 6.9107,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "caramelo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 6.8937,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "vicio",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 6.8838,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "cerro",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 6.8676,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "paterno",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 6.8313,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "decena",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 6.8185,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "creciente",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 6.8027,
+    "nb_doc_at_level": 5.0
+  },
+  {
+    "spanish": "cálculo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 6.7498,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "brecha",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 6.7491,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "tribunal",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 6.73,
+    "nb_doc_at_level": 5.0
+  },
+  {
+    "spanish": "lesión",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 6.6822,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "mamífero",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 6.6737,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "espiritual",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 6.6072,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "hipótesis",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 6.5888,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "desempleo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 6.4966,
+    "nb_doc_at_level": 5.0
+  },
+  {
+    "spanish": "revés",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 6.4754,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "emperador",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 6.4176,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "abundante",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 6.416,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "simpatía",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 6.4052,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "dosis",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 6.1735,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "expulsión",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 6.1561,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "malentendido",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 6.1389,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "lince",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 6.131,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "coro",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 6.0574,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "flotar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 6.0555,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "amoroso",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 6.0006,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "visual",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 5.9592,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "apto",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 5.9453,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "bienal",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 5.9449,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "préstamo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 5.9163,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "cooperación",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 5.9022,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "abreviar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 5.8661,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "clasificar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 5.8586,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "resistencia",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 5.8537,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "azar",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 5.8452,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "instinto",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 5.8447,
+    "nb_doc_at_level": 5.0
+  },
+  {
+    "spanish": "forzar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 5.8404,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "movilidad",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 5.8259,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "presidir",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 5.8192,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "aventurero",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 5.8058,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "contable",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 5.7855,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "distraer",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 5.7829,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "multiplicar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 5.7829,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "introvertido",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 5.729,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "ocasionar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 5.6907,
+    "nb_doc_at_level": 7.0
+  },
+  {
+    "spanish": "ignorar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 5.6471,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "infidelidad",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 5.5538,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "eclipse",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 5.5344,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "virtud",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 5.4688,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "queja",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 5.3672,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "órgano",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 5.3649,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "manejo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 5.2722,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "granada",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 5.2298,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "alterar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 5.1908,
+    "nb_doc_at_level": 5.0
+  },
+  {
+    "spanish": "tonelada",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 5.1881,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "pertenencia",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 5.1342,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "atentado",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 5.1256,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "judicial",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 5.1197,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "comprensión",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 5.1169,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "insólito",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 5.1114,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "apariencia",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 4.9852,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "concepción",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 4.9788,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "extenso",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 4.975,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "rol",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 4.9517,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "conde",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 4.9181,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "cemento",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 4.9059,
+    "nb_doc_at_level": 5.0
+  },
+  {
+    "spanish": "traductor",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 4.903,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "conejo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 4.8924,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "frecuentar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 4.8312,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "obrero",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 4.7951,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "maquillaje",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 4.7743,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "explotación",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 4.7732,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "catálogo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 4.7725,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "rayuela",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 4.7522,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "irregular",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 4.6553,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "integral",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 4.654,
+    "nb_doc_at_level": 5.0
+  },
+  {
+    "spanish": "orgullo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 4.6536,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "examinar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 4.6499,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "potencial",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 4.6033,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "sistemático",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 4.5994,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "lotería",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 4.5993,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "mosaico",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 4.5905,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "justificar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 4.541,
+    "nb_doc_at_level": 5.0
+  },
+  {
+    "spanish": "mayoritario",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 4.5381,
+    "nb_doc_at_level": 5.0
+  },
+  {
+    "spanish": "heredar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 4.5289,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "aceptación",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 4.5018,
+    "nb_doc_at_level": 5.0
+  },
+  {
+    "spanish": "dependencia",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 4.5018,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "vínculo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 4.4768,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "mama",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 4.4639,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "continuidad",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 4.4598,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "plácido",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 4.4484,
+    "nb_doc_at_level": 8.0
+  },
+  {
+    "spanish": "normalidad",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 4.4472,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "impulso",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 4.4466,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "protector",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 4.4427,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "extrovertido",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 4.4335,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "portar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 4.4335,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "salmón",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 4.4058,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "amabilidad",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 4.3852,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "derivado",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 4.3654,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "zorro",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 4.3584,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "pizarro",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 4.3544,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "ambición",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 4.3527,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "existente",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 4.3427,
+    "nb_doc_at_level": 7.0
+  },
+  {
+    "spanish": "desbordar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 4.3325,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "aliento",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 4.3242,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "instantáneo",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 4.3189,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "lazo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 4.3152,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "trágico",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 4.3089,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "exigente",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 4.2956,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "dignidad",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 4.2633,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "exhibición",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 4.2619,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "urbanístico",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 4.2586,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "escocés",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 4.258,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "acreditar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 4.2423,
+    "nb_doc_at_level": 5.0
+  },
+  {
+    "spanish": "mero",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 4.2101,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "diferir",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 4.1997,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "confeccionar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 4.1972,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "mortal",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 4.1772,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "coronar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 4.1728,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "peregrinación",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 4.171,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "cristianismo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 4.1685,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "perteneciente",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 4.1347,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "sidra",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 4.1322,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "fluidez",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 4.1232,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "especificar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 4.1181,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "excelencia",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 4.1172,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "masticar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 4.1172,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "sospecha",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 4.1009,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "temor",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 4.0966,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "recetar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 4.0941,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "tópico",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 4.0768,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "turrón",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 4.0723,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "cocodrilo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 4.0712,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "poetisa",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 4.0609,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "censo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 4.0399,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "economista",
+    "pos_tag": "NCC",
+    "level": "c1",
+    "total_freq": 4.0153,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "astronomía",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 3.9616,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "veterinario",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 3.9426,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "alabar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 3.825,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "prudente",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 3.8201,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "tsunami",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 3.8088,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "envejecimiento",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 3.7448,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "rascar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 3.7276,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "librar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 3.6937,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "eliminación",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 3.6779,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "infierno",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 3.672,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "moderar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 3.6668,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "temática",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 3.6527,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "antioxidante",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 3.6513,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "impactar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 3.6405,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "recortar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 3.6403,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "astronómico",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 3.6283,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "madurez",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 3.6283,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "paga",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 3.5903,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "consecutivo",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 3.5572,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "incalculable",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 3.5496,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "reivindicar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 3.5134,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "distracción",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 3.5089,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "esquema",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 3.4638,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "contorno",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 3.4583,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "diluvio",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 3.4495,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "vacante",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 3.3995,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "envejecer",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 3.3924,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "satisfactorio",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 3.3921,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "sequía",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 3.3672,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "estricto",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 3.3654,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "sentencia",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 3.3559,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "virus",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 3.3321,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "consumar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 3.3305,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "teórico",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 3.3305,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "escandaloso",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 3.3297,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "desalojar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 3.3238,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "transacción",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 3.3235,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "cera",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 3.3208,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "gobernador",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 3.3031,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "huracán",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 3.3031,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "contraer",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 3.2923,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "ejecutar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 3.2868,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "vena",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 3.2714,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "concesión",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 3.2694,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "precaución",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 3.2439,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "exhibir",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 3.2307,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "parcial",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 3.2255,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "celeste",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 3.2222,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "precipitar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 3.2048,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "ciclista",
+    "pos_tag": "NCC",
+    "level": "c1",
+    "total_freq": 3.1999,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "despegar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 3.188,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "subasta",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 3.1715,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "rival",
+    "pos_tag": "NCC",
+    "level": "c1",
+    "total_freq": 3.16,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "esclavitud",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 3.1119,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "mármol",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 3.055,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "movilizar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 3.0496,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "alarmar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 3.0332,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "imposibilidad",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 3.0332,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "refugiar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 3.0332,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "enfoque",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 3.0246,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "vitalidad",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 3.0204,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "expresividad",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 3.0164,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "verter",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 3.0164,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "refrescar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 3.0151,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "cal",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.9853,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "ribera",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.9849,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "corroborar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 2.9841,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "aurora",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.9778,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "estándar",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.9717,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "discriminación",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.9688,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "póliza",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.9665,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "maternidad",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.9543,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "división",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.9534,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "asombroso",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 2.9416,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "mentalidad",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.9337,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "repudiar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 2.9337,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "estabilidad",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.932,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "estatus",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.9298,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "federación",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.9109,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "inmobiliaria",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.9032,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "castro",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.9012,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "parejo",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 2.9011,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "precisión",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.8991,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "licenciatura",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.8968,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "plasmar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 2.8968,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "velo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.8937,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "autocontrol",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.8912,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "natalidad",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.8912,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "melancolía",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.8813,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "preocupante",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 2.8696,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "peluca",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.8627,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "caza",
+    "pos_tag": "NCC",
+    "level": "c1",
+    "total_freq": 2.8376,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "condena",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.8326,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "festejar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 2.8169,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "obstáculo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.8021,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "constitucional",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 2.799,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "alfabetización",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.7944,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "mantel",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.7904,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "inclinación",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.79,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "imputar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 2.7818,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "presidencial",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 2.7558,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "contribución",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.7512,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "rebelión",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.7245,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "musa",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.7188,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "tránsito",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.7172,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "deje",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.6355,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "labrar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 2.6355,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "euforia",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.6305,
+    "nb_doc_at_level": 5.0
+  },
+  {
+    "spanish": "embrión",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.6021,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "ansia",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.599,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "pincel",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.599,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "llanto",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.5803,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "bromear",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 2.5462,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "arreglo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.5118,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "irrupción",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.5072,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "recreativo",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 2.5072,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "acarrear",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 2.504,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "alambre",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.4441,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "inspección",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.3646,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "lombriz",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.3056,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "suavizar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 2.3056,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "abandono",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.2557,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "agrado",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.2557,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "antecedente",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.2557,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "latente",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 2.2557,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "contrastar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 2.2534,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "duradero",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 2.2534,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "evaporar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 2.2534,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "ira",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.2534,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "sosegar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 2.2534,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "pecado",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.2276,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "terrestre",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 2.2276,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "cadáver",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.2252,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "enfrentamiento",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.2229,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "roncar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 2.2205,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "adecuación",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.2201,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "vestigio",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.2186,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "deseable",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 2.1993,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "arabismo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.1882,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "elogio",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.1882,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "cangrejo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.1813,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "culpabilidad",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.1798,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "morisco",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.1798,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "visigodo",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 2.1798,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "consejero",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.1731,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "esfera",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.164,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "prescindir",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 2.164,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "repercutir",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 2.164,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "hidratante",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 2.16,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "sincronizar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 2.1571,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "humillar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 2.1553,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "indicador",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.1553,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "terapéutico",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 2.1545,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "ausente",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 2.137,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "escolaridad",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.1324,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "alcazaba",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.1271,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "bocado",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.1271,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "festividad",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.124,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "fármaco",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.1188,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "ignorancia",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.1148,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "incitar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 2.1148,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "alisar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 2.1121,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "devoción",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.1121,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "multilingüe",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 2.1121,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "sanción",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.1121,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "inocencia",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.1047,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "predilección",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.1024,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "desequilibrio",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.0994,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "fidelidad",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.0994,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "poblador",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.0994,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "precipitación",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.0994,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "cónyuge",
+    "pos_tag": "NCC",
+    "level": "c1",
+    "total_freq": 2.098,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "hallazgo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.0963,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "idiomático",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 2.0963,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "mercantil",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 2.0963,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "posgrado",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.0963,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "prematuro",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 2.0963,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "abuso",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 2.0837,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "activista",
+    "pos_tag": "NCC",
+    "level": "c1",
+    "total_freq": 2.0388,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "trampa",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.0388,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "invisible",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 2.0341,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "insatisfacción",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 2.0133,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "calvario",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.9797,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "aplauso",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.9743,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "párpado",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.9742,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "matizar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.9169,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "custodia",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.9107,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "lameculos",
+    "pos_tag": "NCC",
+    "level": "c1",
+    "total_freq": 1.9088,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "armadillo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.873,
+    "nb_doc_at_level": 6.0
+  },
+  {
+    "spanish": "maullido",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.873,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "enloquecer",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.8697,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "rejuvenecer",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.8697,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "alcaldía",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.8543,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "magnitud",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.8219,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "el",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.8197,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "un",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.8197,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "cruel",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.802,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "institucional",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.7891,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "danzar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.7696,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "violar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.7217,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "lo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.6825,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "agrandar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.678,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "aparentar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.678,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "cuesta",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.678,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "excelentísimo",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.678,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "inmadurez",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.678,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "magno",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.678,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "perpetuo",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.678,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "predestinar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.678,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "extremidad",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.6779,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "monólogo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.6779,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "nítido",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.6779,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "anegar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.6775,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "angelical",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.6775,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "criado",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.6775,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "enérgico",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.6775,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "exaltar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.6775,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "indicio",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.6775,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "metafísico",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.6775,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "pica",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.6775,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "púa",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.6775,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "incomprensión",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.6723,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "ladrillo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.6723,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "pretensión",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.6657,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "nupcial",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.665,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "rienda",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.665,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "flujo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.6617,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "aceptable",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.6536,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "entraña",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.6339,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "fulminar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.6339,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "insinuar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.6339,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "lamer",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.6339,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "preferible",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.6339,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "asociado",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.6298,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "cuantía",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.6298,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "descenso",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.6298,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "flacidez",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.6298,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "ingerir",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.6298,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "insostenible",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.6298,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "persistir",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.6298,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "preceder",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.6298,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "problemática",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.6298,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "proseguir",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.6298,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "radicar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.6298,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "rehabilitación",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.6298,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "relevancia",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.6298,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "supervisar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.6298,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "tardío",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.6298,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "vertiginoso",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.6298,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "hormiguero",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.6285,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "mata",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.6285,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "milagroso",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.6285,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "ingenuidad",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.6282,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "jerga",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.6282,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "oleada",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.6282,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "reconstrucción",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.6282,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "envergadura",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.6174,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "incentivo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.6174,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "mandato",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.6174,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "planteamiento",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.6174,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "recaer",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.6174,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "sucesión",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.6174,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "autoestima",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.6077,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "canasto",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.6077,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "cumplimiento",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.6077,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "fijación",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.6077,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "ingenuo",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.6077,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "materializar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.6077,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "resolución",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.6077,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "sres",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.6077,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "corrupto",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.6012,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "ajuste",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.5991,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "bacteria",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.5991,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "gradual",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.5991,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "beneficiario",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.5888,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "gigante",
+    "pos_tag": "NCC",
+    "level": "c1",
+    "total_freq": 1.5888,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "fundir",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.5803,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "trono",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.5803,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "componente",
+    "pos_tag": "NCC",
+    "level": "c1",
+    "total_freq": 1.5771,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "precedente",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.5771,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "reproductivo",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.5771,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "vaticinar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.5734,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "costo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.5724,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "vial",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.5724,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "nochevieja",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.569,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "admisión",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.5668,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "balance",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.5654,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "bonanza",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.5498,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "festejo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.5498,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "estatura",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.5255,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "culminar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.5112,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "recalentar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.5093,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "vinculación",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.5093,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "emergente",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.4811,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "sorteo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.4767,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "mudanza",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.4287,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "tolerancia",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.4213,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "subsistema",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.4048,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "visón",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.4048,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "humanístico",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.3955,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "sugerencia",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.321,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "externo",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.2619,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "homosexual",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.2619,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "inundación",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.2619,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "acusado",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.1706,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "islam",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.1706,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "mazapán",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.1706,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "abonar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "apego",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "asir",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "atuendo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "aullido",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "autoría",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "barajar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "billón",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "cascanueces",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "cauce",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "confidencia",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "denegar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "descendencia",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "empeño",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "familiarizar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "folio",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "golondrina",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "horizontal",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "hospitalario",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "impreso",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "inclusión",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "influjo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "injuria",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "instancia",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "intestinal",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "lateral",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "latón",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "licenciado",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "marfil",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "multimedia",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "pique",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "pitar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "placidez",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "primigenio",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "retroceso",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "simio",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "soltura",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "trimestre",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "utilitario",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "vistoso",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 1.1528,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "liposucción",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.0515,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "perjuicio",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 1.0515,
+    "nb_doc_at_level": 5.0
+  },
+  {
+    "spanish": "vivencia",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.0515,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "enfatizar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 1.0401,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "comilona",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 1.0389,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "coreano",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.9456,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "duquesa",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.9365,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "inquietud",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.9365,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "remendar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.9365,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "telón",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.9365,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "mediocre",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 0.9344,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "sustancial",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 0.9344,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "primordial",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 0.8439,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "comparador",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.8412,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "demografía",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.8412,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "incidir",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.8412,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "inducir",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.8412,
+    "nb_doc_at_level": 4.0
+  },
+  {
+    "spanish": "inseminación",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.8412,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "ostentar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.8412,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "paradigma",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.8412,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "controvertir",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.7965,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "afán",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.7024,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "amamantar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.7024,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "atenuar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.7024,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "beréber",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 0.7024,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "distintivo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.7024,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "emir",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.7024,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "expresivo",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 0.7024,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "extroversión",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.7024,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "fantasioso",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 0.7024,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "hebreo",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 0.7024,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "hocico",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.7024,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "navidades",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.7024,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "papeleta",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.7024,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "peletero",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 0.7024,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "recuento",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.7024,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "relojero",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.7024,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "retórico",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 0.7024,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "vello",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.7024,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "ignorante",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 0.6368,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "avalancha",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.6309,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "cohete",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.6309,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "cotizar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.6309,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "democratización",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.6309,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "donante",
+    "pos_tag": "NCC",
+    "level": "c1",
+    "total_freq": 0.6309,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "gestar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.6309,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "hidratación",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.6309,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "juguetería",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.6309,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "lentitud",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.6309,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "lámina",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.6309,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "parámetro",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.6309,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "pluralidad",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.6309,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "posibilitar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.6309,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "preinscripción",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.6309,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "quiebra",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.6309,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "regularizar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.6309,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "síntesis",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.6309,
+    "nb_doc_at_level": 3.0
+  },
+  {
+    "spanish": "toxina",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.6309,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "vicepresidente",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.6309,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "vinoterapia",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.6309,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "extremar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.557,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "corrida",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.5466,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "aborrecer",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "adulador",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "alcaldesa",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "aludir",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "andalusí",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "autoconfianza",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "avestruz",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "benigno",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "borrón",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "chisme",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "cigüeña",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "correveidile",
+    "pos_tag": "NCC",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "cíclope",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "deja",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "delatar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "despistado",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "desposar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "dinastía",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "docilidad",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "ego",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "egocéntrico",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "emú",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "erizar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "escarbar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "espino",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "faldero",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "grieta",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "hembra",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "hoyo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "inculpado",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "introversión",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "jaula",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "jerarquizar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "liebre",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "madriguera",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "metomentodo",
+    "pos_tag": "NCC",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "mortero",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "ondular",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "ordenanza",
+    "pos_tag": "NCC",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "ornitorrinco",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "parroquia",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "porte",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "redondear",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "rinoceronte",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "risita",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "sabelotodo",
+    "pos_tag": "NCC",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "sacapuntas",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "servil",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "tenia",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "toca",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "violación",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4683,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "alhóndiga",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "almacenar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "aluvión",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "antiséptico",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "cabalgar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "cascada",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "certificación",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "chamán",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "conmovedor",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "cotidianidad",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "cualitativo",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "cuantitativo",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "cuarentón",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "cumplimentar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "cívico",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "d.n.i.",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "demógrafo",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "derrumbe",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "destreza",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "diferenciación",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "diluir",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "drenaje",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "edificación",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "elasticidad",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "eludir",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "encorvar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "entramado",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "equidad",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "estallido",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "estructurar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "explícito",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "fecundación",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "fobia",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "fundamentar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "gremio",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "incierto",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "infertilidad",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "interrelación",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "metadato",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "metamorfosis",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "modernización",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "obstetricia",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "oxigenar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "panda",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "partícipe",
+    "pos_tag": "NCC",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "paternidad",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "pensante",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "pluripotencial",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "ponderar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "prescripción",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "presupuestario",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "preventivo",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "recalcar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "reconducir",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "reconstituir",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "regenerativo",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "reportar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "rinoplastia",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "segunda",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "supuesto",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "sísmico",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "tolerar",
+    "pos_tag": "VM",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "transitorio",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "treintena",
+    "pos_tag": "NCF",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "veinteañero",
+    "pos_tag": "NCM",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  },
+  {
+    "spanish": "vicioso",
+    "pos_tag": "AQ0",
+    "level": "c1",
+    "total_freq": 0.4206,
+    "nb_doc_at_level": 2.0
+  }
+]

@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# vocab-pipeline: large regeneratable Wiktionary dump (see scripts/vocab-pipeline/README.md)
+scripts/vocab-pipeline/data/es-extract.jsonl
+scripts/vocab-pipeline/data/es-extract.jsonl.gz

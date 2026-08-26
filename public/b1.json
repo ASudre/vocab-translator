@@ -1,0 +1,7949 @@
+{
+  "version": "1.0.0",
+  "list": [
+    {
+      "id": 1,
+      "spanish": "proceso",
+      "english": "process",
+      "french": "processus",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 2,
+      "spanish": "alcanzar",
+      "english": "to reach",
+      "french": "atteindre",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 3,
+      "spanish": "generar",
+      "english": "generate",
+      "french": "générer",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 4,
+      "spanish": "técnica",
+      "english": "technical",
+      "french": "technique",
+      "category": "Tecnología",
+      "class": "noun"
+    },
+    {
+      "id": 5,
+      "spanish": "ocurrir",
+      "english": "to occur",
+      "french": "se produire",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 6,
+      "spanish": "afirmar",
+      "english": "to state",
+      "french": "affirmer",
+      "category": "Comunicación",
+      "class": "verb"
+    },
+    {
+      "id": 7,
+      "spanish": "matrimonio",
+      "english": "marriage",
+      "french": "mariage",
+      "category": "Familia",
+      "class": "noun"
+    },
+    {
+      "id": 8,
+      "spanish": "convencer",
+      "english": "convince",
+      "french": "convaincre",
+      "category": "Comunicación",
+      "class": "verb"
+    },
+    {
+      "id": 9,
+      "spanish": "consecuencia",
+      "english": "consequence",
+      "french": "conséquence",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 10,
+      "spanish": "presente",
+      "english": "present",
+      "french": "présent",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 11,
+      "spanish": "capaz",
+      "english": "capable",
+      "french": "capable",
+      "category": "Personalidad",
+      "class": "adjective"
+    },
+    {
+      "id": 12,
+      "spanish": "ahorrar",
+      "english": "save",
+      "french": "économiser",
+      "category": "Economía",
+      "class": "verb"
+    },
+    {
+      "id": 13,
+      "spanish": "elaborar",
+      "english": "prepare",
+      "french": "élaborer",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 14,
+      "spanish": "propiedad",
+      "english": "property",
+      "french": "propriété",
+      "category": "Derecho",
+      "class": "noun"
+    },
+    {
+      "id": 15,
+      "spanish": "surgir",
+      "english": "to emerge",
+      "french": "apparaître",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 16,
+      "spanish": "área",
+      "english": "area",
+      "french": "zone",
+      "category": "Cantidad y medida",
+      "class": "noun"
+    },
+    {
+      "id": 17,
+      "spanish": "comentario",
+      "english": "comment",
+      "french": "commentaire",
+      "category": "Comunicación",
+      "class": "noun"
+    },
+    {
+      "id": 18,
+      "spanish": "ceremonia",
+      "english": "ceremony",
+      "french": "cérémonie",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 19,
+      "spanish": "actitud",
+      "english": "attitude",
+      "french": "attitude",
+      "category": "Personalidad",
+      "class": "noun"
+    },
+    {
+      "id": 20,
+      "spanish": "básico",
+      "english": "basic",
+      "french": "de base",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 21,
+      "spanish": "brillante",
+      "english": "shiny",
+      "french": "brillant",
+      "category": "Percepción",
+      "class": "adjective"
+    },
+    {
+      "id": 22,
+      "spanish": "prever",
+      "english": "anticipate",
+      "french": "prévoir",
+      "category": "Pensamiento",
+      "class": "verb"
+    },
+    {
+      "id": 23,
+      "spanish": "corresponder",
+      "english": "correspond",
+      "french": "correspondre",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 24,
+      "spanish": "favor",
+      "english": "please",
+      "french": "s'il vous plaît",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 25,
+      "spanish": "esfuerzo",
+      "english": "effort",
+      "french": "effort",
+      "category": "Personalidad",
+      "class": "noun"
+    },
+    {
+      "id": 26,
+      "spanish": "década",
+      "english": "decade",
+      "french": "décennie",
+      "category": "Cantidad y medida",
+      "class": "noun"
+    },
+    {
+      "id": 27,
+      "spanish": "candidato",
+      "english": "candidate",
+      "french": "candidat",
+      "category": "Política",
+      "class": "noun"
+    },
+    {
+      "id": 28,
+      "spanish": "plantear",
+      "english": "to propose",
+      "french": "soulever",
+      "category": "Pensamiento",
+      "class": "verb"
+    },
+    {
+      "id": 29,
+      "spanish": "opción",
+      "english": "option",
+      "french": "option",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 30,
+      "spanish": "aumento",
+      "english": "increase",
+      "french": "augmentation",
+      "category": "Cantidad y medida",
+      "class": "noun"
+    },
+    {
+      "id": 31,
+      "spanish": "nariz",
+      "english": "nose",
+      "french": "nez",
+      "category": "Cabeza",
+      "class": "noun"
+    },
+    {
+      "id": 32,
+      "spanish": "individuo",
+      "english": "individual",
+      "french": "individu",
+      "category": "Sociedad",
+      "class": "noun"
+    },
+    {
+      "id": 33,
+      "spanish": "digital",
+      "english": "digital",
+      "french": "numérique",
+      "category": "Tecnología",
+      "class": "adjective"
+    },
+    {
+      "id": 34,
+      "spanish": "insistir",
+      "english": "insist",
+      "french": "insister",
+      "category": "Comunicación",
+      "class": "verb"
+    },
+    {
+      "id": 35,
+      "spanish": "sexo",
+      "english": "sex",
+      "french": "sexe",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 36,
+      "spanish": "fijar",
+      "english": "set",
+      "french": "fixer",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 37,
+      "spanish": "víctima",
+      "english": "victim",
+      "french": "victime",
+      "category": "Conflicto",
+      "class": "noun"
+    },
+    {
+      "id": 38,
+      "spanish": "reciente",
+      "english": "recent",
+      "french": "récent",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 39,
+      "spanish": "circunstancia",
+      "english": "circumstance",
+      "french": "circonstance",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 40,
+      "spanish": "asociar",
+      "english": "associate",
+      "french": "associer",
+      "category": "Pensamiento",
+      "class": "verb"
+    },
+    {
+      "id": 41,
+      "spanish": "contribuir",
+      "english": "contribute",
+      "french": "contribuer",
+      "category": "Sociedad",
+      "class": "verb"
+    },
+    {
+      "id": 42,
+      "spanish": "simple",
+      "english": "simple",
+      "french": "simple",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 43,
+      "spanish": "adquirir",
+      "english": "to acquire",
+      "french": "acquérir",
+      "category": "Economía",
+      "class": "verb"
+    },
+    {
+      "id": 44,
+      "spanish": "curiosidad",
+      "english": "curiosity",
+      "french": "curiosité",
+      "category": "Personalidad",
+      "class": "noun"
+    },
+    {
+      "id": 45,
+      "spanish": "adoptar",
+      "english": "adopt",
+      "french": "adopter",
+      "category": "Familia",
+      "class": "verb"
+    },
+    {
+      "id": 46,
+      "spanish": "rama",
+      "english": "branch",
+      "french": "branche",
+      "category": "Naturaleza",
+      "class": "noun"
+    },
+    {
+      "id": 47,
+      "spanish": "poseer",
+      "english": "to possess",
+      "french": "posséder",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 48,
+      "spanish": "señorito",
+      "english": "young man",
+      "french": "jeune homme",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 49,
+      "spanish": "índice",
+      "english": "table of contents",
+      "french": "sommaire",
+      "category": "Literatura",
+      "class": "noun"
+    },
+    {
+      "id": 50,
+      "spanish": "preocupación",
+      "english": "concern",
+      "french": "préoccupation",
+      "category": "Emociones",
+      "class": "noun"
+    },
+    {
+      "id": 51,
+      "spanish": "reciclar",
+      "english": "recycle",
+      "french": "recycler",
+      "category": "Medio ambiente",
+      "class": "verb"
+    },
+    {
+      "id": 52,
+      "spanish": "breve",
+      "english": "brief",
+      "french": "en bref",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 53,
+      "spanish": "fijo",
+      "english": "fixed",
+      "french": "fixe",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 54,
+      "spanish": "convivir",
+      "english": "live together",
+      "french": "vivre ensemble",
+      "category": "Relaciones",
+      "class": "verb"
+    },
+    {
+      "id": 55,
+      "spanish": "integrar",
+      "english": "integrate",
+      "french": "intégrer",
+      "category": "Sociedad",
+      "class": "verb"
+    },
+    {
+      "id": 56,
+      "spanish": "negar",
+      "english": "to deny",
+      "french": "refuser",
+      "category": "Comunicación",
+      "class": "verb"
+    },
+    {
+      "id": 57,
+      "spanish": "quejar",
+      "english": "complain",
+      "french": "se plaindre",
+      "category": "Comunicación",
+      "class": "verb"
+    },
+    {
+      "id": 58,
+      "spanish": "currículum",
+      "english": "resume",
+      "french": "CV",
+      "category": "Trabajos",
+      "class": "noun"
+    },
+    {
+      "id": 59,
+      "spanish": "apenas",
+      "english": "barely",
+      "french": "à peine",
+      "category": "",
+      "class": "adverb"
+    },
+    {
+      "id": 60,
+      "spanish": "cobrar",
+      "english": "collect",
+      "french": "encaisser",
+      "category": "Economía",
+      "class": "verb"
+    },
+    {
+      "id": 61,
+      "spanish": "definitivo",
+      "english": "final",
+      "french": "définitif",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 62,
+      "spanish": "transmitir",
+      "english": "broadcast",
+      "french": "diffuser",
+      "category": "Comunicación",
+      "class": "verb"
+    },
+    {
+      "id": 63,
+      "spanish": "ámbito",
+      "english": "scope",
+      "french": "domaine",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 64,
+      "spanish": "ventaja",
+      "english": "advantage",
+      "french": "avantage",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 65,
+      "spanish": "financiero",
+      "english": "financial",
+      "french": "financier",
+      "category": "Economía",
+      "class": "adjective"
+    },
+    {
+      "id": 66,
+      "spanish": "acusar",
+      "english": "to accuse",
+      "french": "accuser",
+      "category": "Derecho",
+      "class": "verb"
+    },
+    {
+      "id": 67,
+      "spanish": "palo",
+      "english": "stick",
+      "french": "bâton",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 68,
+      "spanish": "escritura",
+      "english": "writing",
+      "french": "écriture",
+      "category": "Literatura",
+      "class": "noun"
+    },
+    {
+      "id": 69,
+      "spanish": "humanidad",
+      "english": "humanity",
+      "french": "humanité",
+      "category": "Sociedad",
+      "class": "noun"
+    },
+    {
+      "id": 70,
+      "spanish": "adjetivo",
+      "english": "adjective",
+      "french": "adjectif",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 71,
+      "spanish": "ministro",
+      "english": "minister",
+      "french": "ministre",
+      "category": "Política",
+      "class": "noun"
+    },
+    {
+      "id": 72,
+      "spanish": "test",
+      "english": "test",
+      "french": "test",
+      "category": "Escuela",
+      "class": "noun"
+    },
+    {
+      "id": 73,
+      "spanish": "cargar",
+      "english": "load",
+      "french": "charger",
+      "category": "Tecnología",
+      "class": "verb"
+    },
+    {
+      "id": 74,
+      "spanish": "pendiente",
+      "english": "pending",
+      "french": "en attente",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 75,
+      "spanish": "adelante",
+      "english": "go ahead",
+      "french": "en avant",
+      "category": "",
+      "class": "adverb"
+    },
+    {
+      "id": 76,
+      "spanish": "ley",
+      "english": "law",
+      "french": "loi",
+      "category": "Derecho",
+      "class": "noun"
+    },
+    {
+      "id": 77,
+      "spanish": "encima",
+      "english": "on top of",
+      "french": "en plus",
+      "category": "",
+      "class": "adverb"
+    },
+    {
+      "id": 78,
+      "spanish": "risa",
+      "english": "laughter",
+      "french": "rire",
+      "category": "Emociones",
+      "class": "noun"
+    },
+    {
+      "id": 79,
+      "spanish": "requerir",
+      "english": "require",
+      "french": "exiger",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 80,
+      "spanish": "solar",
+      "english": "solar",
+      "french": "solaire",
+      "category": "Medio ambiente",
+      "class": "adjective"
+    },
+    {
+      "id": 81,
+      "spanish": "cerdo",
+      "english": "pig",
+      "french": "porc",
+      "category": "Animales",
+      "class": "noun"
+    },
+    {
+      "id": 82,
+      "spanish": "cocer",
+      "english": "to cook",
+      "french": "cuire",
+      "category": "Comida",
+      "class": "verb"
+    },
+    {
+      "id": 83,
+      "spanish": "acudir",
+      "english": "to attend",
+      "french": "se rendre",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 84,
+      "spanish": "tender",
+      "english": "to hang out",
+      "french": "étendre",
+      "category": "Casa",
+      "class": "verb"
+    },
+    {
+      "id": 85,
+      "spanish": "princesa",
+      "english": "princess",
+      "french": "princesse",
+      "category": "Historia",
+      "class": "noun"
+    },
+    {
+      "id": 86,
+      "spanish": "retrato",
+      "english": "portrait",
+      "french": "portrait",
+      "category": "Arte y cultura",
+      "class": "noun"
+    },
+    {
+      "id": 87,
+      "spanish": "conflicto",
+      "english": "conflict",
+      "french": "conflit",
+      "category": "Conflicto",
+      "class": "noun"
+    },
+    {
+      "id": 88,
+      "spanish": "temer",
+      "english": "to fear",
+      "french": "craindre",
+      "category": "Emociones",
+      "class": "verb"
+    },
+    {
+      "id": 89,
+      "spanish": "constituir",
+      "english": "to constitute",
+      "french": "constituer",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 90,
+      "spanish": "indio",
+      "english": "Indian",
+      "french": "indien",
+      "category": "Nacionalidad",
+      "class": "noun"
+    },
+    {
+      "id": 91,
+      "spanish": "asimismo",
+      "english": "likewise",
+      "french": "de même",
+      "category": "",
+      "class": "adverb"
+    },
+    {
+      "id": 92,
+      "spanish": "eliminar",
+      "english": "delete",
+      "french": "supprimer",
+      "category": "Tecnología",
+      "class": "verb"
+    },
+    {
+      "id": 93,
+      "spanish": "alternativa",
+      "english": "alternative",
+      "french": "alternative",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 94,
+      "spanish": "reflejar",
+      "english": "reflect",
+      "french": "refléter",
+      "category": "Pensamiento",
+      "class": "verb"
+    },
+    {
+      "id": 95,
+      "spanish": "culpa",
+      "english": "blame",
+      "french": "faute",
+      "category": "Emociones",
+      "class": "noun"
+    },
+    {
+      "id": 96,
+      "spanish": "apoyo",
+      "english": "support",
+      "french": "soutien",
+      "category": "Relaciones",
+      "class": "noun"
+    },
+    {
+      "id": 97,
+      "spanish": "imponer",
+      "english": "impose",
+      "french": "imposer",
+      "category": "Política",
+      "class": "verb"
+    },
+    {
+      "id": 98,
+      "spanish": "lenguaje",
+      "english": "language",
+      "french": "langue",
+      "category": "Comunicación",
+      "class": "noun"
+    },
+    {
+      "id": 99,
+      "spanish": "evolución",
+      "english": "evolution",
+      "french": "évolution",
+      "category": "Ciencia",
+      "class": "noun"
+    },
+    {
+      "id": 100,
+      "spanish": "disminuir",
+      "english": "decrease",
+      "french": "diminuer",
+      "category": "Cantidad y medida",
+      "class": "verb"
+    },
+    {
+      "id": 101,
+      "spanish": "bailarín",
+      "english": "dancer",
+      "french": "danseur",
+      "category": "Arte y cultura",
+      "class": "noun"
+    },
+    {
+      "id": 102,
+      "spanish": "debate",
+      "english": "debate",
+      "french": "débat",
+      "category": "Comunicación",
+      "class": "noun"
+    },
+    {
+      "id": 103,
+      "spanish": "beneficio",
+      "english": "benefit",
+      "french": "bénéfice",
+      "category": "Economía",
+      "class": "noun"
+    },
+    {
+      "id": 104,
+      "spanish": "unidad",
+      "english": "unit",
+      "french": "unité",
+      "category": "Cantidad y medida",
+      "class": "noun"
+    },
+    {
+      "id": 105,
+      "spanish": "metal",
+      "english": "metal",
+      "french": "métal",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 106,
+      "spanish": "constante",
+      "english": "constant",
+      "french": "constante",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 107,
+      "spanish": "argumento",
+      "english": "plot",
+      "french": "intrigue",
+      "category": "Literatura",
+      "class": "noun"
+    },
+    {
+      "id": 108,
+      "spanish": "siquiera",
+      "english": "at all",
+      "french": "ne serait-ce que",
+      "category": "",
+      "class": "adverb"
+    },
+    {
+      "id": 109,
+      "spanish": "favorecer",
+      "english": "to promote",
+      "french": "favoriser",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 110,
+      "spanish": "organismo",
+      "english": "organism",
+      "french": "organisme",
+      "category": "Ciencia",
+      "class": "noun"
+    },
+    {
+      "id": 111,
+      "spanish": "trato",
+      "english": "treatment",
+      "french": "traitement",
+      "category": "Relaciones",
+      "class": "noun"
+    },
+    {
+      "id": 112,
+      "spanish": "justicia",
+      "english": "justice",
+      "french": "justice",
+      "category": "Derecho",
+      "class": "noun"
+    },
+    {
+      "id": 113,
+      "spanish": "exponer",
+      "english": "to present",
+      "french": "exposer",
+      "category": "Comunicación",
+      "class": "verb"
+    },
+    {
+      "id": 114,
+      "spanish": "tambor",
+      "english": "drum",
+      "french": "tambour",
+      "category": "Música",
+      "class": "noun"
+    },
+    {
+      "id": 115,
+      "spanish": "masa",
+      "english": "dough",
+      "french": "pâte",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "id": 116,
+      "spanish": "criterio",
+      "english": "criterion",
+      "french": "critère",
+      "category": "Pensamiento",
+      "class": "noun"
+    },
+    {
+      "id": 117,
+      "spanish": "herramienta",
+      "english": "tool",
+      "french": "outil",
+      "category": "Herramientas",
+      "class": "noun"
+    },
+    {
+      "id": 118,
+      "spanish": "pariente",
+      "english": "relative",
+      "french": "parent",
+      "category": "Familia",
+      "class": "noun"
+    },
+    {
+      "id": 119,
+      "spanish": "coste",
+      "english": "cost",
+      "french": "coût",
+      "category": "Economía",
+      "class": "noun"
+    },
+    {
+      "id": 120,
+      "spanish": "vegetariano",
+      "english": "vegetarian",
+      "french": "végétarien",
+      "category": "Comida",
+      "class": "adjective"
+    },
+    {
+      "id": 121,
+      "spanish": "club",
+      "english": "club",
+      "french": "club",
+      "category": "Aficiones",
+      "class": "noun"
+    },
+    {
+      "id": 122,
+      "spanish": "doméstico",
+      "english": "household",
+      "french": "ménager",
+      "category": "Casa",
+      "class": "adjective"
+    },
+    {
+      "id": 123,
+      "spanish": "presión",
+      "english": "pressure",
+      "french": "pression",
+      "category": "Salud",
+      "class": "noun"
+    },
+    {
+      "id": 124,
+      "spanish": "caracterizar",
+      "english": "to characterize",
+      "french": "caractériser",
+      "category": "Pensamiento",
+      "class": "verb"
+    },
+    {
+      "id": 125,
+      "spanish": "manía",
+      "english": "obsession",
+      "french": "manie",
+      "category": "Salud mental",
+      "class": "noun"
+    },
+    {
+      "id": 126,
+      "spanish": "implicar",
+      "english": "imply",
+      "french": "impliquer",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 127,
+      "spanish": "ciclo",
+      "english": "cycle",
+      "french": "cycle",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 128,
+      "spanish": "procedente",
+      "english": "appropriate",
+      "french": "provenant de",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 129,
+      "spanish": "estrategia",
+      "english": "strategy",
+      "french": "stratégie",
+      "category": "Pensamiento",
+      "class": "noun"
+    },
+    {
+      "id": 130,
+      "spanish": "sobrevivir",
+      "english": "to survive",
+      "french": "survivre",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 131,
+      "spanish": "distinguir",
+      "english": "to distinguish",
+      "french": "distinguer",
+      "category": "Pensamiento",
+      "class": "verb"
+    },
+    {
+      "id": 132,
+      "spanish": "estructura",
+      "english": "structure",
+      "french": "structure",
+      "category": "Construcción",
+      "class": "noun"
+    },
+    {
+      "id": 133,
+      "spanish": "altar",
+      "english": "altar",
+      "french": "autel",
+      "category": "Religión",
+      "class": "noun"
+    },
+    {
+      "id": 134,
+      "spanish": "soldado",
+      "english": "soldier",
+      "french": "soldat",
+      "category": "Conflicto",
+      "class": "noun"
+    },
+    {
+      "id": 135,
+      "spanish": "aprendizaje",
+      "english": "learning",
+      "french": "apprentissage",
+      "category": "Escuela",
+      "class": "noun"
+    },
+    {
+      "id": 136,
+      "spanish": "conciencia",
+      "english": "awareness",
+      "french": "conscience",
+      "category": "Pensamiento",
+      "class": "noun"
+    },
+    {
+      "id": 137,
+      "spanish": "preparación",
+      "english": "preparation",
+      "french": "préparation",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 138,
+      "spanish": "rodilla",
+      "english": "knee",
+      "french": "genou",
+      "category": "Cuerpo",
+      "class": "noun"
+    },
+    {
+      "id": 139,
+      "spanish": "químico",
+      "english": "chemist",
+      "french": "chimiste",
+      "category": "Ciencia",
+      "class": "adjective"
+    },
+    {
+      "id": 140,
+      "spanish": "congreso",
+      "english": "conference",
+      "french": "congrès",
+      "category": "Política",
+      "class": "noun"
+    },
+    {
+      "id": 141,
+      "spanish": "pensamiento",
+      "english": "thought",
+      "french": "pensée",
+      "category": "Pensamiento",
+      "class": "noun"
+    },
+    {
+      "id": 142,
+      "spanish": "daño",
+      "english": "damage",
+      "french": "dommage",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 143,
+      "spanish": "invento",
+      "english": "invention",
+      "french": "invention",
+      "category": "Ciencia",
+      "class": "noun"
+    },
+    {
+      "id": 144,
+      "spanish": "mental",
+      "english": "mental",
+      "french": "mental",
+      "category": "Salud mental",
+      "class": "adjective"
+    },
+    {
+      "id": 145,
+      "spanish": "sustituir",
+      "english": "replace",
+      "french": "remplacer",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 146,
+      "spanish": "disponible",
+      "english": "available",
+      "french": "disponible",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 147,
+      "spanish": "acceder",
+      "english": "access",
+      "french": "accéder",
+      "category": "Tecnología",
+      "class": "verb"
+    },
+    {
+      "id": 148,
+      "spanish": "pronombre",
+      "english": "pronoun",
+      "french": "pronom",
+      "category": "Pronombres",
+      "class": "noun"
+    },
+    {
+      "id": 149,
+      "spanish": "centrar",
+      "english": "center",
+      "french": "centrer",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 150,
+      "spanish": "arma",
+      "english": "weapon",
+      "french": "arme",
+      "category": "Conflicto",
+      "class": "noun"
+    },
+    {
+      "id": 151,
+      "spanish": "verbal",
+      "english": "verbal",
+      "french": "verbal",
+      "category": "Comunicación",
+      "class": "adjective"
+    },
+    {
+      "id": 152,
+      "spanish": "gozar",
+      "english": "enjoy",
+      "french": "jouir",
+      "category": "Emociones",
+      "class": "verb"
+    },
+    {
+      "id": 153,
+      "spanish": "incorporar",
+      "english": "incorporate",
+      "french": "intégrer",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 154,
+      "spanish": "funcionamiento",
+      "english": "operation",
+      "french": "fonctionnement",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 155,
+      "spanish": "ancho",
+      "english": "width",
+      "french": "largeur",
+      "category": "Cantidad y medida",
+      "class": "adjective"
+    },
+    {
+      "id": 156,
+      "spanish": "informático",
+      "english": "computer science",
+      "french": "informatique",
+      "category": "Tecnología",
+      "class": "adjective"
+    },
+    {
+      "id": 157,
+      "spanish": "perfil",
+      "english": "profile",
+      "french": "profil",
+      "category": "Tecnología",
+      "class": "noun"
+    },
+    {
+      "id": 158,
+      "spanish": "materia",
+      "english": "subject",
+      "french": "matière",
+      "category": "Escuela",
+      "class": "noun"
+    },
+    {
+      "id": 159,
+      "spanish": "labor",
+      "english": "work",
+      "french": "travail",
+      "category": "Trabajos",
+      "class": "noun"
+    },
+    {
+      "id": 160,
+      "spanish": "psicología",
+      "english": "psychology",
+      "french": "psychologie",
+      "category": "Salud mental",
+      "class": "noun"
+    },
+    {
+      "id": 161,
+      "spanish": "vas",
+      "english": "you go",
+      "french": "tu vas",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 162,
+      "spanish": "denominar",
+      "english": "to name",
+      "french": "appeler",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 163,
+      "spanish": "asumir",
+      "english": "to take on",
+      "french": "assumer",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 164,
+      "spanish": "referencia",
+      "english": "reference",
+      "french": "référence",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 165,
+      "spanish": "sed",
+      "english": "thirst",
+      "french": "soif",
+      "category": "Cuerpo",
+      "class": "noun"
+    },
+    {
+      "id": 166,
+      "spanish": "regional",
+      "english": "regional",
+      "french": "régional",
+      "category": "Geografía",
+      "class": "adjective"
+    },
+    {
+      "id": 167,
+      "spanish": "extraer",
+      "english": "extract",
+      "french": "extraire",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 168,
+      "spanish": "borrar",
+      "english": "delete",
+      "french": "supprimer",
+      "category": "Tecnología",
+      "class": "verb"
+    },
+    {
+      "id": 169,
+      "spanish": "gol",
+      "english": "goal",
+      "french": "but",
+      "category": "Deporte",
+      "class": "noun"
+    },
+    {
+      "id": 170,
+      "spanish": "recipiente",
+      "english": "container",
+      "french": "récipient",
+      "category": "Casa",
+      "class": "noun"
+    },
+    {
+      "id": 171,
+      "spanish": "vincular",
+      "english": "link",
+      "french": "relier",
+      "category": "Relaciones",
+      "class": "verb"
+    },
+    {
+      "id": 172,
+      "spanish": "tronco",
+      "english": "log",
+      "french": "tronc",
+      "category": "Naturaleza",
+      "class": "noun"
+    },
+    {
+      "id": 173,
+      "spanish": "apuntar",
+      "english": "to aim",
+      "french": "noter",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 174,
+      "spanish": "proceder",
+      "english": "proceed",
+      "french": "procéder",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 175,
+      "spanish": "traducción",
+      "english": "translation",
+      "french": "traduction",
+      "category": "Comunicación",
+      "class": "noun"
+    },
+    {
+      "id": 176,
+      "spanish": "arquitecto",
+      "english": "architect",
+      "french": "architecte",
+      "category": "Trabajos",
+      "class": "noun"
+    },
+    {
+      "id": 177,
+      "spanish": "pico",
+      "english": "beak",
+      "french": "pic",
+      "category": "Animales",
+      "class": "noun"
+    },
+    {
+      "id": 178,
+      "spanish": "búsqueda",
+      "english": "search",
+      "french": "recherche",
+      "category": "Información",
+      "class": "noun"
+    },
+    {
+      "id": 179,
+      "spanish": "conceder",
+      "english": "grant",
+      "french": "accorder",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 180,
+      "spanish": "nación",
+      "english": "nation",
+      "french": "nation",
+      "category": "Geografía",
+      "class": "noun"
+    },
+    {
+      "id": 181,
+      "spanish": "harto",
+      "english": "fed up",
+      "french": "marre",
+      "category": "Emociones",
+      "class": "adjective"
+    },
+    {
+      "id": 182,
+      "spanish": "encerrar",
+      "english": "to lock up",
+      "french": "enfermer",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 183,
+      "spanish": "fusión",
+      "english": "merger",
+      "french": "fusion",
+      "category": "Economía",
+      "class": "noun"
+    },
+    {
+      "id": 184,
+      "spanish": "comprometer",
+      "english": "to compromise",
+      "french": "engager",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 185,
+      "spanish": "avance",
+      "english": "preview",
+      "french": "aperçu",
+      "category": "Comunicación",
+      "class": "noun"
+    },
+    {
+      "id": 186,
+      "spanish": "designar",
+      "english": "appoint",
+      "french": "désigner",
+      "category": "Política",
+      "class": "verb"
+    },
+    {
+      "id": 187,
+      "spanish": "auto",
+      "english": "car",
+      "french": "voiture",
+      "category": "Vehículos",
+      "class": "noun"
+    },
+    {
+      "id": 188,
+      "spanish": "pila",
+      "english": "battery",
+      "french": "pile",
+      "category": "Tecnología",
+      "class": "noun"
+    },
+    {
+      "id": 189,
+      "spanish": "vegetal",
+      "english": "plant-based",
+      "french": "végétal",
+      "category": "Comida",
+      "class": "adjective"
+    },
+    {
+      "id": 190,
+      "spanish": "facilitar",
+      "english": "facilitate",
+      "french": "faciliter",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 191,
+      "spanish": "pelear",
+      "english": "to fight",
+      "french": "se battre",
+      "category": "Conflicto",
+      "class": "verb"
+    },
+    {
+      "id": 192,
+      "spanish": "envolver",
+      "english": "wrap",
+      "french": "envelopper",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 193,
+      "spanish": "cucharada",
+      "english": "tablespoon",
+      "french": "cuillère à soupe",
+      "category": "Cantidad y medida",
+      "class": "noun"
+    },
+    {
+      "id": 194,
+      "spanish": "firme",
+      "english": "firm",
+      "french": "ferme",
+      "category": "Personalidad",
+      "class": "adjective"
+    },
+    {
+      "id": 195,
+      "spanish": "voluntad",
+      "english": "will",
+      "french": "volonté",
+      "category": "Pensamiento",
+      "class": "noun"
+    },
+    {
+      "id": 196,
+      "spanish": "interpretación",
+      "english": "interpretation",
+      "french": "interprétation",
+      "category": "Arte y cultura",
+      "class": "noun"
+    },
+    {
+      "id": 197,
+      "spanish": "metálico",
+      "english": "metallic",
+      "french": "métallique",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 198,
+      "spanish": "estimular",
+      "english": "stimulate",
+      "french": "stimuler",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 199,
+      "spanish": "influir",
+      "english": "to influence",
+      "french": "influencer",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 200,
+      "spanish": "respetuoso",
+      "english": "respectful",
+      "french": "respectueux",
+      "category": "Personalidad",
+      "class": "adjective"
+    },
+    {
+      "id": 201,
+      "spanish": "motivar",
+      "english": "motivate",
+      "french": "motiver",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 202,
+      "spanish": "grasa",
+      "english": "fat",
+      "french": "graisse",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "id": 203,
+      "spanish": "global",
+      "english": "global",
+      "french": "global",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 204,
+      "spanish": "residuo",
+      "english": "waste",
+      "french": "déchet",
+      "category": "Medio ambiente",
+      "class": "noun"
+    },
+    {
+      "id": 205,
+      "spanish": "campeón",
+      "english": "champion",
+      "french": "champion",
+      "category": "Deporte",
+      "class": "noun"
+    },
+    {
+      "id": 206,
+      "spanish": "herencia",
+      "english": "inheritance",
+      "french": "héritage",
+      "category": "Derecho",
+      "class": "noun"
+    },
+    {
+      "id": 207,
+      "spanish": "crónica",
+      "english": "chronicle",
+      "french": "chronique",
+      "category": "Literatura",
+      "class": "noun"
+    },
+    {
+      "id": 208,
+      "spanish": "embarazar",
+      "english": "to get pregnant",
+      "french": "mettre enceinte",
+      "category": "Salud",
+      "class": "verb"
+    },
+    {
+      "id": 209,
+      "spanish": "regar",
+      "english": "water",
+      "french": "arroser",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 210,
+      "spanish": "energético",
+      "english": "energy-related",
+      "french": "énergétique",
+      "category": "Medio ambiente",
+      "class": "adjective"
+    },
+    {
+      "id": 211,
+      "spanish": "desnudo",
+      "english": "naked",
+      "french": "nu",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 212,
+      "spanish": "entusiasmo",
+      "english": "enthusiasm",
+      "french": "enthousiasme",
+      "category": "Emociones",
+      "class": "noun"
+    },
+    {
+      "id": 213,
+      "spanish": "audiovisual",
+      "english": "audiovisual",
+      "french": "audiovisuel",
+      "category": "Comunicación",
+      "class": "adjective"
+    },
+    {
+      "id": 214,
+      "spanish": "solitario",
+      "english": "lonely",
+      "french": "solitaire",
+      "category": "Emociones",
+      "class": "adjective"
+    },
+    {
+      "id": 215,
+      "spanish": "aguacate",
+      "english": "avocado",
+      "french": "avocat",
+      "category": "Frutas",
+      "class": "noun"
+    },
+    {
+      "id": 216,
+      "spanish": "puntual",
+      "english": "punctual",
+      "french": "ponctuel",
+      "category": "Personalidad",
+      "class": "adjective"
+    },
+    {
+      "id": 217,
+      "spanish": "lágrima",
+      "english": "tear",
+      "french": "larme",
+      "category": "Cuerpo",
+      "class": "noun"
+    },
+    {
+      "id": 218,
+      "spanish": "percibir",
+      "english": "to perceive",
+      "french": "percevoir",
+      "category": "Percepción",
+      "class": "verb"
+    },
+    {
+      "id": 219,
+      "spanish": "sobrino",
+      "english": "nephew",
+      "french": "neveu",
+      "category": "Familia",
+      "class": "noun"
+    },
+    {
+      "id": 220,
+      "spanish": "legal",
+      "english": "legal",
+      "french": "juridique",
+      "category": "Derecho",
+      "class": "adjective"
+    },
+    {
+      "id": 221,
+      "spanish": "convento",
+      "english": "convent",
+      "french": "couvent",
+      "category": "Religión",
+      "class": "noun"
+    },
+    {
+      "id": 222,
+      "spanish": "vidrio",
+      "english": "glass",
+      "french": "verre",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 223,
+      "spanish": "colonia",
+      "english": "colony",
+      "french": "colonie",
+      "category": "Historia",
+      "class": "noun"
+    },
+    {
+      "id": 224,
+      "spanish": "reacción",
+      "english": "reaction",
+      "french": "réaction",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 225,
+      "spanish": "arrastrar",
+      "english": "drag",
+      "french": "traîner",
+      "category": "Movimiento",
+      "class": "verb"
+    },
+    {
+      "id": 226,
+      "spanish": "planificar",
+      "english": "plan",
+      "french": "planifier",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 227,
+      "spanish": "pecho",
+      "english": "chest",
+      "french": "poitrine",
+      "category": "Cuerpo",
+      "class": "noun"
+    },
+    {
+      "id": 228,
+      "spanish": "absurdo",
+      "english": "absurd",
+      "french": "absurde",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 229,
+      "spanish": "impacto",
+      "english": "impact",
+      "french": "impact",
+      "category": "Cambio",
+      "class": "noun"
+    },
+    {
+      "id": 230,
+      "spanish": "mancha",
+      "english": "stain",
+      "french": "tache",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 231,
+      "spanish": "manifestar",
+      "english": "to express",
+      "french": "exprimer",
+      "category": "Comunicación",
+      "class": "verb"
+    },
+    {
+      "id": 232,
+      "spanish": "creencia",
+      "english": "belief",
+      "french": "croyance",
+      "category": "Pensamiento",
+      "class": "noun"
+    },
+    {
+      "id": 233,
+      "spanish": "mito",
+      "english": "myth",
+      "french": "mythe",
+      "category": "Historia",
+      "class": "noun"
+    },
+    {
+      "id": 234,
+      "spanish": "conquistador",
+      "english": "conqueror",
+      "french": "conquérant",
+      "category": "Historia",
+      "class": "noun"
+    },
+    {
+      "id": 235,
+      "spanish": "iguana",
+      "english": "iguana",
+      "french": "iguane",
+      "category": "Animales",
+      "class": "noun"
+    },
+    {
+      "id": 236,
+      "spanish": "sobre",
+      "english": "about",
+      "french": "sur",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 237,
+      "spanish": "ejercer",
+      "english": "to exercise",
+      "french": "exercer",
+      "category": "Trabajos",
+      "class": "verb"
+    },
+    {
+      "id": 238,
+      "spanish": "editorial",
+      "english": "editorial",
+      "french": "éditorial",
+      "category": "Comunicación",
+      "class": "adjective"
+    },
+    {
+      "id": 239,
+      "spanish": "saludable",
+      "english": "healthy",
+      "french": "sain",
+      "category": "Salud",
+      "class": "adjective"
+    },
+    {
+      "id": 240,
+      "spanish": "psicológico",
+      "english": "psychological",
+      "french": "psychologique",
+      "category": "Salud mental",
+      "class": "adjective"
+    },
+    {
+      "id": 241,
+      "spanish": "gastronómico",
+      "english": "gastronomic",
+      "french": "gastronomique",
+      "category": "Comida",
+      "class": "adjective"
+    },
+    {
+      "id": 242,
+      "spanish": "psicólogo",
+      "english": "psychologist",
+      "french": "psychologue",
+      "category": "Trabajos",
+      "class": "noun"
+    },
+    {
+      "id": 243,
+      "spanish": "cartera",
+      "english": "wallet",
+      "french": "portefeuille",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 244,
+      "spanish": "excusa",
+      "english": "excuse",
+      "french": "excuse",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 245,
+      "spanish": "legumbre",
+      "english": "legume",
+      "french": "légume sec",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "id": 246,
+      "spanish": "sección",
+      "english": "section",
+      "french": "section",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 247,
+      "spanish": "gira",
+      "english": "tour",
+      "french": "tournée",
+      "category": "Viajes",
+      "class": "noun"
+    },
+    {
+      "id": 248,
+      "spanish": "portero",
+      "english": "goalkeeper",
+      "french": "gardien de but",
+      "category": "Deporte",
+      "class": "noun"
+    },
+    {
+      "id": 249,
+      "spanish": "impresión",
+      "english": "printing",
+      "french": "impression",
+      "category": "Tecnología",
+      "class": "noun"
+    },
+    {
+      "id": 250,
+      "spanish": "volumen",
+      "english": "volume",
+      "french": "volume",
+      "category": "Cantidad y medida",
+      "class": "noun"
+    },
+    {
+      "id": 251,
+      "spanish": "inversión",
+      "english": "investment",
+      "french": "investissement",
+      "category": "Economía",
+      "class": "noun"
+    },
+    {
+      "id": 252,
+      "spanish": "competir",
+      "english": "compete",
+      "french": "rivaliser",
+      "category": "Deporte",
+      "class": "verb"
+    },
+    {
+      "id": 253,
+      "spanish": "rendir",
+      "english": "to yield",
+      "french": "rendre",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 254,
+      "spanish": "criar",
+      "english": "to raise",
+      "french": "élever",
+      "category": "Familia",
+      "class": "verb"
+    },
+    {
+      "id": 255,
+      "spanish": "armonía",
+      "english": "harmony",
+      "french": "harmonie",
+      "category": "Música",
+      "class": "noun"
+    },
+    {
+      "id": 256,
+      "spanish": "detallar",
+      "english": "describe in detail",
+      "french": "préciser",
+      "category": "Comunicación",
+      "class": "verb"
+    },
+    {
+      "id": 257,
+      "spanish": "crítica",
+      "english": "criticism",
+      "french": "critique",
+      "category": "Comunicación",
+      "class": "noun"
+    },
+    {
+      "id": 258,
+      "spanish": "cómic",
+      "english": "comic",
+      "french": "bande dessinée",
+      "category": "Arte y cultura",
+      "class": "noun"
+    },
+    {
+      "id": 259,
+      "spanish": "juguete",
+      "english": "toy",
+      "french": "jouet",
+      "category": "Aficiones",
+      "class": "noun"
+    },
+    {
+      "id": 260,
+      "spanish": "chocar",
+      "english": "to collide",
+      "french": "entrer en collision",
+      "category": "Movimiento",
+      "class": "verb"
+    },
+    {
+      "id": 261,
+      "spanish": "creatividad",
+      "english": "creativity",
+      "french": "créativité",
+      "category": "Arte y cultura",
+      "class": "noun"
+    },
+    {
+      "id": 262,
+      "spanish": "universo",
+      "english": "universe",
+      "french": "univers",
+      "category": "Ciencia",
+      "class": "noun"
+    },
+    {
+      "id": 263,
+      "spanish": "buscador",
+      "english": "search engine",
+      "french": "moteur de recherche",
+      "category": "Tecnología",
+      "class": "noun"
+    },
+    {
+      "id": 264,
+      "spanish": "dorar",
+      "english": "to brown",
+      "french": "dorer",
+      "category": "Comida",
+      "class": "verb"
+    },
+    {
+      "id": 265,
+      "spanish": "partida",
+      "english": "game",
+      "french": "partie",
+      "category": "Aficiones",
+      "class": "noun"
+    },
+    {
+      "id": 266,
+      "spanish": "mascota",
+      "english": "pet",
+      "french": "animal de compagnie",
+      "category": "Animales",
+      "class": "noun"
+    },
+    {
+      "id": 267,
+      "spanish": "lingüístico",
+      "english": "linguistic",
+      "french": "linguistique",
+      "category": "Comunicación",
+      "class": "adjective"
+    },
+    {
+      "id": 268,
+      "spanish": "amenazar",
+      "english": "to threaten",
+      "french": "menacer",
+      "category": "Conflicto",
+      "class": "verb"
+    },
+    {
+      "id": 269,
+      "spanish": "muestra",
+      "english": "exhibit",
+      "french": "exposition",
+      "category": "Arte y cultura",
+      "class": "noun"
+    },
+    {
+      "id": 270,
+      "spanish": "planchar",
+      "english": "iron",
+      "french": "repasser",
+      "category": "Rutinas",
+      "class": "verb"
+    },
+    {
+      "id": 271,
+      "spanish": "nervio",
+      "english": "nerve",
+      "french": "nerf",
+      "category": "Cuerpo",
+      "class": "noun"
+    },
+    {
+      "id": 272,
+      "spanish": "renunciar",
+      "english": "resign",
+      "french": "démissionner",
+      "category": "Trabajos",
+      "class": "verb"
+    },
+    {
+      "id": 273,
+      "spanish": "chiste",
+      "english": "joke",
+      "french": "blague",
+      "category": "Comunicación",
+      "class": "noun"
+    },
+    {
+      "id": 274,
+      "spanish": "raza",
+      "english": "race",
+      "french": "race",
+      "category": "Sociedad",
+      "class": "noun"
+    },
+    {
+      "id": 275,
+      "spanish": "engañar",
+      "english": "to deceive",
+      "french": "tromper",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 276,
+      "spanish": "rostro",
+      "english": "face",
+      "french": "visage",
+      "category": "Cabeza",
+      "class": "noun"
+    },
+    {
+      "id": 277,
+      "spanish": "rito",
+      "english": "ritual",
+      "french": "rite",
+      "category": "Religión",
+      "class": "noun"
+    },
+    {
+      "id": 278,
+      "spanish": "entrevistar",
+      "english": "interview",
+      "french": "interviewer",
+      "category": "Comunicación",
+      "class": "verb"
+    },
+    {
+      "id": 279,
+      "spanish": "exportación",
+      "english": "export",
+      "french": "exportation",
+      "category": "Economía",
+      "class": "noun"
+    },
+    {
+      "id": 280,
+      "spanish": "inteligencia",
+      "english": "intelligence",
+      "french": "intelligence",
+      "category": "Pensamiento",
+      "class": "noun"
+    },
+    {
+      "id": 281,
+      "spanish": "natal",
+      "english": "native, natal",
+      "french": "natal",
+      "category": "Geografía",
+      "class": "adjective"
+    },
+    {
+      "id": 282,
+      "spanish": "grano",
+      "english": "grain",
+      "french": "grain",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "id": 283,
+      "spanish": "declaración",
+      "english": "statement",
+      "french": "déclaration",
+      "category": "Comunicación",
+      "class": "noun"
+    },
+    {
+      "id": 284,
+      "spanish": "comisaría",
+      "english": "police station",
+      "french": "commissariat",
+      "category": "Derecho",
+      "class": "noun"
+    },
+    {
+      "id": 285,
+      "spanish": "lento",
+      "english": "slow",
+      "french": "lent",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 286,
+      "spanish": "jurado",
+      "english": "jury",
+      "french": "juré",
+      "category": "Derecho",
+      "class": "noun"
+    },
+    {
+      "id": 287,
+      "spanish": "cultivo",
+      "english": "farming",
+      "french": "culture",
+      "category": "Naturaleza",
+      "class": "noun"
+    },
+    {
+      "id": 288,
+      "spanish": "ficción",
+      "english": "fiction",
+      "french": "fiction",
+      "category": "Literatura",
+      "class": "noun"
+    },
+    {
+      "id": 289,
+      "spanish": "acumular",
+      "english": "accumulate",
+      "french": "accumuler",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 290,
+      "spanish": "petróleo",
+      "english": "oil",
+      "french": "pétrole",
+      "category": "Economía",
+      "class": "noun"
+    },
+    {
+      "id": 291,
+      "spanish": "percepción",
+      "english": "perception",
+      "french": "perception",
+      "category": "Percepción",
+      "class": "noun"
+    },
+    {
+      "id": 292,
+      "spanish": "peinado",
+      "english": "hairstyle",
+      "french": "coiffure",
+      "category": "Higiene",
+      "class": "noun"
+    },
+    {
+      "id": 293,
+      "spanish": "pimienta",
+      "english": "pepper",
+      "french": "poivre",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "id": 294,
+      "spanish": "rasgo",
+      "english": "feature",
+      "french": "trait",
+      "category": "Personalidad",
+      "class": "noun"
+    },
+    {
+      "id": 295,
+      "spanish": "continuación",
+      "english": "continued",
+      "french": "suite",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 296,
+      "spanish": "explorar",
+      "english": "explore",
+      "french": "explorer",
+      "category": "Viajes",
+      "class": "verb"
+    },
+    {
+      "id": 297,
+      "spanish": "finalidad",
+      "english": "purpose",
+      "french": "objectif",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 298,
+      "spanish": "papa",
+      "english": "potato",
+      "french": "pomme de terre",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "id": 299,
+      "spanish": "agujero",
+      "english": "hole",
+      "french": "trou",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 300,
+      "spanish": "interlocutor",
+      "english": "interlocutor",
+      "french": "interlocuteur",
+      "category": "Comunicación",
+      "class": "noun"
+    },
+    {
+      "id": 301,
+      "spanish": "originario",
+      "english": "native",
+      "french": "originaire",
+      "category": "Geografía",
+      "class": "adjective"
+    },
+    {
+      "id": 302,
+      "spanish": "manifestación",
+      "english": "demonstration",
+      "french": "manifestation",
+      "category": "Política",
+      "class": "noun"
+    },
+    {
+      "id": 303,
+      "spanish": "bacalao",
+      "english": "cod",
+      "french": "morue",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "id": 304,
+      "spanish": "evolucionar",
+      "english": "to evolve",
+      "french": "évoluer",
+      "category": "Cambio",
+      "class": "verb"
+    },
+    {
+      "id": 305,
+      "spanish": "optar",
+      "english": "choose",
+      "french": "choisir",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 306,
+      "spanish": "complejo",
+      "english": "complex",
+      "french": "complexe",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 307,
+      "spanish": "bárbaro",
+      "english": "barbaric",
+      "french": "barbare",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 308,
+      "spanish": "enfrentar",
+      "english": "face",
+      "french": "affronter",
+      "category": "Conflicto",
+      "class": "verb"
+    },
+    {
+      "id": 309,
+      "spanish": "brindar",
+      "english": "to offer",
+      "french": "offrir",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 310,
+      "spanish": "dominio",
+      "english": "domain",
+      "french": "domaine",
+      "category": "Comunicación",
+      "class": "noun"
+    },
+    {
+      "id": 311,
+      "spanish": "difundir",
+      "english": "spread",
+      "french": "diffuser",
+      "category": "Arte y cultura",
+      "class": "verb"
+    },
+    {
+      "id": 312,
+      "spanish": "homenaje",
+      "english": "tribute",
+      "french": "hommage",
+      "category": "Arte y cultura",
+      "class": "noun"
+    },
+    {
+      "id": 313,
+      "spanish": "estético",
+      "english": "aesthetic",
+      "french": "esthétique",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 314,
+      "spanish": "innecesario",
+      "english": "unnecessary",
+      "french": "inutile",
+      "category": "Cambio",
+      "class": "adjective"
+    },
+    {
+      "id": 315,
+      "spanish": "transformación",
+      "english": "transformation",
+      "french": "transformation",
+      "category": "Cantidad y medida",
+      "class": "noun"
+    },
+    {
+      "id": 316,
+      "spanish": "escala",
+      "english": "scale",
+      "french": "échelle",
+      "category": "Cabeza",
+      "class": "noun"
+    },
+    {
+      "id": 317,
+      "spanish": "cabello",
+      "english": "hair",
+      "french": "cheveux",
+      "category": "Religión",
+      "class": "noun"
+    },
+    {
+      "id": 318,
+      "spanish": "sagrado",
+      "english": "sacred",
+      "french": "sacré",
+      "category": "Herramientas",
+      "class": "adjective"
+    },
+    {
+      "id": 319,
+      "spanish": "clavar",
+      "english": "to nail",
+      "french": "enfoncer",
+      "category": "Literatura",
+      "class": "verb"
+    },
+    {
+      "id": 320,
+      "spanish": "relato",
+      "english": "story",
+      "french": "récit",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 321,
+      "spanish": "mojar",
+      "english": "to get wet",
+      "french": "mouiller",
+      "category": "Comida",
+      "class": "verb"
+    },
+    {
+      "id": 322,
+      "spanish": "alimentario",
+      "english": "food",
+      "french": "alimentaire",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 323,
+      "spanish": "frágil",
+      "english": "fragile",
+      "french": "fragile",
+      "category": "Rutinas",
+      "class": "adjective"
+    },
+    {
+      "id": 324,
+      "spanish": "almorzar",
+      "english": "have lunch",
+      "french": "déjeuner",
+      "category": "Política",
+      "class": "verb"
+    },
+    {
+      "id": 325,
+      "spanish": "protestar",
+      "english": "to protest",
+      "french": "protester",
+      "category": "Salud mental",
+      "class": "verb"
+    },
+    {
+      "id": 326,
+      "spanish": "trastorno",
+      "english": "disorder",
+      "french": "trouble",
+      "category": "Derecho",
+      "class": "noun"
+    },
+    {
+      "id": 327,
+      "spanish": "cárcel",
+      "english": "prison",
+      "french": "prison",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 328,
+      "spanish": "orientar",
+      "english": "guide",
+      "french": "orienter",
+      "category": "Medio ambiente",
+      "class": "verb"
+    },
+    {
+      "id": 329,
+      "spanish": "combustible",
+      "english": "fuel",
+      "french": "carburant",
+      "category": "Viajes",
+      "class": "noun"
+    },
+    {
+      "id": 330,
+      "spanish": "aéreo",
+      "english": "aerial",
+      "french": "aérien",
+      "category": "Emociones",
+      "class": "adjective"
+    },
+    {
+      "id": 331,
+      "spanish": "odio",
+      "english": "hate",
+      "french": "haine",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 332,
+      "spanish": "promover",
+      "english": "promote",
+      "french": "promouvoir",
+      "category": "Naturaleza",
+      "class": "verb"
+    },
+    {
+      "id": 333,
+      "spanish": "huerta",
+      "english": "vegetable garden",
+      "french": "potager",
+      "category": "Derecho",
+      "class": "noun"
+    },
+    {
+      "id": 334,
+      "spanish": "testimonio",
+      "english": "testimony",
+      "french": "témoignage",
+      "category": "Salud",
+      "class": "noun"
+    },
+    {
+      "id": 335,
+      "spanish": "respiración",
+      "english": "breathing",
+      "french": "respiration",
+      "category": "Literatura",
+      "class": "noun"
+    },
+    {
+      "id": 336,
+      "spanish": "misterio",
+      "english": "mystery",
+      "french": "mystère",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 337,
+      "spanish": "posesión",
+      "english": "possession",
+      "french": "possession",
+      "category": "Derecho",
+      "class": "noun"
+    },
+    {
+      "id": 338,
+      "spanish": "sospechoso",
+      "english": "suspect",
+      "french": "suspect",
+      "category": "Hora",
+      "class": "adjective"
+    },
+    {
+      "id": 339,
+      "spanish": "instante",
+      "english": "moment",
+      "french": "instant",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 340,
+      "spanish": "concebir",
+      "english": "to conceive",
+      "french": "concevoir",
+      "category": "Emociones",
+      "class": "verb"
+    },
+    {
+      "id": 341,
+      "spanish": "entusiasmar",
+      "english": "to inspire",
+      "french": "enthousiasmer",
+      "category": "Comunicación",
+      "class": "verb"
+    },
+    {
+      "id": 342,
+      "spanish": "discurso",
+      "english": "speech",
+      "french": "discours",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 343,
+      "spanish": "urgente",
+      "english": "urgent",
+      "french": "urgent",
+      "category": "Familia",
+      "class": "adjective"
+    },
+    {
+      "id": 344,
+      "spanish": "antepasado",
+      "english": "ancestor",
+      "french": "ancêtre",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 345,
+      "spanish": "izquierdo",
+      "english": "left",
+      "french": "gauche",
+      "category": "Familia",
+      "class": "adjective"
+    },
+    {
+      "id": 346,
+      "spanish": "adoptivo",
+      "english": "adoptive",
+      "french": "adoptif",
+      "category": "Música",
+      "class": "adjective"
+    },
+    {
+      "id": 347,
+      "spanish": "bolero",
+      "english": "bolero",
+      "french": "boléro",
+      "category": "Salud mental",
+      "class": "noun"
+    },
+    {
+      "id": 348,
+      "spanish": "ansiedad",
+      "english": "anxiety",
+      "french": "anxiété",
+      "category": "Salud",
+      "class": "noun"
+    },
+    {
+      "id": 349,
+      "spanish": "prevenir",
+      "english": "prevent",
+      "french": "prévenir",
+      "category": "Trabajos",
+      "class": "verb"
+    },
+    {
+      "id": 350,
+      "spanish": "gestionar",
+      "english": "manage",
+      "french": "gérer",
+      "category": "Ropa",
+      "class": "verb"
+    },
+    {
+      "id": 351,
+      "spanish": "corbata",
+      "english": "necktie",
+      "french": "cravate",
+      "category": "Salud mental",
+      "class": "noun"
+    },
+    {
+      "id": 352,
+      "spanish": "obsesión",
+      "english": "obsession",
+      "french": "obsession",
+      "category": "Economía",
+      "class": "noun"
+    },
+    {
+      "id": 353,
+      "spanish": "pib",
+      "english": "GDP",
+      "french": "PIB",
+      "category": "Escuela",
+      "class": "noun"
+    },
+    {
+      "id": 354,
+      "spanish": "vocabulario",
+      "english": "vocabulary",
+      "french": "vocabulaire",
+      "category": "Derecho",
+      "class": "noun"
+    },
+    {
+      "id": 355,
+      "spanish": "delito",
+      "english": "crime",
+      "french": "infraction",
+      "category": "Arte y cultura",
+      "class": "noun"
+    },
+    {
+      "id": 356,
+      "spanish": "creador",
+      "english": "creator",
+      "french": "créateur",
+      "category": "Tecnología",
+      "class": "noun"
+    },
+    {
+      "id": 357,
+      "spanish": "robot",
+      "english": "robot",
+      "french": "robot",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 358,
+      "spanish": "compensar",
+      "english": "compensate",
+      "french": "compenser",
+      "category": "Personalidad",
+      "class": "verb"
+    },
+    {
+      "id": 359,
+      "spanish": "flexible",
+      "english": "flexible",
+      "french": "flexible",
+      "category": "Animales",
+      "class": "adjective"
+    },
+    {
+      "id": 360,
+      "spanish": "ala",
+      "english": "wing",
+      "french": "aile",
+      "category": "Cantidad y medida",
+      "class": "noun"
+    },
+    {
+      "id": 361,
+      "spanish": "calcular",
+      "english": "calculate",
+      "french": "calculer",
+      "category": "Economía",
+      "class": "verb"
+    },
+    {
+      "id": 362,
+      "spanish": "bruto",
+      "english": "gross",
+      "french": "brut",
+      "category": "Derecho",
+      "class": "adjective"
+    },
+    {
+      "id": 363,
+      "spanish": "testigo",
+      "english": "witness",
+      "french": "témoin",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 364,
+      "spanish": "juntar",
+      "english": "put together",
+      "french": "rassembler",
+      "category": "Rutinas",
+      "class": "verb"
+    },
+    {
+      "id": 365,
+      "spanish": "doblar",
+      "english": "fold",
+      "french": "plier",
+      "category": "Personalidad",
+      "class": "verb"
+    },
+    {
+      "id": 366,
+      "spanish": "débil",
+      "english": "weak",
+      "french": "faible",
+      "category": "Política",
+      "class": "adjective"
+    },
+    {
+      "id": 367,
+      "spanish": "democracia",
+      "english": "democracy",
+      "french": "démocratie",
+      "category": "Tecnología",
+      "class": "noun"
+    },
+    {
+      "id": 368,
+      "spanish": "artificial",
+      "english": "artificial",
+      "french": "artificiel",
+      "category": "Economía",
+      "class": "adjective"
+    },
+    {
+      "id": 369,
+      "spanish": "comisión",
+      "english": "commission",
+      "french": "commission",
+      "category": "Cambio",
+      "class": "noun"
+    },
+    {
+      "id": 370,
+      "spanish": "mejora",
+      "english": "improvement",
+      "french": "amélioration",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 371,
+      "spanish": "rechazar",
+      "english": "reject",
+      "french": "refuser",
+      "category": "Relaciones",
+      "class": "verb"
+    },
+    {
+      "id": 372,
+      "spanish": "enamorado",
+      "english": "in love",
+      "french": "amoureux",
+      "category": "Relaciones",
+      "class": "noun"
+    },
+    {
+      "id": 373,
+      "spanish": "intimidad",
+      "english": "privacy",
+      "french": "intimité",
+      "category": "Emociones",
+      "class": "noun"
+    },
+    {
+      "id": 374,
+      "spanish": "irritar",
+      "english": "to irritate",
+      "french": "irriter",
+      "category": "Emociones",
+      "class": "verb"
+    },
+    {
+      "id": 375,
+      "spanish": "ilusión",
+      "english": "excitement",
+      "french": "rêve",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 376,
+      "spanish": "significativo",
+      "english": "significant",
+      "french": "significatif",
+      "category": "Música",
+      "class": "adjective"
+    },
+    {
+      "id": 377,
+      "spanish": "flauta",
+      "english": "flute",
+      "french": "flûte",
+      "category": "Economía",
+      "class": "noun"
+    },
+    {
+      "id": 378,
+      "spanish": "emprender",
+      "english": "to start a business",
+      "french": "se lancer",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 379,
+      "spanish": "truco",
+      "english": "trick",
+      "french": "astuce",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 380,
+      "spanish": "probable",
+      "english": "likely",
+      "french": "probable",
+      "category": "Trabajos",
+      "class": "adjective"
+    },
+    {
+      "id": 381,
+      "spanish": "capitán",
+      "english": "captain",
+      "french": "capitaine",
+      "category": "Conflicto",
+      "class": "noun"
+    },
+    {
+      "id": 382,
+      "spanish": "pistola",
+      "english": "pistol",
+      "french": "pistolet",
+      "category": "Comunicación",
+      "class": "noun"
+    },
+    {
+      "id": 383,
+      "spanish": "aclarar",
+      "english": "clarify",
+      "french": "préciser",
+      "category": "Casa",
+      "class": "verb"
+    },
+    {
+      "id": 384,
+      "spanish": "cuchillo",
+      "english": "knife",
+      "french": "couteau",
+      "category": "Tecnología",
+      "class": "noun"
+    },
+    {
+      "id": 385,
+      "spanish": "imprimir",
+      "english": "print",
+      "french": "imprimer",
+      "category": "Comida",
+      "class": "verb"
+    },
+    {
+      "id": 386,
+      "spanish": "licor",
+      "english": "liqueur",
+      "french": "liqueur",
+      "category": "Religión",
+      "class": "noun"
+    },
+    {
+      "id": 387,
+      "spanish": "diablo",
+      "english": "devil",
+      "french": "diable",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 388,
+      "spanish": "impulsar",
+      "english": "promote",
+      "french": "encourager",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 389,
+      "spanish": "atribuir",
+      "english": "attribute",
+      "french": "attribuer",
+      "category": "Sociedad",
+      "class": "verb"
+    },
+    {
+      "id": 390,
+      "spanish": "diversidad",
+      "english": "diversity",
+      "french": "diversité",
+      "category": "Familia",
+      "class": "noun"
+    },
+    {
+      "id": 391,
+      "spanish": "descendiente",
+      "english": "descendant",
+      "french": "descendant",
+      "category": "Cantidad y medida",
+      "class": "noun"
+    },
+    {
+      "id": 392,
+      "spanish": "gota",
+      "english": "drop",
+      "french": "goutte",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "id": 393,
+      "spanish": "sabroso",
+      "english": "tasty",
+      "french": "savoureux",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 394,
+      "spanish": "juvenil",
+      "english": "youth",
+      "french": "jeune",
+      "category": "Emociones",
+      "class": "adjective"
+    },
+    {
+      "id": 395,
+      "spanish": "impresionar",
+      "english": "to impress",
+      "french": "impressionner",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 396,
+      "spanish": "colina",
+      "english": "hill",
+      "french": "colline",
+      "category": "Emociones",
+      "class": "noun"
+    },
+    {
+      "id": 397,
+      "spanish": "acuático",
+      "english": "aquatic",
+      "french": "aquatique",
+      "category": "Naturaleza",
+      "class": "adjective"
+    },
+    {
+      "id": 398,
+      "spanish": "impedir",
+      "english": "prevent",
+      "french": "empêcher",
+      "category": "Naturaleza",
+      "class": "verb"
+    },
+    {
+      "id": 399,
+      "spanish": "guacamole",
+      "english": "guacamole",
+      "french": "guacamole",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 400,
+      "spanish": "intención",
+      "english": "intention",
+      "french": "intention",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "id": 401,
+      "spanish": "poderoso",
+      "english": "powerful",
+      "french": "puissant",
+      "category": "Pensamiento",
+      "class": "adjective"
+    },
+    {
+      "id": 402,
+      "spanish": "paraguas",
+      "english": "umbrella",
+      "french": "parapluie",
+      "category": "Personalidad",
+      "class": "noun"
+    },
+    {
+      "id": 403,
+      "spanish": "herida",
+      "english": "wound",
+      "french": "blessure",
+      "category": "Ropa",
+      "class": "noun"
+    },
+    {
+      "id": 404,
+      "spanish": "matemático",
+      "english": "mathematician",
+      "french": "mathématicien",
+      "category": "Salud",
+      "class": "adjective"
+    },
+    {
+      "id": 405,
+      "spanish": "obligación",
+      "english": "obligation",
+      "french": "obligation",
+      "category": "Ciencia",
+      "class": "noun"
+    },
+    {
+      "id": 406,
+      "spanish": "ángel",
+      "english": "angel",
+      "french": "ange",
+      "category": "Derecho",
+      "class": "noun"
+    },
+    {
+      "id": 407,
+      "spanish": "contenedor",
+      "english": "container",
+      "french": "conteneur",
+      "category": "Religión",
+      "class": "noun"
+    },
+    {
+      "id": 408,
+      "spanish": "oído",
+      "english": "ear",
+      "french": "oreille",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 409,
+      "spanish": "cuelga",
+      "english": "hangs",
+      "french": "s'accroche",
+      "category": "Cabeza",
+      "class": "noun"
+    },
+    {
+      "id": 410,
+      "spanish": "esqueleto",
+      "english": "skeleton",
+      "french": "squelette",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 411,
+      "spanish": "promedio",
+      "english": "average",
+      "french": "moyenne",
+      "category": "Cuerpo",
+      "class": "noun"
+    },
+    {
+      "id": 412,
+      "spanish": "caballero",
+      "english": "gentleman",
+      "french": "gentilhomme",
+      "category": "Cantidad y medida",
+      "class": "noun"
+    },
+    {
+      "id": 413,
+      "spanish": "código",
+      "english": "code",
+      "french": "code",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 414,
+      "spanish": "experimento",
+      "english": "experiment",
+      "french": "expérience",
+      "category": "Tecnología",
+      "class": "noun"
+    },
+    {
+      "id": 415,
+      "spanish": "retiro",
+      "english": "retreat",
+      "french": "retraite",
+      "category": "Ciencia",
+      "class": "noun"
+    },
+    {
+      "id": 416,
+      "spanish": "tormenta",
+      "english": "storm",
+      "french": "tempête",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 417,
+      "spanish": "ofender",
+      "english": "to offend",
+      "french": "offenser",
+      "category": "Clima",
+      "class": "verb"
+    },
+    {
+      "id": 418,
+      "spanish": "oral",
+      "english": "oral",
+      "french": "oral",
+      "category": "Conflicto",
+      "class": "adjective"
+    },
+    {
+      "id": 419,
+      "spanish": "hierro",
+      "english": "iron",
+      "french": "fer",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 420,
+      "spanish": "catástrofe",
+      "english": "disaster",
+      "french": "catastrophe",
+      "category": "Herramientas",
+      "class": "noun"
+    },
+    {
+      "id": 421,
+      "spanish": "bicho",
+      "english": "bug",
+      "french": "bestiole",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 422,
+      "spanish": "partir",
+      "english": "to leave, to depart",
+      "french": "partir",
+      "category": "Animales",
+      "class": "verb"
+    },
+    {
+      "id": 423,
+      "spanish": "inocente",
+      "english": "innocent",
+      "french": "innocent",
+      "category": "Viajes",
+      "class": "adjective"
+    },
+    {
+      "id": 424,
+      "spanish": "nido",
+      "english": "nest",
+      "french": "nid",
+      "category": "Derecho",
+      "class": "noun"
+    },
+    {
+      "id": 425,
+      "spanish": "estúpido",
+      "english": "stupid",
+      "french": "idiot",
+      "category": "Animales",
+      "class": "adjective"
+    },
+    {
+      "id": 426,
+      "spanish": "toalla",
+      "english": "towel",
+      "french": "serviette",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 427,
+      "spanish": "armar",
+      "english": "assemble",
+      "french": "assembler",
+      "category": "Higiene",
+      "class": "verb"
+    },
+    {
+      "id": 428,
+      "spanish": "transportar",
+      "english": "transport",
+      "french": "transporter",
+      "category": "Herramientas",
+      "class": "verb"
+    },
+    {
+      "id": 429,
+      "spanish": "inmediato",
+      "english": "immediately",
+      "french": "immédiatement",
+      "category": "Viajes",
+      "class": "adjective"
+    },
+    {
+      "id": 430,
+      "spanish": "cirugía",
+      "english": "surgery",
+      "french": "chirurgie",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 431,
+      "spanish": "ánimo",
+      "english": "cheer up",
+      "french": "courage",
+      "category": "Salud",
+      "class": "noun"
+    },
+    {
+      "id": 432,
+      "spanish": "lavadora",
+      "english": "washing machine",
+      "french": "lave-linge",
+      "category": "Emociones",
+      "class": "noun"
+    },
+    {
+      "id": 433,
+      "spanish": "escrito",
+      "english": "written",
+      "french": "écrit",
+      "category": "Casa",
+      "class": "noun"
+    },
+    {
+      "id": 434,
+      "spanish": "enlace",
+      "english": "link",
+      "french": "lien",
+      "category": "Comunicación",
+      "class": "noun"
+    },
+    {
+      "id": 435,
+      "spanish": "tobillo",
+      "english": "ankle",
+      "french": "cheville",
+      "category": "Tecnología",
+      "class": "noun"
+    },
+    {
+      "id": 436,
+      "spanish": "bigote",
+      "english": "mustache",
+      "french": "moustache",
+      "category": "Cuerpo",
+      "class": "noun"
+    },
+    {
+      "id": 437,
+      "spanish": "mariachi",
+      "english": "mariachi",
+      "french": "mariachi",
+      "category": "Cabeza",
+      "class": "noun"
+    },
+    {
+      "id": 438,
+      "spanish": "identificación",
+      "english": "identification",
+      "french": "identification",
+      "category": "Música",
+      "class": "noun"
+    },
+    {
+      "id": 439,
+      "spanish": "célebre",
+      "english": "famous",
+      "french": "célèbre",
+      "category": "Derecho",
+      "class": "adjective"
+    },
+    {
+      "id": 440,
+      "spanish": "online",
+      "english": "online",
+      "french": "en ligne",
+      "category": "",
+      "class": "adverb"
+    },
+    {
+      "id": 441,
+      "spanish": "yerba",
+      "english": "grass",
+      "french": "herbe",
+      "category": "Tecnología",
+      "class": "noun"
+    },
+    {
+      "id": 442,
+      "spanish": "razonable",
+      "english": "reasonable",
+      "french": "raisonnable",
+      "category": "Naturaleza",
+      "class": "adjective"
+    },
+    {
+      "id": 443,
+      "spanish": "vaya",
+      "english": "Well, well",
+      "french": "eh bien",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 444,
+      "spanish": "eficiente",
+      "english": "efficient",
+      "french": "efficace",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 445,
+      "spanish": "ajeno",
+      "english": "foreign",
+      "french": "étranger",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 446,
+      "spanish": "milenario",
+      "english": "millennial",
+      "french": "millénaire",
+      "category": "Historia",
+      "class": "adjective"
+    },
+    {
+      "id": 447,
+      "spanish": "investigador",
+      "english": "researcher",
+      "french": "chercheur",
+      "category": "Ciencia",
+      "class": "noun"
+    },
+    {
+      "id": 448,
+      "spanish": "rollo",
+      "english": "roll",
+      "french": "rouleau",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 449,
+      "spanish": "gimnasia",
+      "english": "gymnastics",
+      "french": "gymnastique",
+      "category": "Deporte",
+      "class": "noun"
+    },
+    {
+      "id": 450,
+      "spanish": "oponer",
+      "english": "to oppose",
+      "french": "s'opposer",
+      "category": "Conflicto",
+      "class": "verb"
+    },
+    {
+      "id": 451,
+      "spanish": "fragmento",
+      "english": "excerpt",
+      "french": "extrait",
+      "category": "Literatura",
+      "class": "noun"
+    },
+    {
+      "id": 452,
+      "spanish": "desagradable",
+      "english": "unpleasant",
+      "french": "désagréable",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 453,
+      "spanish": "triunfar",
+      "english": "to succeed",
+      "french": "réussir",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 454,
+      "spanish": "característico",
+      "english": "characteristic",
+      "french": "caractéristique",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 455,
+      "spanish": "maduro",
+      "english": "ripe",
+      "french": "mûr",
+      "category": "Frutas",
+      "class": "adjective"
+    },
+    {
+      "id": 456,
+      "spanish": "diferenciar",
+      "english": "distinguish",
+      "french": "distinguer",
+      "category": "Pensamiento",
+      "class": "verb"
+    },
+    {
+      "id": 457,
+      "spanish": "despistar",
+      "english": "throw off the trail",
+      "french": "jeter de la poudre aux yeux",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 458,
+      "spanish": "buzón",
+      "english": "mailbox",
+      "french": "boîte aux lettres",
+      "category": "Comunicación",
+      "class": "noun"
+    },
+    {
+      "id": 459,
+      "spanish": "bombilla",
+      "english": "light bulb",
+      "french": "ampoule",
+      "category": "Casa",
+      "class": "noun"
+    },
+    {
+      "id": 460,
+      "spanish": "locura",
+      "english": "madness",
+      "french": "folie",
+      "category": "Salud mental",
+      "class": "noun"
+    },
+    {
+      "id": 461,
+      "spanish": "resistir",
+      "english": "to resist",
+      "french": "résister",
+      "category": "Conflicto",
+      "class": "verb"
+    },
+    {
+      "id": 462,
+      "spanish": "adn",
+      "english": "DNA",
+      "french": "ADN",
+      "category": "Ciencia",
+      "class": "noun"
+    },
+    {
+      "id": 463,
+      "spanish": "disfraz",
+      "english": "costume",
+      "french": "déguisement",
+      "category": "Ropa",
+      "class": "noun"
+    },
+    {
+      "id": 464,
+      "spanish": "introducción",
+      "english": "Introduction",
+      "french": "introduction",
+      "category": "Literatura",
+      "class": "noun"
+    },
+    {
+      "id": 465,
+      "spanish": "ecosistema",
+      "english": "ecosystem",
+      "french": "écosystème",
+      "category": "Medio ambiente",
+      "class": "noun"
+    },
+    {
+      "id": 466,
+      "spanish": "moro",
+      "english": "Moor",
+      "french": "maure",
+      "category": "Historia",
+      "class": "noun"
+    },
+    {
+      "id": 467,
+      "spanish": "burro",
+      "english": "donkey",
+      "french": "âne",
+      "category": "Animales",
+      "class": "noun"
+    },
+    {
+      "id": 468,
+      "spanish": "casilla",
+      "english": "box",
+      "french": "case",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 469,
+      "spanish": "inesperado",
+      "english": "unexpected",
+      "french": "inattendu",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 470,
+      "spanish": "prenda",
+      "english": "garment",
+      "french": "vêtement",
+      "category": "Ropa",
+      "class": "noun"
+    },
+    {
+      "id": 471,
+      "spanish": "recaudar",
+      "english": "collect",
+      "french": "percevoir",
+      "category": "Economía",
+      "class": "verb"
+    },
+    {
+      "id": 472,
+      "spanish": "masculino",
+      "english": "masculine",
+      "french": "masculin",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 473,
+      "spanish": "ruso",
+      "english": "Russian",
+      "french": "russe",
+      "category": "Nacionalidad",
+      "class": "adjective"
+    },
+    {
+      "id": 474,
+      "spanish": "rescatar",
+      "english": "rescue",
+      "french": "sauver",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 475,
+      "spanish": "incapaz",
+      "english": "unable",
+      "french": "incapable",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 476,
+      "spanish": "diseñador",
+      "english": "designer",
+      "french": "designer",
+      "category": "Trabajos",
+      "class": "noun"
+    },
+    {
+      "id": 477,
+      "spanish": "ceviche",
+      "english": "ceviche",
+      "french": "ceviche",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "id": 478,
+      "spanish": "proporción",
+      "english": "proportion",
+      "french": "proportion",
+      "category": "Cantidad y medida",
+      "class": "noun"
+    },
+    {
+      "id": 479,
+      "spanish": "mecánico",
+      "english": "mechanic",
+      "french": "mécanique",
+      "category": "Trabajos",
+      "class": "adjective"
+    },
+    {
+      "id": 480,
+      "spanish": "eslogan",
+      "english": "slogan",
+      "french": "slogan",
+      "category": "Comunicación",
+      "class": "noun"
+    },
+    {
+      "id": 481,
+      "spanish": "confirmación",
+      "english": "confirmation",
+      "french": "confirmation",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 482,
+      "spanish": "calavera",
+      "english": "skull",
+      "french": "crâne",
+      "category": "Cuerpo",
+      "class": "noun"
+    },
+    {
+      "id": 483,
+      "spanish": "relleno",
+      "english": "stuffing",
+      "french": "farce",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "id": 484,
+      "spanish": "sello",
+      "english": "stamp",
+      "french": "timbre",
+      "category": "Comunicación",
+      "class": "noun"
+    },
+    {
+      "id": 485,
+      "spanish": "padrino",
+      "english": "godfather",
+      "french": "parrain",
+      "category": "Familia",
+      "class": "noun"
+    },
+    {
+      "id": 486,
+      "spanish": "peña",
+      "english": "club",
+      "french": "club",
+      "category": "Aficiones",
+      "class": "noun"
+    },
+    {
+      "id": 487,
+      "spanish": "entonación",
+      "english": "intonation",
+      "french": "intonation",
+      "category": "Comunicación",
+      "class": "noun"
+    },
+    {
+      "id": 488,
+      "spanish": "ají",
+      "english": "chili pepper",
+      "french": "piment",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "id": 489,
+      "spanish": "informática",
+      "english": "computer science",
+      "french": "informatique",
+      "category": "Tecnología",
+      "class": "noun"
+    },
+    {
+      "id": 490,
+      "spanish": "formato",
+      "english": "format",
+      "french": "format",
+      "category": "Tecnología",
+      "class": "noun"
+    },
+    {
+      "id": 491,
+      "spanish": "condenar",
+      "english": "to condemn",
+      "french": "condamner",
+      "category": "Derecho",
+      "class": "verb"
+    },
+    {
+      "id": 492,
+      "spanish": "climático",
+      "english": "climate-related",
+      "french": "climatique",
+      "category": "Clima",
+      "class": "adjective"
+    },
+    {
+      "id": 493,
+      "spanish": "dama",
+      "english": "queen",
+      "french": "dame",
+      "category": "Aficiones",
+      "class": "noun"
+    },
+    {
+      "id": 494,
+      "spanish": "olla",
+      "english": "pot",
+      "french": "casserole",
+      "category": "Casa",
+      "class": "noun"
+    },
+    {
+      "id": 495,
+      "spanish": "rizar",
+      "english": "to curl",
+      "french": "friser",
+      "category": "Higiene",
+      "class": "verb"
+    },
+    {
+      "id": 496,
+      "spanish": "pino",
+      "english": "pine",
+      "french": "pin",
+      "category": "Naturaleza",
+      "class": "noun"
+    },
+    {
+      "id": 497,
+      "spanish": "defensa",
+      "english": "defense",
+      "french": "défense",
+      "category": "Deporte",
+      "class": "noun"
+    },
+    {
+      "id": 498,
+      "spanish": "defensor",
+      "english": "defender",
+      "french": "défenseur",
+      "category": "Deporte",
+      "class": "noun"
+    },
+    {
+      "id": 499,
+      "spanish": "lácteo",
+      "english": "dairy",
+      "french": "lacté",
+      "category": "Ingredientes",
+      "class": "adjective"
+    },
+    {
+      "id": 500,
+      "spanish": "eterno",
+      "english": "eternal",
+      "french": "éternel",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 501,
+      "spanish": "especia",
+      "english": "spice",
+      "french": "épice",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "id": 502,
+      "spanish": "superficial",
+      "english": "superficial",
+      "french": "superficiel",
+      "category": "Personalidad",
+      "class": "adjective"
+    },
+    {
+      "id": 503,
+      "spanish": "innovador",
+      "english": "innovative",
+      "french": "innovant",
+      "category": "Tecnología",
+      "class": "adjective"
+    },
+    {
+      "id": 504,
+      "spanish": "meditación",
+      "english": "meditation",
+      "french": "méditation",
+      "category": "Salud mental",
+      "class": "noun"
+    },
+    {
+      "id": 505,
+      "spanish": "tiro",
+      "english": "shot",
+      "french": "tir",
+      "category": "Deporte",
+      "class": "noun"
+    },
+    {
+      "id": 506,
+      "spanish": "contactar",
+      "english": "contact",
+      "french": "contacter",
+      "category": "Comunicación",
+      "class": "verb"
+    },
+    {
+      "id": 507,
+      "spanish": "rezar",
+      "english": "to pray",
+      "french": "prier",
+      "category": "Religión",
+      "class": "verb"
+    },
+    {
+      "id": 508,
+      "spanish": "pastor",
+      "english": "pastor",
+      "french": "pasteur",
+      "category": "Religión",
+      "class": "noun"
+    },
+    {
+      "id": 509,
+      "spanish": "devorar",
+      "english": "devour",
+      "french": "dévorer",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 510,
+      "spanish": "combinación",
+      "english": "combination",
+      "french": "combinaison",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 511,
+      "spanish": "cálido",
+      "english": "warm",
+      "french": "chaleureux",
+      "category": "Clima",
+      "class": "adjective"
+    },
+    {
+      "id": 512,
+      "spanish": "anónimo",
+      "english": "anonymous",
+      "french": "anonyme",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 513,
+      "spanish": "cuerda",
+      "english": "rope",
+      "french": "corde",
+      "category": "Herramientas",
+      "class": "noun"
+    },
+    {
+      "id": 514,
+      "spanish": "cuaderno",
+      "english": "notebook",
+      "french": "cahier",
+      "category": "Escuela",
+      "class": "noun"
+    },
+    {
+      "id": 515,
+      "spanish": "plural",
+      "english": "plural",
+      "french": "pluriel",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 516,
+      "spanish": "cabina",
+      "english": "cabin",
+      "french": "cabine",
+      "category": "Viajes",
+      "class": "noun"
+    },
+    {
+      "id": 517,
+      "spanish": "enemigo",
+      "english": "enemy",
+      "french": "ennemi",
+      "category": "Conflicto",
+      "class": "noun"
+    },
+    {
+      "id": 518,
+      "spanish": "oso",
+      "english": "bear",
+      "french": "ours",
+      "category": "Animales",
+      "class": "noun"
+    },
+    {
+      "id": 519,
+      "spanish": "adornar",
+      "english": "to decorate",
+      "french": "décorer",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 520,
+      "spanish": "asesino",
+      "english": "murderer",
+      "french": "assassin",
+      "category": "Derecho",
+      "class": "noun"
+    },
+    {
+      "id": 521,
+      "spanish": "merengue",
+      "english": "merengue",
+      "french": "meringue",
+      "category": "Música",
+      "class": "noun"
+    },
+    {
+      "id": 522,
+      "spanish": "transparente",
+      "english": "transparent",
+      "french": "transparent",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 523,
+      "spanish": "reparación",
+      "english": "repair",
+      "french": "réparation",
+      "category": "Herramientas",
+      "class": "noun"
+    },
+    {
+      "id": 524,
+      "spanish": "apetito",
+      "english": "appetite",
+      "french": "appétit",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "id": 525,
+      "spanish": "pub",
+      "english": "pub",
+      "french": "pub",
+      "category": "Espacios",
+      "class": "noun"
+    },
+    {
+      "id": 526,
+      "spanish": "triunfo",
+      "english": "victory",
+      "french": "victoire",
+      "category": "Deporte",
+      "class": "noun"
+    },
+    {
+      "id": 527,
+      "spanish": "flaco",
+      "english": "skinny",
+      "french": "maigre",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 528,
+      "spanish": "abrigo",
+      "english": "coat",
+      "french": "manteau",
+      "category": "Ropa",
+      "class": "noun"
+    },
+    {
+      "id": 529,
+      "spanish": "vocal",
+      "english": "vocal",
+      "french": "voyelle",
+      "category": "Comunicación",
+      "class": "noun"
+    },
+    {
+      "id": 530,
+      "spanish": "dispositivo",
+      "english": "device",
+      "french": "dispositif",
+      "category": "Tecnología",
+      "class": "noun"
+    },
+    {
+      "id": 531,
+      "spanish": "espontáneo",
+      "english": "spontaneous",
+      "french": "spontané",
+      "category": "Personalidad",
+      "class": "adjective"
+    },
+    {
+      "id": 532,
+      "spanish": "alfombra",
+      "english": "rug",
+      "french": "tapis",
+      "category": "Casa",
+      "class": "noun"
+    },
+    {
+      "id": 533,
+      "spanish": "asesinato",
+      "english": "murder",
+      "french": "meurtre",
+      "category": "Derecho",
+      "class": "noun"
+    },
+    {
+      "id": 534,
+      "spanish": "inmóvil",
+      "english": "motionless",
+      "french": "immobile",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 535,
+      "spanish": "intelectual",
+      "english": "intellectual",
+      "french": "intellectuel",
+      "category": "Pensamiento",
+      "class": "noun"
+    },
+    {
+      "id": 536,
+      "spanish": "desfilar",
+      "english": "to march",
+      "french": "défilé",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 537,
+      "spanish": "saborear",
+      "english": "savour",
+      "french": "savourer",
+      "category": "Comida",
+      "class": "verb"
+    },
+    {
+      "id": 538,
+      "spanish": "comparación",
+      "english": "comparison",
+      "french": "comparaison",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 539,
+      "spanish": "plátano",
+      "english": "banana",
+      "french": "banane",
+      "category": "Frutas",
+      "class": "noun"
+    },
+    {
+      "id": 540,
+      "spanish": "cadera",
+      "english": "hip",
+      "french": "hanche",
+      "category": "Cuerpo",
+      "class": "noun"
+    },
+    {
+      "id": 541,
+      "spanish": "emigrante",
+      "english": "immigrant",
+      "french": "émigrant",
+      "category": "Sociedad",
+      "class": "noun"
+    },
+    {
+      "id": 542,
+      "spanish": "apasionante",
+      "english": "exciting",
+      "french": "passionnant",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 543,
+      "spanish": "diputado",
+      "english": "member of the House of Representatives",
+      "french": "député",
+      "category": "Política",
+      "class": "noun"
+    },
+    {
+      "id": 544,
+      "spanish": "malestar",
+      "english": "discomfort",
+      "french": "malaise",
+      "category": "Salud",
+      "class": "noun"
+    },
+    {
+      "id": 545,
+      "spanish": "bienvenida",
+      "english": "Welcome",
+      "french": "bienvenue",
+      "category": "Saludos",
+      "class": "noun"
+    },
+    {
+      "id": 546,
+      "spanish": "cosecha",
+      "english": "harvest",
+      "french": "récolte",
+      "category": "Naturaleza",
+      "class": "noun"
+    },
+    {
+      "id": 547,
+      "spanish": "apropiar",
+      "english": "appropriate",
+      "french": "s'approprier",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 548,
+      "spanish": "intérprete",
+      "english": "interpreter",
+      "french": "interprète",
+      "category": "Trabajos",
+      "class": "noun"
+    },
+    {
+      "id": 549,
+      "spanish": "uruguayo",
+      "english": "Uruguayan",
+      "french": "uruguayen",
+      "category": "Nacionalidad",
+      "class": "adjective"
+    },
+    {
+      "id": 550,
+      "spanish": "coser",
+      "english": "to sew",
+      "french": "coudre",
+      "category": "Ropa",
+      "class": "verb"
+    },
+    {
+      "id": 551,
+      "spanish": "concentración",
+      "english": "concentration",
+      "french": "concentration",
+      "category": "Pensamiento",
+      "class": "noun"
+    },
+    {
+      "id": 552,
+      "spanish": "camión",
+      "english": "truck",
+      "french": "camion",
+      "category": "Vehículos",
+      "class": "noun"
+    },
+    {
+      "id": 553,
+      "spanish": "étnico",
+      "english": "ethnic",
+      "french": "ethnique",
+      "category": "Sociedad",
+      "class": "adjective"
+    },
+    {
+      "id": 554,
+      "spanish": "señal",
+      "english": "signal",
+      "french": "signal",
+      "category": "Comunicación",
+      "class": "noun"
+    },
+    {
+      "id": 555,
+      "spanish": "bota",
+      "english": "boot",
+      "french": "botte",
+      "category": "Ropa",
+      "class": "noun"
+    },
+    {
+      "id": 556,
+      "spanish": "culpable",
+      "english": "guilty",
+      "french": "coupable",
+      "category": "Derecho",
+      "class": "noun"
+    },
+    {
+      "id": 557,
+      "spanish": "perrito",
+      "english": "puppy",
+      "french": "chiot",
+      "category": "Animales",
+      "class": "noun"
+    },
+    {
+      "id": 558,
+      "spanish": "atacar",
+      "english": "attack",
+      "french": "attaquer",
+      "category": "Conflicto",
+      "class": "verb"
+    },
+    {
+      "id": 559,
+      "spanish": "multitud",
+      "english": "crowd",
+      "french": "foule",
+      "category": "Sociedad",
+      "class": "noun"
+    },
+    {
+      "id": 560,
+      "spanish": "remover",
+      "english": "stir",
+      "french": "remuer",
+      "category": "Comida",
+      "class": "verb"
+    },
+    {
+      "id": 561,
+      "spanish": "sudar",
+      "english": "to sweat",
+      "french": "transpirer",
+      "category": "Cuerpo",
+      "class": "verb"
+    },
+    {
+      "id": 562,
+      "spanish": "gráfico",
+      "english": "graph",
+      "french": "graphique",
+      "category": "Información",
+      "class": "adjective"
+    },
+    {
+      "id": 563,
+      "spanish": "olivo",
+      "english": "olive tree",
+      "french": "olivier",
+      "category": "Naturaleza",
+      "class": "noun"
+    },
+    {
+      "id": 564,
+      "spanish": "cheque",
+      "english": "check",
+      "french": "chèque",
+      "category": "Economía",
+      "class": "noun"
+    },
+    {
+      "id": 565,
+      "spanish": "serpiente",
+      "english": "snake",
+      "french": "serpent",
+      "category": "Animales",
+      "class": "noun"
+    },
+    {
+      "id": 566,
+      "spanish": "trayecto",
+      "english": "route",
+      "french": "parcours",
+      "category": "Viajes",
+      "class": "noun"
+    },
+    {
+      "id": 567,
+      "spanish": "liberar",
+      "english": "release",
+      "french": "libérer",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 568,
+      "spanish": "cura",
+      "english": "cure",
+      "french": "guérison",
+      "category": "Salud",
+      "class": "noun"
+    },
+    {
+      "id": 569,
+      "spanish": "miseria",
+      "english": "misery",
+      "french": "misère",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 570,
+      "spanish": "lápiz",
+      "english": "pencil",
+      "french": "crayon",
+      "category": "Ciencia",
+      "class": "noun"
+    },
+    {
+      "id": 571,
+      "spanish": "genético",
+      "english": "genetic",
+      "french": "génétique",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 572,
+      "spanish": "carroza",
+      "english": "hearse",
+      "french": "carrosse",
+      "category": "Comunicación",
+      "class": "noun"
+    },
+    {
+      "id": 573,
+      "spanish": "redacción",
+      "english": "editorial staff",
+      "french": "rédaction",
+      "category": "Higiene",
+      "class": "noun"
+    },
+    {
+      "id": 574,
+      "spanish": "detergente",
+      "english": "detergent",
+      "french": "détergent",
+      "category": "Personalidad",
+      "class": "noun"
+    },
+    {
+      "id": 575,
+      "spanish": "agresividad",
+      "english": "aggressiveness",
+      "french": "agressivité",
+      "category": "Animales",
+      "class": "noun"
+    },
+    {
+      "id": 576,
+      "spanish": "rana",
+      "english": "frog",
+      "french": "grenouille",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "id": 577,
+      "spanish": "embutido",
+      "english": "cured meat",
+      "french": "charcuterie",
+      "category": "Salud mental",
+      "class": "noun"
+    },
+    {
+      "id": 578,
+      "spanish": "fachada",
+      "english": "facade",
+      "french": "façade",
+      "category": "Aficiones",
+      "class": "noun"
+    },
+    {
+      "id": 579,
+      "spanish": "inseguridad",
+      "english": "insecurity",
+      "french": "insécurité",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 580,
+      "spanish": "adicción",
+      "english": "addiction",
+      "french": "dépendance",
+      "category": "Espacios",
+      "class": "noun"
+    },
+    {
+      "id": 581,
+      "spanish": "hobby",
+      "english": "hobby",
+      "french": "loisir",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 582,
+      "spanish": "apartar",
+      "english": "set aside",
+      "french": "mettre de côté",
+      "category": "Clima",
+      "class": "verb"
+    },
+    {
+      "id": 583,
+      "spanish": "quiosco",
+      "english": "newsstand",
+      "french": "kiosque",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 584,
+      "spanish": "criatura",
+      "english": "creature",
+      "french": "petit être",
+      "category": "Derecho",
+      "class": "noun"
+    },
+    {
+      "id": 585,
+      "spanish": "rayo",
+      "english": "lightning",
+      "french": "éclair",
+      "category": "Relaciones",
+      "class": "noun"
+    },
+    {
+      "id": 586,
+      "spanish": "extraterrestre",
+      "english": "extraterrestrial",
+      "french": "extraterrestre",
+      "category": "Salud",
+      "class": "noun"
+    },
+    {
+      "id": 587,
+      "spanish": "ilegal",
+      "english": "illegal",
+      "french": "illégal",
+      "category": "Espacios",
+      "class": "adjective"
+    },
+    {
+      "id": 588,
+      "spanish": "divorcio",
+      "english": "divorce",
+      "french": "divorce",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 589,
+      "spanish": "medicinal",
+      "english": "medicinal",
+      "french": "médicinal",
+      "category": "Emociones",
+      "class": "adjective"
+    },
+    {
+      "id": 590,
+      "spanish": "panadería",
+      "english": "bakery",
+      "french": "boulangerie",
+      "category": "Rutinas",
+      "class": "noun"
+    },
+    {
+      "id": 591,
+      "spanish": "panel",
+      "english": "panel",
+      "french": "panneau",
+      "category": "Historia",
+      "class": "noun"
+    },
+    {
+      "id": 592,
+      "spanish": "susto",
+      "english": "scare",
+      "french": "peur",
+      "category": "Tecnología",
+      "class": "noun"
+    },
+    {
+      "id": 593,
+      "spanish": "despertador",
+      "english": "alarm clock",
+      "french": "réveil",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 594,
+      "spanish": "precolombino",
+      "english": "pre-Columbian",
+      "french": "précolombien",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 595,
+      "spanish": "mando",
+      "english": "command",
+      "french": "commande",
+      "category": "Geografía",
+      "class": "noun"
+    },
+    {
+      "id": 596,
+      "spanish": "licenciar",
+      "english": "to grant a license",
+      "french": "licencier",
+      "category": "Aficiones",
+      "class": "verb"
+    },
+    {
+      "id": 597,
+      "spanish": "alargar",
+      "english": "to extend",
+      "french": "allonger",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 598,
+      "spanish": "carrito",
+      "english": "shopping cart",
+      "french": "panier",
+      "category": "Salud mental",
+      "class": "noun"
+    },
+    {
+      "id": 599,
+      "spanish": "noroeste",
+      "english": "northwest",
+      "french": "nord-ouest",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "id": 600,
+      "spanish": "muñeco",
+      "english": "doll",
+      "french": "poupée",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 601,
+      "spanish": "tabla",
+      "english": "table",
+      "french": "tableau",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 602,
+      "spanish": "aislamiento",
+      "english": "isolation",
+      "french": "isolation",
+      "category": "Ciencia",
+      "class": "noun"
+    },
+    {
+      "id": 603,
+      "spanish": "alfajor",
+      "english": "alfajor",
+      "french": "alfajor",
+      "category": "Historia",
+      "class": "noun"
+    },
+    {
+      "id": 604,
+      "spanish": "sudaca",
+      "english": "sudaca",
+      "french": "sudaca",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 605,
+      "spanish": "estímulo",
+      "english": "stimulus",
+      "french": "stimulation",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "id": 606,
+      "spanish": "tapeo",
+      "english": "tapas",
+      "french": "apéritif",
+      "category": "Ciencia",
+      "class": "noun"
+    },
+    {
+      "id": 607,
+      "spanish": "geométrico",
+      "english": "geometric",
+      "french": "géométrique",
+      "category": "Historia",
+      "class": "adjective"
+    },
+    {
+      "id": 608,
+      "spanish": "mitología",
+      "english": "mythology",
+      "french": "mythologie",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 609,
+      "spanish": "enganchar",
+      "english": "to hook",
+      "french": "accrocher",
+      "category": "Comunicación",
+      "class": "verb"
+    },
+    {
+      "id": 610,
+      "spanish": "emisora",
+      "english": "broadcaster",
+      "french": "station",
+      "category": "Política",
+      "class": "noun"
+    },
+    {
+      "id": 611,
+      "spanish": "bandera",
+      "english": "flag",
+      "french": "drapeau",
+      "category": "Espacios",
+      "class": "noun"
+    },
+    {
+      "id": 612,
+      "spanish": "ubicar",
+      "english": "locate",
+      "french": "localiser",
+      "category": "Comida",
+      "class": "verb"
+    },
+    {
+      "id": 613,
+      "spanish": "amargo",
+      "english": "bitter",
+      "french": "amer",
+      "category": "Arte y cultura",
+      "class": "adjective"
+    },
+    {
+      "id": 614,
+      "spanish": "vanguardia",
+      "english": "avant-garde",
+      "french": "avant-garde",
+      "category": "Vehículos",
+      "class": "noun"
+    },
+    {
+      "id": 615,
+      "spanish": "frenar",
+      "english": "to brake",
+      "french": "freiner",
+      "category": "Conflicto",
+      "class": "verb"
+    },
+    {
+      "id": 616,
+      "spanish": "invadir",
+      "english": "invade",
+      "french": "envahir",
+      "category": "Comunicación",
+      "class": "verb"
+    },
+    {
+      "id": 617,
+      "spanish": "argot",
+      "english": "slang",
+      "french": "argot",
+      "category": "Economía",
+      "class": "noun"
+    },
+    {
+      "id": 618,
+      "spanish": "millonario",
+      "english": "millionaire",
+      "french": "millionnaire",
+      "category": "Pensamiento",
+      "class": "adjective"
+    },
+    {
+      "id": 619,
+      "spanish": "generalizar",
+      "english": "to generalize",
+      "french": "généraliser",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 620,
+      "spanish": "che",
+      "english": "hey",
+      "french": "eh bien",
+      "category": "Salud",
+      "class": "interjection"
+    },
+    {
+      "id": 621,
+      "spanish": "desmayar",
+      "english": "to faint",
+      "french": "s'évanouir",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 622,
+      "spanish": "güero",
+      "english": "blond",
+      "french": "blondinet",
+      "category": "Sociedad",
+      "class": "adjective"
+    },
+    {
+      "id": 623,
+      "spanish": "prejuicio",
+      "english": "prejudice",
+      "french": "préjugé",
+      "category": "Economía",
+      "class": "noun"
+    },
+    {
+      "id": 624,
+      "spanish": "importación",
+      "english": "import",
+      "french": "importation",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 625,
+      "spanish": "raya",
+      "english": "line",
+      "french": "ligne",
+      "category": "Deporte",
+      "class": "noun"
+    },
+    {
+      "id": 626,
+      "spanish": "balón",
+      "english": "ball",
+      "french": "ballon",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 627,
+      "spanish": "volador",
+      "english": "flying",
+      "french": "volant",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 628,
+      "spanish": "prender",
+      "english": "to light",
+      "french": "allumer",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 629,
+      "spanish": "gigantesco",
+      "english": "gigantic",
+      "french": "gigantesque",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 630,
+      "spanish": "desorden",
+      "english": "disorder",
+      "french": "désordre",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "id": 631,
+      "spanish": "merluza",
+      "english": "hake",
+      "french": "merlu",
+      "category": "Tecnología",
+      "class": "noun"
+    },
+    {
+      "id": 632,
+      "spanish": "avería",
+      "english": "malfunction",
+      "french": "panne",
+      "category": "Higiene",
+      "class": "noun"
+    },
+    {
+      "id": 633,
+      "spanish": "cosmético",
+      "english": "cosmetic",
+      "french": "cosmétique",
+      "category": "Aficiones",
+      "class": "noun"
+    },
+    {
+      "id": 634,
+      "spanish": "apostar",
+      "english": "bet",
+      "french": "parier",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 635,
+      "spanish": "preciar",
+      "english": "to value",
+      "french": "apprécier",
+      "category": "Cuerpo",
+      "class": "verb"
+    },
+    {
+      "id": 636,
+      "spanish": "cintura",
+      "english": "waist",
+      "french": "taille",
+      "category": "Muebles",
+      "class": "noun"
+    },
+    {
+      "id": 637,
+      "spanish": "mesita",
+      "english": "side table",
+      "french": "petite table",
+      "category": "Nacionalidad",
+      "class": "noun"
+    },
+    {
+      "id": 638,
+      "spanish": "ecuatoriano",
+      "english": "Ecuadorian",
+      "french": "équatorien",
+      "category": "Ingredientes",
+      "class": "adjective"
+    },
+    {
+      "id": 639,
+      "spanish": "cilantro",
+      "english": "cilantro",
+      "french": "coriandre",
+      "category": "Herramientas",
+      "class": "noun"
+    },
+    {
+      "id": 640,
+      "spanish": "espada",
+      "english": "sword",
+      "french": "épée",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 641,
+      "spanish": "cometer",
+      "english": "to commit",
+      "french": "commettre",
+      "category": "Sociedad",
+      "class": "verb"
+    },
+    {
+      "id": 642,
+      "spanish": "estereotipo",
+      "english": "stereotype",
+      "french": "stéréotype",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 643,
+      "spanish": "pelirrojo",
+      "english": "redhead",
+      "french": "roux",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 644,
+      "spanish": "fallar",
+      "english": "to fail",
+      "french": "échouer",
+      "category": "Cantidad y medida",
+      "class": "verb"
+    },
+    {
+      "id": 645,
+      "spanish": "abundancia",
+      "english": "abundance",
+      "french": "abondance",
+      "category": "Deporte",
+      "class": "noun"
+    },
+    {
+      "id": 646,
+      "spanish": "remontar",
+      "english": "to make a comeback",
+      "french": "remonter",
+      "category": "Relaciones",
+      "class": "verb"
+    },
+    {
+      "id": 647,
+      "spanish": "sufrimiento",
+      "english": "suffering",
+      "french": "souffrance",
+      "category": "Ropa",
+      "class": "noun"
+    },
+    {
+      "id": 648,
+      "spanish": "desconfianza",
+      "english": "distrust",
+      "french": "méfiance",
+      "category": "Música",
+      "class": "noun"
+    },
+    {
+      "id": 649,
+      "spanish": "disfrazar",
+      "english": "to disguise",
+      "french": "se déguiser",
+      "category": "Geografía",
+      "class": "verb"
+    },
+    {
+      "id": 650,
+      "spanish": "reggae",
+      "english": "reggae",
+      "french": "reggae",
+      "category": "Ciencia",
+      "class": "noun"
+    },
+    {
+      "id": 651,
+      "spanish": "porteño",
+      "english": "from Buenos Aires",
+      "french": "de Buenos Aires",
+      "category": "Derecho",
+      "class": "adjective"
+    },
+    {
+      "id": 652,
+      "spanish": "biología",
+      "english": "biology",
+      "french": "biologie",
+      "category": "Medio ambiente",
+      "class": "noun"
+    },
+    {
+      "id": 653,
+      "spanish": "denunciar",
+      "english": "report",
+      "french": "dénoncer",
+      "category": "Geografía",
+      "class": "verb"
+    },
+    {
+      "id": 654,
+      "spanish": "ambiental",
+      "english": "environmental",
+      "french": "environnemental",
+      "category": "Comida",
+      "class": "adjective"
+    },
+    {
+      "id": 655,
+      "spanish": "oriental",
+      "english": "Eastern",
+      "french": "oriental",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 656,
+      "spanish": "whisky",
+      "english": "whiskey",
+      "french": "whisky",
+      "category": "Tecnología",
+      "class": "noun"
+    },
+    {
+      "id": 657,
+      "spanish": "reposar",
+      "english": "rest",
+      "french": "se reposer",
+      "category": "Personalidad",
+      "class": "verb"
+    },
+    {
+      "id": 658,
+      "spanish": "tableta",
+      "english": "tablet",
+      "french": "tablette",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 659,
+      "spanish": "paciencia",
+      "english": "patience",
+      "french": "patience",
+      "category": "Personalidad",
+      "class": "noun"
+    },
+    {
+      "id": 660,
+      "spanish": "caótico",
+      "english": "chaotic",
+      "french": "chaotique",
+      "category": "Literatura",
+      "class": "adjective"
+    },
+    {
+      "id": 661,
+      "spanish": "optimista",
+      "english": "optimistic",
+      "french": "optimiste",
+      "category": "Comunicación",
+      "class": "adjective"
+    },
+    {
+      "id": 662,
+      "spanish": "novelista",
+      "english": "novelist",
+      "french": "romancier",
+      "category": "Pensamiento",
+      "class": "noun"
+    },
+    {
+      "id": 663,
+      "spanish": "guión",
+      "english": "dash",
+      "french": "tiret",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 664,
+      "spanish": "reflexionar",
+      "english": "to reflect",
+      "french": "réfléchir",
+      "category": "Trabajos",
+      "class": "verb"
+    },
+    {
+      "id": 665,
+      "spanish": "liso",
+      "english": "plain",
+      "french": "lisse",
+      "category": "Tecnología",
+      "class": "adjective"
+    },
+    {
+      "id": 666,
+      "spanish": "recepcionista",
+      "english": "receptionist",
+      "french": "réceptionniste",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 667,
+      "spanish": "virtual",
+      "english": "virtual",
+      "french": "virtuel",
+      "category": "Comida",
+      "class": "adjective"
+    },
+    {
+      "id": 668,
+      "spanish": "utilización",
+      "english": "use",
+      "french": "utilisation",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 669,
+      "spanish": "moler",
+      "english": "to grind",
+      "french": "moudre",
+      "category": "Espacios",
+      "class": "verb"
+    },
+    {
+      "id": 670,
+      "spanish": "poblar",
+      "english": "to populate",
+      "french": "peupler",
+      "category": "Historia",
+      "class": "verb"
+    },
+    {
+      "id": 671,
+      "spanish": "tropa",
+      "english": "troop",
+      "french": "troupe",
+      "category": "Personalidad",
+      "class": "noun"
+    },
+    {
+      "id": 672,
+      "spanish": "ubicación",
+      "english": "location",
+      "french": "emplacement",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "id": 673,
+      "spanish": "datar",
+      "english": "to date",
+      "french": "dater",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 674,
+      "spanish": "atento",
+      "english": "attentive",
+      "french": "attentif",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 675,
+      "spanish": "asado",
+      "english": "roasted",
+      "french": "rôti",
+      "category": "Pensamiento",
+      "class": "noun"
+    },
+    {
+      "id": 676,
+      "spanish": "espléndido",
+      "english": "splendid",
+      "french": "magnifique",
+      "category": "Comida",
+      "class": "adjective"
+    },
+    {
+      "id": 677,
+      "spanish": "aniversario",
+      "english": "anniversary",
+      "french": "anniversaire",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 678,
+      "spanish": "filósofo",
+      "english": "philosopher",
+      "french": "philosophe",
+      "category": "Geografía",
+      "class": "noun"
+    },
+    {
+      "id": 679,
+      "spanish": "anchoa",
+      "english": "anchovy",
+      "french": "anchois",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "id": 680,
+      "spanish": "arrasar",
+      "english": "sweep the board",
+      "french": "faire un malheur",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 681,
+      "spanish": "iberoamericano",
+      "english": "Latin American",
+      "french": "ibéro-américain",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 682,
+      "spanish": "aguardiente",
+      "english": "brandy",
+      "french": "eau-de-vie",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 683,
+      "spanish": "adorno",
+      "english": "ornament",
+      "french": "ornement",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 684,
+      "spanish": "maría",
+      "english": "marijuana",
+      "french": "chanvre",
+      "category": "Economía",
+      "class": "noun"
+    },
+    {
+      "id": 685,
+      "spanish": "vera",
+      "english": "vera",
+      "french": "vera",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "id": 686,
+      "spanish": "depositar",
+      "english": "deposit",
+      "french": "déposer",
+      "category": "Construcción",
+      "class": "verb"
+    },
+    {
+      "id": 687,
+      "spanish": "crudo",
+      "english": "crude",
+      "french": "brut",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 688,
+      "spanish": "castillo",
+      "english": "castle",
+      "french": "château",
+      "category": "Naturaleza",
+      "class": "noun"
+    },
+    {
+      "id": 689,
+      "spanish": "bah",
+      "english": "Oh, well",
+      "french": "bah",
+      "category": "",
+      "class": "interjection"
+    },
+    {
+      "id": 690,
+      "spanish": "volcánico",
+      "english": "volcanic",
+      "french": "volcanique",
+      "category": "Salud",
+      "class": "adjective"
+    },
+    {
+      "id": 691,
+      "spanish": "este",
+      "english": "this",
+      "french": "celui-ci",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 692,
+      "spanish": "colesterol",
+      "english": "cholesterol",
+      "french": "cholestérol",
+      "category": "Naturaleza",
+      "class": "noun"
+    },
+    {
+      "id": 693,
+      "spanish": "uau",
+      "english": "Wow",
+      "french": "ouah",
+      "category": "Higiene",
+      "class": "interjection"
+    },
+    {
+      "id": 694,
+      "spanish": "fértil",
+      "english": "fertile",
+      "french": "fertile",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 695,
+      "spanish": "maquillar",
+      "english": "apply makeup",
+      "french": "se maquiller",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 696,
+      "spanish": "entierro",
+      "english": "funeral",
+      "french": "enterrement",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "id": 697,
+      "spanish": "concretar",
+      "english": "to finalize",
+      "french": "concrétiser",
+      "category": "Pensamiento",
+      "class": "verb"
+    },
+    {
+      "id": 698,
+      "spanish": "marinar",
+      "english": "marinate",
+      "french": "mariner",
+      "category": "Política",
+      "class": "verb"
+    },
+    {
+      "id": 699,
+      "spanish": "predecir",
+      "english": "predict",
+      "french": "prédire",
+      "category": "Religión",
+      "class": "verb"
+    },
+    {
+      "id": 700,
+      "spanish": "comunista",
+      "english": "communist",
+      "french": "communiste",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 701,
+      "spanish": "misa",
+      "english": "Mass",
+      "french": "messe",
+      "category": "Casa",
+      "class": "noun"
+    },
+    {
+      "id": 702,
+      "spanish": "alzar",
+      "english": "raise",
+      "french": "lever",
+      "category": "Naturaleza",
+      "class": "verb"
+    },
+    {
+      "id": 703,
+      "spanish": "grifo",
+      "english": "faucet",
+      "french": "robinet",
+      "category": "Medio ambiente",
+      "class": "noun"
+    },
+    {
+      "id": 704,
+      "spanish": "vegetación",
+      "english": "vegetation",
+      "french": "végétation",
+      "category": "Arte y cultura",
+      "class": "noun"
+    },
+    {
+      "id": 705,
+      "spanish": "reutilizar",
+      "english": "reuse",
+      "french": "réutiliser",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 706,
+      "spanish": "drama",
+      "english": "drama",
+      "french": "drame",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 707,
+      "spanish": "silbar",
+      "english": "to whistle",
+      "french": "siffler",
+      "category": "Conflicto",
+      "class": "verb"
+    },
+    {
+      "id": 708,
+      "spanish": "sobrar",
+      "english": "to be left over",
+      "french": "restent",
+      "category": "Arte y cultura",
+      "class": "verb"
+    },
+    {
+      "id": 709,
+      "spanish": "perseguir",
+      "english": "pursue",
+      "french": "poursuivre",
+      "category": "Emociones",
+      "class": "verb"
+    },
+    {
+      "id": 710,
+      "spanish": "inspiración",
+      "english": "inspiration",
+      "french": "inspiration",
+      "category": "Comunicación",
+      "class": "noun"
+    },
+    {
+      "id": 711,
+      "spanish": "encantado",
+      "english": "delighted",
+      "french": "ravi",
+      "category": "Deporte",
+      "class": "adjective"
+    },
+    {
+      "id": 712,
+      "spanish": "coma",
+      "english": "comma",
+      "french": "virgule",
+      "category": "Comunicación",
+      "class": "noun"
+    },
+    {
+      "id": 713,
+      "spanish": "entrenar",
+      "english": "to train",
+      "french": "s'entraîner",
+      "category": "Comida",
+      "class": "verb"
+    },
+    {
+      "id": 714,
+      "spanish": "abreviatura",
+      "english": "abbreviation",
+      "french": "abréviation",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 715,
+      "spanish": "enfriar",
+      "english": "cool down",
+      "french": "refroidir",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 716,
+      "spanish": "preparativo",
+      "english": "preparatory",
+      "french": "préparatoire",
+      "category": "Música",
+      "class": "noun"
+    },
+    {
+      "id": 717,
+      "spanish": "giro",
+      "english": "turn",
+      "french": "transfert",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "id": 718,
+      "spanish": "difunto",
+      "english": "deceased",
+      "french": "défunt",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "id": 719,
+      "spanish": "sonoro",
+      "english": "sonorous",
+      "french": "sonore",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 720,
+      "spanish": "puré",
+      "english": "mashed potatoes",
+      "french": "purée",
+      "category": "Tecnología",
+      "class": "noun"
+    },
+    {
+      "id": 721,
+      "spanish": "placa",
+      "english": "plate",
+      "french": "plaque",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "id": 722,
+      "spanish": "culinario",
+      "english": "culinary",
+      "french": "culinaire",
+      "category": "Comida",
+      "class": "adjective"
+    },
+    {
+      "id": 723,
+      "spanish": "tostar",
+      "english": "to toast",
+      "french": "griller",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 724,
+      "spanish": "obedecer",
+      "english": "to obey",
+      "french": "obéir",
+      "category": "Tecnología",
+      "class": "verb"
+    },
+    {
+      "id": 725,
+      "spanish": "actualizar",
+      "english": "update",
+      "french": "mettre à jour",
+      "category": "Comida",
+      "class": "verb"
+    },
+    {
+      "id": 726,
+      "spanish": "banquete",
+      "english": "banquet",
+      "french": "banquet",
+      "category": "Cabeza",
+      "class": "noun"
+    },
+    {
+      "id": 727,
+      "spanish": "barbilla",
+      "english": "chin",
+      "french": "menton",
+      "category": "Familia",
+      "class": "noun"
+    },
+    {
+      "id": 728,
+      "spanish": "adopción",
+      "english": "adoption",
+      "french": "adoption",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 729,
+      "spanish": "manual",
+      "english": "manual",
+      "french": "manuel",
+      "category": "Política",
+      "class": "adjective"
+    },
+    {
+      "id": 730,
+      "spanish": "pacto",
+      "english": "agreement",
+      "french": "accord",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 731,
+      "spanish": "acercamiento",
+      "english": "approach",
+      "french": "approche",
+      "category": "Herramientas",
+      "class": "noun"
+    },
+    {
+      "id": 732,
+      "spanish": "muelle",
+      "english": "spring",
+      "french": "quai",
+      "category": "Economía",
+      "class": "noun"
+    },
+    {
+      "id": 733,
+      "spanish": "fabricante",
+      "english": "manufacturer",
+      "french": "fabricant",
+      "category": "Historia",
+      "class": "noun"
+    },
+    {
+      "id": 734,
+      "spanish": "aristócrata",
+      "english": "aristocrat",
+      "french": "aristocrate",
+      "category": "Pensamiento",
+      "class": "noun"
+    },
+    {
+      "id": 735,
+      "spanish": "lógico",
+      "english": "logical",
+      "french": "logique",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 736,
+      "spanish": "sirena",
+      "english": "siren",
+      "french": "sirène",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 737,
+      "spanish": "anfitrión",
+      "english": "host",
+      "french": "hôte",
+      "category": "Nacionalidad",
+      "class": "noun"
+    },
+    {
+      "id": 738,
+      "spanish": "asiático",
+      "english": "Asian",
+      "french": "asiatique",
+      "category": "Geografía",
+      "class": "adjective"
+    },
+    {
+      "id": 739,
+      "spanish": "nativo",
+      "english": "native",
+      "french": "natif",
+      "category": "Salud",
+      "class": "noun"
+    },
+    {
+      "id": 740,
+      "spanish": "clínico",
+      "english": "clinical",
+      "french": "clinique",
+      "category": "Viajes",
+      "class": "adjective"
+    },
+    {
+      "id": 741,
+      "spanish": "embarcar",
+      "english": "to board",
+      "french": "embarquer",
+      "category": "Religión",
+      "class": "verb"
+    },
+    {
+      "id": 742,
+      "spanish": "oración",
+      "english": "prayer",
+      "french": "prière",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 743,
+      "spanish": "cazador",
+      "english": "hunter",
+      "french": "chasseur",
+      "category": "Casa",
+      "class": "noun"
+    },
+    {
+      "id": 744,
+      "spanish": "sábana",
+      "english": "sheet",
+      "french": "drap",
+      "category": "Tecnología",
+      "class": "noun"
+    },
+    {
+      "id": 745,
+      "spanish": "reproducir",
+      "english": "play",
+      "french": "lire",
+      "category": "Animales",
+      "class": "verb"
+    },
+    {
+      "id": 746,
+      "spanish": "lobo",
+      "english": "wolf",
+      "french": "loup",
+      "category": "Salud",
+      "class": "noun"
+    },
+    {
+      "id": 747,
+      "spanish": "marear",
+      "english": "to make dizzy",
+      "french": "donner le vertige",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 748,
+      "spanish": "callo",
+      "english": "silence",
+      "french": "callo",
+      "category": "Familia",
+      "class": "noun"
+    },
+    {
+      "id": 749,
+      "spanish": "hija",
+      "english": "daughter",
+      "french": "fille",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 750,
+      "spanish": "aro",
+      "english": "ring",
+      "french": "anneau",
+      "category": "Política",
+      "class": "noun"
+    },
+    {
+      "id": 751,
+      "spanish": "embajada",
+      "english": "embassy",
+      "french": "ambassade",
+      "category": "Arte y cultura",
+      "class": "noun"
+    },
+    {
+      "id": 752,
+      "spanish": "reparto",
+      "english": "cast",
+      "french": "distribution",
+      "category": "Nacionalidad",
+      "class": "noun"
+    },
+    {
+      "id": 753,
+      "spanish": "irlandés",
+      "english": "Irish",
+      "french": "irlandais",
+      "category": "Ingredientes",
+      "class": "adjective"
+    },
+    {
+      "id": 754,
+      "spanish": "vainilla",
+      "english": "vanilla",
+      "french": "vanille",
+      "category": "Política",
+      "class": "noun"
+    },
+    {
+      "id": 755,
+      "spanish": "corrupción",
+      "english": "corruption",
+      "french": "corruption",
+      "category": "Religión",
+      "class": "noun"
+    },
+    {
+      "id": 756,
+      "spanish": "judía",
+      "english": "Jewish",
+      "french": "juive",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 757,
+      "spanish": "explotar",
+      "english": "to explode",
+      "french": "exploser",
+      "category": "Salud",
+      "class": "verb"
+    },
+    {
+      "id": 758,
+      "spanish": "ciego",
+      "english": "blind",
+      "french": "aveugle",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 759,
+      "spanish": "acaso",
+      "english": "perhaps",
+      "french": "peut-être",
+      "category": "Economía",
+      "class": "adverb"
+    },
+    {
+      "id": 760,
+      "spanish": "textil",
+      "english": "textile",
+      "french": "textile",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 761,
+      "spanish": "admitir",
+      "english": "to admit",
+      "french": "admettre",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 762,
+      "spanish": "cuadra",
+      "english": "stable",
+      "french": "écurie",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 763,
+      "spanish": "etiqueta",
+      "english": "label",
+      "french": "étiquette",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 764,
+      "spanish": "subterráneo",
+      "english": "underground",
+      "french": "souterrain",
+      "category": "Espacios",
+      "class": "adjective"
+    },
+    {
+      "id": 765,
+      "spanish": "simbólico",
+      "english": "symbolic",
+      "french": "symbolique",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 766,
+      "spanish": "cancelar",
+      "english": "cancel",
+      "french": "annuler",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 767,
+      "spanish": "mafia",
+      "english": "mafia",
+      "french": "mafia",
+      "category": "Comunicación",
+      "class": "noun"
+    },
+    {
+      "id": 768,
+      "spanish": "murmurar",
+      "english": "to murmur",
+      "french": "marmonner",
+      "category": "Comunicación",
+      "class": "verb"
+    },
+    {
+      "id": 769,
+      "spanish": "sigla",
+      "english": "acronym",
+      "french": "acronyme",
+      "category": "Ciencia",
+      "class": "noun"
+    },
+    {
+      "id": 770,
+      "spanish": "experimental",
+      "english": "experimental",
+      "french": "expérimental",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 771,
+      "spanish": "rapar",
+      "english": "to rap",
+      "french": "raper",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 772,
+      "spanish": "intermedio",
+      "english": "intermediate",
+      "french": "intermédiaire",
+      "category": "Animales",
+      "class": "adjective"
+    },
+    {
+      "id": 773,
+      "spanish": "lagarto",
+      "english": "lizard",
+      "french": "lézard",
+      "category": "Aficiones",
+      "class": "noun"
+    },
+    {
+      "id": 774,
+      "spanish": "acampar",
+      "english": "camping",
+      "french": "faire du camping",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 775,
+      "spanish": "acepto",
+      "english": "I accept",
+      "french": "j'accepte",
+      "category": "Conflicto",
+      "class": "adjective"
+    },
+    {
+      "id": 776,
+      "spanish": "insulto",
+      "english": "insult",
+      "french": "insulte",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 777,
+      "spanish": "inevitable",
+      "english": "inevitable",
+      "french": "inévitable",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 778,
+      "spanish": "hinchar",
+      "english": "to inflate",
+      "french": "gonfler",
+      "category": "Ciencia",
+      "class": "verb"
+    },
+    {
+      "id": 779,
+      "spanish": "física",
+      "english": "physics",
+      "french": "physique",
+      "category": "Salud",
+      "class": "noun"
+    },
+    {
+      "id": 780,
+      "spanish": "toser",
+      "english": "to cough",
+      "french": "tousser",
+      "category": "Espacios",
+      "class": "verb"
+    },
+    {
+      "id": 781,
+      "spanish": "tasca",
+      "english": "tavern",
+      "french": "bistro",
+      "category": "Cambio",
+      "class": "noun"
+    },
+    {
+      "id": 782,
+      "spanish": "transición",
+      "english": "transition",
+      "french": "transition",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "id": 783,
+      "spanish": "aroma",
+      "english": "aroma",
+      "french": "parfum",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 784,
+      "spanish": "soplar",
+      "english": "to blow",
+      "french": "souffler",
+      "category": "Arte y cultura",
+      "class": "verb"
+    },
+    {
+      "id": 785,
+      "spanish": "galardón",
+      "english": "award",
+      "french": "prix",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "id": 786,
+      "spanish": "machacar",
+      "english": "to crush",
+      "french": "écraser",
+      "category": "Sociedad",
+      "class": "verb"
+    },
+    {
+      "id": 787,
+      "spanish": "racismo",
+      "english": "racism",
+      "french": "racisme",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 788,
+      "spanish": "chulo",
+      "english": "cool",
+      "french": "cool",
+      "category": "Higiene",
+      "class": "noun"
+    },
+    {
+      "id": 789,
+      "spanish": "ensuciar",
+      "english": "to make a mess",
+      "french": "salir",
+      "category": "Espacios",
+      "class": "verb"
+    },
+    {
+      "id": 790,
+      "spanish": "pastelería",
+      "english": "pastry shop",
+      "french": "pâtisserie",
+      "category": "Pensamiento",
+      "class": "noun"
+    },
+    {
+      "id": 791,
+      "spanish": "evocar",
+      "english": "to evoke",
+      "french": "évoquer",
+      "category": "Política",
+      "class": "verb"
+    },
+    {
+      "id": 792,
+      "spanish": "gobernar",
+      "english": "to govern",
+      "french": "gouverner",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 793,
+      "spanish": "pasa",
+      "english": "go ahead",
+      "french": "passe",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 794,
+      "spanish": "intacto",
+      "english": "intact",
+      "french": "intact",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 795,
+      "spanish": "granja",
+      "english": "farm",
+      "french": "ferme",
+      "category": "Naturaleza",
+      "class": "noun"
+    },
+    {
+      "id": 796,
+      "spanish": "solear",
+      "english": "to sunbathe",
+      "french": "prendre le soleil",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 797,
+      "spanish": "comportar",
+      "english": "entail",
+      "french": "impliquer",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 798,
+      "spanish": "montaje",
+      "english": "assembly",
+      "french": "montage",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 799,
+      "spanish": "hilo",
+      "english": "thread",
+      "french": "fil",
+      "category": "Ropa",
+      "class": "noun"
+    },
+    {
+      "id": 800,
+      "spanish": "arrugar",
+      "english": "to wrinkle",
+      "french": "froisser",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 801,
+      "spanish": "traficante",
+      "english": "drug dealer",
+      "french": "trafiquant",
+      "category": "Conflicto",
+      "class": "noun"
+    },
+    {
+      "id": 802,
+      "spanish": "reproducción",
+      "english": "reproduction",
+      "french": "reproduction",
+      "category": "Ciencia",
+      "class": "noun"
+    },
+    {
+      "id": 803,
+      "spanish": "hemeroteca",
+      "english": "newspaper archive",
+      "french": "archives de presse",
+      "category": "Comunicación",
+      "class": "noun"
+    },
+    {
+      "id": 804,
+      "spanish": "arqueólogo",
+      "english": "archaeologist",
+      "french": "archéologue",
+      "category": "Historia",
+      "class": "noun"
+    },
+    {
+      "id": 805,
+      "spanish": "fonético",
+      "english": "phonetic",
+      "french": "phonétique",
+      "category": "Comunicación",
+      "class": "adjective"
+    },
+    {
+      "id": 806,
+      "spanish": "jeta",
+      "english": "face",
+      "french": "fille",
+      "category": "Cabeza",
+      "class": "noun"
+    },
+    {
+      "id": 807,
+      "spanish": "clavo",
+      "english": "nail",
+      "french": "clou",
+      "category": "Herramientas",
+      "class": "noun"
+    },
+    {
+      "id": 808,
+      "spanish": "facturar",
+      "english": "to bill",
+      "french": "facturer",
+      "category": "Economía",
+      "class": "verb"
+    },
+    {
+      "id": 809,
+      "spanish": "eslógan",
+      "english": "slogan",
+      "french": "slogan",
+      "category": "Comunicación",
+      "class": "noun"
+    },
+    {
+      "id": 810,
+      "spanish": "catolicismo",
+      "english": "Catholicism",
+      "french": "catholicisme",
+      "category": "Religión",
+      "class": "noun"
+    },
+    {
+      "id": 811,
+      "spanish": "espacial",
+      "english": "spatial",
+      "french": "spatiale",
+      "category": "Ciencia",
+      "class": "adjective"
+    },
+    {
+      "id": 812,
+      "spanish": "contracción",
+      "english": "contraction",
+      "french": "contraction",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 813,
+      "spanish": "chiringuito",
+      "english": "beach bar",
+      "french": "bar de plage",
+      "category": "Espacios",
+      "class": "noun"
+    },
+    {
+      "id": 814,
+      "spanish": "majo",
+      "english": "May",
+      "french": "majo",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 815,
+      "spanish": "baraja",
+      "english": "deck of cards",
+      "french": "jeu de cartes",
+      "category": "Aficiones",
+      "class": "noun"
+    },
+    {
+      "id": 816,
+      "spanish": "popularidad",
+      "english": "popularity",
+      "french": "popularité",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 817,
+      "spanish": "guindilla",
+      "english": "chili pepper",
+      "french": "piment",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "id": 818,
+      "spanish": "sumergir",
+      "english": "to submerge",
+      "french": "plonger",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 819,
+      "spanish": "degustación",
+      "english": "tasting",
+      "french": "dégustation",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "id": 820,
+      "spanish": "guisante",
+      "english": "pea",
+      "french": "petit pois",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "id": 821,
+      "spanish": "rebaja",
+      "english": "discount",
+      "french": "réduction",
+      "category": "Economía",
+      "class": "noun"
+    },
+    {
+      "id": 822,
+      "spanish": "primitivo",
+      "english": "primitive",
+      "french": "primitif",
+      "category": "Historia",
+      "class": "adjective"
+    },
+    {
+      "id": 823,
+      "spanish": "estimulante",
+      "english": "stimulating",
+      "french": "stimulant",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 824,
+      "spanish": "buque",
+      "english": "ship",
+      "french": "navire",
+      "category": "Vehículos",
+      "class": "noun"
+    },
+    {
+      "id": 825,
+      "spanish": "surrealismo",
+      "english": "surrealism",
+      "french": "surréalisme",
+      "category": "Arte y cultura",
+      "class": "noun"
+    },
+    {
+      "id": 826,
+      "spanish": "indignar",
+      "english": "to outrage",
+      "french": "indigner",
+      "category": "Emociones",
+      "class": "verb"
+    },
+    {
+      "id": 827,
+      "spanish": "voseo",
+      "english": "\"voseo\"",
+      "french": "voseo",
+      "category": "Comunicación",
+      "class": "noun"
+    },
+    {
+      "id": 828,
+      "spanish": "valenciano",
+      "english": "Valencian",
+      "french": "valencien",
+      "category": "Geografía",
+      "class": "adjective"
+    },
+    {
+      "id": 829,
+      "spanish": "trompeta",
+      "english": "trumpet",
+      "french": "trompette",
+      "category": "Música",
+      "class": "noun"
+    },
+    {
+      "id": 830,
+      "spanish": "autorretrato",
+      "english": "self-portrait",
+      "french": "autoportrait",
+      "category": "Arte y cultura",
+      "class": "noun"
+    },
+    {
+      "id": 831,
+      "spanish": "adaptación",
+      "english": "adaptation",
+      "french": "adaptation",
+      "category": "Arte y cultura",
+      "class": "noun"
+    },
+    {
+      "id": 832,
+      "spanish": "establecimiento",
+      "english": "establishment",
+      "french": "établissement",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 833,
+      "spanish": "fregar",
+      "english": "scrub",
+      "french": "frotter",
+      "category": "Rutinas",
+      "class": "verb"
+    },
+    {
+      "id": 834,
+      "spanish": "formalidad",
+      "english": "formality",
+      "french": "formalité",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 835,
+      "spanish": "agregar",
+      "english": "add",
+      "french": "ajouter",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 836,
+      "spanish": "cineasta",
+      "english": "filmmaker",
+      "french": "cinéaste",
+      "category": "Arte y cultura",
+      "class": "noun"
+    },
+    {
+      "id": 837,
+      "spanish": "reemplazar",
+      "english": "replace",
+      "french": "remplacer",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 838,
+      "spanish": "cajero",
+      "english": "cashier",
+      "french": "caissier",
+      "category": "Trabajos",
+      "class": "noun"
+    },
+    {
+      "id": 839,
+      "spanish": "chófer",
+      "english": "driver",
+      "french": "chauffeur",
+      "category": "Trabajos",
+      "class": "noun"
+    },
+    {
+      "id": 840,
+      "spanish": "lindar",
+      "english": "to border on",
+      "french": "jouxter",
+      "category": "Geografía",
+      "class": "verb"
+    },
+    {
+      "id": 841,
+      "spanish": "pradera",
+      "english": "meadow",
+      "french": "prairie",
+      "category": "Naturaleza",
+      "class": "noun"
+    },
+    {
+      "id": 842,
+      "spanish": "historiador",
+      "english": "historian",
+      "french": "historien",
+      "category": "Historia",
+      "class": "noun"
+    },
+    {
+      "id": 843,
+      "spanish": "bandoneón",
+      "english": "bandoneon",
+      "french": "bandonéon",
+      "category": "Música",
+      "class": "noun"
+    },
+    {
+      "id": 844,
+      "spanish": "boludo",
+      "english": "idiot",
+      "french": "imbécile",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 845,
+      "spanish": "cuate",
+      "english": "buddy",
+      "french": "copain",
+      "category": "Relaciones",
+      "class": "noun"
+    },
+    {
+      "id": 846,
+      "spanish": "cofradía",
+      "english": "religious brotherhood",
+      "french": "confrérie",
+      "category": "Religión",
+      "class": "noun"
+    },
+    {
+      "id": 847,
+      "spanish": "deformación",
+      "english": "deformation",
+      "french": "déformation",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 848,
+      "spanish": "paranormal",
+      "english": "paranormal",
+      "french": "paranormal",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 849,
+      "spanish": "bordar",
+      "english": "to embroider",
+      "french": "broder",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 850,
+      "spanish": "ancestral",
+      "english": "ancestral",
+      "french": "ancestral",
+      "category": "Ropa",
+      "class": "adjective"
+    },
+    {
+      "id": 851,
+      "spanish": "erupción",
+      "english": "eruption",
+      "french": "éruption",
+      "category": "Historia",
+      "class": "noun"
+    },
+    {
+      "id": 852,
+      "spanish": "facha",
+      "english": "fascist",
+      "french": "fascisme",
+      "category": "Naturaleza",
+      "class": "noun"
+    },
+    {
+      "id": 853,
+      "spanish": "antelación",
+      "english": "in advance",
+      "french": "à l'avance",
+      "category": "Política",
+      "class": "noun"
+    },
+    {
+      "id": 854,
+      "spanish": "bastón",
+      "english": "cane",
+      "french": "canne",
+      "category": "Hora",
+      "class": "noun"
+    },
+    {
+      "id": 855,
+      "spanish": "manipular",
+      "english": "to manipulate",
+      "french": "manipuler",
+      "category": "Salud",
+      "class": "verb"
+    },
+    {
+      "id": 856,
+      "spanish": "son",
+      "english": "are",
+      "french": "sont",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 857,
+      "spanish": "laberinto",
+      "english": "maze",
+      "french": "labyrinthe",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 858,
+      "spanish": "sonriente",
+      "english": "smiling",
+      "french": "souriant",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 859,
+      "spanish": "violeta",
+      "english": "violet",
+      "french": "violet",
+      "category": "Colores",
+      "class": "noun"
+    },
+    {
+      "id": 860,
+      "spanish": "brusco",
+      "english": "abrupt",
+      "french": "brusque",
+      "category": "Personalidad",
+      "class": "adjective"
+    },
+    {
+      "id": 861,
+      "spanish": "naranjo",
+      "english": "orange tree",
+      "french": "oranger",
+      "category": "Naturaleza",
+      "class": "noun"
+    },
+    {
+      "id": 862,
+      "spanish": "subjetivo",
+      "english": "subjective",
+      "french": "subjectif",
+      "category": "Pensamiento",
+      "class": "adjective"
+    },
+    {
+      "id": 863,
+      "spanish": "canelón",
+      "english": "cannelloni",
+      "french": "canelon",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "id": 864,
+      "spanish": "bañera",
+      "english": "bathtub",
+      "french": "baignoire",
+      "category": "Casa",
+      "class": "noun"
+    },
+    {
+      "id": 865,
+      "spanish": "pilar",
+      "english": "pillar",
+      "french": "pilier",
+      "category": "Construcción",
+      "class": "noun"
+    },
+    {
+      "id": 866,
+      "spanish": "gratificante",
+      "english": "rewarding",
+      "french": "enrichissant",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 867,
+      "spanish": "literal",
+      "english": "literal",
+      "french": "littéral",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 868,
+      "spanish": "sudor",
+      "english": "sweat",
+      "french": "sueur",
+      "category": "Cuerpo",
+      "class": "noun"
+    },
+    {
+      "id": 869,
+      "spanish": "furgoneta",
+      "english": "van",
+      "french": "fourgonnette",
+      "category": "Vehículos",
+      "class": "noun"
+    },
+    {
+      "id": 870,
+      "spanish": "chulapo",
+      "english": "chulapo",
+      "french": "chulapo",
+      "category": "Arte y cultura",
+      "class": "noun"
+    },
+    {
+      "id": 871,
+      "spanish": "va",
+      "english": "goes",
+      "french": "voilà",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 872,
+      "spanish": "nena",
+      "english": "girl",
+      "french": "petite fille",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 873,
+      "spanish": "clandestino",
+      "english": "underground",
+      "french": "clandestin",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 874,
+      "spanish": "bife",
+      "english": "steak",
+      "french": "steak",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "id": 875,
+      "spanish": "comparsa",
+      "english": "parade group",
+      "french": "troupe",
+      "category": "Arte y cultura",
+      "class": "noun"
+    },
+    {
+      "id": 876,
+      "spanish": "antropología",
+      "english": "anthropology",
+      "french": "anthropologie",
+      "category": "Ciencia",
+      "class": "noun"
+    },
+    {
+      "id": 877,
+      "spanish": "madurar",
+      "english": "to mature",
+      "french": "mûrir",
+      "category": "Cambio",
+      "class": "verb"
+    },
+    {
+      "id": 878,
+      "spanish": "concienciar",
+      "english": "raise awareness",
+      "french": "sensibiliser",
+      "category": "Sociedad",
+      "class": "verb"
+    },
+    {
+      "id": 879,
+      "spanish": "sostenibilidad",
+      "english": "sustainability",
+      "french": "durabilité",
+      "category": "Medio ambiente",
+      "class": "noun"
+    },
+    {
+      "id": 880,
+      "spanish": "percusión",
+      "english": "percussion",
+      "french": "percussion",
+      "category": "Música",
+      "class": "noun"
+    },
+    {
+      "id": 881,
+      "spanish": "borracho",
+      "english": "drunk",
+      "french": "ivre",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 882,
+      "spanish": "mensajero",
+      "english": "messenger",
+      "french": "messager",
+      "category": "Trabajos",
+      "class": "noun"
+    },
+    {
+      "id": 883,
+      "spanish": "predicción",
+      "english": "prediction",
+      "french": "prévision",
+      "category": "Pensamiento",
+      "class": "noun"
+    },
+    {
+      "id": 884,
+      "spanish": "biólogo",
+      "english": "biologist",
+      "french": "biologiste",
+      "category": "Trabajos",
+      "class": "noun"
+    },
+    {
+      "id": 885,
+      "spanish": "ché",
+      "english": "hey",
+      "french": "ché",
+      "category": "",
+      "class": "interjection"
+    },
+    {
+      "id": 886,
+      "spanish": "daiquiri",
+      "english": "daiquiri",
+      "french": "daiquiri",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "id": 887,
+      "spanish": "grapa",
+      "english": "staple",
+      "french": "agrafe",
+      "category": "Herramientas",
+      "class": "noun"
+    },
+    {
+      "id": 888,
+      "spanish": "incienso",
+      "english": "incense",
+      "french": "encens",
+      "category": "Religión",
+      "class": "noun"
+    },
+    {
+      "id": 889,
+      "spanish": "extra",
+      "english": "extra",
+      "french": "supplément",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 890,
+      "spanish": "acordeón",
+      "english": "accordion",
+      "french": "accordéon",
+      "category": "Música",
+      "class": "noun"
+    },
+    {
+      "id": 891,
+      "spanish": "violín",
+      "english": "violin",
+      "french": "violon",
+      "category": "Música",
+      "class": "noun"
+    },
+    {
+      "id": 892,
+      "spanish": "derretir",
+      "english": "melt",
+      "french": "faire fondre",
+      "category": "Cambio",
+      "class": "verb"
+    },
+    {
+      "id": 893,
+      "spanish": "buceo",
+      "english": "diving",
+      "french": "plongée",
+      "category": "Deporte",
+      "class": "noun"
+    },
+    {
+      "id": 894,
+      "spanish": "estacionar",
+      "english": "park",
+      "french": "se garer",
+      "category": "Vehículos",
+      "class": "verb"
+    },
+    {
+      "id": 895,
+      "spanish": "madrugada",
+      "english": "early morning",
+      "french": "aube",
+      "category": "Hora",
+      "class": "noun"
+    },
+    {
+      "id": 896,
+      "spanish": "latir",
+      "english": "to beat",
+      "french": "battre",
+      "category": "Cuerpo",
+      "class": "verb"
+    },
+    {
+      "id": 897,
+      "spanish": "cartero",
+      "english": "mail carrier",
+      "french": "facteur",
+      "category": "Trabajos",
+      "class": "noun"
+    },
+    {
+      "id": 898,
+      "spanish": "rabia",
+      "english": "rabies",
+      "french": "rage",
+      "category": "Salud",
+      "class": "noun"
+    },
+    {
+      "id": 899,
+      "spanish": "imperativo",
+      "english": "imperative",
+      "french": "impératif",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 900,
+      "spanish": "plantación",
+      "english": "plantation",
+      "french": "plantation",
+      "category": "Naturaleza",
+      "class": "noun"
+    },
+    {
+      "id": 901,
+      "spanish": "cafetero",
+      "english": "coffee maker",
+      "french": "cafetière",
+      "category": "Comida",
+      "class": "adjective"
+    },
+    {
+      "id": 902,
+      "spanish": "circulación",
+      "english": "circulation",
+      "french": "circulation",
+      "category": "Movimiento",
+      "class": "noun"
+    },
+    {
+      "id": 903,
+      "spanish": "revivir",
+      "english": "revive",
+      "french": "revivre",
+      "category": "Cambio",
+      "class": "verb"
+    },
+    {
+      "id": 904,
+      "spanish": "pagano",
+      "english": "pagan",
+      "french": "païen",
+      "category": "Religión",
+      "class": "adjective"
+    },
+    {
+      "id": 905,
+      "spanish": "decorativo",
+      "english": "decorative",
+      "french": "décoratif",
+      "category": "Arte y cultura",
+      "class": "adjective"
+    },
+    {
+      "id": 906,
+      "spanish": "grabación",
+      "english": "recording",
+      "french": "enregistrement",
+      "category": "Comunicación",
+      "class": "noun"
+    },
+    {
+      "id": 907,
+      "spanish": "ovni",
+      "english": "UFO",
+      "french": "OVNI",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 908,
+      "spanish": "voluntariado",
+      "english": "volunteering",
+      "french": "bénévolat",
+      "category": "Sociedad",
+      "class": "noun"
+    },
+    {
+      "id": 909,
+      "spanish": "boliche",
+      "english": "bowling alley",
+      "french": "bowling",
+      "category": "Aficiones",
+      "class": "noun"
+    },
+    {
+      "id": 910,
+      "spanish": "bretón",
+      "english": "Breton",
+      "french": "breton",
+      "category": "Nacionalidad",
+      "class": "adjective"
+    },
+    {
+      "id": 911,
+      "spanish": "chamaco",
+      "english": "kid",
+      "french": "gamin",
+      "category": "Familia",
+      "class": "noun"
+    },
+    {
+      "id": 912,
+      "spanish": "ciao",
+      "english": "Bye",
+      "french": "ciao",
+      "category": "Saludos",
+      "class": "interjection"
+    },
+    {
+      "id": 913,
+      "spanish": "computador",
+      "english": "computer",
+      "french": "ordinateur",
+      "category": "Tecnología",
+      "class": "noun"
+    },
+    {
+      "id": 914,
+      "spanish": "milico",
+      "english": "soldier",
+      "french": "militaire",
+      "category": "Trabajos",
+      "class": "noun"
+    },
+    {
+      "id": 915,
+      "spanish": "muralista",
+      "english": "muralist",
+      "french": "peintre muraliste",
+      "category": "Arte y cultura",
+      "class": "noun"
+    },
+    {
+      "id": 916,
+      "spanish": "sensual",
+      "english": "sensual",
+      "french": "sensuel",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 917,
+      "spanish": "ambulancia",
+      "english": "ambulance",
+      "french": "ambulance",
+      "category": "Vehículos",
+      "class": "noun"
+    },
+    {
+      "id": 918,
+      "spanish": "paralizar",
+      "english": "paralyze",
+      "french": "paralyser",
+      "category": "Salud",
+      "class": "verb"
+    },
+    {
+      "id": 919,
+      "spanish": "incaico",
+      "english": "Inca-style",
+      "french": "incaïque",
+      "category": "Historia",
+      "class": "adjective"
+    },
+    {
+      "id": 920,
+      "spanish": "delantero",
+      "english": "forward",
+      "french": "attaquant",
+      "category": "Deporte",
+      "class": "noun"
+    },
+    {
+      "id": 921,
+      "spanish": "ll",
+      "english": "ll",
+      "french": "ll",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 922,
+      "spanish": "polinesio",
+      "english": "Polynesian",
+      "french": "polynésien",
+      "category": "Nacionalidad",
+      "class": "adjective"
+    },
+    {
+      "id": 923,
+      "spanish": "cabaret",
+      "english": "cabaret",
+      "french": "cabaret",
+      "category": "Arte y cultura",
+      "class": "noun"
+    },
+    {
+      "id": 924,
+      "spanish": "atascar",
+      "english": "to jam",
+      "french": "se coincer",
+      "category": "Movimiento",
+      "class": "verb"
+    },
+    {
+      "id": 925,
+      "spanish": "maltratar",
+      "english": "abuse",
+      "french": "maltraiter",
+      "category": "Conflicto",
+      "class": "verb"
+    },
+    {
+      "id": 926,
+      "spanish": "contaminante",
+      "english": "pollutant",
+      "french": "polluant",
+      "category": "Medio ambiente",
+      "class": "adjective"
+    },
+    {
+      "id": 927,
+      "spanish": "enchilar",
+      "english": "to spice up",
+      "french": "épicer",
+      "category": "Ingredientes",
+      "class": "verb"
+    },
+    {
+      "id": 928,
+      "spanish": "bordado",
+      "english": "embroidery",
+      "french": "broderie",
+      "category": "Arte y cultura",
+      "class": "noun"
+    },
+    {
+      "id": 929,
+      "spanish": "hospedar",
+      "english": "to host",
+      "french": "héberger",
+      "category": "Viajes",
+      "class": "verb"
+    },
+    {
+      "id": 930,
+      "spanish": "cantina",
+      "english": "bar",
+      "french": "bistro",
+      "category": "Espacios",
+      "class": "noun"
+    },
+    {
+      "id": 931,
+      "spanish": "anteojo",
+      "english": "spectacles",
+      "french": "lunettes",
+      "category": "Ropa",
+      "class": "noun"
+    },
+    {
+      "id": 932,
+      "spanish": "cautiverio",
+      "english": "captivity",
+      "french": "captivité",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 933,
+      "spanish": "gachupín",
+      "english": "Spaniard",
+      "french": "Espagnol",
+      "category": "Nacionalidad",
+      "class": "noun"
+    },
+    {
+      "id": 934,
+      "spanish": "gomina",
+      "english": "hair gel",
+      "french": "gel coiffant",
+      "category": "Higiene",
+      "class": "noun"
+    },
+    {
+      "id": 935,
+      "spanish": "lunfardo",
+      "english": "Lunfardo",
+      "french": "lunfardo",
+      "category": "Comunicación",
+      "class": "noun"
+    },
+    {
+      "id": 936,
+      "spanish": "medialuna",
+      "english": "crescent",
+      "french": "croissant",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "id": 937,
+      "spanish": "partícula",
+      "english": "particle",
+      "french": "particule",
+      "category": "Ciencia",
+      "class": "noun"
+    },
+    {
+      "id": 938,
+      "spanish": "pulsera",
+      "english": "bracelet",
+      "french": "bracelet",
+      "category": "Ropa",
+      "class": "noun"
+    },
+    {
+      "id": 939,
+      "spanish": "rebozo",
+      "english": "shawl",
+      "french": "châle",
+      "category": "Ropa",
+      "class": "noun"
+    },
+    {
+      "id": 940,
+      "spanish": "saluda",
+      "english": "say hello",
+      "french": "salue",
+      "category": "Saludos",
+      "class": "noun"
+    },
+    {
+      "id": 941,
+      "spanish": "valija",
+      "english": "suitcase",
+      "french": "valise",
+      "category": "Viajes",
+      "class": "noun"
+    },
+    {
+      "id": 942,
+      "spanish": "aspirador",
+      "english": "vacuum cleaner",
+      "french": "aspirateur",
+      "category": "Casa",
+      "class": "noun"
+    },
+    {
+      "id": 943,
+      "spanish": "recompensa",
+      "english": "reward",
+      "french": "récompense",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 944,
+      "spanish": "trasero",
+      "english": "rear",
+      "french": "arrière",
+      "category": "Cuerpo",
+      "class": "adjective"
+    },
+    {
+      "id": 945,
+      "spanish": "atracar",
+      "english": "dock",
+      "french": "accoster",
+      "category": "Viajes",
+      "class": "verb"
+    },
+    {
+      "id": 946,
+      "spanish": "oyente",
+      "english": "listener",
+      "french": "auditeur",
+      "category": "Comunicación",
+      "class": "noun"
+    },
+    {
+      "id": 947,
+      "spanish": "telepatía",
+      "english": "telepathy",
+      "french": "télépathie",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 948,
+      "spanish": "gala",
+      "english": "gala",
+      "french": "gala",
+      "category": "Arte y cultura",
+      "class": "noun"
+    },
+    {
+      "id": 949,
+      "spanish": "carajillo",
+      "english": "liqueur coffee",
+      "french": "café arrosé",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "id": 950,
+      "spanish": "araucano",
+      "english": "Araucanian",
+      "french": "araucan",
+      "category": "Nacionalidad",
+      "class": "adjective"
+    },
+    {
+      "id": 951,
+      "spanish": "escarabajo",
+      "english": "beetle",
+      "french": "scarabée",
+      "category": "Animales",
+      "class": "noun"
+    },
+    {
+      "id": 952,
+      "spanish": "visado",
+      "english": "visa",
+      "french": "visa",
+      "category": "Viajes",
+      "class": "noun"
+    },
+    {
+      "id": 953,
+      "spanish": "astrología",
+      "english": "astrology",
+      "french": "astrologie",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 954,
+      "spanish": "desechable",
+      "english": "disposable",
+      "french": "jetable",
+      "category": "Medio ambiente",
+      "class": "adjective"
+    },
+    {
+      "id": 955,
+      "spanish": "sureste",
+      "english": "southeast",
+      "french": "sud-est",
+      "category": "Geografía",
+      "class": "noun"
+    },
+    {
+      "id": 956,
+      "spanish": "costura",
+      "english": "sewing",
+      "french": "couture",
+      "category": "Ropa",
+      "class": "noun"
+    },
+    {
+      "id": 957,
+      "spanish": "sargento",
+      "english": "sergeant",
+      "french": "sergent",
+      "category": "Trabajos",
+      "class": "noun"
+    },
+    {
+      "id": 958,
+      "spanish": "vistilla",
+      "english": "vistilla",
+      "french": "petite étiquette",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 959,
+      "spanish": "vaina",
+      "english": "pod",
+      "french": "gaine",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "id": 960,
+      "spanish": "rescate",
+      "english": "rescue",
+      "french": "sauvetage",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 961,
+      "spanish": "ahuehuete",
+      "english": "Montezuma cypress",
+      "french": "cyprès de marais mexicain",
+      "category": "Naturaleza",
+      "class": "noun"
+    },
+    {
+      "id": 962,
+      "spanish": "conversacional",
+      "english": "conversational",
+      "french": "conversationnel",
+      "category": "Comunicación",
+      "class": "adjective"
+    },
+    {
+      "id": 963,
+      "spanish": "mozo",
+      "english": "waiter",
+      "french": "serveur",
+      "category": "Trabajos",
+      "class": "noun"
+    },
+    {
+      "id": 964,
+      "spanish": "pavada",
+      "english": "nonsense",
+      "french": "bêtise",
+      "category": "",
+      "class": "noun"
+    },
+    {
+      "id": 965,
+      "spanish": "pololo",
+      "english": "boyfriend",
+      "french": "petit ami",
+      "category": "Relaciones",
+      "class": "noun"
+    },
+    {
+      "id": 966,
+      "spanish": "tarro",
+      "english": "jar",
+      "french": "pot",
+      "category": "Casa",
+      "class": "noun"
+    },
+    {
+      "id": 967,
+      "spanish": "lamentable",
+      "english": "regrettable",
+      "french": "regrettable",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 968,
+      "spanish": "mapuche",
+      "english": "Mapuche",
+      "french": "mapuche",
+      "category": "Nacionalidad",
+      "class": "noun"
+    },
+    {
+      "id": 969,
+      "spanish": "radiofónico",
+      "english": "radio",
+      "french": "radiophonique",
+      "category": "Comunicación",
+      "class": "adjective"
+    },
+    {
+      "id": 970,
+      "spanish": "ensayista",
+      "english": "essayist",
+      "french": "essayiste",
+      "category": "Literatura",
+      "class": "noun"
+    },
+    {
+      "id": 971,
+      "spanish": "reciclado",
+      "english": "recycled",
+      "french": "recyclé",
+      "category": "Medio ambiente",
+      "class": "noun"
+    },
+    {
+      "id": 972,
+      "spanish": "danzante",
+      "english": "dancer",
+      "french": "danseur",
+      "category": "Arte y cultura",
+      "class": "noun"
+    },
+    {
+      "id": 973,
+      "spanish": "skin",
+      "english": "skin",
+      "french": "skin",
+      "category": "Tecnología",
+      "class": "noun"
+    },
+    {
+      "id": 974,
+      "spanish": "cabo",
+      "english": "cable",
+      "french": "cap",
+      "category": "Herramientas",
+      "class": "noun"
+    },
+    {
+      "id": 975,
+      "spanish": "trama",
+      "english": "plot",
+      "french": "intrigue",
+      "category": "Literatura",
+      "class": "noun"
+    },
+    {
+      "id": 976,
+      "spanish": "vaciar",
+      "english": "empty",
+      "french": "vider",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 977,
+      "spanish": "fe",
+      "english": "faith",
+      "french": "foi",
+      "category": "Religión",
+      "class": "noun"
+    },
+    {
+      "id": 978,
+      "spanish": "coartar",
+      "english": "restrict",
+      "french": "restreindre",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 979,
+      "spanish": "litrona",
+      "english": "litrona",
+      "french": "litrona",
+      "category": "Comida",
+      "class": "noun"
+    },
+    {
+      "id": 980,
+      "spanish": "yupi",
+      "english": "yippee",
+      "french": "youpi",
+      "category": "Emociones",
+      "class": "interjection"
+    },
+    {
+      "id": 981,
+      "spanish": "lechuga",
+      "english": "lettuce",
+      "french": "laitue",
+      "category": "Ingredientes",
+      "class": "noun"
+    },
+    {
+      "id": 982,
+      "spanish": "volante",
+      "english": "flyer",
+      "french": "volant",
+      "category": "Comunicación",
+      "class": "noun"
+    },
+    {
+      "id": 983,
+      "spanish": "dragón",
+      "english": "dragon",
+      "french": "dragon",
+      "category": "Animales",
+      "class": "noun"
+    },
+    {
+      "id": 984,
+      "spanish": "fusilar",
+      "english": "to shoot",
+      "french": "fusiller",
+      "category": "Conflicto",
+      "class": "verb"
+    },
+    {
+      "id": 985,
+      "spanish": "bailante",
+      "english": "dancer",
+      "french": "danseur",
+      "category": "Arte y cultura",
+      "class": "adjective"
+    },
+    {
+      "id": 986,
+      "spanish": "desenterrar",
+      "english": "to dig up",
+      "french": "déterrer",
+      "category": "",
+      "class": "verb"
+    },
+    {
+      "id": 987,
+      "spanish": "barlovento",
+      "english": "windward",
+      "french": "au vent",
+      "category": "Clima",
+      "class": "noun"
+    },
+    {
+      "id": 988,
+      "spanish": "cofrade",
+      "english": "member of a religious brotherhood",
+      "french": "membre d'une confrérie",
+      "category": "Religión",
+      "class": "noun"
+    },
+    {
+      "id": 989,
+      "spanish": "judo",
+      "english": "judo",
+      "french": "judo",
+      "category": "Deporte",
+      "class": "noun"
+    },
+    {
+      "id": 990,
+      "spanish": "explosivo",
+      "english": "explosive",
+      "french": "explosif",
+      "category": "Conflicto",
+      "class": "noun"
+    },
+    {
+      "id": 991,
+      "spanish": "devoto",
+      "english": "devout",
+      "french": "dévoué",
+      "category": "Religión",
+      "class": "noun"
+    },
+    {
+      "id": 992,
+      "spanish": "hipnotizador",
+      "english": "hypnotist",
+      "french": "hypnotiseur",
+      "category": "",
+      "class": "adjective"
+    },
+    {
+      "id": 993,
+      "spanish": "estatuilla",
+      "english": "figurine",
+      "french": "figurine",
+      "category": "Arte y cultura",
+      "class": "noun"
+    }
+  ]
+}

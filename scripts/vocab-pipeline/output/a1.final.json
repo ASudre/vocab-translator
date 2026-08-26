@@ -1,0 +1,8563 @@
+[
+  {
+    "spanish": "tener",
+    "english": "to have",
+    "french": "avoir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "más",
+    "english": "more",
+    "french": "plus",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "hacer",
+    "english": "to do",
+    "french": "faire",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "ir",
+    "english": "go",
+    "french": "aller",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "muy",
+    "english": "very",
+    "french": "très",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "poder",
+    "english": "power",
+    "french": "pouvoir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "decir",
+    "english": "to say",
+    "french": "c'est-à-dire",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "año",
+    "english": "year",
+    "french": "année",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "ver",
+    "english": "see",
+    "french": "voir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "querer",
+    "english": "to want",
+    "french": "vouloir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "saber",
+    "english": "to know",
+    "french": "savoir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "también",
+    "english": "also",
+    "french": "aussi",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "casa",
+    "english": "home",
+    "french": "maison",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "día",
+    "english": "day",
+    "french": "jour",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "dar",
+    "english": "to give",
+    "french": "donner",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "hablar",
+    "english": "to speak",
+    "french": "parler",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "pasar",
+    "english": "to pass",
+    "french": "passer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "vez",
+    "english": "time",
+    "french": "fois",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "ya",
+    "english": "already",
+    "french": "déjà",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "llamar",
+    "english": "call",
+    "french": "appeler",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "bueno",
+    "english": "well",
+    "french": "bon",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "vivir",
+    "english": "to live",
+    "french": "vivre",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "persona",
+    "english": "person",
+    "french": "personne",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "gustar",
+    "english": "to like",
+    "french": "aimer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "bien",
+    "english": "well",
+    "french": "bien",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "llegar",
+    "english": "to arrive",
+    "french": "arriver",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "conocer",
+    "english": "to know",
+    "french": "connaître",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "ciudad",
+    "english": "city",
+    "french": "ville",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "mundo",
+    "english": "world",
+    "french": "monde",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "país",
+    "english": "country",
+    "french": "pays",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "llevar",
+    "english": "carry",
+    "french": "porter",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "parecer",
+    "english": "appear",
+    "french": "sembler",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "cosa",
+    "english": "thing",
+    "french": "chose",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "español",
+    "english": "Spanish",
+    "french": "espagnol",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "siempre",
+    "english": "always",
+    "french": "toujours",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "trabajo",
+    "english": "work",
+    "french": "travail",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "sí",
+    "english": "yes",
+    "french": "oui",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "pensar",
+    "english": "to think",
+    "french": "penser",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "tiempo",
+    "english": "time",
+    "french": "temps",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "poner",
+    "english": "put",
+    "french": "mettre",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "vida",
+    "english": "life",
+    "french": "vie",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "ahora",
+    "english": "now",
+    "french": "maintenant",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "encontrar",
+    "english": "find",
+    "french": "trouver",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "nuevo",
+    "english": "new",
+    "french": "nouveau",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "empezar",
+    "english": "get started",
+    "french": "commencer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "salir",
+    "english": "to go out",
+    "french": "sortir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "mucho",
+    "english": "a lot",
+    "french": "beaucoup",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "creer",
+    "english": "to believe",
+    "french": "croire",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "mujer",
+    "english": "woman",
+    "french": "femme",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "trabajar",
+    "english": "to work",
+    "french": "travailler",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "mismo",
+    "english": "same",
+    "french": "idem",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "amigo",
+    "english": "friend",
+    "french": "ami",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "dejar",
+    "english": "to leave",
+    "french": "laisser",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "mirar",
+    "english": "look",
+    "french": "regarder",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "aquí",
+    "english": "here",
+    "french": "ici",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "comer",
+    "english": "eat",
+    "french": "manger",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "importante",
+    "english": "important",
+    "french": "important",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "gente",
+    "english": "people",
+    "french": "les gens",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "mejor",
+    "english": "best",
+    "french": "mieux",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "tomar",
+    "english": "take",
+    "french": "prendre",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "tan",
+    "english": "so",
+    "french": "aussi",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "volver",
+    "english": "back",
+    "french": "retour",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "quedar",
+    "english": "to remain",
+    "french": "rester",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "noche",
+    "english": "night",
+    "french": "nuit",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "así",
+    "english": "like this",
+    "french": "ainsi",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "deber",
+    "english": "duty",
+    "french": "devoir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "lugar",
+    "english": "place",
+    "french": "lieu",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "gran",
+    "english": "big",
+    "french": "grand",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "venir",
+    "english": "to come",
+    "french": "venir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "hombre",
+    "english": "man",
+    "french": "homme",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "problema",
+    "english": "problem",
+    "french": "problème",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "pequeño",
+    "english": "small",
+    "french": "petit",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "historia",
+    "english": "history",
+    "french": "histoire",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "padre",
+    "english": "father",
+    "french": "père",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "nunca",
+    "english": "never",
+    "french": "jamais",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "hora",
+    "english": "time",
+    "french": "heure",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "niño",
+    "english": "child",
+    "french": "enfant",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "seguir",
+    "english": "continue",
+    "french": "continuer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "momento",
+    "english": "moment",
+    "french": "instant",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "familia",
+    "english": "family",
+    "french": "famille",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "comprar",
+    "english": "buy",
+    "french": "acheter",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "después",
+    "english": "after",
+    "french": "ensuite",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "buscar",
+    "english": "search",
+    "french": "rechercher",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "contar",
+    "english": "to count",
+    "french": "compter",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "semana",
+    "english": "week",
+    "french": "semaine",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "además",
+    "english": "in addition",
+    "french": "en outre",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "grande",
+    "english": "large",
+    "french": "grand",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "casi",
+    "english": "almost",
+    "french": "presque",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "parte",
+    "english": "part",
+    "french": "partie",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "hoy",
+    "english": "today",
+    "french": "aujourd'hui",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "usar",
+    "english": "use",
+    "french": "utiliser",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "hijo",
+    "english": "son",
+    "french": "fils",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "poco",
+    "english": "a little",
+    "french": "un peu",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "nombre",
+    "english": "name",
+    "french": "nom",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "solo",
+    "english": "only",
+    "french": "seul",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "verdad",
+    "english": "truth",
+    "french": "vérité",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "necesitar",
+    "english": "need",
+    "french": "avoir besoin de",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "abrir",
+    "english": "open",
+    "french": "ouvrir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "centro",
+    "english": "center",
+    "french": "centre",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "escribir",
+    "english": "write",
+    "french": "écrire",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "esperar",
+    "english": "wait",
+    "french": "attendre",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "menos",
+    "english": "at least",
+    "french": "au moins",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "calle",
+    "english": "street",
+    "french": "rue",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "leer",
+    "english": "read",
+    "french": "lire",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "sentar",
+    "english": "sit down",
+    "french": "s'asseoir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "forma",
+    "english": "form",
+    "french": "forme",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "fiesta",
+    "english": "party",
+    "french": "fête",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "preguntar",
+    "english": "ask",
+    "french": "demander",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "viaje",
+    "english": "trip",
+    "french": "voyage",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "diferente",
+    "english": "different",
+    "french": "différent",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "grupo",
+    "english": "group",
+    "french": "groupe",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "pedir",
+    "english": "to ask",
+    "french": "demander",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "empresa",
+    "english": "company",
+    "french": "entreprise",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "mayor",
+    "english": "older",
+    "french": "plus grand",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "mano",
+    "english": "hand",
+    "french": "main",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "música",
+    "english": "music",
+    "french": "musique",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "mes",
+    "english": "month",
+    "french": "mois",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "sentir",
+    "english": "to feel",
+    "french": "ressentir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "lengua",
+    "english": "language",
+    "french": "langue",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "entrar",
+    "english": "enter",
+    "french": "entrer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "libro",
+    "english": "book",
+    "french": "livre",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "fin",
+    "english": "end",
+    "french": "fin",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "dormir",
+    "english": "sleep",
+    "french": "dormir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "luego",
+    "english": "then",
+    "french": "ensuite",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "producto",
+    "english": "product",
+    "french": "produit",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "perder",
+    "english": "to lose",
+    "french": "perdre",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "clase",
+    "english": "class",
+    "french": "cours",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "pueblo",
+    "english": "town",
+    "french": "village",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "alto",
+    "english": "tall",
+    "french": "haut",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "entonces",
+    "english": "so",
+    "french": "alors",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "número",
+    "english": "number",
+    "french": "numéro",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "cultura",
+    "english": "culture",
+    "french": "culture",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "explicar",
+    "english": "explain",
+    "french": "expliquer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "medio",
+    "english": "half",
+    "french": "moyen",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "madre",
+    "english": "mother",
+    "french": "mère",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "agua",
+    "english": "water",
+    "french": "eau",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "terminar",
+    "english": "finish",
+    "french": "terminer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "palabra",
+    "english": "word",
+    "french": "mot",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "ojo",
+    "english": "eye",
+    "french": "attention",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "largo",
+    "english": "long",
+    "french": "long",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "cambiar",
+    "english": "change",
+    "french": "changer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "idea",
+    "english": "idea",
+    "french": "idée",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "decidir",
+    "english": "decide",
+    "french": "décider",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "estudio",
+    "english": "study",
+    "french": "étude",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "preparar",
+    "english": "prepare",
+    "french": "préparer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "hotel",
+    "english": "hotel",
+    "french": "hôtel",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "ofrecer",
+    "english": "offer",
+    "french": "proposer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "café",
+    "english": "coffee",
+    "french": "café",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "tipo",
+    "english": "type",
+    "french": "type",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "coche",
+    "english": "car",
+    "french": "voiture",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "caso",
+    "english": "case",
+    "french": "cas",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "tanto",
+    "english": "so much",
+    "french": "autant",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "amor",
+    "english": "love",
+    "french": "amour",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "puerta",
+    "english": "door",
+    "french": "porte",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "comida",
+    "english": "food",
+    "french": "repas",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "ayudar",
+    "english": "help",
+    "french": "aider",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "dinero",
+    "english": "money",
+    "french": "argent",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "social",
+    "english": "social",
+    "french": "social",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "pregunta",
+    "english": "question",
+    "french": "question",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "estudiar",
+    "english": "to study",
+    "french": "étudier",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "manera",
+    "english": "way",
+    "french": "façon",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "restaurante",
+    "english": "restaurant",
+    "french": "restaurant",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "nacer",
+    "english": "to be born",
+    "french": "naître",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "película",
+    "english": "movie",
+    "french": "film",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "allí",
+    "english": "there",
+    "french": "là-bas",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "recibir",
+    "english": "receive",
+    "french": "recevoir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "oír",
+    "english": "to hear",
+    "french": "entendre",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "realizar",
+    "english": "to carry out",
+    "french": "effectuer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "cocina",
+    "english": "kitchen",
+    "french": "cuisine",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "recordar",
+    "english": "to remember",
+    "french": "se souvenir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "final",
+    "english": "final",
+    "french": "finale",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "plaza",
+    "english": "square",
+    "french": "place",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "mañana",
+    "english": "tomorrow",
+    "french": "demain",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "descubrir",
+    "english": "discover",
+    "french": "découvrir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "único",
+    "english": "unique",
+    "french": "unique",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "utilizar",
+    "english": "use",
+    "french": "utiliser",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "existir",
+    "english": "to exist",
+    "french": "exister",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "compañero",
+    "english": "colleague",
+    "french": "collègue",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "chico",
+    "english": "boy",
+    "french": "garçon",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "entender",
+    "english": "understand",
+    "french": "comprendre",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "visitar",
+    "english": "visit",
+    "french": "visiter",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "color",
+    "english": "color",
+    "french": "couleur",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "conseguir",
+    "english": "to get",
+    "french": "obtenir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "morir",
+    "english": "to die",
+    "french": "mourir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "playa",
+    "english": "beach",
+    "french": "plage",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "presentar",
+    "english": "to present",
+    "french": "présenter",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "universidad",
+    "english": "university",
+    "french": "université",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "aprender",
+    "english": "to learn",
+    "french": "apprendre",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "blanco",
+    "english": "white",
+    "french": "blanc",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "teléfono",
+    "english": "phone",
+    "french": "téléphone",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "escuchar",
+    "english": "listen",
+    "french": "écouter",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "significar",
+    "english": "to mean",
+    "french": "signifier",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "ropa",
+    "english": "clothing",
+    "french": "vêtements",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "interesar",
+    "english": "to be of interest",
+    "french": "intéresser",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "tarde",
+    "english": "afternoon",
+    "french": "après-midi",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "ganar",
+    "english": "to win",
+    "french": "gagner",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "zona",
+    "english": "area",
+    "french": "zone",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "famoso",
+    "english": "famous",
+    "french": "célèbre",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "joven",
+    "english": "young",
+    "french": "jeune",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "sol",
+    "english": "sun",
+    "french": "soleil",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "pagar",
+    "english": "pay",
+    "french": "payer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "vacaciones",
+    "english": "vacation",
+    "french": "vacances",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "ser",
+    "english": "to be",
+    "french": "être",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "relación",
+    "english": "relationship",
+    "french": "relation",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "información",
+    "english": "information",
+    "french": "informations",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "encantar",
+    "english": "to enchant",
+    "french": "enchanter",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "piso",
+    "english": "apartment",
+    "french": "appartement",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "preferir",
+    "english": "prefer",
+    "french": "préférer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "viejo",
+    "english": "old",
+    "french": "vieux",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "precio",
+    "english": "price",
+    "french": "prix",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "típico",
+    "english": "typical",
+    "french": "typique",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "viajar",
+    "english": "travel",
+    "french": "voyager",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "papel",
+    "english": "paper",
+    "french": "papier",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "todavía",
+    "english": "still",
+    "french": "encore",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "crear",
+    "english": "create",
+    "french": "créer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "deporte",
+    "english": "sports",
+    "french": "sport",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "lado",
+    "english": "side",
+    "french": "côté",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "experiencia",
+    "english": "experience",
+    "french": "expérience",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "gracia",
+    "english": "grace",
+    "french": "grâce",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "tienda",
+    "english": "store",
+    "french": "magasin",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "antiguo",
+    "english": "old",
+    "french": "ancien",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "antes",
+    "english": "before",
+    "french": "auparavant",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "acabar",
+    "english": "to finish",
+    "french": "terminer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "servir",
+    "english": "serve",
+    "french": "servir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "cine",
+    "english": "movies",
+    "french": "cinéma",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "propio",
+    "english": "own",
+    "french": "propre",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "escuela",
+    "english": "school",
+    "french": "école",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "siguiente",
+    "english": "next",
+    "french": "suivant",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "museo",
+    "english": "museum",
+    "french": "musée",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "actividad",
+    "english": "activity",
+    "french": "activité",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "habitación",
+    "english": "room",
+    "french": "chambre",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "barrio",
+    "english": "neighborhood",
+    "french": "quartier",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "soler",
+    "english": "to be used to, to usually do",
+    "french": "avoir l'habitude de",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "bastante",
+    "english": "quite",
+    "french": "assez",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "cambio",
+    "english": "change",
+    "french": "changement",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "foto",
+    "english": "photo",
+    "french": "photo",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "económico",
+    "english": "economic",
+    "french": "économique",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "especial",
+    "english": "special",
+    "french": "spécial",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "intentar",
+    "english": "try",
+    "french": "essayer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "cuerpo",
+    "english": "body",
+    "french": "corps",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "vender",
+    "english": "sell",
+    "french": "vendre",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "pareja",
+    "english": "couple",
+    "french": "couple",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "oficina",
+    "english": "office",
+    "french": "bureau",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "punto",
+    "english": "point",
+    "french": "point",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "difícil",
+    "english": "difficult",
+    "french": "difficile",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "bailar",
+    "english": "to dance",
+    "french": "danser",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "imagen",
+    "english": "image",
+    "french": "image",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "formar",
+    "english": "to train",
+    "french": "former",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "levantar",
+    "english": "to lift",
+    "french": "se lever",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "obra",
+    "english": "play",
+    "french": "œuvre",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "celebrar",
+    "english": "celebrate",
+    "french": "célébrer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "cerca",
+    "english": "near",
+    "french": "près de",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "cara",
+    "english": "face",
+    "french": "visage",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "posible",
+    "english": "possible",
+    "french": "possible",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "plato",
+    "english": "dish",
+    "french": "plat",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "bar",
+    "english": "bar",
+    "french": "bar",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "profesor",
+    "english": "teacher",
+    "french": "professeur",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "valer",
+    "english": "be valid",
+    "french": "valoir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "tema",
+    "english": "topic",
+    "french": "sujet",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "producir",
+    "english": "produce",
+    "french": "produire",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "olvidar",
+    "english": "to forget",
+    "french": "oublier",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "sólo",
+    "english": "only",
+    "french": "seulement",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "pronto",
+    "english": "soon",
+    "french": "bientôt",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "cabeza",
+    "english": "head",
+    "french": "tête",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "embargo",
+    "english": "seizure",
+    "french": "saisie",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "malo",
+    "english": "bad",
+    "french": "mauvais",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "jugar",
+    "english": "play",
+    "french": "jouer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "policía",
+    "english": "police",
+    "french": "police",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "necesario",
+    "english": "necessary",
+    "french": "nécessaire",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "demasiado",
+    "english": "too much",
+    "french": "trop",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "cultural",
+    "english": "cultural",
+    "french": "culturel",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "verano",
+    "english": "summer",
+    "french": "été",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "sacar",
+    "english": "take out",
+    "french": "sortir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "lleno",
+    "english": "full",
+    "french": "plein",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "acompañar",
+    "english": "accompany",
+    "french": "accompagner",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "incluso",
+    "english": "even",
+    "french": "même",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "equipo",
+    "english": "team",
+    "french": "équipe",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "casar",
+    "english": "to get married",
+    "french": "se marier",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "bonito",
+    "english": "pretty",
+    "french": "joli",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "mesa",
+    "english": "table",
+    "french": "table",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "vestir",
+    "english": "to dress",
+    "french": "s'habiller",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "cerrar",
+    "english": "close",
+    "french": "fermer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "dirigir",
+    "english": "to direct",
+    "french": "diriger",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "negro",
+    "english": "black",
+    "french": "noir",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "mar",
+    "english": "sea",
+    "french": "mer",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "verde",
+    "english": "green",
+    "french": "vert",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "siglo",
+    "english": "century",
+    "french": "siècle",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "vino",
+    "english": "wine",
+    "french": "vin",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "organizar",
+    "english": "organize",
+    "french": "organiser",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "novio",
+    "english": "boyfriend",
+    "french": "petit ami",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "curso",
+    "english": "course",
+    "french": "cours",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "mal",
+    "english": "bad",
+    "french": "mal",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "programa",
+    "english": "program",
+    "french": "programme",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "voz",
+    "english": "voice",
+    "french": "voix",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "tranquilo",
+    "english": "calm",
+    "french": "serein",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "canción",
+    "english": "song",
+    "french": "chanson",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "situación",
+    "english": "situation",
+    "french": "situation",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "isla",
+    "english": "island",
+    "french": "île",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "acuerdo",
+    "english": "agreement",
+    "french": "accord",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "personal",
+    "english": "staff",
+    "french": "personnel",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "principal",
+    "english": "main",
+    "french": "principal",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "tratar",
+    "english": "to treat",
+    "french": "traiter",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "tocar",
+    "english": "to play",
+    "french": "jouer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "san",
+    "english": "san",
+    "french": "san",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "junto",
+    "english": "together",
+    "french": "ensemble",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "ah",
+    "english": "uh",
+    "french": "ah",
+    "pos_tag": "I",
+    "level": "a1"
+  },
+  {
+    "spanish": "capítulo",
+    "english": "chapter",
+    "french": "chapitre",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "libre",
+    "english": "free",
+    "french": "libre",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "parque",
+    "english": "park",
+    "french": "parc",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "mercado",
+    "english": "market",
+    "french": "marché",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "carne",
+    "english": "meat",
+    "french": "viande",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "carta",
+    "english": "letter",
+    "french": "lettre",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "popular",
+    "english": "popular",
+    "french": "populaire",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "mayoría",
+    "english": "majority",
+    "french": "majorité",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "cenar",
+    "english": "have dinner",
+    "french": "dîner",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "señor",
+    "english": "sir",
+    "french": "monsieur",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "respuesta",
+    "english": "response",
+    "french": "réponse",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "cliente",
+    "english": "customer",
+    "french": "client",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "aire",
+    "english": "air",
+    "french": "air",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "andar",
+    "english": "walk",
+    "french": "marcher",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "cantar",
+    "english": "sing",
+    "french": "chanter",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "claro",
+    "english": "of course",
+    "french": "bien sûr",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "edad",
+    "english": "age",
+    "french": "âge",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "teatro",
+    "english": "theater",
+    "french": "théâtre",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "dedicar",
+    "english": "dedicate",
+    "french": "consacrer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "público",
+    "english": "public",
+    "french": "public",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "feliz",
+    "english": "happy",
+    "french": "heureux",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "interesante",
+    "english": "interesting",
+    "french": "intéressant",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "traer",
+    "english": "bring",
+    "french": "apporter",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "pie",
+    "english": "footnote",
+    "french": "pied",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "correr",
+    "english": "to run",
+    "french": "courir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "rey",
+    "english": "king",
+    "french": "roi",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "subir",
+    "english": "upload",
+    "french": "haut de la page",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "fuerte",
+    "english": "strong",
+    "french": "fort",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "elegir",
+    "english": "choose",
+    "french": "choisir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "habitante",
+    "english": "resident",
+    "french": "habitant",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "ahí",
+    "english": "there",
+    "french": "là",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "estudiante",
+    "english": "student",
+    "french": "étudiant",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "razón",
+    "english": "reason",
+    "french": "raison",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "invitar",
+    "english": "invite",
+    "french": "inviter",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "tradicional",
+    "english": "traditional",
+    "french": "traditionnel",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "compra",
+    "english": "purchase",
+    "french": "achat",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "preocupar",
+    "english": "to worry",
+    "french": "s'inquiéter",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "servicio",
+    "english": "service",
+    "french": "service",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "luz",
+    "english": "light",
+    "french": "lumière",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "origen",
+    "english": "origin",
+    "french": "origine",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "planta",
+    "english": "floor",
+    "french": "usine",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "responder",
+    "english": "reply",
+    "french": "répondre",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "idioma",
+    "english": "language",
+    "french": "langue",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "noticia",
+    "english": "news",
+    "french": "actualité",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "sistema",
+    "english": "system",
+    "french": "système",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "flor",
+    "english": "flower",
+    "french": "fleur",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "camino",
+    "english": "path",
+    "french": "chemin",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "ayuda",
+    "english": "help",
+    "french": "aide",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "vuelta",
+    "english": "lap",
+    "french": "tour",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "argentino",
+    "english": "Argentine",
+    "french": "argentin",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "suelo",
+    "english": "ground",
+    "french": "sol",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "nacional",
+    "english": "national",
+    "french": "national",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "avión",
+    "english": "airplane",
+    "french": "avion",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "natural",
+    "english": "natural",
+    "french": "naturel",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "beber",
+    "english": "drink",
+    "french": "boire",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "espacio",
+    "english": "space",
+    "french": "espace",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "turista",
+    "english": "tourist",
+    "french": "touriste",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "muerte",
+    "english": "death",
+    "french": "mort",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "mantener",
+    "english": "maintain",
+    "french": "maintenir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "familiar",
+    "english": "family",
+    "french": "familial",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "mexicano",
+    "english": "Mexican",
+    "french": "mexicain",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "triste",
+    "english": "sad",
+    "french": "triste",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "paso",
+    "english": "step",
+    "french": "étape",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "guerra",
+    "english": "war",
+    "french": "guerre",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "disfrutar",
+    "english": "enjoy",
+    "french": "profiter",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "época",
+    "english": "era",
+    "french": "époque",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "educación",
+    "english": "education",
+    "french": "éducation",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "abuelo",
+    "english": "grandfather",
+    "french": "grand-père",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "participar",
+    "english": "participate",
+    "french": "participer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "contestar",
+    "english": "reply",
+    "french": "répondre",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "texto",
+    "english": "text",
+    "french": "texte",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "pintar",
+    "english": "to paint",
+    "french": "peindre",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "banco",
+    "english": "bank",
+    "french": "banque",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "periódico",
+    "english": "newspaper",
+    "french": "journal",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "desear",
+    "english": "to wish",
+    "french": "souhaiter",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "población",
+    "english": "population",
+    "french": "population",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "región",
+    "english": "region",
+    "french": "région",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "director",
+    "english": "director",
+    "french": "directeur",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "montaña",
+    "english": "mountain",
+    "french": "montagne",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "hermano",
+    "english": "brother",
+    "french": "frère",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "campo",
+    "english": "field",
+    "french": "campagne",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "aspecto",
+    "english": "aspect",
+    "french": "aspect",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "probar",
+    "english": "try",
+    "french": "tester",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "comenzar",
+    "english": "get started",
+    "french": "commencer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "visita",
+    "english": "visit",
+    "french": "visite",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "bicicleta",
+    "english": "bicycle",
+    "french": "vélo",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "rico",
+    "english": "rich",
+    "french": "riche",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "televisión",
+    "english": "television",
+    "french": "télévision",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "inglés",
+    "english": "English",
+    "french": "anglais",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "mostrar",
+    "english": "show",
+    "french": "afficher",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "acercar",
+    "english": "to bring closer",
+    "french": "rapprocher",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "pues",
+    "english": "well",
+    "french": "eh bien",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "capital",
+    "english": "capital",
+    "french": "capital",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "pelo",
+    "english": "hair",
+    "french": "cheveux",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "expresión",
+    "english": "expression",
+    "french": "expression",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "cansar",
+    "english": "to tire",
+    "french": "fatiguer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "objeto",
+    "english": "object",
+    "french": "objet",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "tradición",
+    "english": "tradition",
+    "french": "tradition",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "comprender",
+    "english": "understand",
+    "french": "comprendre",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "suerte",
+    "english": "good luck",
+    "french": "bonne chance",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "beso",
+    "english": "kiss",
+    "french": "bisou",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "naturaleza",
+    "english": "nature",
+    "french": "nature",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "principio",
+    "english": "principle",
+    "french": "principe",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "reír",
+    "english": "laugh",
+    "french": "rire",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "calidad",
+    "english": "quality",
+    "french": "qualité",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "imaginar",
+    "english": "imagine",
+    "french": "imaginer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "echar",
+    "english": "to pour",
+    "french": "verser",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "divertir",
+    "english": "entertain",
+    "french": "s'amuser",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "fútbol",
+    "english": "soccer",
+    "french": "football",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "construir",
+    "english": "build",
+    "french": "construire",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "fruto",
+    "english": "fruit",
+    "french": "fruit",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "hola",
+    "english": "Hi",
+    "french": "bonjour",
+    "pos_tag": "I",
+    "level": "a1"
+  },
+  {
+    "spanish": "salud",
+    "english": "health",
+    "french": "santé",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "ocupar",
+    "english": "occupy",
+    "french": "occuper",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "internet",
+    "english": "Internet",
+    "french": "Internet",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "sentido",
+    "english": "meaning",
+    "french": "sens",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "tampoco",
+    "english": "neither",
+    "french": "ni",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "baño",
+    "english": "bathroom",
+    "french": "salle de bains",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "agencia",
+    "english": "agency",
+    "french": "agence",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "frase",
+    "english": "phrase",
+    "french": "phrase",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "situar",
+    "english": "to locate",
+    "french": "situer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "enviar",
+    "english": "send",
+    "french": "envoyer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "don",
+    "english": "don",
+    "french": "don",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "pobre",
+    "english": "poor",
+    "french": "pauvre",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "entrada",
+    "english": "entry",
+    "french": "entrée",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "animal",
+    "english": "animal",
+    "french": "animal",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "fácil",
+    "english": "easy",
+    "french": "facile",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "mamá",
+    "english": "mom",
+    "french": "maman",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "culpabilizar",
+    "english": "to blame",
+    "french": "rejeter la faute sur quelqu'un",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "mensaje",
+    "english": "message",
+    "french": "message",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "árbol",
+    "english": "tree",
+    "french": "arbre",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "normal",
+    "english": "normal",
+    "french": "normal",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "general",
+    "english": "General",
+    "french": "général",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "importar",
+    "english": "to import",
+    "french": "importer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "vecino",
+    "english": "neighbor",
+    "french": "voisin",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "gana",
+    "english": "win",
+    "french": "gagner",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "cuidar",
+    "english": "take care of",
+    "french": "prendre soin de",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "comunicar",
+    "english": "communicate",
+    "french": "communiquer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "coger",
+    "english": "to have sex",
+    "french": "prendre",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "compartir",
+    "english": "share",
+    "french": "partager",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "reconocer",
+    "english": "recognize",
+    "french": "reconnaître",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "horario",
+    "english": "schedule",
+    "french": "horaires",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "negocio",
+    "english": "business",
+    "french": "entreprise",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "aceite",
+    "english": "oil",
+    "french": "huile",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "faltar",
+    "english": "to be absent",
+    "french": "manquer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "dirección",
+    "english": "address",
+    "french": "adresse",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "internacional",
+    "english": "international",
+    "french": "international",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "cama",
+    "english": "bed",
+    "french": "lit",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "europeo",
+    "english": "European",
+    "french": "européen",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "edificio",
+    "english": "building",
+    "french": "bâtiment",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "comercial",
+    "english": "commercial",
+    "french": "commercial",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "trabajador",
+    "english": "worker",
+    "french": "travailleur",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "dios",
+    "english": "God",
+    "french": "Dieu",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "cerveza",
+    "english": "beer",
+    "french": "bière",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "juego",
+    "english": "game",
+    "french": "jeu",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "cuadro",
+    "english": "painting",
+    "french": "tableau",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "paseo",
+    "english": "walk",
+    "french": "promenade",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "caro",
+    "english": "expensive",
+    "french": "cher",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "rato",
+    "english": "a while",
+    "french": "instant",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "serio",
+    "english": "serious",
+    "french": "sérieux",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "pescado",
+    "english": "fish",
+    "french": "poisson",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "éxito",
+    "english": "success",
+    "french": "succès",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "enorme",
+    "english": "huge",
+    "french": "énorme",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "guapo",
+    "english": "handsome",
+    "french": "beau",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "extraño",
+    "english": "strange",
+    "french": "étrange",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "puesto",
+    "english": "position",
+    "french": "poste",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "bebida",
+    "english": "drink",
+    "french": "boisson",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "reunión",
+    "english": "meeting",
+    "french": "réunion",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "maravilloso",
+    "english": "wonderful",
+    "french": "merveilleux",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "vista",
+    "english": "view",
+    "french": "vue",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "regalo",
+    "english": "gift",
+    "french": "cadeau",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "pasear",
+    "english": "take a walk",
+    "french": "se promener",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "literatura",
+    "english": "literature",
+    "french": "littérature",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "practicar",
+    "english": "to practice",
+    "french": "s'entraîner",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "asunto",
+    "english": "subject",
+    "french": "sujet",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "funcionar",
+    "english": "to function",
+    "french": "fonctionner",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "piel",
+    "english": "skin",
+    "french": "peau",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "dato",
+    "english": "data",
+    "french": "donnée",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "electrónico",
+    "english": "electronic",
+    "french": "électronique",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "alumno",
+    "english": "student",
+    "french": "élève",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "boca",
+    "english": "mouth",
+    "french": "bouche",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "comunidad",
+    "english": "community",
+    "french": "communauté",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "algo",
+    "english": "something",
+    "french": "quelque chose",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "carácter",
+    "english": "character",
+    "french": "caractère",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "rápido",
+    "english": "fast",
+    "french": "rapide",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "distinto",
+    "english": "different",
+    "french": "différent",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "bajar",
+    "english": "download",
+    "french": "descendre",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "cumplir",
+    "english": "comply",
+    "french": "respecter",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "ambiente",
+    "english": "environment",
+    "french": "environnement",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "enseñar",
+    "english": "to teach",
+    "french": "enseigner",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "peor",
+    "english": "worse",
+    "french": "pire",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "común",
+    "english": "common",
+    "french": "commun",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "enamorar",
+    "english": "to make someone fall in love",
+    "french": "faire tomber amoureux",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "ventana",
+    "english": "window",
+    "french": "fenêtre",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "recoger",
+    "english": "collect",
+    "french": "ramasser",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "resultado",
+    "english": "result",
+    "french": "résultat",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "aeropuerto",
+    "english": "airport",
+    "french": "aéroport",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "añadir",
+    "english": "add",
+    "french": "ajouter",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "fotografía",
+    "english": "photograph",
+    "french": "photographie",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "arte",
+    "english": "art",
+    "french": "art",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "gusto",
+    "english": "taste",
+    "french": "goût",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "salón",
+    "english": "living room",
+    "french": "salon",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "calor",
+    "english": "heat",
+    "french": "chaleur",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "contento",
+    "english": "happy",
+    "french": "heureux",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "pintura",
+    "english": "painting",
+    "french": "peinture",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "próximo",
+    "english": "next",
+    "french": "prochain",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "costa",
+    "english": "coast",
+    "french": "côte",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "interés",
+    "english": "interest",
+    "french": "intérêt",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "extranjero",
+    "english": "foreign",
+    "french": "étranger",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "paisaje",
+    "english": "landscape",
+    "french": "paysage",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "comunicación",
+    "english": "communication",
+    "french": "communication",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "cocinar",
+    "english": "cooking",
+    "french": "cuisiner",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "río",
+    "english": "river",
+    "french": "rivière",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "ordenador",
+    "english": "computer",
+    "french": "ordinateur",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "iglesia",
+    "english": "church",
+    "french": "église",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "consumir",
+    "english": "consume",
+    "french": "consommer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "sitio",
+    "english": "site",
+    "french": "site",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "resto",
+    "english": "rest",
+    "french": "reste",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "patata",
+    "english": "potato",
+    "french": "pomme de terre",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "ejemplo",
+    "english": "example",
+    "french": "exemple",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "metro",
+    "english": "meter",
+    "french": "mètre",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "proteger",
+    "english": "protect",
+    "french": "protéger",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "moda",
+    "english": "fashion",
+    "french": "mode",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "frío",
+    "english": "cold",
+    "french": "froid",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "caminar",
+    "english": "to walk",
+    "french": "marcher",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "nivel",
+    "english": "level",
+    "french": "niveau",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "fantástico",
+    "english": "fantastic",
+    "french": "fantastique",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "caer",
+    "english": "to fall",
+    "french": "tomber",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "observar",
+    "english": "observe",
+    "french": "observer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "detective",
+    "english": "detective",
+    "french": "détective",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "verdura",
+    "english": "vegetable",
+    "french": "légume",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "descansar",
+    "english": "rest",
+    "french": "se reposer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "página",
+    "english": "page",
+    "french": "page",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "seguro",
+    "english": "sure",
+    "french": "sûr",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "cuento",
+    "english": "short story",
+    "french": "conte",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "destacar",
+    "english": "highlight",
+    "french": "mettre en avant",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "mover",
+    "english": "move",
+    "french": "déplacer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "contacto",
+    "english": "contact",
+    "french": "contact",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "premio",
+    "english": "prize",
+    "french": "prix",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "alimento",
+    "english": "food",
+    "french": "nourriture",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "acordar",
+    "english": "agree",
+    "french": "se mettre d'accord",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "perro",
+    "english": "dog",
+    "french": "chien",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "médico",
+    "english": "doctor",
+    "french": "médecin",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "rojo",
+    "english": "red",
+    "french": "rouge",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "dolor",
+    "english": "pain",
+    "french": "douleur",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "bello",
+    "english": "beautiful",
+    "french": "beau",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "sala",
+    "english": "room",
+    "french": "salle",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "cena",
+    "english": "dinner",
+    "french": "dîner",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "nervioso",
+    "english": "nervous",
+    "french": "nerveux",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "maleta",
+    "english": "suitcase",
+    "french": "valise",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "evitar",
+    "english": "avoid",
+    "french": "éviter",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "correo",
+    "english": "email",
+    "french": "e-mail",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "cielo",
+    "english": "sky",
+    "french": "ciel",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "espectáculo",
+    "english": "show",
+    "french": "spectacle",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "marcar",
+    "english": "to mark",
+    "french": "marquer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "importancia",
+    "english": "importance",
+    "french": "importance",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "histórico",
+    "english": "historic",
+    "french": "historique",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "actual",
+    "english": "current",
+    "french": "actuel",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "bolsa",
+    "english": "stock market",
+    "french": "sac",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "santo",
+    "english": "saint",
+    "french": "saint",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "partido",
+    "english": "game",
+    "french": "match",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "leche",
+    "english": "milk",
+    "french": "lait",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "proyecto",
+    "english": "project",
+    "french": "projet",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "quitar",
+    "english": "remove",
+    "french": "retirer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "consejo",
+    "english": "advice",
+    "french": "conseil",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "jardín",
+    "english": "garden",
+    "french": "jardin",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "letra",
+    "english": "lyrics",
+    "french": "paroles",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "móvil",
+    "english": "cell phone",
+    "french": "mobile",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "sorprender",
+    "english": "to surprise",
+    "french": "surprendre",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "perdonar",
+    "english": "to forgive",
+    "french": "pardonner",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "zapato",
+    "english": "shoe",
+    "french": "chaussure",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "madera",
+    "english": "wood",
+    "french": "bois",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "azul",
+    "english": "blue",
+    "french": "bleu",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "rodear",
+    "english": "surround",
+    "french": "encercler",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "tele",
+    "english": "TV",
+    "french": "télé",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "ay",
+    "english": "oh",
+    "french": "ah",
+    "pos_tag": "I",
+    "level": "a1"
+  },
+  {
+    "spanish": "marca",
+    "english": "brand",
+    "french": "marque",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "abandonar",
+    "english": "to give up",
+    "french": "abandonner",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "compañía",
+    "english": "company",
+    "french": "société",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "exposición",
+    "english": "exhibition",
+    "french": "exposition",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "turístico",
+    "english": "tourism-related",
+    "french": "touristique",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "barato",
+    "english": "cheap",
+    "french": "bon marché",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "concierto",
+    "english": "concert",
+    "french": "concert",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "moderno",
+    "english": "modern",
+    "french": "moderne",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "falso",
+    "english": "false",
+    "french": "faux",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "estrella",
+    "english": "star",
+    "french": "étoile",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "conservar",
+    "english": "preserve",
+    "french": "conserver",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "guía",
+    "english": "guide",
+    "french": "guide",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "oferta",
+    "english": "offer",
+    "french": "offre",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "barco",
+    "english": "ship",
+    "french": "bateau",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "minuto",
+    "english": "minute",
+    "french": "minute",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "taxi",
+    "english": "taxi",
+    "french": "taxi",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "marido",
+    "english": "husband",
+    "french": "mari",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "tren",
+    "english": "train",
+    "french": "train",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "socio",
+    "english": "partner",
+    "french": "partenaire",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "reunir",
+    "english": "gather",
+    "french": "rassembler",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "espalda",
+    "english": "back",
+    "french": "dos",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "enfadar",
+    "english": "to upset",
+    "french": "mettre en colère",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "conversación",
+    "english": "conversation",
+    "french": "conversation",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "allá",
+    "english": "over there",
+    "french": "là-bas",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "indígena",
+    "english": "indigenous",
+    "french": "autochtone",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "novela",
+    "english": "novel",
+    "french": "roman",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "tomate",
+    "english": "tomato",
+    "french": "tomate",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "numeroso",
+    "english": "numerous",
+    "french": "nombreux",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "tarea",
+    "english": "task",
+    "french": "devoir",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "mundial",
+    "english": "worldwide",
+    "french": "mondial",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "pero",
+    "english": "but",
+    "french": "mais",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "privar",
+    "english": "deprive",
+    "french": "priver",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "brazo",
+    "english": "arm",
+    "french": "bras",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "político",
+    "english": "political",
+    "french": "politique",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "baile",
+    "english": "dance",
+    "french": "danse",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "transporte",
+    "english": "transportation",
+    "french": "transport",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "precioso",
+    "english": "beautiful",
+    "french": "magnifique",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "francés",
+    "english": "French",
+    "french": "français",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "despedir",
+    "english": "to dismiss",
+    "french": "licencier",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "papá",
+    "english": "Dad",
+    "french": "papa",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "separar",
+    "english": "separate",
+    "french": "séparer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "relajar",
+    "english": "relax",
+    "french": "se détendre",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "actuar",
+    "english": "to act",
+    "french": "agir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "receta",
+    "english": "recipe",
+    "french": "recette",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "oportunidad",
+    "english": "opportunity",
+    "french": "occasion",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "miembro",
+    "english": "member",
+    "french": "membre",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "par",
+    "english": "pair",
+    "french": "paire",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "tapa",
+    "english": "cover",
+    "french": "couvercle",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "ejercicio",
+    "english": "exercise",
+    "french": "exercice",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "pared",
+    "english": "wall",
+    "french": "mur",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "perfecto",
+    "english": "perfect",
+    "french": "parfait",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "material",
+    "english": "material",
+    "french": "matériel",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "salida",
+    "english": "departure",
+    "french": "départ",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "disco",
+    "english": "album",
+    "french": "disque",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "americano",
+    "english": "American",
+    "french": "américain",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "paz",
+    "english": "peace",
+    "french": "paix",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "lago",
+    "english": "lake",
+    "french": "lac",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "revista",
+    "english": "magazine",
+    "french": "magazine",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "sufrir",
+    "english": "to suffer",
+    "french": "souffrir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "copa",
+    "english": "cup",
+    "french": "coupe",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "huevo",
+    "english": "egg",
+    "french": "œuf",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "arroz",
+    "english": "rice",
+    "french": "riz",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "escritor",
+    "english": "writer",
+    "french": "écrivain",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "igual",
+    "english": "the same",
+    "french": "idem",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "comentar",
+    "english": "comment",
+    "french": "commenter",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "especie",
+    "english": "species",
+    "french": "espèce",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "cubrir",
+    "english": "cover",
+    "french": "couvrir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "quizá",
+    "english": "maybe",
+    "french": "peut-être",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "cuenta",
+    "english": "account",
+    "french": "compte",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "peso",
+    "english": "weight",
+    "french": "poids",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "pan",
+    "english": "bread",
+    "french": "pain",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "anuncio",
+    "english": "advertisement",
+    "french": "annonce",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "diario",
+    "english": "daily",
+    "french": "quotidien",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "profesional",
+    "english": "professional",
+    "french": "professionnel",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "pájaro",
+    "english": "bird",
+    "french": "oiseau",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "carrera",
+    "english": "race",
+    "french": "carrière",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "físico",
+    "english": "physical",
+    "french": "physique",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "peruano",
+    "english": "Peruvian",
+    "french": "péruvien",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "invierno",
+    "english": "winter",
+    "french": "hiver",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "lindo",
+    "english": "cute",
+    "french": "mignon",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "estación",
+    "english": "station",
+    "french": "station",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "regalar",
+    "english": "to give as a gift",
+    "french": "offrir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "cubano",
+    "english": "Cuban",
+    "french": "cubain",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "prometer",
+    "english": "to promise",
+    "french": "promettre",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "provocar",
+    "english": "to cause",
+    "french": "provoquer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "vivo",
+    "english": "alive",
+    "french": "vivant",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "terraza",
+    "english": "terrace",
+    "french": "terrasse",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "humor",
+    "english": "humor",
+    "french": "humour",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "duda",
+    "english": "doubt",
+    "french": "doute",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "azúcar",
+    "english": "sugar",
+    "french": "sucre",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "chileno",
+    "english": "Chilean",
+    "french": "chilien",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "periodista",
+    "english": "journalist",
+    "french": "journaliste",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "silencio",
+    "english": "silence",
+    "french": "silence",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "solución",
+    "english": "solution",
+    "french": "solution",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "alquilar",
+    "english": "rent",
+    "french": "louer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "tirar",
+    "english": "to throw",
+    "french": "lancer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "aventura",
+    "english": "adventure",
+    "french": "aventure",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "medicina",
+    "english": "medicine",
+    "french": "médecine",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "motivo",
+    "english": "reason",
+    "french": "motif",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "emoción",
+    "english": "emotion",
+    "french": "émotion",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "mejorar",
+    "english": "improve",
+    "french": "améliorer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "turismo",
+    "english": "tourism",
+    "french": "tourisme",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "volar",
+    "english": "to fly",
+    "french": "voler",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "oficial",
+    "english": "official",
+    "french": "officiel",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "italiano",
+    "english": "Italian",
+    "french": "italien",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "hambre",
+    "english": "hunger",
+    "french": "faim",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "costar",
+    "english": "to cost",
+    "french": "coûter",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "decisión",
+    "english": "decision",
+    "french": "décision",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "excursión",
+    "english": "field trip",
+    "french": "excursion",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "primero",
+    "english": "first",
+    "french": "d'abord",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "informar",
+    "english": "report",
+    "french": "informer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "sonreír",
+    "english": "to smile",
+    "french": "sourire",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "planeta",
+    "english": "planet",
+    "french": "planète",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "revolución",
+    "english": "revolution",
+    "french": "révolution",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "robar",
+    "english": "to steal",
+    "french": "voler",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "fresco",
+    "english": "fresh",
+    "french": "frais",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "hospital",
+    "english": "hospital",
+    "french": "hôpital",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "documento",
+    "english": "document",
+    "french": "document",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "enseguida",
+    "english": "right away",
+    "french": "tout de suite",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "genial",
+    "english": "awesome",
+    "french": "génial",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "norte",
+    "english": "north",
+    "french": "nord",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "llave",
+    "english": "key",
+    "french": "clé",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "declarar",
+    "english": "to declare",
+    "french": "déclarer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "matar",
+    "english": "to kill",
+    "french": "tuer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "biblioteca",
+    "english": "library",
+    "french": "bibliothèque",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "chocolate",
+    "english": "chocolate",
+    "french": "chocolat",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "clásico",
+    "english": "classic",
+    "french": "classique",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "segundo",
+    "english": "second",
+    "french": "deuxième",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "recomendar",
+    "english": "recommend",
+    "french": "recommander",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "hermoso",
+    "english": "beautiful",
+    "french": "magnifique",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "clima",
+    "english": "weather",
+    "french": "climat",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "invitado",
+    "english": "guest",
+    "french": "invité",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "callar",
+    "english": "to keep quiet",
+    "french": "se taire",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "orden",
+    "english": "order",
+    "french": "commande",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "festival",
+    "english": "festival",
+    "french": "festival",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "gritar",
+    "english": "to shout",
+    "french": "crier",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "luchar",
+    "english": "to fight",
+    "french": "se battre",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "encuentro",
+    "english": "meeting",
+    "french": "rencontre",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "ocio",
+    "english": "leisure",
+    "french": "loisirs",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "completo",
+    "english": "complete",
+    "french": "complet",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "peligroso",
+    "english": "dangerous",
+    "french": "dangereux",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "desayuno",
+    "english": "breakfast",
+    "french": "petit-déjeuner",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "increíble",
+    "english": "incredible",
+    "french": "incroyable",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "diseño",
+    "english": "design",
+    "french": "conception",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "unir",
+    "english": "join",
+    "french": "joindre",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "abajo",
+    "english": "below",
+    "french": "en bas",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "ingrediente",
+    "english": "ingredient",
+    "french": "ingrédient",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "venta",
+    "english": "sale",
+    "french": "vente",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "hoja",
+    "english": "sheet",
+    "french": "feuille",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "animar",
+    "english": "cheer on",
+    "french": "encourager",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "sorpresa",
+    "english": "surprise",
+    "french": "surprise",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "detener",
+    "english": "stop",
+    "french": "arrêter",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "infantil",
+    "english": "children's",
+    "french": "pour enfants",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "alemán",
+    "english": "German",
+    "french": "allemand",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "llama",
+    "english": "call",
+    "french": "appel",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "personaje",
+    "english": "character",
+    "french": "personnage",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "sano",
+    "english": "healthy",
+    "french": "sain",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "tío",
+    "english": "uncle",
+    "french": "oncle",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "vuelo",
+    "english": "flight",
+    "french": "vol",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "ajo",
+    "english": "garlic",
+    "french": "ail",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "acostar",
+    "english": "put to bed",
+    "french": "se coucher",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "característica",
+    "english": "feature",
+    "french": "caractéristique",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "músico",
+    "english": "musician",
+    "french": "musicien",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "botella",
+    "english": "bottle",
+    "french": "bouteille",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "pintor",
+    "english": "painter",
+    "french": "peintre",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "original",
+    "english": "original",
+    "french": "original",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "gratuito",
+    "english": "free",
+    "french": "gratuit",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "catedral",
+    "english": "cathedral",
+    "french": "cathédrale",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "ritmo",
+    "english": "rhythm",
+    "french": "rythme",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "sal",
+    "english": "salt",
+    "french": "sel",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "frecuente",
+    "english": "frequent",
+    "french": "fréquent",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "pasión",
+    "english": "passion",
+    "french": "passion",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "base",
+    "english": "base",
+    "french": "base",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "kilo",
+    "english": "kilo",
+    "french": "kilo",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "estrés",
+    "english": "stress",
+    "french": "stress",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "examen",
+    "english": "exam",
+    "french": "examen",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "dieta",
+    "english": "diet",
+    "french": "régime alimentaire",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "religioso",
+    "english": "religious",
+    "french": "religieux",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "figura",
+    "english": "figure",
+    "french": "figure",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "fabricar",
+    "english": "to manufacture",
+    "french": "fabriquer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "puerto",
+    "english": "port",
+    "french": "port",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "desayunar",
+    "english": "have breakfast",
+    "french": "prendre son petit-déjeuner",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "salsa",
+    "english": "sauce",
+    "french": "sauce",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "actor",
+    "english": "actor",
+    "french": "acteur",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "vendedor",
+    "english": "salesperson",
+    "french": "vendeur",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "valor",
+    "english": "value",
+    "french": "valeur",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "confianza",
+    "english": "trust",
+    "french": "confiance",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "moneda",
+    "english": "currency",
+    "french": "monnaie",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "llamada",
+    "english": "call",
+    "french": "appel",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "dulce",
+    "english": "sweet",
+    "french": "sucré",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "ideal",
+    "english": "ideal",
+    "french": "idéal",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "estar",
+    "english": "to be",
+    "french": "être",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "fuego",
+    "english": "fire",
+    "french": "feu",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "señalar",
+    "english": "point out",
+    "french": "signaler",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "lejos",
+    "english": "far away",
+    "french": "loin",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "sur",
+    "english": "south",
+    "french": "sud",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "instrumento",
+    "english": "instrument",
+    "french": "instrument",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "lluvia",
+    "english": "rain",
+    "french": "pluie",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "palacio",
+    "english": "palace",
+    "french": "palais",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "muchacho",
+    "english": "boy",
+    "french": "garçon",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "extender",
+    "english": "spread",
+    "french": "étendre",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "golpe",
+    "english": "blow",
+    "french": "coup",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "ecológico",
+    "english": "eco-friendly",
+    "french": "écologique",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "componer",
+    "english": "to compose",
+    "french": "composer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "reservar",
+    "english": "reserve",
+    "french": "réserver",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "cómodo",
+    "english": "comfortable",
+    "french": "confortable",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "amante",
+    "english": "lover",
+    "french": "amant",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "tímido",
+    "english": "shy",
+    "french": "timide",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "publicar",
+    "english": "publish",
+    "french": "publier",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "menudo",
+    "english": "often",
+    "french": "souvent",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "excelente",
+    "english": "excellent",
+    "french": "excellent",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "seco",
+    "english": "dry",
+    "french": "sec",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "viento",
+    "english": "wind",
+    "french": "vent",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "ruta",
+    "english": "route",
+    "french": "itinéraire",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "bocadillo",
+    "english": "sandwich",
+    "french": "sandwich",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "residencia",
+    "english": "residence",
+    "french": "résidence",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "cantante",
+    "english": "singer",
+    "french": "chanteuse",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "cita",
+    "english": "quote",
+    "french": "citation",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "continente",
+    "english": "continent",
+    "french": "continent",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "mezclar",
+    "english": "mix",
+    "french": "mélanger",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "título",
+    "english": "title",
+    "french": "titre",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "reserva",
+    "english": "reservation",
+    "french": "réserve",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "comercio",
+    "english": "commerce",
+    "french": "commerce",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "asociación",
+    "english": "association",
+    "french": "association",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "oliva",
+    "english": "olive",
+    "french": "olive",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "mitad",
+    "english": "half",
+    "french": "moitié",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "cruzar",
+    "english": "to cross",
+    "french": "traverser",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "llover",
+    "english": "to rain",
+    "french": "il va pleuvoir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "alejar",
+    "english": "move away",
+    "french": "éloigner",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "universitario",
+    "english": "college student",
+    "french": "universitaire",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "sonrisa",
+    "english": "smile",
+    "french": "sourire",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "marchar",
+    "english": "to march",
+    "french": "partir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "personalidad",
+    "english": "personality",
+    "french": "personnalité",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "aburrir",
+    "english": "to bore",
+    "french": "ennuyer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "autobús",
+    "english": "bus",
+    "french": "bus",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "destino",
+    "english": "destination",
+    "french": "destination",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "colegio",
+    "english": "school",
+    "french": "école",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "discoteca",
+    "english": "nightclub",
+    "french": "boîte de nuit",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "actualidad",
+    "english": "News",
+    "french": "actualité",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "jamón",
+    "english": "ham",
+    "french": "jambon",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "costumbre",
+    "english": "custom",
+    "french": "coutume",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "adiós",
+    "english": "goodbye",
+    "french": "au revoir",
+    "pos_tag": "I",
+    "level": "a1"
+  },
+  {
+    "spanish": "quizás",
+    "english": "maybe",
+    "french": "peut-être",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "sentimiento",
+    "english": "feeling",
+    "french": "sentiment",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "fuerza",
+    "english": "strength",
+    "french": "force",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "piscina",
+    "english": "swimming pool",
+    "french": "piscine",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "jefe",
+    "english": "boss",
+    "french": "chef",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "verbo",
+    "english": "verb",
+    "french": "verbe",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "musical",
+    "english": "musical",
+    "french": "musical",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "simpático",
+    "english": "friendly",
+    "french": "sympathique",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "latinoamericano",
+    "english": "Latin American",
+    "french": "latino-américain",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "artista",
+    "english": "artist",
+    "french": "artiste",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "hispano",
+    "english": "Spanish",
+    "french": "hispanique",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "japonés",
+    "english": "Japanese",
+    "french": "japonais",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "urbano",
+    "english": "urban",
+    "french": "urbain",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "bolsillo",
+    "english": "pocket",
+    "french": "poche",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "prisa",
+    "english": "hurry",
+    "french": "hâte",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "oro",
+    "english": "gold",
+    "french": "or",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "estilo",
+    "english": "style",
+    "french": "style",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "agradable",
+    "english": "pleasant",
+    "french": "agréable",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "caballo",
+    "english": "horse",
+    "french": "cheval",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "primo",
+    "english": "cousin",
+    "french": "cousin",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "silla",
+    "english": "chair",
+    "french": "chaise",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "inteligente",
+    "english": "smart",
+    "french": "intelligent",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "flamenco",
+    "english": "flamenco",
+    "french": "flamenco",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "útil",
+    "english": "useful",
+    "french": "utile",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "rubio",
+    "english": "blond",
+    "french": "blond",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "mueble",
+    "english": "furniture",
+    "french": "meuble",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "esconder",
+    "english": "hide",
+    "french": "cacher",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "adulto",
+    "english": "adult",
+    "french": "adulte",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "delgado",
+    "english": "thin",
+    "french": "mince",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "freír",
+    "english": "to fry",
+    "french": "faire frire",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "dificultad",
+    "english": "difficulty",
+    "french": "difficulté",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "supermercado",
+    "english": "supermarket",
+    "french": "supermarché",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "directo",
+    "english": "live",
+    "french": "en direct",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "amistad",
+    "english": "friendship",
+    "french": "amitié",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "alrededor",
+    "english": "around",
+    "french": "aux alentours",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "amar",
+    "english": "to love",
+    "french": "aimer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "oscuro",
+    "english": "dark",
+    "french": "sombre",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "monasterio",
+    "english": "monastery",
+    "french": "monastère",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "favorito",
+    "english": "favorite",
+    "french": "favori",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "balcón",
+    "english": "balcony",
+    "french": "balcon",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "cámara",
+    "english": "camera",
+    "french": "caméra",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "abogado",
+    "english": "lawyer",
+    "french": "avocat",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "deportivo",
+    "english": "sports",
+    "french": "sportif",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "soñar",
+    "english": "to dream",
+    "french": "rêver",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "nada",
+    "english": "nothing",
+    "french": "rien",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "fuera",
+    "english": "outside",
+    "french": "dehors",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "puro",
+    "english": "pure",
+    "french": "pur",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "saludar",
+    "english": "to say hello",
+    "french": "saluer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "gris",
+    "english": "gray",
+    "french": "gris",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "caliente",
+    "english": "hot",
+    "french": "chaud",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "impresionante",
+    "english": "impressive",
+    "french": "impressionnant",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "lectura",
+    "english": "reading",
+    "french": "lecture",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "canal",
+    "english": "channel",
+    "french": "chaîne",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "alimentación",
+    "english": "food",
+    "french": "alimentation",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "secretario",
+    "english": "secretary",
+    "french": "secrétaire",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "error",
+    "english": "error",
+    "french": "erreur",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "mezcla",
+    "english": "mixture",
+    "french": "mélange",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "parar",
+    "english": "to stop",
+    "french": "s'arrêter",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "picar",
+    "english": "chop",
+    "french": "hacher",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "corto",
+    "english": "short",
+    "french": "court",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "despertar",
+    "english": "wake up",
+    "french": "se réveiller",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "plan",
+    "english": "plan",
+    "french": "plan",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "variar",
+    "english": "to vary",
+    "french": "varier",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "miar",
+    "english": "to meow",
+    "french": "miauler",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "bosque",
+    "english": "forest",
+    "french": "forêt",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "extraordinario",
+    "english": "extraordinary",
+    "french": "extraordinaire",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "riesgo",
+    "english": "risk",
+    "french": "risque",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "selva",
+    "english": "jungle",
+    "french": "forêt",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "catalán",
+    "english": "Catalan",
+    "french": "catalan",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "hasta",
+    "english": "up to",
+    "french": "jusqu'à",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "alquiler",
+    "english": "rental",
+    "french": "location",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "vaso",
+    "english": "glass",
+    "french": "verre",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "territorio",
+    "english": "territory",
+    "french": "territoire",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "árabe",
+    "english": "Arabic",
+    "french": "arabe",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "habla",
+    "english": "speak",
+    "french": "parle",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "altura",
+    "english": "height",
+    "french": "hauteur",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "dedo",
+    "english": "finger",
+    "french": "doigt",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "gallego",
+    "english": "Galician",
+    "french": "galicien",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "tarjeta",
+    "english": "card",
+    "french": "carte",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "regla",
+    "english": "rule",
+    "french": "règle",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "conectar",
+    "english": "connect",
+    "french": "se connecter",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "colonial",
+    "english": "colonial",
+    "french": "colonial",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "alegre",
+    "english": "cheerful",
+    "french": "joyeux",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "aconsejar",
+    "english": "advise",
+    "french": "conseiller",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "inmigrante",
+    "english": "immigrant",
+    "french": "immigré",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "vídeo",
+    "english": "video",
+    "french": "vidéo",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "apartamento",
+    "english": "apartment",
+    "french": "appartement",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "presentación",
+    "english": "presentation",
+    "french": "présentation",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "provincia",
+    "english": "province",
+    "french": "province",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "queso",
+    "english": "cheese",
+    "french": "fromage",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "entero",
+    "english": "whole",
+    "french": "entier",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "estupendo",
+    "english": "great",
+    "french": "génial",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "visitante",
+    "english": "visitor",
+    "french": "visiteur",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "nieto",
+    "english": "grandson",
+    "french": "petit-fils",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "charlar",
+    "english": "chat",
+    "french": "discuter",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "valle",
+    "english": "valley",
+    "french": "vallée",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "correcto",
+    "english": "correct",
+    "french": "correct",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "atravesar",
+    "english": "to cross",
+    "french": "traverser",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "maravilla",
+    "english": "wonder",
+    "french": "merveille",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "enterar",
+    "english": "find out",
+    "french": "apprendre",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "volcán",
+    "english": "volcano",
+    "french": "volcan",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "interior",
+    "english": "interior",
+    "french": "intérieur",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "fama",
+    "english": "fame",
+    "french": "célébrité",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "elegante",
+    "english": "elegant",
+    "french": "élégant",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "avenida",
+    "english": "avenue",
+    "french": "avenue",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "método",
+    "english": "method",
+    "french": "méthode",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "carretera",
+    "english": "highway",
+    "french": "route",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "apellido",
+    "english": "last name",
+    "french": "nom de famille",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "romántico",
+    "english": "romantic",
+    "french": "romantique",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "gordo",
+    "english": "fat",
+    "french": "gros",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "billete",
+    "english": "ticket",
+    "french": "billet",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "guitarra",
+    "english": "guitar",
+    "french": "guitare",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "tenis",
+    "english": "tennis",
+    "french": "tennis",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "mediterráneo",
+    "english": "Mediterranean",
+    "french": "méditerranéen",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "secreto",
+    "english": "secret",
+    "french": "secret",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "pasaporte",
+    "english": "passport",
+    "french": "passeport",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "rosa",
+    "english": "pink",
+    "french": "rose",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "dictadura",
+    "english": "dictatorship",
+    "french": "dictature",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "estatua",
+    "english": "statue",
+    "french": "statue",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "paro",
+    "english": "unemployment",
+    "french": "chômage",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "patio",
+    "english": "patio",
+    "french": "cour",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "especialidad",
+    "english": "specialty",
+    "french": "spécialité",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "acá",
+    "english": "here",
+    "french": "ici",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "divorciar",
+    "english": "to get a divorce",
+    "french": "divorcer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "etapa",
+    "english": "stage",
+    "french": "étape",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "atractivo",
+    "english": "attractive",
+    "french": "attrayant",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "secundario",
+    "english": "secondary",
+    "french": "secondaire",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "saltar",
+    "english": "skip",
+    "french": "sauter",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "camarero",
+    "english": "waiter",
+    "french": "serveur",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "gimnasio",
+    "english": "gym",
+    "french": "salle de sport",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "mentira",
+    "english": "lie",
+    "french": "mensonge",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "amable",
+    "english": "friendly",
+    "french": "aimable",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "actuación",
+    "english": "performance",
+    "french": "interprétation",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "bebé",
+    "english": "baby",
+    "french": "bébé",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "virgen",
+    "english": "virgin",
+    "french": "vierge",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "moreno",
+    "english": "dark-skinned",
+    "french": "brun",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "maya",
+    "english": "Maya",
+    "french": "maya",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "pollo",
+    "english": "chicken",
+    "french": "poulet",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "marzo",
+    "english": "March",
+    "french": "mars",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "profesión",
+    "english": "profession",
+    "french": "profession",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "no",
+    "english": "no",
+    "french": "non",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "naranja",
+    "english": "orange",
+    "french": "orange",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "espejo",
+    "english": "mirror",
+    "french": "miroir",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "saludo",
+    "english": "greeting",
+    "french": "salut",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "dividir",
+    "english": "divide",
+    "french": "diviser",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "duración",
+    "english": "duration",
+    "french": "durée",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "tortilla",
+    "english": "tortilla",
+    "french": "omelette",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "templo",
+    "english": "temple",
+    "french": "temple",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "escolar",
+    "english": "school-related",
+    "french": "scolaire",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "inca",
+    "english": "Inca",
+    "french": "Inca",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "delicioso",
+    "english": "delicious",
+    "french": "délicieux",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "desierto",
+    "english": "desert",
+    "french": "désert",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "colombiano",
+    "english": "Colombian",
+    "french": "colombien",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "sábado",
+    "english": "Saturday",
+    "french": "samedi",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "ensalada",
+    "english": "salad",
+    "french": "salade",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "arena",
+    "english": "sand",
+    "french": "sable",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "extrañar",
+    "english": "to miss",
+    "french": "manquer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "labio",
+    "english": "lip",
+    "french": "lèvre",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "mochila",
+    "english": "backpack",
+    "french": "sac à dos",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "curioso",
+    "english": "curious",
+    "french": "curieux",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "velocidad",
+    "english": "speed",
+    "french": "vitesse",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "esquina",
+    "english": "corner",
+    "french": "coin",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "hábito",
+    "english": "habit",
+    "french": "habitude",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "alojamiento",
+    "english": "lodging",
+    "french": "hébergement",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "gastronomía",
+    "english": "gastronomy",
+    "french": "gastronomie",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "haber",
+    "english": "to have",
+    "french": "avoir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "cocinero",
+    "english": "cook",
+    "french": "cuisinier",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "abrazo",
+    "english": "hug",
+    "french": "bisous",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "cola",
+    "english": "tail",
+    "french": "queue",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "primavera",
+    "english": "spring",
+    "french": "printemps",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "identidad",
+    "english": "identity",
+    "french": "identité",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "crema",
+    "english": "cream",
+    "french": "crème",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "casco",
+    "english": "helmet",
+    "french": "casque",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "pacífico",
+    "english": "peaceful",
+    "french": "pacifique",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "violento",
+    "english": "violent",
+    "french": "violent",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "estrecho",
+    "english": "narrow",
+    "french": "étroit",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "madrileño",
+    "english": "from Madrid",
+    "french": "originaire de Madrid",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "nacionalidad",
+    "english": "nationality",
+    "french": "nationalité",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "mira",
+    "english": "look",
+    "french": "regarde",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "activo",
+    "english": "asset",
+    "french": "actif",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "nene",
+    "english": "kid",
+    "french": "bébé",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "rural",
+    "english": "rural",
+    "french": "rural",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "paella",
+    "english": "paella",
+    "french": "paella",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "maestro",
+    "english": "teacher",
+    "french": "professeur",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "nocturno",
+    "english": "nocturnal",
+    "french": "nocturne",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "estadounidense",
+    "english": "American",
+    "french": "américain",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "bajito",
+    "english": "short",
+    "french": "petit",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "cristal",
+    "english": "glass",
+    "french": "verre",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "alojar",
+    "english": "to host",
+    "french": "héberger",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "tráfico",
+    "english": "traffic",
+    "french": "circulation",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "arquitectura",
+    "english": "architecture",
+    "french": "architecture",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "impuesto",
+    "english": "tax",
+    "french": "impôt",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "firmar",
+    "english": "sign",
+    "french": "signer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "caña",
+    "english": "cane",
+    "french": "canne",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "tropical",
+    "english": "tropical",
+    "french": "tropical",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "ingeniero",
+    "english": "engineer",
+    "french": "ingénieur",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "helado",
+    "english": "ice cream",
+    "french": "glace",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "gramo",
+    "english": "gram",
+    "french": "gramme",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "rincón",
+    "english": "corner",
+    "french": "coin",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "griego",
+    "english": "Greek",
+    "french": "grec",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "exótico",
+    "english": "exotic",
+    "french": "exotique",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "sierra",
+    "english": "mountain range",
+    "french": "scie",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "suave",
+    "english": "soft",
+    "french": "doux",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "carro",
+    "english": "car",
+    "french": "voiture",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "ruina",
+    "english": "ruin",
+    "french": "ruine",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "cadena",
+    "english": "chain",
+    "french": "chaîne",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "analizar",
+    "english": "analyze",
+    "french": "analyser",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "gafas",
+    "english": "glasses",
+    "french": "lunettes",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "galería",
+    "english": "gallery",
+    "french": "galerie",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "fundación",
+    "english": "foundation",
+    "french": "fondation",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "grita",
+    "english": "shout",
+    "french": "crie",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "fumar",
+    "english": "smoking",
+    "french": "fumer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "respeto",
+    "english": "respect",
+    "french": "respect",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "bañar",
+    "english": "bathe",
+    "french": "se baigner",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "tabaco",
+    "english": "tobacco",
+    "french": "tabac",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "límite",
+    "english": "limit",
+    "french": "limite",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "opinar",
+    "english": "give an opinion",
+    "french": "donner son avis",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "intercambio",
+    "english": "exchange",
+    "french": "échange",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "colega",
+    "english": "colleague",
+    "french": "collègue",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "chaqueta",
+    "english": "jacket",
+    "french": "veste",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "pasajero",
+    "english": "passenger",
+    "french": "passager",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "siesta",
+    "english": "nap",
+    "french": "sieste",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "colección",
+    "english": "collection",
+    "french": "collection",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "encanto",
+    "english": "charm",
+    "french": "charme",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "monumento",
+    "english": "monument",
+    "french": "monument",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "librería",
+    "english": "bookstore",
+    "french": "librairie",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "fábrica",
+    "english": "factory",
+    "french": "usine",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "extremo",
+    "english": "extreme",
+    "french": "extrême",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "fascinante",
+    "english": "fascinating",
+    "french": "fascinant",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "pescar",
+    "english": "to fish",
+    "french": "pêcher",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "intercambiar",
+    "english": "exchange",
+    "french": "échanger",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "sopa",
+    "english": "soup",
+    "french": "soupe",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "ritual",
+    "english": "ritual",
+    "french": "rituel",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "nadar",
+    "english": "to swim",
+    "french": "nager",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "tesoro",
+    "english": "treasure",
+    "french": "trésor",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "equilibrio",
+    "english": "balance",
+    "french": "équilibre",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "temperatura",
+    "english": "temperature",
+    "french": "température",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "casualidad",
+    "english": "coincidence",
+    "french": "hasard",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "pizza",
+    "english": "pizza",
+    "french": "pizza",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "pensión",
+    "english": "pension",
+    "french": "pension",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "ligero",
+    "english": "lightweight",
+    "french": "léger",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "chile",
+    "english": "chili, chili pepper",
+    "french": "piment",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "pausa",
+    "english": "pause",
+    "french": "pause",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "parada",
+    "english": "stop",
+    "french": "arrêt",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "exiliar",
+    "english": "to exile",
+    "french": "exiler",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "plano",
+    "english": "plan",
+    "french": "plan",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "calefacción",
+    "english": "heating",
+    "french": "chauffage",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "ola",
+    "english": "Hi",
+    "french": "Salut",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "holandés",
+    "english": "Dutch",
+    "french": "néerlandais",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "harina",
+    "english": "flour",
+    "french": "farine",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "viajero",
+    "english": "traveler",
+    "french": "voyageur",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "empujar",
+    "english": "push",
+    "french": "pousser",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "concentrar",
+    "english": "concentrate",
+    "french": "concentrer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "sangre",
+    "english": "blood",
+    "french": "sang",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "paraíso",
+    "english": "paradise",
+    "french": "paradis",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "marisco",
+    "english": "seafood",
+    "french": "fruits de mer",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "tortuga",
+    "english": "turtle",
+    "french": "tortue",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "barba",
+    "english": "beard",
+    "french": "barbe",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "atracción",
+    "english": "attraction",
+    "french": "attraction",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "pantalón",
+    "english": "pants",
+    "french": "pantalon",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "corregir",
+    "english": "correct",
+    "french": "corriger",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "inolvidable",
+    "english": "unforgettable",
+    "french": "inoubliable",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "montón",
+    "english": "lot",
+    "french": "tas",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "documental",
+    "english": "documentary",
+    "french": "documentaire",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "liga",
+    "english": "league",
+    "french": "ligue",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "atrever",
+    "english": "to dare",
+    "french": "oser",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "cafetería",
+    "english": "coffee shop",
+    "french": "cafétéria",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "invertir",
+    "english": "invest",
+    "french": "investir",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "mate",
+    "english": "mate",
+    "french": "mat",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "misión",
+    "english": "mission",
+    "french": "mission",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "romano",
+    "english": "Roman",
+    "french": "romain",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "acondicionar",
+    "english": "to refurbish",
+    "french": "aménager",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "apasionar",
+    "english": "to inspire",
+    "french": "passionner",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "bodega",
+    "english": "wine cellar",
+    "french": "cave à vin",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "equilibrar",
+    "english": "balance",
+    "french": "équilibrer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "torre",
+    "english": "tower",
+    "french": "tour",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "soltero",
+    "english": "single",
+    "french": "célibataire",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "fríjol",
+    "english": "bean",
+    "french": "haricot",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "escultura",
+    "english": "sculpture",
+    "french": "sculpture",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "portugués",
+    "english": "Portuguese",
+    "french": "portugais",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "deportista",
+    "english": "athlete",
+    "french": "sportif",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "orgulloso",
+    "english": "proud",
+    "french": "fier",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "prima",
+    "english": "cousin",
+    "french": "cousine",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "nieve",
+    "english": "snow",
+    "french": "neige",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "piano",
+    "english": "piano",
+    "french": "piano",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "querido",
+    "english": "dear",
+    "french": "chéri(e)",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "recomendable",
+    "english": "recommended",
+    "french": "à recommander",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "empresarial",
+    "english": "business",
+    "french": "des affaires",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "ave",
+    "english": "bird",
+    "french": "oiseau",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "alcohol",
+    "english": "alcohol",
+    "french": "alcool",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "taco",
+    "english": "taco",
+    "french": "taco",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "cacao",
+    "english": "cocoa",
+    "french": "cacao",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "vamos",
+    "english": "Let's go",
+    "french": "Allons-y",
+    "pos_tag": "I",
+    "level": "a1"
+  },
+  {
+    "spanish": "yoga",
+    "english": "yoga",
+    "french": "yoga",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "latino",
+    "english": "Latin American",
+    "french": "latino",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "menú",
+    "english": "menu",
+    "french": "menu",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "fascinar",
+    "english": "fascinate",
+    "french": "fasciner",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "tremendo",
+    "english": "tremendous",
+    "french": "énorme",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "yogur",
+    "english": "yogurt",
+    "french": "yaourt",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "muro",
+    "english": "wall",
+    "french": "mur",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "pelota",
+    "english": "ball",
+    "french": "balle",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "bahía",
+    "english": "bay",
+    "french": "baie",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "mango",
+    "english": "mango",
+    "french": "mangue",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "infusión",
+    "english": "infusion",
+    "french": "infusion",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "exclamar",
+    "english": "exclaim",
+    "french": "s'exclamer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "jazz",
+    "english": "jazz",
+    "french": "jazz",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "chino",
+    "english": "Chinese",
+    "french": "chinois",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "farmacia",
+    "english": "pharmacy",
+    "french": "pharmacie",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "postura",
+    "english": "posture",
+    "french": "posture",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "exportar",
+    "english": "export",
+    "french": "exporter",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "deprisa",
+    "english": "quickly",
+    "french": "vite",
+    "pos_tag": "RG",
+    "level": "a1"
+  },
+  {
+    "spanish": "intenso",
+    "english": "intense",
+    "french": "intense",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "empanada",
+    "english": "empanada",
+    "french": "empanada",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "dólar",
+    "english": "dollar",
+    "french": "dollar",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "guiar",
+    "english": "guide",
+    "french": "guider",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "riquísimo",
+    "english": "extremely rich",
+    "french": "très riche",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "fabricación",
+    "english": "manufacturing",
+    "french": "fabrication",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "camiseta",
+    "english": "T-shirt",
+    "french": "t-shirt",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "saco",
+    "english": "bag",
+    "french": "sac",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "zapatilla",
+    "english": "sneaker",
+    "french": "chaussure de sport",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "intensivo",
+    "english": "intensive",
+    "french": "intensif",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "sueco",
+    "english": "Swedish",
+    "french": "suédois",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "matemática",
+    "english": "mathematics",
+    "french": "mathématiques",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "bravo",
+    "english": "bravo",
+    "french": "bravo",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "enojar",
+    "english": "to get angry",
+    "french": "se fâcher",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "invitación",
+    "english": "invitation",
+    "french": "invitation",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "kilómetro",
+    "english": "kilometer",
+    "french": "kilomètre",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "talento",
+    "english": "talent",
+    "french": "talent",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "frente",
+    "english": "in front of",
+    "french": "devant",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "hacienda",
+    "english": "treasury",
+    "french": "fiscalité",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "esquiar",
+    "english": "skiing",
+    "french": "faire du ski",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "céntrico",
+    "english": "central",
+    "french": "en centre-ville",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "cordillera",
+    "english": "mountain range",
+    "french": "chaîne de montagnes",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "prehispánico",
+    "english": "pre-Hispanic",
+    "french": "préhispanique",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "cobre",
+    "english": "copper",
+    "french": "cuivre",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "fresa",
+    "english": "strawberry",
+    "french": "fraise",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "gallo",
+    "english": "rooster",
+    "french": "coq",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "palma",
+    "english": "palm",
+    "french": "palme",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "espejuelo",
+    "english": "small mirror",
+    "french": "petit miroir",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "huerto",
+    "english": "vegetable garden",
+    "french": "potager",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "jersey",
+    "english": "sweater",
+    "french": "pull",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "bañador",
+    "english": "swimsuit",
+    "french": "maillot de bain",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "póster",
+    "english": "poster",
+    "french": "affiche",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "policíaco",
+    "english": "crime novel",
+    "french": "policier",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "bombón",
+    "english": "sweetheart",
+    "french": "bonbon",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "peatonal",
+    "english": "pedestrian",
+    "french": "piéton",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "tomo",
+    "english": "volume",
+    "french": "tome",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "fiscal",
+    "english": "prosecutor",
+    "french": "fiscal",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "gamba",
+    "english": "shrimp",
+    "french": "crevette",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "jubilar",
+    "english": "to retire",
+    "french": "jubilaire",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "albergue",
+    "english": "hostel",
+    "french": "auberge",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "batería",
+    "english": "battery",
+    "french": "batterie",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "filmar",
+    "english": "film",
+    "french": "filmer",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "paladar",
+    "english": "palate",
+    "french": "palais",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "belga",
+    "english": "Belgian",
+    "french": "belge",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "papi",
+    "english": "daddy",
+    "french": "papa",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "funcionario",
+    "english": "civil servant",
+    "french": "fonctionnaire",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "glaciar",
+    "english": "glacier",
+    "french": "glacier",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "muralla",
+    "english": "wall",
+    "french": "rempart",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "gusano",
+    "english": "worm",
+    "french": "ver",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "viudo",
+    "english": "widower",
+    "french": "veuf",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "pianista",
+    "english": "pianist",
+    "french": "pianiste",
+    "pos_tag": "NCC",
+    "level": "a1"
+  },
+  {
+    "spanish": "fax",
+    "english": "fax",
+    "french": "fax",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "oeste",
+    "english": "west",
+    "french": "ouest",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "gótico",
+    "english": "Gothic",
+    "french": "gothique",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "windsurf",
+    "english": "windsurfing",
+    "french": "planche à voile",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "mezquita",
+    "english": "mosque",
+    "french": "mosquée",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "brasileño",
+    "english": "Brazilian",
+    "french": "brésilien",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "senderismo",
+    "english": "hiking",
+    "french": "randonnée",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "guagua",
+    "english": "bus",
+    "french": "bus",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "cocaína",
+    "english": "cocaine",
+    "french": "cocaïne",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "urraca",
+    "english": "magpie",
+    "french": "pie",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "ca",
+    "english": "ca",
+    "french": "ca",
+    "pos_tag": "I",
+    "level": "a1"
+  },
+  {
+    "spanish": "rock",
+    "english": "rock",
+    "french": "rock",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "columpio",
+    "english": "swing",
+    "french": "balançoire",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "cuidador",
+    "english": "caregiver",
+    "french": "aidant",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "arqueológico",
+    "english": "archaeological",
+    "french": "archéologique",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "cuadrar",
+    "english": "balance",
+    "french": "faire correspondre",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "notario",
+    "english": "notary",
+    "french": "notaire",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "orisha",
+    "english": "orisha",
+    "french": "orisha",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "vedado",
+    "english": "off-limits",
+    "french": "interdit",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "balsero",
+    "english": "raft survivor",
+    "french": "réfugié sur un radeau",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "miope",
+    "english": "nearsighted",
+    "french": "myope",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "telenovela",
+    "english": "soap opera",
+    "french": "télé-feuilleton",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "botero",
+    "english": "Botero",
+    "french": "botero",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "corrido",
+    "english": "run",
+    "french": "corrido",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "cañonazo",
+    "english": "cannon shot",
+    "french": "coup de canon",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "tamal",
+    "english": "tamal",
+    "french": "tamal",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "apurar",
+    "english": "to hurry",
+    "french": "presser",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "pionero",
+    "english": "pioneer",
+    "french": "pionnier",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "sinagoga",
+    "english": "synagogue",
+    "french": "synagogue",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "jardinero",
+    "english": "gardener",
+    "french": "jardinier",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "metropolitano",
+    "english": "metropolitan",
+    "french": "métropolitain",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "botar",
+    "english": "to throw away",
+    "french": "jeter",
+    "pos_tag": "VM",
+    "level": "a1"
+  },
+  {
+    "spanish": "pelotero",
+    "english": "baseball player",
+    "french": "joueur de baseball",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "tabaquería",
+    "english": "cigar shop",
+    "french": "tabacerie",
+    "pos_tag": "NCF",
+    "level": "a1"
+  },
+  {
+    "spanish": "mallorquín",
+    "english": "Mallorcan",
+    "french": "majorquin",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  },
+  {
+    "spanish": "gaucho",
+    "english": "gaucho",
+    "french": "gaucho",
+    "pos_tag": "NCM",
+    "level": "a1"
+  },
+  {
+    "spanish": "panamericana",
+    "english": "Pan-American",
+    "french": "panaméricaine",
+    "pos_tag": "AQ0",
+    "level": "a1"
+  }
+]

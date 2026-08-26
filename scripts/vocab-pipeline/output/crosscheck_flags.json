@@ -1,0 +1,10390 @@
+[
+  {
+    "spanish": "be",
+    "english": {
+      "deepl": "be",
+      "wiktionary_options": [
+        "baa"
+      ]
+    }
+  },
+  {
+    "spanish": "ojo",
+    "french": {
+      "deepl": "attention",
+      "wiktionary_options": [
+        "chas",
+        "trou",
+        "yeux",
+        "œil"
+      ]
+    }
+  },
+  {
+    "spanish": "calzado",
+    "english": {
+      "deepl": "footwear",
+      "wiktionary_options": [
+        "shoe"
+      ]
+    }
+  },
+  {
+    "spanish": "ola",
+    "english": {
+      "deepl": "Hi",
+      "wiktionary_options": [
+        "wave"
+      ]
+    },
+    "french": {
+      "deepl": "Salut",
+      "wiktionary_options": [
+        "vague"
+      ]
+    }
+  },
+  {
+    "spanish": "utensilio",
+    "french": {
+      "deepl": "ustensile",
+      "wiktionary_options": [
+        "instrument",
+        "outil"
+      ]
+    }
+  },
+  {
+    "spanish": "mudanza",
+    "english": {
+      "deepl": "move",
+      "wiktionary_options": [
+        "removal"
+      ]
+    }
+  },
+  {
+    "spanish": "cifra",
+    "english": {
+      "deepl": "figure",
+      "wiktionary_options": [
+        "cipher"
+      ]
+    }
+  },
+  {
+    "spanish": "cantidad",
+    "english": {
+      "deepl": "amount",
+      "wiktionary_options": [
+        "quantity"
+      ]
+    }
+  },
+  {
+    "spanish": "urgencia",
+    "english": {
+      "deepl": "emergency",
+      "wiktionary_options": [
+        "urgency"
+      ]
+    }
+  },
+  {
+    "spanish": "órgano",
+    "french": {
+      "deepl": "orgue",
+      "wiktionary_options": [
+        "organe"
+      ]
+    }
+  },
+  {
+    "spanish": "vegetal",
+    "english": {
+      "deepl": "plant-based",
+      "wiktionary_options": [
+        "vegetable"
+      ]
+    }
+  },
+  {
+    "spanish": "abajo",
+    "english": {
+      "deepl": "below",
+      "wiktionary_options": [
+        "down"
+      ]
+    }
+  },
+  {
+    "spanish": "avanzar",
+    "english": {
+      "deepl": "move forward",
+      "wiktionary_options": [
+        "advance"
+      ]
+    }
+  },
+  {
+    "spanish": "aplazar",
+    "french": {
+      "deepl": "reporter",
+      "wiktionary_options": [
+        "ajourner"
+      ]
+    }
+  },
+  {
+    "spanish": "parecer",
+    "french": {
+      "deepl": "sembler",
+      "wiktionary_options": [
+        "paraître"
+      ]
+    }
+  },
+  {
+    "spanish": "aplicar",
+    "french": {
+      "deepl": "appliquer",
+      "wiktionary_options": [
+        "employer"
+      ]
+    }
+  },
+  {
+    "spanish": "atascar",
+    "french": {
+      "deepl": "se coincer",
+      "wiktionary_options": [
+        "bloquer",
+        "obstruer"
+      ]
+    }
+  },
+  {
+    "spanish": "atacar",
+    "english": {
+      "deepl": "attack",
+      "wiktionary_options": [
+        "erode"
+      ]
+    },
+    "french": {
+      "deepl": "attaquer",
+      "wiktionary_options": [
+        "corroder"
+      ]
+    }
+  },
+  {
+    "spanish": "calificar",
+    "english": {
+      "deepl": "to grade",
+      "wiktionary_options": [
+        "qualify"
+      ]
+    },
+    "french": {
+      "deepl": "évaluer",
+      "wiktionary_options": [
+        "qualifier"
+      ]
+    }
+  },
+  {
+    "spanish": "clasificar",
+    "english": {
+      "deepl": "sort",
+      "wiktionary_options": [
+        "classify"
+      ]
+    }
+  },
+  {
+    "spanish": "convocar",
+    "english": {
+      "deepl": "to convene",
+      "wiktionary_options": [
+        "call up",
+        "convoke",
+        "summon"
+      ]
+    }
+  },
+  {
+    "spanish": "chocar",
+    "english": {
+      "deepl": "to collide",
+      "wiktionary_options": [
+        "crash",
+        "go into"
+      ]
+    }
+  },
+  {
+    "spanish": "tarde",
+    "english": {
+      "deepl": "afternoon",
+      "wiktionary_options": [
+        "evening",
+        "late"
+      ]
+    }
+  },
+  {
+    "spanish": "enojar",
+    "english": {
+      "deepl": "to get angry",
+      "wiktionary_options": [
+        "annoy"
+      ]
+    },
+    "french": {
+      "deepl": "se fâcher",
+      "wiktionary_options": [
+        "chagriner"
+      ]
+    }
+  },
+  {
+    "spanish": "claro",
+    "english": {
+      "deepl": "of course",
+      "wiktionary_options": [
+        "bright",
+        "clear",
+        "light"
+      ]
+    }
+  },
+  {
+    "spanish": "oscuro",
+    "french": {
+      "deepl": "sombre",
+      "wiktionary_options": [
+        "noir",
+        "obscur"
+      ]
+    }
+  },
+  {
+    "spanish": "tonto",
+    "english": {
+      "deepl": "fool",
+      "wiktionary_options": [
+        "dumb",
+        "silly",
+        "stupid"
+      ]
+    },
+    "french": {
+      "deepl": "imbécile",
+      "wiktionary_options": [
+        "sot"
+      ]
+    }
+  },
+  {
+    "spanish": "olivo",
+    "english": {
+      "deepl": "olive tree",
+      "wiktionary_options": [
+        "olive-tree"
+      ]
+    }
+  },
+  {
+    "spanish": "tienda",
+    "english": {
+      "deepl": "store",
+      "wiktionary_options": [
+        "shop",
+        "tent"
+      ]
+    }
+  },
+  {
+    "spanish": "abundante",
+    "english": {
+      "deepl": "abundant",
+      "wiktionary_options": [
+        "plentiful"
+      ]
+    }
+  },
+  {
+    "spanish": "ofrecer",
+    "french": {
+      "deepl": "proposer",
+      "wiktionary_options": [
+        "offrir"
+      ]
+    }
+  },
+  {
+    "spanish": "baile",
+    "french": {
+      "deepl": "danse",
+      "wiktionary_options": [
+        "bal"
+      ]
+    }
+  },
+  {
+    "spanish": "castellano",
+    "english": {
+      "deepl": "Spanish",
+      "wiktionary_options": [
+        "castilian"
+      ]
+    },
+    "french": {
+      "deepl": "espagnol",
+      "wiktionary_options": [
+        "castillan"
+      ]
+    }
+  },
+  {
+    "spanish": "plato",
+    "english": {
+      "deepl": "dish",
+      "wiktionary_options": [
+        "course",
+        "plate"
+      ]
+    },
+    "french": {
+      "deepl": "plat",
+      "wiktionary_options": [
+        "assiette"
+      ]
+    }
+  },
+  {
+    "spanish": "estacionar",
+    "french": {
+      "deepl": "se garer",
+      "wiktionary_options": [
+        "stationner"
+      ]
+    }
+  },
+  {
+    "spanish": "alimento",
+    "french": {
+      "deepl": "nourriture",
+      "wiktionary_options": [
+        "aliment"
+      ]
+    }
+  },
+  {
+    "spanish": "planta",
+    "french": {
+      "deepl": "usine",
+      "wiktionary_options": [
+        "plante",
+        "étage"
+      ]
+    }
+  },
+  {
+    "spanish": "cargo",
+    "french": {
+      "deepl": "fonction",
+      "wiktionary_options": [
+        "charge"
+      ]
+    }
+  },
+  {
+    "spanish": "trasero",
+    "french": {
+      "deepl": "arrière",
+      "wiktionary_options": [
+        "derrière"
+      ]
+    }
+  },
+  {
+    "spanish": "ramo",
+    "english": {
+      "deepl": "branch",
+      "wiktionary_options": [
+        "bouquet"
+      ]
+    }
+  },
+  {
+    "spanish": "bigote",
+    "english": {
+      "deepl": "mustache",
+      "wiktionary_options": [
+        "moustache"
+      ]
+    }
+  },
+  {
+    "spanish": "habitante",
+    "english": {
+      "deepl": "resident",
+      "wiktionary_options": [
+        "dweller",
+        "inhabitant"
+      ]
+    }
+  },
+  {
+    "spanish": "consejero",
+    "english": {
+      "deepl": "advisor",
+      "wiktionary_options": [
+        "adviser"
+      ]
+    }
+  },
+  {
+    "spanish": "disco",
+    "english": {
+      "deepl": "album",
+      "wiktionary_options": [
+        "disk"
+      ]
+    }
+  },
+  {
+    "spanish": "destacar",
+    "english": {
+      "deepl": "highlight",
+      "wiktionary_options": [
+        "detach",
+        "emphasize"
+      ]
+    },
+    "french": {
+      "deepl": "mettre en avant",
+      "wiktionary_options": [
+        "détacher",
+        "ressortir",
+        "souligner"
+      ]
+    }
+  },
+  {
+    "spanish": "idiota",
+    "french": {
+      "deepl": "imbécile",
+      "wiktionary_options": [
+        "idiot"
+      ]
+    }
+  },
+  {
+    "spanish": "afición",
+    "french": {
+      "deepl": "passion",
+      "wiktionary_options": [
+        "affection",
+        "gout",
+        "supporters"
+      ]
+    }
+  },
+  {
+    "spanish": "rito",
+    "english": {
+      "deepl": "ritual",
+      "wiktionary_options": [
+        "rite"
+      ]
+    }
+  },
+  {
+    "spanish": "brecha",
+    "english": {
+      "deepl": "gap",
+      "wiktionary_options": [
+        "breach"
+      ]
+    },
+    "french": {
+      "deepl": "écart",
+      "wiktionary_options": [
+        "brèche"
+      ]
+    }
+  },
+  {
+    "spanish": "bodega",
+    "english": {
+      "deepl": "wine cellar",
+      "wiktionary_options": [
+        "bodega",
+        "hold"
+      ]
+    },
+    "french": {
+      "deepl": "cave à vin",
+      "wiktionary_options": [
+        "cale",
+        "cellier",
+        "chai",
+        "soute"
+      ]
+    }
+  },
+  {
+    "spanish": "acoger",
+    "english": {
+      "deepl": "to welcome",
+      "wiktionary_options": [
+        "receive",
+        "shelter"
+      ]
+    }
+  },
+  {
+    "spanish": "olla",
+    "french": {
+      "deepl": "casserole",
+      "wiktionary_options": [
+        "marmite",
+        "pot"
+      ]
+    }
+  },
+  {
+    "spanish": "crucero",
+    "french": {
+      "deepl": "croisière",
+      "wiktionary_options": [
+        "calvaire",
+        "croisée du transept"
+      ]
+    }
+  },
+  {
+    "spanish": "cúpula",
+    "french": {
+      "deepl": "dôme",
+      "wiktionary_options": [
+        "coupole"
+      ]
+    }
+  },
+  {
+    "spanish": "rechazar",
+    "french": {
+      "deepl": "refuser",
+      "wiktionary_options": [
+        "rejeter"
+      ]
+    }
+  },
+  {
+    "spanish": "subjetivo",
+    "english": {
+      "deepl": "subjective",
+      "wiktionary_options": [
+        "subjetive"
+      ]
+    }
+  },
+  {
+    "spanish": "número",
+    "french": {
+      "deepl": "numéro",
+      "wiktionary_options": [
+        "nombre"
+      ]
+    }
+  },
+  {
+    "spanish": "sanción",
+    "english": {
+      "deepl": "penalty",
+      "wiktionary_options": [
+        "sanction"
+      ]
+    }
+  },
+  {
+    "spanish": "motivo",
+    "english": {
+      "deepl": "reason",
+      "wiktionary_options": [
+        "motive"
+      ]
+    }
+  },
+  {
+    "spanish": "lindo",
+    "french": {
+      "deepl": "mignon",
+      "wiktionary_options": [
+        "joli"
+      ]
+    }
+  },
+  {
+    "spanish": "letra",
+    "french": {
+      "deepl": "paroles",
+      "wiktionary_options": [
+        "lettre"
+      ]
+    }
+  },
+  {
+    "spanish": "lúdico",
+    "english": {
+      "deepl": "recreational",
+      "wiktionary_options": [
+        "ludic"
+      ]
+    }
+  },
+  {
+    "spanish": "patrimonio",
+    "english": {
+      "deepl": "heritage",
+      "wiktionary_options": [
+        "patrimony"
+      ]
+    }
+  },
+  {
+    "spanish": "cristal",
+    "french": {
+      "deepl": "verre",
+      "wiktionary_options": [
+        "vitre"
+      ]
+    }
+  },
+  {
+    "spanish": "mostrar",
+    "french": {
+      "deepl": "afficher",
+      "wiktionary_options": [
+        "montrer"
+      ]
+    }
+  },
+  {
+    "spanish": "equilibrio",
+    "english": {
+      "deepl": "balance",
+      "wiktionary_options": [
+        "equilibrium"
+      ]
+    }
+  },
+  {
+    "spanish": "lema",
+    "french": {
+      "deepl": "slogan",
+      "wiktionary_options": [
+        "devise",
+        "entrée",
+        "lemme"
+      ]
+    }
+  },
+  {
+    "spanish": "muralla",
+    "french": {
+      "deepl": "rempart",
+      "wiktionary_options": [
+        "muraille"
+      ]
+    }
+  },
+  {
+    "spanish": "casar",
+    "english": {
+      "deepl": "to get married",
+      "wiktionary_options": [
+        "marry",
+        "wed"
+      ]
+    }
+  },
+  {
+    "spanish": "margarita",
+    "french": {
+      "deepl": "marguerite",
+      "wiktionary_options": [
+        "anthémis des teinturiers",
+        "margarita",
+        "pâquerette"
+      ]
+    }
+  },
+  {
+    "spanish": "medieval",
+    "french": {
+      "deepl": "médiéval",
+      "wiktionary_options": [
+        "médieval"
+      ]
+    }
+  },
+  {
+    "spanish": "frente",
+    "english": {
+      "deepl": "in front of",
+      "wiktionary_options": [
+        "forehead"
+      ]
+    },
+    "french": {
+      "deepl": "devant",
+      "wiktionary_options": [
+        "front"
+      ]
+    }
+  },
+  {
+    "spanish": "oficio",
+    "english": {
+      "deepl": "trade",
+      "wiktionary_options": [
+        "craft",
+        "job",
+        "missive",
+        "office",
+        "writ"
+      ]
+    }
+  },
+  {
+    "spanish": "caña",
+    "french": {
+      "deepl": "canne",
+      "wiktionary_options": [
+        "chaume",
+        "roseau",
+        "tige"
+      ]
+    }
+  },
+  {
+    "spanish": "significado",
+    "french": {
+      "deepl": "signification",
+      "wiktionary_options": [
+        "signifié"
+      ]
+    }
+  },
+  {
+    "spanish": "madriguera",
+    "english": {
+      "deepl": "burrow",
+      "wiktionary_options": [
+        "den",
+        "lair"
+      ]
+    },
+    "french": {
+      "deepl": "terreau",
+      "wiktionary_options": [
+        "antre",
+        "tanière"
+      ]
+    }
+  },
+  {
+    "spanish": "partir",
+    "english": {
+      "deepl": "start",
+      "wiktionary_options": [
+        "depart",
+        "part"
+      ]
+    }
+  },
+  {
+    "spanish": "activo",
+    "english": {
+      "deepl": "asset",
+      "wiktionary_options": [
+        "active"
+      ]
+    }
+  },
+  {
+    "spanish": "cabo",
+    "english": {
+      "deepl": "cable",
+      "wiktionary_options": [
+        "cape",
+        "corporal",
+        "line",
+        "rope",
+        "sergeant"
+      ]
+    }
+  },
+  {
+    "spanish": "púa",
+    "french": {
+      "deepl": "pique",
+      "wiktionary_options": [
+        "pic"
+      ]
+    }
+  },
+  {
+    "spanish": "cucharada",
+    "french": {
+      "deepl": "cuillère à soupe",
+      "wiktionary_options": [
+        "cuillerée"
+      ]
+    }
+  },
+  {
+    "spanish": "revisión",
+    "english": {
+      "deepl": "review",
+      "wiktionary_options": [
+        "revision"
+      ]
+    }
+  },
+  {
+    "spanish": "ira",
+    "english": {
+      "deepl": "anger",
+      "wiktionary_options": [
+        "ire"
+      ]
+    }
+  },
+  {
+    "spanish": "poblado",
+    "english": {
+      "deepl": "settlement",
+      "wiktionary_options": [
+        "town"
+      ]
+    }
+  },
+  {
+    "spanish": "flujo",
+    "english": {
+      "deepl": "flow",
+      "wiktionary_options": [
+        "flux"
+      ]
+    }
+  },
+  {
+    "spanish": "bajo",
+    "english": {
+      "deepl": "low",
+      "wiktionary_options": [
+        "bass",
+        "small",
+        "under"
+      ]
+    }
+  },
+  {
+    "spanish": "raya",
+    "english": {
+      "deepl": "line",
+      "wiktionary_options": [
+        "ray"
+      ]
+    },
+    "french": {
+      "deepl": "ligne",
+      "wiktionary_options": [
+        "raie"
+      ]
+    }
+  },
+  {
+    "spanish": "béisbol",
+    "french": {
+      "deepl": "baseball",
+      "wiktionary_options": [
+        "base-ball"
+      ]
+    }
+  },
+  {
+    "spanish": "dulce",
+    "french": {
+      "deepl": "sucré",
+      "wiktionary_options": [
+        "bonbon",
+        "douce",
+        "doux"
+      ]
+    }
+  },
+  {
+    "spanish": "juicio",
+    "english": {
+      "deepl": "trial",
+      "wiktionary_options": [
+        "judgment",
+        "sober"
+      ]
+    },
+    "french": {
+      "deepl": "procès",
+      "wiktionary_options": [
+        "jugement",
+        "raison",
+        "sens moral"
+      ]
+    }
+  },
+  {
+    "spanish": "mover",
+    "french": {
+      "deepl": "déplacer",
+      "wiktionary_options": [
+        "mouvoir"
+      ]
+    }
+  },
+  {
+    "spanish": "rogar",
+    "french": {
+      "deepl": "supplier",
+      "wiktionary_options": [
+        "implorer"
+      ]
+    }
+  },
+  {
+    "spanish": "pedir",
+    "english": {
+      "deepl": "to ask",
+      "wiktionary_options": [
+        "ask for",
+        "order"
+      ]
+    }
+  },
+  {
+    "spanish": "empezar",
+    "english": {
+      "deepl": "get started",
+      "wiktionary_options": [
+        "begin"
+      ]
+    }
+  },
+  {
+    "spanish": "seguir",
+    "english": {
+      "deepl": "continue",
+      "wiktionary_options": [
+        "follow"
+      ]
+    },
+    "french": {
+      "deepl": "continuer",
+      "wiktionary_options": [
+        "suivre"
+      ]
+    }
+  },
+  {
+    "spanish": "manga",
+    "english": {
+      "deepl": "manga",
+      "wiktionary_options": [
+        "sleeve"
+      ]
+    },
+    "french": {
+      "deepl": "manga",
+      "wiktionary_options": [
+        "manche"
+      ]
+    }
+  },
+  {
+    "spanish": "rumor",
+    "english": {
+      "deepl": "rumor",
+      "wiktionary_options": [
+        "rumour"
+      ]
+    }
+  },
+  {
+    "spanish": "disfrutar",
+    "french": {
+      "deepl": "profiter",
+      "wiktionary_options": [
+        "réjouir"
+      ]
+    }
+  },
+  {
+    "spanish": "acordar",
+    "french": {
+      "deepl": "se mettre d'accord",
+      "wiktionary_options": [
+        "convenir de"
+      ]
+    }
+  },
+  {
+    "spanish": "huella",
+    "french": {
+      "deepl": "empreinte",
+      "wiktionary_options": [
+        "trace"
+      ]
+    }
+  },
+  {
+    "spanish": "aparato",
+    "english": {
+      "deepl": "device",
+      "wiktionary_options": [
+        "apparatus",
+        "appliance",
+        "machine"
+      ]
+    }
+  },
+  {
+    "spanish": "animar",
+    "english": {
+      "deepl": "cheer on",
+      "wiktionary_options": [
+        "cheer up",
+        "encourage",
+        "liven up"
+      ]
+    }
+  },
+  {
+    "spanish": "agradecimiento",
+    "english": {
+      "deepl": "acknowledgment",
+      "wiktionary_options": [
+        "gratefulness",
+        "gratitude",
+        "thankfulness"
+      ]
+    },
+    "french": {
+      "deepl": "remerciements",
+      "wiktionary_options": [
+        "gratitude",
+        "reconnaissance"
+      ]
+    }
+  },
+  {
+    "spanish": "teórico",
+    "french": {
+      "deepl": "théorique",
+      "wiktionary_options": [
+        "théorétique"
+      ]
+    }
+  },
+  {
+    "spanish": "inclinación",
+    "english": {
+      "deepl": "slope",
+      "wiktionary_options": [
+        "slant"
+      ]
+    }
+  },
+  {
+    "spanish": "imprenta",
+    "french": {
+      "deepl": "imprimerie",
+      "wiktionary_options": [
+        "impression"
+      ]
+    }
+  },
+  {
+    "spanish": "abandonar",
+    "english": {
+      "deepl": "to give up",
+      "wiktionary_options": [
+        "forsake"
+      ]
+    }
+  },
+  {
+    "spanish": "autóctono",
+    "english": {
+      "deepl": "native",
+      "wiktionary_options": [
+        "autochthonous"
+      ]
+    }
+  },
+  {
+    "spanish": "azafata",
+    "french": {
+      "deepl": "hôtesse de l'air",
+      "wiktionary_options": [
+        "dame d'atour"
+      ]
+    }
+  },
+  {
+    "spanish": "flamenco",
+    "english": {
+      "deepl": "flamenco",
+      "wiktionary_options": [
+        "flamingo"
+      ]
+    },
+    "french": {
+      "deepl": "flamenco",
+      "wiktionary_options": [
+        "flamant"
+      ]
+    }
+  },
+  {
+    "spanish": "actualidad",
+    "english": {
+      "deepl": "News",
+      "wiktionary_options": [
+        "present"
+      ]
+    }
+  },
+  {
+    "spanish": "vano",
+    "english": {
+      "deepl": "span",
+      "wiktionary_options": [
+        "gate",
+        "opening",
+        "vain"
+      ]
+    }
+  },
+  {
+    "spanish": "referir",
+    "french": {
+      "deepl": "faire référence à",
+      "wiktionary_options": [
+        "référer"
+      ]
+    }
+  },
+  {
+    "spanish": "foco",
+    "english": {
+      "deepl": "spotlight",
+      "wiktionary_options": [
+        "focus"
+      ]
+    },
+    "french": {
+      "deepl": "projecteur",
+      "wiktionary_options": [
+        "ampoule",
+        "focale",
+        "foyer"
+      ]
+    }
+  },
+  {
+    "spanish": "vacaciones",
+    "english": {
+      "deepl": "vacation",
+      "wiktionary_options": [
+        "holiday",
+        "holidays"
+      ]
+    }
+  },
+  {
+    "spanish": "fragmento",
+    "english": {
+      "deepl": "excerpt",
+      "wiktionary_options": [
+        "fragment",
+        "passage"
+      ]
+    },
+    "french": {
+      "deepl": "extrait",
+      "wiktionary_options": [
+        "fragment",
+        "morceau"
+      ]
+    }
+  },
+  {
+    "spanish": "litro",
+    "english": {
+      "deepl": "liter",
+      "wiktionary_options": [
+        "litre"
+      ]
+    }
+  },
+  {
+    "spanish": "formación",
+    "english": {
+      "deepl": "training",
+      "wiktionary_options": [
+        "formation"
+      ]
+    }
+  },
+  {
+    "spanish": "frase",
+    "english": {
+      "deepl": "phrase",
+      "wiktionary_options": [
+        "sentence"
+      ]
+    }
+  },
+  {
+    "spanish": "leyenda",
+    "english": {
+      "deepl": "caption",
+      "wiktionary_options": [
+        "legend"
+      ]
+    }
+  },
+  {
+    "spanish": "zapatilla",
+    "english": {
+      "deepl": "sneaker",
+      "wiktionary_options": [
+        "buttom",
+        "cue tip",
+        "house shoe",
+        "pump",
+        "shoe",
+        "slipper"
+      ]
+    },
+    "french": {
+      "deepl": "chaussure de sport",
+      "wiktionary_options": [
+        "pantoufle"
+      ]
+    }
+  },
+  {
+    "spanish": "tala",
+    "english": {
+      "deepl": "logging",
+      "wiktionary_options": [
+        "tala"
+      ]
+    },
+    "french": {
+      "deepl": "abattage",
+      "wiktionary_options": [
+        "tala"
+      ]
+    }
+  },
+  {
+    "spanish": "grifo",
+    "english": {
+      "deepl": "faucet",
+      "wiktionary_options": [
+        "griffin"
+      ]
+    }
+  },
+  {
+    "spanish": "acabar",
+    "french": {
+      "deepl": "terminer",
+      "wiktionary_options": [
+        "finir"
+      ]
+    }
+  },
+  {
+    "spanish": "arrugar",
+    "french": {
+      "deepl": "froisser",
+      "wiktionary_options": [
+        "rider"
+      ]
+    }
+  },
+  {
+    "spanish": "cierre",
+    "english": {
+      "deepl": "closure",
+      "wiktionary_options": [
+        "zipper"
+      ]
+    }
+  },
+  {
+    "spanish": "comedor",
+    "english": {
+      "deepl": "dining room",
+      "wiktionary_options": [
+        "eater"
+      ]
+    }
+  },
+  {
+    "spanish": "millonario",
+    "french": {
+      "deepl": "millionnaire",
+      "wiktionary_options": [
+        "millionaire"
+      ]
+    }
+  },
+  {
+    "spanish": "pedazo",
+    "english": {
+      "deepl": "huge",
+      "wiktionary_options": [
+        "piece"
+      ]
+    },
+    "french": {
+      "deepl": "morceau",
+      "wiktionary_options": [
+        "pièce"
+      ]
+    }
+  },
+  {
+    "spanish": "reloj",
+    "english": {
+      "deepl": "watch",
+      "wiktionary_options": [
+        "clock"
+      ]
+    },
+    "french": {
+      "deepl": "montre",
+      "wiktionary_options": [
+        "horloge"
+      ]
+    }
+  },
+  {
+    "spanish": "tarta",
+    "english": {
+      "deepl": "cake",
+      "wiktionary_options": [
+        "gateau",
+        "tart",
+        "torte"
+      ]
+    }
+  },
+  {
+    "spanish": "transmitir",
+    "english": {
+      "deepl": "broadcast",
+      "wiktionary_options": [
+        "transmit"
+      ]
+    },
+    "french": {
+      "deepl": "diffuser",
+      "wiktionary_options": [
+        "transmettre"
+      ]
+    }
+  },
+  {
+    "spanish": "fregar",
+    "french": {
+      "deepl": "frotter",
+      "wiktionary_options": [
+        "faire la vaisselle",
+        "passer la serpillière"
+      ]
+    }
+  },
+  {
+    "spanish": "feria",
+    "french": {
+      "deepl": "salon",
+      "wiktionary_options": [
+        "foire"
+      ]
+    }
+  },
+  {
+    "spanish": "abundar",
+    "english": {
+      "deepl": "to elaborate",
+      "wiktionary_options": [
+        "abound"
+      ]
+    }
+  },
+  {
+    "spanish": "pique",
+    "english": {
+      "deepl": "bite",
+      "wiktionary_options": [
+        "honey fungus",
+        "spade"
+      ]
+    }
+  },
+  {
+    "spanish": "bombilla",
+    "english": {
+      "deepl": "light bulb",
+      "wiktionary_options": [
+        "light globe",
+        "lightbulb"
+      ]
+    }
+  },
+  {
+    "spanish": "demandar",
+    "french": {
+      "deepl": "intenter une action en justice",
+      "wiktionary_options": [
+        "poursuivre en justice"
+      ]
+    }
+  },
+  {
+    "spanish": "vigilar",
+    "english": {
+      "deepl": "monitor",
+      "wiktionary_options": [
+        "keep watch",
+        "look after",
+        "watch"
+      ]
+    }
+  },
+  {
+    "spanish": "acelerar",
+    "english": {
+      "deepl": "to speed up",
+      "wiktionary_options": [
+        "accelerate"
+      ]
+    }
+  },
+  {
+    "spanish": "acondicionar",
+    "english": {
+      "deepl": "to refurbish",
+      "wiktionary_options": [
+        "arrange",
+        "prepare"
+      ]
+    }
+  },
+  {
+    "spanish": "adelantar",
+    "english": {
+      "deepl": "overtake",
+      "wiktionary_options": [
+        "move forward"
+      ]
+    }
+  },
+  {
+    "spanish": "administrar",
+    "english": {
+      "deepl": "manage",
+      "wiktionary_options": [
+        "administer"
+      ]
+    }
+  },
+  {
+    "spanish": "afirmar",
+    "english": {
+      "deepl": "to state",
+      "wiktionary_options": [
+        "affirm"
+      ]
+    }
+  },
+  {
+    "spanish": "aguantar",
+    "french": {
+      "deepl": "tenir le coup",
+      "wiktionary_options": [
+        "supporter"
+      ]
+    }
+  },
+  {
+    "spanish": "ahorrar",
+    "french": {
+      "deepl": "économiser",
+      "wiktionary_options": [
+        "épargner"
+      ]
+    }
+  },
+  {
+    "spanish": "catástrofe",
+    "english": {
+      "deepl": "disaster",
+      "wiktionary_options": [
+        "catastrophe",
+        "train wreck"
+      ]
+    }
+  },
+  {
+    "spanish": "alejar",
+    "english": {
+      "deepl": "move away",
+      "wiktionary_options": [
+        "remove"
+      ]
+    }
+  },
+  {
+    "spanish": "alimentar",
+    "french": {
+      "deepl": "nourrir",
+      "wiktionary_options": [
+        "alimenter"
+      ]
+    }
+  },
+  {
+    "spanish": "apartar",
+    "english": {
+      "deepl": "set aside",
+      "wiktionary_options": [
+        "saparate"
+      ]
+    }
+  },
+  {
+    "spanish": "aportar",
+    "english": {
+      "deepl": "contribute",
+      "wiktionary_options": [
+        "bring",
+        "give",
+        "provide"
+      ]
+    }
+  },
+  {
+    "spanish": "aprovechar",
+    "french": {
+      "deepl": "tirer parti de",
+      "wiktionary_options": [
+        "profiter"
+      ]
+    }
+  },
+  {
+    "spanish": "apuntar",
+    "french": {
+      "deepl": "noter",
+      "wiktionary_options": [
+        "pointerciblerviser"
+      ]
+    }
+  },
+  {
+    "spanish": "arrojar",
+    "english": {
+      "deepl": "to throw",
+      "wiktionary_options": [
+        "eject"
+      ]
+    }
+  },
+  {
+    "spanish": "cauce",
+    "english": {
+      "deepl": "channel",
+      "wiktionary_options": [
+        "riverbed"
+      ]
+    }
+  },
+  {
+    "spanish": "móvil",
+    "english": {
+      "deepl": "cell phone",
+      "wiktionary_options": [
+        "cellphone",
+        "mobile",
+        "motive"
+      ]
+    }
+  },
+  {
+    "spanish": "quebrada",
+    "english": {
+      "deepl": "bankrupt",
+      "wiktionary_options": [
+        "ravine"
+      ]
+    },
+    "french": {
+      "deepl": "en faillite",
+      "wiktionary_options": [
+        "ravin"
+      ]
+    }
+  },
+  {
+    "spanish": "alojar",
+    "french": {
+      "deepl": "héberger",
+      "wiktionary_options": [
+        "loger"
+      ]
+    }
+  },
+  {
+    "spanish": "municipio",
+    "french": {
+      "deepl": "commune",
+      "wiktionary_options": [
+        "mairie",
+        "municipalité"
+      ]
+    }
+  },
+  {
+    "spanish": "nativo",
+    "french": {
+      "deepl": "natif",
+      "wiktionary_options": [
+        "indigène"
+      ]
+    }
+  },
+  {
+    "spanish": "afectivo",
+    "english": {
+      "deepl": "emotional",
+      "wiktionary_options": [
+        "affective"
+      ]
+    }
+  },
+  {
+    "spanish": "recoger",
+    "english": {
+      "deepl": "collect",
+      "wiktionary_options": [
+        "pick"
+      ]
+    },
+    "french": {
+      "deepl": "ramasser",
+      "wiktionary_options": [
+        "recueillir"
+      ]
+    }
+  },
+  {
+    "spanish": "vía",
+    "english": {
+      "deepl": "via",
+      "wiktionary_options": [
+        "road",
+        "track",
+        "way"
+      ]
+    }
+  },
+  {
+    "spanish": "envío",
+    "english": {
+      "deepl": "shipping",
+      "wiktionary_options": [
+        "consignment",
+        "dispatch"
+      ]
+    }
+  },
+  {
+    "spanish": "chisme",
+    "french": {
+      "deepl": "potins",
+      "wiktionary_options": [
+        "bidule",
+        "cancan",
+        "machin",
+        "ragot",
+        "truc"
+      ]
+    }
+  },
+  {
+    "spanish": "fuerte",
+    "french": {
+      "deepl": "fort",
+      "wiktionary_options": [
+        "puissant"
+      ]
+    }
+  },
+  {
+    "spanish": "madrileño",
+    "english": {
+      "deepl": "from Madrid",
+      "wiktionary_options": [
+        "madrilenian"
+      ]
+    },
+    "french": {
+      "deepl": "originaire de Madrid",
+      "wiktionary_options": [
+        "madrilène"
+      ]
+    }
+  },
+  {
+    "spanish": "abrasar",
+    "english": {
+      "deepl": "scorch",
+      "wiktionary_options": [
+        "burn"
+      ]
+    }
+  },
+  {
+    "spanish": "fuerza",
+    "english": {
+      "deepl": "strength",
+      "wiktionary_options": [
+        "force"
+      ]
+    }
+  },
+  {
+    "spanish": "jerga",
+    "english": {
+      "deepl": "slang",
+      "wiktionary_options": [
+        "jargon"
+      ]
+    },
+    "french": {
+      "deepl": "argot",
+      "wiktionary_options": [
+        "jargon"
+      ]
+    }
+  },
+  {
+    "spanish": "masa",
+    "french": {
+      "deepl": "pâte",
+      "wiktionary_options": [
+        "foule",
+        "masse"
+      ]
+    }
+  },
+  {
+    "spanish": "materia",
+    "english": {
+      "deepl": "subject",
+      "wiktionary_options": [
+        "matter"
+      ]
+    }
+  },
+  {
+    "spanish": "aislamiento",
+    "french": {
+      "deepl": "isolation",
+      "wiktionary_options": [
+        "isolement"
+      ]
+    }
+  },
+  {
+    "spanish": "billón",
+    "english": {
+      "deepl": "billion",
+      "wiktionary_options": [
+        "trillion"
+      ]
+    },
+    "french": {
+      "deepl": "milliard",
+      "wiktionary_options": [
+        "billion"
+      ]
+    }
+  },
+  {
+    "spanish": "cálculo",
+    "english": {
+      "deepl": "calculation",
+      "wiktionary_options": [
+        "calculus"
+      ]
+    }
+  },
+  {
+    "spanish": "estado",
+    "english": {
+      "deepl": "status",
+      "wiktionary_options": [
+        "state"
+      ]
+    }
+  },
+  {
+    "spanish": "aimara",
+    "french": {
+      "deepl": "aimara",
+      "wiktionary_options": [
+        "aymara"
+      ]
+    }
+  },
+  {
+    "spanish": "asunto",
+    "english": {
+      "deepl": "subject",
+      "wiktionary_options": [
+        "affair",
+        "business"
+      ]
+    },
+    "french": {
+      "deepl": "sujet",
+      "wiktionary_options": [
+        "affaire"
+      ]
+    }
+  },
+  {
+    "spanish": "lenguaje",
+    "french": {
+      "deepl": "langue",
+      "wiktionary_options": [
+        "langage"
+      ]
+    }
+  },
+  {
+    "spanish": "aroma",
+    "french": {
+      "deepl": "parfum",
+      "wiktionary_options": [
+        "arôme"
+      ]
+    }
+  },
+  {
+    "spanish": "pelo",
+    "french": {
+      "deepl": "cheveux",
+      "wiktionary_options": [
+        "poil"
+      ]
+    }
+  },
+  {
+    "spanish": "bueno",
+    "english": {
+      "deepl": "well",
+      "wiktionary_options": [
+        "fine",
+        "good",
+        "nice",
+        "okay",
+        "skeptical"
+      ]
+    }
+  },
+  {
+    "spanish": "resumen",
+    "french": {
+      "deepl": "résumé",
+      "wiktionary_options": [
+        "abrégé"
+      ]
+    }
+  },
+  {
+    "spanish": "tronco",
+    "english": {
+      "deepl": "log",
+      "wiktionary_options": [
+        "trunk"
+      ]
+    }
+  },
+  {
+    "spanish": "lanzar",
+    "english": {
+      "deepl": "launch",
+      "wiktionary_options": [
+        "throw"
+      ]
+    },
+    "french": {
+      "deepl": "lancer",
+      "wiktionary_options": [
+        "jeter"
+      ]
+    }
+  },
+  {
+    "spanish": "pico",
+    "french": {
+      "deepl": "pic",
+      "wiktionary_options": [
+        "bec",
+        "pioche"
+      ]
+    }
+  },
+  {
+    "spanish": "telenovela",
+    "french": {
+      "deepl": "télé-feuilleton",
+      "wiktionary_options": [
+        "telenovela"
+      ]
+    }
+  },
+  {
+    "spanish": "aluvión",
+    "english": {
+      "deepl": "flood",
+      "wiktionary_options": [
+        "alluvium"
+      ]
+    },
+    "french": {
+      "deepl": "inondation",
+      "wiktionary_options": [
+        "alluvion"
+      ]
+    }
+  },
+  {
+    "spanish": "cerdo",
+    "french": {
+      "deepl": "porc",
+      "wiktionary_options": [
+        "cochon"
+      ]
+    }
+  },
+  {
+    "spanish": "delantero",
+    "english": {
+      "deepl": "forward",
+      "wiktionary_options": [
+        "striker"
+      ]
+    },
+    "french": {
+      "deepl": "attaquant",
+      "wiktionary_options": [
+        "avant"
+      ]
+    }
+  },
+  {
+    "spanish": "criado",
+    "english": {
+      "deepl": "raised",
+      "wiktionary_options": [
+        "servant"
+      ]
+    },
+    "french": {
+      "deepl": "élevé",
+      "wiktionary_options": [
+        "domestique"
+      ]
+    }
+  },
+  {
+    "spanish": "descender",
+    "english": {
+      "deepl": "go down",
+      "wiktionary_options": [
+        "descend"
+      ]
+    },
+    "french": {
+      "deepl": "descendre",
+      "wiktionary_options": [
+        "abaisser"
+      ]
+    }
+  },
+  {
+    "spanish": "quemar",
+    "english": {
+      "deepl": "to burn",
+      "wiktionary_options": [
+        "burn warm"
+      ]
+    }
+  },
+  {
+    "spanish": "lácteo",
+    "english": {
+      "deepl": "dairy",
+      "wiktionary_options": [
+        "milky"
+      ]
+    }
+  },
+  {
+    "spanish": "carretera",
+    "english": {
+      "deepl": "highway",
+      "wiktionary_options": [
+        "road"
+      ]
+    }
+  },
+  {
+    "spanish": "chile",
+    "english": {
+      "deepl": "Chile",
+      "wiktionary_options": [
+        "chili",
+        "chili pepper",
+        "chilli"
+      ]
+    },
+    "french": {
+      "deepl": "Chili",
+      "wiktionary_options": [
+        "piment"
+      ]
+    }
+  },
+  {
+    "spanish": "exterior",
+    "english": {
+      "deepl": "outdoor",
+      "wiktionary_options": [
+        "exterior"
+      ]
+    }
+  },
+  {
+    "spanish": "mayor",
+    "english": {
+      "deepl": "older",
+      "wiktionary_options": [
+        "bigger",
+        "elder",
+        "major"
+      ]
+    }
+  },
+  {
+    "spanish": "menos",
+    "english": {
+      "deepl": "at least",
+      "wiktionary_options": [
+        "less",
+        "minus"
+      ]
+    }
+  },
+  {
+    "spanish": "propietario",
+    "english": {
+      "deepl": "owner",
+      "wiktionary_options": [
+        "owning",
+        "proprietary"
+      ]
+    }
+  },
+  {
+    "spanish": "cuadro",
+    "french": {
+      "deepl": "tableau",
+      "wiktionary_options": [
+        "carré",
+        "peinture"
+      ]
+    }
+  },
+  {
+    "spanish": "antiguo",
+    "french": {
+      "deepl": "ancien",
+      "wiktionary_options": [
+        "antique"
+      ]
+    }
+  },
+  {
+    "spanish": "piña",
+    "english": {
+      "deepl": "pineapple",
+      "wiktionary_options": [
+        "cone",
+        "pinecone",
+        "piña"
+      ]
+    },
+    "french": {
+      "deepl": "ananas",
+      "wiktionary_options": [
+        "pigne",
+        "pomme de pin"
+      ]
+    }
+  },
+  {
+    "spanish": "comercial",
+    "french": {
+      "deepl": "commercial",
+      "wiktionary_options": [
+        "publicité"
+      ]
+    }
+  },
+  {
+    "spanish": "cabalgar",
+    "french": {
+      "deepl": "monter à cheval",
+      "wiktionary_options": [
+        "chevaucher"
+      ]
+    }
+  },
+  {
+    "spanish": "morena",
+    "english": {
+      "deepl": "brunette",
+      "wiktionary_options": [
+        "moraine",
+        "moray eel"
+      ]
+    },
+    "french": {
+      "deepl": "brune",
+      "wiktionary_options": [
+        "moraine",
+        "murène"
+      ]
+    }
+  },
+  {
+    "spanish": "renacer",
+    "english": {
+      "deepl": "to be reborn",
+      "wiktionary_options": [
+        "again",
+        "be born",
+        "rebirth"
+      ]
+    }
+  },
+  {
+    "spanish": "desahuciar",
+    "french": {
+      "deepl": "expulser",
+      "wiktionary_options": [
+        "condamner",
+        "évincer"
+      ]
+    }
+  },
+  {
+    "spanish": "filo",
+    "french": {
+      "deepl": "tranchant",
+      "wiktionary_options": [
+        "phylum"
+      ]
+    }
+  },
+  {
+    "spanish": "concha",
+    "french": {
+      "deepl": "coquille",
+      "wiktionary_options": [
+        "coquillage"
+      ]
+    }
+  },
+  {
+    "spanish": "argumento",
+    "english": {
+      "deepl": "plot",
+      "wiktionary_options": [
+        "argument"
+      ]
+    },
+    "french": {
+      "deepl": "intrigue",
+      "wiktionary_options": [
+        "argument"
+      ]
+    }
+  },
+  {
+    "spanish": "ron",
+    "english": {
+      "deepl": "ron",
+      "wiktionary_options": [
+        "rum"
+      ]
+    },
+    "french": {
+      "deepl": "ron",
+      "wiktionary_options": [
+        "rhum"
+      ]
+    }
+  },
+  {
+    "spanish": "frontera",
+    "english": {
+      "deepl": "border",
+      "wiktionary_options": [
+        "frontier"
+      ]
+    }
+  },
+  {
+    "spanish": "maestro",
+    "french": {
+      "deepl": "professeur",
+      "wiktionary_options": [
+        "instituteur",
+        "maître"
+      ]
+    }
+  },
+  {
+    "spanish": "blando",
+    "french": {
+      "deepl": "moelleux",
+      "wiktionary_options": [
+        "doux",
+        "molle",
+        "mou"
+      ]
+    }
+  },
+  {
+    "spanish": "corazón",
+    "french": {
+      "deepl": "cœur",
+      "wiktionary_options": [
+        "coeur"
+      ]
+    }
+  },
+  {
+    "spanish": "oveja",
+    "french": {
+      "deepl": "mouton",
+      "wiktionary_options": [
+        "brebis"
+      ]
+    }
+  },
+  {
+    "spanish": "ropa",
+    "english": {
+      "deepl": "clothing",
+      "wiktionary_options": [
+        "clothes",
+        "dress",
+        "garment"
+      ]
+    }
+  },
+  {
+    "spanish": "narrar",
+    "french": {
+      "deepl": "raconter",
+      "wiktionary_options": [
+        "narrer"
+      ]
+    }
+  },
+  {
+    "spanish": "advertir",
+    "french": {
+      "deepl": "avertir",
+      "wiktionary_options": [
+        "remarquer"
+      ]
+    }
+  },
+  {
+    "spanish": "hispano",
+    "english": {
+      "deepl": "Spanish",
+      "wiktionary_options": [
+        "hispanic"
+      ]
+    }
+  },
+  {
+    "spanish": "gitano",
+    "french": {
+      "deepl": "gitano",
+      "wiktionary_options": [
+        "bohémien",
+        "tsigane"
+      ]
+    }
+  },
+  {
+    "spanish": "visión",
+    "french": {
+      "deepl": "vision",
+      "wiktionary_options": [
+        "vue"
+      ]
+    }
+  },
+  {
+    "spanish": "tirar",
+    "french": {
+      "deepl": "lancer",
+      "wiktionary_options": [
+        "tirer"
+      ]
+    }
+  },
+  {
+    "spanish": "pluma",
+    "english": {
+      "deepl": "pen",
+      "wiktionary_options": [
+        "feather"
+      ]
+    }
+  },
+  {
+    "spanish": "ligar",
+    "english": {
+      "deepl": "to flirt",
+      "wiktionary_options": [
+        "bind",
+        "tie"
+      ]
+    },
+    "french": {
+      "deepl": "flirter",
+      "wiktionary_options": [
+        "lier",
+        "relier"
+      ]
+    }
+  },
+  {
+    "spanish": "vello",
+    "french": {
+      "deepl": "poils",
+      "wiktionary_options": [
+        "duvet"
+      ]
+    }
+  },
+  {
+    "spanish": "cálido",
+    "french": {
+      "deepl": "chaleureux",
+      "wiktionary_options": [
+        "chaud"
+      ]
+    }
+  },
+  {
+    "spanish": "cine",
+    "english": {
+      "deepl": "movies",
+      "wiktionary_options": [
+        "cinema",
+        "pictures"
+      ]
+    }
+  },
+  {
+    "spanish": "talla",
+    "english": {
+      "deepl": "size",
+      "wiktionary_options": [
+        "height"
+      ]
+    }
+  },
+  {
+    "spanish": "trenza",
+    "english": {
+      "deepl": "braid",
+      "wiktionary_options": [
+        "plait",
+        "tress"
+      ]
+    }
+  },
+  {
+    "spanish": "leve",
+    "english": {
+      "deepl": "mild",
+      "wiktionary_options": [
+        "light"
+      ]
+    }
+  },
+  {
+    "spanish": "puro",
+    "french": {
+      "deepl": "pur",
+      "wiktionary_options": [
+        "propre"
+      ]
+    }
+  },
+  {
+    "spanish": "sierra",
+    "english": {
+      "deepl": "mountain range",
+      "wiktionary_options": [
+        "saw"
+      ]
+    }
+  },
+  {
+    "spanish": "rayo",
+    "english": {
+      "deepl": "lightning",
+      "wiktionary_options": [
+        "heck",
+        "hell"
+      ]
+    },
+    "french": {
+      "deepl": "éclair",
+      "wiktionary_options": [
+        "foudre",
+        "mince",
+        "rayon"
+      ]
+    }
+  },
+  {
+    "spanish": "piso",
+    "english": {
+      "deepl": "apartment",
+      "wiktionary_options": [
+        "flat",
+        "floor",
+        "stage"
+      ]
+    }
+  },
+  {
+    "spanish": "único",
+    "english": {
+      "deepl": "unique",
+      "wiktionary_options": [
+        "alone",
+        "only",
+        "single",
+        "sole",
+        "solitary",
+        "unaccompanied"
+      ]
+    },
+    "french": {
+      "deepl": "unique",
+      "wiktionary_options": [
+        "seul"
+      ]
+    }
+  },
+  {
+    "spanish": "diversión",
+    "english": {
+      "deepl": "fun",
+      "wiktionary_options": [
+        "diversion",
+        "entertainment",
+        "pastime"
+      ]
+    }
+  },
+  {
+    "spanish": "mama",
+    "english": {
+      "deepl": "mom",
+      "wiktionary_options": [
+        "breast",
+        "mamma"
+      ]
+    },
+    "french": {
+      "deepl": "maman",
+      "wiktionary_options": [
+        "mamelle"
+      ]
+    }
+  },
+  {
+    "spanish": "montar",
+    "english": {
+      "deepl": "to mount",
+      "wiktionary_options": [
+        "ride"
+      ]
+    },
+    "french": {
+      "deepl": "monter",
+      "wiktionary_options": [
+        "chevaucher"
+      ]
+    }
+  },
+  {
+    "spanish": "entretenimiento",
+    "french": {
+      "deepl": "divertissement",
+      "wiktionary_options": [
+        "amusement",
+        "entretien",
+        "passe-temps"
+      ]
+    }
+  },
+  {
+    "spanish": "compañero",
+    "english": {
+      "deepl": "colleague",
+      "wiktionary_options": [
+        "partner"
+      ]
+    },
+    "french": {
+      "deepl": "collègue",
+      "wiktionary_options": [
+        "compagnon"
+      ]
+    }
+  },
+  {
+    "spanish": "previsión",
+    "english": {
+      "deepl": "forecast",
+      "wiktionary_options": [
+        "foresight"
+      ]
+    }
+  },
+  {
+    "spanish": "vendedor",
+    "english": {
+      "deepl": "salesperson",
+      "wiktionary_options": [
+        "salesman",
+        "seller",
+        "vendor"
+      ]
+    }
+  },
+  {
+    "spanish": "hacienda",
+    "english": {
+      "deepl": "treasury",
+      "wiktionary_options": [
+        "hacienda",
+        "ranch"
+      ]
+    }
+  },
+  {
+    "spanish": "selva",
+    "english": {
+      "deepl": "jungle",
+      "wiktionary_options": [
+        "forest",
+        "rainforest",
+        "woods"
+      ]
+    }
+  },
+  {
+    "spanish": "señor",
+    "english": {
+      "deepl": "sir",
+      "wiktionary_options": [
+        "master",
+        "mister"
+      ]
+    }
+  },
+  {
+    "spanish": "levantar",
+    "french": {
+      "deepl": "se lever",
+      "wiktionary_options": [
+        "soulever"
+      ]
+    }
+  },
+  {
+    "spanish": "estilo",
+    "french": {
+      "deepl": "style",
+      "wiktionary_options": [
+        "modèle"
+      ]
+    }
+  },
+  {
+    "spanish": "obra",
+    "english": {
+      "deepl": "play",
+      "wiktionary_options": [
+        "labour",
+        "work"
+      ]
+    },
+    "french": {
+      "deepl": "œuvre",
+      "wiktionary_options": [
+        "ouvrage"
+      ]
+    }
+  },
+  {
+    "spanish": "refugio",
+    "english": {
+      "deepl": "shelter",
+      "wiktionary_options": [
+        "refuge"
+      ]
+    }
+  },
+  {
+    "spanish": "entrar",
+    "english": {
+      "deepl": "enter",
+      "wiktionary_options": [
+        "go in"
+      ]
+    }
+  },
+  {
+    "spanish": "estúpido",
+    "french": {
+      "deepl": "idiot",
+      "wiktionary_options": [
+        "stupide"
+      ]
+    }
+  },
+  {
+    "spanish": "mente",
+    "french": {
+      "deepl": "mentalement",
+      "wiktionary_options": [
+        "esprit"
+      ]
+    }
+  },
+  {
+    "spanish": "tema",
+    "french": {
+      "deepl": "sujet",
+      "wiktionary_options": [
+        "domaine",
+        "thème"
+      ]
+    }
+  },
+  {
+    "spanish": "coro",
+    "french": {
+      "deepl": "refrain",
+      "wiktionary_options": [
+        "chœur"
+      ]
+    }
+  },
+  {
+    "spanish": "odiar",
+    "french": {
+      "deepl": "détester",
+      "wiktionary_options": [
+        "haïr"
+      ]
+    }
+  },
+  {
+    "spanish": "rapidez",
+    "french": {
+      "deepl": "rapidité",
+      "wiktionary_options": [
+        "vitesse"
+      ]
+    }
+  },
+  {
+    "spanish": "limpiar",
+    "french": {
+      "deepl": "nettoyer",
+      "wiktionary_options": [
+        "essuyer"
+      ]
+    }
+  },
+  {
+    "spanish": "saltar",
+    "english": {
+      "deepl": "skip",
+      "wiktionary_options": [
+        "hop",
+        "jump",
+        "leap",
+        "spring"
+      ]
+    }
+  },
+  {
+    "spanish": "tendencia",
+    "english": {
+      "deepl": "trend",
+      "wiktionary_options": [
+        "tendency"
+      ]
+    }
+  },
+  {
+    "spanish": "traer",
+    "french": {
+      "deepl": "apporter",
+      "wiktionary_options": [
+        "amener"
+      ]
+    }
+  },
+  {
+    "spanish": "abonar",
+    "english": {
+      "deepl": "pay",
+      "wiktionary_options": [
+        "accredit",
+        "fertilize"
+      ]
+    },
+    "french": {
+      "deepl": "payer",
+      "wiktionary_options": [
+        "fertiliser",
+        "rembourser"
+      ]
+    }
+  },
+  {
+    "spanish": "liso",
+    "english": {
+      "deepl": "plain",
+      "wiktionary_options": [
+        "smooth"
+      ]
+    }
+  },
+  {
+    "spanish": "área",
+    "french": {
+      "deepl": "zone",
+      "wiktionary_options": [
+        "aire"
+      ]
+    }
+  },
+  {
+    "spanish": "además",
+    "english": {
+      "deepl": "in addition",
+      "wiktionary_options": [
+        "besides"
+      ]
+    },
+    "french": {
+      "deepl": "en outre",
+      "wiktionary_options": [
+        "d’ailleurs"
+      ]
+    }
+  },
+  {
+    "spanish": "cosecha",
+    "french": {
+      "deepl": "récolte",
+      "wiktionary_options": [
+        "moisson"
+      ]
+    }
+  },
+  {
+    "spanish": "beso",
+    "french": {
+      "deepl": "bisou",
+      "wiktionary_options": [
+        "baiser"
+      ]
+    }
+  },
+  {
+    "spanish": "evento",
+    "french": {
+      "deepl": "événement",
+      "wiktionary_options": [
+        "évènement"
+      ]
+    }
+  },
+  {
+    "spanish": "quiosco",
+    "english": {
+      "deepl": "newsstand",
+      "wiktionary_options": [
+        "convenience store",
+        "drugstore",
+        "kiosk"
+      ]
+    }
+  },
+  {
+    "spanish": "magno",
+    "english": {
+      "deepl": "magnificent",
+      "wiktionary_options": [
+        "grand",
+        "great"
+      ]
+    },
+    "french": {
+      "deepl": "magnifique",
+      "wiktionary_options": [
+        "grande"
+      ]
+    }
+  },
+  {
+    "spanish": "asignatura",
+    "english": {
+      "deepl": "course",
+      "wiktionary_options": [
+        "school subject",
+        "subject"
+      ]
+    }
+  },
+  {
+    "spanish": "delito",
+    "french": {
+      "deepl": "infraction",
+      "wiktionary_options": [
+        "délit"
+      ]
+    }
+  },
+  {
+    "spanish": "ingenio",
+    "english": {
+      "deepl": "ingenuity",
+      "wiktionary_options": [
+        "ingeniosity",
+        "ingeniousness"
+      ]
+    },
+    "french": {
+      "deepl": "ingéniosité",
+      "wiktionary_options": [
+        "ingeniosité"
+      ]
+    }
+  },
+  {
+    "spanish": "paso",
+    "french": {
+      "deepl": "étape",
+      "wiktionary_options": [
+        "pas"
+      ]
+    }
+  },
+  {
+    "spanish": "pasa",
+    "english": {
+      "deepl": "go ahead",
+      "wiktionary_options": [
+        "raisin"
+      ]
+    },
+    "french": {
+      "deepl": "passe",
+      "wiktionary_options": [
+        "raisin sec"
+      ]
+    }
+  },
+  {
+    "spanish": "contrastar",
+    "english": {
+      "deepl": "compare",
+      "wiktionary_options": [
+        "contrast"
+      ]
+    },
+    "french": {
+      "deepl": "comparer",
+      "wiktionary_options": [
+        "contraster"
+      ]
+    }
+  },
+  {
+    "spanish": "antigüedad",
+    "english": {
+      "deepl": "seniority",
+      "wiktionary_options": [
+        "antique"
+      ]
+    },
+    "french": {
+      "deepl": "ancienneté",
+      "wiktionary_options": [
+        "antiquité"
+      ]
+    }
+  },
+  {
+    "spanish": "bruto",
+    "english": {
+      "deepl": "gross",
+      "wiktionary_options": [
+        "brutish"
+      ]
+    }
+  },
+  {
+    "spanish": "chulo",
+    "english": {
+      "deepl": "cool",
+      "wiktionary_options": [
+        "cocky",
+        "pimp"
+      ]
+    },
+    "french": {
+      "deepl": "cool",
+      "wiktionary_options": [
+        "souteneur"
+      ]
+    }
+  },
+  {
+    "spanish": "bromear",
+    "french": {
+      "deepl": "plaisanter",
+      "wiktionary_options": [
+        "badiner",
+        "blaguer"
+      ]
+    }
+  },
+  {
+    "spanish": "versátil",
+    "french": {
+      "deepl": "polyvalent",
+      "wiktionary_options": [
+        "versatile"
+      ]
+    }
+  },
+  {
+    "spanish": "gasto",
+    "english": {
+      "deepl": "expenditure",
+      "wiktionary_options": [
+        "expense",
+        "spend"
+      ]
+    }
+  },
+  {
+    "spanish": "par",
+    "english": {
+      "deepl": "per",
+      "wiktionary_options": [
+        "equal",
+        "even",
+        "pair",
+        "same"
+      ]
+    },
+    "french": {
+      "deepl": "par",
+      "wiktionary_options": [
+        "identique",
+        "pair",
+        "paire",
+        "égal"
+      ]
+    }
+  },
+  {
+    "spanish": "sala",
+    "french": {
+      "deepl": "salle",
+      "wiktionary_options": [
+        "salon"
+      ]
+    }
+  },
+  {
+    "spanish": "alfombra",
+    "english": {
+      "deepl": "rug",
+      "wiktionary_options": [
+        "carpet"
+      ]
+    }
+  },
+  {
+    "spanish": "mata",
+    "english": {
+      "deepl": "kill",
+      "wiktionary_options": [
+        "shrub"
+      ]
+    },
+    "french": {
+      "deepl": "tue",
+      "wiktionary_options": [
+        "arbrisseau"
+      ]
+    }
+  },
+  {
+    "spanish": "borrar",
+    "english": {
+      "deepl": "delete",
+      "wiktionary_options": [
+        "erase"
+      ]
+    },
+    "french": {
+      "deepl": "supprimer",
+      "wiktionary_options": [
+        "effacer"
+      ]
+    }
+  },
+  {
+    "spanish": "asimismo",
+    "english": {
+      "deepl": "likewise",
+      "wiktionary_options": [
+        "also",
+        "as well"
+      ]
+    },
+    "french": {
+      "deepl": "de même",
+      "wiktionary_options": [
+        "aussi",
+        "également"
+      ]
+    }
+  },
+  {
+    "spanish": "erguir",
+    "english": {
+      "deepl": "to stand up",
+      "wiktionary_options": [
+        "elevate",
+        "raise"
+      ]
+    }
+  },
+  {
+    "spanish": "lograr",
+    "french": {
+      "deepl": "réussir à",
+      "wiktionary_options": [
+        "accomplir",
+        "achever",
+        "atteindre"
+      ]
+    }
+  },
+  {
+    "spanish": "notable",
+    "english": {
+      "deepl": "remarkable",
+      "wiktionary_options": [
+        "notable"
+      ]
+    },
+    "french": {
+      "deepl": "remarquable",
+      "wiktionary_options": [
+        "notable"
+      ]
+    }
+  },
+  {
+    "spanish": "melena",
+    "english": {
+      "deepl": "long hair",
+      "wiktionary_options": [
+        "alley",
+        "mane"
+      ]
+    },
+    "french": {
+      "deepl": "chevelure",
+      "wiktionary_options": [
+        "crinière",
+        "venelle"
+      ]
+    }
+  },
+  {
+    "spanish": "progenitor",
+    "english": {
+      "deepl": "ancestor",
+      "wiktionary_options": [
+        "progenitor"
+      ]
+    },
+    "french": {
+      "deepl": "ancêtre",
+      "wiktionary_options": [
+        "progéniteur/progénitrice"
+      ]
+    }
+  },
+  {
+    "spanish": "flaco",
+    "english": {
+      "deepl": "skinny",
+      "wiktionary_options": [
+        "thin"
+      ]
+    },
+    "french": {
+      "deepl": "maigre",
+      "wiktionary_options": [
+        "mince"
+      ]
+    }
+  },
+  {
+    "spanish": "desconfiar",
+    "english": {
+      "deepl": "to be suspicious of",
+      "wiktionary_options": [
+        "distrust"
+      ]
+    }
+  },
+  {
+    "spanish": "contaminación",
+    "english": {
+      "deepl": "pollution",
+      "wiktionary_options": [
+        "contamination"
+      ]
+    }
+  },
+  {
+    "spanish": "subir",
+    "french": {
+      "deepl": "haut de la page",
+      "wiktionary_options": [
+        "monter",
+        "télécharger"
+      ]
+    }
+  },
+  {
+    "spanish": "jeta",
+    "french": {
+      "deepl": "fille",
+      "wiktionary_options": [
+        "groin",
+        "visage"
+      ]
+    }
+  },
+  {
+    "spanish": "sobre",
+    "english": {
+      "deepl": "about",
+      "wiktionary_options": [
+        "above",
+        "envelope"
+      ]
+    }
+  },
+  {
+    "spanish": "mucho",
+    "english": {
+      "deepl": "a lot",
+      "wiktionary_options": [
+        "much"
+      ]
+    }
+  },
+  {
+    "spanish": "materializar",
+    "english": {
+      "deepl": "to bring about",
+      "wiktionary_options": [
+        "materialize"
+      ]
+    },
+    "french": {
+      "deepl": "concrétiser",
+      "wiktionary_options": [
+        "matérialiser"
+      ]
+    }
+  },
+  {
+    "spanish": "ambiente",
+    "french": {
+      "deepl": "environnement",
+      "wiktionary_options": [
+        "air ambiant",
+        "ambiance",
+        "climat"
+      ]
+    }
+  },
+  {
+    "spanish": "valer",
+    "english": {
+      "deepl": "be valid",
+      "wiktionary_options": [
+        "be worth"
+      ]
+    }
+  },
+  {
+    "spanish": "mismo",
+    "french": {
+      "deepl": "idem",
+      "wiktionary_options": [
+        "même"
+      ]
+    }
+  },
+  {
+    "spanish": "desechable",
+    "english": {
+      "deepl": "disposable",
+      "wiktionary_options": [
+        "discardable"
+      ]
+    }
+  },
+  {
+    "spanish": "desear",
+    "french": {
+      "deepl": "souhaiter",
+      "wiktionary_options": [
+        "désirer"
+      ]
+    }
+  },
+  {
+    "spanish": "boda",
+    "french": {
+      "deepl": "mariage",
+      "wiktionary_options": [
+        "noces"
+      ]
+    }
+  },
+  {
+    "spanish": "reflexión",
+    "english": {
+      "deepl": "reflection",
+      "wiktionary_options": [
+        "reflexion"
+      ]
+    }
+  },
+  {
+    "spanish": "integral",
+    "english": {
+      "deepl": "comprehensive",
+      "wiktionary_options": [
+        "integral"
+      ]
+    }
+  },
+  {
+    "spanish": "viable",
+    "english": {
+      "deepl": "feasible",
+      "wiktionary_options": [
+        "viable"
+      ]
+    }
+  },
+  {
+    "spanish": "traficante",
+    "french": {
+      "deepl": "trafiquant",
+      "wiktionary_options": [
+        "dealer",
+        "marchand",
+        "revendeur"
+      ]
+    }
+  },
+  {
+    "spanish": "festivo",
+    "english": {
+      "deepl": "holiday",
+      "wiktionary_options": [
+        "festive"
+      ]
+    }
+  },
+  {
+    "spanish": "navegar",
+    "english": {
+      "deepl": "browse",
+      "wiktionary_options": [
+        "navigate",
+        "sail"
+      ]
+    }
+  },
+  {
+    "spanish": "acto",
+    "english": {
+      "deepl": "event",
+      "wiktionary_options": [
+        "act"
+      ]
+    }
+  },
+  {
+    "spanish": "adolescente",
+    "english": {
+      "deepl": "teenager",
+      "wiktionary_options": [
+        "adolescent"
+      ]
+    }
+  },
+  {
+    "spanish": "juventud",
+    "english": {
+      "deepl": "youth",
+      "wiktionary_options": [
+        "adolescence"
+      ]
+    }
+  },
+  {
+    "spanish": "aguardiente",
+    "english": {
+      "deepl": "brandy",
+      "wiktionary_options": [
+        "booze",
+        "hard liquor",
+        "schnaps"
+      ]
+    }
+  },
+  {
+    "spanish": "bravo",
+    "english": {
+      "deepl": "bravo",
+      "wiktionary_options": [
+        "brave",
+        "fierce",
+        "rough"
+      ]
+    }
+  },
+  {
+    "spanish": "volver",
+    "english": {
+      "deepl": "back",
+      "wiktionary_options": [
+        "return",
+        "turn over"
+      ]
+    }
+  },
+  {
+    "spanish": "agrario",
+    "english": {
+      "deepl": "agricultural",
+      "wiktionary_options": [
+        "agrarian"
+      ]
+    }
+  },
+  {
+    "spanish": "quitar",
+    "english": {
+      "deepl": "remove",
+      "wiktionary_options": [
+        "take away"
+      ]
+    }
+  },
+  {
+    "spanish": "charla",
+    "french": {
+      "deepl": "conférence",
+      "wiktionary_options": [
+        "conversation"
+      ]
+    }
+  },
+  {
+    "spanish": "etcétera",
+    "french": {
+      "deepl": "etc.",
+      "wiktionary_options": [
+        "et cætera",
+        "et cétéra"
+      ]
+    }
+  },
+  {
+    "spanish": "crudo",
+    "english": {
+      "deepl": "crude",
+      "wiktionary_options": [
+        "cruel",
+        "ecru",
+        "harsh",
+        "raw",
+        "unadapted",
+        "unprocessed"
+      ]
+    }
+  },
+  {
+    "spanish": "consultar",
+    "english": {
+      "deepl": "check",
+      "wiktionary_options": [
+        "consult",
+        "look up"
+      ]
+    }
+  },
+  {
+    "spanish": "colegio",
+    "english": {
+      "deepl": "school",
+      "wiktionary_options": [
+        "college"
+      ]
+    },
+    "french": {
+      "deepl": "école",
+      "wiktionary_options": [
+        "collège"
+      ]
+    }
+  },
+  {
+    "spanish": "amable",
+    "english": {
+      "deepl": "friendly",
+      "wiktionary_options": [
+        "amiable",
+        "kind",
+        "lovable"
+      ]
+    }
+  },
+  {
+    "spanish": "poner",
+    "french": {
+      "deepl": "mettre",
+      "wiktionary_options": [
+        "poser"
+      ]
+    }
+  },
+  {
+    "spanish": "conciencia",
+    "english": {
+      "deepl": "awareness",
+      "wiktionary_options": [
+        "conscience",
+        "consciousness"
+      ]
+    }
+  },
+  {
+    "spanish": "gloria",
+    "english": {
+      "deepl": "Gloria",
+      "wiktionary_options": [
+        "glory"
+      ]
+    }
+  },
+  {
+    "spanish": "manía",
+    "english": {
+      "deepl": "obsession",
+      "wiktionary_options": [
+        "mania"
+      ]
+    }
+  },
+  {
+    "spanish": "raro",
+    "french": {
+      "deepl": "étrange",
+      "wiktionary_options": [
+        "rare"
+      ]
+    }
+  },
+  {
+    "spanish": "agudo",
+    "english": {
+      "deepl": "acute",
+      "wiktionary_options": [
+        "subtle"
+      ]
+    }
+  },
+  {
+    "spanish": "ruta",
+    "french": {
+      "deepl": "itinéraire",
+      "wiktionary_options": [
+        "chemin",
+        "route"
+      ]
+    }
+  },
+  {
+    "spanish": "considerar",
+    "french": {
+      "deepl": "envisager",
+      "wiktionary_options": [
+        "considérer"
+      ]
+    }
+  },
+  {
+    "spanish": "favor",
+    "english": {
+      "deepl": "please",
+      "wiktionary_options": [
+        "favor"
+      ]
+    },
+    "french": {
+      "deepl": "s'il vous plaît",
+      "wiktionary_options": [
+        "faveur"
+      ]
+    }
+  },
+  {
+    "spanish": "corporal",
+    "english": {
+      "deepl": "physical",
+      "wiktionary_options": [
+        "bodily",
+        "corporeal"
+      ]
+    }
+  },
+  {
+    "spanish": "introducir",
+    "english": {
+      "deepl": "enter",
+      "wiktionary_options": [
+        "bring",
+        "in",
+        "introduce"
+      ]
+    }
+  },
+  {
+    "spanish": "falso",
+    "english": {
+      "deepl": "false",
+      "wiktionary_options": [
+        "wrong"
+      ]
+    }
+  },
+  {
+    "spanish": "hueco",
+    "english": {
+      "deepl": "hole",
+      "wiktionary_options": [
+        "deep",
+        "hollow",
+        "spongy"
+      ]
+    }
+  },
+  {
+    "spanish": "contracción",
+    "english": {
+      "deepl": "contraction",
+      "wiktionary_options": [
+        "portmanteau"
+      ]
+    },
+    "french": {
+      "deepl": "contraction",
+      "wiktionary_options": [
+        "mot-valise"
+      ]
+    }
+  },
+  {
+    "spanish": "pasivo",
+    "english": {
+      "deepl": "liability",
+      "wiktionary_options": [
+        "bottom",
+        "passive"
+      ]
+    }
+  },
+  {
+    "spanish": "liderazgo",
+    "french": {
+      "deepl": "leadership",
+      "wiktionary_options": [
+        "direction",
+        "primauté"
+      ]
+    }
+  },
+  {
+    "spanish": "suelo",
+    "english": {
+      "deepl": "ground",
+      "wiktionary_options": [
+        "floor",
+        "soil"
+      ]
+    }
+  },
+  {
+    "spanish": "igual",
+    "english": {
+      "deepl": "the same",
+      "wiktionary_options": [
+        "equal"
+      ]
+    },
+    "french": {
+      "deepl": "idem",
+      "wiktionary_options": [
+        "égal"
+      ]
+    }
+  },
+  {
+    "spanish": "celular",
+    "english": {
+      "deepl": "cell phone",
+      "wiktionary_options": [
+        "cellular",
+        "mobile"
+      ]
+    }
+  },
+  {
+    "spanish": "énfasis",
+    "french": {
+      "deepl": "accent",
+      "wiktionary_options": [
+        "emphase"
+      ]
+    }
+  },
+  {
+    "spanish": "afán",
+    "english": {
+      "deepl": "zeal",
+      "wiktionary_options": [
+        "anxiety",
+        "care"
+      ]
+    }
+  },
+  {
+    "spanish": "asir",
+    "english": {
+      "deepl": "seize",
+      "wiktionary_options": [
+        "grasp"
+      ]
+    }
+  },
+  {
+    "spanish": "asar",
+    "english": {
+      "deepl": "to roast",
+      "wiktionary_options": [
+        "grill"
+      ]
+    }
+  },
+  {
+    "spanish": "académico",
+    "french": {
+      "deepl": "universitaire",
+      "wiktionary_options": [
+        "académicien",
+        "académique"
+      ]
+    }
+  },
+  {
+    "spanish": "picar",
+    "english": {
+      "deepl": "chop",
+      "wiktionary_options": [
+        "burn",
+        "itch",
+        "mince",
+        "prick",
+        "puncture",
+        "tease"
+      ]
+    },
+    "french": {
+      "deepl": "hacher",
+      "wiktionary_options": [
+        "démanger",
+        "piquer"
+      ]
+    }
+  },
+  {
+    "spanish": "fama",
+    "french": {
+      "deepl": "célébrité",
+      "wiktionary_options": [
+        "renommée",
+        "réputation"
+      ]
+    }
+  },
+  {
+    "spanish": "angustia",
+    "english": {
+      "deepl": "distress",
+      "wiktionary_options": [
+        "anguish"
+      ]
+    }
+  },
+  {
+    "spanish": "madrugada",
+    "french": {
+      "deepl": "aube",
+      "wiktionary_options": [
+        "petit matin"
+      ]
+    }
+  },
+  {
+    "spanish": "tampoco",
+    "french": {
+      "deepl": "ni",
+      "wiktionary_options": [
+        "non plus"
+      ]
+    }
+  },
+  {
+    "spanish": "prenda",
+    "french": {
+      "deepl": "vêtement",
+      "wiktionary_options": [
+        "gage"
+      ]
+    }
+  },
+  {
+    "spanish": "patrón",
+    "french": {
+      "deepl": "modèle",
+      "wiktionary_options": [
+        "patron"
+      ]
+    }
+  },
+  {
+    "spanish": "alto",
+    "english": {
+      "deepl": "tall",
+      "wiktionary_options": [
+        "high"
+      ]
+    }
+  },
+  {
+    "spanish": "suelto",
+    "french": {
+      "deepl": "en vrac",
+      "wiktionary_options": [
+        "libre"
+      ]
+    }
+  },
+  {
+    "spanish": "entregar",
+    "english": {
+      "deepl": "to deliver",
+      "wiktionary_options": [
+        "turn in"
+      ]
+    }
+  },
+  {
+    "spanish": "medialuna",
+    "english": {
+      "deepl": "crescent",
+      "wiktionary_options": [
+        "croissant"
+      ]
+    }
+  },
+  {
+    "spanish": "reclamo",
+    "english": {
+      "deepl": "claim",
+      "wiktionary_options": [
+        "complaint"
+      ]
+    },
+    "french": {
+      "deepl": "réclamation",
+      "wiktionary_options": [
+        "appeau"
+      ]
+    }
+  },
+  {
+    "spanish": "abrazo",
+    "french": {
+      "deepl": "bisous",
+      "wiktionary_options": [
+        "embrassade"
+      ]
+    }
+  },
+  {
+    "spanish": "cal",
+    "french": {
+      "deepl": "cal",
+      "wiktionary_options": [
+        "chaux"
+      ]
+    }
+  },
+  {
+    "spanish": "pañuelo",
+    "french": {
+      "deepl": "foulard",
+      "wiktionary_options": [
+        "mouchoir"
+      ]
+    }
+  },
+  {
+    "spanish": "volante",
+    "english": {
+      "deepl": "flyer",
+      "wiktionary_options": [
+        "shuttlecock"
+      ]
+    }
+  },
+  {
+    "spanish": "tontería",
+    "english": {
+      "deepl": "nonsense",
+      "wiktionary_options": [
+        "foolishness",
+        "stupidity"
+      ]
+    }
+  },
+  {
+    "spanish": "rato",
+    "french": {
+      "deepl": "instant",
+      "wiktionary_options": [
+        "moment"
+      ]
+    }
+  },
+  {
+    "spanish": "pila",
+    "english": {
+      "deepl": "battery",
+      "wiktionary_options": [
+        "basin",
+        "pile"
+      ]
+    }
+  },
+  {
+    "spanish": "cima",
+    "english": {
+      "deepl": "peak",
+      "wiktionary_options": [
+        "summit",
+        "top"
+      ]
+    }
+  },
+  {
+    "spanish": "explosivo",
+    "english": {
+      "deepl": "explosive",
+      "wiktionary_options": [
+        "explosible"
+      ]
+    },
+    "french": {
+      "deepl": "explosif",
+      "wiktionary_options": [
+        "explosible"
+      ]
+    }
+  },
+  {
+    "spanish": "campo",
+    "french": {
+      "deepl": "campagne",
+      "wiktionary_options": [
+        "champ"
+      ]
+    }
+  },
+  {
+    "spanish": "natal",
+    "english": {
+      "deepl": "birth",
+      "wiktionary_options": [
+        "home",
+        "native",
+        "nota ciudad",
+        "nota país"
+      ]
+    }
+  },
+  {
+    "spanish": "falta",
+    "english": {
+      "deepl": "missing",
+      "wiktionary_options": [
+        "error",
+        "want"
+      ]
+    }
+  },
+  {
+    "spanish": "elogio",
+    "french": {
+      "deepl": "éloge",
+      "wiktionary_options": [
+        "louange"
+      ]
+    }
+  },
+  {
+    "spanish": "diseño",
+    "french": {
+      "deepl": "conception",
+      "wiktionary_options": [
+        "dessin"
+      ]
+    }
+  },
+  {
+    "spanish": "síntesis",
+    "english": {
+      "deepl": "summary",
+      "wiktionary_options": [
+        "synthesis"
+      ]
+    }
+  },
+  {
+    "spanish": "mazapán",
+    "french": {
+      "deepl": "pâte d'amandes",
+      "wiktionary_options": [
+        "massepain"
+      ]
+    }
+  },
+  {
+    "spanish": "centenario",
+    "english": {
+      "deepl": "centennial",
+      "wiktionary_options": [
+        "centenary"
+      ]
+    }
+  },
+  {
+    "spanish": "cava",
+    "french": {
+      "deepl": "cave à vin",
+      "wiktionary_options": [
+        "cava"
+      ]
+    }
+  },
+  {
+    "spanish": "publicidad",
+    "english": {
+      "deepl": "advertisement",
+      "wiktionary_options": [
+        "publicity"
+      ]
+    }
+  },
+  {
+    "spanish": "infusión",
+    "english": {
+      "deepl": "infusion",
+      "wiktionary_options": [
+        "infusión"
+      ]
+    }
+  },
+  {
+    "spanish": "milico",
+    "french": {
+      "deepl": "militaire",
+      "wiktionary_options": [
+        "soldat"
+      ]
+    }
+  },
+  {
+    "spanish": "yupi",
+    "english": {
+      "deepl": "yupi",
+      "wiktionary_options": [
+        "yippee",
+        "yuppie",
+        "yuppy"
+      ]
+    },
+    "french": {
+      "deepl": "youpi",
+      "wiktionary_options": [
+        "yuppie"
+      ]
+    }
+  },
+  {
+    "spanish": "trayectoria",
+    "english": {
+      "deepl": "career",
+      "wiktionary_options": [
+        "trajectory"
+      ]
+    },
+    "french": {
+      "deepl": "parcours",
+      "wiktionary_options": [
+        "trajectoire"
+      ]
+    }
+  },
+  {
+    "spanish": "acentuar",
+    "english": {
+      "deepl": "emphasize",
+      "wiktionary_options": [
+        "accent",
+        "acentuate"
+      ]
+    }
+  },
+  {
+    "spanish": "echar",
+    "french": {
+      "deepl": "verser",
+      "wiktionary_options": [
+        "jeter"
+      ]
+    }
+  },
+  {
+    "spanish": "cariño",
+    "english": {
+      "deepl": "honey",
+      "wiktionary_options": [
+        "affection",
+        "fondness"
+      ]
+    },
+    "french": {
+      "deepl": "chéri(e)",
+      "wiktionary_options": [
+        "affection"
+      ]
+    }
+  },
+  {
+    "spanish": "humildad",
+    "english": {
+      "deepl": "humility",
+      "wiktionary_options": [
+        "humbleness"
+      ]
+    }
+  },
+  {
+    "spanish": "mundial",
+    "french": {
+      "deepl": "mondial",
+      "wiktionary_options": [
+        "universal"
+      ]
+    }
+  },
+  {
+    "spanish": "famoso",
+    "french": {
+      "deepl": "célèbre",
+      "wiktionary_options": [
+        "cèlébre",
+        "fameux",
+        "illustre"
+      ]
+    }
+  },
+  {
+    "spanish": "perdón",
+    "english": {
+      "deepl": "sorry",
+      "wiktionary_options": [
+        "forgiveness",
+        "pardon"
+      ]
+    },
+    "french": {
+      "deepl": "excuse-moi",
+      "wiktionary_options": [
+        "pardon"
+      ]
+    }
+  },
+  {
+    "spanish": "ofender",
+    "french": {
+      "deepl": "offenser",
+      "wiktionary_options": [
+        "avilir"
+      ]
+    }
+  },
+  {
+    "spanish": "ausente",
+    "english": {
+      "deepl": "absent",
+      "wiktionary_options": [
+        "gone"
+      ]
+    }
+  },
+  {
+    "spanish": "astuto",
+    "english": {
+      "deepl": "cunning",
+      "wiktionary_options": [
+        "astute",
+        "shrewd",
+        "sly"
+      ]
+    }
+  },
+  {
+    "spanish": "orden",
+    "french": {
+      "deepl": "commande",
+      "wiktionary_options": [
+        "ordre"
+      ]
+    }
+  },
+  {
+    "spanish": "fluidez",
+    "english": {
+      "deepl": "fluidity",
+      "wiktionary_options": [
+        "fluency"
+      ]
+    }
+  },
+  {
+    "spanish": "ganadería",
+    "english": {
+      "deepl": "livestock farming",
+      "wiktionary_options": [
+        "animal husbandry",
+        "stockbreeding"
+      ]
+    }
+  },
+  {
+    "spanish": "agitar",
+    "english": {
+      "deepl": "shake",
+      "wiktionary_options": [
+        "agitate"
+      ]
+    }
+  },
+  {
+    "spanish": "terminar",
+    "french": {
+      "deepl": "terminer",
+      "wiktionary_options": [
+        "finir"
+      ]
+    }
+  },
+  {
+    "spanish": "cafetería",
+    "english": {
+      "deepl": "coffee shop",
+      "wiktionary_options": [
+        "coffeehouse"
+      ]
+    }
+  },
+  {
+    "spanish": "probar",
+    "french": {
+      "deepl": "tester",
+      "wiktionary_options": [
+        "essayer"
+      ]
+    }
+  },
+  {
+    "spanish": "combustible",
+    "english": {
+      "deepl": "fuel",
+      "wiktionary_options": [
+        "combustible"
+      ]
+    },
+    "french": {
+      "deepl": "carburant",
+      "wiktionary_options": [
+        "combustible"
+      ]
+    }
+  },
+  {
+    "spanish": "currículum",
+    "english": {
+      "deepl": "resume",
+      "wiktionary_options": [
+        "curriculum vitae",
+        "resumé"
+      ]
+    },
+    "french": {
+      "deepl": "CV",
+      "wiktionary_options": [
+        "curriculum vitae"
+      ]
+    }
+  },
+  {
+    "spanish": "refresco",
+    "french": {
+      "deepl": "boisson rafraîchissante",
+      "wiktionary_options": [
+        "soda"
+      ]
+    }
+  },
+  {
+    "spanish": "planear",
+    "french": {
+      "deepl": "planifier",
+      "wiktionary_options": [
+        "planer"
+      ]
+    }
+  },
+  {
+    "spanish": "cumplir",
+    "english": {
+      "deepl": "comply",
+      "wiktionary_options": [
+        "accomplish",
+        "fulfil",
+        "turn"
+      ]
+    },
+    "french": {
+      "deepl": "respecter",
+      "wiktionary_options": [
+        "accomplir"
+      ]
+    }
+  },
+  {
+    "spanish": "denegar",
+    "french": {
+      "deepl": "refuser",
+      "wiktionary_options": [
+        "dénier"
+      ]
+    }
+  },
+  {
+    "spanish": "gachupín",
+    "english": {
+      "deepl": "gachupín",
+      "wiktionary_options": [
+        "spaniard"
+      ]
+    }
+  },
+  {
+    "spanish": "iberoamericano",
+    "english": {
+      "deepl": "Latin American",
+      "wiktionary_options": [
+        "iberoamerican"
+      ]
+    }
+  },
+  {
+    "spanish": "facha",
+    "french": {
+      "deepl": "fascisme",
+      "wiktionary_options": [
+        "facho"
+      ]
+    }
+  },
+  {
+    "spanish": "original",
+    "french": {
+      "deepl": "original",
+      "wiktionary_options": [
+        "originel"
+      ]
+    }
+  },
+  {
+    "spanish": "gorro",
+    "english": {
+      "deepl": "hat",
+      "wiktionary_options": [
+        "cap"
+      ]
+    }
+  },
+  {
+    "spanish": "callar",
+    "english": {
+      "deepl": "to keep quiet",
+      "wiktionary_options": [
+        "calm",
+        "relax",
+        "shut"
+      ]
+    }
+  },
+  {
+    "spanish": "arriesgar",
+    "french": {
+      "deepl": "prendre des risques",
+      "wiktionary_options": [
+        "risquer"
+      ]
+    }
+  },
+  {
+    "spanish": "faltar",
+    "english": {
+      "deepl": "to be absent",
+      "wiktionary_options": [
+        "miss"
+      ]
+    }
+  },
+  {
+    "spanish": "vaina",
+    "english": {
+      "deepl": "pod",
+      "wiktionary_options": [
+        "scabbard",
+        "sheath"
+      ]
+    },
+    "french": {
+      "deepl": "gaine",
+      "wiktionary_options": [
+        "fourreau"
+      ]
+    }
+  },
+  {
+    "spanish": "whisky",
+    "english": {
+      "deepl": "whiskey",
+      "wiktionary_options": [
+        "whisky"
+      ]
+    }
+  },
+  {
+    "spanish": "techo",
+    "french": {
+      "deepl": "plafond",
+      "wiktionary_options": [
+        "toit"
+      ]
+    }
+  },
+  {
+    "spanish": "incaico",
+    "english": {
+      "deepl": "Inca-style",
+      "wiktionary_options": [
+        "incan"
+      ]
+    }
+  },
+  {
+    "spanish": "enseguida",
+    "english": {
+      "deepl": "right away",
+      "wiktionary_options": [
+        "immediately"
+      ]
+    }
+  },
+  {
+    "spanish": "incursión",
+    "english": {
+      "deepl": "raid",
+      "wiktionary_options": [
+        "incursion"
+      ]
+    }
+  },
+  {
+    "spanish": "básico",
+    "french": {
+      "deepl": "de base",
+      "wiktionary_options": [
+        "basique"
+      ]
+    }
+  },
+  {
+    "spanish": "paquete",
+    "french": {
+      "deepl": "colis",
+      "wiktionary_options": [
+        "paquet"
+      ]
+    }
+  },
+  {
+    "spanish": "editar",
+    "french": {
+      "deepl": "modifier",
+      "wiktionary_options": [
+        "éditer"
+      ]
+    }
+  },
+  {
+    "spanish": "viceversa",
+    "french": {
+      "deepl": "et inversement",
+      "wiktionary_options": [
+        "vice versa"
+      ]
+    }
+  },
+  {
+    "spanish": "ingerir",
+    "french": {
+      "deepl": "avaler",
+      "wiktionary_options": [
+        "ingérer"
+      ]
+    }
+  },
+  {
+    "spanish": "tasa",
+    "french": {
+      "deepl": "taux",
+      "wiktionary_options": [
+        "proportion",
+        "tarif"
+      ]
+    }
+  },
+  {
+    "spanish": "indígena",
+    "french": {
+      "deepl": "autochtone",
+      "wiktionary_options": [
+        "indigène"
+      ]
+    }
+  },
+  {
+    "spanish": "cinta",
+    "english": {
+      "deepl": "ribbon",
+      "wiktionary_options": [
+        "tape"
+      ]
+    },
+    "french": {
+      "deepl": "ruban",
+      "wiktionary_options": [
+        "bande"
+      ]
+    }
+  },
+  {
+    "spanish": "delincuencia",
+    "english": {
+      "deepl": "crime",
+      "wiktionary_options": [
+        "delinquency"
+      ]
+    },
+    "french": {
+      "deepl": "criminalité",
+      "wiktionary_options": [
+        "délinquance"
+      ]
+    }
+  },
+  {
+    "spanish": "conducta",
+    "english": {
+      "deepl": "behavior",
+      "wiktionary_options": [
+        "conduct"
+      ]
+    },
+    "french": {
+      "deepl": "comportement",
+      "wiktionary_options": [
+        "conduite"
+      ]
+    }
+  },
+  {
+    "spanish": "convocatoria",
+    "french": {
+      "deepl": "appel à candidatures",
+      "wiktionary_options": [
+        "convocation",
+        "session"
+      ]
+    }
+  },
+  {
+    "spanish": "exigir",
+    "english": {
+      "deepl": "demand",
+      "wiktionary_options": [
+        "require"
+      ]
+    }
+  },
+  {
+    "spanish": "envejecer",
+    "english": {
+      "deepl": "to grow old",
+      "wiktionary_options": [
+        "age"
+      ]
+    }
+  },
+  {
+    "spanish": "clandestino",
+    "english": {
+      "deepl": "underground",
+      "wiktionary_options": [
+        "clandestine"
+      ]
+    }
+  },
+  {
+    "spanish": "nieto",
+    "english": {
+      "deepl": "grandson",
+      "wiktionary_options": [
+        "grandchild"
+      ]
+    }
+  },
+  {
+    "spanish": "ahogar",
+    "french": {
+      "deepl": "étouffer",
+      "wiktionary_options": [
+        "noyer"
+      ]
+    }
+  },
+  {
+    "spanish": "anciano",
+    "french": {
+      "deepl": "personne âgée",
+      "wiktionary_options": [
+        "ancien"
+      ]
+    }
+  },
+  {
+    "spanish": "agregar",
+    "french": {
+      "deepl": "ajouter",
+      "wiktionary_options": [
+        "agréger"
+      ]
+    }
+  },
+  {
+    "spanish": "fumar",
+    "english": {
+      "deepl": "smoking",
+      "wiktionary_options": [
+        "smoke"
+      ]
+    }
+  },
+  {
+    "spanish": "metomentodo",
+    "english": {
+      "deepl": "busybody",
+      "wiktionary_options": [
+        "nosy"
+      ]
+    }
+  },
+  {
+    "spanish": "medioambiente",
+    "english": {
+      "deepl": "environment",
+      "wiktionary_options": [
+        "enviroment"
+      ]
+    }
+  },
+  {
+    "spanish": "contundente",
+    "english": {
+      "deepl": "forceful",
+      "wiktionary_options": [
+        "blunt",
+        "crushing",
+        "rich"
+      ]
+    }
+  },
+  {
+    "spanish": "laboral",
+    "french": {
+      "deepl": "du travail",
+      "wiktionary_options": [
+        "laborieux"
+      ]
+    }
+  },
+  {
+    "spanish": "encorvar",
+    "english": {
+      "deepl": "to hunch over",
+      "wiktionary_options": [
+        "bend",
+        "curve"
+      ]
+    }
+  },
+  {
+    "spanish": "reutilizar",
+    "english": {
+      "deepl": "reuse",
+      "wiktionary_options": [
+        "reutilise",
+        "reutilize"
+      ]
+    }
+  },
+  {
+    "spanish": "turrón",
+    "french": {
+      "deepl": "nougat",
+      "wiktionary_options": [
+        "touron"
+      ]
+    }
+  },
+  {
+    "spanish": "céntrico",
+    "english": {
+      "deepl": "central",
+      "wiktionary_options": [
+        "centric"
+      ]
+    },
+    "french": {
+      "deepl": "en centre-ville",
+      "wiktionary_options": [
+        "central"
+      ]
+    }
+  },
+  {
+    "spanish": "después",
+    "french": {
+      "deepl": "ensuite",
+      "wiktionary_options": [
+        "après"
+      ]
+    }
+  },
+  {
+    "spanish": "hablante",
+    "french": {
+      "deepl": "locuteur",
+      "wiktionary_options": [
+        "parleur"
+      ]
+    }
+  },
+  {
+    "spanish": "devoto",
+    "french": {
+      "deepl": "dévoué",
+      "wiktionary_options": [
+        "dévot"
+      ]
+    }
+  },
+  {
+    "spanish": "cursillo",
+    "english": {
+      "deepl": "workshop",
+      "wiktionary_options": [
+        "short course"
+      ]
+    }
+  },
+  {
+    "spanish": "librería",
+    "english": {
+      "deepl": "bookstore",
+      "wiktionary_options": [
+        "book store",
+        "bookshop"
+      ]
+    }
+  },
+  {
+    "spanish": "timbre",
+    "english": {
+      "deepl": "doorbell",
+      "wiktionary_options": [
+        "stamp"
+      ]
+    },
+    "french": {
+      "deepl": "sonnerie",
+      "wiktionary_options": [
+        "m",
+        "sonnette",
+        "timbre",
+        "timbre fiscal"
+      ]
+    }
+  },
+  {
+    "spanish": "afroamericano",
+    "english": {
+      "deepl": "African American",
+      "wiktionary_options": [
+        "afro-american"
+      ]
+    }
+  },
+  {
+    "spanish": "escalar",
+    "english": {
+      "deepl": "to climb",
+      "wiktionary_options": [
+        "scalar"
+      ]
+    }
+  },
+  {
+    "spanish": "adulador",
+    "english": {
+      "deepl": "sycophant",
+      "wiktionary_options": [
+        "flatterer",
+        "flattering"
+      ]
+    }
+  },
+  {
+    "spanish": "trimestre",
+    "english": {
+      "deepl": "quarter",
+      "wiktionary_options": [
+        "term",
+        "trimester"
+      ]
+    }
+  },
+  {
+    "spanish": "palma",
+    "french": {
+      "deepl": "palme",
+      "wiktionary_options": [
+        "palmier"
+      ]
+    }
+  },
+  {
+    "spanish": "técnica",
+    "english": {
+      "deepl": "technical",
+      "wiktionary_options": [
+        "technique"
+      ]
+    }
+  },
+  {
+    "spanish": "solicitud",
+    "french": {
+      "deepl": "demande",
+      "wiktionary_options": [
+        "requête",
+        "sollicitation"
+      ]
+    }
+  },
+  {
+    "spanish": "soler",
+    "english": {
+      "deepl": "Soler",
+      "wiktionary_options": [
+        "be used to"
+      ]
+    },
+    "french": {
+      "deepl": "soler",
+      "wiktionary_options": [
+        "avoir l'habitude"
+      ]
+    }
+  },
+  {
+    "spanish": "distrito",
+    "french": {
+      "deepl": "quartier",
+      "wiktionary_options": [
+        "district",
+        "région"
+      ]
+    }
+  },
+  {
+    "spanish": "amplio",
+    "english": {
+      "deepl": "spacious",
+      "wiktionary_options": [
+        "ample"
+      ]
+    },
+    "french": {
+      "deepl": "vaste",
+      "wiktionary_options": [
+        "ample"
+      ]
+    }
+  },
+  {
+    "spanish": "vega",
+    "english": {
+      "deepl": "Vega",
+      "wiktionary_options": [
+        "floodplain"
+      ]
+    },
+    "french": {
+      "deepl": "Vega",
+      "wiktionary_options": [
+        "vallée inondable"
+      ]
+    }
+  },
+  {
+    "spanish": "detallar",
+    "french": {
+      "deepl": "préciser",
+      "wiktionary_options": [
+        "détailler",
+        "exposer en détail"
+      ]
+    }
+  },
+  {
+    "spanish": "güero",
+    "english": {
+      "deepl": "blond",
+      "wiktionary_options": [
+        "hollow"
+      ]
+    },
+    "french": {
+      "deepl": "blondinet",
+      "wiktionary_options": [
+        "creux"
+      ]
+    }
+  },
+  {
+    "spanish": "atenuar",
+    "english": {
+      "deepl": "mitigate",
+      "wiktionary_options": [
+        "attenuate"
+      ]
+    }
+  },
+  {
+    "spanish": "justo",
+    "english": {
+      "deepl": "fair",
+      "wiktionary_options": [
+        "just"
+      ]
+    }
+  },
+  {
+    "spanish": "evidente",
+    "english": {
+      "deepl": "obvious",
+      "wiktionary_options": [
+        "evident"
+      ]
+    }
+  },
+  {
+    "spanish": "incentivo",
+    "french": {
+      "deepl": "incitation",
+      "wiktionary_options": [
+        "incitatif"
+      ]
+    }
+  },
+  {
+    "spanish": "protesta",
+    "french": {
+      "deepl": "manifestation",
+      "wiktionary_options": [
+        "protestation"
+      ]
+    }
+  },
+  {
+    "spanish": "autoritario",
+    "french": {
+      "deepl": "autoritaire",
+      "wiktionary_options": [
+        "autoritaarinen"
+      ]
+    }
+  },
+  {
+    "spanish": "conciliar",
+    "english": {
+      "deepl": "reconcile",
+      "wiktionary_options": [
+        "conciliate"
+      ]
+    }
+  },
+  {
+    "spanish": "inteligente",
+    "english": {
+      "deepl": "smart",
+      "wiktionary_options": [
+        "intelligent"
+      ]
+    }
+  },
+  {
+    "spanish": "ánimo",
+    "french": {
+      "deepl": "courage",
+      "wiktionary_options": [
+        "vigueur"
+      ]
+    }
+  },
+  {
+    "spanish": "cordillera",
+    "french": {
+      "deepl": "chaîne de montagnes",
+      "wiktionary_options": [
+        "cordillière",
+        "cordillère"
+      ]
+    }
+  },
+  {
+    "spanish": "personal",
+    "english": {
+      "deepl": "staff",
+      "wiktionary_options": [
+        "personal",
+        "personnel"
+      ]
+    }
+  },
+  {
+    "spanish": "apreciar",
+    "english": {
+      "deepl": "to appreciate",
+      "wiktionary_options": [
+        "esteem",
+        "prize"
+      ]
+    }
+  },
+  {
+    "spanish": "basura",
+    "french": {
+      "deepl": "déchets",
+      "wiktionary_options": [
+        "ordures"
+      ]
+    }
+  },
+  {
+    "spanish": "pastor",
+    "english": {
+      "deepl": "pastor",
+      "wiktionary_options": [
+        "shepherd"
+      ]
+    }
+  },
+  {
+    "spanish": "arriba",
+    "english": {
+      "deepl": "top",
+      "wiktionary_options": [
+        "up"
+      ]
+    }
+  },
+  {
+    "spanish": "moreno",
+    "english": {
+      "deepl": "dark-skinned",
+      "wiktionary_options": [
+        "brown-haired",
+        "brunet",
+        "dusky",
+        "swarthy"
+      ]
+    }
+  },
+  {
+    "spanish": "aplaudir",
+    "english": {
+      "deepl": "to applaud",
+      "wiktionary_options": [
+        "clap"
+      ]
+    }
+  },
+  {
+    "spanish": "respuesta",
+    "english": {
+      "deepl": "response",
+      "wiktionary_options": [
+        "answer"
+      ]
+    }
+  },
+  {
+    "spanish": "emisión",
+    "english": {
+      "deepl": "broadcast",
+      "wiktionary_options": [
+        "emission"
+      ]
+    },
+    "french": {
+      "deepl": "diffusion",
+      "wiktionary_options": [
+        "émission"
+      ]
+    }
+  },
+  {
+    "spanish": "habla",
+    "english": {
+      "deepl": "speak",
+      "wiktionary_options": [
+        "speech"
+      ]
+    }
+  },
+  {
+    "spanish": "examinar",
+    "french": {
+      "deepl": "examiner",
+      "wiktionary_options": [
+        "inspecterer"
+      ]
+    }
+  },
+  {
+    "spanish": "hemeroteca",
+    "french": {
+      "deepl": "archives de presse",
+      "wiktionary_options": [
+        "bibliothèque de périodiques"
+      ]
+    }
+  },
+  {
+    "spanish": "anegar",
+    "french": {
+      "deepl": "inonder",
+      "wiktionary_options": [
+        "noyer",
+        "submerger"
+      ]
+    }
+  },
+  {
+    "spanish": "químico",
+    "french": {
+      "deepl": "chimiste",
+      "wiktionary_options": [
+        "chimique"
+      ]
+    }
+  },
+  {
+    "spanish": "terreno",
+    "english": {
+      "deepl": "land",
+      "wiktionary_options": [
+        "field",
+        "pitch",
+        "terrain"
+      ]
+    }
+  },
+  {
+    "spanish": "soltar",
+    "english": {
+      "deepl": "let go",
+      "wiktionary_options": [
+        "loose",
+        "release"
+      ]
+    }
+  },
+  {
+    "spanish": "billete",
+    "english": {
+      "deepl": "ticket",
+      "wiktionary_options": [
+        "banknote"
+      ]
+    }
+  },
+  {
+    "spanish": "detergente",
+    "french": {
+      "deepl": "détergent",
+      "wiktionary_options": [
+        "lessive"
+      ]
+    }
+  },
+  {
+    "spanish": "charlar",
+    "french": {
+      "deepl": "discuter",
+      "wiktionary_options": [
+        "bavarder",
+        "converser"
+      ]
+    }
+  },
+  {
+    "spanish": "habilidad",
+    "english": {
+      "deepl": "skill",
+      "wiktionary_options": [
+        "ability"
+      ]
+    },
+    "french": {
+      "deepl": "compétence",
+      "wiktionary_options": [
+        "adresse",
+        "habilité"
+      ]
+    }
+  },
+  {
+    "spanish": "atuendo",
+    "english": {
+      "deepl": "outfit",
+      "wiktionary_options": [
+        "clothing"
+      ]
+    }
+  },
+  {
+    "spanish": "apenas",
+    "english": {
+      "deepl": "barely",
+      "wiktionary_options": [
+        "hardly",
+        "scarcely"
+      ]
+    }
+  },
+  {
+    "spanish": "escaso",
+    "french": {
+      "deepl": "rare",
+      "wiktionary_options": [
+        "peu"
+      ]
+    }
+  },
+  {
+    "spanish": "legal",
+    "french": {
+      "deepl": "juridique",
+      "wiktionary_options": [
+        "légal"
+      ]
+    }
+  },
+  {
+    "spanish": "encima",
+    "english": {
+      "deepl": "on top of",
+      "wiktionary_options": [
+        "over"
+      ]
+    }
+  },
+  {
+    "spanish": "fabricación",
+    "english": {
+      "deepl": "manufacturing",
+      "wiktionary_options": [
+        "make"
+      ]
+    }
+  },
+  {
+    "spanish": "mirada",
+    "english": {
+      "deepl": "glance",
+      "wiktionary_options": [
+        "look"
+      ]
+    }
+  },
+  {
+    "spanish": "temática",
+    "english": {
+      "deepl": "theme",
+      "wiktionary_options": [
+        "topical stamp collecting"
+      ]
+    }
+  },
+  {
+    "spanish": "turno",
+    "english": {
+      "deepl": "shift",
+      "wiktionary_options": [
+        "go",
+        "turn"
+      ]
+    },
+    "french": {
+      "deepl": "quart de travail",
+      "wiktionary_options": [
+        "tour"
+      ]
+    }
+  },
+  {
+    "spanish": "respaldo",
+    "french": {
+      "deepl": "soutien",
+      "wiktionary_options": [
+        "appui",
+        "dossier",
+        "sauvegarde"
+      ]
+    }
+  },
+  {
+    "spanish": "jersey",
+    "english": {
+      "deepl": "sweater",
+      "wiktionary_options": [
+        "jersey"
+      ]
+    },
+    "french": {
+      "deepl": "pull",
+      "wiktionary_options": [
+        "jersey"
+      ]
+    }
+  },
+  {
+    "spanish": "huerto",
+    "english": {
+      "deepl": "vegetable garden",
+      "wiktionary_options": [
+        "orchard"
+      ]
+    }
+  },
+  {
+    "spanish": "modificación",
+    "english": {
+      "deepl": "modification",
+      "wiktionary_options": [
+        "change"
+      ]
+    }
+  },
+  {
+    "spanish": "tacto",
+    "english": {
+      "deepl": "touch",
+      "wiktionary_options": [
+        "feel"
+      ]
+    }
+  },
+  {
+    "spanish": "oportunidad",
+    "french": {
+      "deepl": "occasion",
+      "wiktionary_options": [
+        "opportunité"
+      ]
+    }
+  },
+  {
+    "spanish": "exposición",
+    "english": {
+      "deepl": "exhibition",
+      "wiktionary_options": [
+        "exposure"
+      ]
+    }
+  },
+  {
+    "spanish": "permiso",
+    "french": {
+      "deepl": "autorisation",
+      "wiktionary_options": [
+        "permis",
+        "permission"
+      ]
+    }
+  },
+  {
+    "spanish": "guardar",
+    "french": {
+      "deepl": "enregistrer",
+      "wiktionary_options": [
+        "garder",
+        "observer",
+        "protéger",
+        "sauver"
+      ]
+    }
+  },
+  {
+    "spanish": "hallazgo",
+    "english": {
+      "deepl": "discovery",
+      "wiktionary_options": [
+        "find"
+      ]
+    }
+  },
+  {
+    "spanish": "índice",
+    "english": {
+      "deepl": "table of contents",
+      "wiktionary_options": [
+        "forefinger",
+        "index",
+        "index finger"
+      ]
+    }
+  },
+  {
+    "spanish": "momento",
+    "french": {
+      "deepl": "instant",
+      "wiktionary_options": [
+        "moment"
+      ]
+    }
+  },
+  {
+    "spanish": "celo",
+    "french": {
+      "deepl": "chaleur",
+      "wiktionary_options": [
+        "ferveur",
+        "zèle"
+      ]
+    }
+  },
+  {
+    "spanish": "susto",
+    "english": {
+      "deepl": "scare",
+      "wiktionary_options": [
+        "fright"
+      ]
+    }
+  },
+  {
+    "spanish": "lesión",
+    "french": {
+      "deepl": "blessure",
+      "wiktionary_options": [
+        "lésion"
+      ]
+    }
+  },
+  {
+    "spanish": "llama",
+    "english": {
+      "deepl": "call",
+      "wiktionary_options": [
+        "flame",
+        "llama"
+      ]
+    },
+    "french": {
+      "deepl": "appel",
+      "wiktionary_options": [
+        "flamme",
+        "lama"
+      ]
+    }
+  },
+  {
+    "spanish": "ocultar",
+    "french": {
+      "deepl": "masquer",
+      "wiktionary_options": [
+        "cacher",
+        "occulter"
+      ]
+    }
+  },
+  {
+    "spanish": "sello",
+    "french": {
+      "deepl": "timbre",
+      "wiktionary_options": [
+        "pile",
+        "sceau"
+      ]
+    }
+  },
+  {
+    "spanish": "similar",
+    "french": {
+      "deepl": "similaire",
+      "wiktionary_options": [
+        "pareil"
+      ]
+    }
+  },
+  {
+    "spanish": "cenar",
+    "english": {
+      "deepl": "have dinner",
+      "wiktionary_options": [
+        "dine"
+      ]
+    },
+    "french": {
+      "deepl": "dîner",
+      "wiktionary_options": [
+        "diner"
+      ]
+    }
+  },
+  {
+    "spanish": "hamburguesa",
+    "english": {
+      "deepl": "hamburger",
+      "wiktionary_options": [
+        "hamburguer"
+      ]
+    }
+  },
+  {
+    "spanish": "machista",
+    "english": {
+      "deepl": "sexist",
+      "wiktionary_options": [
+        "male chauvinist"
+      ]
+    }
+  },
+  {
+    "spanish": "causar",
+    "french": {
+      "deepl": "provoquer",
+      "wiktionary_options": [
+        "causer"
+      ]
+    }
+  },
+  {
+    "spanish": "principal",
+    "english": {
+      "deepl": "main",
+      "wiktionary_options": [
+        "principal"
+      ]
+    }
+  },
+  {
+    "spanish": "garantía",
+    "english": {
+      "deepl": "warranty",
+      "wiktionary_options": [
+        "guarantee"
+      ]
+    }
+  },
+  {
+    "spanish": "atractivo",
+    "french": {
+      "deepl": "attrayant",
+      "wiktionary_options": [
+        "attachant"
+      ]
+    }
+  },
+  {
+    "spanish": "voto",
+    "french": {
+      "deepl": "vote",
+      "wiktionary_options": [
+        "voix"
+      ]
+    }
+  },
+  {
+    "spanish": "instalación",
+    "english": {
+      "deepl": "installation",
+      "wiktionary_options": [
+        "facility"
+      ]
+    }
+  },
+  {
+    "spanish": "rapar",
+    "english": {
+      "deepl": "to rap",
+      "wiktionary_options": [
+        "shave"
+      ]
+    },
+    "french": {
+      "deepl": "raper",
+      "wiktionary_options": [
+        "raser"
+      ]
+    }
+  },
+  {
+    "spanish": "práctico",
+    "french": {
+      "deepl": "pratique",
+      "wiktionary_options": [
+        "expert"
+      ]
+    }
+  },
+  {
+    "spanish": "recaer",
+    "english": {
+      "deepl": "fall back",
+      "wiktionary_options": [
+        "relapse"
+      ]
+    },
+    "french": {
+      "deepl": "revenir",
+      "wiktionary_options": [
+        "rechuter",
+        "retomber"
+      ]
+    }
+  },
+  {
+    "spanish": "aeronáutico",
+    "french": {
+      "deepl": "aéronautique",
+      "wiktionary_options": [
+        "aeronautique"
+      ]
+    }
+  },
+  {
+    "spanish": "ordenar",
+    "english": {
+      "deepl": "sort",
+      "wiktionary_options": [
+        "order"
+      ]
+    }
+  },
+  {
+    "spanish": "líder",
+    "french": {
+      "deepl": "leader",
+      "wiktionary_options": [
+        "guide"
+      ]
+    }
+  },
+  {
+    "spanish": "dependiente",
+    "english": {
+      "deepl": "dependent",
+      "wiktionary_options": [
+        "shop assistant"
+      ]
+    }
+  },
+  {
+    "spanish": "aparentar",
+    "english": {
+      "deepl": "to appear to be",
+      "wiktionary_options": [
+        "feign",
+        "pretend"
+      ]
+    },
+    "french": {
+      "deepl": "faire semblant",
+      "wiktionary_options": [
+        "feindre"
+      ]
+    }
+  },
+  {
+    "spanish": "sueldo",
+    "english": {
+      "deepl": "salary",
+      "wiktionary_options": [
+        "wages"
+      ]
+    }
+  },
+  {
+    "spanish": "encajar",
+    "english": {
+      "deepl": "fit",
+      "wiktionary_options": [
+        "enchase"
+      ]
+    },
+    "french": {
+      "deepl": "s'adapter",
+      "wiktionary_options": [
+        "enchâsser"
+      ]
+    }
+  },
+  {
+    "spanish": "inculpado",
+    "french": {
+      "deepl": "inculpé",
+      "wiktionary_options": [
+        "accusé",
+        "innocent"
+      ]
+    }
+  },
+  {
+    "spanish": "memoria",
+    "english": {
+      "deepl": "report",
+      "wiktionary_options": [
+        "memory"
+      ]
+    },
+    "french": {
+      "deepl": "rapport",
+      "wiktionary_options": [
+        "mémoire"
+      ]
+    }
+  },
+  {
+    "spanish": "infancia",
+    "english": {
+      "deepl": "childhood",
+      "wiktionary_options": [
+        "infancy"
+      ]
+    }
+  },
+  {
+    "spanish": "exigencia",
+    "english": {
+      "deepl": "requirement",
+      "wiktionary_options": [
+        "exigency"
+      ]
+    }
+  },
+  {
+    "spanish": "portero",
+    "french": {
+      "deepl": "gardien de but",
+      "wiktionary_options": [
+        "portier"
+      ]
+    }
+  },
+  {
+    "spanish": "ámbito",
+    "english": {
+      "deepl": "scope",
+      "wiktionary_options": [
+        "ambit"
+      ]
+    },
+    "french": {
+      "deepl": "domaine",
+      "wiktionary_options": [
+        "cadre",
+        "enceinte",
+        "milieu"
+      ]
+    }
+  },
+  {
+    "spanish": "asesino",
+    "french": {
+      "deepl": "assassin",
+      "wiktionary_options": [
+        "meurtrier"
+      ]
+    }
+  },
+  {
+    "spanish": "época",
+    "english": {
+      "deepl": "era",
+      "wiktionary_options": [
+        "age",
+        "time"
+      ]
+    }
+  },
+  {
+    "spanish": "maría",
+    "english": {
+      "deepl": "María",
+      "wiktionary_options": [
+        "ganja",
+        "marijuana"
+      ]
+    },
+    "french": {
+      "deepl": "María",
+      "wiktionary_options": [
+        "chanvre"
+      ]
+    }
+  },
+  {
+    "spanish": "controversia",
+    "french": {
+      "deepl": "polémique",
+      "wiktionary_options": [
+        "controverse"
+      ]
+    }
+  },
+  {
+    "spanish": "regional",
+    "french": {
+      "deepl": "régional",
+      "wiktionary_options": [
+        "local"
+      ]
+    }
+  },
+  {
+    "spanish": "global",
+    "french": {
+      "deepl": "global",
+      "wiktionary_options": [
+        "mondial",
+        "total"
+      ]
+    }
+  },
+  {
+    "spanish": "negocio",
+    "french": {
+      "deepl": "entreprise",
+      "wiktionary_options": [
+        "affaire"
+      ]
+    }
+  },
+  {
+    "spanish": "labor",
+    "english": {
+      "deepl": "work",
+      "wiktionary_options": [
+        "labor",
+        "ploughing",
+        "plowing"
+      ]
+    }
+  },
+  {
+    "spanish": "familiar",
+    "english": {
+      "deepl": "family",
+      "wiktionary_options": [
+        "familiar"
+      ]
+    },
+    "french": {
+      "deepl": "familial",
+      "wiktionary_options": [
+        "familier"
+      ]
+    }
+  },
+  {
+    "spanish": "córner",
+    "french": {
+      "deepl": "corner",
+      "wiktionary_options": [
+        "coup de pied de coin"
+      ]
+    }
+  },
+  {
+    "spanish": "armario",
+    "english": {
+      "deepl": "closet",
+      "wiktionary_options": [
+        "cabinet",
+        "cupboard"
+      ]
+    }
+  },
+  {
+    "spanish": "pregonero",
+    "english": {
+      "deepl": "town crier",
+      "wiktionary_options": [
+        "common crier"
+      ]
+    }
+  },
+  {
+    "spanish": "ilusión",
+    "english": {
+      "deepl": "excitement",
+      "wiktionary_options": [
+        "illusion"
+      ]
+    },
+    "french": {
+      "deepl": "rêve",
+      "wiktionary_options": [
+        "illusion"
+      ]
+    }
+  },
+  {
+    "spanish": "bolsa",
+    "english": {
+      "deepl": "stock market",
+      "wiktionary_options": [
+        "bag",
+        "pocket",
+        "purse",
+        "stock exchange"
+      ]
+    }
+  },
+  {
+    "spanish": "triunfo",
+    "english": {
+      "deepl": "victory",
+      "wiktionary_options": [
+        "triumph"
+      ]
+    }
+  },
+  {
+    "spanish": "pegar",
+    "english": {
+      "deepl": "paste",
+      "wiktionary_options": [
+        "fasten",
+        "stick/glue"
+      ]
+    }
+  },
+  {
+    "spanish": "vista",
+    "english": {
+      "deepl": "view",
+      "wiktionary_options": [
+        "sight",
+        "vision"
+      ]
+    }
+  },
+  {
+    "spanish": "sentido",
+    "english": {
+      "deepl": "meaning",
+      "wiktionary_options": [
+        "direction",
+        "felt",
+        "sense",
+        "sensitive"
+      ]
+    }
+  },
+  {
+    "spanish": "obtener",
+    "english": {
+      "deepl": "get",
+      "wiktionary_options": [
+        "obtain"
+      ]
+    }
+  },
+  {
+    "spanish": "renunciar",
+    "english": {
+      "deepl": "resign",
+      "wiktionary_options": [
+        "renounce"
+      ]
+    }
+  },
+  {
+    "spanish": "campesino",
+    "english": {
+      "deepl": "farmer",
+      "wiktionary_options": [
+        "peasant",
+        "rural"
+      ]
+    }
+  },
+  {
+    "spanish": "clima",
+    "english": {
+      "deepl": "weather",
+      "wiktionary_options": [
+        "climate"
+      ]
+    }
+  },
+  {
+    "spanish": "diseñar",
+    "french": {
+      "deepl": "concevoir",
+      "wiktionary_options": [
+        "designer"
+      ]
+    }
+  },
+  {
+    "spanish": "mercadillo",
+    "english": {
+      "deepl": "flea market",
+      "wiktionary_options": [
+        "street market"
+      ]
+    }
+  },
+  {
+    "spanish": "asistencia",
+    "english": {
+      "deepl": "attendance",
+      "wiktionary_options": [
+        "assistance"
+      ]
+    }
+  },
+  {
+    "spanish": "prestación",
+    "french": {
+      "deepl": "prestation",
+      "wiktionary_options": [
+        "avantage"
+      ]
+    }
+  },
+  {
+    "spanish": "finca",
+    "english": {
+      "deepl": "farm",
+      "wiktionary_options": [
+        "estate"
+      ]
+    }
+  },
+  {
+    "spanish": "pacto",
+    "english": {
+      "deepl": "agreement",
+      "wiktionary_options": [
+        "pact"
+      ]
+    },
+    "french": {
+      "deepl": "accord",
+      "wiktionary_options": [
+        "pacte"
+      ]
+    }
+  },
+  {
+    "spanish": "inmueble",
+    "french": {
+      "deepl": "bien immobilier",
+      "wiktionary_options": [
+        "immeuble"
+      ]
+    }
+  },
+  {
+    "spanish": "compañía",
+    "french": {
+      "deepl": "société",
+      "wiktionary_options": [
+        "entreprise"
+      ]
+    }
+  },
+  {
+    "spanish": "ocupación",
+    "french": {
+      "deepl": "emploi",
+      "wiktionary_options": [
+        "occupation"
+      ]
+    }
+  },
+  {
+    "spanish": "impulso",
+    "english": {
+      "deepl": "momentum",
+      "wiktionary_options": [
+        "impulse"
+      ]
+    }
+  },
+  {
+    "spanish": "apoyo",
+    "french": {
+      "deepl": "soutien",
+      "wiktionary_options": [
+        "appui"
+      ]
+    }
+  },
+  {
+    "spanish": "prueba",
+    "french": {
+      "deepl": "test",
+      "wiktionary_options": [
+        "preuve"
+      ]
+    }
+  },
+  {
+    "spanish": "falsedad",
+    "english": {
+      "deepl": "falsehood",
+      "wiktionary_options": [
+        "falsity"
+      ]
+    }
+  },
+  {
+    "spanish": "actualización",
+    "french": {
+      "deepl": "mise à jour",
+      "wiktionary_options": [
+        "mettre à jour"
+      ]
+    }
+  },
+  {
+    "spanish": "antelación",
+    "french": {
+      "deepl": "à l'avance",
+      "wiktionary_options": [
+        "anticipation"
+      ]
+    }
+  },
+  {
+    "spanish": "culpa",
+    "english": {
+      "deepl": "blame",
+      "wiktionary_options": [
+        "fault",
+        "guilt"
+      ]
+    }
+  },
+  {
+    "spanish": "competencia",
+    "french": {
+      "deepl": "compétition",
+      "wiktionary_options": [
+        "concurrence"
+      ]
+    }
+  },
+  {
+    "spanish": "probable",
+    "english": {
+      "deepl": "likely",
+      "wiktionary_options": [
+        "probable",
+        "provable"
+      ]
+    }
+  },
+  {
+    "spanish": "procedimiento",
+    "french": {
+      "deepl": "procédure",
+      "wiktionary_options": [
+        "procédé"
+      ]
+    }
+  },
+  {
+    "spanish": "elaboración",
+    "english": {
+      "deepl": "preparation",
+      "wiktionary_options": [
+        "elaboration"
+      ]
+    }
+  },
+  {
+    "spanish": "reunir",
+    "french": {
+      "deepl": "rassembler",
+      "wiktionary_options": [
+        "réunir"
+      ]
+    }
+  },
+  {
+    "spanish": "guapo",
+    "french": {
+      "deepl": "beau",
+      "wiktionary_options": [
+        "joli"
+      ]
+    }
+  },
+  {
+    "spanish": "engordar",
+    "english": {
+      "deepl": "to gain weight",
+      "wiktionary_options": [
+        "be fattening",
+        "fatten up",
+        "put on weight"
+      ]
+    }
+  },
+  {
+    "spanish": "residencia",
+    "french": {
+      "deepl": "résidence",
+      "wiktionary_options": [
+        "demeure"
+      ]
+    }
+  },
+  {
+    "spanish": "tránsito",
+    "english": {
+      "deepl": "traffic",
+      "wiktionary_options": [
+        "transit"
+      ]
+    },
+    "french": {
+      "deepl": "circulation",
+      "wiktionary_options": [
+        "transit"
+      ]
+    }
+  },
+  {
+    "spanish": "pasillo",
+    "english": {
+      "deepl": "hallway",
+      "wiktionary_options": [
+        "corridor"
+      ]
+    }
+  },
+  {
+    "spanish": "juguetería",
+    "english": {
+      "deepl": "toy store",
+      "wiktionary_options": [
+        "toy shop",
+        "toy trade"
+      ]
+    },
+    "french": {
+      "deepl": "magasin de jouets",
+      "wiktionary_options": [
+        "bimbeloterie"
+      ]
+    }
+  },
+  {
+    "spanish": "privar",
+    "french": {
+      "deepl": "priver",
+      "wiktionary_options": [
+        "boire"
+      ]
+    }
+  },
+  {
+    "spanish": "pradera",
+    "english": {
+      "deepl": "meadow",
+      "wiktionary_options": [
+        "grassland",
+        "prairie"
+      ]
+    }
+  },
+  {
+    "spanish": "cuestión",
+    "english": {
+      "deepl": "issue",
+      "wiktionary_options": [
+        "question"
+      ]
+    }
+  },
+  {
+    "spanish": "seductor",
+    "french": {
+      "deepl": "séducteur",
+      "wiktionary_options": [
+        "séduisant"
+      ]
+    }
+  },
+  {
+    "spanish": "reclamar",
+    "english": {
+      "deepl": "to complain",
+      "wiktionary_options": [
+        "demand"
+      ]
+    },
+    "french": {
+      "deepl": "réclamer",
+      "wiktionary_options": [
+        "demander"
+      ]
+    }
+  },
+  {
+    "spanish": "evidencia",
+    "french": {
+      "deepl": "preuve",
+      "wiktionary_options": [
+        "évidence"
+      ]
+    }
+  },
+  {
+    "spanish": "oportuno",
+    "english": {
+      "deepl": "timely",
+      "wiktionary_options": [
+        "opportune"
+      ]
+    }
+  },
+  {
+    "spanish": "adjunto",
+    "french": {
+      "deepl": "ci-joint",
+      "wiktionary_options": [
+        "adjoint"
+      ]
+    }
+  },
+  {
+    "spanish": "urbe",
+    "english": {
+      "deepl": "city",
+      "wiktionary_options": [
+        "metropolis"
+      ]
+    }
+  },
+  {
+    "spanish": "limpieza",
+    "english": {
+      "deepl": "cleaning",
+      "wiktionary_options": [
+        "cleanliness"
+      ]
+    }
+  },
+  {
+    "spanish": "perjudicial",
+    "english": {
+      "deepl": "detrimental",
+      "wiktionary_options": [
+        "harmful"
+      ]
+    }
+  },
+  {
+    "spanish": "hormiguero",
+    "english": {
+      "deepl": "ant hill",
+      "wiktionary_options": [
+        "anthill",
+        "swarming"
+      ]
+    }
+  },
+  {
+    "spanish": "imprescindible",
+    "english": {
+      "deepl": "essential",
+      "wiktionary_options": [
+        "indispensable"
+      ]
+    }
+  },
+  {
+    "spanish": "potable",
+    "english": {
+      "deepl": "drinking water",
+      "wiktionary_options": [
+        "drinkable",
+        "passable"
+      ]
+    }
+  },
+  {
+    "spanish": "prohibición",
+    "english": {
+      "deepl": "ban",
+      "wiktionary_options": [
+        "prohibition"
+      ]
+    },
+    "french": {
+      "deepl": "interdiction",
+      "wiktionary_options": [
+        "défense",
+        "prohibition"
+      ]
+    }
+  },
+  {
+    "spanish": "afortunado",
+    "french": {
+      "deepl": "chanceux",
+      "wiktionary_options": [
+        "fortuné"
+      ]
+    }
+  },
+  {
+    "spanish": "apto",
+    "french": {
+      "deepl": "adapté",
+      "wiktionary_options": [
+        "apte"
+      ]
+    }
+  },
+  {
+    "spanish": "incorporar",
+    "french": {
+      "deepl": "intégrer",
+      "wiktionary_options": [
+        "incorporer"
+      ]
+    }
+  },
+  {
+    "spanish": "ajeno",
+    "english": {
+      "deepl": "foreign",
+      "wiktionary_options": [
+        "alien"
+      ]
+    }
+  },
+  {
+    "spanish": "gasolina",
+    "english": {
+      "deepl": "gasoline",
+      "wiktionary_options": [
+        "petrol"
+      ]
+    }
+  },
+  {
+    "spanish": "mercantil",
+    "english": {
+      "deepl": "commercial",
+      "wiktionary_options": [
+        "mercantile"
+      ]
+    },
+    "french": {
+      "deepl": "commercial",
+      "wiktionary_options": [
+        "mercantile"
+      ]
+    }
+  },
+  {
+    "spanish": "facilidad",
+    "english": {
+      "deepl": "ease",
+      "wiktionary_options": [
+        "facility"
+      ]
+    }
+  },
+  {
+    "spanish": "tranquilidad",
+    "english": {
+      "deepl": "peace of mind",
+      "wiktionary_options": [
+        "tranquillity"
+      ]
+    },
+    "french": {
+      "deepl": "sérénité",
+      "wiktionary_options": [
+        "tranquillité"
+      ]
+    }
+  },
+  {
+    "spanish": "empleo",
+    "english": {
+      "deepl": "employment",
+      "wiktionary_options": [
+        "job"
+      ]
+    }
+  },
+  {
+    "spanish": "revisar",
+    "english": {
+      "deepl": "review",
+      "wiktionary_options": [
+        "revise"
+      ]
+    },
+    "french": {
+      "deepl": "vérifier",
+      "wiktionary_options": [
+        "revoir"
+      ]
+    }
+  },
+  {
+    "spanish": "inmóvil",
+    "french": {
+      "deepl": "immobile",
+      "wiktionary_options": [
+        "statique"
+      ]
+    }
+  },
+  {
+    "spanish": "ruptura",
+    "english": {
+      "deepl": "breakup",
+      "wiktionary_options": [
+        "rupture"
+      ]
+    }
+  },
+  {
+    "spanish": "sentencia",
+    "english": {
+      "deepl": "judgment",
+      "wiktionary_options": [
+        "sentence"
+      ]
+    },
+    "french": {
+      "deepl": "jugement",
+      "wiktionary_options": [
+        "sentence"
+      ]
+    }
+  },
+  {
+    "spanish": "carencia",
+    "english": {
+      "deepl": "deficiency",
+      "wiktionary_options": [
+        "lack",
+        "want"
+      ]
+    }
+  },
+  {
+    "spanish": "inesperado",
+    "french": {
+      "deepl": "inattendu",
+      "wiktionary_options": [
+        "inespéré"
+      ]
+    }
+  },
+  {
+    "spanish": "precaución",
+    "french": {
+      "deepl": "mise en garde",
+      "wiktionary_options": [
+        "précaution"
+      ]
+    }
+  },
+  {
+    "spanish": "conmovedor",
+    "english": {
+      "deepl": "moving",
+      "wiktionary_options": [
+        "touching"
+      ]
+    },
+    "french": {
+      "deepl": "émouvant",
+      "wiktionary_options": [
+        "attendrissant"
+      ]
+    }
+  },
+  {
+    "spanish": "remoto",
+    "french": {
+      "deepl": "à distance",
+      "wiktionary_options": [
+        "lointain"
+      ]
+    }
+  },
+  {
+    "spanish": "reportaje",
+    "english": {
+      "deepl": "feature story",
+      "wiktionary_options": [
+        "report"
+      ]
+    }
+  },
+  {
+    "spanish": "embarcar",
+    "english": {
+      "deepl": "to board",
+      "wiktionary_options": [
+        "embark"
+      ]
+    }
+  },
+  {
+    "spanish": "asamblea",
+    "english": {
+      "deepl": "assembly",
+      "wiktionary_options": [
+        "meeting"
+      ]
+    }
+  },
+  {
+    "spanish": "predicción",
+    "french": {
+      "deepl": "prévision",
+      "wiktionary_options": [
+        "prédiction"
+      ]
+    }
+  },
+  {
+    "spanish": "timar",
+    "english": {
+      "deepl": "timar",
+      "wiktionary_options": [
+        "scam"
+      ]
+    },
+    "french": {
+      "deepl": "timar",
+      "wiktionary_options": [
+        "escroquer"
+      ]
+    }
+  },
+  {
+    "spanish": "instintivo",
+    "english": {
+      "deepl": "instinctive",
+      "wiktionary_options": [
+        "instinctif"
+      ]
+    }
+  },
+  {
+    "spanish": "inquietud",
+    "english": {
+      "deepl": "unease",
+      "wiktionary_options": [
+        "restlessness"
+      ]
+    }
+  },
+  {
+    "spanish": "desastre",
+    "french": {
+      "deepl": "catastrophe",
+      "wiktionary_options": [
+        "désastre"
+      ]
+    }
+  },
+  {
+    "spanish": "novedad",
+    "english": {
+      "deepl": "new release",
+      "wiktionary_options": [
+        "novelty"
+      ]
+    }
+  },
+  {
+    "spanish": "convenio",
+    "english": {
+      "deepl": "agreement",
+      "wiktionary_options": [
+        "convention"
+      ]
+    },
+    "french": {
+      "deepl": "accord",
+      "wiktionary_options": [
+        "convention"
+      ]
+    }
+  },
+  {
+    "spanish": "evocar",
+    "english": {
+      "deepl": "to evoke",
+      "wiktionary_options": [
+        "call up",
+        "invoke"
+      ]
+    }
+  },
+  {
+    "spanish": "viaje",
+    "english": {
+      "deepl": "trip",
+      "wiktionary_options": [
+        "journey",
+        "travel",
+        "voyage"
+      ]
+    }
+  },
+  {
+    "spanish": "imputar",
+    "english": {
+      "deepl": "to charge",
+      "wiktionary_options": [
+        "impute"
+      ]
+    }
+  },
+  {
+    "spanish": "iluminar",
+    "french": {
+      "deepl": "éclairer",
+      "wiktionary_options": [
+        "illuminer"
+      ]
+    }
+  },
+  {
+    "spanish": "empresario",
+    "french": {
+      "deepl": "chef d'entreprise",
+      "wiktionary_options": [
+        "entrepreneur",
+        "patron"
+      ]
+    }
+  },
+  {
+    "spanish": "vigente",
+    "french": {
+      "deepl": "en vigueur",
+      "wiktionary_options": [
+        "actuel"
+      ]
+    }
+  },
+  {
+    "spanish": "finalidad",
+    "french": {
+      "deepl": "objectif",
+      "wiktionary_options": [
+        "but"
+      ]
+    }
+  },
+  {
+    "spanish": "renacimiento",
+    "english": {
+      "deepl": "Renaissance",
+      "wiktionary_options": [
+        "revival"
+      ]
+    }
+  },
+  {
+    "spanish": "utilización",
+    "english": {
+      "deepl": "use",
+      "wiktionary_options": [
+        "utilization"
+      ]
+    }
+  },
+  {
+    "spanish": "amabilidad",
+    "french": {
+      "deepl": "gentillesse",
+      "wiktionary_options": [
+        "amabilité"
+      ]
+    }
+  },
+  {
+    "spanish": "alternativa",
+    "english": {
+      "deepl": "alternative",
+      "wiktionary_options": [
+        "option"
+      ]
+    }
+  },
+  {
+    "spanish": "primigenio",
+    "english": {
+      "deepl": "primordial",
+      "wiktionary_options": [
+        "primeval"
+      ]
+    }
+  },
+  {
+    "spanish": "inicio",
+    "english": {
+      "deepl": "home",
+      "wiktionary_options": [
+        "beginning"
+      ]
+    }
+  },
+  {
+    "spanish": "realización",
+    "english": {
+      "deepl": "production",
+      "wiktionary_options": [
+        "realization"
+      ]
+    }
+  },
+  {
+    "spanish": "chimenea",
+    "english": {
+      "deepl": "fireplace",
+      "wiktionary_options": [
+        "chimney"
+      ]
+    }
+  },
+  {
+    "spanish": "difusión",
+    "english": {
+      "deepl": "dissemination",
+      "wiktionary_options": [
+        "diffusion"
+      ]
+    }
+  },
+  {
+    "spanish": "comienzo",
+    "english": {
+      "deepl": "beginning",
+      "wiktionary_options": [
+        "start"
+      ]
+    },
+    "french": {
+      "deepl": "début",
+      "wiktionary_options": [
+        "commencement"
+      ]
+    }
+  },
+  {
+    "spanish": "destreza",
+    "english": {
+      "deepl": "skill",
+      "wiktionary_options": [
+        "dexterity"
+      ]
+    }
+  },
+  {
+    "spanish": "especificar",
+    "french": {
+      "deepl": "préciser",
+      "wiktionary_options": [
+        "spécifier"
+      ]
+    }
+  },
+  {
+    "spanish": "tensión",
+    "english": {
+      "deepl": "voltage",
+      "wiktionary_options": [
+        "tension"
+      ]
+    }
+  },
+  {
+    "spanish": "desviación",
+    "french": {
+      "deepl": "écart",
+      "wiktionary_options": [
+        "déviation"
+      ]
+    }
+  },
+  {
+    "spanish": "dama",
+    "english": {
+      "deepl": "queen",
+      "wiktionary_options": [
+        "fallow deer"
+      ]
+    }
+  },
+  {
+    "spanish": "efectuar",
+    "english": {
+      "deepl": "carry out",
+      "wiktionary_options": [
+        "effect"
+      ]
+    }
+  },
+  {
+    "spanish": "chaqueta",
+    "french": {
+      "deepl": "veste",
+      "wiktionary_options": [
+        "jaquette"
+      ]
+    }
+  },
+  {
+    "spanish": "juntar",
+    "english": {
+      "deepl": "put together",
+      "wiktionary_options": [
+        "collect",
+        "connect"
+      ]
+    }
+  },
+  {
+    "spanish": "cura",
+    "english": {
+      "deepl": "cure",
+      "wiktionary_options": [
+        "curate",
+        "parish priest"
+      ]
+    },
+    "french": {
+      "deepl": "guérison",
+      "wiktionary_options": [
+        "curé"
+      ]
+    }
+  },
+  {
+    "spanish": "seña",
+    "english": {
+      "deepl": "password",
+      "wiktionary_options": [
+        "sign"
+      ]
+    },
+    "french": {
+      "deepl": "mot de passe",
+      "wiktionary_options": [
+        "signe"
+      ]
+    }
+  },
+  {
+    "spanish": "fecundación",
+    "english": {
+      "deepl": "fertilization",
+      "wiktionary_options": [
+        "fecundation"
+      ]
+    }
+  },
+  {
+    "spanish": "afirmación",
+    "english": {
+      "deepl": "statement",
+      "wiktionary_options": [
+        "affirmation"
+      ]
+    }
+  },
+  {
+    "spanish": "notar",
+    "english": {
+      "deepl": "to notice",
+      "wiktionary_options": [
+        "note"
+      ]
+    }
+  },
+  {
+    "spanish": "infantil",
+    "english": {
+      "deepl": "children's",
+      "wiktionary_options": [
+        "childish",
+        "infantile"
+      ]
+    },
+    "french": {
+      "deepl": "pour enfants",
+      "wiktionary_options": [
+        "enfantin",
+        "infantile"
+      ]
+    }
+  },
+  {
+    "spanish": "formar",
+    "english": {
+      "deepl": "to train",
+      "wiktionary_options": [
+        "form",
+        "shape"
+      ]
+    }
+  },
+  {
+    "spanish": "alrededor",
+    "french": {
+      "deepl": "aux alentours",
+      "wiktionary_options": [
+        "entourage"
+      ]
+    }
+  },
+  {
+    "spanish": "pesar",
+    "english": {
+      "deepl": "despite",
+      "wiktionary_options": [
+        "to weigh"
+      ]
+    }
+  },
+  {
+    "spanish": "choque",
+    "english": {
+      "deepl": "collision",
+      "wiktionary_options": [
+        "plain-mantled tit-spinetail"
+      ]
+    }
+  },
+  {
+    "spanish": "tranquilo",
+    "french": {
+      "deepl": "serein",
+      "wiktionary_options": [
+        "tranquille"
+      ]
+    }
+  },
+  {
+    "spanish": "dominar",
+    "english": {
+      "deepl": "master",
+      "wiktionary_options": [
+        "dominate"
+      ]
+    },
+    "french": {
+      "deepl": "maîtriser",
+      "wiktionary_options": [
+        "dominer"
+      ]
+    }
+  },
+  {
+    "spanish": "comisaría",
+    "french": {
+      "deepl": "commissariat",
+      "wiktionary_options": [
+        "gendarmerie"
+      ]
+    }
+  },
+  {
+    "spanish": "gratinar",
+    "english": {
+      "deepl": "broil",
+      "wiktionary_options": [
+        "gratiné"
+      ]
+    }
+  },
+  {
+    "spanish": "reflexionar",
+    "english": {
+      "deepl": "to reflect",
+      "wiktionary_options": [
+        "riflettere"
+      ]
+    }
+  },
+  {
+    "spanish": "presumir",
+    "english": {
+      "deepl": "to brag",
+      "wiktionary_options": [
+        "presume"
+      ]
+    },
+    "french": {
+      "deepl": "se vanter",
+      "wiktionary_options": [
+        "présumer"
+      ]
+    }
+  },
+  {
+    "spanish": "pretensión",
+    "english": {
+      "deepl": "claim",
+      "wiktionary_options": [
+        "pretence",
+        "pretension",
+        "pretention"
+      ]
+    }
+  },
+  {
+    "spanish": "potencial",
+    "french": {
+      "deepl": "potentiel",
+      "wiktionary_options": [
+        "potential"
+      ]
+    }
+  },
+  {
+    "spanish": "entierro",
+    "english": {
+      "deepl": "funeral",
+      "wiktionary_options": [
+        "burial"
+      ]
+    }
+  },
+  {
+    "spanish": "bonanza",
+    "english": {
+      "deepl": "bonanza",
+      "wiktionary_options": [
+        "stillness"
+      ]
+    },
+    "french": {
+      "deepl": "période de prospérité",
+      "wiktionary_options": [
+        "bonace"
+      ]
+    }
+  },
+  {
+    "spanish": "respecto",
+    "english": {
+      "deepl": "regarding",
+      "wiktionary_options": [
+        "respect"
+      ]
+    }
+  },
+  {
+    "spanish": "destino",
+    "english": {
+      "deepl": "destination",
+      "wiktionary_options": [
+        "fate"
+      ]
+    }
+  },
+  {
+    "spanish": "debajo",
+    "english": {
+      "deepl": "below",
+      "wiktionary_options": [
+        "under"
+      ]
+    }
+  },
+  {
+    "spanish": "hermoso",
+    "french": {
+      "deepl": "magnifique",
+      "wiktionary_options": [
+        "beau"
+      ]
+    }
+  },
+  {
+    "spanish": "intentar",
+    "english": {
+      "deepl": "try",
+      "wiktionary_options": [
+        "attempt"
+      ]
+    }
+  },
+  {
+    "spanish": "provocar",
+    "english": {
+      "deepl": "to cause",
+      "wiktionary_options": [
+        "provoke"
+      ]
+    }
+  },
+  {
+    "spanish": "fijar",
+    "english": {
+      "deepl": "set",
+      "wiktionary_options": [
+        "fix"
+      ]
+    }
+  },
+  {
+    "spanish": "doblar",
+    "french": {
+      "deepl": "plier",
+      "wiktionary_options": [
+        "doubler"
+      ]
+    }
+  },
+  {
+    "spanish": "mezclar",
+    "french": {
+      "deepl": "mélanger",
+      "wiktionary_options": [
+        "mêler"
+      ]
+    }
+  },
+  {
+    "spanish": "mítico",
+    "english": {
+      "deepl": "legendary",
+      "wiktionary_options": [
+        "mythical"
+      ]
+    }
+  },
+  {
+    "spanish": "alegre",
+    "french": {
+      "deepl": "joyeux",
+      "wiktionary_options": [
+        "allègre"
+      ]
+    }
+  },
+  {
+    "spanish": "práctica",
+    "english": {
+      "deepl": "practical",
+      "wiktionary_options": [
+        "internship",
+        "practice"
+      ]
+    }
+  },
+  {
+    "spanish": "pololo",
+    "english": {
+      "deepl": "boyfriend",
+      "wiktionary_options": [
+        "knickerbockers",
+        "pantalettes",
+        "pantaloons"
+      ]
+    },
+    "french": {
+      "deepl": "petit ami",
+      "wiktionary_options": [
+        "caleçon"
+      ]
+    }
+  },
+  {
+    "spanish": "tejer",
+    "english": {
+      "deepl": "to knit",
+      "wiktionary_options": [
+        "weave"
+      ]
+    }
+  },
+  {
+    "spanish": "seguro",
+    "english": {
+      "deepl": "sure",
+      "wiktionary_options": [
+        "safe"
+      ]
+    }
+  },
+  {
+    "spanish": "cesar",
+    "english": {
+      "deepl": "to resign",
+      "wiktionary_options": [
+        "cease",
+        "quit",
+        "stop"
+      ]
+    }
+  },
+  {
+    "spanish": "pendiente",
+    "french": {
+      "deepl": "en attente",
+      "wiktionary_options": [
+        "dévers"
+      ]
+    }
+  },
+  {
+    "spanish": "cuidado",
+    "english": {
+      "deepl": "care",
+      "wiktionary_options": [
+        "attention",
+        "danger"
+      ]
+    }
+  },
+  {
+    "spanish": "sirviente",
+    "french": {
+      "deepl": "serviteur",
+      "wiktionary_options": [
+        "domestique",
+        "laquais",
+        "valet"
+      ]
+    }
+  },
+  {
+    "spanish": "novio",
+    "french": {
+      "deepl": "petit ami",
+      "wiktionary_options": [
+        "amie",
+        "blonde"
+      ]
+    }
+  },
+  {
+    "spanish": "pinta",
+    "french": {
+      "deepl": "peinture",
+      "wiktionary_options": [
+        "pinte"
+      ]
+    }
+  },
+  {
+    "spanish": "dudar",
+    "english": {
+      "deepl": "to hesitate",
+      "wiktionary_options": [
+        "doubt"
+      ]
+    },
+    "french": {
+      "deepl": "hésiter",
+      "wiktionary_options": [
+        "douter"
+      ]
+    }
+  },
+  {
+    "spanish": "solicitar",
+    "english": {
+      "deepl": "apply for",
+      "wiktionary_options": [
+        "request"
+      ]
+    }
+  },
+  {
+    "spanish": "fidelidad",
+    "english": {
+      "deepl": "loyalty",
+      "wiktionary_options": [
+        "fidelity"
+      ]
+    }
+  },
+  {
+    "spanish": "salida",
+    "english": {
+      "deepl": "departure",
+      "wiktionary_options": [
+        "exit",
+        "output"
+      ]
+    },
+    "french": {
+      "deepl": "départ",
+      "wiktionary_options": [
+        "sortie"
+      ]
+    }
+  },
+  {
+    "spanish": "festividad",
+    "english": {
+      "deepl": "holiday",
+      "wiktionary_options": [
+        "festivity"
+      ]
+    },
+    "french": {
+      "deepl": "fête",
+      "wiktionary_options": [
+        "festivité"
+      ]
+    }
+  },
+  {
+    "spanish": "derribar",
+    "french": {
+      "deepl": "abattre",
+      "wiktionary_options": [
+        "démolir",
+        "écrouler"
+      ]
+    }
+  },
+  {
+    "spanish": "olfato",
+    "english": {
+      "deepl": "sense of smell",
+      "wiktionary_options": [
+        "olfaction"
+      ]
+    }
+  },
+  {
+    "spanish": "armadillo",
+    "french": {
+      "deepl": "tatu",
+      "wiktionary_options": [
+        "tatou"
+      ]
+    }
+  },
+  {
+    "spanish": "petición",
+    "french": {
+      "deepl": "demande",
+      "wiktionary_options": [
+        "requête"
+      ]
+    }
+  },
+  {
+    "spanish": "irrupción",
+    "english": {
+      "deepl": "outbreak",
+      "wiktionary_options": [
+        "irruption"
+      ]
+    }
+  },
+  {
+    "spanish": "procedencia",
+    "english": {
+      "deepl": "origin",
+      "wiktionary_options": [
+        "source"
+      ]
+    }
+  },
+  {
+    "spanish": "confianza",
+    "english": {
+      "deepl": "trust",
+      "wiktionary_options": [
+        "confidence"
+      ]
+    }
+  },
+  {
+    "spanish": "manutención",
+    "english": {
+      "deepl": "child support",
+      "wiktionary_options": [
+        "maintenance",
+        "manutention"
+      ]
+    },
+    "french": {
+      "deepl": "pension alimentaire",
+      "wiktionary_options": [
+        "entretien",
+        "manutention"
+      ]
+    }
+  },
+  {
+    "spanish": "investigador",
+    "french": {
+      "deepl": "chercheur",
+      "wiktionary_options": [
+        "enquêteur",
+        "investigateur"
+      ]
+    }
+  },
+  {
+    "spanish": "comodidad",
+    "french": {
+      "deepl": "confort",
+      "wiktionary_options": [
+        "commodité"
+      ]
+    }
+  },
+  {
+    "spanish": "incómodo",
+    "french": {
+      "deepl": "gênant",
+      "wiktionary_options": [
+        "inconfortable"
+      ]
+    }
+  },
+  {
+    "spanish": "cercanía",
+    "english": {
+      "deepl": "closeness",
+      "wiktionary_options": [
+        "proximity"
+      ]
+    }
+  },
+  {
+    "spanish": "vanguardia",
+    "english": {
+      "deepl": "avant-garde",
+      "wiktionary_options": [
+        "vanguard"
+      ]
+    }
+  },
+  {
+    "spanish": "cualitativo",
+    "french": {
+      "deepl": "qualitatif",
+      "wiktionary_options": [
+        "qualitative"
+      ]
+    }
+  },
+  {
+    "spanish": "preocupación",
+    "english": {
+      "deepl": "concern",
+      "wiktionary_options": [
+        "worry"
+      ]
+    },
+    "french": {
+      "deepl": "préoccupation",
+      "wiktionary_options": [
+        "souci"
+      ]
+    }
+  },
+  {
+    "spanish": "truco",
+    "french": {
+      "deepl": "astuce",
+      "wiktionary_options": [
+        "truc"
+      ]
+    }
+  },
+  {
+    "spanish": "esquema",
+    "english": {
+      "deepl": "diagram",
+      "wiktionary_options": [
+        "outline",
+        "scheme"
+      ]
+    }
+  },
+  {
+    "spanish": "pertenencia",
+    "english": {
+      "deepl": "belonging",
+      "wiktionary_options": [
+        "ownership"
+      ]
+    }
+  },
+  {
+    "spanish": "adecuación",
+    "english": {
+      "deepl": "suitability",
+      "wiktionary_options": [
+        "adequacy"
+      ]
+    },
+    "french": {
+      "deepl": "adaptation",
+      "wiktionary_options": [
+        "adéquation"
+      ]
+    }
+  },
+  {
+    "spanish": "modalidad",
+    "english": {
+      "deepl": "format",
+      "wiktionary_options": [
+        "modality"
+      ]
+    }
+  },
+  {
+    "spanish": "anuncio",
+    "english": {
+      "deepl": "advertisement",
+      "wiktionary_options": [
+        "announcement"
+      ]
+    }
+  },
+  {
+    "spanish": "gemelo",
+    "english": {
+      "deepl": "calf",
+      "wiktionary_options": [
+        "twin"
+      ]
+    }
+  },
+  {
+    "spanish": "contestar",
+    "english": {
+      "deepl": "reply",
+      "wiktionary_options": [
+        "answer"
+      ]
+    }
+  },
+  {
+    "spanish": "bastante",
+    "english": {
+      "deepl": "quite",
+      "wiktionary_options": [
+        "enough"
+      ]
+    }
+  },
+  {
+    "spanish": "bastar",
+    "english": {
+      "deepl": "be enough",
+      "wiktionary_options": [
+        "suffice"
+      ]
+    }
+  },
+  {
+    "spanish": "aclarar",
+    "french": {
+      "deepl": "préciser",
+      "wiktionary_options": [
+        "clarifier"
+      ]
+    }
+  },
+  {
+    "spanish": "pionero",
+    "french": {
+      "deepl": "pionnier",
+      "wiktionary_options": [
+        "pionnière"
+      ]
+    }
+  },
+  {
+    "spanish": "suficiente",
+    "english": {
+      "deepl": "enough",
+      "wiktionary_options": [
+        "sufficient"
+      ]
+    }
+  },
+  {
+    "spanish": "adelante",
+    "english": {
+      "deepl": "go ahead",
+      "wiktionary_options": [
+        "come in",
+        "forward",
+        "keep"
+      ]
+    }
+  },
+  {
+    "spanish": "enamorar",
+    "english": {
+      "deepl": "to make someone fall in love",
+      "wiktionary_options": [
+        "enamor"
+      ]
+    },
+    "french": {
+      "deepl": "faire tomber amoureux",
+      "wiktionary_options": [
+        "enamourer"
+      ]
+    }
+  },
+  {
+    "spanish": "telefonear",
+    "english": {
+      "deepl": "to call",
+      "wiktionary_options": [
+        "telephone"
+      ]
+    }
+  },
+  {
+    "spanish": "derrota",
+    "french": {
+      "deepl": "défaite",
+      "wiktionary_options": [
+        "déroute"
+      ]
+    }
+  },
+  {
+    "spanish": "tutear",
+    "french": {
+      "deepl": "tuer",
+      "wiktionary_options": [
+        "tutoyer"
+      ]
+    }
+  },
+  {
+    "spanish": "escena",
+    "english": {
+      "deepl": "scene",
+      "wiktionary_options": [
+        "stage"
+      ]
+    }
+  },
+  {
+    "spanish": "temprano",
+    "french": {
+      "deepl": "tôt",
+      "wiktionary_options": [
+        "précoce"
+      ]
+    }
+  },
+  {
+    "spanish": "kilómetro",
+    "english": {
+      "deepl": "kilometer",
+      "wiktionary_options": [
+        "kilometre"
+      ]
+    }
+  },
+  {
+    "spanish": "merecer",
+    "english": {
+      "deepl": "to deserve",
+      "wiktionary_options": [
+        "merit"
+      ]
+    }
+  },
+  {
+    "spanish": "marcha",
+    "english": {
+      "deepl": "march",
+      "wiktionary_options": [
+        "gear"
+      ]
+    }
+  },
+  {
+    "spanish": "estupendo",
+    "english": {
+      "deepl": "great",
+      "wiktionary_options": [
+        "amazing"
+      ]
+    }
+  },
+  {
+    "spanish": "contento",
+    "french": {
+      "deepl": "heureux",
+      "wiktionary_options": [
+        "content",
+        "satisfait"
+      ]
+    }
+  },
+  {
+    "spanish": "rastro",
+    "english": {
+      "deepl": "trace",
+      "wiktionary_options": [
+        "rake",
+        "trail"
+      ]
+    }
+  },
+  {
+    "spanish": "carajillo",
+    "english": {
+      "deepl": "carajillo",
+      "wiktionary_options": [
+        "liqueur coffee"
+      ]
+    },
+    "french": {
+      "deepl": "carajillo",
+      "wiktionary_options": [
+        "café arrosé"
+      ]
+    }
+  },
+  {
+    "spanish": "sospechoso",
+    "french": {
+      "deepl": "suspect",
+      "wiktionary_options": [
+        "suspicieux"
+      ]
+    }
+  },
+  {
+    "spanish": "sospecha",
+    "french": {
+      "deepl": "soupçon",
+      "wiktionary_options": [
+        "suspicion"
+      ]
+    }
+  },
+  {
+    "spanish": "sosegar",
+    "french": {
+      "deepl": "apaiser",
+      "wiktionary_options": [
+        "calmer"
+      ]
+    }
+  },
+  {
+    "spanish": "cilantro",
+    "english": {
+      "deepl": "cilantro",
+      "wiktionary_options": [
+        "coriander"
+      ]
+    }
+  },
+  {
+    "spanish": "radicar",
+    "french": {
+      "deepl": "s'établir",
+      "wiktionary_options": [
+        "enraciner"
+      ]
+    }
+  },
+  {
+    "spanish": "orujo",
+    "english": {
+      "deepl": "pomace",
+      "wiktionary_options": [
+        "marc"
+      ]
+    }
+  },
+  {
+    "spanish": "registrar",
+    "french": {
+      "deepl": "enregistrer",
+      "wiktionary_options": [
+        "fouiller"
+      ]
+    }
+  },
+  {
+    "spanish": "decaer",
+    "english": {
+      "deepl": "to decline",
+      "wiktionary_options": [
+        "decay"
+      ]
+    },
+    "french": {
+      "deepl": "s'affaiblir",
+      "wiktionary_options": [
+        "déchoir"
+      ]
+    }
+  },
+  {
+    "spanish": "discoteca",
+    "french": {
+      "deepl": "boîte de nuit",
+      "wiktionary_options": [
+        "discothèque"
+      ]
+    }
+  },
+  {
+    "spanish": "requerir",
+    "french": {
+      "deepl": "exiger",
+      "wiktionary_options": [
+        "demander"
+      ]
+    }
+  },
+  {
+    "spanish": "plataforma",
+    "french": {
+      "deepl": "plateforme",
+      "wiktionary_options": [
+        "plate-forme"
+      ]
+    }
+  },
+  {
+    "spanish": "asequible",
+    "english": {
+      "deepl": "affordable",
+      "wiktionary_options": [
+        "attainable"
+      ]
+    },
+    "french": {
+      "deepl": "abordable",
+      "wiktionary_options": [
+        "accessible"
+      ]
+    }
+  },
+  {
+    "spanish": "declaración",
+    "english": {
+      "deepl": "statement",
+      "wiktionary_options": [
+        "declaration"
+      ]
+    }
+  },
+  {
+    "spanish": "continuación",
+    "english": {
+      "deepl": "continued",
+      "wiktionary_options": [
+        "continuation"
+      ]
+    },
+    "french": {
+      "deepl": "suite",
+      "wiktionary_options": [
+        "continuation"
+      ]
+    }
+  },
+  {
+    "spanish": "rienda",
+    "english": {
+      "deepl": "rental",
+      "wiktionary_options": [
+        "rein"
+      ]
+    },
+    "french": {
+      "deepl": "rienda",
+      "wiktionary_options": [
+        "rêne"
+      ]
+    }
+  },
+  {
+    "spanish": "dieta",
+    "french": {
+      "deepl": "régime alimentaire",
+      "wiktionary_options": [
+        "diète"
+      ]
+    }
+  },
+  {
+    "spanish": "delatar",
+    "english": {
+      "deepl": "to inform on",
+      "wiktionary_options": [
+        "denounce"
+      ]
+    }
+  },
+  {
+    "spanish": "predilección",
+    "english": {
+      "deepl": "preference",
+      "wiktionary_options": [
+        "predilection"
+      ]
+    }
+  },
+  {
+    "spanish": "acta",
+    "french": {
+      "deepl": "procès-verbal",
+      "wiktionary_options": [
+        "acte"
+      ]
+    }
+  },
+  {
+    "spanish": "asignación",
+    "english": {
+      "deepl": "allocation",
+      "wiktionary_options": [
+        "assignation"
+      ]
+    },
+    "french": {
+      "deepl": "affectation",
+      "wiktionary_options": [
+        "assignation"
+      ]
+    }
+  },
+  {
+    "spanish": "estatura",
+    "french": {
+      "deepl": "taille",
+      "wiktionary_options": [
+        "stature"
+      ]
+    }
+  },
+  {
+    "spanish": "tómbola",
+    "english": {
+      "deepl": "raffle",
+      "wiktionary_options": [
+        "tombola"
+      ]
+    }
+  },
+  {
+    "spanish": "fomentar",
+    "english": {
+      "deepl": "encourage",
+      "wiktionary_options": [
+        "foment"
+      ]
+    },
+    "french": {
+      "deepl": "encourager",
+      "wiktionary_options": [
+        "fomenter",
+        "promouvoir",
+        "stimuler"
+      ]
+    }
+  },
+  {
+    "spanish": "contorno",
+    "english": {
+      "deepl": "outline",
+      "wiktionary_options": [
+        "contour"
+      ]
+    }
+  },
+  {
+    "spanish": "vibrante",
+    "french": {
+      "deepl": "animé",
+      "wiktionary_options": [
+        "roulée",
+        "vibrant",
+        "vibrante"
+      ]
+    }
+  },
+  {
+    "spanish": "diferir",
+    "english": {
+      "deepl": "to postpone",
+      "wiktionary_options": [
+        "defer",
+        "differ"
+      ]
+    }
+  },
+  {
+    "spanish": "drama",
+    "french": {
+      "deepl": "drame",
+      "wiktionary_options": [
+        "drama"
+      ]
+    }
+  },
+  {
+    "spanish": "condena",
+    "english": {
+      "deepl": "condemnation",
+      "wiktionary_options": [
+        "punishment",
+        "sentence"
+      ]
+    }
+  },
+  {
+    "spanish": "agresión",
+    "english": {
+      "deepl": "assault",
+      "wiktionary_options": [
+        "aggression"
+      ]
+    }
+  },
+  {
+    "spanish": "perrito",
+    "english": {
+      "deepl": "puppy",
+      "wiktionary_options": [
+        "doggie",
+        "doggy"
+      ]
+    }
+  },
+  {
+    "spanish": "precipicio",
+    "english": {
+      "deepl": "cliff",
+      "wiktionary_options": [
+        "precipice"
+      ]
+    }
+  },
+  {
+    "spanish": "innovador",
+    "french": {
+      "deepl": "innovant",
+      "wiktionary_options": [
+        "innovateur",
+        "novateur"
+      ]
+    }
+  },
+  {
+    "spanish": "característica",
+    "english": {
+      "deepl": "feature",
+      "wiktionary_options": [
+        "characteristic"
+      ]
+    }
+  },
+  {
+    "spanish": "cartero",
+    "english": {
+      "deepl": "mail carrier",
+      "wiktionary_options": [
+        "postman"
+      ]
+    }
+  },
+  {
+    "spanish": "climático",
+    "english": {
+      "deepl": "climate-related",
+      "wiktionary_options": [
+        "climatic"
+      ]
+    }
+  },
+  {
+    "spanish": "redacción",
+    "english": {
+      "deepl": "editorial staff",
+      "wiktionary_options": [
+        "editing",
+        "editing room",
+        "editors"
+      ]
+    }
+  },
+  {
+    "spanish": "viajero",
+    "english": {
+      "deepl": "traveler",
+      "wiktionary_options": [
+        "traveller"
+      ]
+    }
+  },
+  {
+    "spanish": "denominar",
+    "english": {
+      "deepl": "to name",
+      "wiktionary_options": [
+        "denominate"
+      ]
+    },
+    "french": {
+      "deepl": "appeler",
+      "wiktionary_options": [
+        "désigner"
+      ]
+    }
+  },
+  {
+    "spanish": "prolongar",
+    "english": {
+      "deepl": "extend",
+      "wiktionary_options": [
+        "prolong"
+      ]
+    }
+  },
+  {
+    "spanish": "concreto",
+    "french": {
+      "deepl": "concrètement",
+      "wiktionary_options": [
+        "béton",
+        "concret"
+      ]
+    }
+  },
+  {
+    "spanish": "conflictivo",
+    "english": {
+      "deepl": "contentious",
+      "wiktionary_options": [
+        "conflictive"
+      ]
+    },
+    "french": {
+      "deepl": "conflituel",
+      "wiktionary_options": [
+        "conflictuel"
+      ]
+    }
+  },
+  {
+    "spanish": "sublevar",
+    "english": {
+      "deepl": "to raise slightly",
+      "wiktionary_options": [
+        "rise up"
+      ]
+    }
+  },
+  {
+    "spanish": "coordinador",
+    "french": {
+      "deepl": "coordinateur",
+      "wiktionary_options": [
+        "coordonnateur",
+        "coordonnatrice"
+      ]
+    }
+  },
+  {
+    "spanish": "compaginar",
+    "english": {
+      "deepl": "layout",
+      "wiktionary_options": [
+        "collate",
+        "combine",
+        "match"
+      ]
+    }
+  },
+  {
+    "spanish": "colorar",
+    "english": {
+      "deepl": "color",
+      "wiktionary_options": [
+        "colour",
+        "to"
+      ]
+    }
+  },
+  {
+    "spanish": "matrícula",
+    "english": {
+      "deepl": "license plate",
+      "wiktionary_options": [
+        "registration"
+      ]
+    },
+    "french": {
+      "deepl": "numéro d'immatriculation",
+      "wiktionary_options": [
+        "matricule"
+      ]
+    }
+  },
+  {
+    "spanish": "perjudicar",
+    "english": {
+      "deepl": "harm",
+      "wiktionary_options": [
+        "damage",
+        "prejudice"
+      ]
+    },
+    "french": {
+      "deepl": "porter préjudice",
+      "wiktionary_options": [
+        "nuire"
+      ]
+    }
+  },
+  {
+    "spanish": "beneficiar",
+    "french": {
+      "deepl": "profiter",
+      "wiktionary_options": [
+        "bénéficier"
+      ]
+    }
+  },
+  {
+    "spanish": "conversar",
+    "english": {
+      "deepl": "chat",
+      "wiktionary_options": [
+        "converse",
+        "talk"
+      ]
+    }
+  },
+  {
+    "spanish": "presionar",
+    "english": {
+      "deepl": "press",
+      "wiktionary_options": [
+        "push"
+      ]
+    }
+  },
+  {
+    "spanish": "inscribir",
+    "english": {
+      "deepl": "register",
+      "wiktionary_options": [
+        "inscribe"
+      ]
+    }
+  },
+  {
+    "spanish": "miseria",
+    "french": {
+      "deepl": "misère",
+      "wiktionary_options": [
+        "détresse"
+      ]
+    }
+  },
+  {
+    "spanish": "residir",
+    "english": {
+      "deepl": "to reside",
+      "wiktionary_options": [
+        "live"
+      ]
+    },
+    "french": {
+      "deepl": "résider",
+      "wiktionary_options": [
+        "demeurer"
+      ]
+    }
+  },
+  {
+    "spanish": "deportivo",
+    "english": {
+      "deepl": "sports",
+      "wiktionary_options": [
+        "sporting"
+      ]
+    }
+  },
+  {
+    "spanish": "pretender",
+    "french": {
+      "deepl": "prétendre",
+      "wiktionary_options": [
+        "faire semblant"
+      ]
+    }
+  },
+  {
+    "spanish": "emitir",
+    "english": {
+      "deepl": "broadcast",
+      "wiktionary_options": [
+        "emit"
+      ]
+    }
+  },
+  {
+    "spanish": "emocionar",
+    "english": {
+      "deepl": "to excite",
+      "wiktionary_options": [
+        "move"
+      ]
+    }
+  },
+  {
+    "spanish": "bocado",
+    "french": {
+      "deepl": "bouchée",
+      "wiktionary_options": [
+        "morceau"
+      ]
+    }
+  },
+  {
+    "spanish": "sustituir",
+    "english": {
+      "deepl": "replace",
+      "wiktionary_options": [
+        "substitute"
+      ]
+    },
+    "french": {
+      "deepl": "remplacer",
+      "wiktionary_options": [
+        "substituer"
+      ]
+    }
+  },
+  {
+    "spanish": "ecológico",
+    "english": {
+      "deepl": "eco-friendly",
+      "wiktionary_options": [
+        "ecologic",
+        "ecological"
+      ]
+    }
+  },
+  {
+    "spanish": "inmigrante",
+    "french": {
+      "deepl": "immigré",
+      "wiktionary_options": [
+        "immigrant",
+        "immigrante"
+      ]
+    }
+  },
+  {
+    "spanish": "emigrante",
+    "english": {
+      "deepl": "immigrant",
+      "wiktionary_options": [
+        "emigrant"
+      ]
+    }
+  },
+  {
+    "spanish": "reivindicar",
+    "english": {
+      "deepl": "to claim",
+      "wiktionary_options": [
+        "vindicate"
+      ]
+    }
+  },
+  {
+    "spanish": "fisonomía",
+    "english": {
+      "deepl": "appearance",
+      "wiktionary_options": [
+        "physiognomy"
+      ]
+    },
+    "french": {
+      "deepl": "physionomie",
+      "wiktionary_options": [
+        "physiognomonie"
+      ]
+    }
+  },
+  {
+    "spanish": "estallar",
+    "french": {
+      "deepl": "exploser",
+      "wiktionary_options": [
+        "crever",
+        "éclater"
+      ]
+    }
+  },
+  {
+    "spanish": "dorar",
+    "english": {
+      "deepl": "to brown",
+      "wiktionary_options": [
+        "gild"
+      ]
+    }
+  },
+  {
+    "spanish": "fabricante",
+    "english": {
+      "deepl": "manufacturer",
+      "wiktionary_options": [
+        "producer"
+      ]
+    }
+  },
+  {
+    "spanish": "corroborar",
+    "english": {
+      "deepl": "verify",
+      "wiktionary_options": [
+        "check"
+      ]
+    }
+  },
+  {
+    "spanish": "instante",
+    "english": {
+      "deepl": "moment",
+      "wiktionary_options": [
+        "instant"
+      ]
+    }
+  },
+  {
+    "spanish": "hidratante",
+    "english": {
+      "deepl": "moisturizer",
+      "wiktionary_options": [
+        "moisturizing"
+      ]
+    }
+  },
+  {
+    "spanish": "empatar",
+    "english": {
+      "deepl": "tie",
+      "wiktionary_options": [
+        "draw"
+      ]
+    },
+    "french": {
+      "deepl": "faire match nul",
+      "wiktionary_options": [
+        "égaliser"
+      ]
+    }
+  },
+  {
+    "spanish": "acogedor",
+    "english": {
+      "deepl": "cozy",
+      "wiktionary_options": [
+        "warm",
+        "welcoming"
+      ]
+    }
+  },
+  {
+    "spanish": "tostada",
+    "french": {
+      "deepl": "grillé",
+      "wiktionary_options": [
+        "tartine"
+      ]
+    }
+  },
+  {
+    "spanish": "ascender",
+    "english": {
+      "deepl": "to be promoted",
+      "wiktionary_options": [
+        "rise"
+      ]
+    },
+    "french": {
+      "deepl": "promouvoir",
+      "wiktionary_options": [
+        "monter"
+      ]
+    }
+  },
+  {
+    "spanish": "extrovertido",
+    "english": {
+      "deepl": "outgoing",
+      "wiktionary_options": [
+        "extrovert",
+        "extroverted"
+      ]
+    }
+  },
+  {
+    "spanish": "deportista",
+    "english": {
+      "deepl": "athlete",
+      "wiktionary_options": [
+        "sportsman",
+        "sportswoman"
+      ]
+    }
+  },
+  {
+    "spanish": "ingresar",
+    "english": {
+      "deepl": "log in",
+      "wiktionary_options": [
+        "commit",
+        "deposit",
+        "enter",
+        "join",
+        "put"
+      ]
+    }
+  },
+  {
+    "spanish": "gerente",
+    "french": {
+      "deepl": "directeur",
+      "wiktionary_options": [
+        "gérant",
+        "gérante"
+      ]
+    }
+  },
+  {
+    "spanish": "riguroso",
+    "english": {
+      "deepl": "rigorous",
+      "wiktionary_options": [
+        "rigurous"
+      ]
+    }
+  },
+  {
+    "spanish": "heredero",
+    "english": {
+      "deepl": "heir",
+      "wiktionary_options": [
+        "inheritor"
+      ]
+    }
+  },
+  {
+    "spanish": "salario",
+    "english": {
+      "deepl": "salary",
+      "wiktionary_options": [
+        "wage"
+      ]
+    }
+  },
+  {
+    "spanish": "habitual",
+    "english": {
+      "deepl": "usual",
+      "wiktionary_options": [
+        "habitual"
+      ]
+    }
+  },
+  {
+    "spanish": "muelle",
+    "english": {
+      "deepl": "spring",
+      "wiktionary_options": [
+        "dock"
+      ]
+    }
+  },
+  {
+    "spanish": "conveniente",
+    "english": {
+      "deepl": "appropriate",
+      "wiktionary_options": [
+        "convenient"
+      ]
+    }
+  },
+  {
+    "spanish": "benigno",
+    "english": {
+      "deepl": "benign",
+      "wiktionary_options": [
+        "gentle"
+      ]
+    }
+  },
+  {
+    "spanish": "resistente",
+    "english": {
+      "deepl": "durable",
+      "wiktionary_options": [
+        "resistant"
+      ]
+    }
+  },
+  {
+    "spanish": "previo",
+    "french": {
+      "deepl": "préalable",
+      "wiktionary_options": [
+        "d’avant",
+        "précédent"
+      ]
+    }
+  },
+  {
+    "spanish": "frustrar",
+    "english": {
+      "deepl": "thwart",
+      "wiktionary_options": [
+        "frustrate"
+      ]
+    }
+  },
+  {
+    "spanish": "impensable",
+    "french": {
+      "deepl": "inconcevable",
+      "wiktionary_options": [
+        "impensable"
+      ]
+    }
+  },
+  {
+    "spanish": "pensante",
+    "english": {
+      "deepl": "thinker",
+      "wiktionary_options": [
+        "thinking"
+      ]
+    }
+  },
+  {
+    "spanish": "manchar",
+    "english": {
+      "deepl": "to stain",
+      "wiktionary_options": [
+        "get dirty"
+      ]
+    }
+  },
+  {
+    "spanish": "ensuciar",
+    "english": {
+      "deepl": "to make a mess",
+      "wiktionary_options": [
+        "dirty"
+      ]
+    }
+  },
+  {
+    "spanish": "plasmar",
+    "english": {
+      "deepl": "to capture",
+      "wiktionary_options": [
+        "shape"
+      ]
+    },
+    "french": {
+      "deepl": "représenter",
+      "wiktionary_options": [
+        "modeler"
+      ]
+    }
+  },
+  {
+    "spanish": "diluvio",
+    "english": {
+      "deepl": "flood",
+      "wiktionary_options": [
+        "deluge"
+      ]
+    }
+  },
+  {
+    "spanish": "calvario",
+    "english": {
+      "deepl": "ordeal",
+      "wiktionary_options": [
+        "calvarium"
+      ]
+    }
+  },
+  {
+    "spanish": "fotografiar",
+    "english": {
+      "deepl": "to take a picture",
+      "wiktionary_options": [
+        "take a photo",
+        "take photos"
+      ]
+    }
+  },
+  {
+    "spanish": "vengar",
+    "english": {
+      "deepl": "to avenge",
+      "wiktionary_options": [
+        "revenge"
+      ]
+    }
+  },
+  {
+    "spanish": "manifestar",
+    "english": {
+      "deepl": "to express",
+      "wiktionary_options": [
+        "manifest"
+      ]
+    },
+    "french": {
+      "deepl": "exprimer",
+      "wiktionary_options": [
+        "manifester"
+      ]
+    }
+  },
+  {
+    "spanish": "defraudar",
+    "english": {
+      "deepl": "to defraud",
+      "wiktionary_options": [
+        "to cheat",
+        "to disappoint",
+        "to evade one's taxes"
+      ]
+    }
+  },
+  {
+    "spanish": "cuota",
+    "english": {
+      "deepl": "installment",
+      "wiktionary_options": [
+        "cuota",
+        "fee",
+        "tax charge",
+        "tax liability"
+      ]
+    }
+  },
+  {
+    "spanish": "edificación",
+    "french": {
+      "deepl": "bâtiment",
+      "wiktionary_options": [
+        "édification"
+      ]
+    }
+  },
+  {
+    "spanish": "balsero",
+    "english": {
+      "deepl": "raft survivor",
+      "wiktionary_options": [
+        "balsero",
+        "boatman"
+      ]
+    }
+  },
+  {
+    "spanish": "contagiar",
+    "french": {
+      "deepl": "contaminer",
+      "wiktionary_options": [
+        "contagionner",
+        "transmettre"
+      ]
+    }
+  },
+  {
+    "spanish": "librar",
+    "english": {
+      "deepl": "to deliver",
+      "wiktionary_options": [
+        "rescue",
+        "save"
+      ]
+    }
+  },
+  {
+    "spanish": "respectar",
+    "english": {
+      "deepl": "respect",
+      "wiktionary_options": [
+        "relate"
+      ]
+    },
+    "french": {
+      "deepl": "respecter",
+      "wiktionary_options": [
+        "concerner",
+        "regarder"
+      ]
+    }
+  },
+  {
+    "spanish": "enunciado",
+    "english": {
+      "deepl": "statement",
+      "wiktionary_options": [
+        "enunciation",
+        "proposition",
+        "utterance"
+      ]
+    }
+  },
+  {
+    "spanish": "trayecto",
+    "english": {
+      "deepl": "route",
+      "wiktionary_options": [
+        "journey"
+      ]
+    },
+    "french": {
+      "deepl": "parcours",
+      "wiktionary_options": [
+        "trajet"
+      ]
+    }
+  },
+  {
+    "spanish": "tornar",
+    "english": {
+      "deepl": "to turn",
+      "wiktionary_options": [
+        "come back",
+        "go back"
+      ]
+    }
+  },
+  {
+    "spanish": "puré",
+    "english": {
+      "deepl": "mashed potatoes",
+      "wiktionary_options": [
+        "cream"
+      ]
+    }
+  },
+  {
+    "spanish": "aromático",
+    "french": {
+      "deepl": "aromatique",
+      "wiktionary_options": [
+        "aromatic"
+      ]
+    }
+  },
+  {
+    "spanish": "valorar",
+    "english": {
+      "deepl": "evaluate",
+      "wiktionary_options": [
+        "appraise",
+        "value"
+      ]
+    }
+  },
+  {
+    "spanish": "valioso",
+    "french": {
+      "deepl": "précieux",
+      "wiktionary_options": [
+        "valable"
+      ]
+    }
+  },
+  {
+    "spanish": "avance",
+    "english": {
+      "deepl": "preview",
+      "wiktionary_options": [
+        "trailer"
+      ]
+    },
+    "french": {
+      "deepl": "aperçu",
+      "wiktionary_options": [
+        "bande-annonce"
+      ]
+    }
+  },
+  {
+    "spanish": "portal",
+    "english": {
+      "deepl": "portal",
+      "wiktionary_options": [
+        "entrance hall",
+        "gate",
+        "hallway",
+        "manger",
+        "stable",
+        "vestibule"
+      ]
+    }
+  },
+  {
+    "spanish": "cinematográfico",
+    "english": {
+      "deepl": "cinematic",
+      "wiktionary_options": [
+        "cinematographic"
+      ]
+    }
+  },
+  {
+    "spanish": "mármol",
+    "english": {
+      "deepl": "marble",
+      "wiktionary_options": [
+        "marbre"
+      ]
+    },
+    "french": {
+      "deepl": "marbre",
+      "wiktionary_options": [
+        "marble"
+      ]
+    }
+  },
+  {
+    "spanish": "desviar",
+    "english": {
+      "deepl": "divert",
+      "wiktionary_options": [
+        "deviate"
+      ]
+    }
+  },
+  {
+    "spanish": "denunciar",
+    "french": {
+      "deepl": "dénoncer",
+      "wiktionary_options": [
+        "livrer"
+      ]
+    }
+  },
+  {
+    "spanish": "denuncia",
+    "english": {
+      "deepl": "complaint",
+      "wiktionary_options": [
+        "denouncement"
+      ]
+    }
+  },
+  {
+    "spanish": "inseguro",
+    "english": {
+      "deepl": "unsafe",
+      "wiktionary_options": [
+        "insecure",
+        "unsure"
+      ]
+    }
+  },
+  {
+    "spanish": "gratificante",
+    "english": {
+      "deepl": "rewarding",
+      "wiktionary_options": [
+        "gratifying"
+      ]
+    },
+    "french": {
+      "deepl": "enrichissant",
+      "wiktionary_options": [
+        "gratifiant"
+      ]
+    }
+  },
+  {
+    "spanish": "plácido",
+    "english": {
+      "deepl": "peaceful",
+      "wiktionary_options": [
+        "placid"
+      ]
+    },
+    "french": {
+      "deepl": "serein",
+      "wiktionary_options": [
+        "placide"
+      ]
+    }
+  },
+  {
+    "spanish": "placidez",
+    "english": {
+      "deepl": "calmness",
+      "wiktionary_options": [
+        "placidity",
+        "placidness"
+      ]
+    }
+  },
+  {
+    "spanish": "brindar",
+    "french": {
+      "deepl": "offrir",
+      "wiktionary_options": [
+        "trinquer"
+      ]
+    }
+  },
+  {
+    "spanish": "marcador",
+    "english": {
+      "deepl": "bookmark",
+      "wiktionary_options": [
+        "marker"
+      ]
+    }
+  },
+  {
+    "spanish": "exhibir",
+    "english": {
+      "deepl": "display",
+      "wiktionary_options": [
+        "exhibit",
+        "show"
+      ]
+    },
+    "french": {
+      "deepl": "exposer",
+      "wiktionary_options": [
+        "exhiber",
+        "montrer"
+      ]
+    }
+  },
+  {
+    "spanish": "ají",
+    "english": {
+      "deepl": "chili pepper",
+      "wiktionary_options": [
+        "chilli"
+      ]
+    }
+  },
+  {
+    "spanish": "maltratar",
+    "english": {
+      "deepl": "abuse",
+      "wiktionary_options": [
+        "mistreat"
+      ]
+    }
+  },
+  {
+    "spanish": "urbanización",
+    "english": {
+      "deepl": "urban development",
+      "wiktionary_options": [
+        "condominium",
+        "urbanisation",
+        "urbanization"
+      ]
+    }
+  },
+  {
+    "spanish": "todoterreno",
+    "english": {
+      "deepl": "all-terrain",
+      "wiktionary_options": [
+        "off-road vehicle"
+      ]
+    }
+  },
+  {
+    "spanish": "huy",
+    "french": {
+      "deepl": "oh là là",
+      "wiktionary_options": [
+        "ouille"
+      ]
+    }
+  },
+  {
+    "spanish": "desempeñar",
+    "english": {
+      "deepl": "to perform",
+      "wiktionary_options": [
+        "work"
+      ]
+    },
+    "french": {
+      "deepl": "jouer",
+      "wiktionary_options": [
+        "exercer",
+        "travailler"
+      ]
+    }
+  },
+  {
+    "spanish": "manejo",
+    "english": {
+      "deepl": "handling",
+      "wiktionary_options": [
+        "use"
+      ]
+    },
+    "french": {
+      "deepl": "conduite",
+      "wiktionary_options": [
+        "maniement"
+      ]
+    }
+  },
+  {
+    "spanish": "desenterrar",
+    "english": {
+      "deepl": "to dig up",
+      "wiktionary_options": [
+        "unbury"
+      ]
+    }
+  },
+  {
+    "spanish": "correveidile",
+    "english": {
+      "deepl": "gossipmonger",
+      "wiktionary_options": [
+        "telltale"
+      ]
+    }
+  },
+  {
+    "spanish": "carroza",
+    "english": {
+      "deepl": "hearse",
+      "wiktionary_options": [
+        "carriage"
+      ]
+    }
+  },
+  {
+    "spanish": "desbordar",
+    "french": {
+      "deepl": "débordant",
+      "wiktionary_options": [
+        "déborder"
+      ]
+    }
+  },
+  {
+    "spanish": "chalé",
+    "english": {
+      "deepl": "chalet",
+      "wiktionary_options": [
+        "cottage"
+      ]
+    }
+  },
+  {
+    "spanish": "jubilar",
+    "french": {
+      "deepl": "jubilaire",
+      "wiktionary_options": [
+        "prendre sa retraite"
+      ]
+    }
+  },
+  {
+    "spanish": "desplazar",
+    "english": {
+      "deepl": "move",
+      "wiktionary_options": [
+        "displace"
+      ]
+    }
+  },
+  {
+    "spanish": "originar",
+    "english": {
+      "deepl": "to cause",
+      "wiktionary_options": [
+        "originate"
+      ]
+    }
+  },
+  {
+    "spanish": "otorgar",
+    "french": {
+      "deepl": "accorder",
+      "wiktionary_options": [
+        "octroyer"
+      ]
+    }
+  },
+  {
+    "spanish": "conceder",
+    "french": {
+      "deepl": "accorder",
+      "wiktionary_options": [
+        "concéder"
+      ]
+    }
+  },
+  {
+    "spanish": "trasladar",
+    "french": {
+      "deepl": "transférer",
+      "wiktionary_options": [
+        "déplacer"
+      ]
+    }
+  },
+  {
+    "spanish": "miar",
+    "french": {
+      "deepl": "pisser",
+      "wiktionary_options": [
+        "miauler"
+      ]
+    }
+  },
+  {
+    "spanish": "solucionar",
+    "french": {
+      "deepl": "résoudre",
+      "wiktionary_options": [
+        "solutionner"
+      ]
+    }
+  },
+  {
+    "spanish": "mentar",
+    "french": {
+      "deepl": "menter",
+      "wiktionary_options": [
+        "mentionner"
+      ]
+    }
+  },
+  {
+    "spanish": "enloquecer",
+    "english": {
+      "deepl": "go crazy",
+      "wiktionary_options": [
+        "derange"
+      ]
+    }
+  },
+  {
+    "spanish": "acusación",
+    "english": {
+      "deepl": "charge",
+      "wiktionary_options": [
+        "accusation"
+      ]
+    }
+  },
+  {
+    "spanish": "evaporar",
+    "english": {
+      "deepl": "evaporate",
+      "wiktionary_options": [
+        "vanish"
+      ]
+    }
+  },
+  {
+    "spanish": "alucinar",
+    "english": {
+      "deepl": "to be blown away",
+      "wiktionary_options": [
+        "hallucinate"
+      ]
+    }
+  },
+  {
+    "spanish": "escurrir",
+    "french": {
+      "deepl": "égoutter",
+      "wiktionary_options": [
+        "drainer"
+      ]
+    }
+  },
+  {
+    "spanish": "brevedad",
+    "english": {
+      "deepl": "briefness",
+      "wiktionary_options": [
+        "brevity",
+        "shortness"
+      ]
+    }
+  },
+  {
+    "spanish": "escarbar",
+    "french": {
+      "deepl": "creuser",
+      "wiktionary_options": [
+        "fouir",
+        "gratter"
+      ]
+    }
+  },
+  {
+    "spanish": "alinear",
+    "english": {
+      "deepl": "align",
+      "wiktionary_options": [
+        "line",
+        "line up"
+      ]
+    }
+  },
+  {
+    "spanish": "pizarra",
+    "english": {
+      "deepl": "blackboard",
+      "wiktionary_options": [
+        "chalkboard",
+        "shale",
+        "slate"
+      ]
+    },
+    "french": {
+      "deepl": "tableau noir",
+      "wiktionary_options": [
+        "ardoise"
+      ]
+    }
+  },
+  {
+    "spanish": "madrastra",
+    "french": {
+      "deepl": "mère stepère",
+      "wiktionary_options": [
+        "belle-mère"
+      ]
+    }
+  },
+  {
+    "spanish": "formativo",
+    "english": {
+      "deepl": "educational",
+      "wiktionary_options": [
+        "formative"
+      ]
+    }
+  },
+  {
+    "spanish": "gestar",
+    "english": {
+      "deepl": "to carry a child",
+      "wiktionary_options": [
+        "gestate"
+      ]
+    }
+  },
+  {
+    "spanish": "privilegiar",
+    "english": {
+      "deepl": "give priority to",
+      "wiktionary_options": [
+        "privilege"
+      ]
+    }
+  },
+  {
+    "spanish": "matemático",
+    "english": {
+      "deepl": "mathematician",
+      "wiktionary_options": [
+        "mathematical"
+      ]
+    }
+  },
+  {
+    "spanish": "insinuar",
+    "french": {
+      "deepl": "laisser entendre",
+      "wiktionary_options": [
+        "insinuer"
+      ]
+    }
+  },
+  {
+    "spanish": "activista",
+    "french": {
+      "deepl": "militant",
+      "wiktionary_options": [
+        "activiste"
+      ]
+    }
+  },
+  {
+    "spanish": "acompañamiento",
+    "english": {
+      "deepl": "support",
+      "wiktionary_options": [
+        "accompaniment",
+        "side dish"
+      ]
+    }
+  },
+  {
+    "spanish": "estrellar",
+    "english": {
+      "deepl": "to crash",
+      "wiktionary_options": [
+        "smash"
+      ]
+    }
+  },
+  {
+    "spanish": "maquinaria",
+    "french": {
+      "deepl": "machines",
+      "wiktionary_options": [
+        "machinerie"
+      ]
+    }
+  },
+  {
+    "spanish": "madero",
+    "french": {
+      "deepl": "bois",
+      "wiktionary_options": [
+        "cogne",
+        "flic",
+        "lardu",
+        "perdreau",
+        "poulet"
+      ]
+    }
+  },
+  {
+    "spanish": "expatriar",
+    "english": {
+      "deepl": "to send abroad",
+      "wiktionary_options": [
+        "expatriate"
+      ]
+    },
+    "french": {
+      "deepl": "expatrié",
+      "wiktionary_options": [
+        "expatrier"
+      ]
+    }
+  },
+  {
+    "spanish": "garantizar",
+    "english": {
+      "deepl": "ensure",
+      "wiktionary_options": [
+        "guarantee",
+        "warrant"
+      ]
+    }
+  },
+  {
+    "spanish": "rambla",
+    "french": {
+      "deepl": "rambla",
+      "wiktionary_options": [
+        "promenade",
+        "torrent"
+      ]
+    }
+  },
+  {
+    "spanish": "perturbar",
+    "english": {
+      "deepl": "to disturb",
+      "wiktionary_options": [
+        "perturb"
+      ]
+    }
+  },
+  {
+    "spanish": "murmurar",
+    "french": {
+      "deepl": "marmonner",
+      "wiktionary_options": [
+        "murmurer"
+      ]
+    }
+  },
+  {
+    "spanish": "susurrar",
+    "french": {
+      "deepl": "murmurer",
+      "wiktionary_options": [
+        "susurrer"
+      ]
+    }
+  },
+  {
+    "spanish": "remitir",
+    "french": {
+      "deepl": "transmettre",
+      "wiktionary_options": [
+        "envoyer/délivrer/remettre",
+        "remettre",
+        "renvoyer",
+        "reporter/remettre/suspendre"
+      ]
+    }
+  },
+  {
+    "spanish": "excursión",
+    "english": {
+      "deepl": "field trip",
+      "wiktionary_options": [
+        "excursion"
+      ]
+    }
+  },
+  {
+    "spanish": "adicción",
+    "french": {
+      "deepl": "dépendance",
+      "wiktionary_options": [
+        "addiction"
+      ]
+    }
+  },
+  {
+    "spanish": "movilizar",
+    "french": {
+      "deepl": "mobiliser",
+      "wiktionary_options": [
+        "activer"
+      ]
+    }
+  },
+  {
+    "spanish": "cursar",
+    "english": {
+      "deepl": "to pursue",
+      "wiktionary_options": [
+        "attend"
+      ]
+    }
+  },
+  {
+    "spanish": "cotidiano",
+    "english": {
+      "deepl": "daily",
+      "wiktionary_options": [
+        "quotidian"
+      ]
+    }
+  },
+  {
+    "spanish": "contratar",
+    "french": {
+      "deepl": "engager",
+      "wiktionary_options": [
+        "employer",
+        "recruter"
+      ]
+    }
+  },
+  {
+    "spanish": "camiseta",
+    "french": {
+      "deepl": "t-shirt",
+      "wiktionary_options": [
+        "tee-shirt"
+      ]
+    }
+  },
+  {
+    "spanish": "indemnización",
+    "english": {
+      "deepl": "compensation",
+      "wiktionary_options": [
+        "indemnification",
+        "indemnity"
+      ]
+    }
+  },
+  {
+    "spanish": "capacitar",
+    "french": {
+      "deepl": "former",
+      "wiktionary_options": [
+        "habiliter"
+      ]
+    }
+  },
+  {
+    "spanish": "degustar",
+    "french": {
+      "deepl": "déguster",
+      "wiktionary_options": [
+        "goûter"
+      ]
+    }
+  },
+  {
+    "spanish": "estafar",
+    "english": {
+      "deepl": "to swindle",
+      "wiktionary_options": [
+        "scam"
+      ]
+    }
+  },
+  {
+    "spanish": "flexionar",
+    "english": {
+      "deepl": "to flex",
+      "wiktionary_options": [
+        "inflect"
+      ]
+    }
+  },
+  {
+    "spanish": "idear",
+    "english": {
+      "deepl": "come up with",
+      "wiktionary_options": [
+        "devise"
+      ]
+    }
+  },
+  {
+    "spanish": "maquillar",
+    "english": {
+      "deepl": "apply makeup",
+      "wiktionary_options": [
+        "make up"
+      ]
+    }
+  },
+  {
+    "spanish": "pulsar",
+    "french": {
+      "deepl": "appuyer sur",
+      "wiktionary_options": [
+        "palpiter",
+        "pulser"
+      ]
+    }
+  },
+  {
+    "spanish": "recaudar",
+    "french": {
+      "deepl": "percevoir",
+      "wiktionary_options": [
+        "collecter"
+      ]
+    }
+  },
+  {
+    "spanish": "resaltar",
+    "french": {
+      "deepl": "mettre en évidence",
+      "wiktionary_options": [
+        "souligner"
+      ]
+    }
+  },
+  {
+    "spanish": "rondar",
+    "english": {
+      "deepl": "to hover around",
+      "wiktionary_options": [
+        "patrol"
+      ]
+    },
+    "french": {
+      "deepl": "tourner autour de",
+      "wiktionary_options": [
+        "ronde"
+      ]
+    }
+  },
+  {
+    "spanish": "jerarquizar",
+    "english": {
+      "deepl": "prioritize",
+      "wiktionary_options": [
+        "to arrange hierarchically"
+      ]
+    }
+  },
+  {
+    "spanish": "remendar",
+    "french": {
+      "deepl": "réparer",
+      "wiktionary_options": [
+        "raccommoder",
+        "rapiécer"
+      ]
+    }
+  },
+  {
+    "spanish": "emprender",
+    "english": {
+      "deepl": "to start a business",
+      "wiktionary_options": [
+        "undertake"
+      ]
+    },
+    "french": {
+      "deepl": "se lancer",
+      "wiktionary_options": [
+        "entreprendre"
+      ]
+    }
+  },
+  {
+    "spanish": "consolar",
+    "english": {
+      "deepl": "to comfort",
+      "wiktionary_options": [
+        "console"
+      ]
+    },
+    "french": {
+      "deepl": "réconforter",
+      "wiktionary_options": [
+        "consoler"
+      ]
+    }
+  },
+  {
+    "spanish": "descontar",
+    "french": {
+      "deepl": "déduire",
+      "wiktionary_options": [
+        "escompter"
+      ]
+    }
+  },
+  {
+    "spanish": "navaja",
+    "english": {
+      "deepl": "pocket knife",
+      "wiktionary_options": [
+        "razor"
+      ]
+    }
+  },
+  {
+    "spanish": "rosal",
+    "english": {
+      "deepl": "rose bush",
+      "wiktionary_options": [
+        "rosebush"
+      ]
+    }
+  },
+  {
+    "spanish": "telón",
+    "english": {
+      "deepl": "curtain",
+      "wiktionary_options": [
+        "courtain"
+      ]
+    }
+  },
+  {
+    "spanish": "adquisitivo",
+    "french": {
+      "deepl": "avide d'achats",
+      "wiktionary_options": [
+        "acquisitif"
+      ]
+    }
+  },
+  {
+    "spanish": "maquillaje",
+    "english": {
+      "deepl": "makeup",
+      "wiktionary_options": [
+        "make-up"
+      ]
+    }
+  },
+  {
+    "spanish": "lateral",
+    "english": {
+      "deepl": "side",
+      "wiktionary_options": [
+        "lateral"
+      ]
+    }
+  },
+  {
+    "spanish": "sor",
+    "english": {
+      "deepl": "sor",
+      "wiktionary_options": [
+        "sister"
+      ]
+    },
+    "french": {
+      "deepl": "sor",
+      "wiktionary_options": [
+        "sœur"
+      ]
+    }
+  },
+  {
+    "spanish": "horario",
+    "english": {
+      "deepl": "schedule",
+      "wiktionary_options": [
+        "timetable"
+      ]
+    }
+  },
+  {
+    "spanish": "reja",
+    "english": {
+      "deepl": "grate",
+      "wiktionary_options": [
+        "share"
+      ]
+    },
+    "french": {
+      "deepl": "grille",
+      "wiktionary_options": [
+        "soc"
+      ]
+    }
+  },
+  {
+    "spanish": "antipático",
+    "english": {
+      "deepl": "unfriendly",
+      "wiktionary_options": [
+        "displeasing"
+      ]
+    }
+  },
+  {
+    "spanish": "dicha",
+    "french": {
+      "deepl": "ladite",
+      "wiktionary_options": [
+        "bonheur"
+      ]
+    }
+  },
+  {
+    "spanish": "colonizador",
+    "english": {
+      "deepl": "colonizer",
+      "wiktionary_options": [
+        "colonising/colonist"
+      ]
+    }
+  },
+  {
+    "spanish": "llavero",
+    "english": {
+      "deepl": "keychain",
+      "wiktionary_options": [
+        "key-ring",
+        "keyholder",
+        "keykeeper",
+        "keyring"
+      ]
+    }
+  },
+  {
+    "spanish": "ahuehuete",
+    "english": {
+      "deepl": "ahuehuete",
+      "wiktionary_options": [
+        "montezuma cypress"
+      ]
+    },
+    "french": {
+      "deepl": "ahuehuete",
+      "wiktionary_options": [
+        "cyprès de marais mexicain"
+      ]
+    }
+  },
+  {
+    "spanish": "prehispánico",
+    "english": {
+      "deepl": "pre-Hispanic",
+      "wiktionary_options": [
+        "prehispanic"
+      ]
+    }
+  },
+  {
+    "spanish": "blusa",
+    "french": {
+      "deepl": "chemisier",
+      "wiktionary_options": [
+        "blouse"
+      ]
+    }
+  },
+  {
+    "spanish": "currículo",
+    "english": {
+      "deepl": "resume",
+      "wiktionary_options": [
+        "curriculum vitae",
+        "resumé"
+      ]
+    },
+    "french": {
+      "deepl": "CV",
+      "wiktionary_options": [
+        "curriculum vitae",
+        "curriculum vitæ"
+      ]
+    }
+  },
+  {
+    "spanish": "denominación",
+    "english": {
+      "deepl": "name",
+      "wiktionary_options": [
+        "denomination"
+      ]
+    }
+  },
+  {
+    "spanish": "escolaridad",
+    "french": {
+      "deepl": "scolarité",
+      "wiktionary_options": [
+        "scolarisation"
+      ]
+    }
+  },
+  {
+    "spanish": "simpático",
+    "english": {
+      "deepl": "friendly",
+      "wiktionary_options": [
+        "likeable",
+        "nice",
+        "simpatico"
+      ]
+    }
+  },
+  {
+    "spanish": "cordial",
+    "french": {
+      "deepl": "cordial",
+      "wiktionary_options": [
+        "digestif"
+      ]
+    }
+  },
+  {
+    "spanish": "entrañable",
+    "english": {
+      "deepl": "endearing",
+      "wiktionary_options": [
+        "charming",
+        "deep",
+        "intimate"
+      ]
+    }
+  },
+  {
+    "spanish": "primordial",
+    "english": {
+      "deepl": "essential",
+      "wiktionary_options": [
+        "primordial"
+      ]
+    },
+    "french": {
+      "deepl": "essentiel",
+      "wiktionary_options": [
+        "primordial"
+      ]
+    }
+  },
+  {
+    "spanish": "poquito",
+    "english": {
+      "deepl": "a little bit",
+      "wiktionary_options": [
+        "(a) bit",
+        "(a) little"
+      ]
+    },
+    "french": {
+      "deepl": "un tout petit peu",
+      "wiktionary_options": [
+        "(un) petit peu"
+      ]
+    }
+  },
+  {
+    "spanish": "conformidad",
+    "english": {
+      "deepl": "compliance",
+      "wiktionary_options": [
+        "accordance"
+      ]
+    }
+  },
+  {
+    "spanish": "retribución",
+    "french": {
+      "deepl": "rémunération",
+      "wiktionary_options": [
+        "rétribution"
+      ]
+    }
+  },
+  {
+    "spanish": "fenomenal",
+    "english": {
+      "deepl": "amazing",
+      "wiktionary_options": [
+        "phenomenal"
+      ]
+    }
+  },
+  {
+    "spanish": "cuenca",
+    "english": {
+      "deepl": "basin",
+      "wiktionary_options": [
+        "watershed"
+      ]
+    }
+  },
+  {
+    "spanish": "protagonismo",
+    "english": {
+      "deepl": "prominence",
+      "wiktionary_options": [
+        "protagonism"
+      ]
+    },
+    "french": {
+      "deepl": "rôle de premier plan",
+      "wiktionary_options": [
+        "protagonisme"
+      ]
+    }
+  },
+  {
+    "spanish": "cofrade",
+    "french": {
+      "deepl": "membre d'une confrérie",
+      "wiktionary_options": [
+        "confrère"
+      ]
+    }
+  },
+  {
+    "spanish": "tabaquería",
+    "english": {
+      "deepl": "cigar shop",
+      "wiktionary_options": [
+        "tobacconist's"
+      ]
+    }
+  },
+  {
+    "spanish": "tenia",
+    "english": {
+      "deepl": "had",
+      "wiktionary_options": [
+        "tapeworm"
+      ]
+    },
+    "french": {
+      "deepl": "avait",
+      "wiktionary_options": [
+        "ténia"
+      ]
+    }
+  },
+  {
+    "spanish": "relojero",
+    "english": {
+      "deepl": "watchmaker",
+      "wiktionary_options": [
+        "clockmaker"
+      ]
+    }
+  },
+  {
+    "spanish": "papeleta",
+    "french": {
+      "deepl": "bulletin de vote",
+      "wiktionary_options": [
+        "scrutin"
+      ]
+    }
+  },
+  {
+    "spanish": "poblador",
+    "english": {
+      "deepl": "resident",
+      "wiktionary_options": [
+        "settler"
+      ]
+    },
+    "french": {
+      "deepl": "habitant",
+      "wiktionary_options": [
+        "colon"
+      ]
+    }
+  },
+  {
+    "spanish": "colaborador",
+    "english": {
+      "deepl": "contributor",
+      "wiktionary_options": [
+        "collaborator"
+      ]
+    }
+  },
+  {
+    "spanish": "mayoritario",
+    "english": {
+      "deepl": "majority",
+      "wiktionary_options": [
+        "controlling"
+      ]
+    }
+  }
+]

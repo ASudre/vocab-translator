@@ -1,0 +1,2802 @@
+[
+  {
+    "spanish": "especializar",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "hacendar",
+    "category": ""
+  },
+  {
+    "spanish": "radio",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "muerto",
+    "category": ""
+  },
+  {
+    "spanish": "durar",
+    "category": "Cantidad y medida"
+  },
+  {
+    "spanish": "investigación",
+    "category": "Ciencia"
+  },
+  {
+    "spanish": "diente",
+    "category": "Cuerpo"
+  },
+  {
+    "spanish": "influencia",
+    "category": "Sociedad"
+  },
+  {
+    "spanish": "máximo",
+    "category": "Cantidad y medida"
+  },
+  {
+    "spanish": "celebración",
+    "category": ""
+  },
+  {
+    "spanish": "habitual",
+    "category": ""
+  },
+  {
+    "spanish": "lanzar",
+    "category": ""
+  },
+  {
+    "spanish": "consistir",
+    "category": ""
+  },
+  {
+    "spanish": "llegada",
+    "category": "Viajes"
+  },
+  {
+    "spanish": "dentro",
+    "category": ""
+  },
+  {
+    "spanish": "fuente",
+    "category": ""
+  },
+  {
+    "spanish": "consultar",
+    "category": "Información"
+  },
+  {
+    "spanish": "propietario",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "recorrer",
+    "category": "Viajes"
+  },
+  {
+    "spanish": "práctica",
+    "category": ""
+  },
+  {
+    "spanish": "maíz",
+    "category": "Ingredientes"
+  },
+  {
+    "spanish": "montar",
+    "category": "Movimiento"
+  },
+  {
+    "spanish": "pleno",
+    "category": "Política"
+  },
+  {
+    "spanish": "apetecer",
+    "category": ""
+  },
+  {
+    "spanish": "grave",
+    "category": ""
+  },
+  {
+    "spanish": "moto",
+    "category": "Vehículos"
+  },
+  {
+    "spanish": "poesía",
+    "category": "Literatura"
+  },
+  {
+    "spanish": "suponer",
+    "category": "Pensamiento"
+  },
+  {
+    "spanish": "tratamiento",
+    "category": "Salud"
+  },
+  {
+    "spanish": "vengar",
+    "category": "Conflicto"
+  },
+  {
+    "spanish": "quemar",
+    "category": ""
+  },
+  {
+    "spanish": "resolver",
+    "category": "Pensamiento"
+  },
+  {
+    "spanish": "campaña",
+    "category": "Política"
+  },
+  {
+    "spanish": "contenido",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "mirada",
+    "category": "Percepción"
+  },
+  {
+    "spanish": "asegurar",
+    "category": ""
+  },
+  {
+    "spanish": "desconocer",
+    "category": "Pensamiento"
+  },
+  {
+    "spanish": "establecer",
+    "category": ""
+  },
+  {
+    "spanish": "determinar",
+    "category": "Pensamiento"
+  },
+  {
+    "spanish": "domingo",
+    "category": "Días"
+  },
+  {
+    "spanish": "variedad",
+    "category": "Cantidad y medida"
+  },
+  {
+    "spanish": "afectar",
+    "category": ""
+  },
+  {
+    "spanish": "fundamental",
+    "category": ""
+  },
+  {
+    "spanish": "despacho",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "distancia",
+    "category": "Cantidad y medida"
+  },
+  {
+    "spanish": "función",
+    "category": ""
+  },
+  {
+    "spanish": "describir",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "recién",
+    "category": ""
+  },
+  {
+    "spanish": "sensación",
+    "category": "Percepción"
+  },
+  {
+    "spanish": "decorar",
+    "category": "Casa"
+  },
+  {
+    "spanish": "tecla",
+    "category": "Tecnología"
+  },
+  {
+    "spanish": "gesto",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "ocasión",
+    "category": ""
+  },
+  {
+    "spanish": "basar",
+    "category": ""
+  },
+  {
+    "spanish": "política",
+    "category": "Política"
+  },
+  {
+    "spanish": "posición",
+    "category": ""
+  },
+  {
+    "spanish": "luna",
+    "category": "Naturaleza"
+  },
+  {
+    "spanish": "acceso",
+    "category": ""
+  },
+  {
+    "spanish": "cuidado",
+    "category": "Salud"
+  },
+  {
+    "spanish": "literario",
+    "category": "Literatura"
+  },
+  {
+    "spanish": "total",
+    "category": "Cantidad y medida"
+  },
+  {
+    "spanish": "frontera",
+    "category": "Geografía"
+  },
+  {
+    "spanish": "entregar",
+    "category": ""
+  },
+  {
+    "spanish": "gato",
+    "category": "Animales"
+  },
+  {
+    "spanish": "fundar",
+    "category": "Historia"
+  },
+  {
+    "spanish": "peligro",
+    "category": ""
+  },
+  {
+    "spanish": "lujo",
+    "category": "Economía"
+  },
+  {
+    "spanish": "emplear",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "industria",
+    "category": "Economía"
+  },
+  {
+    "spanish": "departamento",
+    "category": "Casa"
+  },
+  {
+    "spanish": "notar",
+    "category": "Percepción"
+  },
+  {
+    "spanish": "prohibir",
+    "category": "Derecho"
+  },
+  {
+    "spanish": "cortar",
+    "category": ""
+  },
+  {
+    "spanish": "atraer",
+    "category": ""
+  },
+  {
+    "spanish": "adaptar",
+    "category": "Cambio"
+  },
+  {
+    "spanish": "presidente",
+    "category": "Política"
+  },
+  {
+    "spanish": "encender",
+    "category": "Tecnología"
+  },
+  {
+    "spanish": "gastar",
+    "category": "Economía"
+  },
+  {
+    "spanish": "fatal",
+    "category": ""
+  },
+  {
+    "spanish": "confiar",
+    "category": "Relaciones"
+  },
+  {
+    "spanish": "prensa",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "asistir",
+    "category": "Escuela"
+  },
+  {
+    "spanish": "pierna",
+    "category": "Cuerpo"
+  },
+  {
+    "spanish": "causa",
+    "category": ""
+  },
+  {
+    "spanish": "aparato",
+    "category": "Tecnología"
+  },
+  {
+    "spanish": "símbolo",
+    "category": ""
+  },
+  {
+    "spanish": "amplio",
+    "category": ""
+  },
+  {
+    "spanish": "magnífico",
+    "category": ""
+  },
+  {
+    "spanish": "medicamento",
+    "category": "Salud"
+  },
+  {
+    "spanish": "caja",
+    "category": ""
+  },
+  {
+    "spanish": "marcha",
+    "category": "Movimiento"
+  },
+  {
+    "spanish": "limón",
+    "category": "Frutas"
+  },
+  {
+    "spanish": "imperio",
+    "category": "Historia"
+  },
+  {
+    "spanish": "positivo",
+    "category": ""
+  },
+  {
+    "spanish": "pertenecer",
+    "category": "Relaciones"
+  },
+  {
+    "spanish": "municipal",
+    "category": "Política"
+  },
+  {
+    "spanish": "católico",
+    "category": "Religión"
+  },
+  {
+    "spanish": "creativo",
+    "category": "Personalidad"
+  },
+  {
+    "spanish": "empleado",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "agradecer",
+    "category": ""
+  },
+  {
+    "spanish": "auténtico",
+    "category": ""
+  },
+  {
+    "spanish": "versión",
+    "category": ""
+  },
+  {
+    "spanish": "científico",
+    "category": "Ciencia"
+  },
+  {
+    "spanish": "avanzar",
+    "category": "Movimiento"
+  },
+  {
+    "spanish": "patrón",
+    "category": ""
+  },
+  {
+    "spanish": "basura",
+    "category": "Medio ambiente"
+  },
+  {
+    "spanish": "fino",
+    "category": ""
+  },
+  {
+    "spanish": "presencia",
+    "category": ""
+  },
+  {
+    "spanish": "suceder",
+    "category": ""
+  },
+  {
+    "spanish": "tamaño",
+    "category": "Cantidad y medida"
+  },
+  {
+    "spanish": "nacimiento",
+    "category": "Familia"
+  },
+  {
+    "spanish": "práctico",
+    "category": ""
+  },
+  {
+    "spanish": "educativo",
+    "category": "Escuela"
+  },
+  {
+    "spanish": "lucha",
+    "category": "Conflicto"
+  },
+  {
+    "spanish": "comprobar",
+    "category": ""
+  },
+  {
+    "spanish": "ibérico",
+    "category": "Geografía"
+  },
+  {
+    "spanish": "mínimo",
+    "category": "Cantidad y medida"
+  },
+  {
+    "spanish": "colgar",
+    "category": ""
+  },
+  {
+    "spanish": "gestión",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "explicación",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "trasladar",
+    "category": ""
+  },
+  {
+    "spanish": "sabor",
+    "category": "Comida"
+  },
+  {
+    "spanish": "coloquial",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "pez",
+    "category": "Animales"
+  },
+  {
+    "spanish": "ordenar",
+    "category": ""
+  },
+  {
+    "spanish": "frecuencia",
+    "category": "Cantidad y medida"
+  },
+  {
+    "spanish": "armario",
+    "category": "Muebles"
+  },
+  {
+    "spanish": "península",
+    "category": "Geografía"
+  },
+  {
+    "spanish": "alimentar",
+    "category": "Comida"
+  },
+  {
+    "spanish": "selección",
+    "category": ""
+  },
+  {
+    "spanish": "real",
+    "category": ""
+  },
+  {
+    "spanish": "justo",
+    "category": ""
+  },
+  {
+    "spanish": "espectacular",
+    "category": ""
+  },
+  {
+    "spanish": "tango",
+    "category": "Música"
+  },
+  {
+    "spanish": "zumo",
+    "category": "Comida"
+  },
+  {
+    "spanish": "inventar",
+    "category": ""
+  },
+  {
+    "spanish": "tela",
+    "category": "Ropa"
+  },
+  {
+    "spanish": "cuestión",
+    "category": ""
+  },
+  {
+    "spanish": "similar",
+    "category": ""
+  },
+  {
+    "spanish": "empleo",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "pesar",
+    "category": ""
+  },
+  {
+    "spanish": "lograr",
+    "category": ""
+  },
+  {
+    "spanish": "clave",
+    "category": ""
+  },
+  {
+    "spanish": "contratar",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "apreciar",
+    "category": "Emociones"
+  },
+  {
+    "spanish": "acento",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "productor",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "deseo",
+    "category": "Emociones"
+  },
+  {
+    "spanish": "tendencia",
+    "category": "Sociedad"
+  },
+  {
+    "spanish": "especialista",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "arreglar",
+    "category": ""
+  },
+  {
+    "spanish": "consumidor",
+    "category": "Economía"
+  },
+  {
+    "spanish": "imprescindible",
+    "category": ""
+  },
+  {
+    "spanish": "militar",
+    "category": "Conflicto"
+  },
+  {
+    "spanish": "transformar",
+    "category": "Cambio"
+  },
+  {
+    "spanish": "escenario",
+    "category": "Arte y cultura"
+  },
+  {
+    "spanish": "soledad",
+    "category": "Emociones"
+  },
+  {
+    "spanish": "facilidad",
+    "category": ""
+  },
+  {
+    "spanish": "tardar",
+    "category": "Hora"
+  },
+  {
+    "spanish": "pantalla",
+    "category": "Tecnología"
+  },
+  {
+    "spanish": "cultivar",
+    "category": "Naturaleza"
+  },
+  {
+    "spanish": "acto",
+    "category": ""
+  },
+  {
+    "spanish": "experimentar",
+    "category": "Ciencia"
+  },
+  {
+    "spanish": "derecha",
+    "category": ""
+  },
+  {
+    "spanish": "limpieza",
+    "category": "Higiene"
+  },
+  {
+    "spanish": "amarillo",
+    "category": "Colores"
+  },
+  {
+    "spanish": "conjunto",
+    "category": ""
+  },
+  {
+    "spanish": "superficie",
+    "category": "Cantidad y medida"
+  },
+  {
+    "spanish": "interrumpir",
+    "category": ""
+  },
+  {
+    "spanish": "infancia",
+    "category": "Familia"
+  },
+  {
+    "spanish": "beca",
+    "category": "Escuela"
+  },
+  {
+    "spanish": "descanso",
+    "category": "Rutinas"
+  },
+  {
+    "spanish": "vasco",
+    "category": "Nacionalidad"
+  },
+  {
+    "spanish": "inspirar",
+    "category": ""
+  },
+  {
+    "spanish": "participante",
+    "category": ""
+  },
+  {
+    "spanish": "biológico",
+    "category": "Ciencia"
+  },
+  {
+    "spanish": "investigar",
+    "category": "Ciencia"
+  },
+  {
+    "spanish": "contexto",
+    "category": ""
+  },
+  {
+    "spanish": "detalle",
+    "category": ""
+  },
+  {
+    "spanish": "respirar",
+    "category": "Cuerpo"
+  },
+  {
+    "spanish": "vela",
+    "category": "Viajes"
+  },
+  {
+    "spanish": "comparar",
+    "category": "Pensamiento"
+  },
+  {
+    "spanish": "paquete",
+    "category": ""
+  },
+  {
+    "spanish": "religión",
+    "category": "Religión"
+  },
+  {
+    "spanish": "web",
+    "category": "Tecnología"
+  },
+  {
+    "spanish": "izquierda",
+    "category": ""
+  },
+  {
+    "spanish": "pieza",
+    "category": ""
+  },
+  {
+    "spanish": "término",
+    "category": ""
+  },
+  {
+    "spanish": "introducir",
+    "category": ""
+  },
+  {
+    "spanish": "dominar",
+    "category": ""
+  },
+  {
+    "spanish": "combinar",
+    "category": ""
+  },
+  {
+    "spanish": "dibujo",
+    "category": "Arte y cultura"
+  },
+  {
+    "spanish": "ingreso",
+    "category": "Economía"
+  },
+  {
+    "spanish": "fenómeno",
+    "category": "Ciencia"
+  },
+  {
+    "spanish": "confirmar",
+    "category": ""
+  },
+  {
+    "spanish": "digno",
+    "category": ""
+  },
+  {
+    "spanish": "medir",
+    "category": "Cantidad y medida"
+  },
+  {
+    "spanish": "paloma",
+    "category": "Animales"
+  },
+  {
+    "spanish": "joya",
+    "category": "Ropa"
+  },
+  {
+    "spanish": "reloj",
+    "category": "Hora"
+  },
+  {
+    "spanish": "compromiso",
+    "category": "Relaciones"
+  },
+  {
+    "spanish": "ascensor",
+    "category": "Casa"
+  },
+  {
+    "spanish": "alma",
+    "category": "Religión"
+  },
+  {
+    "spanish": "exigir",
+    "category": ""
+  },
+  {
+    "spanish": "odiar",
+    "category": "Emociones"
+  },
+  {
+    "spanish": "ve",
+    "category": ""
+  },
+  {
+    "spanish": "estimar",
+    "category": ""
+  },
+  {
+    "spanish": "universal",
+    "category": ""
+  },
+  {
+    "spanish": "eléctrico",
+    "category": "Tecnología"
+  },
+  {
+    "spanish": "sombrero",
+    "category": "Ropa"
+  },
+  {
+    "spanish": "central",
+    "category": ""
+  },
+  {
+    "spanish": "enseñanza",
+    "category": "Escuela"
+  },
+  {
+    "spanish": "formación",
+    "category": "Escuela"
+  },
+  {
+    "spanish": "artesanía",
+    "category": "Arte y cultura"
+  },
+  {
+    "spanish": "espíritu",
+    "category": "Religión"
+  },
+  {
+    "spanish": "perdón",
+    "category": "Saludos"
+  },
+  {
+    "spanish": "reina",
+    "category": "Historia"
+  },
+  {
+    "spanish": "inmenso",
+    "category": "Cantidad y medida"
+  },
+  {
+    "spanish": "mente",
+    "category": "Pensamiento"
+  },
+  {
+    "spanish": "apagar",
+    "category": "Tecnología"
+  },
+  {
+    "spanish": "carnaval",
+    "category": "Arte y cultura"
+  },
+  {
+    "spanish": "escapar",
+    "category": ""
+  },
+  {
+    "spanish": "destinar",
+    "category": ""
+  },
+  {
+    "spanish": "descripción",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "riqueza",
+    "category": "Economía"
+  },
+  {
+    "spanish": "permiso",
+    "category": "Derecho"
+  },
+  {
+    "spanish": "responsabilidad",
+    "category": ""
+  },
+  {
+    "spanish": "pata",
+    "category": "Animales"
+  },
+  {
+    "spanish": "evento",
+    "category": ""
+  },
+  {
+    "spanish": "venga",
+    "category": ""
+  },
+  {
+    "spanish": "horrible",
+    "category": ""
+  },
+  {
+    "spanish": "oler",
+    "category": "Percepción"
+  },
+  {
+    "spanish": "nevera",
+    "category": "Casa"
+  },
+  {
+    "spanish": "solucionar",
+    "category": ""
+  },
+  {
+    "spanish": "reclamar",
+    "category": ""
+  },
+  {
+    "spanish": "alcalde",
+    "category": "Política"
+  },
+  {
+    "spanish": "sucio",
+    "category": "Higiene"
+  },
+  {
+    "spanish": "placer",
+    "category": "Emociones"
+  },
+  {
+    "spanish": "sofá",
+    "category": "Muebles"
+  },
+  {
+    "spanish": "contener",
+    "category": ""
+  },
+  {
+    "spanish": "artístico",
+    "category": "Arte y cultura"
+  },
+  {
+    "spanish": "misterioso",
+    "category": ""
+  },
+  {
+    "spanish": "dormitorio",
+    "category": "Casa"
+  },
+  {
+    "spanish": "afición",
+    "category": "Aficiones"
+  },
+  {
+    "spanish": "bastar",
+    "category": ""
+  },
+  {
+    "spanish": "sencillo",
+    "category": ""
+  },
+  {
+    "spanish": "bici",
+    "category": "Vehículos"
+  },
+  {
+    "spanish": "existencia",
+    "category": "Pensamiento"
+  },
+  {
+    "spanish": "mágico",
+    "category": ""
+  },
+  {
+    "spanish": "exterior",
+    "category": "Espacios"
+  },
+  {
+    "spanish": "defender",
+    "category": "Conflicto"
+  },
+  {
+    "spanish": "elevar",
+    "category": ""
+  },
+  {
+    "spanish": "castellano",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "acontecimiento",
+    "category": ""
+  },
+  {
+    "spanish": "cuello",
+    "category": "Cuerpo"
+  },
+  {
+    "spanish": "felicidad",
+    "category": "Emociones"
+  },
+  {
+    "spanish": "mentir",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "asesinar",
+    "category": "Conflicto"
+  },
+  {
+    "spanish": "seleccionar",
+    "category": ""
+  },
+  {
+    "spanish": "escena",
+    "category": "Arte y cultura"
+  },
+  {
+    "spanish": "teoría",
+    "category": "Ciencia"
+  },
+  {
+    "spanish": "crecimiento",
+    "category": "Cambio"
+  },
+  {
+    "spanish": "género",
+    "category": "Arte y cultura"
+  },
+  {
+    "spanish": "iniciar",
+    "category": ""
+  },
+  {
+    "spanish": "industrial",
+    "category": "Economía"
+  },
+  {
+    "spanish": "negativo",
+    "category": ""
+  },
+  {
+    "spanish": "coincidir",
+    "category": ""
+  },
+  {
+    "spanish": "cementerio",
+    "category": "Espacios"
+  },
+  {
+    "spanish": "todo",
+    "category": ""
+  },
+  {
+    "spanish": "cercano",
+    "category": ""
+  },
+  {
+    "spanish": "conquistar",
+    "category": "Historia"
+  },
+  {
+    "spanish": "almuerzo",
+    "category": "Comidas"
+  },
+  {
+    "spanish": "temporada",
+    "category": ""
+  },
+  {
+    "spanish": "eh",
+    "category": ""
+  },
+  {
+    "spanish": "atrás",
+    "category": ""
+  },
+  {
+    "spanish": "ong",
+    "category": "Sociedad"
+  },
+  {
+    "spanish": "tono",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "régimen",
+    "category": "Política"
+  },
+  {
+    "spanish": "permanecer",
+    "category": ""
+  },
+  {
+    "spanish": "esperanza",
+    "category": "Emociones"
+  },
+  {
+    "spanish": "terreno",
+    "category": "Geografía"
+  },
+  {
+    "spanish": "llenar",
+    "category": ""
+  },
+  {
+    "spanish": "significado",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "ducha",
+    "category": "Higiene"
+  },
+  {
+    "spanish": "interpretar",
+    "category": "Arte y cultura"
+  },
+  {
+    "spanish": "recorrido",
+    "category": "Viajes"
+  },
+  {
+    "spanish": "lector",
+    "category": "Literatura"
+  },
+  {
+    "spanish": "procesión",
+    "category": "Religión"
+  },
+  {
+    "spanish": "autoridad",
+    "category": "Política"
+  },
+  {
+    "spanish": "millón",
+    "category": "Números"
+  },
+  {
+    "spanish": "andaluz",
+    "category": "Nacionalidad"
+  },
+  {
+    "spanish": "domicilio",
+    "category": "Información"
+  },
+  {
+    "spanish": "identificar",
+    "category": ""
+  },
+  {
+    "spanish": "afueras",
+    "category": "Espacios"
+  },
+  {
+    "spanish": "trozo",
+    "category": ""
+  },
+  {
+    "spanish": "materno",
+    "category": "Familia"
+  },
+  {
+    "spanish": "droga",
+    "category": "Salud"
+  },
+  {
+    "spanish": "curar",
+    "category": "Salud"
+  },
+  {
+    "spanish": "gramática",
+    "category": "Escuela"
+  },
+  {
+    "spanish": "remedio",
+    "category": "Salud"
+  },
+  {
+    "spanish": "repartir",
+    "category": ""
+  },
+  {
+    "spanish": "temprano",
+    "category": "Hora"
+  },
+  {
+    "spanish": "corte",
+    "category": ""
+  },
+  {
+    "spanish": "tumba",
+    "category": ""
+  },
+  {
+    "spanish": "discutir",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "portal",
+    "category": "Casa"
+  },
+  {
+    "spanish": "cebolla",
+    "category": "Ingredientes"
+  },
+  {
+    "spanish": "manzana",
+    "category": "Frutas"
+  },
+  {
+    "spanish": "cariño",
+    "category": "Relaciones"
+  },
+  {
+    "spanish": "taza",
+    "category": ""
+  },
+  {
+    "spanish": "océano",
+    "category": "Naturaleza"
+  },
+  {
+    "spanish": "banda",
+    "category": "Música"
+  },
+  {
+    "spanish": "técnico",
+    "category": "Tecnología"
+  },
+  {
+    "spanish": "abrazar",
+    "category": "Relaciones"
+  },
+  {
+    "spanish": "plazo",
+    "category": ""
+  },
+  {
+    "spanish": "desastre",
+    "category": ""
+  },
+  {
+    "spanish": "mencionar",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "contrario",
+    "category": ""
+  },
+  {
+    "spanish": "colaborar",
+    "category": ""
+  },
+  {
+    "spanish": "causar",
+    "category": ""
+  },
+  {
+    "spanish": "empresario",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "limitar",
+    "category": ""
+  },
+  {
+    "spanish": "ejército",
+    "category": "Conflicto"
+  },
+  {
+    "spanish": "inspector",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "barra",
+    "category": ""
+  },
+  {
+    "spanish": "anoche",
+    "category": "Hora"
+  },
+  {
+    "spanish": "conferencia",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "nomás",
+    "category": ""
+  },
+  {
+    "spanish": "horror",
+    "category": "Emociones"
+  },
+  {
+    "spanish": "esquí",
+    "category": "Deporte"
+  },
+  {
+    "spanish": "escoger",
+    "category": ""
+  },
+  {
+    "spanish": "oreja",
+    "category": "Cuerpo"
+  },
+  {
+    "spanish": "creación",
+    "category": "Arte y cultura"
+  },
+  {
+    "spanish": "gallina",
+    "category": "Animales"
+  },
+  {
+    "spanish": "bolso",
+    "category": "Ropa"
+  },
+  {
+    "spanish": "diccionario",
+    "category": "Escuela"
+  },
+  {
+    "spanish": "provenir",
+    "category": ""
+  },
+  {
+    "spanish": "pronunciar",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "representante",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "norma",
+    "category": "Derecho"
+  },
+  {
+    "spanish": "particular",
+    "category": ""
+  },
+  {
+    "spanish": "camisa",
+    "category": "Ropa"
+  },
+  {
+    "spanish": "besar",
+    "category": "Relaciones"
+  },
+  {
+    "spanish": "jamás",
+    "category": ""
+  },
+  {
+    "spanish": "disculpar",
+    "category": "Saludos"
+  },
+  {
+    "spanish": "carné",
+    "category": "Información"
+  },
+  {
+    "spanish": "hombro",
+    "category": "Cuerpo"
+  },
+  {
+    "spanish": "hispanohablante",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "imaginación",
+    "category": "Pensamiento"
+  },
+  {
+    "spanish": "punta",
+    "category": ""
+  },
+  {
+    "spanish": "pañuelo",
+    "category": "Ropa"
+  },
+  {
+    "spanish": "admirar",
+    "category": "Emociones"
+  },
+  {
+    "spanish": "techo",
+    "category": "Casa"
+  },
+  {
+    "spanish": "recomendación",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "periodo",
+    "category": ""
+  },
+  {
+    "spanish": "diseñar",
+    "category": "Arte y cultura"
+  },
+  {
+    "spanish": "monte",
+    "category": "Naturaleza"
+  },
+  {
+    "spanish": "merecer",
+    "category": ""
+  },
+  {
+    "spanish": "comportamiento",
+    "category": "Personalidad"
+  },
+  {
+    "spanish": "reaccionar",
+    "category": ""
+  },
+  {
+    "spanish": "independencia",
+    "category": "Política"
+  },
+  {
+    "spanish": "norteamericano",
+    "category": "Nacionalidad"
+  },
+  {
+    "spanish": "propuesta",
+    "category": ""
+  },
+  {
+    "spanish": "edición",
+    "category": "Literatura"
+  },
+  {
+    "spanish": "promoción",
+    "category": "Economía"
+  },
+  {
+    "spanish": "lejano",
+    "category": ""
+  },
+  {
+    "spanish": "té",
+    "category": "Comida"
+  },
+  {
+    "spanish": "máquina",
+    "category": "Tecnología"
+  },
+  {
+    "spanish": "cuero",
+    "category": "Ropa"
+  },
+  {
+    "spanish": "imitar",
+    "category": ""
+  },
+  {
+    "spanish": "agenda",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "concepto",
+    "category": "Pensamiento"
+  },
+  {
+    "spanish": "león",
+    "category": "Animales"
+  },
+  {
+    "spanish": "vía",
+    "category": ""
+  },
+  {
+    "spanish": "agente",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "respetar",
+    "category": "Relaciones"
+  },
+  {
+    "spanish": "cerebro",
+    "category": "Cuerpo"
+  },
+  {
+    "spanish": "enfermo",
+    "category": "Salud"
+  },
+  {
+    "spanish": "consulta",
+    "category": "Salud"
+  },
+  {
+    "spanish": "tranquilidad",
+    "category": "Emociones"
+  },
+  {
+    "spanish": "postre",
+    "category": "Comidas"
+  },
+  {
+    "spanish": "esclavo",
+    "category": "Historia"
+  },
+  {
+    "spanish": "comienzo",
+    "category": ""
+  },
+  {
+    "spanish": "adolescente",
+    "category": "Familia"
+  },
+  {
+    "spanish": "asiento",
+    "category": ""
+  },
+  {
+    "spanish": "juventud",
+    "category": "Familia"
+  },
+  {
+    "spanish": "pastel",
+    "category": "Comidas"
+  },
+  {
+    "spanish": "desconectar",
+    "category": "Tecnología"
+  },
+  {
+    "spanish": "exquisito",
+    "category": "Comida"
+  },
+  {
+    "spanish": "agarrar",
+    "category": ""
+  },
+  {
+    "spanish": "escalera",
+    "category": "Casa"
+  },
+  {
+    "spanish": "exacto",
+    "category": ""
+  },
+  {
+    "spanish": "pasillo",
+    "category": "Casa"
+  },
+  {
+    "spanish": "equipaje",
+    "category": "Viajes"
+  },
+  {
+    "spanish": "grabar",
+    "category": "Tecnología"
+  },
+  {
+    "spanish": "pasado",
+    "category": "Historia"
+  },
+  {
+    "spanish": "asustar",
+    "category": "Emociones"
+  },
+  {
+    "spanish": "contaminación",
+    "category": "Medio ambiente"
+  },
+  {
+    "spanish": "equivocar",
+    "category": ""
+  },
+  {
+    "spanish": "profundo",
+    "category": ""
+  },
+  {
+    "spanish": "pegar",
+    "category": ""
+  },
+  {
+    "spanish": "vitamina",
+    "category": "Salud"
+  },
+  {
+    "spanish": "miel",
+    "category": "Ingredientes"
+  },
+  {
+    "spanish": "lana",
+    "category": "Ropa"
+  },
+  {
+    "spanish": "diminutivo",
+    "category": "Escuela"
+  },
+  {
+    "spanish": "agricultura",
+    "category": "Naturaleza"
+  },
+  {
+    "spanish": "jugador",
+    "category": "Deporte"
+  },
+  {
+    "spanish": "porcentaje",
+    "category": "Cantidad y medida"
+  },
+  {
+    "spanish": "salvar",
+    "category": ""
+  },
+  {
+    "spanish": "esencial",
+    "category": ""
+  },
+  {
+    "spanish": "aplicación",
+    "category": "Tecnología"
+  },
+  {
+    "spanish": "apretar",
+    "category": ""
+  },
+  {
+    "spanish": "tontería",
+    "category": ""
+  },
+  {
+    "spanish": "descubrimiento",
+    "category": "Ciencia"
+  },
+  {
+    "spanish": "doctor",
+    "category": "Salud"
+  },
+  {
+    "spanish": "batalla",
+    "category": "Conflicto"
+  },
+  {
+    "spanish": "eficaz",
+    "category": ""
+  },
+  {
+    "spanish": "presupuesto",
+    "category": "Economía"
+  },
+  {
+    "spanish": "media",
+    "category": "Cantidad y medida"
+  },
+  {
+    "spanish": "desesperar",
+    "category": "Emociones"
+  },
+  {
+    "spanish": "estómago",
+    "category": "Cuerpo"
+  },
+  {
+    "spanish": "calma",
+    "category": "Emociones"
+  },
+  {
+    "spanish": "inscribir",
+    "category": "Escuela"
+  },
+  {
+    "spanish": "solicitud",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "vacío",
+    "category": ""
+  },
+  {
+    "spanish": "aportar",
+    "category": ""
+  },
+  {
+    "spanish": "contemplar",
+    "category": "Percepción"
+  },
+  {
+    "spanish": "mediano",
+    "category": "Cantidad y medida"
+  },
+  {
+    "spanish": "publicitario",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "lío",
+    "category": ""
+  },
+  {
+    "spanish": "motor",
+    "category": "Vehículos"
+  },
+  {
+    "spanish": "girar",
+    "category": "Movimiento"
+  },
+  {
+    "spanish": "mono",
+    "category": "Animales"
+  },
+  {
+    "spanish": "avisar",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "categoría",
+    "category": ""
+  },
+  {
+    "spanish": "exagerar",
+    "category": ""
+  },
+  {
+    "spanish": "incendio",
+    "category": ""
+  },
+  {
+    "spanish": "asistente",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "comedor",
+    "category": "Casa"
+  },
+  {
+    "spanish": "resumir",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "adorar",
+    "category": "Religión"
+  },
+  {
+    "spanish": "conductor",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "corporal",
+    "category": "Cuerpo"
+  },
+  {
+    "spanish": "hierba",
+    "category": "Naturaleza"
+  },
+  {
+    "spanish": "cualidad",
+    "category": "Personalidad"
+  },
+  {
+    "spanish": "aparcar",
+    "category": "Vehículos"
+  },
+  {
+    "spanish": "broma",
+    "category": ""
+  },
+  {
+    "spanish": "institución",
+    "category": "Sociedad"
+  },
+  {
+    "spanish": "dibujar",
+    "category": "Arte y cultura"
+  },
+  {
+    "spanish": "ramo",
+    "category": ""
+  },
+  {
+    "spanish": "academia",
+    "category": "Escuela"
+  },
+  {
+    "spanish": "elección",
+    "category": "Política"
+  },
+  {
+    "spanish": "violencia",
+    "category": "Conflicto"
+  },
+  {
+    "spanish": "sesión",
+    "category": ""
+  },
+  {
+    "spanish": "huir",
+    "category": ""
+  },
+  {
+    "spanish": "completar",
+    "category": ""
+  },
+  {
+    "spanish": "ciento",
+    "category": "Números"
+  },
+  {
+    "spanish": "intervenir",
+    "category": ""
+  },
+  {
+    "spanish": "feo",
+    "category": ""
+  },
+  {
+    "spanish": "educar",
+    "category": "Escuela"
+  },
+  {
+    "spanish": "olor",
+    "category": "Percepción"
+  },
+  {
+    "spanish": "doble",
+    "category": "Cantidad y medida"
+  },
+  {
+    "spanish": "asistencia",
+    "category": ""
+  },
+  {
+    "spanish": "protesta",
+    "category": "Conflicto"
+  },
+  {
+    "spanish": "gas",
+    "category": ""
+  },
+  {
+    "spanish": "anciano",
+    "category": "Familia"
+  },
+  {
+    "spanish": "cristiano",
+    "category": "Religión"
+  },
+  {
+    "spanish": "peluquería",
+    "category": "Higiene"
+  },
+  {
+    "spanish": "despacio",
+    "category": ""
+  },
+  {
+    "spanish": "chorizo",
+    "category": "Comida"
+  },
+  {
+    "spanish": "foro",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "africano",
+    "category": "Nacionalidad"
+  },
+  {
+    "spanish": "tensión",
+    "category": "Tecnología"
+  },
+  {
+    "spanish": "combatir",
+    "category": "Conflicto"
+  },
+  {
+    "spanish": "honor",
+    "category": ""
+  },
+  {
+    "spanish": "celular",
+    "category": "Tecnología"
+  },
+  {
+    "spanish": "geográfico",
+    "category": "Geografía"
+  },
+  {
+    "spanish": "caber",
+    "category": ""
+  },
+  {
+    "spanish": "femenino",
+    "category": ""
+  },
+  {
+    "spanish": "engordar",
+    "category": "Salud"
+  },
+  {
+    "spanish": "autónomo",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "feria",
+    "category": "Arte y cultura"
+  },
+  {
+    "spanish": "sentimental",
+    "category": "Emociones"
+  },
+  {
+    "spanish": "reino",
+    "category": "Historia"
+  },
+  {
+    "spanish": "garaje",
+    "category": "Casa"
+  },
+  {
+    "spanish": "pelar",
+    "category": "Comida"
+  },
+  {
+    "spanish": "municipio",
+    "category": "Política"
+  },
+  {
+    "spanish": "previo",
+    "category": ""
+  },
+  {
+    "spanish": "desaparición",
+    "category": ""
+  },
+  {
+    "spanish": "mina",
+    "category": "Economía"
+  },
+  {
+    "spanish": "líder",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "pimiento",
+    "category": "Ingredientes"
+  },
+  {
+    "spanish": "alegrar",
+    "category": "Emociones"
+  },
+  {
+    "spanish": "hervir",
+    "category": "Comida"
+  },
+  {
+    "spanish": "festivo",
+    "category": "Días"
+  },
+  {
+    "spanish": "líquido",
+    "category": ""
+  },
+  {
+    "spanish": "individual",
+    "category": ""
+  },
+  {
+    "spanish": "periodismo",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "temporal",
+    "category": ""
+  },
+  {
+    "spanish": "destruir",
+    "category": ""
+  },
+  {
+    "spanish": "iniciativa",
+    "category": ""
+  },
+  {
+    "spanish": "informal",
+    "category": ""
+  },
+  {
+    "spanish": "azafata",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "muñeca",
+    "category": ""
+  },
+  {
+    "spanish": "seda",
+    "category": "Ropa"
+  },
+  {
+    "spanish": "oir",
+    "category": "Percepción"
+  },
+  {
+    "spanish": "recepción",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "regreso",
+    "category": "Viajes"
+  },
+  {
+    "spanish": "comunicado",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "galleta",
+    "category": "Comida"
+  },
+  {
+    "spanish": "molestia",
+    "category": "Salud"
+  },
+  {
+    "spanish": "habitar",
+    "category": "Casa"
+  },
+  {
+    "spanish": "brillar",
+    "category": "Percepción"
+  },
+  {
+    "spanish": "boliviano",
+    "category": "Nacionalidad"
+  },
+  {
+    "spanish": "fórmula",
+    "category": "Ciencia"
+  },
+  {
+    "spanish": "duchar",
+    "category": "Higiene"
+  },
+  {
+    "spanish": "plancha",
+    "category": "Casa"
+  },
+  {
+    "spanish": "esposo",
+    "category": "Familia"
+  },
+  {
+    "spanish": "tigre",
+    "category": "Animales"
+  },
+  {
+    "spanish": "aperitivo",
+    "category": "Comida"
+  },
+  {
+    "spanish": "navegar",
+    "category": "Tecnología"
+  },
+  {
+    "spanish": "barro",
+    "category": "Naturaleza"
+  },
+  {
+    "spanish": "hallar",
+    "category": ""
+  },
+  {
+    "spanish": "terapia",
+    "category": "Salud mental"
+  },
+  {
+    "spanish": "televisor",
+    "category": "Tecnología"
+  },
+  {
+    "spanish": "inicio",
+    "category": ""
+  },
+  {
+    "spanish": "abuela",
+    "category": "Familia"
+  },
+  {
+    "spanish": "campesino",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "aprobar",
+    "category": "Escuela"
+  },
+  {
+    "spanish": "confesar",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "natación",
+    "category": "Deporte"
+  },
+  {
+    "spanish": "sede",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "administrativo",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "victoria",
+    "category": "Deporte"
+  },
+  {
+    "spanish": "euro",
+    "category": "Economía"
+  },
+  {
+    "spanish": "colaboración",
+    "category": ""
+  },
+  {
+    "spanish": "perfume",
+    "category": "Higiene"
+  },
+  {
+    "spanish": "estancia",
+    "category": "Viajes"
+  },
+  {
+    "spanish": "ligar",
+    "category": "Relaciones"
+  },
+  {
+    "spanish": "enfermero",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "conquista",
+    "category": "Historia"
+  },
+  {
+    "spanish": "independiente",
+    "category": "Personalidad"
+  },
+  {
+    "spanish": "cinta",
+    "category": ""
+  },
+  {
+    "spanish": "agotar",
+    "category": ""
+  },
+  {
+    "spanish": "resumen",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "horno",
+    "category": "Casa"
+  },
+  {
+    "spanish": "crítico",
+    "category": ""
+  },
+  {
+    "spanish": "fomentar",
+    "category": ""
+  },
+  {
+    "spanish": "aficionado",
+    "category": "Aficiones"
+  },
+  {
+    "spanish": "manejar",
+    "category": "Vehículos"
+  },
+  {
+    "spanish": "contaminar",
+    "category": "Medio ambiente"
+  },
+  {
+    "spanish": "solidario",
+    "category": "Personalidad"
+  },
+  {
+    "spanish": "ruidoso",
+    "category": ""
+  },
+  {
+    "spanish": "espera",
+    "category": ""
+  },
+  {
+    "spanish": "espectador",
+    "category": "Deporte"
+  },
+  {
+    "spanish": "canto",
+    "category": "Música"
+  },
+  {
+    "spanish": "generoso",
+    "category": "Personalidad"
+  },
+  {
+    "spanish": "hamburguesa",
+    "category": "Comida"
+  },
+  {
+    "spanish": "elefante",
+    "category": "Animales"
+  },
+  {
+    "spanish": "lámpara",
+    "category": "Muebles"
+  },
+  {
+    "spanish": "sinónimo",
+    "category": "Escuela"
+  },
+  {
+    "spanish": "grueso",
+    "category": ""
+  },
+  {
+    "spanish": "improvisar",
+    "category": "Arte y cultura"
+  },
+  {
+    "spanish": "despierto",
+    "category": "Rutinas"
+  },
+  {
+    "spanish": "orilla",
+    "category": "Naturaleza"
+  },
+  {
+    "spanish": "filosofía",
+    "category": "Pensamiento"
+  },
+  {
+    "spanish": "salar",
+    "category": "Comida"
+  },
+  {
+    "spanish": "ataque",
+    "category": "Conflicto"
+  },
+  {
+    "spanish": "visión",
+    "category": "Percepción"
+  },
+  {
+    "spanish": "casero",
+    "category": "Comida"
+  },
+  {
+    "spanish": "sorprendente",
+    "category": ""
+  },
+  {
+    "spanish": "desfile",
+    "category": "Arte y cultura"
+  },
+  {
+    "spanish": "ron",
+    "category": "Comida"
+  },
+  {
+    "spanish": "príncipe",
+    "category": "Historia"
+  },
+  {
+    "spanish": "dueño",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "instalación",
+    "category": ""
+  },
+  {
+    "spanish": "secar",
+    "category": "Higiene"
+  },
+  {
+    "spanish": "raíz",
+    "category": "Naturaleza"
+  },
+  {
+    "spanish": "retirar",
+    "category": "Economía"
+  },
+  {
+    "spanish": "cajón",
+    "category": "Muebles"
+  },
+  {
+    "spanish": "detrás",
+    "category": ""
+  },
+  {
+    "spanish": "sumar",
+    "category": "Números"
+  },
+  {
+    "spanish": "oh",
+    "category": ""
+  },
+  {
+    "spanish": "envase",
+    "category": ""
+  },
+  {
+    "spanish": "traducir",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "representación",
+    "category": "Arte y cultura"
+  },
+  {
+    "spanish": "mítico",
+    "category": ""
+  },
+  {
+    "spanish": "cruz",
+    "category": "Religión"
+  },
+  {
+    "spanish": "columna",
+    "category": ""
+  },
+  {
+    "spanish": "circular",
+    "category": "Movimiento"
+  },
+  {
+    "spanish": "sostenible",
+    "category": "Medio ambiente"
+  },
+  {
+    "spanish": "hielo",
+    "category": "Clima"
+  },
+  {
+    "spanish": "actriz",
+    "category": "Arte y cultura"
+  },
+  {
+    "spanish": "absoluto",
+    "category": ""
+  },
+  {
+    "spanish": "cartón",
+    "category": ""
+  },
+  {
+    "spanish": "delante",
+    "category": ""
+  },
+  {
+    "spanish": "período",
+    "category": ""
+  },
+  {
+    "spanish": "ahorro",
+    "category": "Economía"
+  },
+  {
+    "spanish": "taxista",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "enfrente",
+    "category": ""
+  },
+  {
+    "spanish": "salvaje",
+    "category": "Naturaleza"
+  },
+  {
+    "spanish": "atender",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "ajedrez",
+    "category": "Aficiones"
+  },
+  {
+    "spanish": "emitir",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "ombligo",
+    "category": "Cuerpo"
+  },
+  {
+    "spanish": "tarta",
+    "category": "Comida"
+  },
+  {
+    "spanish": "héroe",
+    "category": "Literatura"
+  },
+  {
+    "spanish": "cereal",
+    "category": "Comida"
+  },
+  {
+    "spanish": "puente",
+    "category": "Construcción"
+  },
+  {
+    "spanish": "criticar",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "constitución",
+    "category": "Derecho"
+  },
+  {
+    "spanish": "roca",
+    "category": "Naturaleza"
+  },
+  {
+    "spanish": "aislar",
+    "category": ""
+  },
+  {
+    "spanish": "salto",
+    "category": "Movimiento"
+  },
+  {
+    "spanish": "tecnológico",
+    "category": "Tecnología"
+  },
+  {
+    "spanish": "patrimonio",
+    "category": "Arte y cultura"
+  },
+  {
+    "spanish": "registrar",
+    "category": ""
+  },
+  {
+    "spanish": "indispensable",
+    "category": ""
+  },
+  {
+    "spanish": "mapa",
+    "category": "Viajes"
+  },
+  {
+    "spanish": "biografía",
+    "category": "Literatura"
+  },
+  {
+    "spanish": "musulmán",
+    "category": "Religión"
+  },
+  {
+    "spanish": "facultad",
+    "category": "Escuela"
+  },
+  {
+    "spanish": "administrar",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "fracaso",
+    "category": ""
+  },
+  {
+    "spanish": "despedida",
+    "category": "Saludos"
+  },
+  {
+    "spanish": "fortuna",
+    "category": "Economía"
+  },
+  {
+    "spanish": "vigilar",
+    "category": ""
+  },
+  {
+    "spanish": "adelgazar",
+    "category": "Salud"
+  },
+  {
+    "spanish": "timbre",
+    "category": "Casa"
+  },
+  {
+    "spanish": "conexión",
+    "category": "Tecnología"
+  },
+  {
+    "spanish": "enterrar",
+    "category": ""
+  },
+  {
+    "spanish": "acogida",
+    "category": ""
+  },
+  {
+    "spanish": "calendario",
+    "category": "Hora"
+  },
+  {
+    "spanish": "otoño",
+    "category": "Clima"
+  },
+  {
+    "spanish": "rogar",
+    "category": ""
+  },
+  {
+    "spanish": "electrodoméstico",
+    "category": "Casa"
+  },
+  {
+    "spanish": "peinar",
+    "category": "Higiene"
+  },
+  {
+    "spanish": "conversar",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "escalada",
+    "category": "Deporte"
+  },
+  {
+    "spanish": "desgracia",
+    "category": ""
+  },
+  {
+    "spanish": "afectivo",
+    "category": "Emociones"
+  },
+  {
+    "spanish": "cortés",
+    "category": "Personalidad"
+  },
+  {
+    "spanish": "callejero",
+    "category": "Viajes"
+  },
+  {
+    "spanish": "nombrar",
+    "category": ""
+  },
+  {
+    "spanish": "correspondiente",
+    "category": ""
+  },
+  {
+    "spanish": "orquesta",
+    "category": "Música"
+  },
+  {
+    "spanish": "publicación",
+    "category": "Comunicación"
+  },
+  {
+    "spanish": "defecto",
+    "category": ""
+  },
+  {
+    "spanish": "signo",
+    "category": ""
+  },
+  {
+    "spanish": "programar",
+    "category": "Tecnología"
+  },
+  {
+    "spanish": "archivo",
+    "category": "Tecnología"
+  },
+  {
+    "spanish": "disposición",
+    "category": "Derecho"
+  },
+  {
+    "spanish": "alcohólico",
+    "category": ""
+  },
+  {
+    "spanish": "almacén",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "lujoso",
+    "category": "Economía"
+  },
+  {
+    "spanish": "civilización",
+    "category": "Historia"
+  },
+  {
+    "spanish": "uf",
+    "category": ""
+  },
+  {
+    "spanish": "culto",
+    "category": "Religión"
+  },
+  {
+    "spanish": "laboratorio",
+    "category": "Ciencia"
+  },
+  {
+    "spanish": "paciente",
+    "category": "Salud"
+  },
+  {
+    "spanish": "atar",
+    "category": ""
+  },
+  {
+    "spanish": "entrega",
+    "category": ""
+  },
+  {
+    "spanish": "tristeza",
+    "category": "Emociones"
+  },
+  {
+    "spanish": "sombra",
+    "category": ""
+  },
+  {
+    "spanish": "descender",
+    "category": "Movimiento"
+  },
+  {
+    "spanish": "fotógrafo",
+    "category": "Trabajos"
+  },
+  {
+    "spanish": "listo",
+    "category": ""
+  },
+  {
+    "spanish": "sanitario",
+    "category": "Salud"
+  },
+  {
+    "spanish": "gracioso",
+    "category": "Personalidad"
+  },
+  {
+    "spanish": "casita",
+    "category": "Casa"
+  },
+  {
+    "spanish": "luminoso",
+    "category": ""
+  },
+  {
+    "spanish": "formal",
+    "category": ""
+  },
+  {
+    "spanish": "tribu",
+    "category": "Sociedad"
+  },
+  {
+    "spanish": "comodidad",
+    "category": ""
+  },
+  {
+    "spanish": "depresión",
+    "category": "Salud mental"
+  },
+  {
+    "spanish": "electricidad",
+    "category": "Tecnología"
+  },
+  {
+    "spanish": "ni",
+    "category": ""
+  },
+  {
+    "spanish": "tonto",
+    "category": "Personalidad"
+  },
+  {
+    "spanish": "quechua",
+    "category": "Nacionalidad"
+  },
+  {
+    "spanish": "garganta",
+    "category": "Cuerpo"
+  },
+  {
+    "spanish": "semilla",
+    "category": "Naturaleza"
+  },
+  {
+    "spanish": "pobreza",
+    "category": "Economía"
+  },
+  {
+    "spanish": "aplaudir",
+    "category": "Arte y cultura"
+  },
+  {
+    "spanish": "máscara",
+    "category": "Arte y cultura"
+  },
+  {
+    "spanish": "altitud",
+    "category": "Geografía"
+  },
+  {
+    "spanish": "paja",
+    "category": "Naturaleza"
+  },
+  {
+    "spanish": "agitar",
+    "category": ""
+  },
+  {
+    "spanish": "redondo",
+    "category": ""
+  },
+  {
+    "spanish": "gazpacho",
+    "category": "Comida"
+  },
+  {
+    "spanish": "marco",
+    "category": ""
+  },
+  {
+    "spanish": "ampliar",
+    "category": ""
+  },
+  {
+    "spanish": "pluma",
+    "category": "Escuela"
+  },
+  {
+    "spanish": "sillón",
+    "category": "Muebles"
+  },
+  {
+    "spanish": "anotar",
+    "category": "Escuela"
+  },
+  {
+    "spanish": "portátil",
+    "category": "Tecnología"
+  },
+  {
+    "spanish": "barca",
+    "category": "Vehículos"
+  },
+  {
+    "spanish": "tapar",
+    "category": ""
+  },
+  {
+    "spanish": "ficha",
+    "category": ""
+  },
+  {
+    "spanish": "círculo",
+    "category": ""
+  },
+  {
+    "spanish": "concreto",
+    "category": ""
+  }
+]

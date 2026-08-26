@@ -1,0 +1,3502 @@
+[
+  {
+    "spanish": "madurar",
+    "english": "to mature",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "concienciar",
+    "english": "raise awareness",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "sostenibilidad",
+    "english": "sustainability",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "percusión",
+    "english": "percussion",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "borracho",
+    "english": "drunk",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "mensajero",
+    "english": "messenger",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "predicción",
+    "english": "prediction",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "biólogo",
+    "english": "biologist",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "ché",
+    "english": "hey",
+    "pos_tag": "I"
+  },
+  {
+    "spanish": "daiquiri",
+    "english": "daiquiri",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "grapa",
+    "english": "staple",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "incienso",
+    "english": "incense",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "extra",
+    "english": "extra",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "acordeón",
+    "english": "accordion",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "violín",
+    "english": "violin",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "derretir",
+    "english": "melt",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "buceo",
+    "english": "diving",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "estacionar",
+    "english": "park",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "madrugada",
+    "english": "early morning",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "latir",
+    "english": "to beat",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "cartero",
+    "english": "mail carrier",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "rabia",
+    "english": "rabies",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "imperativo",
+    "english": "imperative",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "plantación",
+    "english": "plantation",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "cafetero",
+    "english": "coffee maker",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "circulación",
+    "english": "circulation",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "revivir",
+    "english": "revive",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "pagano",
+    "english": "pagan",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "decorativo",
+    "english": "decorative",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "grabación",
+    "english": "recording",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "ovni",
+    "english": "UFO",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "voluntariado",
+    "english": "volunteering",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "boliche",
+    "english": "bowling alley",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "bretón",
+    "english": "Breton",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "chamaco",
+    "english": "kid",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "ciao",
+    "english": "Bye",
+    "pos_tag": "I"
+  },
+  {
+    "spanish": "computador",
+    "english": "computer",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "milico",
+    "english": "soldier",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "muralista",
+    "english": "muralist",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "sensual",
+    "english": "sensual",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "ambulancia",
+    "english": "ambulance",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "paralizar",
+    "english": "paralyze",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "incaico",
+    "english": "Inca-style",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "delantero",
+    "english": "forward",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "ll",
+    "english": "ll",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "polinesio",
+    "english": "Polynesian",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "cabaret",
+    "english": "cabaret",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "atascar",
+    "english": "to jam",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "maltratar",
+    "english": "abuse",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "contaminante",
+    "english": "pollutant",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "enchilar",
+    "english": "to spice up",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "bordado",
+    "english": "embroidery",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "hospedar",
+    "english": "to host",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "cantina",
+    "english": "bar",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "anteojo",
+    "english": "spectacles",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "cautiverio",
+    "english": "captivity",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "gachupín",
+    "english": "Spaniard",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "gomina",
+    "english": "hair gel",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "lunfardo",
+    "english": "Lunfardo",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "medialuna",
+    "english": "crescent",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "partícula",
+    "english": "particle",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "pulsera",
+    "english": "bracelet",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "rebozo",
+    "english": "shawl",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "saluda",
+    "english": "say hello",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "valija",
+    "english": "suitcase",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "aspirador",
+    "english": "vacuum cleaner",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "recompensa",
+    "english": "reward",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "trasero",
+    "english": "rear",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "atracar",
+    "english": "dock",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "oyente",
+    "english": "listener",
+    "pos_tag": "NCC"
+  },
+  {
+    "spanish": "telepatía",
+    "english": "telepathy",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "gala",
+    "english": "gala",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "carajillo",
+    "english": "liqueur coffee",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "araucano",
+    "english": "Araucanian",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "escarabajo",
+    "english": "beetle",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "visado",
+    "english": "visa",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "astrología",
+    "english": "astrology",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "desechable",
+    "english": "disposable",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "sureste",
+    "english": "southeast",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "costura",
+    "english": "sewing",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "sargento",
+    "english": "sergeant",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "vistilla",
+    "english": "vistilla",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "vaina",
+    "english": "pod",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "rescate",
+    "english": "rescue",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "ahuehuete",
+    "english": "Montezuma cypress",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "conversacional",
+    "english": "conversational",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "mozo",
+    "english": "waiter",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "pavada",
+    "english": "nonsense",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "pololo",
+    "english": "boyfriend",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "tarro",
+    "english": "jar",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "lamentable",
+    "english": "regrettable",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "mapuche",
+    "english": "Mapuche",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "radiofónico",
+    "english": "radio",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "ensayista",
+    "english": "essayist",
+    "pos_tag": "NCC"
+  },
+  {
+    "spanish": "reciclado",
+    "english": "recycled",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "danzante",
+    "english": "dancer",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "skin",
+    "english": "skin",
+    "pos_tag": "NCC"
+  },
+  {
+    "spanish": "cabo",
+    "english": "cable",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "trama",
+    "english": "plot",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "vaciar",
+    "english": "empty",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "fe",
+    "english": "faith",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "coartar",
+    "english": "restrict",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "litrona",
+    "english": "litrona",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "yupi",
+    "english": "yippee",
+    "pos_tag": "I"
+  },
+  {
+    "spanish": "lechuga",
+    "english": "lettuce",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "volante",
+    "english": "flyer",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "dragón",
+    "english": "dragon",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "fusilar",
+    "english": "to shoot",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "bailante",
+    "english": "dancer",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "desenterrar",
+    "english": "to dig up",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "barlovento",
+    "english": "windward",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "cofrade",
+    "english": "member of a religious brotherhood",
+    "pos_tag": "NCC"
+  },
+  {
+    "spanish": "judo",
+    "english": "judo",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "explosivo",
+    "english": "explosive",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "devoto",
+    "english": "devout",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "hipnotizador",
+    "english": "hypnotist",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "estatuilla",
+    "english": "figurine",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "crédito",
+    "english": "credit",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "cargo",
+    "english": "position",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "definir",
+    "english": "define",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "dudar",
+    "english": "to hesitate",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "usuario",
+    "english": "user",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "anual",
+    "english": "annual",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "administración",
+    "english": "administration",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "salario",
+    "english": "salary",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "convenir",
+    "english": "agree",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "pretender",
+    "english": "to claim",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "primario",
+    "english": "primary",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "mosca",
+    "english": "fly",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "convocatoria",
+    "english": "call for applications",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "inaugurar",
+    "english": "to inaugurate",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "factor",
+    "english": "factor",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "específico",
+    "english": "specific",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "académico",
+    "english": "academic",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "revelar",
+    "english": "reveal",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "reforma",
+    "english": "reform",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "habilidad",
+    "english": "skill",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "tasa",
+    "english": "rate",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "requisito",
+    "english": "requirement",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "derivar",
+    "english": "to refer",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "pago",
+    "english": "payment",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "fase",
+    "english": "phase",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "colectivo",
+    "english": "collective",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "participación",
+    "english": "participation",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "juicio",
+    "english": "trial",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "masaje",
+    "english": "massage",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "traslado",
+    "english": "transfer",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "sensible",
+    "english": "sensitive",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "inferior",
+    "english": "lower",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "negociar",
+    "english": "negotiate",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "operación",
+    "english": "operation",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "convocar",
+    "english": "to convene",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "conveniente",
+    "english": "appropriate",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "preciso",
+    "english": "precise",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "oficio",
+    "english": "trade",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "diálogo",
+    "english": "dialogue",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "tesis",
+    "english": "thesis",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "sugerir",
+    "english": "suggest",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "hablante",
+    "english": "speaker",
+    "pos_tag": "NCC"
+  },
+  {
+    "spanish": "acoger",
+    "english": "to welcome",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "alternativo",
+    "english": "alternative",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "factura",
+    "english": "invoice",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "proyectar",
+    "english": "to project",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "confundir",
+    "english": "to confuse",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "propósito",
+    "english": "purpose",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "baja",
+    "english": "low",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "advertir",
+    "english": "warn",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "conclusión",
+    "english": "conclusion",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "dimensión",
+    "english": "dimension",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "deuda",
+    "english": "debt",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "citar",
+    "english": "quote",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "nuclear",
+    "english": "nuclear",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "demanda",
+    "english": "lawsuit",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "ajustar",
+    "english": "adjust",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "congelar",
+    "english": "freeze",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "competencia",
+    "english": "competition",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "representativo",
+    "english": "representative",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "arrancar",
+    "english": "start",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "proporcionar",
+    "english": "provide",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "observación",
+    "english": "observation",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "reto",
+    "english": "challenge",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "reducción",
+    "english": "reduction",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "aula",
+    "english": "classroom",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "directivo",
+    "english": "executive",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "incorporación",
+    "english": "onboarding",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "continuo",
+    "english": "continuous",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "entidad",
+    "english": "entity",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "íntimo",
+    "english": "intimate",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "latín",
+    "english": "Latin",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "blando",
+    "english": "soft",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "colaborador",
+    "english": "contributor",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "estadística",
+    "english": "statistics",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "jubilación",
+    "english": "retirement",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "consciente",
+    "english": "conscious",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "alcance",
+    "english": "scope",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "plataforma",
+    "english": "platform",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "aptitud",
+    "english": "aptitude",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "conformar",
+    "english": "to form",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "prestigio",
+    "english": "prestige",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "incrementar",
+    "english": "increase",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "mayonesa",
+    "english": "mayonnaise",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "aparición",
+    "english": "appearance",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "haz",
+    "english": "beam",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "gasolina",
+    "english": "gasoline",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "estética",
+    "english": "aesthetics",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "intensidad",
+    "english": "intensity",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "multinacional",
+    "english": "multinational",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "inmobiliario",
+    "english": "real estate",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "disparar",
+    "english": "shoot",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "ceja",
+    "english": "eyebrow",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "capturar",
+    "english": "capture",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "explosión",
+    "english": "explosion",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "discusión",
+    "english": "discussion",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "intento",
+    "english": "attempt",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "boom",
+    "english": "boom",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "videojuego",
+    "english": "video game",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "inútil",
+    "english": "useless",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "matricular",
+    "english": "enroll",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "petición",
+    "english": "request",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "expansión",
+    "english": "expansion",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "visible",
+    "english": "visible",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "conservación",
+    "english": "conservation",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "lucir",
+    "english": "to show off",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "dinámico",
+    "english": "dynamic",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "análisis",
+    "english": "analysis",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "reclamación",
+    "english": "complaint",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "tumbar",
+    "english": "to knock down",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "marketing",
+    "english": "marketing",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "hueso",
+    "english": "bone",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "recurrir",
+    "english": "appeal",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "judío",
+    "english": "Jewish",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "delicado",
+    "english": "delicate",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "localidad",
+    "english": "town",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "distribución",
+    "english": "distribution",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "flexibilidad",
+    "english": "flexibility",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "escritorio",
+    "english": "desk",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "detectar",
+    "english": "detect",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "fortaleza",
+    "english": "fortress",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "progreso",
+    "english": "progress",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "emisión",
+    "english": "broadcast",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "trámite",
+    "english": "procedure",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "juez",
+    "english": "judge",
+    "pos_tag": "NCC"
+  },
+  {
+    "spanish": "folleto",
+    "english": "brochure",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "mineral",
+    "english": "mineral",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "automóvil",
+    "english": "car",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "exceso",
+    "english": "excess",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "registro",
+    "english": "registration",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "garantizar",
+    "english": "ensure",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "estirar",
+    "english": "stretch",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "financiación",
+    "english": "funding",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "felicitar",
+    "english": "to congratulate",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "liderar",
+    "english": "lead",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "cordial",
+    "english": "cordial",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "aguantar",
+    "english": "hold out",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "álbum",
+    "english": "album",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "toma",
+    "english": "take",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "mercancía",
+    "english": "merchandise",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "negociación",
+    "english": "negotiation",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "regular",
+    "english": "regular",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "desplazar",
+    "english": "move",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "evaluar",
+    "english": "evaluate",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "unión",
+    "english": "union",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "anécdota",
+    "english": "anecdote",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "promocionar",
+    "english": "promote",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "pirata",
+    "english": "pirate",
+    "pos_tag": "NCC"
+  },
+  {
+    "spanish": "orientación",
+    "english": "orientation",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "amenaza",
+    "english": "threat",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "refugio",
+    "english": "shelter",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "asignatura",
+    "english": "course",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "estrenar",
+    "english": "premiere",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "alergia",
+    "english": "allergy",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "prohibición",
+    "english": "ban",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "distribuir",
+    "english": "distribute",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "concluir",
+    "english": "conclude",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "manchar",
+    "english": "to stain",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "productivo",
+    "english": "productive",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "ejecutivo",
+    "english": "executive",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "pérdida",
+    "english": "loss",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "liberal",
+    "english": "liberal",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "meta",
+    "english": "goal",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "realista",
+    "english": "realistic",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "renta",
+    "english": "income",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "acelerar",
+    "english": "to speed up",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "morder",
+    "english": "bite",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "escurrir",
+    "english": "drain",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "rapidez",
+    "english": "speed",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "acogedor",
+    "english": "cozy",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "redactar",
+    "english": "draft",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "abanico",
+    "english": "fan",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "arrepentir",
+    "english": "to repent",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "recuperación",
+    "english": "recovery",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "rumor",
+    "english": "rumor",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "busca",
+    "english": "search",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "sospechar",
+    "english": "suspect",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "británico",
+    "english": "British",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "variable",
+    "english": "variable",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "potenciar",
+    "english": "enhance",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "litro",
+    "english": "liter",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "cursar",
+    "english": "to pursue",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "asar",
+    "english": "to roast",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "implantar",
+    "english": "implement",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "conducta",
+    "english": "behavior",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "emblemático",
+    "english": "iconic",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "convenio",
+    "english": "agreement",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "angustia",
+    "english": "distress",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "sutil",
+    "english": "subtle",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "utensilio",
+    "english": "utensil",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "soporte",
+    "english": "support",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "tratado",
+    "english": "treated",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "toque",
+    "english": "touch",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "hormiga",
+    "english": "ant",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "dañar",
+    "english": "damage",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "efectivo",
+    "english": "cash",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "hostal",
+    "english": "hostel",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "frigorífico",
+    "english": "refrigerator",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "rendimiento",
+    "english": "performance",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "interno",
+    "english": "internal",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "incremento",
+    "english": "increase",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "estratégico",
+    "english": "strategic",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "renovar",
+    "english": "renew",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "semejante",
+    "english": "similar",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "cubierta",
+    "english": "cover",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "composición",
+    "english": "composition",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "dotar",
+    "english": "to provide",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "complementario",
+    "english": "supplementary",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "concha",
+    "english": "shell",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "bandeja",
+    "english": "tray",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "aportación",
+    "english": "contribution",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "permanente",
+    "english": "permanent",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "navaja",
+    "english": "pocket knife",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "narrar",
+    "english": "to narrate",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "sexual",
+    "english": "sexual",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "pánico",
+    "english": "panic",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "potable",
+    "english": "drinkable",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "innovación",
+    "english": "innovation",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "ecologista",
+    "english": "environmentalist",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "uy",
+    "english": "Oops",
+    "pos_tag": "I"
+  },
+  {
+    "spanish": "sensibilidad",
+    "english": "sensitivity",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "adolescencia",
+    "english": "adolescence",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "choque",
+    "english": "collision",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "formativo",
+    "english": "educational",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "gramatical",
+    "english": "grammatical",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "antena",
+    "english": "antenna",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "cuanto",
+    "english": "how much",
+    "pos_tag": "RG"
+  },
+  {
+    "spanish": "proclamar",
+    "english": "proclaim",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "otorgar",
+    "english": "grant",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "agresivo",
+    "english": "aggressive",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "gerente",
+    "english": "manager",
+    "pos_tag": "NCC"
+  },
+  {
+    "spanish": "comprador",
+    "english": "buyer",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "terremoto",
+    "english": "earthquake",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "denuncia",
+    "english": "complaint",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "insomnio",
+    "english": "insomnia",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "comercializar",
+    "english": "market",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "excesivo",
+    "english": "excessive",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "popularizar",
+    "english": "to popularize",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "sociología",
+    "english": "sociology",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "satisfacer",
+    "english": "to satisfy",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "compensación",
+    "english": "compensation",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "constar",
+    "english": "be recorded",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "optimismo",
+    "english": "optimism",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "distante",
+    "english": "distant",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "obvio",
+    "english": "obvious",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "cinturón",
+    "english": "belt",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "competitivo",
+    "english": "competitive",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "depósito",
+    "english": "deposit",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "herir",
+    "english": "to hurt",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "plantilla",
+    "english": "template",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "masivo",
+    "english": "massive",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "ausencia",
+    "english": "absence",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "charla",
+    "english": "talk",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "intervención",
+    "english": "intervention",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "vocación",
+    "english": "vocation",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "oposición",
+    "english": "opposition",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "atardecer",
+    "english": "sunset",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "castigo",
+    "english": "punishment",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "relevante",
+    "english": "relevant",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "difusión",
+    "english": "dissemination",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "caldo",
+    "english": "broth",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "perjudicar",
+    "english": "harm",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "disciplina",
+    "english": "discipline",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "rechazo",
+    "english": "rejection",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "rebajar",
+    "english": "reduce",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "derrota",
+    "english": "defeat",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "racional",
+    "english": "rational",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "revelación",
+    "english": "revelation",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "premiar",
+    "english": "to reward",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "acariciar",
+    "english": "to caress",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "advertencia",
+    "english": "warning",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "interminable",
+    "english": "endless",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "burlar",
+    "english": "to mock",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "fallecer",
+    "english": "to die",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "estantería",
+    "english": "bookshelf",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "disponibilidad",
+    "english": "availability",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "convivencia",
+    "english": "coexistence",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "potencia",
+    "english": "power",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "cinematográfico",
+    "english": "cinematic",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "agradecimiento",
+    "english": "acknowledgment",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "procurar",
+    "english": "to ensure",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "redactor",
+    "english": "writer",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "posar",
+    "english": "to pose",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "cojo",
+    "english": "lame",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "exigencia",
+    "english": "requirement",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "atún",
+    "english": "tuna",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "fotografiar",
+    "english": "to take a picture",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "favorable",
+    "english": "favorable",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "élite",
+    "english": "elite",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "residente",
+    "english": "resident",
+    "pos_tag": "NCC"
+  },
+  {
+    "spanish": "alertar",
+    "english": "alert",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "propiciar",
+    "english": "to foster",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "arruga",
+    "english": "wrinkle",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "gitano",
+    "english": "Gypsy",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "esencia",
+    "english": "essence",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "barroco",
+    "english": "Baroque",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "lata",
+    "english": "can",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "provecho",
+    "english": "advantage",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "documentación",
+    "english": "documentation",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "ingenio",
+    "english": "ingenuity",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "maquinaria",
+    "english": "machinery",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "debajo",
+    "english": "below",
+    "pos_tag": "RG"
+  },
+  {
+    "spanish": "máster",
+    "english": "master's degree",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "estadio",
+    "english": "stadium",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "fantasía",
+    "english": "fantasy",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "lema",
+    "english": "motto",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "empeñar",
+    "english": "to pawn",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "radical",
+    "english": "radical",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "agravar",
+    "english": "aggravate",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "recogida",
+    "english": "collection",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "seña",
+    "english": "password",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "bachillerato",
+    "english": "high school",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "titulación",
+    "english": "degree",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "naturalidad",
+    "english": "naturalness",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "calzado",
+    "english": "footwear",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "cuestionar",
+    "english": "to question",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "desempeñar",
+    "english": "to perform",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "humedad",
+    "english": "humidity",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "finalizar",
+    "english": "finish",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "jet",
+    "english": "jet",
+    "pos_tag": "NCC"
+  },
+  {
+    "spanish": "mejilla",
+    "english": "cheek",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "autoritario",
+    "english": "authoritarian",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "liderazgo",
+    "english": "leadership",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "machista",
+    "english": "sexist",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "castigar",
+    "english": "punish",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "lúdico",
+    "english": "recreational",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "encargado",
+    "english": "manager",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "desafío",
+    "english": "challenge",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "decisivo",
+    "english": "decisive",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "privilegiar",
+    "english": "give priority to",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "afrontar",
+    "english": "face",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "trazo",
+    "english": "stroke",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "desplazamiento",
+    "english": "displacement",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "concertar",
+    "english": "to arrange",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "crucero",
+    "english": "cruise",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "realización",
+    "english": "production",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "emprendedor",
+    "english": "entrepreneur",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "contabilidad",
+    "english": "accounting",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "constatar",
+    "english": "verify",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "pedido",
+    "english": "order",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "tierno",
+    "english": "tender",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "imprenta",
+    "english": "printing press",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "manutención",
+    "english": "child support",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "motivación",
+    "english": "motivation",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "efectuar",
+    "english": "carry out",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "afecto",
+    "english": "affection",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "ración",
+    "english": "ration",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "acero",
+    "english": "steel",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "asesor",
+    "english": "advisor",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "editor",
+    "english": "editor",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "ocupación",
+    "english": "occupation",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "lógica",
+    "english": "logic",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "renovable",
+    "english": "renewable",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "imaginario",
+    "english": "imaginary",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "mediar",
+    "english": "to mediate",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "vital",
+    "english": "vital",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "cesar",
+    "english": "to resign",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "futbolista",
+    "english": "soccer player",
+    "pos_tag": "NCC"
+  },
+  {
+    "spanish": "cobertura",
+    "english": "coverage",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "adjuntar",
+    "english": "attach",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "argumentar",
+    "english": "to argue",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "normativa",
+    "english": "regulations",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "burbuja",
+    "english": "bubble",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "sacrificar",
+    "english": "to sacrifice",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "audiencia",
+    "english": "audience",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "extinguir",
+    "english": "to extinguish",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "erar",
+    "english": "to make a mistake",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "zanahoria",
+    "english": "carrot",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "modernidad",
+    "english": "modernity",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "teletrabajo",
+    "english": "telework",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "originar",
+    "english": "to cause",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "agresión",
+    "english": "assault",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "varón",
+    "english": "male",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "peculiar",
+    "english": "peculiar",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "expectativa",
+    "english": "expectation",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "modalidad",
+    "english": "format",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "entretenimiento",
+    "english": "entertainment",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "apoderar",
+    "english": "to empower",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "lamentar",
+    "english": "to regret",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "notable",
+    "english": "remarkable",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "electromagnético",
+    "english": "electromagnetic",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "restauración",
+    "english": "restoration",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "microondas",
+    "english": "microwave",
+    "pos_tag": "NCC"
+  },
+  {
+    "spanish": "inclinar",
+    "english": "to tilt",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "rabo",
+    "english": "tail",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "seducir",
+    "english": "to seduce",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "proveniente",
+    "english": "originating from",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "cortina",
+    "english": "curtain",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "acentuar",
+    "english": "emphasize",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "longitud",
+    "english": "length",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "hueco",
+    "english": "hole",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "prestación",
+    "english": "benefit",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "asentar",
+    "english": "to settle",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "tacto",
+    "english": "touch",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "patín",
+    "english": "skate",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "mobiliario",
+    "english": "furniture",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "nicaragüense",
+    "english": "Nicaraguan",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "lanzamiento",
+    "english": "launch",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "inquieto",
+    "english": "restless",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "trepar",
+    "english": "climb",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "ruptura",
+    "english": "breakup",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "barrera",
+    "english": "barrier",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "encajar",
+    "english": "fit",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "filtro",
+    "english": "filter",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "fibra",
+    "english": "fiber",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "sociólogo",
+    "english": "sociologist",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "sobrepasar",
+    "english": "exceed",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "bancario",
+    "english": "banking",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "cercanía",
+    "english": "closeness",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "frustración",
+    "english": "frustration",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "conllevar",
+    "english": "entail",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "mantenimiento",
+    "english": "maintenance",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "frustrar",
+    "english": "thwart",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "oveja",
+    "english": "sheep",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "injusto",
+    "english": "unfair",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "juzgar",
+    "english": "to judge",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "demandar",
+    "english": "to sue",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "implantación",
+    "english": "implementation",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "tarifa",
+    "english": "rate",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "morar",
+    "english": "to dwell",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "emigrar",
+    "english": "to emigrate",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "complicidad",
+    "english": "complicity",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "animación",
+    "english": "animation",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "asombro",
+    "english": "amazement",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "alérgico",
+    "english": "allergic",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "tala",
+    "english": "logging",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "eficacia",
+    "english": "effectiveness",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "minoría",
+    "english": "minority",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "carga",
+    "english": "load",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "decepcionar",
+    "english": "to disappoint",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "abordar",
+    "english": "address",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "peaje",
+    "english": "toll",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "curva",
+    "english": "curve",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "escaso",
+    "english": "scarce",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "suelto",
+    "english": "loose",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "hemisferio",
+    "english": "hemisphere",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "indiscriminado",
+    "english": "indiscriminate",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "diversión",
+    "english": "fun",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "olvido",
+    "english": "forgetfulness",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "calificar",
+    "english": "to grade",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "profundidad",
+    "english": "depth",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "coordinar",
+    "english": "coordinate",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "arder",
+    "english": "to burn",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "cima",
+    "english": "peak",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "salarial",
+    "english": "wage-related",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "productividad",
+    "english": "productivity",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "presidencia",
+    "english": "presidency",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "cuota",
+    "english": "installment",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "remitir",
+    "english": "forward",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "ético",
+    "english": "ethical",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "dramático",
+    "english": "dramatic",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "cría",
+    "english": "rearing",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "globalización",
+    "english": "globalization",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "marítimo",
+    "english": "maritime",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "oscuridad",
+    "english": "darkness",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "respecto",
+    "english": "regarding",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "inexistente",
+    "english": "nonexistent",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "apartado",
+    "english": "section",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "tragar",
+    "english": "swallow",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "conflictivo",
+    "english": "contentious",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "acomodar",
+    "english": "accommodate",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "emborrachar",
+    "english": "to get drunk",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "antipático",
+    "english": "unfriendly",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "adicto",
+    "english": "addict",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "planear",
+    "english": "to plan",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "pactar",
+    "english": "agree",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "ranking",
+    "english": "ranking",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "saturar",
+    "english": "to saturate",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "despido",
+    "english": "dismissal",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "interpersonal",
+    "english": "interpersonal",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "panorama",
+    "english": "overview",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "medieval",
+    "english": "medieval",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "disculpa",
+    "english": "excuse me",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "someter",
+    "english": "submit",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "cursillo",
+    "english": "workshop",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "destrucción",
+    "english": "destruction",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "posterior",
+    "english": "back",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "exportador",
+    "english": "exporter",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "foco",
+    "english": "spotlight",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "agudo",
+    "english": "acute",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "ansioso",
+    "english": "anxious",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "ole",
+    "english": "Yay!",
+    "pos_tag": "I"
+  },
+  {
+    "spanish": "codo",
+    "english": "elbow",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "evidenciar",
+    "english": "demonstrate",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "aburrimiento",
+    "english": "boredom",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "escalar",
+    "english": "to climb",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "consolidar",
+    "english": "consolidate",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "votar",
+    "english": "vote",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "perfeccionar",
+    "english": "to perfect",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "cuerno",
+    "english": "horn",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "presumir",
+    "english": "to brag",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "canario",
+    "english": "Canarian",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "originalidad",
+    "english": "originality",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "previsión",
+    "english": "forecast",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "ácido",
+    "english": "acid",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "presionar",
+    "english": "press",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "remar",
+    "english": "to row",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "sostener",
+    "english": "support",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "calabaza",
+    "english": "pumpkin",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "tentación",
+    "english": "temptation",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "deteriorar",
+    "english": "to deteriorate",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "ganadería",
+    "english": "livestock farming",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "penicilina",
+    "english": "penicillin",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "embarcación",
+    "english": "boat",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "rota",
+    "english": "broken",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "financiar",
+    "english": "to finance",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "provincial",
+    "english": "provincial",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "excepción",
+    "english": "exception",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "bautizar",
+    "english": "to baptize",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "aspirar",
+    "english": "to vacuum",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "controversia",
+    "english": "controversy",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "expulsar",
+    "english": "expel",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "independizar",
+    "english": "to make independent",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "alianza",
+    "english": "alliance",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "consola",
+    "english": "console",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "programación",
+    "english": "programming",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "envío",
+    "english": "shipping",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "talón",
+    "english": "heel",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "agricultor",
+    "english": "farmer",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "agrupar",
+    "english": "group",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "instintivo",
+    "english": "instinctive",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "colar",
+    "english": "to slip in",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "revolucionar",
+    "english": "revolutionize",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "carbón",
+    "english": "coal",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "merced",
+    "english": "grace",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "quebrar",
+    "english": "to go bankrupt",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "observatorio",
+    "english": "observatory",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "carencia",
+    "english": "deficiency",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "rutinario",
+    "english": "routine",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "problemático",
+    "english": "problematic",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "utilidad",
+    "english": "utility",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "restar",
+    "english": "subtract",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "denotar",
+    "english": "to denote",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "rondar",
+    "english": "to hover around",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "procedimiento",
+    "english": "procedure",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "desnudar",
+    "english": "to undress",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "ascender",
+    "english": "to be promoted",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "langostino",
+    "english": "shrimp",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "recta",
+    "english": "straight",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "énfasis",
+    "english": "emphasis",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "diabetes",
+    "english": "diabetes",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "pedazo",
+    "english": "huge",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "magia",
+    "english": "magic",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "finanzas",
+    "english": "finance",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "ana",
+    "english": "ana",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "remunerar",
+    "english": "to pay",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "obsesionar",
+    "english": "to obsess",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "suceso",
+    "english": "event",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "restricción",
+    "english": "restriction",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "residir",
+    "english": "to reside",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "dinámica",
+    "english": "dynamics",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "convención",
+    "english": "convention",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "arrojar",
+    "english": "to throw",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "bautizo",
+    "english": "baptism",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "arco",
+    "english": "bow",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "caprichoso",
+    "english": "capricious",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "facial",
+    "english": "facial",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "egipcio",
+    "english": "Egyptian",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "captar",
+    "english": "attract",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "múltiple",
+    "english": "multiple",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "caudillo",
+    "english": "leader",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "doctorado",
+    "english": "Ph.D.",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "adquisición",
+    "english": "acquisition",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "reforzar",
+    "english": "strengthen",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "melena",
+    "english": "long hair",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "asco",
+    "english": "disgust",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "soltar",
+    "english": "let go",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "eólico",
+    "english": "wind power",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "timidez",
+    "english": "shyness",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "humilde",
+    "english": "humble",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "sublevar",
+    "english": "to raise slightly",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "exitoso",
+    "english": "successful",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "envasar",
+    "english": "package",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "entrañable",
+    "english": "endearing",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "sujeto",
+    "english": "subject",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "medioambiental",
+    "english": "environmental",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "tira",
+    "english": "strip",
+    "pos_tag": "NCF"
+  },
+  {
+    "spanish": "comité",
+    "english": "committee",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "vikingo",
+    "english": "Viking",
+    "pos_tag": "NCM"
+  },
+  {
+    "spanish": "asesorar",
+    "english": "advise",
+    "pos_tag": "VM"
+  },
+  {
+    "spanish": "triunfante",
+    "english": "triumphant",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "doloroso",
+    "english": "painful",
+    "pos_tag": "AQ0"
+  },
+  {
+    "spanish": "amasar",
+    "english": "to knead",
+    "pos_tag": "VM"
+  }
+]
