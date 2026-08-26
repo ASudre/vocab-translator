@@ -406,46 +406,52 @@ export const getAllUserProgress = async (): Promise<UserProgress[]> => {
 
 export const getMasteryStats = async (): Promise<{ total: number; mastered: number; percentage: number }> => {
   const db = await initDB();
-  
+
   return new Promise((resolve, reject) => {
     const transaction = db.transaction([STORE_NAME, PROGRESS_STORE_NAME], 'readonly');
     const vocabStore = transaction.objectStore(STORE_NAME);
     const progressStore = transaction.objectStore(PROGRESS_STORE_NAME);
-    
-    const countRequest = vocabStore.count();
-    
-    countRequest.onsuccess = () => {
-      const totalWords = countRequest.result;
-      
+
+    // The progress store accumulates records across every level ever
+    // practiced (it's never cleared on level switch), while vocabStore only
+    // holds the currently loaded level's words. Get this level's ids so
+    // progress from other levels doesn't leak into its stats.
+    const getAllKeysRequest = vocabStore.getAllKeys();
+
+    getAllKeysRequest.onsuccess = () => {
+      const currentLevelIds = new Set(getAllKeysRequest.result as number[]);
+      const totalWords = currentLevelIds.size;
+
       const getAllProgressRequest = progressStore.getAll();
-      
+
       getAllProgressRequest.onsuccess = () => {
         const allProgress = getAllProgressRequest.result as UserProgress[];
-        
+        const levelProgress = allProgress.filter(p => currentLevelIds.has(p.vocabularyId));
+
         // Sum all mastery levels (0-3 per word)
-        const totalMasteryPoints = allProgress.reduce((sum, progress) => sum + (progress.masteryLevel || 0), 0);
-        
+        const totalMasteryPoints = levelProgress.reduce((sum, progress) => sum + (progress.masteryLevel || 0), 0);
+
         // Count words with masteryLevel = 3
-        const masteredWords = allProgress.filter(p => p.masteryLevel === 3).length;
-        
+        const masteredWords = levelProgress.filter(p => p.masteryLevel === 3).length;
+
         // Maximum possible points: totalWords * 3
         const maxPoints = totalWords * 3;
         const percentage = maxPoints > 0 ? Math.round((totalMasteryPoints / maxPoints) * 1000) / 10 : 0;
-        
+
         resolve({
           total: totalWords,
           mastered: masteredWords,
           percentage
         });
       };
-      
+
       getAllProgressRequest.onerror = () => {
         reject(new Error('Failed to get progress data'));
       };
     };
-    
-    countRequest.onerror = () => {
-      reject(new Error('Failed to count total words'));
+
+    getAllKeysRequest.onerror = () => {
+      reject(new Error('Failed to get vocabulary ids'));
     };
   });
 };
