@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "list": [
     {
-      "id": 1,
+      "id": 40001,
       "spanish": "bienestar",
       "english": "well-being",
       "french": "bien-être",
@@ -10,7 +10,7 @@
       "class": "noun"
     },
     {
-      "id": 2,
+      "id": 40002,
       "spanish": "pastilla",
       "english": "tablet",
       "french": "pastille",
@@ -18,7 +18,7 @@
       "class": "noun"
     },
     {
-      "id": 3,
+      "id": 40003,
       "spanish": "matrícula",
       "english": "license plate",
       "french": "numéro d'immatriculation",
@@ -26,7 +26,7 @@
       "class": "noun"
     },
     {
-      "id": 4,
+      "id": 40004,
       "spanish": "murciélago",
       "english": "bat",
       "french": "chauve-souris",
@@ -34,7 +34,7 @@
       "class": "noun"
     },
     {
-      "id": 5,
+      "id": 40005,
       "spanish": "desigualdad",
       "english": "inequality",
       "french": "inégalité",
@@ -42,7 +42,7 @@
       "class": "noun"
     },
     {
-      "id": 6,
+      "id": 40006,
       "spanish": "elaboración",
       "english": "preparation",
       "french": "élaboration",
@@ -50,7 +50,7 @@
       "class": "noun"
     },
     {
-      "id": 7,
+      "id": 40007,
       "spanish": "emocional",
       "english": "emotional",
       "french": "émotionnel",
@@ -58,7 +58,7 @@
       "class": "adjective"
     },
     {
-      "id": 8,
+      "id": 40008,
       "spanish": "era",
       "english": "era",
       "french": "c'était",
@@ -66,7 +66,7 @@
       "class": "noun"
     },
     {
-      "id": 9,
+      "id": 40009,
       "spanish": "vinagre",
       "english": "vinegar",
       "french": "vinaigre",
@@ -74,7 +74,7 @@
       "class": "noun"
     },
     {
-      "id": 10,
+      "id": 40010,
       "spanish": "silencioso",
       "english": "silent",
       "french": "silencieux",
@@ -82,7 +82,7 @@
       "class": "adjective"
     },
     {
-      "id": 11,
+      "id": 40011,
       "spanish": "equivalente",
       "english": "equivalent",
       "french": "équivalent",
@@ -90,7 +90,7 @@
       "class": "noun"
     },
     {
-      "id": 12,
+      "id": 40012,
       "spanish": "cooperativa",
       "english": "cooperative",
       "french": "coopérative",
@@ -98,7 +98,7 @@
       "class": "noun"
     },
     {
-      "id": 13,
+      "id": 40013,
       "spanish": "celo",
       "english": "jealousy",
       "french": "chaleur",
@@ -106,7 +106,7 @@
       "class": "noun"
     },
     {
-      "id": 14,
+      "id": 40014,
       "spanish": "relatar",
       "english": "to recount",
       "french": "raconter",
@@ -114,7 +114,7 @@
       "class": "verb"
     },
     {
-      "id": 15,
+      "id": 40015,
       "spanish": "cortesía",
       "english": "courtesy",
       "french": "par courtoisie",
@@ -122,7 +122,7 @@
       "class": "noun"
     },
     {
-      "id": 16,
+      "id": 40016,
       "spanish": "entretener",
       "english": "entertain",
       "french": "divertir",
@@ -130,7 +130,7 @@
       "class": "verb"
     },
     {
-      "id": 17,
+      "id": 40017,
       "spanish": "fortalecer",
       "english": "strengthen",
       "french": "renforcer",
@@ -138,7 +138,7 @@
       "class": "verb"
     },
     {
-      "id": 18,
+      "id": 40018,
       "spanish": "contradicción",
       "english": "contradiction",
       "french": "contradiction",
@@ -146,7 +146,7 @@
       "class": "noun"
     },
     {
-      "id": 19,
+      "id": 40019,
       "spanish": "almendra",
       "english": "almond",
       "french": "amande",
@@ -154,7 +154,7 @@
       "class": "noun"
     },
     {
-      "id": 20,
+      "id": 40020,
       "spanish": "disfrute",
       "english": "enjoyment",
       "french": "profitez-en",
@@ -162,7 +162,7 @@
       "class": "noun"
     },
     {
-      "id": 21,
+      "id": 40021,
       "spanish": "reflexión",
       "english": "reflection",
       "french": "réflexion",
@@ -170,7 +170,7 @@
       "class": "noun"
     },
     {
-      "id": 22,
+      "id": 40022,
       "spanish": "ahogar",
       "english": "drown",
       "french": "étouffer",
@@ -178,7 +178,7 @@
       "class": "verb"
     },
     {
-      "id": 23,
+      "id": 40023,
       "spanish": "sacerdote",
       "english": "priest",
       "french": "prêtre",
@@ -186,7 +186,7 @@
       "class": "noun"
     },
     {
-      "id": 24,
+      "id": 40024,
       "spanish": "indemnización",
       "english": "compensation",
       "french": "indemnisation",
@@ -194,7 +194,7 @@
       "class": "noun"
     },
     {
-      "id": 25,
+      "id": 40025,
       "spanish": "convencional",
       "english": "conventional",
       "french": "conventionnel",
@@ -202,7 +202,7 @@
       "class": "adjective"
     },
     {
-      "id": 26,
+      "id": 40026,
       "spanish": "estallar",
       "english": "explode",
       "french": "exploser",
@@ -210,7 +210,7 @@
       "class": "verb"
     },
     {
-      "id": 27,
+      "id": 40027,
       "spanish": "mosquito",
       "english": "mosquito",
       "french": "moustique",
@@ -218,7 +218,7 @@
       "class": "noun"
     },
     {
-      "id": 28,
+      "id": 40028,
       "spanish": "prisión",
       "english": "prison",
       "french": "prison",
@@ -226,7 +226,7 @@
       "class": "noun"
     },
     {
-      "id": 29,
+      "id": 40029,
       "spanish": "oculto",
       "english": "hidden",
       "french": "caché",
@@ -234,7 +234,7 @@
       "class": "adjective"
     },
     {
-      "id": 30,
+      "id": 40030,
       "spanish": "golpear",
       "english": "hit",
       "french": "frapper",
@@ -242,7 +242,7 @@
       "class": "verb"
     },
     {
-      "id": 31,
+      "id": 40031,
       "spanish": "expedición",
       "english": "shipment",
       "french": "expédition",
@@ -250,7 +250,7 @@
       "class": "noun"
     },
     {
-      "id": 32,
+      "id": 40032,
       "spanish": "modificar",
       "english": "edit",
       "french": "modifier",
@@ -258,7 +258,7 @@
       "class": "verb"
     },
     {
-      "id": 33,
+      "id": 40033,
       "spanish": "confuso",
       "english": "confusing",
       "french": "confus",
@@ -266,7 +266,7 @@
       "class": "adjective"
     },
     {
-      "id": 34,
+      "id": 40034,
       "spanish": "televisivo",
       "english": "television",
       "french": "télévisé",
@@ -274,7 +274,7 @@
       "class": "adjective"
     },
     {
-      "id": 35,
+      "id": 40035,
       "spanish": "marina",
       "english": "navy",
       "french": "marine",
@@ -282,7 +282,7 @@
       "class": "noun"
     },
     {
-      "id": 36,
+      "id": 40036,
       "spanish": "perspectiva",
       "english": "perspective",
       "french": "perspective",
@@ -290,7 +290,7 @@
       "class": "noun"
     },
     {
-      "id": 37,
+      "id": 40037,
       "spanish": "foca",
       "english": "seal",
       "french": "phoque",
@@ -298,7 +298,7 @@
       "class": "noun"
     },
     {
-      "id": 38,
+      "id": 40038,
       "spanish": "minero",
       "english": "miner",
       "french": "mineur",
@@ -306,7 +306,7 @@
       "class": "adjective"
     },
     {
-      "id": 39,
+      "id": 40039,
       "spanish": "caída",
       "english": "fall",
       "french": "chute",
@@ -314,7 +314,7 @@
       "class": "noun"
     },
     {
-      "id": 40,
+      "id": 40040,
       "spanish": "beneficiar",
       "english": "benefit",
       "french": "profiter",
@@ -322,7 +322,7 @@
       "class": "verb"
     },
     {
-      "id": 41,
+      "id": 40041,
       "spanish": "profecía",
       "english": "prophecy",
       "french": "prophétie",
@@ -330,7 +330,7 @@
       "class": "noun"
     },
     {
-      "id": 42,
+      "id": 40042,
       "spanish": "operar",
       "english": "to operate",
       "french": "opérer",
@@ -338,7 +338,7 @@
       "class": "verb"
     },
     {
-      "id": 43,
+      "id": 40043,
       "spanish": "figurar",
       "english": "appear",
       "french": "figurer",
@@ -346,7 +346,7 @@
       "class": "verb"
     },
     {
-      "id": 44,
+      "id": 40044,
       "spanish": "diplomático",
       "english": "diplomatic",
       "french": "diplomatique",
@@ -354,7 +354,7 @@
       "class": "adjective"
     },
     {
-      "id": 45,
+      "id": 40045,
       "spanish": "célula",
       "english": "cell",
       "french": "cellule",
@@ -362,7 +362,7 @@
       "class": "noun"
     },
     {
-      "id": 46,
+      "id": 40046,
       "spanish": "compuesto",
       "english": "compound",
       "french": "composé",
@@ -370,7 +370,7 @@
       "class": "noun"
     },
     {
-      "id": 47,
+      "id": 40047,
       "spanish": "singular",
       "english": "singular",
       "french": "singulier",
@@ -378,7 +378,7 @@
       "class": "adjective"
     },
     {
-      "id": 48,
+      "id": 40048,
       "spanish": "caramelo",
       "english": "candy",
       "french": "bonbon",
@@ -386,7 +386,7 @@
       "class": "noun"
     },
     {
-      "id": 49,
+      "id": 40049,
       "spanish": "vicio",
       "english": "vice",
       "french": "vice",
@@ -394,7 +394,7 @@
       "class": "noun"
     },
     {
-      "id": 50,
+      "id": 40050,
       "spanish": "cerro",
       "english": "hill",
       "french": "colline",
@@ -402,7 +402,7 @@
       "class": "noun"
     },
     {
-      "id": 51,
+      "id": 40051,
       "spanish": "paterno",
       "english": "paternal",
       "french": "paternel",
@@ -410,7 +410,7 @@
       "class": "adjective"
     },
     {
-      "id": 52,
+      "id": 40052,
       "spanish": "decena",
       "english": "tens",
       "french": "dizaine",
@@ -418,7 +418,7 @@
       "class": "noun"
     },
     {
-      "id": 53,
+      "id": 40053,
       "spanish": "creciente",
       "english": "growing",
       "french": "croissant",
@@ -426,7 +426,7 @@
       "class": "adjective"
     },
     {
-      "id": 54,
+      "id": 40054,
       "spanish": "cálculo",
       "english": "calculation",
       "french": "calcul",
@@ -434,7 +434,7 @@
       "class": "noun"
     },
     {
-      "id": 55,
+      "id": 40055,
       "spanish": "brecha",
       "english": "gap",
       "french": "écart",
@@ -442,7 +442,7 @@
       "class": "noun"
     },
     {
-      "id": 56,
+      "id": 40056,
       "spanish": "tribunal",
       "english": "court",
       "french": "tribunal",
@@ -450,7 +450,7 @@
       "class": "noun"
     },
     {
-      "id": 57,
+      "id": 40057,
       "spanish": "lesión",
       "english": "injury",
       "french": "blessure",
@@ -458,7 +458,7 @@
       "class": "noun"
     },
     {
-      "id": 58,
+      "id": 40058,
       "spanish": "mamífero",
       "english": "mammal",
       "french": "mammifère",
@@ -466,7 +466,7 @@
       "class": "noun"
     },
     {
-      "id": 59,
+      "id": 40059,
       "spanish": "espiritual",
       "english": "spiritual",
       "french": "spirituel",
@@ -474,7 +474,7 @@
       "class": "adjective"
     },
     {
-      "id": 60,
+      "id": 40060,
       "spanish": "hipótesis",
       "english": "hypothesis",
       "french": "hypothèse",
@@ -482,7 +482,7 @@
       "class": "noun"
     },
     {
-      "id": 61,
+      "id": 40061,
       "spanish": "desempleo",
       "english": "unemployment",
       "french": "chômage",
@@ -490,7 +490,7 @@
       "class": "noun"
     },
     {
-      "id": 62,
+      "id": 40062,
       "spanish": "revés",
       "english": "setback",
       "french": "revers",
@@ -498,7 +498,7 @@
       "class": "noun"
     },
     {
-      "id": 63,
+      "id": 40063,
       "spanish": "emperador",
       "english": "emperor",
       "french": "empereur",
@@ -506,7 +506,7 @@
       "class": "noun"
     },
     {
-      "id": 64,
+      "id": 40064,
       "spanish": "abundante",
       "english": "abundant",
       "french": "abondant",
@@ -514,7 +514,7 @@
       "class": "adjective"
     },
     {
-      "id": 65,
+      "id": 40065,
       "spanish": "simpatía",
       "english": "sympathy",
       "french": "sympathie",
@@ -522,7 +522,7 @@
       "class": "noun"
     },
     {
-      "id": 66,
+      "id": 40066,
       "spanish": "dosis",
       "english": "dose",
       "french": "dose",
@@ -530,7 +530,7 @@
       "class": "noun"
     },
     {
-      "id": 67,
+      "id": 40067,
       "spanish": "expulsión",
       "english": "expulsion",
       "french": "expulsion",
@@ -538,7 +538,7 @@
       "class": "noun"
     },
     {
-      "id": 68,
+      "id": 40068,
       "spanish": "malentendido",
       "english": "misunderstanding",
       "french": "malentendu",
@@ -546,7 +546,7 @@
       "class": "noun"
     },
     {
-      "id": 69,
+      "id": 40069,
       "spanish": "lince",
       "english": "lynx",
       "french": "lynx",
@@ -554,7 +554,7 @@
       "class": "noun"
     },
     {
-      "id": 70,
+      "id": 40070,
       "spanish": "coro",
       "english": "chorus",
       "french": "refrain",
@@ -562,7 +562,7 @@
       "class": "noun"
     },
     {
-      "id": 71,
+      "id": 40071,
       "spanish": "flotar",
       "english": "float",
       "french": "flotter",
@@ -570,7 +570,7 @@
       "class": "verb"
     },
     {
-      "id": 72,
+      "id": 40072,
       "spanish": "amoroso",
       "english": "loving",
       "french": "amoureux",
@@ -578,7 +578,7 @@
       "class": "adjective"
     },
     {
-      "id": 73,
+      "id": 40073,
       "spanish": "visual",
       "english": "visual",
       "french": "visuel",
@@ -586,7 +586,7 @@
       "class": "adjective"
     },
     {
-      "id": 74,
+      "id": 40074,
       "spanish": "apto",
       "english": "suitable",
       "french": "adapté",
@@ -594,7 +594,7 @@
       "class": "adjective"
     },
     {
-      "id": 75,
+      "id": 40075,
       "spanish": "bienal",
       "english": "biennial",
       "french": "biennale",
@@ -602,7 +602,7 @@
       "class": "noun"
     },
     {
-      "id": 76,
+      "id": 40076,
       "spanish": "préstamo",
       "english": "loan",
       "french": "prêt",
@@ -610,7 +610,7 @@
       "class": "noun"
     },
     {
-      "id": 77,
+      "id": 40077,
       "spanish": "cooperación",
       "english": "cooperation",
       "french": "coopération",
@@ -618,7 +618,7 @@
       "class": "noun"
     },
     {
-      "id": 78,
+      "id": 40078,
       "spanish": "abreviar",
       "english": "to abbreviate",
       "french": "abréger",
@@ -626,7 +626,7 @@
       "class": "verb"
     },
     {
-      "id": 79,
+      "id": 40079,
       "spanish": "clasificar",
       "english": "sort",
       "french": "classer",
@@ -634,7 +634,7 @@
       "class": "verb"
     },
     {
-      "id": 80,
+      "id": 40080,
       "spanish": "resistencia",
       "english": "resistance",
       "french": "résistance",
@@ -642,7 +642,7 @@
       "class": "noun"
     },
     {
-      "id": 81,
+      "id": 40081,
       "spanish": "azar",
       "english": "chance",
       "french": "au hasard",
@@ -650,7 +650,7 @@
       "class": "noun"
     },
     {
-      "id": 82,
+      "id": 40082,
       "spanish": "instinto",
       "english": "instinct",
       "french": "instinct",
@@ -658,7 +658,7 @@
       "class": "noun"
     },
     {
-      "id": 83,
+      "id": 40083,
       "spanish": "forzar",
       "english": "to force",
       "french": "forcer",
@@ -666,7 +666,7 @@
       "class": "verb"
     },
     {
-      "id": 84,
+      "id": 40084,
       "spanish": "movilidad",
       "english": "mobility",
       "french": "mobilité",
@@ -674,7 +674,7 @@
       "class": "noun"
     },
     {
-      "id": 85,
+      "id": 40085,
       "spanish": "presidir",
       "english": "to preside over",
       "french": "présider",
@@ -682,7 +682,7 @@
       "class": "verb"
     },
     {
-      "id": 86,
+      "id": 40086,
       "spanish": "aventurero",
       "english": "adventurer",
       "french": "aventurier",
@@ -690,7 +690,7 @@
       "class": "adjective"
     },
     {
-      "id": 87,
+      "id": 40087,
       "spanish": "contable",
       "english": "accountant",
       "french": "comptable",
@@ -698,7 +698,7 @@
       "class": "adjective"
     },
     {
-      "id": 88,
+      "id": 40088,
       "spanish": "distraer",
       "english": "distract",
       "french": "distrayer",
@@ -706,7 +706,7 @@
       "class": "verb"
     },
     {
-      "id": 89,
+      "id": 40089,
       "spanish": "multiplicar",
       "english": "multiply",
       "french": "multiplier",
@@ -714,7 +714,7 @@
       "class": "verb"
     },
     {
-      "id": 90,
+      "id": 40090,
       "spanish": "introvertido",
       "english": "introverted",
       "french": "introverti",
@@ -722,7 +722,7 @@
       "class": "adjective"
     },
     {
-      "id": 91,
+      "id": 40091,
       "spanish": "ocasionar",
       "english": "to cause",
       "french": "provoquer",
@@ -730,7 +730,7 @@
       "class": "verb"
     },
     {
-      "id": 92,
+      "id": 40092,
       "spanish": "ignorar",
       "english": "ignore",
       "french": "ignorer",
@@ -738,7 +738,7 @@
       "class": "verb"
     },
     {
-      "id": 93,
+      "id": 40093,
       "spanish": "infidelidad",
       "english": "infidelity",
       "french": "infidélité",
@@ -746,7 +746,7 @@
       "class": "noun"
     },
     {
-      "id": 94,
+      "id": 40094,
       "spanish": "eclipse",
       "english": "eclipse",
       "french": "éclipse",
@@ -754,7 +754,7 @@
       "class": "noun"
     },
     {
-      "id": 95,
+      "id": 40095,
       "spanish": "virtud",
       "english": "virtue",
       "french": "vertu",
@@ -762,7 +762,7 @@
       "class": "noun"
     },
     {
-      "id": 96,
+      "id": 40096,
       "spanish": "queja",
       "english": "complaint",
       "french": "plainte",
@@ -770,7 +770,7 @@
       "class": "noun"
     },
     {
-      "id": 97,
+      "id": 40097,
       "spanish": "órgano",
       "english": "organ",
       "french": "orgue",
@@ -778,7 +778,7 @@
       "class": "noun"
     },
     {
-      "id": 98,
+      "id": 40098,
       "spanish": "manejo",
       "english": "handling",
       "french": "conduite",
@@ -786,7 +786,7 @@
       "class": "noun"
     },
     {
-      "id": 99,
+      "id": 40099,
       "spanish": "granada",
       "english": "grenade",
       "french": "grenade",
@@ -794,7 +794,7 @@
       "class": "noun"
     },
     {
-      "id": 100,
+      "id": 40100,
       "spanish": "alterar",
       "english": "alter",
       "french": "modifier",
@@ -802,7 +802,7 @@
       "class": "verb"
     },
     {
-      "id": 101,
+      "id": 40101,
       "spanish": "tonelada",
       "english": "metric ton",
       "french": "tonne",
@@ -810,7 +810,7 @@
       "class": "noun"
     },
     {
-      "id": 102,
+      "id": 40102,
       "spanish": "pertenencia",
       "english": "belonging",
       "french": "appartenance",
@@ -818,7 +818,7 @@
       "class": "noun"
     },
     {
-      "id": 103,
+      "id": 40103,
       "spanish": "atentado",
       "english": "attack",
       "french": "attentat",
@@ -826,7 +826,7 @@
       "class": "noun"
     },
     {
-      "id": 104,
+      "id": 40104,
       "spanish": "judicial",
       "english": "judicial",
       "french": "judiciaire",
@@ -834,7 +834,7 @@
       "class": "adjective"
     },
     {
-      "id": 105,
+      "id": 40105,
       "spanish": "comprensión",
       "english": "understanding",
       "french": "compréhension",
@@ -842,7 +842,7 @@
       "class": "noun"
     },
     {
-      "id": 106,
+      "id": 40106,
       "spanish": "insólito",
       "english": "unusual",
       "french": "insolite",
@@ -850,7 +850,7 @@
       "class": "adjective"
     },
     {
-      "id": 107,
+      "id": 40107,
       "spanish": "apariencia",
       "english": "appearance",
       "french": "apparence",
@@ -858,7 +858,7 @@
       "class": "noun"
     },
     {
-      "id": 108,
+      "id": 40108,
       "spanish": "concepción",
       "english": "conception",
       "french": "conception",
@@ -866,7 +866,7 @@
       "class": "noun"
     },
     {
-      "id": 109,
+      "id": 40109,
       "spanish": "extenso",
       "english": "extensive",
       "french": "vaste",
@@ -874,7 +874,7 @@
       "class": "adjective"
     },
     {
-      "id": 110,
+      "id": 40110,
       "spanish": "rol",
       "english": "role",
       "french": "rôle",
@@ -882,7 +882,7 @@
       "class": "noun"
     },
     {
-      "id": 111,
+      "id": 40111,
       "spanish": "conde",
       "english": "count",
       "french": "comte",
@@ -890,7 +890,7 @@
       "class": "noun"
     },
     {
-      "id": 112,
+      "id": 40112,
       "spanish": "cemento",
       "english": "cement",
       "french": "ciment",
@@ -898,7 +898,7 @@
       "class": "noun"
     },
     {
-      "id": 113,
+      "id": 40113,
       "spanish": "traductor",
       "english": "translator",
       "french": "traducteur",
@@ -906,7 +906,7 @@
       "class": "noun"
     },
     {
-      "id": 114,
+      "id": 40114,
       "spanish": "conejo",
       "english": "rabbit",
       "french": "lapin",
@@ -914,7 +914,7 @@
       "class": "noun"
     },
     {
-      "id": 115,
+      "id": 40115,
       "spanish": "frecuentar",
       "english": "to frequent",
       "french": "fréquenter",
@@ -922,7 +922,7 @@
       "class": "verb"
     },
     {
-      "id": 116,
+      "id": 40116,
       "spanish": "obrero",
       "english": "worker",
       "french": "ouvrier",
@@ -930,7 +930,7 @@
       "class": "noun"
     },
     {
-      "id": 117,
+      "id": 40117,
       "spanish": "maquillaje",
       "english": "makeup",
       "french": "maquillage",
@@ -938,7 +938,7 @@
       "class": "noun"
     },
     {
-      "id": 118,
+      "id": 40118,
       "spanish": "explotación",
       "english": "exploitation",
       "french": "exploitation",
@@ -946,7 +946,7 @@
       "class": "noun"
     },
     {
-      "id": 119,
+      "id": 40119,
       "spanish": "catálogo",
       "english": "catalog",
       "french": "catalogue",
@@ -954,7 +954,7 @@
       "class": "noun"
     },
     {
-      "id": 120,
+      "id": 40120,
       "spanish": "rayuela",
       "english": "hopscotch",
       "french": "marelle",
@@ -962,7 +962,7 @@
       "class": "noun"
     },
     {
-      "id": 121,
+      "id": 40121,
       "spanish": "irregular",
       "english": "irregular",
       "french": "irrégulier",
@@ -970,7 +970,7 @@
       "class": "adjective"
     },
     {
-      "id": 122,
+      "id": 40122,
       "spanish": "integral",
       "english": "comprehensive",
       "french": "intégral",
@@ -978,7 +978,7 @@
       "class": "adjective"
     },
     {
-      "id": 123,
+      "id": 40123,
       "spanish": "orgullo",
       "english": "pride",
       "french": "fierté",
@@ -986,7 +986,7 @@
       "class": "noun"
     },
     {
-      "id": 124,
+      "id": 40124,
       "spanish": "examinar",
       "english": "to examine",
       "french": "examiner",
@@ -994,7 +994,7 @@
       "class": "verb"
     },
     {
-      "id": 125,
+      "id": 40125,
       "spanish": "potencial",
       "english": "potential",
       "french": "potentiel",
@@ -1002,7 +1002,7 @@
       "class": "noun"
     },
     {
-      "id": 126,
+      "id": 40126,
       "spanish": "sistemático",
       "english": "systematic",
       "french": "systématique",
@@ -1010,7 +1010,7 @@
       "class": "adjective"
     },
     {
-      "id": 127,
+      "id": 40127,
       "spanish": "lotería",
       "english": "lottery",
       "french": "loterie",
@@ -1018,7 +1018,7 @@
       "class": "noun"
     },
     {
-      "id": 128,
+      "id": 40128,
       "spanish": "mosaico",
       "english": "mosaic",
       "french": "mosaïque",
@@ -1026,7 +1026,7 @@
       "class": "noun"
     },
     {
-      "id": 129,
+      "id": 40129,
       "spanish": "justificar",
       "english": "justify",
       "french": "justifier",
@@ -1034,7 +1034,7 @@
       "class": "verb"
     },
     {
-      "id": 130,
+      "id": 40130,
       "spanish": "mayoritario",
       "english": "majority",
       "french": "majoritaire",
@@ -1042,7 +1042,7 @@
       "class": "adjective"
     },
     {
-      "id": 131,
+      "id": 40131,
       "spanish": "heredar",
       "english": "inherit",
       "french": "hériter",
@@ -1050,7 +1050,7 @@
       "class": "verb"
     },
     {
-      "id": 132,
+      "id": 40132,
       "spanish": "aceptación",
       "english": "acceptance",
       "french": "acceptation",
@@ -1058,7 +1058,7 @@
       "class": "noun"
     },
     {
-      "id": 133,
+      "id": 40133,
       "spanish": "dependencia",
       "english": "dependence",
       "french": "dépendance",
@@ -1066,7 +1066,7 @@
       "class": "noun"
     },
     {
-      "id": 134,
+      "id": 40134,
       "spanish": "vínculo",
       "english": "link",
       "french": "lien",
@@ -1074,7 +1074,7 @@
       "class": "noun"
     },
     {
-      "id": 135,
+      "id": 40135,
       "spanish": "mama",
       "english": "mom",
       "french": "maman",
@@ -1082,7 +1082,7 @@
       "class": "noun"
     },
     {
-      "id": 136,
+      "id": 40136,
       "spanish": "continuidad",
       "english": "continuity",
       "french": "continuité",
@@ -1090,7 +1090,7 @@
       "class": "noun"
     },
     {
-      "id": 137,
+      "id": 40137,
       "spanish": "plácido",
       "english": "peaceful",
       "french": "serein",
@@ -1098,7 +1098,7 @@
       "class": "adjective"
     },
     {
-      "id": 138,
+      "id": 40138,
       "spanish": "normalidad",
       "english": "normality",
       "french": "normalité",
@@ -1106,7 +1106,7 @@
       "class": "noun"
     },
     {
-      "id": 139,
+      "id": 40139,
       "spanish": "impulso",
       "english": "momentum",
       "french": "élan",
@@ -1114,7 +1114,7 @@
       "class": "noun"
     },
     {
-      "id": 140,
+      "id": 40140,
       "spanish": "protector",
       "english": "protector",
       "french": "protecteur",
@@ -1122,7 +1122,7 @@
       "class": "noun"
     },
     {
-      "id": 141,
+      "id": 40141,
       "spanish": "extrovertido",
       "english": "outgoing",
       "french": "extraverti",
@@ -1130,7 +1130,7 @@
       "class": "adjective"
     },
     {
-      "id": 142,
+      "id": 40142,
       "spanish": "portar",
       "english": "carry",
       "french": "porter",
@@ -1138,7 +1138,7 @@
       "class": "verb"
     },
     {
-      "id": 143,
+      "id": 40143,
       "spanish": "salmón",
       "english": "salmon",
       "french": "saumon",
@@ -1146,7 +1146,7 @@
       "class": "noun"
     },
     {
-      "id": 144,
+      "id": 40144,
       "spanish": "amabilidad",
       "english": "kindness",
       "french": "gentillesse",
@@ -1154,7 +1154,7 @@
       "class": "noun"
     },
     {
-      "id": 145,
+      "id": 40145,
       "spanish": "derivado",
       "english": "derived",
       "french": "dérivé",
@@ -1162,7 +1162,7 @@
       "class": "noun"
     },
     {
-      "id": 146,
+      "id": 40146,
       "spanish": "zorro",
       "english": "fox",
       "french": "renard",
@@ -1170,7 +1170,7 @@
       "class": "noun"
     },
     {
-      "id": 147,
+      "id": 40147,
       "spanish": "pizarro",
       "english": "chalkboard",
       "french": "tableau noir",
@@ -1178,7 +1178,7 @@
       "class": "noun"
     },
     {
-      "id": 148,
+      "id": 40148,
       "spanish": "ambición",
       "english": "ambition",
       "french": "ambition",
@@ -1186,7 +1186,7 @@
       "class": "noun"
     },
     {
-      "id": 149,
+      "id": 40149,
       "spanish": "existente",
       "english": "existing",
       "french": "existant",
@@ -1194,7 +1194,7 @@
       "class": "adjective"
     },
     {
-      "id": 150,
+      "id": 40150,
       "spanish": "desbordar",
       "english": "overflow",
       "french": "débordant",
@@ -1202,7 +1202,7 @@
       "class": "verb"
     },
     {
-      "id": 151,
+      "id": 40151,
       "spanish": "aliento",
       "english": "breath",
       "french": "souffle",
@@ -1210,7 +1210,7 @@
       "class": "noun"
     },
     {
-      "id": 152,
+      "id": 40152,
       "spanish": "instantáneo",
       "english": "instant",
       "french": "instantané",
@@ -1218,7 +1218,7 @@
       "class": "adjective"
     },
     {
-      "id": 153,
+      "id": 40153,
       "spanish": "lazo",
       "english": "bow",
       "french": "nœud",
@@ -1226,7 +1226,7 @@
       "class": "noun"
     },
     {
-      "id": 154,
+      "id": 40154,
       "spanish": "trágico",
       "english": "tragic",
       "french": "tragique",
@@ -1234,7 +1234,7 @@
       "class": "adjective"
     },
     {
-      "id": 155,
+      "id": 40155,
       "spanish": "exigente",
       "english": "demanding",
       "french": "exigeant",
@@ -1242,7 +1242,7 @@
       "class": "adjective"
     },
     {
-      "id": 156,
+      "id": 40156,
       "spanish": "dignidad",
       "english": "dignity",
       "french": "dignité",
@@ -1250,7 +1250,7 @@
       "class": "noun"
     },
     {
-      "id": 157,
+      "id": 40157,
       "spanish": "exhibición",
       "english": "exhibition",
       "french": "exposition",
@@ -1258,7 +1258,7 @@
       "class": "noun"
     },
     {
-      "id": 158,
+      "id": 40158,
       "spanish": "urbanístico",
       "english": "urban planning",
       "french": "urbanistique",
@@ -1266,7 +1266,7 @@
       "class": "adjective"
     },
     {
-      "id": 159,
+      "id": 40159,
       "spanish": "escocés",
       "english": "Scottish",
       "french": "écossais",
@@ -1274,7 +1274,7 @@
       "class": "adjective"
     },
     {
-      "id": 160,
+      "id": 40160,
       "spanish": "acreditar",
       "english": "to certify",
       "french": "accréditer",
@@ -1282,7 +1282,7 @@
       "class": "verb"
     },
     {
-      "id": 161,
+      "id": 40161,
       "spanish": "mero",
       "english": "number",
       "french": "numéro",
@@ -1290,7 +1290,7 @@
       "class": "adjective"
     },
     {
-      "id": 162,
+      "id": 40162,
       "spanish": "diferir",
       "english": "to postpone",
       "french": "différer",
@@ -1298,7 +1298,7 @@
       "class": "verb"
     },
     {
-      "id": 163,
+      "id": 40163,
       "spanish": "confeccionar",
       "english": "to make",
       "french": "confectionner",
@@ -1306,7 +1306,7 @@
       "class": "verb"
     },
     {
-      "id": 164,
+      "id": 40164,
       "spanish": "mortal",
       "english": "deadly",
       "french": "mortel",
@@ -1314,7 +1314,7 @@
       "class": "adjective"
     },
     {
-      "id": 165,
+      "id": 40165,
       "spanish": "coronar",
       "english": "to crown",
       "french": "couronner",
@@ -1322,7 +1322,7 @@
       "class": "verb"
     },
     {
-      "id": 166,
+      "id": 40166,
       "spanish": "peregrinación",
       "english": "pilgrimage",
       "french": "pèlerinage",
@@ -1330,7 +1330,7 @@
       "class": "noun"
     },
     {
-      "id": 167,
+      "id": 40167,
       "spanish": "cristianismo",
       "english": "Christianity",
       "french": "christianisme",
@@ -1338,7 +1338,7 @@
       "class": "noun"
     },
     {
-      "id": 168,
+      "id": 40168,
       "spanish": "perteneciente",
       "english": "belonging to",
       "french": "appartenant à",
@@ -1346,7 +1346,7 @@
       "class": "adjective"
     },
     {
-      "id": 169,
+      "id": 40169,
       "spanish": "sidra",
       "english": "cider",
       "french": "cidre",
@@ -1354,7 +1354,7 @@
       "class": "noun"
     },
     {
-      "id": 170,
+      "id": 40170,
       "spanish": "fluidez",
       "english": "fluidity",
       "french": "fluidité",
@@ -1362,7 +1362,7 @@
       "class": "noun"
     },
     {
-      "id": 171,
+      "id": 40171,
       "spanish": "especificar",
       "english": "specify",
       "french": "préciser",
@@ -1370,7 +1370,7 @@
       "class": "verb"
     },
     {
-      "id": 172,
+      "id": 40172,
       "spanish": "excelencia",
       "english": "excellence",
       "french": "excellence",
@@ -1378,7 +1378,7 @@
       "class": "noun"
     },
     {
-      "id": 173,
+      "id": 40173,
       "spanish": "masticar",
       "english": "to chew",
       "french": "mâcher",
@@ -1386,7 +1386,7 @@
       "class": "verb"
     },
     {
-      "id": 174,
+      "id": 40174,
       "spanish": "sospecha",
       "english": "suspicion",
       "french": "soupçon",
@@ -1394,7 +1394,7 @@
       "class": "noun"
     },
     {
-      "id": 175,
+      "id": 40175,
       "spanish": "temor",
       "english": "fear",
       "french": "crainte",
@@ -1402,7 +1402,7 @@
       "class": "noun"
     },
     {
-      "id": 176,
+      "id": 40176,
       "spanish": "recetar",
       "english": "to prescribe",
       "french": "prescrire",
@@ -1410,7 +1410,7 @@
       "class": "verb"
     },
     {
-      "id": 177,
+      "id": 40177,
       "spanish": "tópico",
       "english": "cliché",
       "french": "cliché",
@@ -1418,7 +1418,7 @@
       "class": "noun"
     },
     {
-      "id": 178,
+      "id": 40178,
       "spanish": "turrón",
       "english": "nougat",
       "french": "nougat",
@@ -1426,7 +1426,7 @@
       "class": "noun"
     },
     {
-      "id": 179,
+      "id": 40179,
       "spanish": "cocodrilo",
       "english": "crocodile",
       "french": "crocodile",
@@ -1434,7 +1434,7 @@
       "class": "noun"
     },
     {
-      "id": 180,
+      "id": 40180,
       "spanish": "poetisa",
       "english": "female poet",
       "french": "poétesse",
@@ -1442,7 +1442,7 @@
       "class": "noun"
     },
     {
-      "id": 181,
+      "id": 40181,
       "spanish": "censo",
       "english": "census",
       "french": "recensement",
@@ -1450,7 +1450,7 @@
       "class": "noun"
     },
     {
-      "id": 182,
+      "id": 40182,
       "spanish": "economista",
       "english": "economist",
       "french": "économiste",
@@ -1458,7 +1458,7 @@
       "class": "noun"
     },
     {
-      "id": 183,
+      "id": 40183,
       "spanish": "astronomía",
       "english": "astronomy",
       "french": "astronomie",
@@ -1466,7 +1466,7 @@
       "class": "noun"
     },
     {
-      "id": 184,
+      "id": 40184,
       "spanish": "veterinario",
       "english": "veterinarian",
       "french": "vétérinaire",
@@ -1474,7 +1474,7 @@
       "class": "noun"
     },
     {
-      "id": 185,
+      "id": 40185,
       "spanish": "alabar",
       "english": "to praise",
       "french": "louer",
@@ -1482,7 +1482,7 @@
       "class": "verb"
     },
     {
-      "id": 186,
+      "id": 40186,
       "spanish": "prudente",
       "english": "prudent",
       "french": "prudent",
@@ -1490,7 +1490,7 @@
       "class": "adjective"
     },
     {
-      "id": 187,
+      "id": 40187,
       "spanish": "tsunami",
       "english": "tsunami",
       "french": "tsunami",
@@ -1498,7 +1498,7 @@
       "class": "noun"
     },
     {
-      "id": 188,
+      "id": 40188,
       "spanish": "envejecimiento",
       "english": "aging",
       "french": "vieillissement",
@@ -1506,7 +1506,7 @@
       "class": "noun"
     },
     {
-      "id": 189,
+      "id": 40189,
       "spanish": "rascar",
       "english": "scratch",
       "french": "gratter",
@@ -1514,7 +1514,7 @@
       "class": "verb"
     },
     {
-      "id": 190,
+      "id": 40190,
       "spanish": "librar",
       "english": "to deliver",
       "french": "libérer",
@@ -1522,7 +1522,7 @@
       "class": "verb"
     },
     {
-      "id": 191,
+      "id": 40191,
       "spanish": "eliminación",
       "english": "elimination",
       "french": "élimination",
@@ -1530,7 +1530,7 @@
       "class": "noun"
     },
     {
-      "id": 192,
+      "id": 40192,
       "spanish": "infierno",
       "english": "hell",
       "french": "enfer",
@@ -1538,7 +1538,7 @@
       "class": "noun"
     },
     {
-      "id": 193,
+      "id": 40193,
       "spanish": "moderar",
       "english": "moderate",
       "french": "modérer",
@@ -1546,7 +1546,7 @@
       "class": "verb"
     },
     {
-      "id": 194,
+      "id": 40194,
       "spanish": "temática",
       "english": "theme",
       "french": "thématique",
@@ -1554,7 +1554,7 @@
       "class": "noun"
     },
     {
-      "id": 195,
+      "id": 40195,
       "spanish": "antioxidante",
       "english": "antioxidant",
       "french": "antioxydant",
@@ -1562,7 +1562,7 @@
       "class": "adjective"
     },
     {
-      "id": 196,
+      "id": 40196,
       "spanish": "impactar",
       "english": "to impact",
       "french": "avoir un impact",
@@ -1570,7 +1570,7 @@
       "class": "verb"
     },
     {
-      "id": 197,
+      "id": 40197,
       "spanish": "recortar",
       "english": "cut out",
       "french": "découper",
@@ -1578,7 +1578,7 @@
       "class": "verb"
     },
     {
-      "id": 198,
+      "id": 40198,
       "spanish": "astronómico",
       "english": "astronomical",
       "french": "astronomique",
@@ -1586,7 +1586,7 @@
       "class": "adjective"
     },
     {
-      "id": 199,
+      "id": 40199,
       "spanish": "madurez",
       "english": "maturity",
       "french": "maturité",
@@ -1594,7 +1594,7 @@
       "class": "noun"
     },
     {
-      "id": 200,
+      "id": 40200,
       "spanish": "paga",
       "english": "pay",
       "french": "paie",
@@ -1602,7 +1602,7 @@
       "class": "noun"
     },
     {
-      "id": 201,
+      "id": 40201,
       "spanish": "consecutivo",
       "english": "consecutive",
       "french": "consécutif",
@@ -1610,7 +1610,7 @@
       "class": "adjective"
     },
     {
-      "id": 202,
+      "id": 40202,
       "spanish": "incalculable",
       "english": "incalculable",
       "french": "inestimable",
@@ -1618,7 +1618,7 @@
       "class": "adjective"
     },
     {
-      "id": 203,
+      "id": 40203,
       "spanish": "reivindicar",
       "english": "to claim",
       "french": "revendiquer",
@@ -1626,7 +1626,7 @@
       "class": "verb"
     },
     {
-      "id": 204,
+      "id": 40204,
       "spanish": "distracción",
       "english": "distraction",
       "french": "distraction",
@@ -1634,7 +1634,7 @@
       "class": "noun"
     },
     {
-      "id": 205,
+      "id": 40205,
       "spanish": "esquema",
       "english": "diagram",
       "french": "schéma",
@@ -1642,7 +1642,7 @@
       "class": "noun"
     },
     {
-      "id": 206,
+      "id": 40206,
       "spanish": "contorno",
       "english": "outline",
       "french": "contour",
@@ -1650,7 +1650,7 @@
       "class": "noun"
     },
     {
-      "id": 207,
+      "id": 40207,
       "spanish": "diluvio",
       "english": "flood",
       "french": "déluge",
@@ -1658,7 +1658,7 @@
       "class": "noun"
     },
     {
-      "id": 208,
+      "id": 40208,
       "spanish": "vacante",
       "english": "vacancy",
       "french": "poste vacant",
@@ -1666,7 +1666,7 @@
       "class": "noun"
     },
     {
-      "id": 209,
+      "id": 40209,
       "spanish": "envejecer",
       "english": "to grow old",
       "french": "vieillir",
@@ -1674,7 +1674,7 @@
       "class": "verb"
     },
     {
-      "id": 210,
+      "id": 40210,
       "spanish": "satisfactorio",
       "english": "satisfactory",
       "french": "satisfaisant",
@@ -1682,7 +1682,7 @@
       "class": "adjective"
     },
     {
-      "id": 211,
+      "id": 40211,
       "spanish": "sequía",
       "english": "drought",
       "french": "sécheresse",
@@ -1690,7 +1690,7 @@
       "class": "noun"
     },
     {
-      "id": 212,
+      "id": 40212,
       "spanish": "estricto",
       "english": "strict",
       "french": "strict",
@@ -1698,7 +1698,7 @@
       "class": "adjective"
     },
     {
-      "id": 213,
+      "id": 40213,
       "spanish": "sentencia",
       "english": "judgment",
       "french": "jugement",
@@ -1706,7 +1706,7 @@
       "class": "noun"
     },
     {
-      "id": 214,
+      "id": 40214,
       "spanish": "virus",
       "english": "virus",
       "french": "virus",
@@ -1714,7 +1714,7 @@
       "class": "noun"
     },
     {
-      "id": 215,
+      "id": 40215,
       "spanish": "consumar",
       "english": "consume",
       "french": "consommer",
@@ -1722,7 +1722,7 @@
       "class": "verb"
     },
     {
-      "id": 216,
+      "id": 40216,
       "spanish": "teórico",
       "english": "theoretical",
       "french": "théorique",
@@ -1730,7 +1730,7 @@
       "class": "adjective"
     },
     {
-      "id": 217,
+      "id": 40217,
       "spanish": "escandaloso",
       "english": "scandalous",
       "french": "scandaleux",
@@ -1738,7 +1738,7 @@
       "class": "adjective"
     },
     {
-      "id": 218,
+      "id": 40218,
       "spanish": "desalojar",
       "english": "evict",
       "french": "expulser",
@@ -1746,7 +1746,7 @@
       "class": "verb"
     },
     {
-      "id": 219,
+      "id": 40219,
       "spanish": "transacción",
       "english": "transaction",
       "french": "transaction",
@@ -1754,7 +1754,7 @@
       "class": "noun"
     },
     {
-      "id": 220,
+      "id": 40220,
       "spanish": "cera",
       "english": "wax",
       "french": "cire",
@@ -1762,7 +1762,7 @@
       "class": "noun"
     },
     {
-      "id": 221,
+      "id": 40221,
       "spanish": "gobernador",
       "english": "governor",
       "french": "gouverneur",
@@ -1770,7 +1770,7 @@
       "class": "noun"
     },
     {
-      "id": 222,
+      "id": 40222,
       "spanish": "huracán",
       "english": "hurricane",
       "french": "ouragan",
@@ -1778,7 +1778,7 @@
       "class": "noun"
     },
     {
-      "id": 223,
+      "id": 40223,
       "spanish": "contraer",
       "english": "contract",
       "french": "contracter",
@@ -1786,7 +1786,7 @@
       "class": "verb"
     },
     {
-      "id": 224,
+      "id": 40224,
       "spanish": "ejecutar",
       "english": "execute",
       "french": "exécuter",
@@ -1794,7 +1794,7 @@
       "class": "verb"
     },
     {
-      "id": 225,
+      "id": 40225,
       "spanish": "vena",
       "english": "vein",
       "french": "veine",
@@ -1802,7 +1802,7 @@
       "class": "noun"
     },
     {
-      "id": 226,
+      "id": 40226,
       "spanish": "concesión",
       "english": "concession",
       "french": "concession",
@@ -1810,7 +1810,7 @@
       "class": "noun"
     },
     {
-      "id": 227,
+      "id": 40227,
       "spanish": "precaución",
       "english": "caution",
       "french": "mise en garde",
@@ -1818,7 +1818,7 @@
       "class": "noun"
     },
     {
-      "id": 228,
+      "id": 40228,
       "spanish": "exhibir",
       "english": "display",
       "french": "exposer",
@@ -1826,7 +1826,7 @@
       "class": "verb"
     },
     {
-      "id": 229,
+      "id": 40229,
       "spanish": "parcial",
       "english": "partial",
       "french": "partiel",
@@ -1834,7 +1834,7 @@
       "class": "adjective"
     },
     {
-      "id": 230,
+      "id": 40230,
       "spanish": "celeste",
       "english": "sky blue",
       "french": "céleste",
@@ -1842,7 +1842,7 @@
       "class": "adjective"
     },
     {
-      "id": 231,
+      "id": 40231,
       "spanish": "precipitar",
       "english": "to rush",
       "french": "précipiter",
@@ -1850,7 +1850,7 @@
       "class": "verb"
     },
     {
-      "id": 232,
+      "id": 40232,
       "spanish": "ciclista",
       "english": "cyclist",
       "french": "cycliste",
@@ -1858,7 +1858,7 @@
       "class": "noun"
     },
     {
-      "id": 233,
+      "id": 40233,
       "spanish": "despegar",
       "english": "take off",
       "french": "décoller",
@@ -1866,7 +1866,7 @@
       "class": "verb"
     },
     {
-      "id": 234,
+      "id": 40234,
       "spanish": "subasta",
       "english": "auction",
       "french": "vente aux enchères",
@@ -1874,7 +1874,7 @@
       "class": "noun"
     },
     {
-      "id": 235,
+      "id": 40235,
       "spanish": "rival",
       "english": "rival",
       "french": "rival",
@@ -1882,7 +1882,7 @@
       "class": "noun"
     },
     {
-      "id": 236,
+      "id": 40236,
       "spanish": "esclavitud",
       "english": "slavery",
       "french": "esclavage",
@@ -1890,7 +1890,7 @@
       "class": "noun"
     },
     {
-      "id": 237,
+      "id": 40237,
       "spanish": "mármol",
       "english": "marble",
       "french": "marbre",
@@ -1898,7 +1898,7 @@
       "class": "noun"
     },
     {
-      "id": 238,
+      "id": 40238,
       "spanish": "movilizar",
       "english": "mobilize",
       "french": "mobiliser",
@@ -1906,7 +1906,7 @@
       "class": "verb"
     },
     {
-      "id": 239,
+      "id": 40239,
       "spanish": "alarmar",
       "english": "to alarm",
       "french": "alarmer",
@@ -1914,7 +1914,7 @@
       "class": "verb"
     },
     {
-      "id": 240,
+      "id": 40240,
       "spanish": "imposibilidad",
       "english": "impossibility",
       "french": "impossibilité",
@@ -1922,7 +1922,7 @@
       "class": "noun"
     },
     {
-      "id": 241,
+      "id": 40241,
       "spanish": "refugiar",
       "english": "take refuge",
       "french": "accueillir",
@@ -1930,7 +1930,7 @@
       "class": "verb"
     },
     {
-      "id": 242,
+      "id": 40242,
       "spanish": "enfoque",
       "english": "approach",
       "french": "approche",
@@ -1938,7 +1938,7 @@
       "class": "noun"
     },
     {
-      "id": 243,
+      "id": 40243,
       "spanish": "vitalidad",
       "english": "vitality",
       "french": "vitalité",
@@ -1946,7 +1946,7 @@
       "class": "noun"
     },
     {
-      "id": 244,
+      "id": 40244,
       "spanish": "expresividad",
       "english": "expressiveness",
       "french": "expressivité",
@@ -1954,7 +1954,7 @@
       "class": "noun"
     },
     {
-      "id": 245,
+      "id": 40245,
       "spanish": "verter",
       "english": "pour",
       "french": "verser",
@@ -1962,7 +1962,7 @@
       "class": "verb"
     },
     {
-      "id": 246,
+      "id": 40246,
       "spanish": "refrescar",
       "english": "refresh",
       "french": "rafraîchir",
@@ -1970,7 +1970,7 @@
       "class": "verb"
     },
     {
-      "id": 247,
+      "id": 40247,
       "spanish": "cal",
       "english": "lime",
       "french": "chaux",
@@ -1978,7 +1978,7 @@
       "class": "noun"
     },
     {
-      "id": 248,
+      "id": 40248,
       "spanish": "ribera",
       "english": "riverbank",
       "french": "rive",
@@ -1986,7 +1986,7 @@
       "class": "noun"
     },
     {
-      "id": 249,
+      "id": 40249,
       "spanish": "corroborar",
       "english": "verify",
       "french": "vérifier",
@@ -1994,7 +1994,7 @@
       "class": "verb"
     },
     {
-      "id": 250,
+      "id": 40250,
       "spanish": "aurora",
       "english": "dawn",
       "french": "aurore",
@@ -2002,7 +2002,7 @@
       "class": "noun"
     },
     {
-      "id": 251,
+      "id": 40251,
       "spanish": "estándar",
       "english": "standard",
       "french": "standard",
@@ -2010,7 +2010,7 @@
       "class": "noun"
     },
     {
-      "id": 252,
+      "id": 40252,
       "spanish": "discriminación",
       "english": "discrimination",
       "french": "discrimination",
@@ -2018,7 +2018,7 @@
       "class": "noun"
     },
     {
-      "id": 253,
+      "id": 40253,
       "spanish": "póliza",
       "english": "policy",
       "french": "police d'assurance",
@@ -2026,7 +2026,7 @@
       "class": "noun"
     },
     {
-      "id": 254,
+      "id": 40254,
       "spanish": "maternidad",
       "english": "motherhood",
       "french": "maternité",
@@ -2034,7 +2034,7 @@
       "class": "noun"
     },
     {
-      "id": 255,
+      "id": 40255,
       "spanish": "división",
       "english": "division",
       "french": "division",
@@ -2042,7 +2042,7 @@
       "class": "noun"
     },
     {
-      "id": 256,
+      "id": 40256,
       "spanish": "asombroso",
       "english": "amazing",
       "french": "étonnant",
@@ -2050,7 +2050,7 @@
       "class": "adjective"
     },
     {
-      "id": 257,
+      "id": 40257,
       "spanish": "mentalidad",
       "english": "mindset",
       "french": "état d'esprit",
@@ -2058,7 +2058,7 @@
       "class": "noun"
     },
     {
-      "id": 258,
+      "id": 40258,
       "spanish": "repudiar",
       "english": "to repudiate",
       "french": "condamner",
@@ -2066,7 +2066,7 @@
       "class": "verb"
     },
     {
-      "id": 259,
+      "id": 40259,
       "spanish": "estabilidad",
       "english": "stability",
       "french": "stabilité",
@@ -2074,7 +2074,7 @@
       "class": "noun"
     },
     {
-      "id": 260,
+      "id": 40260,
       "spanish": "estatus",
       "english": "status",
       "french": "statut",
@@ -2082,7 +2082,7 @@
       "class": "noun"
     },
     {
-      "id": 261,
+      "id": 40261,
       "spanish": "federación",
       "english": "federation",
       "french": "fédération",
@@ -2090,7 +2090,7 @@
       "class": "noun"
     },
     {
-      "id": 262,
+      "id": 40262,
       "spanish": "inmobiliaria",
       "english": "real estate",
       "french": "immobilier",
@@ -2098,7 +2098,7 @@
       "class": "noun"
     },
     {
-      "id": 263,
+      "id": 40263,
       "spanish": "castro",
       "english": "fort",
       "french": "castro",
@@ -2106,7 +2106,7 @@
       "class": "noun"
     },
     {
-      "id": 264,
+      "id": 40264,
       "spanish": "parejo",
       "english": "even",
       "french": "égal",
@@ -2114,7 +2114,7 @@
       "class": "adjective"
     },
     {
-      "id": 265,
+      "id": 40265,
       "spanish": "precisión",
       "english": "accuracy",
       "french": "précision",
@@ -2122,7 +2122,7 @@
       "class": "noun"
     },
     {
-      "id": 266,
+      "id": 40266,
       "spanish": "licenciatura",
       "english": "bachelor's degree",
       "french": "licence",
@@ -2130,7 +2130,7 @@
       "class": "noun"
     },
     {
-      "id": 267,
+      "id": 40267,
       "spanish": "plasmar",
       "english": "to capture",
       "french": "représenter",
@@ -2138,7 +2138,7 @@
       "class": "verb"
     },
     {
-      "id": 268,
+      "id": 40268,
       "spanish": "velo",
       "english": "veil",
       "french": "voile",
@@ -2146,7 +2146,7 @@
       "class": "noun"
     },
     {
-      "id": 269,
+      "id": 40269,
       "spanish": "autocontrol",
       "english": "self-control",
       "french": "maîtrise de soi",
@@ -2154,7 +2154,7 @@
       "class": "noun"
     },
     {
-      "id": 270,
+      "id": 40270,
       "spanish": "natalidad",
       "english": "birth rate",
       "french": "natalité",
@@ -2162,7 +2162,7 @@
       "class": "noun"
     },
     {
-      "id": 271,
+      "id": 40271,
       "spanish": "melancolía",
       "english": "melancholy",
       "french": "mélancolie",
@@ -2170,7 +2170,7 @@
       "class": "noun"
     },
     {
-      "id": 272,
+      "id": 40272,
       "spanish": "preocupante",
       "english": "worrying",
       "french": "préoccupant",
@@ -2178,7 +2178,7 @@
       "class": "adjective"
     },
     {
-      "id": 273,
+      "id": 40273,
       "spanish": "peluca",
       "english": "wig",
       "french": "perruque",
@@ -2186,7 +2186,7 @@
       "class": "noun"
     },
     {
-      "id": 274,
+      "id": 40274,
       "spanish": "caza",
       "english": "hunting",
       "french": "chasse",
@@ -2194,7 +2194,7 @@
       "class": "noun"
     },
     {
-      "id": 275,
+      "id": 40275,
       "spanish": "condena",
       "english": "condemnation",
       "french": "condamnation",
@@ -2202,7 +2202,7 @@
       "class": "noun"
     },
     {
-      "id": 276,
+      "id": 40276,
       "spanish": "festejar",
       "english": "celebrate",
       "french": "fêter",
@@ -2210,7 +2210,7 @@
       "class": "verb"
     },
     {
-      "id": 277,
+      "id": 40277,
       "spanish": "obstáculo",
       "english": "obstacle",
       "french": "obstacle",
@@ -2218,7 +2218,7 @@
       "class": "noun"
     },
     {
-      "id": 278,
+      "id": 40278,
       "spanish": "constitucional",
       "english": "constitutional",
       "french": "constitutionnel",
@@ -2226,7 +2226,7 @@
       "class": "adjective"
     },
     {
-      "id": 279,
+      "id": 40279,
       "spanish": "alfabetización",
       "english": "literacy",
       "french": "alphabétisation",
@@ -2234,7 +2234,7 @@
       "class": "noun"
     },
     {
-      "id": 280,
+      "id": 40280,
       "spanish": "mantel",
       "english": "tablecloth",
       "french": "nappe",
@@ -2242,7 +2242,7 @@
       "class": "noun"
     },
     {
-      "id": 281,
+      "id": 40281,
       "spanish": "inclinación",
       "english": "slope",
       "french": "inclinaison",
@@ -2250,7 +2250,7 @@
       "class": "noun"
     },
     {
-      "id": 282,
+      "id": 40282,
       "spanish": "imputar",
       "english": "to charge",
       "french": "imputer",
@@ -2258,7 +2258,7 @@
       "class": "verb"
     },
     {
-      "id": 283,
+      "id": 40283,
       "spanish": "presidencial",
       "english": "presidential",
       "french": "présidentiel",
@@ -2266,7 +2266,7 @@
       "class": "adjective"
     },
     {
-      "id": 284,
+      "id": 40284,
       "spanish": "contribución",
       "english": "contribution",
       "french": "contribution",
@@ -2274,7 +2274,7 @@
       "class": "noun"
     },
     {
-      "id": 285,
+      "id": 40285,
       "spanish": "rebelión",
       "english": "rebellion",
       "french": "rébellion",
@@ -2282,7 +2282,7 @@
       "class": "noun"
     },
     {
-      "id": 286,
+      "id": 40286,
       "spanish": "musa",
       "english": "muse",
       "french": "muse",
@@ -2290,7 +2290,7 @@
       "class": "noun"
     },
     {
-      "id": 287,
+      "id": 40287,
       "spanish": "tránsito",
       "english": "traffic",
       "french": "circulation",
@@ -2298,7 +2298,7 @@
       "class": "noun"
     },
     {
-      "id": 288,
+      "id": 40288,
       "spanish": "deje",
       "english": "let",
       "french": "laissez",
@@ -2306,7 +2306,7 @@
       "class": "noun"
     },
     {
-      "id": 289,
+      "id": 40289,
       "spanish": "labrar",
       "english": "to carve",
       "french": "tailler",
@@ -2314,7 +2314,7 @@
       "class": "verb"
     },
     {
-      "id": 290,
+      "id": 40290,
       "spanish": "euforia",
       "english": "euphoria",
       "french": "euphorie",
@@ -2322,7 +2322,7 @@
       "class": "noun"
     },
     {
-      "id": 291,
+      "id": 40291,
       "spanish": "embrión",
       "english": "embryo",
       "french": "embryon",
@@ -2330,7 +2330,7 @@
       "class": "noun"
     },
     {
-      "id": 292,
+      "id": 40292,
       "spanish": "ansia",
       "english": "anxiety",
       "french": "anxiété",
@@ -2338,7 +2338,7 @@
       "class": "noun"
     },
     {
-      "id": 293,
+      "id": 40293,
       "spanish": "pincel",
       "english": "paintbrush",
       "french": "pinceau",
@@ -2346,7 +2346,7 @@
       "class": "noun"
     },
     {
-      "id": 294,
+      "id": 40294,
       "spanish": "llanto",
       "english": "crying",
       "french": "pleurs",
@@ -2354,7 +2354,7 @@
       "class": "noun"
     },
     {
-      "id": 295,
+      "id": 40295,
       "spanish": "bromear",
       "english": "to joke around",
       "french": "plaisanter",
@@ -2362,7 +2362,7 @@
       "class": "verb"
     },
     {
-      "id": 296,
+      "id": 40296,
       "spanish": "arreglo",
       "english": "arrangement",
       "french": "arrangement",
@@ -2370,7 +2370,7 @@
       "class": "noun"
     },
     {
-      "id": 297,
+      "id": 40297,
       "spanish": "irrupción",
       "english": "outbreak",
       "french": "irruption",
@@ -2378,7 +2378,7 @@
       "class": "noun"
     },
     {
-      "id": 298,
+      "id": 40298,
       "spanish": "recreativo",
       "english": "recreational",
       "french": "récréatif",
@@ -2386,7 +2386,7 @@
       "class": "adjective"
     },
     {
-      "id": 299,
+      "id": 40299,
       "spanish": "acarrear",
       "english": "to carry",
       "french": "entraîner",
@@ -2394,7 +2394,7 @@
       "class": "verb"
     },
     {
-      "id": 300,
+      "id": 40300,
       "spanish": "alambre",
       "english": "wire",
       "french": "fil de fer",
@@ -2402,7 +2402,7 @@
       "class": "noun"
     },
     {
-      "id": 301,
+      "id": 40301,
       "spanish": "inspección",
       "english": "inspection",
       "french": "inspection",
@@ -2410,7 +2410,7 @@
       "class": "noun"
     },
     {
-      "id": 302,
+      "id": 40302,
       "spanish": "lombriz",
       "english": "earthworm",
       "french": "ver de terre",
@@ -2418,7 +2418,7 @@
       "class": "noun"
     },
     {
-      "id": 303,
+      "id": 40303,
       "spanish": "suavizar",
       "english": "soften",
       "french": "adoucir",
@@ -2426,7 +2426,7 @@
       "class": "verb"
     },
     {
-      "id": 304,
+      "id": 40304,
       "spanish": "abandono",
       "english": "abandonment",
       "french": "abandon",
@@ -2434,7 +2434,7 @@
       "class": "noun"
     },
     {
-      "id": 305,
+      "id": 40305,
       "spanish": "agrado",
       "english": "pleasure",
       "french": "plaisir",
@@ -2442,7 +2442,7 @@
       "class": "noun"
     },
     {
-      "id": 306,
+      "id": 40306,
       "spanish": "antecedente",
       "english": "background",
       "french": "antécédent",
@@ -2450,7 +2450,7 @@
       "class": "noun"
     },
     {
-      "id": 307,
+      "id": 40307,
       "spanish": "latente",
       "english": "latent",
       "french": "latent",
@@ -2458,7 +2458,7 @@
       "class": "adjective"
     },
     {
-      "id": 308,
+      "id": 40308,
       "spanish": "contrastar",
       "english": "compare",
       "french": "comparer",
@@ -2466,7 +2466,7 @@
       "class": "verb"
     },
     {
-      "id": 309,
+      "id": 40309,
       "spanish": "duradero",
       "english": "durable",
       "french": "durable",
@@ -2474,7 +2474,7 @@
       "class": "adjective"
     },
     {
-      "id": 310,
+      "id": 40310,
       "spanish": "evaporar",
       "english": "evaporate",
       "french": "s'évaporer",
@@ -2482,7 +2482,7 @@
       "class": "verb"
     },
     {
-      "id": 311,
+      "id": 40311,
       "spanish": "ira",
       "english": "anger",
       "french": "colère",
@@ -2490,7 +2490,7 @@
       "class": "noun"
     },
     {
-      "id": 312,
+      "id": 40312,
       "spanish": "sosegar",
       "english": "to calm",
       "french": "apaiser",
@@ -2498,7 +2498,7 @@
       "class": "verb"
     },
     {
-      "id": 313,
+      "id": 40313,
       "spanish": "pecado",
       "english": "sin",
       "french": "péché",
@@ -2506,7 +2506,7 @@
       "class": "noun"
     },
     {
-      "id": 314,
+      "id": 40314,
       "spanish": "terrestre",
       "english": "terrestrial",
       "french": "terrestre",
@@ -2514,7 +2514,7 @@
       "class": "adjective"
     },
     {
-      "id": 315,
+      "id": 40315,
       "spanish": "cadáver",
       "english": "corpse",
       "french": "cadavre",
@@ -2522,7 +2522,7 @@
       "class": "noun"
     },
     {
-      "id": 316,
+      "id": 40316,
       "spanish": "enfrentamiento",
       "english": "clash",
       "french": "affrontement",
@@ -2530,7 +2530,7 @@
       "class": "noun"
     },
     {
-      "id": 317,
+      "id": 40317,
       "spanish": "roncar",
       "english": "to snore",
       "french": "ronfler",
@@ -2538,7 +2538,7 @@
       "class": "verb"
     },
     {
-      "id": 318,
+      "id": 40318,
       "spanish": "adecuación",
       "english": "suitability",
       "french": "adaptation",
@@ -2546,7 +2546,7 @@
       "class": "noun"
     },
     {
-      "id": 319,
+      "id": 40319,
       "spanish": "vestigio",
       "english": "vestige",
       "french": "vestige",
@@ -2554,7 +2554,7 @@
       "class": "noun"
     },
     {
-      "id": 320,
+      "id": 40320,
       "spanish": "deseable",
       "english": "desirable",
       "french": "souhaitable",
@@ -2562,7 +2562,7 @@
       "class": "adjective"
     },
     {
-      "id": 321,
+      "id": 40321,
       "spanish": "arabismo",
       "english": "Arabism",
       "french": "arabisme",
@@ -2570,7 +2570,7 @@
       "class": "noun"
     },
     {
-      "id": 322,
+      "id": 40322,
       "spanish": "elogio",
       "english": "praise",
       "french": "éloge",
@@ -2578,7 +2578,7 @@
       "class": "noun"
     },
     {
-      "id": 323,
+      "id": 40323,
       "spanish": "cangrejo",
       "english": "crab",
       "french": "crabe",
@@ -2586,7 +2586,7 @@
       "class": "noun"
     },
     {
-      "id": 324,
+      "id": 40324,
       "spanish": "culpabilidad",
       "english": "guilt",
       "french": "culpabilité",
@@ -2594,7 +2594,7 @@
       "class": "noun"
     },
     {
-      "id": 325,
+      "id": 40325,
       "spanish": "morisco",
       "english": "Moorish",
       "french": "maure",
@@ -2602,7 +2602,7 @@
       "class": "noun"
     },
     {
-      "id": 326,
+      "id": 40326,
       "spanish": "visigodo",
       "english": "Visigoth",
       "french": "wisigoth",
@@ -2610,7 +2610,7 @@
       "class": "adjective"
     },
     {
-      "id": 327,
+      "id": 40327,
       "spanish": "consejero",
       "english": "advisor",
       "french": "conseiller",
@@ -2618,7 +2618,7 @@
       "class": "noun"
     },
     {
-      "id": 328,
+      "id": 40328,
       "spanish": "esfera",
       "english": "sphere",
       "french": "sphère",
@@ -2626,7 +2626,7 @@
       "class": "noun"
     },
     {
-      "id": 329,
+      "id": 40329,
       "spanish": "prescindir",
       "english": "do without",
       "french": "se passer de",
@@ -2634,7 +2634,7 @@
       "class": "verb"
     },
     {
-      "id": 330,
+      "id": 40330,
       "spanish": "repercutir",
       "english": "have an impact",
       "french": "se répercuter",
@@ -2642,7 +2642,7 @@
       "class": "verb"
     },
     {
-      "id": 331,
+      "id": 40331,
       "spanish": "hidratante",
       "english": "moisturizer",
       "french": "hydratant",
@@ -2650,7 +2650,7 @@
       "class": "adjective"
     },
     {
-      "id": 332,
+      "id": 40332,
       "spanish": "sincronizar",
       "english": "synchronize",
       "french": "synchroniser",
@@ -2658,7 +2658,7 @@
       "class": "verb"
     },
     {
-      "id": 333,
+      "id": 40333,
       "spanish": "humillar",
       "english": "to humiliate",
       "french": "humilier",
@@ -2666,7 +2666,7 @@
       "class": "verb"
     },
     {
-      "id": 334,
+      "id": 40334,
       "spanish": "indicador",
       "english": "indicator",
       "french": "indicateur",
@@ -2674,7 +2674,7 @@
       "class": "noun"
     },
     {
-      "id": 335,
+      "id": 40335,
       "spanish": "terapéutico",
       "english": "therapeutic",
       "french": "thérapeutique",
@@ -2682,7 +2682,7 @@
       "class": "adjective"
     },
     {
-      "id": 336,
+      "id": 40336,
       "spanish": "ausente",
       "english": "absent",
       "french": "absent",
@@ -2690,7 +2690,7 @@
       "class": "adjective"
     },
     {
-      "id": 337,
+      "id": 40337,
       "spanish": "escolaridad",
       "english": "education",
       "french": "scolarité",
@@ -2698,7 +2698,7 @@
       "class": "noun"
     },
     {
-      "id": 338,
+      "id": 40338,
       "spanish": "alcazaba",
       "english": "reached",
       "french": "atteignait",
@@ -2706,7 +2706,7 @@
       "class": "noun"
     },
     {
-      "id": 339,
+      "id": 40339,
       "spanish": "bocado",
       "english": "bite",
       "french": "bouchée",
@@ -2714,7 +2714,7 @@
       "class": "noun"
     },
     {
-      "id": 340,
+      "id": 40340,
       "spanish": "festividad",
       "english": "holiday",
       "french": "fête",
@@ -2722,7 +2722,7 @@
       "class": "noun"
     },
     {
-      "id": 341,
+      "id": 40341,
       "spanish": "fármaco",
       "english": "drug",
       "french": "médicament",
@@ -2730,7 +2730,7 @@
       "class": "noun"
     },
     {
-      "id": 342,
+      "id": 40342,
       "spanish": "ignorancia",
       "english": "ignorance",
       "french": "ignorance",
@@ -2738,7 +2738,7 @@
       "class": "noun"
     },
     {
-      "id": 343,
+      "id": 40343,
       "spanish": "incitar",
       "english": "incite",
       "french": "inciter",
@@ -2746,7 +2746,7 @@
       "class": "verb"
     },
     {
-      "id": 344,
+      "id": 40344,
       "spanish": "alisar",
       "english": "to straighten",
       "french": "lisser",
@@ -2754,7 +2754,7 @@
       "class": "verb"
     },
     {
-      "id": 345,
+      "id": 40345,
       "spanish": "devoción",
       "english": "devotion",
       "french": "dévotion",
@@ -2762,7 +2762,7 @@
       "class": "noun"
     },
     {
-      "id": 346,
+      "id": 40346,
       "spanish": "multilingüe",
       "english": "multilingual",
       "french": "multilingue",
@@ -2770,7 +2770,7 @@
       "class": "adjective"
     },
     {
-      "id": 347,
+      "id": 40347,
       "spanish": "sanción",
       "english": "penalty",
       "french": "sanction",
@@ -2778,7 +2778,7 @@
       "class": "noun"
     },
     {
-      "id": 348,
+      "id": 40348,
       "spanish": "inocencia",
       "english": "innocence",
       "french": "innocence",
@@ -2786,7 +2786,7 @@
       "class": "noun"
     },
     {
-      "id": 349,
+      "id": 40349,
       "spanish": "predilección",
       "english": "preference",
       "french": "prédilection",
@@ -2794,7 +2794,7 @@
       "class": "noun"
     },
     {
-      "id": 350,
+      "id": 40350,
       "spanish": "desequilibrio",
       "english": "imbalance",
       "french": "déséquilibre",
@@ -2802,7 +2802,7 @@
       "class": "noun"
     },
     {
-      "id": 351,
+      "id": 40351,
       "spanish": "fidelidad",
       "english": "loyalty",
       "french": "fidélité",
@@ -2810,7 +2810,7 @@
       "class": "noun"
     },
     {
-      "id": 352,
+      "id": 40352,
       "spanish": "poblador",
       "english": "resident",
       "french": "habitant",
@@ -2818,7 +2818,7 @@
       "class": "noun"
     },
     {
-      "id": 353,
+      "id": 40353,
       "spanish": "precipitación",
       "english": "precipitation",
       "french": "précipitations",
@@ -2826,7 +2826,7 @@
       "class": "noun"
     },
     {
-      "id": 354,
+      "id": 40354,
       "spanish": "cónyuge",
       "english": "spouse",
       "french": "conjoint",
@@ -2834,7 +2834,7 @@
       "class": "noun"
     },
     {
-      "id": 355,
+      "id": 40355,
       "spanish": "hallazgo",
       "english": "discovery",
       "french": "découverte",
@@ -2842,7 +2842,7 @@
       "class": "noun"
     },
     {
-      "id": 356,
+      "id": 40356,
       "spanish": "idiomático",
       "english": "idiomatic",
       "french": "idiomatique",
@@ -2850,7 +2850,7 @@
       "class": "adjective"
     },
     {
-      "id": 357,
+      "id": 40357,
       "spanish": "mercantil",
       "english": "commercial",
       "french": "commercial",
@@ -2858,7 +2858,7 @@
       "class": "adjective"
     },
     {
-      "id": 358,
+      "id": 40358,
       "spanish": "posgrado",
       "english": "graduate program",
       "french": "troisième cycle",
@@ -2866,7 +2866,7 @@
       "class": "noun"
     },
     {
-      "id": 359,
+      "id": 40359,
       "spanish": "prematuro",
       "english": "premature",
       "french": "prématuré",
@@ -2874,7 +2874,7 @@
       "class": "adjective"
     },
     {
-      "id": 360,
+      "id": 40360,
       "spanish": "abuso",
       "english": "abuse",
       "french": "abus",
@@ -2882,7 +2882,7 @@
       "class": "noun"
     },
     {
-      "id": 361,
+      "id": 40361,
       "spanish": "activista",
       "english": "activist",
       "french": "militant",
@@ -2890,7 +2890,7 @@
       "class": "noun"
     },
     {
-      "id": 362,
+      "id": 40362,
       "spanish": "trampa",
       "english": "trap",
       "french": "piège",
@@ -2898,7 +2898,7 @@
       "class": "noun"
     },
     {
-      "id": 363,
+      "id": 40363,
       "spanish": "invisible",
       "english": "invisible",
       "french": "invisible",
@@ -2906,7 +2906,7 @@
       "class": "adjective"
     },
     {
-      "id": 364,
+      "id": 40364,
       "spanish": "insatisfacción",
       "english": "dissatisfaction",
       "french": "insatisfaction",
@@ -2914,7 +2914,7 @@
       "class": "noun"
     },
     {
-      "id": 365,
+      "id": 40365,
       "spanish": "calvario",
       "english": "ordeal",
       "french": "calvaire",
@@ -2922,7 +2922,7 @@
       "class": "noun"
     },
     {
-      "id": 366,
+      "id": 40366,
       "spanish": "aplauso",
       "english": "applause",
       "french": "applaudissements",
@@ -2930,7 +2930,7 @@
       "class": "noun"
     },
     {
-      "id": 367,
+      "id": 40367,
       "spanish": "párpado",
       "english": "eyelid",
       "french": "paupière",
@@ -2938,7 +2938,7 @@
       "class": "noun"
     },
     {
-      "id": 368,
+      "id": 40368,
       "spanish": "matizar",
       "english": "clarify",
       "french": "nuancer",
@@ -2946,7 +2946,7 @@
       "class": "verb"
     },
     {
-      "id": 369,
+      "id": 40369,
       "spanish": "custodia",
       "english": "custody",
       "french": "garde",
@@ -2954,7 +2954,7 @@
       "class": "noun"
     },
     {
-      "id": 370,
+      "id": 40370,
       "spanish": "lameculos",
       "english": "ass-kissers",
       "french": "lèche-culs",
@@ -2962,7 +2962,7 @@
       "class": "noun"
     },
     {
-      "id": 371,
+      "id": 40371,
       "spanish": "armadillo",
       "english": "armadillo",
       "french": "tatou",
@@ -2970,7 +2970,7 @@
       "class": "noun"
     },
     {
-      "id": 372,
+      "id": 40372,
       "spanish": "maullido",
       "english": "meow",
       "french": "miaou",
@@ -2978,7 +2978,7 @@
       "class": "noun"
     },
     {
-      "id": 373,
+      "id": 40373,
       "spanish": "enloquecer",
       "english": "go crazy",
       "french": "devenir fou",
@@ -2986,7 +2986,7 @@
       "class": "verb"
     },
     {
-      "id": 374,
+      "id": 40374,
       "spanish": "rejuvenecer",
       "english": "to rejuvenate",
       "french": "rajeunir",
@@ -2994,7 +2994,7 @@
       "class": "verb"
     },
     {
-      "id": 375,
+      "id": 40375,
       "spanish": "alcaldía",
       "english": "City Hall",
       "french": "mairie",
@@ -3002,7 +3002,7 @@
       "class": "noun"
     },
     {
-      "id": 376,
+      "id": 40376,
       "spanish": "magnitud",
       "english": "magnitude",
       "french": "amplitude",
@@ -3010,7 +3010,7 @@
       "class": "noun"
     },
     {
-      "id": 377,
+      "id": 40377,
       "spanish": "el",
       "english": "the",
       "french": "le",
@@ -3018,7 +3018,7 @@
       "class": "noun"
     },
     {
-      "id": 378,
+      "id": 40378,
       "spanish": "un",
       "english": "a",
       "french": "un",
@@ -3026,7 +3026,7 @@
       "class": "noun"
     },
     {
-      "id": 379,
+      "id": 40379,
       "spanish": "cruel",
       "english": "cruel",
       "french": "cruel",
@@ -3034,7 +3034,7 @@
       "class": "adjective"
     },
     {
-      "id": 380,
+      "id": 40380,
       "spanish": "institucional",
       "english": "institutional",
       "french": "institutionnel",
@@ -3042,7 +3042,7 @@
       "class": "adjective"
     },
     {
-      "id": 381,
+      "id": 40381,
       "spanish": "danzar",
       "english": "to dance",
       "french": "danser",
@@ -3050,7 +3050,7 @@
       "class": "verb"
     },
     {
-      "id": 382,
+      "id": 40382,
       "spanish": "violar",
       "english": "rape",
       "french": "violer",
@@ -3058,7 +3058,7 @@
       "class": "verb"
     },
     {
-      "id": 383,
+      "id": 40383,
       "spanish": "lo",
       "english": "it",
       "french": "ça",
@@ -3066,7 +3066,7 @@
       "class": "noun"
     },
     {
-      "id": 384,
+      "id": 40384,
       "spanish": "agrandar",
       "english": "enlarge",
       "french": "agrandir",
@@ -3074,7 +3074,7 @@
       "class": "verb"
     },
     {
-      "id": 385,
+      "id": 40385,
       "spanish": "aparentar",
       "english": "to appear to be",
       "french": "faire semblant",
@@ -3082,7 +3082,7 @@
       "class": "verb"
     },
     {
-      "id": 386,
+      "id": 40386,
       "spanish": "cuesta",
       "english": "costs",
       "french": "coûte",
@@ -3090,7 +3090,7 @@
       "class": "noun"
     },
     {
-      "id": 387,
+      "id": 40387,
       "spanish": "excelentísimo",
       "english": "Most Excellent",
       "french": "très éminent",
@@ -3098,7 +3098,7 @@
       "class": "adjective"
     },
     {
-      "id": 388,
+      "id": 40388,
       "spanish": "inmadurez",
       "english": "immaturity",
       "french": "immaturité",
@@ -3106,7 +3106,7 @@
       "class": "noun"
     },
     {
-      "id": 389,
+      "id": 40389,
       "spanish": "magno",
       "english": "magnificent",
       "french": "magnifique",
@@ -3114,7 +3114,7 @@
       "class": "adjective"
     },
     {
-      "id": 390,
+      "id": 40390,
       "spanish": "perpetuo",
       "english": "perpetual",
       "french": "à perpétuité",
@@ -3122,7 +3122,7 @@
       "class": "adjective"
     },
     {
-      "id": 391,
+      "id": 40391,
       "spanish": "predestinar",
       "english": "to predestine",
       "french": "prédestiner",
@@ -3130,7 +3130,7 @@
       "class": "verb"
     },
     {
-      "id": 392,
+      "id": 40392,
       "spanish": "extremidad",
       "english": "limb",
       "french": "extrémité",
@@ -3138,7 +3138,7 @@
       "class": "noun"
     },
     {
-      "id": 393,
+      "id": 40393,
       "spanish": "monólogo",
       "english": "monologue",
       "french": "monologue",
@@ -3146,7 +3146,7 @@
       "class": "noun"
     },
     {
-      "id": 394,
+      "id": 40394,
       "spanish": "nítido",
       "english": "clear",
       "french": "net",
@@ -3154,7 +3154,7 @@
       "class": "adjective"
     },
     {
-      "id": 395,
+      "id": 40395,
       "spanish": "anegar",
       "english": "flood",
       "french": "inonder",
@@ -3162,7 +3162,7 @@
       "class": "verb"
     },
     {
-      "id": 396,
+      "id": 40396,
       "spanish": "angelical",
       "english": "angelic",
       "french": "angélique",
@@ -3170,7 +3170,7 @@
       "class": "adjective"
     },
     {
-      "id": 397,
+      "id": 40397,
       "spanish": "criado",
       "english": "raised",
       "french": "élevé",
@@ -3178,7 +3178,7 @@
       "class": "noun"
     },
     {
-      "id": 398,
+      "id": 40398,
       "spanish": "enérgico",
       "english": "energetic",
       "french": "énergique",
@@ -3186,7 +3186,7 @@
       "class": "adjective"
     },
     {
-      "id": 399,
+      "id": 40399,
       "spanish": "exaltar",
       "english": "exalt",
       "french": "exalter",
@@ -3194,7 +3194,7 @@
       "class": "verb"
     },
     {
-      "id": 400,
+      "id": 40400,
       "spanish": "indicio",
       "english": "clue",
       "french": "indice",
@@ -3202,7 +3202,7 @@
       "class": "noun"
     },
     {
-      "id": 401,
+      "id": 40401,
       "spanish": "metafísico",
       "english": "metaphysical",
       "french": "métaphysique",
@@ -3210,7 +3210,7 @@
       "class": "adjective"
     },
     {
-      "id": 402,
+      "id": 40402,
       "spanish": "pica",
       "english": "itch",
       "french": "pica",
@@ -3218,7 +3218,7 @@
       "class": "noun"
     },
     {
-      "id": 403,
+      "id": 40403,
       "spanish": "púa",
       "english": "pick",
       "french": "pique",
@@ -3226,7 +3226,7 @@
       "class": "noun"
     },
     {
-      "id": 404,
+      "id": 40404,
       "spanish": "incomprensión",
       "english": "misunderstanding",
       "french": "incompréhension",
@@ -3234,7 +3234,7 @@
       "class": "noun"
     },
     {
-      "id": 405,
+      "id": 40405,
       "spanish": "ladrillo",
       "english": "brick",
       "french": "brique",
@@ -3242,7 +3242,7 @@
       "class": "noun"
     },
     {
-      "id": 406,
+      "id": 40406,
       "spanish": "pretensión",
       "english": "claim",
       "french": "prétention",
@@ -3250,7 +3250,7 @@
       "class": "noun"
     },
     {
-      "id": 407,
+      "id": 40407,
       "spanish": "nupcial",
       "english": "wedding",
       "french": "nuptial",
@@ -3258,7 +3258,7 @@
       "class": "adjective"
     },
     {
-      "id": 408,
+      "id": 40408,
       "spanish": "rienda",
       "english": "rein",
       "french": "rêne",
@@ -3266,7 +3266,7 @@
       "class": "noun"
     },
     {
-      "id": 409,
+      "id": 40409,
       "spanish": "flujo",
       "english": "flow",
       "french": "flux",
@@ -3274,7 +3274,7 @@
       "class": "noun"
     },
     {
-      "id": 410,
+      "id": 40410,
       "spanish": "aceptable",
       "english": "acceptable",
       "french": "acceptable",
@@ -3282,7 +3282,7 @@
       "class": "adjective"
     },
     {
-      "id": 411,
+      "id": 40411,
       "spanish": "entraña",
       "english": "entails",
       "french": "implique",
@@ -3290,7 +3290,7 @@
       "class": "noun"
     },
     {
-      "id": 412,
+      "id": 40412,
       "spanish": "fulminar",
       "english": "to strike down",
       "french": "foudroyer",
@@ -3298,7 +3298,7 @@
       "class": "verb"
     },
     {
-      "id": 413,
+      "id": 40413,
       "spanish": "insinuar",
       "english": "to imply",
       "french": "laisser entendre",
@@ -3306,7 +3306,7 @@
       "class": "verb"
     },
     {
-      "id": 414,
+      "id": 40414,
       "spanish": "lamer",
       "english": "lick",
       "french": "lécher",
@@ -3314,7 +3314,7 @@
       "class": "verb"
     },
     {
-      "id": 415,
+      "id": 40415,
       "spanish": "preferible",
       "english": "preferable",
       "french": "de préférence",
@@ -3322,7 +3322,7 @@
       "class": "adjective"
     },
     {
-      "id": 416,
+      "id": 40416,
       "spanish": "asociado",
       "english": "associate",
       "french": "associé",
@@ -3330,7 +3330,7 @@
       "class": "noun"
     },
     {
-      "id": 417,
+      "id": 40417,
       "spanish": "cuantía",
       "english": "amount",
       "french": "montant",
@@ -3338,7 +3338,7 @@
       "class": "noun"
     },
     {
-      "id": 418,
+      "id": 40418,
       "spanish": "descenso",
       "english": "decline",
       "french": "descente",
@@ -3346,7 +3346,7 @@
       "class": "noun"
     },
     {
-      "id": 419,
+      "id": 40419,
       "spanish": "flacidez",
       "english": "sagging",
       "french": "relâchement",
@@ -3354,7 +3354,7 @@
       "class": "noun"
     },
     {
-      "id": 420,
+      "id": 40420,
       "spanish": "ingerir",
       "english": "to ingest",
       "french": "avaler",
@@ -3362,7 +3362,7 @@
       "class": "verb"
     },
     {
-      "id": 421,
+      "id": 40421,
       "spanish": "insostenible",
       "english": "unsustainable",
       "french": "insoutenable",
@@ -3370,7 +3370,7 @@
       "class": "adjective"
     },
     {
-      "id": 422,
+      "id": 40422,
       "spanish": "persistir",
       "english": "persist",
       "french": "persister",
@@ -3378,7 +3378,7 @@
       "class": "verb"
     },
     {
-      "id": 423,
+      "id": 40423,
       "spanish": "preceder",
       "english": "preceding",
       "french": "précéder",
@@ -3386,7 +3386,7 @@
       "class": "verb"
     },
     {
-      "id": 424,
+      "id": 40424,
       "spanish": "problemática",
       "english": "issues",
       "french": "problématique",
@@ -3394,7 +3394,7 @@
       "class": "noun"
     },
     {
-      "id": 425,
+      "id": 40425,
       "spanish": "proseguir",
       "english": "continue",
       "french": "continuer",
@@ -3402,7 +3402,7 @@
       "class": "verb"
     },
     {
-      "id": 426,
+      "id": 40426,
       "spanish": "radicar",
       "english": "to file",
       "french": "s'établir",
@@ -3410,7 +3410,7 @@
       "class": "verb"
     },
     {
-      "id": 427,
+      "id": 40427,
       "spanish": "rehabilitación",
       "english": "rehabilitation",
       "french": "réhabilitation",
@@ -3418,7 +3418,7 @@
       "class": "noun"
     },
     {
-      "id": 428,
+      "id": 40428,
       "spanish": "relevancia",
       "english": "relevance",
       "french": "pertinence",
@@ -3426,7 +3426,7 @@
       "class": "noun"
     },
     {
-      "id": 429,
+      "id": 40429,
       "spanish": "supervisar",
       "english": "supervise",
       "french": "superviser",
@@ -3434,7 +3434,7 @@
       "class": "verb"
     },
     {
-      "id": 430,
+      "id": 40430,
       "spanish": "tardío",
       "english": "late",
       "french": "tardif",
@@ -3442,7 +3442,7 @@
       "class": "adjective"
     },
     {
-      "id": 431,
+      "id": 40431,
       "spanish": "vertiginoso",
       "english": "dizzying",
       "french": "vertigineux",
@@ -3450,7 +3450,7 @@
       "class": "adjective"
     },
     {
-      "id": 432,
+      "id": 40432,
       "spanish": "hormiguero",
       "english": "ant hill",
       "french": "fourmilière",
@@ -3458,7 +3458,7 @@
       "class": "noun"
     },
     {
-      "id": 433,
+      "id": 40433,
       "spanish": "mata",
       "english": "kill",
       "french": "tue",
@@ -3466,7 +3466,7 @@
       "class": "noun"
     },
     {
-      "id": 434,
+      "id": 40434,
       "spanish": "milagroso",
       "english": "miraculous",
       "french": "miraculeux",
@@ -3474,7 +3474,7 @@
       "class": "adjective"
     },
     {
-      "id": 435,
+      "id": 40435,
       "spanish": "ingenuidad",
       "english": "naivety",
       "french": "naïveté",
@@ -3482,7 +3482,7 @@
       "class": "noun"
     },
     {
-      "id": 436,
+      "id": 40436,
       "spanish": "jerga",
       "english": "slang",
       "french": "argot",
@@ -3490,7 +3490,7 @@
       "class": "noun"
     },
     {
-      "id": 437,
+      "id": 40437,
       "spanish": "oleada",
       "english": "wave",
       "french": "vague",
@@ -3498,7 +3498,7 @@
       "class": "noun"
     },
     {
-      "id": 438,
+      "id": 40438,
       "spanish": "reconstrucción",
       "english": "reconstruction",
       "french": "reconstruction",
@@ -3506,7 +3506,7 @@
       "class": "noun"
     },
     {
-      "id": 439,
+      "id": 40439,
       "spanish": "envergadura",
       "english": "span",
       "french": "envergure",
@@ -3514,7 +3514,7 @@
       "class": "noun"
     },
     {
-      "id": 440,
+      "id": 40440,
       "spanish": "incentivo",
       "english": "incentive",
       "french": "incitation",
@@ -3522,7 +3522,7 @@
       "class": "noun"
     },
     {
-      "id": 441,
+      "id": 40441,
       "spanish": "mandato",
       "english": "term of office",
       "french": "mandat",
@@ -3530,7 +3530,7 @@
       "class": "noun"
     },
     {
-      "id": 442,
+      "id": 40442,
       "spanish": "planteamiento",
       "english": "approach",
       "french": "approche",
@@ -3538,7 +3538,7 @@
       "class": "noun"
     },
     {
-      "id": 443,
+      "id": 40443,
       "spanish": "recaer",
       "english": "fall back",
       "french": "revenir",
@@ -3546,7 +3546,7 @@
       "class": "verb"
     },
     {
-      "id": 444,
+      "id": 40444,
       "spanish": "sucesión",
       "english": "succession",
       "french": "succession",
@@ -3554,7 +3554,7 @@
       "class": "noun"
     },
     {
-      "id": 445,
+      "id": 40445,
       "spanish": "autoestima",
       "english": "self-esteem",
       "french": "estime de soi",
@@ -3562,7 +3562,7 @@
       "class": "noun"
     },
     {
-      "id": 446,
+      "id": 40446,
       "spanish": "canasto",
       "english": "basket",
       "french": "panier",
@@ -3570,7 +3570,7 @@
       "class": "noun"
     },
     {
-      "id": 447,
+      "id": 40447,
       "spanish": "cumplimiento",
       "english": "compliance",
       "french": "respect",
@@ -3578,7 +3578,7 @@
       "class": "noun"
     },
     {
-      "id": 448,
+      "id": 40448,
       "spanish": "fijación",
       "english": "fastening",
       "french": "fixation",
@@ -3586,7 +3586,7 @@
       "class": "noun"
     },
     {
-      "id": 449,
+      "id": 40449,
       "spanish": "ingenuo",
       "english": "naive",
       "french": "naïf",
@@ -3594,7 +3594,7 @@
       "class": "adjective"
     },
     {
-      "id": 450,
+      "id": 40450,
       "spanish": "materializar",
       "english": "to bring about",
       "french": "concrétiser",
@@ -3602,7 +3602,7 @@
       "class": "verb"
     },
     {
-      "id": 451,
+      "id": 40451,
       "spanish": "resolución",
       "english": "resolution",
       "french": "résolution",
@@ -3610,7 +3610,7 @@
       "class": "noun"
     },
     {
-      "id": 452,
+      "id": 40452,
       "spanish": "sres",
       "english": "sres",
       "french": "Messieurs",
@@ -3618,7 +3618,7 @@
       "class": "noun"
     },
     {
-      "id": 453,
+      "id": 40453,
       "spanish": "corrupto",
       "english": "corrupt",
       "french": "corrompu",
@@ -3626,7 +3626,7 @@
       "class": "adjective"
     },
     {
-      "id": 454,
+      "id": 40454,
       "spanish": "ajuste",
       "english": "adjustment",
       "french": "réglage",
@@ -3634,7 +3634,7 @@
       "class": "noun"
     },
     {
-      "id": 455,
+      "id": 40455,
       "spanish": "bacteria",
       "english": "bacteria",
       "french": "bactérie",
@@ -3642,7 +3642,7 @@
       "class": "noun"
     },
     {
-      "id": 456,
+      "id": 40456,
       "spanish": "gradual",
       "english": "gradual",
       "french": "progressif",
@@ -3650,7 +3650,7 @@
       "class": "adjective"
     },
     {
-      "id": 457,
+      "id": 40457,
       "spanish": "beneficiario",
       "english": "beneficiary",
       "french": "bénéficiaire",
@@ -3658,7 +3658,7 @@
       "class": "noun"
     },
     {
-      "id": 458,
+      "id": 40458,
       "spanish": "gigante",
       "english": "giant",
       "french": "géant",
@@ -3666,7 +3666,7 @@
       "class": "noun"
     },
     {
-      "id": 459,
+      "id": 40459,
       "spanish": "fundir",
       "english": "to melt",
       "french": "fonder",
@@ -3674,7 +3674,7 @@
       "class": "verb"
     },
     {
-      "id": 460,
+      "id": 40460,
       "spanish": "trono",
       "english": "throne",
       "french": "trône",
@@ -3682,7 +3682,7 @@
       "class": "noun"
     },
     {
-      "id": 461,
+      "id": 40461,
       "spanish": "componente",
       "english": "component",
       "french": "composant",
@@ -3690,7 +3690,7 @@
       "class": "noun"
     },
     {
-      "id": 462,
+      "id": 40462,
       "spanish": "precedente",
       "english": "precedent",
       "french": "précédent",
@@ -3698,7 +3698,7 @@
       "class": "noun"
     },
     {
-      "id": 463,
+      "id": 40463,
       "spanish": "reproductivo",
       "english": "reproductive",
       "french": "reproductif",
@@ -3706,7 +3706,7 @@
       "class": "adjective"
     },
     {
-      "id": 464,
+      "id": 40464,
       "spanish": "vaticinar",
       "english": "predict",
       "french": "prédire",
@@ -3714,7 +3714,7 @@
       "class": "verb"
     },
     {
-      "id": 465,
+      "id": 40465,
       "spanish": "costo",
       "english": "cost",
       "french": "coût",
@@ -3722,7 +3722,7 @@
       "class": "noun"
     },
     {
-      "id": 466,
+      "id": 40466,
       "spanish": "vial",
       "english": "road",
       "french": "routier",
@@ -3730,7 +3730,7 @@
       "class": "adjective"
     },
     {
-      "id": 467,
+      "id": 40467,
       "spanish": "nochevieja",
       "english": "New Year's Eve",
       "french": "réveillon du Nouvel An",
@@ -3738,7 +3738,7 @@
       "class": "noun"
     },
     {
-      "id": 468,
+      "id": 40468,
       "spanish": "admisión",
       "english": "admission",
       "french": "admission",
@@ -3746,7 +3746,7 @@
       "class": "noun"
     },
     {
-      "id": 469,
+      "id": 40469,
       "spanish": "balance",
       "english": "balance",
       "french": "bilan",
@@ -3754,7 +3754,7 @@
       "class": "noun"
     },
     {
-      "id": 470,
+      "id": 40470,
       "spanish": "bonanza",
       "english": "bonanza",
       "french": "période de prospérité",
@@ -3762,7 +3762,7 @@
       "class": "noun"
     },
     {
-      "id": 471,
+      "id": 40471,
       "spanish": "festejo",
       "english": "celebration",
       "french": "célébration",
@@ -3770,7 +3770,7 @@
       "class": "noun"
     },
     {
-      "id": 472,
+      "id": 40472,
       "spanish": "estatura",
       "english": "height",
       "french": "taille",
@@ -3778,7 +3778,7 @@
       "class": "noun"
     },
     {
-      "id": 473,
+      "id": 40473,
       "spanish": "culminar",
       "english": "to culminate",
       "french": "atteindre son apogée",
@@ -3786,7 +3786,7 @@
       "class": "verb"
     },
     {
-      "id": 474,
+      "id": 40474,
       "spanish": "recalentar",
       "english": "reheat",
       "french": "réchauffer",
@@ -3794,7 +3794,7 @@
       "class": "verb"
     },
     {
-      "id": 475,
+      "id": 40475,
       "spanish": "vinculación",
       "english": "engagement",
       "french": "lien",
@@ -3802,7 +3802,7 @@
       "class": "noun"
     },
     {
-      "id": 476,
+      "id": 40476,
       "spanish": "emergente",
       "english": "emerging",
       "french": "émergent",
@@ -3810,7 +3810,7 @@
       "class": "adjective"
     },
     {
-      "id": 477,
+      "id": 40477,
       "spanish": "sorteo",
       "english": "raffle",
       "french": "tirage au sort",
@@ -3818,7 +3818,7 @@
       "class": "noun"
     },
     {
-      "id": 478,
+      "id": 40478,
       "spanish": "mudanza",
       "english": "move",
       "french": "déménagement",
@@ -3826,7 +3826,7 @@
       "class": "noun"
     },
     {
-      "id": 479,
+      "id": 40479,
       "spanish": "tolerancia",
       "english": "tolerance",
       "french": "tolérance",
@@ -3834,7 +3834,7 @@
       "class": "noun"
     },
     {
-      "id": 480,
+      "id": 40480,
       "spanish": "subsistema",
       "english": "subsystem",
       "french": "sous-système",
@@ -3842,7 +3842,7 @@
       "class": "noun"
     },
     {
-      "id": 481,
+      "id": 40481,
       "spanish": "visón",
       "english": "mink",
       "french": "vison",
@@ -3850,7 +3850,7 @@
       "class": "noun"
     },
     {
-      "id": 482,
+      "id": 40482,
       "spanish": "humanístico",
       "english": "humanistic",
       "french": "humaniste",
@@ -3858,7 +3858,7 @@
       "class": "adjective"
     },
     {
-      "id": 483,
+      "id": 40483,
       "spanish": "sugerencia",
       "english": "suggestion",
       "french": "suggestion",
@@ -3866,7 +3866,7 @@
       "class": "noun"
     },
     {
-      "id": 484,
+      "id": 40484,
       "spanish": "externo",
       "english": "external",
       "french": "externe",
@@ -3874,7 +3874,7 @@
       "class": "adjective"
     },
     {
-      "id": 485,
+      "id": 40485,
       "spanish": "homosexual",
       "english": "homosexual",
       "french": "homosexuel",
@@ -3882,7 +3882,7 @@
       "class": "adjective"
     },
     {
-      "id": 486,
+      "id": 40486,
       "spanish": "inundación",
       "english": "flood",
       "french": "inondation",
@@ -3890,7 +3890,7 @@
       "class": "noun"
     },
     {
-      "id": 487,
+      "id": 40487,
       "spanish": "acusado",
       "english": "defendant",
       "french": "accusé",
@@ -3898,7 +3898,7 @@
       "class": "noun"
     },
     {
-      "id": 488,
+      "id": 40488,
       "spanish": "islam",
       "english": "Islam",
       "french": "islam",
@@ -3906,7 +3906,7 @@
       "class": "noun"
     },
     {
-      "id": 489,
+      "id": 40489,
       "spanish": "mazapán",
       "english": "marzipan",
       "french": "pâte d'amandes",
@@ -3914,7 +3914,7 @@
       "class": "noun"
     },
     {
-      "id": 490,
+      "id": 40490,
       "spanish": "abonar",
       "english": "pay",
       "french": "payer",
@@ -3922,7 +3922,7 @@
       "class": "verb"
     },
     {
-      "id": 491,
+      "id": 40491,
       "spanish": "apego",
       "english": "attachment",
       "french": "attachement",
@@ -3930,7 +3930,7 @@
       "class": "noun"
     },
     {
-      "id": 492,
+      "id": 40492,
       "spanish": "asir",
       "english": "seize",
       "french": "saisir",
@@ -3938,7 +3938,7 @@
       "class": "verb"
     },
     {
-      "id": 493,
+      "id": 40493,
       "spanish": "atuendo",
       "english": "outfit",
       "french": "tenue",
@@ -3946,7 +3946,7 @@
       "class": "noun"
     },
     {
-      "id": 494,
+      "id": 40494,
       "spanish": "aullido",
       "english": "howl",
       "french": "hurlement",
@@ -3954,7 +3954,7 @@
       "class": "noun"
     },
     {
-      "id": 495,
+      "id": 40495,
       "spanish": "autoría",
       "english": "authorship",
       "french": "paternité",
@@ -3962,7 +3962,7 @@
       "class": "noun"
     },
     {
-      "id": 496,
+      "id": 40496,
       "spanish": "barajar",
       "english": "shuffle",
       "french": "mélanger les cartes",
@@ -3970,7 +3970,7 @@
       "class": "verb"
     },
     {
-      "id": 497,
+      "id": 40497,
       "spanish": "billón",
       "english": "billion",
       "french": "milliard",
@@ -3978,7 +3978,7 @@
       "class": "noun"
     },
     {
-      "id": 498,
+      "id": 40498,
       "spanish": "cascanueces",
       "english": "The Nutcracker",
       "french": "Casse-noisette",
@@ -3986,7 +3986,7 @@
       "class": "noun"
     },
     {
-      "id": 499,
+      "id": 40499,
       "spanish": "cauce",
       "english": "channel",
       "french": "lit",
@@ -3994,7 +3994,7 @@
       "class": "noun"
     },
     {
-      "id": 500,
+      "id": 40500,
       "spanish": "confidencia",
       "english": "confidentiality",
       "french": "confidencialité",
@@ -4002,7 +4002,7 @@
       "class": "noun"
     },
     {
-      "id": 501,
+      "id": 40501,
       "spanish": "denegar",
       "english": "to deny",
       "french": "refuser",
@@ -4010,7 +4010,7 @@
       "class": "verb"
     },
     {
-      "id": 502,
+      "id": 40502,
       "spanish": "descendencia",
       "english": "descendants",
       "french": "descendance",
@@ -4018,7 +4018,7 @@
       "class": "noun"
     },
     {
-      "id": 503,
+      "id": 40503,
       "spanish": "empeño",
       "english": "effort",
       "french": "engagement",
@@ -4026,7 +4026,7 @@
       "class": "noun"
     },
     {
-      "id": 504,
+      "id": 40504,
       "spanish": "familiarizar",
       "english": "to familiarize",
       "french": "se familiariser",
@@ -4034,7 +4034,7 @@
       "class": "verb"
     },
     {
-      "id": 505,
+      "id": 40505,
       "spanish": "folio",
       "english": "folio",
       "french": "feuille",
@@ -4042,7 +4042,7 @@
       "class": "noun"
     },
     {
-      "id": 506,
+      "id": 40506,
       "spanish": "golondrina",
       "english": "swallow",
       "french": "hirondelle",
@@ -4050,7 +4050,7 @@
       "class": "noun"
     },
     {
-      "id": 507,
+      "id": 40507,
       "spanish": "horizontal",
       "english": "horizontal",
       "french": "horizontal",
@@ -4058,7 +4058,7 @@
       "class": "adjective"
     },
     {
-      "id": 508,
+      "id": 40508,
       "spanish": "hospitalario",
       "english": "hospitable",
       "french": "hospitalier",
@@ -4066,7 +4066,7 @@
       "class": "adjective"
     },
     {
-      "id": 509,
+      "id": 40509,
       "spanish": "impreso",
       "english": "printed",
       "french": "imprimé",
@@ -4074,7 +4074,7 @@
       "class": "noun"
     },
     {
-      "id": 510,
+      "id": 40510,
       "spanish": "inclusión",
       "english": "inclusion",
       "french": "inclusion",
@@ -4082,7 +4082,7 @@
       "class": "noun"
     },
     {
-      "id": 511,
+      "id": 40511,
       "spanish": "influjo",
       "english": "influence",
       "french": "influence",
@@ -4090,7 +4090,7 @@
       "class": "noun"
     },
     {
-      "id": 512,
+      "id": 40512,
       "spanish": "injuria",
       "english": "insult",
       "french": "injure",
@@ -4098,7 +4098,7 @@
       "class": "noun"
     },
     {
-      "id": 513,
+      "id": 40513,
       "spanish": "instancia",
       "english": "instance",
       "french": "instance",
@@ -4106,7 +4106,7 @@
       "class": "noun"
     },
     {
-      "id": 514,
+      "id": 40514,
       "spanish": "intestinal",
       "english": "intestinal",
       "french": "intestinal",
@@ -4114,7 +4114,7 @@
       "class": "adjective"
     },
     {
-      "id": 515,
+      "id": 40515,
       "spanish": "lateral",
       "english": "side",
       "french": "latéral",
@@ -4122,7 +4122,7 @@
       "class": "adjective"
     },
     {
-      "id": 516,
+      "id": 40516,
       "spanish": "latón",
       "english": "brass",
       "french": "laiton",
@@ -4130,7 +4130,7 @@
       "class": "noun"
     },
     {
-      "id": 517,
+      "id": 40517,
       "spanish": "licenciado",
       "english": "bachelor's degree holder",
       "french": "diplômé",
@@ -4138,7 +4138,7 @@
       "class": "noun"
     },
     {
-      "id": 518,
+      "id": 40518,
       "spanish": "marfil",
       "english": "ivory",
       "french": "ivoire",
@@ -4146,7 +4146,7 @@
       "class": "noun"
     },
     {
-      "id": 519,
+      "id": 40519,
       "spanish": "multimedia",
       "english": "multimedia",
       "french": "multimédia",
@@ -4154,7 +4154,7 @@
       "class": "adjective"
     },
     {
-      "id": 520,
+      "id": 40520,
       "spanish": "pique",
       "english": "bite",
       "french": "pique",
@@ -4162,7 +4162,7 @@
       "class": "noun"
     },
     {
-      "id": 521,
+      "id": 40521,
       "spanish": "pitar",
       "english": "to whistle",
       "french": "siffler",
@@ -4170,7 +4170,7 @@
       "class": "verb"
     },
     {
-      "id": 522,
+      "id": 40522,
       "spanish": "placidez",
       "english": "calmness",
       "french": "placidité",
@@ -4178,7 +4178,7 @@
       "class": "noun"
     },
     {
-      "id": 523,
+      "id": 40523,
       "spanish": "primigenio",
       "english": "primordial",
       "french": "primitif",
@@ -4186,7 +4186,7 @@
       "class": "adjective"
     },
     {
-      "id": 524,
+      "id": 40524,
       "spanish": "retroceso",
       "english": "setback",
       "french": "recul",
@@ -4194,7 +4194,7 @@
       "class": "noun"
     },
     {
-      "id": 525,
+      "id": 40525,
       "spanish": "simio",
       "english": "ape",
       "french": "singe",
@@ -4202,7 +4202,7 @@
       "class": "noun"
     },
     {
-      "id": 526,
+      "id": 40526,
       "spanish": "soltura",
       "english": "ease",
       "french": "aisance",
@@ -4210,7 +4210,7 @@
       "class": "noun"
     },
     {
-      "id": 527,
+      "id": 40527,
       "spanish": "trimestre",
       "english": "quarter",
       "french": "trimestre",
@@ -4218,7 +4218,7 @@
       "class": "noun"
     },
     {
-      "id": 528,
+      "id": 40528,
       "spanish": "utilitario",
       "english": "utility",
       "french": "utilitaire",
@@ -4226,7 +4226,7 @@
       "class": "adjective"
     },
     {
-      "id": 529,
+      "id": 40529,
       "spanish": "vistoso",
       "english": "eye-catching",
       "french": "coloré",
@@ -4234,7 +4234,7 @@
       "class": "adjective"
     },
     {
-      "id": 530,
+      "id": 40530,
       "spanish": "liposucción",
       "english": "liposuction",
       "french": "liposuccion",
@@ -4242,7 +4242,7 @@
       "class": "noun"
     },
     {
-      "id": 531,
+      "id": 40531,
       "spanish": "perjuicio",
       "english": "damage",
       "french": "préjudice",
@@ -4250,7 +4250,7 @@
       "class": "noun"
     },
     {
-      "id": 532,
+      "id": 40532,
       "spanish": "vivencia",
       "english": "experience",
       "french": "expérience vécue",
@@ -4258,7 +4258,7 @@
       "class": "noun"
     },
     {
-      "id": 533,
+      "id": 40533,
       "spanish": "enfatizar",
       "english": "emphasize",
       "french": "mettre l'accent sur",
@@ -4266,7 +4266,7 @@
       "class": "verb"
     },
     {
-      "id": 534,
+      "id": 40534,
       "spanish": "comilona",
       "english": "feast",
       "french": "festin",
@@ -4274,7 +4274,7 @@
       "class": "noun"
     },
     {
-      "id": 535,
+      "id": 40535,
       "spanish": "coreano",
       "english": "Korean",
       "french": "coréen",
@@ -4282,7 +4282,7 @@
       "class": "noun"
     },
     {
-      "id": 536,
+      "id": 40536,
       "spanish": "duquesa",
       "english": "duchess",
       "french": "duchesse",
@@ -4290,7 +4290,7 @@
       "class": "noun"
     },
     {
-      "id": 537,
+      "id": 40537,
       "spanish": "inquietud",
       "english": "unease",
       "french": "inquiétude",
@@ -4298,7 +4298,7 @@
       "class": "noun"
     },
     {
-      "id": 538,
+      "id": 40538,
       "spanish": "remendar",
       "english": "to mend",
       "french": "réparer",
@@ -4306,7 +4306,7 @@
       "class": "verb"
     },
     {
-      "id": 539,
+      "id": 40539,
       "spanish": "telón",
       "english": "curtain",
       "french": "rideau",
@@ -4314,7 +4314,7 @@
       "class": "noun"
     },
     {
-      "id": 540,
+      "id": 40540,
       "spanish": "mediocre",
       "english": "mediocre",
       "french": "médiocre",
@@ -4322,7 +4322,7 @@
       "class": "adjective"
     },
     {
-      "id": 541,
+      "id": 40541,
       "spanish": "sustancial",
       "english": "substantial",
       "french": "substantiel",
@@ -4330,7 +4330,7 @@
       "class": "adjective"
     },
     {
-      "id": 542,
+      "id": 40542,
       "spanish": "primordial",
       "english": "essential",
       "french": "essentiel",
@@ -4338,7 +4338,7 @@
       "class": "adjective"
     },
     {
-      "id": 543,
+      "id": 40543,
       "spanish": "comparador",
       "english": "comparator",
       "french": "comparateur",
@@ -4346,7 +4346,7 @@
       "class": "noun"
     },
     {
-      "id": 544,
+      "id": 40544,
       "spanish": "demografía",
       "english": "demographics",
       "french": "démographie",
@@ -4354,7 +4354,7 @@
       "class": "noun"
     },
     {
-      "id": 545,
+      "id": 40545,
       "spanish": "incidir",
       "english": "to influence",
       "french": "influencer",
@@ -4362,7 +4362,7 @@
       "class": "verb"
     },
     {
-      "id": 546,
+      "id": 40546,
       "spanish": "inducir",
       "english": "induce",
       "french": "induire",
@@ -4370,7 +4370,7 @@
       "class": "verb"
     },
     {
-      "id": 547,
+      "id": 40547,
       "spanish": "inseminación",
       "english": "insemination",
       "french": "insémination",
@@ -4378,7 +4378,7 @@
       "class": "noun"
     },
     {
-      "id": 548,
+      "id": 40548,
       "spanish": "ostentar",
       "english": "boast",
       "french": "arborer",
@@ -4386,7 +4386,7 @@
       "class": "verb"
     },
     {
-      "id": 549,
+      "id": 40549,
       "spanish": "paradigma",
       "english": "paradigm",
       "french": "paradigme",
@@ -4394,7 +4394,7 @@
       "class": "noun"
     },
     {
-      "id": 550,
+      "id": 40550,
       "spanish": "controvertir",
       "english": "to dispute",
       "french": "contester",
@@ -4402,7 +4402,7 @@
       "class": "verb"
     },
     {
-      "id": 551,
+      "id": 40551,
       "spanish": "afán",
       "english": "zeal",
       "french": "zèle",
@@ -4410,7 +4410,7 @@
       "class": "noun"
     },
     {
-      "id": 552,
+      "id": 40552,
       "spanish": "amamantar",
       "english": "to breastfeed",
       "french": "allaiter",
@@ -4418,7 +4418,7 @@
       "class": "verb"
     },
     {
-      "id": 553,
+      "id": 40553,
       "spanish": "atenuar",
       "english": "mitigate",
       "french": "atténuer",
@@ -4426,7 +4426,7 @@
       "class": "verb"
     },
     {
-      "id": 554,
+      "id": 40554,
       "spanish": "beréber",
       "english": "Berber",
       "french": "berber",
@@ -4434,7 +4434,7 @@
       "class": "adjective"
     },
     {
-      "id": 555,
+      "id": 40555,
       "spanish": "distintivo",
       "english": "distinctive",
       "french": "distinctif",
@@ -4442,7 +4442,7 @@
       "class": "noun"
     },
     {
-      "id": 556,
+      "id": 40556,
       "spanish": "emir",
       "english": "emir",
       "french": "émir",
@@ -4450,7 +4450,7 @@
       "class": "noun"
     },
     {
-      "id": 557,
+      "id": 40557,
       "spanish": "expresivo",
       "english": "expressive",
       "french": "expressif",
@@ -4458,7 +4458,7 @@
       "class": "adjective"
     },
     {
-      "id": 558,
+      "id": 40558,
       "spanish": "extroversión",
       "english": "extroversion",
       "french": "extraversion",
@@ -4466,7 +4466,7 @@
       "class": "noun"
     },
     {
-      "id": 559,
+      "id": 40559,
       "spanish": "fantasioso",
       "english": "imaginative",
       "french": "fantaisiste",
@@ -4474,7 +4474,7 @@
       "class": "adjective"
     },
     {
-      "id": 560,
+      "id": 40560,
       "spanish": "hebreo",
       "english": "Hebrew",
       "french": "hébreu",
@@ -4482,7 +4482,7 @@
       "class": "adjective"
     },
     {
-      "id": 561,
+      "id": 40561,
       "spanish": "hocico",
       "english": "snout",
       "french": "museau",
@@ -4490,7 +4490,7 @@
       "class": "noun"
     },
     {
-      "id": 562,
+      "id": 40562,
       "spanish": "navidades",
       "english": "Christmases",
       "french": "Noël",
@@ -4498,7 +4498,7 @@
       "class": "noun"
     },
     {
-      "id": 563,
+      "id": 40563,
       "spanish": "papeleta",
       "english": "ballot",
       "french": "bulletin de vote",
@@ -4506,7 +4506,7 @@
       "class": "noun"
     },
     {
-      "id": 564,
+      "id": 40564,
       "spanish": "peletero",
       "english": "furriers",
       "french": "fourreur",
@@ -4514,7 +4514,7 @@
       "class": "adjective"
     },
     {
-      "id": 565,
+      "id": 40565,
       "spanish": "recuento",
       "english": "count",
       "french": "dépouillement",
@@ -4522,7 +4522,7 @@
       "class": "noun"
     },
     {
-      "id": 566,
+      "id": 40566,
       "spanish": "relojero",
       "english": "watchmaker",
       "french": "horloger",
@@ -4530,7 +4530,7 @@
       "class": "noun"
     },
     {
-      "id": 567,
+      "id": 40567,
       "spanish": "retórico",
       "english": "rhetorical",
       "french": "rhétorique",
@@ -4538,7 +4538,7 @@
       "class": "adjective"
     },
     {
-      "id": 568,
+      "id": 40568,
       "spanish": "vello",
       "english": "hair",
       "french": "poils",
@@ -4546,7 +4546,7 @@
       "class": "noun"
     },
     {
-      "id": 569,
+      "id": 40569,
       "spanish": "ignorante",
       "english": "ignorant",
       "french": "ignorant",
@@ -4554,7 +4554,7 @@
       "class": "adjective"
     },
     {
-      "id": 570,
+      "id": 40570,
       "spanish": "avalancha",
       "english": "avalanche",
       "french": "avalanche",
@@ -4562,7 +4562,7 @@
       "class": "noun"
     },
     {
-      "id": 571,
+      "id": 40571,
       "spanish": "cohete",
       "english": "rocket",
       "french": "fusée",
@@ -4570,7 +4570,7 @@
       "class": "noun"
     },
     {
-      "id": 572,
+      "id": 40572,
       "spanish": "cotizar",
       "english": "quote",
       "french": "cotiser",
@@ -4578,7 +4578,7 @@
       "class": "verb"
     },
     {
-      "id": 573,
+      "id": 40573,
       "spanish": "democratización",
       "english": "democratization",
       "french": "démocratisation",
@@ -4586,7 +4586,7 @@
       "class": "noun"
     },
     {
-      "id": 574,
+      "id": 40574,
       "spanish": "donante",
       "english": "donor",
       "french": "donateur",
@@ -4594,7 +4594,7 @@
       "class": "noun"
     },
     {
-      "id": 575,
+      "id": 40575,
       "spanish": "gestar",
       "english": "to carry a child",
       "french": "porter",
@@ -4602,7 +4602,7 @@
       "class": "verb"
     },
     {
-      "id": 576,
+      "id": 40576,
       "spanish": "hidratación",
       "english": "hydration",
       "french": "hydratation",
@@ -4610,7 +4610,7 @@
       "class": "noun"
     },
     {
-      "id": 577,
+      "id": 40577,
       "spanish": "juguetería",
       "english": "toy store",
       "french": "magasin de jouets",
@@ -4618,7 +4618,7 @@
       "class": "noun"
     },
     {
-      "id": 578,
+      "id": 40578,
       "spanish": "lentitud",
       "english": "slowness",
       "french": "lenteur",
@@ -4626,7 +4626,7 @@
       "class": "noun"
     },
     {
-      "id": 579,
+      "id": 40579,
       "spanish": "lámina",
       "english": "sheet",
       "french": "feuille",
@@ -4634,7 +4634,7 @@
       "class": "noun"
     },
     {
-      "id": 580,
+      "id": 40580,
       "spanish": "parámetro",
       "english": "parameter",
       "french": "paramètre",
@@ -4642,7 +4642,7 @@
       "class": "noun"
     },
     {
-      "id": 581,
+      "id": 40581,
       "spanish": "pluralidad",
       "english": "plurality",
       "french": "pluralité",
@@ -4650,7 +4650,7 @@
       "class": "noun"
     },
     {
-      "id": 582,
+      "id": 40582,
       "spanish": "posibilitar",
       "english": "enable",
       "french": "permettre",
@@ -4658,7 +4658,7 @@
       "class": "verb"
     },
     {
-      "id": 583,
+      "id": 40583,
       "spanish": "preinscripción",
       "english": "pre-registration",
       "french": "préinscription",
@@ -4666,7 +4666,7 @@
       "class": "noun"
     },
     {
-      "id": 584,
+      "id": 40584,
       "spanish": "quiebra",
       "english": "bankruptcy",
       "french": "faillite",
@@ -4674,7 +4674,7 @@
       "class": "noun"
     },
     {
-      "id": 585,
+      "id": 40585,
       "spanish": "regularizar",
       "english": "regularize",
       "french": "régulariser",
@@ -4682,7 +4682,7 @@
       "class": "verb"
     },
     {
-      "id": 586,
+      "id": 40586,
       "spanish": "síntesis",
       "english": "summary",
       "french": "synthèse",
@@ -4690,7 +4690,7 @@
       "class": "noun"
     },
     {
-      "id": 587,
+      "id": 40587,
       "spanish": "toxina",
       "english": "toxin",
       "french": "toxine",
@@ -4698,7 +4698,7 @@
       "class": "noun"
     },
     {
-      "id": 588,
+      "id": 40588,
       "spanish": "vicepresidente",
       "english": "vice president",
       "french": "vice-président",
@@ -4706,7 +4706,7 @@
       "class": "noun"
     },
     {
-      "id": 589,
+      "id": 40589,
       "spanish": "vinoterapia",
       "english": "wine therapy",
       "french": "vinothérapie",
@@ -4714,7 +4714,7 @@
       "class": "noun"
     },
     {
-      "id": 590,
+      "id": 40590,
       "spanish": "extremar",
       "english": "to take to the extreme",
       "french": "pousser à l'extrême",
@@ -4722,7 +4722,7 @@
       "class": "verb"
     },
     {
-      "id": 591,
+      "id": 40591,
       "spanish": "corrida",
       "english": "bullfight",
       "french": "course",
@@ -4730,7 +4730,7 @@
       "class": "noun"
     },
     {
-      "id": 592,
+      "id": 40592,
       "spanish": "aborrecer",
       "english": "to detest",
       "french": "détester",
@@ -4738,7 +4738,7 @@
       "class": "verb"
     },
     {
-      "id": 593,
+      "id": 40593,
       "spanish": "adulador",
       "english": "sycophant",
       "french": "flatteur",
@@ -4746,7 +4746,7 @@
       "class": "adjective"
     },
     {
-      "id": 594,
+      "id": 40594,
       "spanish": "alcaldesa",
       "english": "female mayor",
       "french": "maire",
@@ -4754,7 +4754,7 @@
       "class": "noun"
     },
     {
-      "id": 595,
+      "id": 40595,
       "spanish": "aludir",
       "english": "to allude to",
       "french": "faire allusion à",
@@ -4762,7 +4762,7 @@
       "class": "verb"
     },
     {
-      "id": 596,
+      "id": 40596,
       "spanish": "andalusí",
       "english": "Al-Andalus",
       "french": "andalou",
@@ -4770,7 +4770,7 @@
       "class": "adjective"
     },
     {
-      "id": 597,
+      "id": 40597,
       "spanish": "autoconfianza",
       "english": "self-confidence",
       "french": "confiance en soi",
@@ -4778,7 +4778,7 @@
       "class": "noun"
     },
     {
-      "id": 598,
+      "id": 40598,
       "spanish": "avestruz",
       "english": "ostrich",
       "french": "autruche",
@@ -4786,7 +4786,7 @@
       "class": "noun"
     },
     {
-      "id": 599,
+      "id": 40599,
       "spanish": "benigno",
       "english": "benign",
       "french": "bénin",
@@ -4794,7 +4794,7 @@
       "class": "adjective"
     },
     {
-      "id": 600,
+      "id": 40600,
       "spanish": "borrón",
       "english": "blot",
       "french": "effacement",
@@ -4802,7 +4802,7 @@
       "class": "noun"
     },
     {
-      "id": 601,
+      "id": 40601,
       "spanish": "chisme",
       "english": "gossip",
       "french": "potins",
@@ -4810,7 +4810,7 @@
       "class": "noun"
     },
     {
-      "id": 602,
+      "id": 40602,
       "spanish": "cigüeña",
       "english": "stork",
       "french": "cigogne",
@@ -4818,7 +4818,7 @@
       "class": "noun"
     },
     {
-      "id": 603,
+      "id": 40603,
       "spanish": "correveidile",
       "english": "gossipmonger",
       "french": "chasseur de rumeurs",
@@ -4826,7 +4826,7 @@
       "class": "noun"
     },
     {
-      "id": 604,
+      "id": 40604,
       "spanish": "cíclope",
       "english": "Cyclops",
       "french": "cyclope",
@@ -4834,7 +4834,7 @@
       "class": "noun"
     },
     {
-      "id": 605,
+      "id": 40605,
       "spanish": "deja",
       "english": "leave",
       "french": "laisse",
@@ -4842,7 +4842,7 @@
       "class": "noun"
     },
     {
-      "id": 606,
+      "id": 40606,
       "spanish": "delatar",
       "english": "to inform on",
       "french": "dénoncer",
@@ -4850,7 +4850,7 @@
       "class": "verb"
     },
     {
-      "id": 607,
+      "id": 40607,
       "spanish": "despistado",
       "english": "spaced out",
       "french": "distrait",
@@ -4858,7 +4858,7 @@
       "class": "noun"
     },
     {
-      "id": 608,
+      "id": 40608,
       "spanish": "desposar",
       "english": "to marry",
       "french": "épouser",
@@ -4866,7 +4866,7 @@
       "class": "verb"
     },
     {
-      "id": 609,
+      "id": 40609,
       "spanish": "dinastía",
       "english": "dynasty",
       "french": "dynastie",
@@ -4874,7 +4874,7 @@
       "class": "noun"
     },
     {
-      "id": 610,
+      "id": 40610,
       "spanish": "docilidad",
       "english": "docility",
       "french": "docilité",
@@ -4882,7 +4882,7 @@
       "class": "noun"
     },
     {
-      "id": 611,
+      "id": 40611,
       "spanish": "ego",
       "english": "ego",
       "french": "ego",
@@ -4890,7 +4890,7 @@
       "class": "noun"
     },
     {
-      "id": 612,
+      "id": 40612,
       "spanish": "egocéntrico",
       "english": "self-centered",
       "french": "égocentrique",
@@ -4898,7 +4898,7 @@
       "class": "adjective"
     },
     {
-      "id": 613,
+      "id": 40613,
       "spanish": "emú",
       "english": "emu",
       "french": "émeu",
@@ -4906,7 +4906,7 @@
       "class": "noun"
     },
     {
-      "id": 614,
+      "id": 40614,
       "spanish": "erizar",
       "english": "to bristle",
       "french": "ériser",
@@ -4914,7 +4914,7 @@
       "class": "verb"
     },
     {
-      "id": 615,
+      "id": 40615,
       "spanish": "escarbar",
       "english": "to dig",
       "french": "creuser",
@@ -4922,7 +4922,7 @@
       "class": "verb"
     },
     {
-      "id": 616,
+      "id": 40616,
       "spanish": "espino",
       "english": "hawthorn",
       "french": "aubépine",
@@ -4930,7 +4930,7 @@
       "class": "noun"
     },
     {
-      "id": 617,
+      "id": 40617,
       "spanish": "faldero",
       "english": "pouch",
       "french": "étui",
@@ -4938,7 +4938,7 @@
       "class": "adjective"
     },
     {
-      "id": 618,
+      "id": 40618,
       "spanish": "grieta",
       "english": "crack",
       "french": "fissure",
@@ -4946,7 +4946,7 @@
       "class": "noun"
     },
     {
-      "id": 619,
+      "id": 40619,
       "spanish": "hembra",
       "english": "female",
       "french": "femelle",
@@ -4954,7 +4954,7 @@
       "class": "noun"
     },
     {
-      "id": 620,
+      "id": 40620,
       "spanish": "hoyo",
       "english": "hole",
       "french": "trou",
@@ -4962,7 +4962,7 @@
       "class": "noun"
     },
     {
-      "id": 621,
+      "id": 40621,
       "spanish": "inculpado",
       "english": "accused",
       "french": "inculpé",
@@ -4970,7 +4970,7 @@
       "class": "noun"
     },
     {
-      "id": 622,
+      "id": 40622,
       "spanish": "introversión",
       "english": "introversion",
       "french": "introversion",
@@ -4978,7 +4978,7 @@
       "class": "noun"
     },
     {
-      "id": 623,
+      "id": 40623,
       "spanish": "jaula",
       "english": "cage",
       "french": "cage",
@@ -4986,7 +4986,7 @@
       "class": "noun"
     },
     {
-      "id": 624,
+      "id": 40624,
       "spanish": "jerarquizar",
       "english": "prioritize",
       "french": "hiérarchiser",
@@ -4994,7 +4994,7 @@
       "class": "verb"
     },
     {
-      "id": 625,
+      "id": 40625,
       "spanish": "liebre",
       "english": "hare",
       "french": "lièvre",
@@ -5002,7 +5002,7 @@
       "class": "noun"
     },
     {
-      "id": 626,
+      "id": 40626,
       "spanish": "madriguera",
       "english": "burrow",
       "french": "terreau",
@@ -5010,7 +5010,7 @@
       "class": "noun"
     },
     {
-      "id": 627,
+      "id": 40627,
       "spanish": "metomentodo",
       "english": "busybody",
       "french": "métode universelle",
@@ -5018,7 +5018,7 @@
       "class": "noun"
     },
     {
-      "id": 628,
+      "id": 40628,
       "spanish": "mortero",
       "english": "mortar",
       "french": "mortier",
@@ -5026,7 +5026,7 @@
       "class": "noun"
     },
     {
-      "id": 629,
+      "id": 40629,
       "spanish": "ondular",
       "english": "to undulate",
       "french": "onduler",
@@ -5034,7 +5034,7 @@
       "class": "verb"
     },
     {
-      "id": 630,
+      "id": 40630,
       "spanish": "ordenanza",
       "english": "ordinance",
       "french": "arrêté municipal",
@@ -5042,7 +5042,7 @@
       "class": "noun"
     },
     {
-      "id": 631,
+      "id": 40631,
       "spanish": "ornitorrinco",
       "english": "platypus",
       "french": "ornithorynque",
@@ -5050,7 +5050,7 @@
       "class": "noun"
     },
     {
-      "id": 632,
+      "id": 40632,
       "spanish": "parroquia",
       "english": "parish",
       "french": "paroisse",
@@ -5058,7 +5058,7 @@
       "class": "noun"
     },
     {
-      "id": 633,
+      "id": 40633,
       "spanish": "porte",
       "english": "size",
       "french": "port",
@@ -5066,7 +5066,7 @@
       "class": "noun"
     },
     {
-      "id": 634,
+      "id": 40634,
       "spanish": "redondear",
       "english": "round off",
       "french": "arrondir",
@@ -5074,7 +5074,7 @@
       "class": "verb"
     },
     {
-      "id": 635,
+      "id": 40635,
       "spanish": "rinoceronte",
       "english": "rhinoceros",
       "french": "rhinocéros",
@@ -5082,7 +5082,7 @@
       "class": "noun"
     },
     {
-      "id": 636,
+      "id": 40636,
       "spanish": "risita",
       "english": "chuckle",
       "french": "petit rire",
@@ -5090,7 +5090,7 @@
       "class": "noun"
     },
     {
-      "id": 637,
+      "id": 40637,
       "spanish": "sabelotodo",
       "english": "know-it-all",
       "french": "je-sais-tout",
@@ -5098,7 +5098,7 @@
       "class": "noun"
     },
     {
-      "id": 638,
+      "id": 40638,
       "spanish": "sacapuntas",
       "english": "pencil sharpener",
       "french": "taille-crayon",
@@ -5106,7 +5106,7 @@
       "class": "noun"
     },
     {
-      "id": 639,
+      "id": 40639,
       "spanish": "servil",
       "english": "servile",
       "french": "servile",
@@ -5114,7 +5114,7 @@
       "class": "adjective"
     },
     {
-      "id": 640,
+      "id": 40640,
       "spanish": "tenia",
       "english": "had",
       "french": "avait",
@@ -5122,7 +5122,7 @@
       "class": "noun"
     },
     {
-      "id": 641,
+      "id": 40641,
       "spanish": "toca",
       "english": "play",
       "french": "c'est au tour de",
@@ -5130,7 +5130,7 @@
       "class": "noun"
     },
     {
-      "id": 642,
+      "id": 40642,
       "spanish": "violación",
       "english": "rape",
       "french": "viol",
@@ -5138,7 +5138,7 @@
       "class": "noun"
     },
     {
-      "id": 643,
+      "id": 40643,
       "spanish": "alhóndiga",
       "english": "grain exchange",
       "french": "halondiga",
@@ -5146,7 +5146,7 @@
       "class": "noun"
     },
     {
-      "id": 644,
+      "id": 40644,
       "spanish": "almacenar",
       "english": "store",
       "french": "stocker",
@@ -5154,7 +5154,7 @@
       "class": "verb"
     },
     {
-      "id": 645,
+      "id": 40645,
       "spanish": "aluvión",
       "english": "flood",
       "french": "inondation",
@@ -5162,7 +5162,7 @@
       "class": "noun"
     },
     {
-      "id": 646,
+      "id": 40646,
       "spanish": "antiséptico",
       "english": "antiseptic",
       "french": "antiseptique",
@@ -5170,7 +5170,7 @@
       "class": "noun"
     },
     {
-      "id": 647,
+      "id": 40647,
       "spanish": "cabalgar",
       "english": "to ride",
       "french": "monter à cheval",
@@ -5178,7 +5178,7 @@
       "class": "verb"
     },
     {
-      "id": 648,
+      "id": 40648,
       "spanish": "cascada",
       "english": "waterfall",
       "french": "cascade",
@@ -5186,7 +5186,7 @@
       "class": "noun"
     },
     {
-      "id": 649,
+      "id": 40649,
       "spanish": "certificación",
       "english": "certification",
       "french": "certification",
@@ -5194,7 +5194,7 @@
       "class": "noun"
     },
     {
-      "id": 650,
+      "id": 40650,
       "spanish": "chamán",
       "english": "shaman",
       "french": "chaman",
@@ -5202,7 +5202,7 @@
       "class": "noun"
     },
     {
-      "id": 651,
+      "id": 40651,
       "spanish": "conmovedor",
       "english": "moving",
       "french": "émouvant",
@@ -5210,7 +5210,7 @@
       "class": "adjective"
     },
     {
-      "id": 652,
+      "id": 40652,
       "spanish": "cotidianidad",
       "english": "everyday life",
       "french": "vie quotidienne",
@@ -5218,7 +5218,7 @@
       "class": "noun"
     },
     {
-      "id": 653,
+      "id": 40653,
       "spanish": "cualitativo",
       "english": "qualitative",
       "french": "qualitatif",
@@ -5226,7 +5226,7 @@
       "class": "adjective"
     },
     {
-      "id": 654,
+      "id": 40654,
       "spanish": "cuantitativo",
       "english": "quantitative",
       "french": "quantitatif",
@@ -5234,7 +5234,7 @@
       "class": "adjective"
     },
     {
-      "id": 655,
+      "id": 40655,
       "spanish": "cuarentón",
       "english": "in his forties",
       "french": "la quarantaine",
@@ -5242,7 +5242,7 @@
       "class": "noun"
     },
     {
-      "id": 656,
+      "id": 40656,
       "spanish": "cumplimentar",
       "english": "to fill out",
       "french": "remplir",
@@ -5250,7 +5250,7 @@
       "class": "verb"
     },
     {
-      "id": 657,
+      "id": 40657,
       "spanish": "cívico",
       "english": "civic",
       "french": "civique",
@@ -5258,7 +5258,7 @@
       "class": "adjective"
     },
     {
-      "id": 658,
+      "id": 40658,
       "spanish": "d.n.i.",
       "english": "ID number",
       "french": "carte d'identité",
@@ -5266,7 +5266,7 @@
       "class": "noun"
     },
     {
-      "id": 659,
+      "id": 40659,
       "spanish": "demógrafo",
       "english": "demographer",
       "french": "démographe",
@@ -5274,7 +5274,7 @@
       "class": "noun"
     },
     {
-      "id": 660,
+      "id": 40660,
       "spanish": "derrumbe",
       "english": "collapse",
       "french": "effondrement",
@@ -5282,7 +5282,7 @@
       "class": "noun"
     },
     {
-      "id": 661,
+      "id": 40661,
       "spanish": "destreza",
       "english": "skill",
       "french": "habileté",
@@ -5290,7 +5290,7 @@
       "class": "noun"
     },
     {
-      "id": 662,
+      "id": 40662,
       "spanish": "diferenciación",
       "english": "differentiation",
       "french": "différenciation",
@@ -5298,7 +5298,7 @@
       "class": "noun"
     },
     {
-      "id": 663,
+      "id": 40663,
       "spanish": "diluir",
       "english": "dilute",
       "french": "diluer",
@@ -5306,7 +5306,7 @@
       "class": "verb"
     },
     {
-      "id": 664,
+      "id": 40664,
       "spanish": "drenaje",
       "english": "drainage",
       "french": "drainage",
@@ -5314,7 +5314,7 @@
       "class": "noun"
     },
     {
-      "id": 665,
+      "id": 40665,
       "spanish": "edificación",
       "english": "construction",
       "french": "bâtiment",
@@ -5322,7 +5322,7 @@
       "class": "noun"
     },
     {
-      "id": 666,
+      "id": 40666,
       "spanish": "elasticidad",
       "english": "elasticity",
       "french": "élasticité",
@@ -5330,7 +5330,7 @@
       "class": "noun"
     },
     {
-      "id": 667,
+      "id": 40667,
       "spanish": "eludir",
       "english": "evade",
       "french": "contourner",
@@ -5338,7 +5338,7 @@
       "class": "verb"
     },
     {
-      "id": 668,
+      "id": 40668,
       "spanish": "encorvar",
       "english": "to hunch over",
       "french": "se courber",
@@ -5346,7 +5346,7 @@
       "class": "verb"
     },
     {
-      "id": 669,
+      "id": 40669,
       "spanish": "entramado",
       "english": "latticework",
       "french": "treillis",
@@ -5354,7 +5354,7 @@
       "class": "noun"
     },
     {
-      "id": 670,
+      "id": 40670,
       "spanish": "equidad",
       "english": "equity",
       "french": "équité",
@@ -5362,7 +5362,7 @@
       "class": "noun"
     },
     {
-      "id": 671,
+      "id": 40671,
       "spanish": "estallido",
       "english": "outbreak",
       "french": "explosion",
@@ -5370,7 +5370,7 @@
       "class": "noun"
     },
     {
-      "id": 672,
+      "id": 40672,
       "spanish": "estructurar",
       "english": "structure",
       "french": "structurer",
@@ -5378,7 +5378,7 @@
       "class": "verb"
     },
     {
-      "id": 673,
+      "id": 40673,
       "spanish": "explícito",
       "english": "explicit",
       "french": "explicite",
@@ -5386,7 +5386,7 @@
       "class": "adjective"
     },
     {
-      "id": 674,
+      "id": 40674,
       "spanish": "fecundación",
       "english": "fertilization",
       "french": "fécondation",
@@ -5394,7 +5394,7 @@
       "class": "noun"
     },
     {
-      "id": 675,
+      "id": 40675,
       "spanish": "fobia",
       "english": "phobia",
       "french": "phobie",
@@ -5402,7 +5402,7 @@
       "class": "noun"
     },
     {
-      "id": 676,
+      "id": 40676,
       "spanish": "fundamentar",
       "english": "justify",
       "french": "justifier",
@@ -5410,7 +5410,7 @@
       "class": "verb"
     },
     {
-      "id": 677,
+      "id": 40677,
       "spanish": "gremio",
       "english": "guild",
       "french": "corporation",
@@ -5418,7 +5418,7 @@
       "class": "noun"
     },
     {
-      "id": 678,
+      "id": 40678,
       "spanish": "incierto",
       "english": "uncertain",
       "french": "incertain",
@@ -5426,7 +5426,7 @@
       "class": "adjective"
     },
     {
-      "id": 679,
+      "id": 40679,
       "spanish": "infertilidad",
       "english": "infertility",
       "french": "infertilité",
@@ -5434,7 +5434,7 @@
       "class": "noun"
     },
     {
-      "id": 680,
+      "id": 40680,
       "spanish": "interrelación",
       "english": "interrelationship",
       "french": "interrelation",
@@ -5442,7 +5442,7 @@
       "class": "noun"
     },
     {
-      "id": 681,
+      "id": 40681,
       "spanish": "metadato",
       "english": "metadata",
       "french": "métadonnées",
@@ -5450,7 +5450,7 @@
       "class": "noun"
     },
     {
-      "id": 682,
+      "id": 40682,
       "spanish": "metamorfosis",
       "english": "metamorphosis",
       "french": "métamorphose",
@@ -5458,7 +5458,7 @@
       "class": "noun"
     },
     {
-      "id": 683,
+      "id": 40683,
       "spanish": "modernización",
       "english": "modernization",
       "french": "modernisation",
@@ -5466,7 +5466,7 @@
       "class": "noun"
     },
     {
-      "id": 684,
+      "id": 40684,
       "spanish": "obstetricia",
       "english": "obstetrics",
       "french": "obstétrique",
@@ -5474,7 +5474,7 @@
       "class": "noun"
     },
     {
-      "id": 685,
+      "id": 40685,
       "spanish": "oxigenar",
       "english": "oxygenate",
       "french": "oxygéner",
@@ -5482,7 +5482,7 @@
       "class": "verb"
     },
     {
-      "id": 686,
+      "id": 40686,
       "spanish": "panda",
       "english": "panda",
       "french": "panda",
@@ -5490,7 +5490,7 @@
       "class": "noun"
     },
     {
-      "id": 687,
+      "id": 40687,
       "spanish": "partícipe",
       "english": "participant",
       "french": "participant",
@@ -5498,7 +5498,7 @@
       "class": "noun"
     },
     {
-      "id": 688,
+      "id": 40688,
       "spanish": "paternidad",
       "english": "paternity",
       "french": "paternité",
@@ -5506,7 +5506,7 @@
       "class": "noun"
     },
     {
-      "id": 689,
+      "id": 40689,
       "spanish": "pensante",
       "english": "thinker",
       "french": "pensant",
@@ -5514,7 +5514,7 @@
       "class": "adjective"
     },
     {
-      "id": 690,
+      "id": 40690,
       "spanish": "pluripotencial",
       "english": "pluripotent",
       "french": "pluripotent",
@@ -5522,7 +5522,7 @@
       "class": "adjective"
     },
     {
-      "id": 691,
+      "id": 40691,
       "spanish": "ponderar",
       "english": "weigh",
       "french": "pondérer",
@@ -5530,7 +5530,7 @@
       "class": "verb"
     },
     {
-      "id": 692,
+      "id": 40692,
       "spanish": "prescripción",
       "english": "statute of limitations",
       "french": "prescription",
@@ -5538,7 +5538,7 @@
       "class": "noun"
     },
     {
-      "id": 693,
+      "id": 40693,
       "spanish": "presupuestario",
       "english": "budgetary",
       "french": "budgétaire",
@@ -5546,7 +5546,7 @@
       "class": "adjective"
     },
     {
-      "id": 694,
+      "id": 40694,
       "spanish": "preventivo",
       "english": "preventive",
       "french": "préventif",
@@ -5554,7 +5554,7 @@
       "class": "adjective"
     },
     {
-      "id": 695,
+      "id": 40695,
       "spanish": "recalcar",
       "english": "emphasize",
       "french": "souligner",
@@ -5562,7 +5562,7 @@
       "class": "verb"
     },
     {
-      "id": 696,
+      "id": 40696,
       "spanish": "reconducir",
       "english": "redirect",
       "french": "réorienter",
@@ -5570,7 +5570,7 @@
       "class": "verb"
     },
     {
-      "id": 697,
+      "id": 40697,
       "spanish": "reconstituir",
       "english": "reconstitute",
       "french": "reconstituer",
@@ -5578,7 +5578,7 @@
       "class": "verb"
     },
     {
-      "id": 698,
+      "id": 40698,
       "spanish": "regenerativo",
       "english": "regenerative",
       "french": "régénératif",
@@ -5586,7 +5586,7 @@
       "class": "adjective"
     },
     {
-      "id": 699,
+      "id": 40699,
       "spanish": "reportar",
       "english": "report",
       "french": "signaler",
@@ -5594,7 +5594,7 @@
       "class": "verb"
     },
     {
-      "id": 700,
+      "id": 40700,
       "spanish": "rinoplastia",
       "english": "rhinoplasty",
       "french": "rhinoplastie",
@@ -5602,7 +5602,7 @@
       "class": "noun"
     },
     {
-      "id": 701,
+      "id": 40701,
       "spanish": "segunda",
       "english": "second",
       "french": "deuxième",
@@ -5610,7 +5610,7 @@
       "class": "noun"
     },
     {
-      "id": 702,
+      "id": 40702,
       "spanish": "supuesto",
       "english": "supposedly",
       "french": "bien sûr",
@@ -5618,7 +5618,7 @@
       "class": "noun"
     },
     {
-      "id": 703,
+      "id": 40703,
       "spanish": "sísmico",
       "english": "seismic",
       "french": "sismique",
@@ -5626,7 +5626,7 @@
       "class": "adjective"
     },
     {
-      "id": 704,
+      "id": 40704,
       "spanish": "tolerar",
       "english": "tolerate",
       "french": "tolérer",
@@ -5634,7 +5634,7 @@
       "class": "verb"
     },
     {
-      "id": 705,
+      "id": 40705,
       "spanish": "transitorio",
       "english": "transitional",
       "french": "transitoire",
@@ -5642,7 +5642,7 @@
       "class": "adjective"
     },
     {
-      "id": 706,
+      "id": 40706,
       "spanish": "treintena",
       "english": "thirties",
       "french": "une trentaine",
@@ -5650,7 +5650,7 @@
       "class": "noun"
     },
     {
-      "id": 707,
+      "id": 40707,
       "spanish": "veinteañero",
       "english": "twenty-something",
       "french": "jeune d'une vingtaine d'années",
@@ -5658,7 +5658,7 @@
       "class": "noun"
     },
     {
-      "id": 708,
+      "id": 40708,
       "spanish": "vicioso",
       "english": "vicious",
       "french": "vicieux",

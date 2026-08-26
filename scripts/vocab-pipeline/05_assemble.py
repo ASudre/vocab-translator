@@ -12,6 +12,12 @@ PUBLIC_DIR = ROOT / "public"
 LEVELS = ["a1", "a2", "b1", "b2", "c1"]
 NUM_CHUNKS = 8
 
+# public/a1.json already has real ids up to ~1737 after merging net-new words.
+# a2-c1 get non-overlapping id ranges so IndexedDB (keyed by id) and per-word
+# progress tracking never collide across levels, even if a user switches
+# levels back and forth.
+ID_OFFSET = {"a2": 10_000, "b1": 20_000, "b2": 30_000, "c1": 40_000}
+
 POS_TO_CLASS = {
     "NCM": "noun",
     "NCF": "noun",
@@ -50,9 +56,10 @@ def build_entries(level, cat_map):
 
 
 def write_level_file(level, entries):
+    offset = ID_OFFSET[level]
     numbered = []
     for i, e in enumerate(entries, start=1):
-        numbered.append({"id": i, **e})
+        numbered.append({"id": offset + i, **e})
     out_path = PUBLIC_DIR / f"{level}.json"
     out_path.write_text(
         json.dumps({"version": "1.0.0", "list": numbered}, ensure_ascii=False, indent=2) + "\n",
@@ -68,6 +75,10 @@ def merge_into_a1(entries):
     max_id = max(e["id"] for e in a1["list"])
 
     net_new = [e for e in entries if e["spanish"].lower().strip() not in existing_words]
+
+    if not net_new:
+        print(f"a1: no net-new entries (of {len(entries)} candidates) — leaving file untouched")
+        return
 
     next_id = max_id + 1
     for e in net_new:
