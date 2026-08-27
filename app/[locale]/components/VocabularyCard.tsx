@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { memo, useRef } from 'react';
 import { useTranslations } from 'next-intl';
 import { TranslationResult } from '@/hooks/useVocabularyDB';
 
@@ -6,27 +6,35 @@ interface VocabularyCardProps {
   word: TranslationResult;
 }
 
-export function VocabularyCard({
-  word,
-}: VocabularyCardProps) {
+// Memoized so typing (which only changes userAnswer/isCorrect) doesn't force the
+// badge/dots/French word to re-render — attemptHistory keeps a stable reference
+// across keystrokes since handleKeyPress never touches it.
+const WordHeader = memo(function WordHeader({
+  wordClass,
+  french,
+  attemptHistory,
+}: {
+  wordClass: string;
+  french: string;
+  attemptHistory: (boolean | null | undefined)[] | undefined;
+}) {
   const t = useTranslations('VocabularyCard');
   const tClass = useTranslations('WordClass');
-  const inputRef = useRef<HTMLInputElement>(null);
 
   const renderAttemptDots = () => {
-    const history = word.attemptHistory || [];
+    const history = attemptHistory || [];
     const dots = [];
-    
+
     for (let i = 0; i < 3; i++) {
       const attempt = history[i];
       let dotColor = 'bg-gray-300 dark:bg-gray-600';
-      
+
       if (attempt === true) {
         dotColor = 'bg-green-500';
       } else if (attempt === false) {
         dotColor = 'bg-red-500';
       }
-      
+
       dots.push(
         <div
           key={i}
@@ -35,30 +43,43 @@ export function VocabularyCard({
         />
       );
     }
-    
+
     return dots;
   };
 
   return (
-    <div className={`relative bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-6 sm:p-8 md:p-10 transition-all ${
+    <>
+      <span className="absolute top-4 right-4 px-2 py-1 text-s font-semibold rounded-full bg-indigo-100 dark:bg-indigo-900 text-indigo-700 dark:text-indigo-300">
+        {tClass(wordClass as 'adjective' | 'adverb' | 'interjection' | 'noun' | 'number' | 'phrase' | 'preposition' | 'pronoun' | 'verb')}
+      </span>
+
+      <div className="text-center mb-8">
+        <div className="flex justify-center gap-2 mb-3">
+          {renderAttemptDots()}
+        </div>
+        <div className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4">
+          {french}
+        </div>
+      </div>
+    </>
+  );
+});
+
+export function VocabularyCard({
+  word,
+}: VocabularyCardProps) {
+  const t = useTranslations('VocabularyCard');
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  return (
+    <div className={`relative bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-6 sm:p-8 md:p-10 transition-shadow ${
         word.isCorrect === true
           ? 'ring-4 ring-green-500 ring-offset-0'
           : word.isCorrect === false && !word.showSolution
           ? 'ring-4 ring-red-500 ring-offset-0'
           : ''
       }`}>
-        <span className="absolute top-4 right-4 px-2 py-1 text-s font-semibold rounded-full bg-indigo-100 dark:bg-indigo-900 text-indigo-700 dark:text-indigo-300">
-          {tClass(word.class as 'adjective' | 'adverb' | 'interjection' | 'noun' | 'number' | 'phrase' | 'preposition' | 'pronoun' | 'verb')}
-        </span>
-        
-        <div className="text-center mb-8">
-          <div className="flex justify-center gap-2 mb-3">
-            {renderAttemptDots()}
-          </div>
-          <div className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4">
-            {word.french}
-          </div>
-        </div>
+        <WordHeader wordClass={word.class} french={word.french} attemptHistory={word.attemptHistory} />
 
         <input
           ref={inputRef}
