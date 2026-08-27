@@ -1,3 +1,5 @@
+import { computeMasteryStats, computeNextProgress, MASTERY_THRESHOLD, normalizeVocabularyEntries, needsVocabularyReload, selectUnmastered } from './progress';
+
 const DB_NAME = 'VocabTranslatorDB';
 const DB_VERSION = 5;
 const STORE_NAME = 'vocabulary';
@@ -146,7 +148,7 @@ export const getUnmasteredVocabulary = async (count: number): Promise<Vocabulary
     const progressStore = transaction.objectStore(PROGRESS_STORE_NAME);
     const masteryIndex = progressStore.index('masteryLevel');
     
-    const masteredRequest = masteryIndex.getAll(IDBKeyRange.only(3));
+    const masteredRequest = masteryIndex.getAll(IDBKeyRange.only(MASTERY_THRESHOLD));
     
     masteredRequest.onsuccess = () => {
       const masteredProgress = masteredRequest.result as UserProgress[];
@@ -156,16 +158,8 @@ export const getUnmasteredVocabulary = async (count: number): Promise<Vocabulary
       
       getAllVocabRequest.onsuccess = () => {
         const allVocab = getAllVocabRequest.result as VocabularyEntry[];
-        const unmastered = allVocab.filter(vocab => !masteredVocabIds.has(vocab.id!));
-        
-        // Fisher-Yates shuffle for proper randomization
-        const shuffled = [...unmastered];
-        for (let i = shuffled.length - 1; i > 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1));
-          [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-        }
-        const selected = shuffled.slice(0, count);
-        
+        const selected = selectUnmastered(allVocab, masteredVocabIds, count);
+
         resolve(selected);
       };
       
@@ -239,9 +233,9 @@ export const loadVocabularyFromJSON = async (jsonPath: string, level: string): P
 
     // Check if we need to reload: level switched, or this level's data changed
     const count = await getVocabularyCount();
-    const needsReload = activeLevel !== level || storedVersion !== jsonVersion;
+    const needsReload = needsVocabularyReload({ count, activeLevel, level, storedVersion, jsonVersion });
 
-    if (count > 0 && !needsReload) {
+    if (!needsReload) {
       console.log(`Vocabulary already loaded (level ${level}, version ${storedVersion})`);
       return;
     }
@@ -252,32 +246,9 @@ export const loadVocabularyFromJSON = async (jsonPath: string, level: string): P
     } else {
       console.log(`Loading vocabulary level ${level}, version ${jsonVersion}...`);
     }
-    
-    // Handle both formats: { list: [...] } or direct array
-    const rawData = Array.isArray(jsonData) ? jsonData : jsonData.list;
-    
-    // Normalize the data to VocabularyEntry format
-    const data: VocabularyEntry[] = rawData.map((entry: {
-      id: number;
-      spanish?: string;
-      Español?: string;
-      english?: string;
-      English?: string;
-      french?: string;
-      Français?: string;
-      category?: string;
-      Category?: string;
-      class?: string;
-      Class?: string;
-    }) => ({
-      id: entry.id,
-      English: entry.english || entry.English || '',
-      Español: entry.spanish || entry.Español || '',
-      Français: entry.french || entry.Français || '',
-      Category: entry.category || entry.Category || '',
-      Class: entry.class || entry.Class || '',
-    }));
-    
+
+    const data: VocabularyEntry[] = normalizeVocabularyEntries(jsonData);
+
     await importVocabulary(data);
 
     // Store the version and active level
@@ -321,52 +292,15 @@ export const saveUserProgress = async (vocabularyId: number, isCorrect: boolean)
 
     getRequest.onsuccess = () => {
       const existingProgress = getRequest.result as UserProgress | undefined;
-      
-      let progressData: UserProgress;
+
+      const progressData: UserProgress = {
+        ...computeNextProgress(existingProgress, isCorrect, new Date().toISOString()),
+        vocabularyId,
+      };
 
       if (existingProgress) {
-        const newCurrentStreak = isCorrect ? existingProgress.currentStreak + 1 : 0;
-        const newBestStreak = Math.max(existingProgress.bestStreak, newCurrentStreak);
-        
-        const newAttemptHistory = [...(existingProgress.attemptHistory || []), isCorrect].slice(-3);
-        
-        // Calculate masteryLevel: count consecutive successes from the end (0-3)
-        let masteryLevel = 0;
-        for (let i = newAttemptHistory.length - 1; i >= 0; i--) {
-          if (newAttemptHistory[i] === true) {
-            masteryLevel++;
-          } else {
-            break;
-          }
-        }
-
-        progressData = {
-          id: existingProgress.id,
-          vocabularyId: existingProgress.vocabularyId,
-          successCount: existingProgress.successCount + (isCorrect ? 1 : 0),
-          failCount: existingProgress.failCount + (isCorrect ? 0 : 1),
-          currentStreak: newCurrentStreak,
-          bestStreak: newBestStreak,
-          lastPracticed: new Date().toISOString(),
-          attemptHistory: newAttemptHistory,
-          masteryLevel
-        };
-
         objectStore.put(progressData);
       } else {
-        const masteryLevel = isCorrect ? 1 : 0;
-
-        progressData = {
-          vocabularyId,
-          successCount: isCorrect ? 1 : 0,
-          failCount: isCorrect ? 0 : 1,
-          currentStreak: isCorrect ? 1 : 0,
-          bestStreak: isCorrect ? 1 : 0,
-          lastPracticed: new Date().toISOString(),
-          attemptHistory: [isCorrect],
-          masteryLevel
-        };
-
         objectStore.add(progressData);
       }
     };
@@ -420,29 +354,12 @@ export const getMasteryStats = async (): Promise<{ total: number; mastered: numb
 
     getAllKeysRequest.onsuccess = () => {
       const currentLevelIds = new Set(getAllKeysRequest.result as number[]);
-      const totalWords = currentLevelIds.size;
 
       const getAllProgressRequest = progressStore.getAll();
 
       getAllProgressRequest.onsuccess = () => {
         const allProgress = getAllProgressRequest.result as UserProgress[];
-        const levelProgress = allProgress.filter(p => currentLevelIds.has(p.vocabularyId));
-
-        // Sum all mastery levels (0-3 per word)
-        const totalMasteryPoints = levelProgress.reduce((sum, progress) => sum + (progress.masteryLevel || 0), 0);
-
-        // Count words with masteryLevel = 3
-        const masteredWords = levelProgress.filter(p => p.masteryLevel === 3).length;
-
-        // Maximum possible points: totalWords * 3
-        const maxPoints = totalWords * 3;
-        const percentage = maxPoints > 0 ? Math.round((totalMasteryPoints / maxPoints) * 1000) / 10 : 0;
-
-        resolve({
-          total: totalWords,
-          mastered: masteredWords,
-          percentage
-        });
+        resolve(computeMasteryStats(currentLevelIds, allProgress));
       };
 
       getAllProgressRequest.onerror = () => {

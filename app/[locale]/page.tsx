@@ -1,31 +1,15 @@
 'use client';
 
 import { useEffect, useCallback, useState } from 'react';
-import { useVocabularyDB, CEFRLevel, CEFR_LEVELS, TranslationResult } from '@/hooks/useVocabularyDB';
+import { useVocabularyDB, CEFRLevel, TranslationResult } from '@/hooks/useVocabularyDB';
 import { useCardNavigation } from '@/hooks/useCardNavigation';
 import { checkAnswerCorrectness } from '@/lib/helpers';
 import { saveUserProgress, getMasteryStats } from '@/lib/indexedDB';
+import { appendAttempt } from '@/lib/progress';
+import { LEVEL_STORAGE_KEY, pendingWordKey, isCEFRLevel, readPendingWord } from '@/lib/pendingWord';
 import { VocabularyCard } from './components/VocabularyCard';
 import { FixedKeyboard } from './components/FixedKeyboard';
 import { TopBar } from './components/TopBar';
-
-const LEVEL_STORAGE_KEY = 'vocabDB_selectedLevel';
-const pendingWordKey = (level: CEFRLevel) => `vocabDB_pendingWord_${level}`;
-
-const isCEFRLevel = (value: string | null): value is CEFRLevel =>
-  value !== null && (CEFR_LEVELS as readonly string[]).includes(value);
-
-const readPendingWord = (level: CEFRLevel): TranslationResult | null => {
-  const raw = localStorage.getItem(pendingWordKey(level));
-  if (!raw) return null;
-
-  try {
-    return JSON.parse(raw) as TranslationResult;
-  } catch {
-    localStorage.removeItem(pendingWordKey(level));
-    return null;
-  }
-};
 
 export default function Home() {
   const [level, setLevel] = useState<CEFRLevel>('a1');
@@ -180,17 +164,14 @@ export default function Home() {
         
         setWords(prevWords => {
           const newWords = [...prevWords];
-          const currentAttemptHistory = newWords[currentIndex].attemptHistory || [];
-          const newAttemptHistory = [...currentAttemptHistory, isCorrect].slice(-3);
-          
           newWords[currentIndex] = {
             ...newWords[currentIndex],
             progressSaved: true,
-            attemptHistory: newAttemptHistory
+            attemptHistory: appendAttempt(newWords[currentIndex].attemptHistory, isCorrect)
           };
           return newWords;
         });
-        
+
         await updateMasteryStats();
       } catch (error) {
         console.error('Failed to save progress:', error);
@@ -229,17 +210,14 @@ export default function Home() {
         
         setWords(prevWords => {
           const newWords = [...prevWords];
-          const currentAttemptHistory = newWords[currentIndex].attemptHistory || [];
-          const newAttemptHistory = [...currentAttemptHistory, false].slice(-3);
-          
           newWords[currentIndex] = {
             ...newWords[currentIndex],
             progressSaved: true,
-            attemptHistory: newAttemptHistory
+            attemptHistory: appendAttempt(newWords[currentIndex].attemptHistory, false)
           };
           return newWords;
         });
-        
+
         await updateMasteryStats();
       } catch (error) {
         console.error('Failed to save progress:', error);
