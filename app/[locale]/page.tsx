@@ -236,7 +236,7 @@ export default function Home() {
         {words.length > 0 && currentWord && (
           <div className="relative">
             <div
-              className={`transition-[transform,opacity] duration-300 ${
+              className={`transition-all duration-300 ${
                 slideDirection === 'left' ? '-translate-x-full opacity-0' : 
                 slideDirection === 'right' ? 'translate-x-full opacity-0' : 
                 'translate-x-0 opacity-100'

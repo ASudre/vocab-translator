@@ -72,7 +72,7 @@ export function VocabularyCard({
   const inputRef = useRef<HTMLInputElement>(null);
 
   return (
-    <div className={`relative bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-6 sm:p-8 md:p-10 transition-shadow ${
+    <div className={`relative bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-6 sm:p-8 md:p-10 transition-all ${
         word.isCorrect === true
           ? 'ring-4 ring-green-500 ring-offset-0'
           : word.isCorrect === false && !word.showSolution
