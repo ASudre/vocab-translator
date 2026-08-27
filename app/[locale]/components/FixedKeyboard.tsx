@@ -1,8 +1,9 @@
+import { memo } from 'react';
 import { SpanishKeyboard } from './SpanishKeyboard';
-import { TranslationResult } from '@/hooks/useVocabulary';
 
 interface FixedKeyboardProps {
-  currentWord: TranslationResult | undefined;
+  hasCurrentWord: boolean;
+  showSolution: boolean;
   onKeyPress: (key: string) => void;
   onBackspace: () => void;
   onCheckAnswer: () => void;
@@ -10,18 +11,19 @@ interface FixedKeyboardProps {
   onNext: () => void;
 }
 
-export function FixedKeyboard({
-  currentWord,
+export const FixedKeyboard = memo(function FixedKeyboard({
+  hasCurrentWord,
+  showSolution,
   onKeyPress,
   onBackspace,
   onCheckAnswer,
   onToggleSolution,
   onNext,
 }: FixedKeyboardProps) {
-  if (!currentWord) return null;
+  if (!hasCurrentWord) return null;
 
   return (
-    <div 
+    <div
       className="flex-shrink-0 bg-gradient-to-t from-blue-50 to-transparent dark:from-gray-900 dark:to-transparent touch-none"
       style={{ paddingBottom: 'max(env(safe-area-inset-bottom), 1rem)' }}
     >
@@ -32,9 +34,9 @@ export function FixedKeyboard({
           onEnter={onCheckAnswer}
           onToggleSolution={onToggleSolution}
           onNext={onNext}
-          showSolution={currentWord?.showSolution || false}
+          showSolution={showSolution}
         />
       </div>
     </div>
   );
-}
+});

@@ -252,7 +252,8 @@ export default function Home() {
       </main>
 
       <FixedKeyboard
-        currentWord={currentWord}
+        hasCurrentWord={!!currentWord}
+        showSolution={currentWord?.showSolution || false}
         onKeyPress={handleKeyPress}
         onBackspace={handleBackspace}
         onCheckAnswer={handleCheckAnswer}

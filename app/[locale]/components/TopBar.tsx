@@ -1,3 +1,4 @@
+import { memo } from 'react';
 import { CEFRLevel } from '@/hooks/useVocabularyDB';
 import { ProgressBar } from './ProgressBar';
 import { LevelSelector } from './LevelSelector';
@@ -12,7 +13,7 @@ interface TopBarProps {
   onLevelChange: (level: CEFRLevel) => void;
 }
 
-export function TopBar({ masteryStats, level, onLevelChange }: TopBarProps) {
+export const TopBar = memo(function TopBar({ masteryStats, level, onLevelChange }: TopBarProps) {
   return (
     <div className="w-full border-b border-gray-200 dark:border-gray-700">
       <div className="container mx-auto">
@@ -25,4 +26,4 @@ export function TopBar({ masteryStats, level, onLevelChange }: TopBarProps) {
       </div>
     </div>
   );
-}
+});

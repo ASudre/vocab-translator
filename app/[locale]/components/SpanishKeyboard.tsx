@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { memo, useRef } from 'react';
 import { useTranslations } from 'next-intl';
 import { Key } from './Key';
 
@@ -11,7 +11,7 @@ interface SpanishKeyboardProps {
   showSolution: boolean;
 }
 
-export function SpanishKeyboard({ onKeyPress, onBackspace, onEnter, onToggleSolution, onNext, showSolution }: SpanishKeyboardProps) {
+export const SpanishKeyboard = memo(function SpanishKeyboard({ onKeyPress, onBackspace, onEnter, onToggleSolution, onNext, showSolution }: SpanishKeyboardProps) {
   const t = useTranslations('SpanishKeyboard');
   const specialChars = ['á', 'é', 'í', 'ó', 'ú', 'ü', '¡', '!', '¿', '?'];
   const activeTouchesRef = useRef<Set<number>>(new Set());
@@ -153,4 +153,4 @@ export function SpanishKeyboard({ onKeyPress, onBackspace, onEnter, onToggleSolu
       </div>
     </div>
   );
-}
+});

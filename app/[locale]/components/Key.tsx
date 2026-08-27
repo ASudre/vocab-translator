@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 
 interface KeyProps {
   value: string;
@@ -12,7 +12,7 @@ interface KeyProps {
   flex?: string;
 }
 
-export function Key({
+export const Key = memo(function Key({
   value,
   onPress,
   onMouseAction,
@@ -24,7 +24,7 @@ export function Key({
   flex = 'flex-1'
 }: KeyProps) {
   // Button takes full space with no gaps
-  const buttonClasses = `${flex} ${maxWidth} h-14 px-0.5 py-1`;
+  const buttonClasses = `${flex} ${maxWidth} h-14 px-0.5 py-1 touch-manipulation [-webkit-tap-highlight-color:transparent]`;
   
   // Inner span has the visual styling with rounded corners
   const innerBaseClasses = 'w-full h-full flex items-center justify-center rounded-lg font-semibold text-xl transition-colors duration-150 shadow-sm';
@@ -54,4 +54,4 @@ export function Key({
       </span>
     </button>
   );
-}
+});
