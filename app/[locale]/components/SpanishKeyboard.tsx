@@ -22,9 +22,9 @@ export const SpanishKeyboard = memo(function SpanishKeyboard({ onKeyPress, onBac
     e.stopPropagation();
     touchUsedRef.current = true;
 
-    // Handle touch events (mobile) with multi-touch support
-    const touches = Array.from(e.touches);
-    const newTouch = touches[touches.length - 1];
+    // Use changedTouches (the touch that triggered this event) instead of touches
+    // (all active touches globally) to avoid ambiguity/races with reused touch identifiers
+    const newTouch = e.changedTouches[0];
 
     // Only trigger if this touch hasn't been registered yet
     if (!activeTouchesRef.current.has(newTouch.identifier)) {
