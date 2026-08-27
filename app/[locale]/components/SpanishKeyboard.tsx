@@ -46,7 +46,6 @@ export const SpanishKeyboard = memo(function SpanishKeyboard({ onKeyPress, onBac
   };
 
   const handleTouchEnd = (e: React.TouchEvent) => {
-    // Remove ended touches from tracking
     const remainingTouches = new Set(Array.from(e.touches).map(t => t.identifier));
     activeTouchesRef.current = remainingTouches;
   };
@@ -55,6 +54,7 @@ export const SpanishKeyboard = memo(function SpanishKeyboard({ onKeyPress, onBac
     <div
       className="bg-gray-100 dark:bg-gray-700 select-none"
       onTouchEnd={handleTouchEnd}
+      onTouchCancel={handleTouchEnd}
     >
       {/* Special characters row */}
       <div className="flex justify-center">
