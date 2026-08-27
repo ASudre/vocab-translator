@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useCallback, useState } from 'react';
-import { useVocabularyDB, CEFRLevel, CEFR_LEVELS } from '@/hooks/useVocabularyDB';
+import { useVocabularyDB, CEFRLevel, CEFR_LEVELS, TranslationResult } from '@/hooks/useVocabularyDB';
 import { useCardNavigation } from '@/hooks/useCardNavigation';
 import { checkAnswerCorrectness } from '@/lib/helpers';
 import { saveUserProgress, getMasteryStats } from '@/lib/indexedDB';
@@ -10,14 +10,28 @@ import { FixedKeyboard } from './components/FixedKeyboard';
 import { TopBar } from './components/TopBar';
 
 const LEVEL_STORAGE_KEY = 'vocabDB_selectedLevel';
+const pendingWordKey = (level: CEFRLevel) => `vocabDB_pendingWord_${level}`;
 
 const isCEFRLevel = (value: string | null): value is CEFRLevel =>
   value !== null && (CEFR_LEVELS as readonly string[]).includes(value);
 
+const readPendingWord = (level: CEFRLevel): TranslationResult | null => {
+  const raw = localStorage.getItem(pendingWordKey(level));
+  if (!raw) return null;
+
+  try {
+    return JSON.parse(raw) as TranslationResult;
+  } catch {
+    localStorage.removeItem(pendingWordKey(level));
+    return null;
+  }
+};
+
 export default function Home() {
   const [level, setLevel] = useState<CEFRLevel>('a1');
   const [levelRestored, setLevelRestored] = useState(false);
-  const { words, setWords, loading, fetchWords, initialized } = useVocabularyDB(level, 10, levelRestored);
+  const [pendingWord, setPendingWord] = useState<TranslationResult | null>(null);
+  const { words, setWords, loading, fetchWords, initialized } = useVocabularyDB(level, 10, levelRestored, pendingWord);
   const [masteryStats, setMasteryStats] = useState({ total: 0, mastered: 0, percentage: 0 });
   const {
     currentIndex,
@@ -40,17 +54,19 @@ export default function Home() {
   // subsequent restored-level load both hit IndexedDB concurrently.
   useEffect(() => {
     const stored = localStorage.getItem(LEVEL_STORAGE_KEY);
+    const resolvedLevel = isCEFRLevel(stored) ? stored : 'a1';
     if (isCEFRLevel(stored)) {
       // Syncing from localStorage (unavailable during SSR) on mount, not derived from React state.
-      // eslint-disable-next-line react-hooks/set-state-in-effect
       setLevel(stored);
     }
+    setPendingWord(readPendingWord(resolvedLevel));
     setLevelRestored(true);
   }, []);
 
   const handleLevelChange = useCallback((newLevel: CEFRLevel) => {
     setLevel(newLevel);
     localStorage.setItem(LEVEL_STORAGE_KEY, newLevel);
+    setPendingWord(readPendingWord(newLevel));
     resetNavigation();
   }, [resetNavigation]);
 
@@ -85,6 +101,34 @@ export default function Home() {
       fetchWords();
     }
   }, [currentIndex, words.length, loading, fetchWords]);
+
+  // Remember whichever word is currently on screen but hasn't had an attempt
+  // recorded yet (progressSaved). If the app gets killed before it's answered,
+  // this word reappears on relaunch instead of a fresh shuffle quietly dropping
+  // it — otherwise closing the app would be a free way to skip it. Keyed on
+  // vocabularyId/progressSaved (not the whole word) so this doesn't write to
+  // localStorage on every keystroke, only when the word or its saved state changes.
+  useEffect(() => {
+    if (!currentWord) return;
+
+    if (currentWord.progressSaved) {
+      localStorage.removeItem(pendingWordKey(level));
+    } else {
+      localStorage.setItem(pendingWordKey(level), JSON.stringify({
+        vocabularyId: currentWord.vocabularyId,
+        spanish: currentWord.spanish,
+        french: currentWord.french,
+        class: currentWord.class,
+        category: currentWord.category,
+        userAnswer: '',
+        isCorrect: null,
+        showSolution: false,
+        attemptHistory: currentWord.attemptHistory,
+        progressSaved: false,
+      }));
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [currentWord?.vocabularyId, currentWord?.progressSaved, level]);
 
   const handleKeyPress = useCallback((key: string) => {
     setWords(prevWords => {

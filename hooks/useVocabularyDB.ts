@@ -17,7 +17,12 @@ export interface TranslationResult {
   progressSaved?: boolean;
 }
 
-export const useVocabularyDB = (level: CEFRLevel, wordCount: number = 10, enabled: boolean = true) => {
+export const useVocabularyDB = (
+  level: CEFRLevel,
+  wordCount: number = 10,
+  enabled: boolean = true,
+  pendingWord: TranslationResult | null = null
+) => {
   const [words, setWords] = useState<TranslationResult[]>([]);
   const [loading, setLoading] = useState(false);
   const [initialized, setInitialized] = useState(false);
@@ -52,15 +57,18 @@ export const useVocabularyDB = (level: CEFRLevel, wordCount: number = 10, enable
     };
   }, [level, enabled]);
 
-  const fetchWords = useCallback(async () => {
+  const fetchWords = useCallback(async (excludeIds: number[] = []) => {
     if (!initialized) return;
-    
+
     setLoading(true);
 
     try {
       const vocabEntries = await getUnmasteredVocabulary(wordCount);
+      const newEntries = excludeIds.length
+        ? vocabEntries.filter(item => !excludeIds.includes(item.id!))
+        : vocabEntries;
 
-      const vocabItemsPromises = vocabEntries.map(async (item: VocabularyEntry) => {
+      const vocabItemsPromises = newEntries.map(async (item: VocabularyEntry) => {
         const progress = await getUserProgress(item.id!);
         
         return {
@@ -87,11 +95,18 @@ export const useVocabularyDB = (level: CEFRLevel, wordCount: number = 10, enable
     }
   }, [wordCount, initialized]);
 
+  // Resume the previously unfinished word first, instead of a fresh shuffle,
+  // so closing the app isn't a free way to dodge a word you don't want to answer.
   useEffect(() => {
-    if (initialized) {
+    if (!initialized) return;
+
+    if (pendingWord) {
+      setWords([pendingWord]);
+      fetchWords([pendingWord.vocabularyId]);
+    } else {
       fetchWords();
     }
-  }, [initialized, fetchWords]);
+  }, [initialized, pendingWord, fetchWords]);
 
   return { words, setWords, loading, fetchWords, initialized };
 };
