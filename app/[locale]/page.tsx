@@ -1,8 +1,9 @@
 'use client';
 
-import { useEffect, useCallback, useState } from 'react';
+import { useEffect, useCallback, useMemo, useState } from 'react';
 import { useVocabularyDB, CEFRLevel, TranslationResult } from '@/hooks/useVocabularyDB';
 import { useCardNavigation } from '@/hooks/useCardNavigation';
+import { useDailyGoal } from '@/hooks/useDailyGoal';
 import { checkAnswerCorrectness } from '@/lib/helpers';
 import { saveUserProgress, getMasteryStats } from '@/lib/indexedDB';
 import { appendAttempt } from '@/lib/progress';
@@ -10,6 +11,7 @@ import { LEVEL_STORAGE_KEY, pendingWordKey, isCEFRLevel, readPendingWord } from 
 import { VocabularyCard } from './components/VocabularyCard';
 import { FixedKeyboard } from './components/FixedKeyboard';
 import { TopBar } from './components/TopBar';
+import { DailyGoal } from './components/DailyGoal';
 
 export default function Home() {
   const [level, setLevel] = useState<CEFRLevel>('a1');
@@ -17,6 +19,21 @@ export default function Home() {
   const [pendingWord, setPendingWord] = useState<TranslationResult | null>(null);
   const { words, setWords, loading, fetchWords, initialized } = useVocabularyDB(level, 10, levelRestored, pendingWord);
   const [masteryStats, setMasteryStats] = useState({ total: 0, mastered: 0, percentage: 0 });
+  const { recordCorrect: recordDailyGoalCorrect, ...dailyGoal } = useDailyGoal();
+  // useDailyGoal returns a fresh object every render (recordCorrect's
+  // identity is stable, but the wrapping object isn't), which would defeat
+  // TopBar's memo() on every keystroke. Pass down only the display-relevant
+  // primitives, memoized on their own values.
+  const dailyGoalDisplay = useMemo(
+    () => ({
+      ready: dailyGoal.ready,
+      count: dailyGoal.count,
+      goal: dailyGoal.goal,
+      completed: dailyGoal.completed,
+      justCompleted: dailyGoal.justCompleted,
+    }),
+    [dailyGoal.ready, dailyGoal.count, dailyGoal.goal, dailyGoal.completed, dailyGoal.justCompleted]
+  );
   const {
     currentIndex,
     slideDirection,
@@ -146,7 +163,7 @@ export default function Home() {
       word.userAnswer || '',
       word.spanish
     );
-    
+
     setWords(prevWords => {
       const newWords = [...prevWords];
       newWords[currentIndex] = {
@@ -161,7 +178,7 @@ export default function Home() {
       try {
         await saveUserProgress(word.vocabularyId, isCorrect);
         console.log(`Progress saved for word ${word.vocabularyId}: ${isCorrect ? 'correct' : 'incorrect'}`);
-        
+
         setWords(prevWords => {
           const newWords = [...prevWords];
           newWords[currentIndex] = {
@@ -173,6 +190,9 @@ export default function Home() {
         });
 
         await updateMasteryStats();
+        if (isCorrect) {
+          recordDailyGoalCorrect(word.vocabularyId);
+        }
       } catch (error) {
         console.error('Failed to save progress:', error);
       }
@@ -183,7 +203,7 @@ export default function Home() {
     } else {
       triggerShake();
     }
-  }, [words, currentIndex, setWords, autoAdvance, triggerShake, updateMasteryStats]);
+  }, [words, currentIndex, setWords, autoAdvance, triggerShake, updateMasteryStats, recordDailyGoalCorrect]);
 
   const handleToggleSolution = useCallback(async () => {
     const word = words[currentIndex];
@@ -207,7 +227,7 @@ export default function Home() {
       try {
         await saveUserProgress(word.vocabularyId, false);
         console.log(`Progress saved for word ${word.vocabularyId}: incorrect (solution shown)`);
-        
+
         setWords(prevWords => {
           const newWords = [...prevWords];
           newWords[currentIndex] = {
@@ -254,15 +274,18 @@ export default function Home() {
   return (
     <div className="fixed inset-0 flex flex-col bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 overflow-hidden">
       <TopBar masteryStats={masteryStats} level={level} onLevelChange={handleLevelChange} />
-      <main className="flex-1 overflow-y-auto container mx-auto px-4 py-6 sm:py-12">
+      <main className="flex-1 overflow-y-auto container mx-auto px-4 py-4 sm:py-12">
+        <div className="mb-4">
+          <DailyGoal dailyGoal={dailyGoalDisplay} />
+        </div>
+
         {words.length > 0 && currentWord && (
           <div className="relative">
             <div
-              className={`transition-all duration-300 ${
-                slideDirection === 'left' ? '-translate-x-full opacity-0' : 
-                slideDirection === 'right' ? 'translate-x-full opacity-0' : 
-                'translate-x-0 opacity-100'
-              } ${shakeAnimation ? 'animate-shake' : ''}`}
+              className={`transition-all duration-300 ${slideDirection === 'left' ? '-translate-x-full opacity-0' :
+                slideDirection === 'right' ? 'translate-x-full opacity-0' :
+                  'translate-x-0 opacity-100'
+                } ${shakeAnimation ? 'animate-shake' : ''}`}
             >
               <VocabularyCard
                 key={currentWord.french}

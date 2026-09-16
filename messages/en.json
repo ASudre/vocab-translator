@@ -32,5 +32,10 @@
   },
   "ProgressBar": {
     "on": "out of"
+  },
+  "DailyGoal": {
+    "progress": "{count} of {goal} today",
+    "completed": "Today's goal reached!",
+    "ariaLabel": "{count} of {goal} words answered correctly today"
   }
 }
