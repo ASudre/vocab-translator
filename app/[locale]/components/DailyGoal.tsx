@@ -10,13 +10,12 @@ interface DailyGoalProps {
     justCompleted: boolean;
     currentCombo: number;
     bestCombo: number;
-    lifetimeWordsCorrect: number;
   };
 }
 
 export const DailyGoal = memo(function DailyGoal({ stats }: DailyGoalProps) {
   const t = useTranslations('DailyGoal');
-  const { ready, count, goal, completed, justCompleted, currentCombo, bestCombo, lifetimeWordsCorrect } = stats;
+  const { ready, count, goal, completed, justCompleted, currentCombo, bestCombo } = stats;
 
   // Reserve the same footprint while unready so nothing shifts once
   // localStorage/IndexedDB have been read after mount (static export has
@@ -31,18 +30,18 @@ export const DailyGoal = memo(function DailyGoal({ stats }: DailyGoalProps) {
     return (
       <div
         className={cardClasses}
-        title={t('ariaLabelCompleted', { count, goal, bestCombo, lifetimeWordsCorrect })}
-        aria-label={t('ariaLabelCompleted', { count, goal, bestCombo, lifetimeWordsCorrect })}
+        title={t('ariaLabelCompleted', { count, goal, currentCombo, bestCombo })}
+        aria-label={t('ariaLabelCompleted', { count, goal, currentCombo, bestCombo })}
       >
         <div className="flex items-center justify-between flex-wrap gap-x-3 gap-y-1 text-xs font-bold">
           <span className="flex items-center gap-1 text-green-600 dark:text-green-400">
             <span aria-hidden="true">✅</span> {t('todayLabel', { count, goal })}
           </span>
           <span className="flex items-center gap-1 text-amber-600 dark:text-amber-400">
-            <span aria-hidden="true">🔥</span> {t('comboLabel', { count: bestCombo })}
+            <span aria-hidden="true">🔥</span> {t('comboLabel', { count: currentCombo })}
           </span>
           <span className="flex items-center gap-1 text-indigo-600 dark:text-indigo-400">
-            <span aria-hidden="true">⭐</span> {t('lifetimeLabel', { count: lifetimeWordsCorrect })}
+            <span aria-hidden="true">🏆</span> {t('bestComboLabel', { count: bestCombo })}
           </span>
         </div>
       </div>

@@ -35,7 +35,6 @@ export default function Home() {
       justCompleted: dailyGoal.justCompleted,
       currentCombo: combo.currentCombo,
       bestCombo: combo.best,
-      lifetimeWordsCorrect: masteryStats.lifetimeWordsCorrect,
     }),
     [
       dailyGoal.ready,
@@ -46,7 +45,6 @@ export default function Home() {
       dailyGoal.justCompleted,
       combo.currentCombo,
       combo.best,
-      masteryStats.lifetimeWordsCorrect,
     ]
   );
   const {

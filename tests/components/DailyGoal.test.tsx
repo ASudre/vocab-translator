@@ -11,7 +11,6 @@ const baseStats = {
   justCompleted: false,
   currentCombo: 0,
   bestCombo: 0,
-  lifetimeWordsCorrect: 0,
 };
 
 describe('DailyGoal', () => {
@@ -40,18 +39,18 @@ describe('DailyGoal', () => {
 
   it('replaces the bar with a three-stat summary once completed', () => {
     renderWithIntl(
-      <DailyGoal stats={{ ...baseStats, count: 10, completed: true, currentCombo: 0, bestCombo: 8, lifetimeWordsCorrect: 87 }} />
+      <DailyGoal stats={{ ...baseStats, count: 10, completed: true, currentCombo: 5, bestCombo: 8 }} />
     );
     expect(screen.getByText(/10\/10 aujourd'hui/)).toBeInTheDocument();
-    expect(screen.getByText("8 d'affilée")).toBeInTheDocument();
-    expect(screen.getByText('87 mots')).toBeInTheDocument();
+    expect(screen.getByText("5 d'affilée")).toBeInTheDocument();
+    expect(screen.getByText("Record : 8 d'affilée")).toBeInTheDocument();
     // The in-progress fraction/bar must be gone.
     expect(screen.queryByText('10/10')).not.toBeInTheDocument();
   });
 
   it('pops once on the render where justCompleted is true', () => {
     const { container } = renderWithIntl(
-      <DailyGoal stats={{ ...baseStats, count: 10, completed: true, justCompleted: true, bestCombo: 8, lifetimeWordsCorrect: 87 }} />
+      <DailyGoal stats={{ ...baseStats, count: 10, completed: true, justCompleted: true, currentCombo: 5, bestCombo: 8 }} />
     );
     expect(container.querySelector('.animate-pop')).toBeInTheDocument();
   });

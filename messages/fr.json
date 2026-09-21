@@ -38,7 +38,7 @@
     "ariaLabel": "{count} mots sur {goal} correctement répondus aujourd'hui",
     "todayLabel": "{count}/{goal} aujourd'hui",
     "comboLabel": "{count} d'affilée",
-    "lifetimeLabel": "{count} mots",
-    "ariaLabelCompleted": "Objectif du jour atteint : {count} mots sur {goal}. Meilleure série : {bestCombo} d'affilée. {lifetimeWordsCorrect} mots répondus correctement au total."
+    "bestComboLabel": "Record : {count} d'affilée",
+    "ariaLabelCompleted": "Objectif du jour atteint : {count} mots sur {goal}. Série actuelle : {currentCombo} d'affilée. Meilleure série : {bestCombo} d'affilée."
   }
 }
