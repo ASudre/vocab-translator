@@ -1,10 +1,14 @@
-import React, { memo } from 'react';
+import React, { memo, useRef } from 'react';
 
 interface KeyProps {
   value: string;
   onPress: () => void;
   onMouseAction: (e: React.MouseEvent, action: () => void) => void;
   onTouchAction: (e: React.TouchEvent, action: () => void) => void;
+  // When set, a quick tap still fires onPress as usual, but holding the key
+  // for longPressMs instead fires onLongPress (and suppresses onPress).
+  onLongPress?: () => void;
+  longPressMs?: number;
   variant?: 'default' | 'special' | 'action' | 'danger' | 'success';
   disabled?: boolean;
   className?: string;
@@ -17,12 +21,49 @@ export const Key = memo(function Key({
   onPress,
   onMouseAction,
   onTouchAction,
+  onLongPress,
+  longPressMs = 500,
   variant = 'default',
   disabled = false,
   className = '',
   maxWidth = '',
   flex = 'flex-1'
 }: KeyProps) {
+  const longPressTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const longPressFiredRef = useRef(false);
+
+  const clearLongPressTimer = () => {
+    if (longPressTimerRef.current !== null) {
+      clearTimeout(longPressTimerRef.current);
+      longPressTimerRef.current = null;
+    }
+  };
+
+  // Passed as the "action" to onMouseAction/onTouchAction. Without
+  // onLongPress this fires onPress immediately, same as before. With it,
+  // pressing down only arms a timer — onPress fires on release instead, so
+  // it can be suppressed if the hold turns into a long press.
+  const startPress = () => {
+    if (!onLongPress) {
+      onPress();
+      return;
+    }
+    longPressFiredRef.current = false;
+    longPressTimerRef.current = setTimeout(() => {
+      longPressFiredRef.current = true;
+      longPressTimerRef.current = null;
+      onLongPress();
+    }, longPressMs);
+  };
+
+  const endPress = () => {
+    if (!onLongPress) return;
+    clearLongPressTimer();
+    if (!longPressFiredRef.current) {
+      onPress();
+    }
+    longPressFiredRef.current = false;
+  };
   // Button takes full space with no gaps.
   const buttonClasses = `${flex} ${maxWidth} h-14 sm:h-16 px-0.5 py-0.5 touch-manipulation [-webkit-tap-highlight-color:transparent]`;
 
@@ -46,8 +87,12 @@ export const Key = memo(function Key({
   return (
     <button
       data-key={value}
-      onMouseDown={(e) => !disabled && onMouseAction(e, onPress)}
-      onTouchStart={(e) => !disabled && onTouchAction(e, onPress)}
+      onMouseDown={(e) => !disabled && onMouseAction(e, startPress)}
+      onTouchStart={(e) => !disabled && onTouchAction(e, startPress)}
+      onMouseUp={() => !disabled && endPress()}
+      onMouseLeave={() => !disabled && clearLongPressTimer()}
+      onTouchEnd={() => !disabled && endPress()}
+      onTouchCancel={() => !disabled && clearLongPressTimer()}
       disabled={disabled}
       className={buttonClasses}
     >

@@ -97,21 +97,14 @@ export const SpanishKeyboard = memo(function SpanishKeyboard({ onKeyPress, onBac
         ))}
       </div>
 
-      {/* Third row: a clear-all button on the left mirrors backspace on the
-          right (both w-[15%], vs. w-[10%] for a letter), which centers the
-          7 letters with no need for invisible spacers while keeping every
-          letter the same width as the rows above. */}
+      {/* Third row: an invisible spacer on the left matches backspace's
+          width on the right (both w-[15%], vs. w-[10%] for a letter), which
+          centers the 7 letters while keeping every letter the same width as
+          the rows above. Holding backspace (instead of a separate button)
+          clears the whole answer, so there's no destructive key sitting
+          right above the solution bulb where a mistap could wipe it. */}
       <div className="flex">
-        <Key
-          value="🗑"
-          onPress={onClear}
-          onMouseAction={handleMouseAction}
-          onTouchAction={handleKeyAction}
-          variant="danger"
-          disabled={showSolution}
-          flex="flex-none w-[15%]"
-          className="text-xl"
-        />
+        <div aria-hidden="true" className="flex-none w-[15%]" />
         {['z', 'x', 'c', 'v', 'b', 'n', 'm'].map((key) => (
           <Key
             key={key}
@@ -125,6 +118,7 @@ export const SpanishKeyboard = memo(function SpanishKeyboard({ onKeyPress, onBac
         <Key
           value="←"
           onPress={onBackspace}
+          onLongPress={onClear}
           onMouseAction={handleMouseAction}
           onTouchAction={handleKeyAction}
           variant="danger"

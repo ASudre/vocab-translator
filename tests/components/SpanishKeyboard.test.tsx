@@ -97,19 +97,49 @@ describe('SpanishKeyboard', () => {
     expect(onKeyPress).toHaveBeenCalledWith('a');
   });
 
-  it('space, backspace, clear, and enter keys invoke their respective handlers', () => {
-    const { onKeyPress, onBackspace, onClear, onEnter, key } = setup();
+  it('space and enter keys invoke their respective handlers', () => {
+    const { onKeyPress, onEnter, key } = setup();
 
     fireEvent.mouseDown(key('espacio'));
     expect(onKeyPress).toHaveBeenCalledWith(' ');
 
-    fireEvent.mouseDown(key('←'));
-    expect(onBackspace).toHaveBeenCalledTimes(1);
-
-    fireEvent.mouseDown(key('🗑'));
-    expect(onClear).toHaveBeenCalledTimes(1);
-
     fireEvent.mouseDown(key('↵'));
     expect(onEnter).toHaveBeenCalledTimes(1);
+  });
+
+  it('fires onBackspace on a quick tap of the backspace key', () => {
+    const { onBackspace, onClear, key } = setup();
+
+    fireEvent.mouseDown(key('←'));
+    fireEvent.mouseUp(key('←'));
+
+    expect(onBackspace).toHaveBeenCalledTimes(1);
+    expect(onClear).not.toHaveBeenCalled();
+  });
+
+  it('fires onClear (not onBackspace) on a long press of the backspace key', () => {
+    vi.useFakeTimers();
+    const { onBackspace, onClear, key } = setup();
+
+    fireEvent.mouseDown(key('←'));
+    vi.advanceTimersByTime(500);
+    fireEvent.mouseUp(key('←'));
+
+    expect(onClear).toHaveBeenCalledTimes(1);
+    expect(onBackspace).not.toHaveBeenCalled();
+    vi.useRealTimers();
+  });
+
+  it('does not fire onBackspace or onClear if the press is released without a mouseup (e.g. dragged off)', () => {
+    vi.useFakeTimers();
+    const { onBackspace, onClear, key } = setup();
+
+    fireEvent.mouseDown(key('←'));
+    fireEvent.mouseLeave(key('←'));
+    vi.advanceTimersByTime(500);
+
+    expect(onBackspace).not.toHaveBeenCalled();
+    expect(onClear).not.toHaveBeenCalled();
+    vi.useRealTimers();
   });
 });
