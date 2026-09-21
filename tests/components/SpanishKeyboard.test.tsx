@@ -7,6 +7,7 @@ import { SpanishKeyboard } from '@/app/[locale]/components/SpanishKeyboard';
 const setup = () => {
   const onKeyPress = vi.fn();
   const onBackspace = vi.fn();
+  const onClear = vi.fn();
   const onEnter = vi.fn();
   const onToggleSolution = vi.fn();
   const onNext = vi.fn();
@@ -15,6 +16,7 @@ const setup = () => {
     <SpanishKeyboard
       onKeyPress={onKeyPress}
       onBackspace={onBackspace}
+      onClear={onClear}
       onEnter={onEnter}
       onToggleSolution={onToggleSolution}
       onNext={onNext}
@@ -26,7 +28,7 @@ const setup = () => {
   // its label text lives in a child <span>, so resolve up to the button.
   const key = (label: string) => screen.getByText(label).closest('button')!;
 
-  return { onKeyPress, onBackspace, onEnter, onToggleSolution, onNext, key };
+  return { onKeyPress, onBackspace, onClear, onEnter, onToggleSolution, onNext, key };
 };
 
 describe('SpanishKeyboard', () => {
@@ -95,14 +97,17 @@ describe('SpanishKeyboard', () => {
     expect(onKeyPress).toHaveBeenCalledWith('a');
   });
 
-  it('space, backspace, and enter keys invoke their respective handlers', () => {
-    const { onKeyPress, onBackspace, onEnter, key } = setup();
+  it('space, backspace, clear, and enter keys invoke their respective handlers', () => {
+    const { onKeyPress, onBackspace, onClear, onEnter, key } = setup();
 
     fireEvent.mouseDown(key('espacio'));
     expect(onKeyPress).toHaveBeenCalledWith(' ');
 
     fireEvent.mouseDown(key('←'));
     expect(onBackspace).toHaveBeenCalledTimes(1);
+
+    fireEvent.mouseDown(key('🗑'));
+    expect(onClear).toHaveBeenCalledTimes(1);
 
     fireEvent.mouseDown(key('↵'));
     expect(onEnter).toHaveBeenCalledTimes(1);

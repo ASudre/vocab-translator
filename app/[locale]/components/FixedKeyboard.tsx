@@ -6,6 +6,7 @@ interface FixedKeyboardProps {
   showSolution: boolean;
   onKeyPress: (key: string) => void;
   onBackspace: () => void;
+  onClear: () => void;
   onCheckAnswer: () => void;
   onToggleSolution: () => void;
   onNext: () => void;
@@ -16,6 +17,7 @@ export const FixedKeyboard = memo(function FixedKeyboard({
   showSolution,
   onKeyPress,
   onBackspace,
+  onClear,
   onCheckAnswer,
   onToggleSolution,
   onNext,
@@ -31,6 +33,7 @@ export const FixedKeyboard = memo(function FixedKeyboard({
         <SpanishKeyboard
           onKeyPress={onKeyPress}
           onBackspace={onBackspace}
+          onClear={onClear}
           onEnter={onCheckAnswer}
           onToggleSolution={onToggleSolution}
           onNext={onNext}

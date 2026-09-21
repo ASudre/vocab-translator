@@ -5,13 +5,14 @@ import { Key } from './Key';
 interface SpanishKeyboardProps {
   onKeyPress: (key: string) => void;
   onBackspace: () => void;
+  onClear: () => void;
   onEnter: () => void;
   onToggleSolution: () => void;
   onNext: () => void;
   showSolution: boolean;
 }
 
-export const SpanishKeyboard = memo(function SpanishKeyboard({ onKeyPress, onBackspace, onEnter, onToggleSolution, onNext, showSolution }: SpanishKeyboardProps) {
+export const SpanishKeyboard = memo(function SpanishKeyboard({ onKeyPress, onBackspace, onClear, onEnter, onToggleSolution, onNext, showSolution }: SpanishKeyboardProps) {
   const t = useTranslations('SpanishKeyboard');
   const specialChars = ['á', 'é', 'í', 'ó', 'ú', 'ü', '¡', '!', '¿', '?'];
   const activeTouchesRef = useRef<Set<number>>(new Set());
@@ -96,19 +97,31 @@ export const SpanishKeyboard = memo(function SpanishKeyboard({ onKeyPress, onBac
         ))}
       </div>
 
-      {/* Third row with backspace */}
+      {/* Third row: a clear-all button on the left mirrors backspace on the
+          right (both w-[15%], vs. w-[10%] for a letter), which centers the
+          7 letters with no need for invisible spacers while keeping every
+          letter the same width as the rows above. */}
       <div className="flex">
-        <div className="flex justify-center flex-1">
-          {['z', 'x', 'c', 'v', 'b', 'n', 'm'].map((key) => (
-            <Key
-              key={key}
-              value={key}
-              onPress={() => onKeyPress(key)}
-              onMouseAction={handleMouseAction}
-              onTouchAction={handleKeyAction}
-            />
-          ))}
-        </div>
+        <Key
+          value="🗑"
+          onPress={onClear}
+          onMouseAction={handleMouseAction}
+          onTouchAction={handleKeyAction}
+          variant="danger"
+          disabled={showSolution}
+          flex="flex-none w-[15%]"
+          className="text-xl"
+        />
+        {['z', 'x', 'c', 'v', 'b', 'n', 'm'].map((key) => (
+          <Key
+            key={key}
+            value={key}
+            onPress={() => onKeyPress(key)}
+            onMouseAction={handleMouseAction}
+            onTouchAction={handleKeyAction}
+            flex="flex-none w-[10%]"
+          />
+        ))}
         <Key
           value="←"
           onPress={onBackspace}
@@ -116,8 +129,7 @@ export const SpanishKeyboard = memo(function SpanishKeyboard({ onKeyPress, onBac
           onTouchAction={handleKeyAction}
           variant="danger"
           disabled={showSolution}
-          maxWidth="max-w-[50px]"
-          flex="flex-none min-w-[50px]"
+          flex="flex-none w-[15%]"
           className="text-2xl font-bold"
         />
       </div>

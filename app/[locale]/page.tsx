@@ -172,6 +172,18 @@ export default function Home() {
     });
   }, [currentIndex, setWords]);
 
+  const handleClear = useCallback(() => {
+    setWords(prevWords => {
+      const newWords = [...prevWords];
+      newWords[currentIndex] = {
+        ...newWords[currentIndex],
+        userAnswer: '',
+        isCorrect: null
+      };
+      return newWords;
+    });
+  }, [currentIndex, setWords]);
+
   const handleCheckAnswer = useCallback(async () => {
     const word = words[currentIndex];
     const isCorrect = checkAnswerCorrectness(
@@ -318,6 +330,7 @@ export default function Home() {
         showSolution={currentWord?.showSolution || false}
         onKeyPress={handleKeyPress}
         onBackspace={handleBackspace}
+        onClear={handleClear}
         onCheckAnswer={handleCheckAnswer}
         onToggleSolution={handleToggleSolution}
         onNext={goToNext}
