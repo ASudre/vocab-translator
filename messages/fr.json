@@ -54,5 +54,15 @@
     "ariaLabel": "{count} mots sur {goal} révisés aujourd'hui.",
     "ariaLabelCompleted": "Objectif de révision atteint : {count} mots sur {goal}.",
     "backToLearningToday": "{count} mots repartis en apprentissage aujourd'hui"
+  },
+  "Auth": {
+    "login": "Connexion",
+    "logout": "Déconnexion",
+    "signup": "Inscription",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "switchToSignup": "Pas encore de compte ? S'inscrire",
+    "switchToLogin": "Déjà un compte ? Se connecter",
+    "genericError": "Une erreur est survenue. Réessaye."
   }
 }

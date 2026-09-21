@@ -29,7 +29,13 @@ self.addEventListener('fetch', (event) => {
   if (url.origin !== location.origin) {
     return;
   }
-  
+
+  // Never cache API responses: they are per-user, and a cached response
+  // could be served to a different account on the same device.
+  if (url.pathname.startsWith('/api/')) {
+    return;
+  }
+
   // Network-first strategy for HTML pages
   if (event.request.mode === 'navigate') {
     event.respondWith(

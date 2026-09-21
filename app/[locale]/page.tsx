@@ -6,7 +6,9 @@ import { useLevelData } from '@/hooks/useLevelData';
 import { usePracticeSession, WordSource } from '@/hooks/usePracticeSession';
 import { useDailyGoal } from '@/hooks/useDailyGoal';
 import { useCombo } from '@/hooks/useCombo';
-import { getUnmasteredVocabulary, getMasteryStats } from '@/lib/indexedDB';
+import { useAuth } from '@/hooks/useAuth';
+import { useSync } from '@/hooks/useSync';
+import { getUnmasteredVocabulary, getMasteryStats, SyncContext } from '@/lib/indexedDB';
 import { LEVEL_STORAGE_KEY, isCEFRLevel, readPendingWord } from '@/lib/pendingWord';
 import { PracticeArea } from './components/PracticeArea';
 import { FixedKeyboard } from './components/FixedKeyboard';
@@ -22,6 +24,7 @@ export default function Home() {
   const [masteryStats, setMasteryStats] = useState({ total: 0, mastered: 0, percentage: 0, lifetimeWordsCorrect: 0, masteredToday: 0 });
   const { recordCorrect: recordDailyGoalCorrect, ...dailyGoal } = useDailyGoal();
   const { recordAttempt: recordComboAttempt } = useCombo();
+  const { user } = useAuth();
   // useDailyGoal returns a fresh object every render (its recordCorrect
   // callback is stable, but the wrapping object isn't), which would defeat
   // DailyGoal's memo() on every keystroke. Pass down only the
@@ -107,6 +110,15 @@ export default function Home() {
     },
   }), [level, ready]);
 
+  // Refreshes mastery stats after a background sync merges in server
+  // progress (e.g. logging in on a device that already has server-side
+  // history from elsewhere).
+  const { triggerSync } = useSync(updateMasteryStats);
+
+  const buildSyncContext = useCallback((userAnswer: string | undefined): SyncContext | null =>
+    user ? { userId: user.id, level, userAnswer } : null,
+  [user, level]);
+
   const {
     words,
     currentWord,
@@ -124,6 +136,8 @@ export default function Home() {
     recordCombo: recordComboAttempt,
     recordDailyGoal: recordDailyGoalCorrect,
     onAttemptSaved: updateMasteryStats,
+    buildSyncContext,
+    onSynced: triggerSync,
   });
 
   return (

@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from 'react';
 import { TranslationResult } from '@/hooks/useVocabularyDB';
 import { useCardNavigation } from '@/hooks/useCardNavigation';
 import { checkAnswerCorrectness } from '@/lib/helpers';
-import { saveUserProgress } from '@/lib/indexedDB';
+import { saveUserProgress, SyncContext } from '@/lib/indexedDB';
 import { appendAttempt } from '@/lib/progress';
 import { writePendingWord, clearPendingWord } from '@/lib/pendingWord';
 
@@ -24,6 +24,10 @@ interface PracticeSessionConfig {
   recordDailyGoal: (vocabularyId: number) => void;
   /** Called after progress is saved for the first attempt on a word, e.g. to refresh mastery stats. */
   onAttemptSaved?: () => void | Promise<void>;
+  /** Builds this attempt's sync-queue context, or null while logged out. Omit entirely on a page that isn't sync-aware. */
+  buildSyncContext?: (userAnswer: string | undefined) => SyncContext | null;
+  /** Called after a successful save (and sync-queue enqueue), to kick a push - see hooks/useSync.ts. */
+  onSynced?: () => void;
 }
 
 // A session's word list only ever grows by appending fetched batches, so
@@ -38,6 +42,8 @@ export const usePracticeSession = ({
   recordCombo,
   recordDailyGoal,
   onAttemptSaved,
+  buildSyncContext,
+  onSynced,
 }: PracticeSessionConfig) => {
   const [words, setWords] = useState<TranslationResult[]>([]);
   const [loading, setLoading] = useState(false);
@@ -179,7 +185,7 @@ export const usePracticeSession = ({
 
     if (!word.progressSaved) {
       try {
-        await saveUserProgress(word.vocabularyId, isCorrect);
+        await saveUserProgress(word.vocabularyId, isCorrect, buildSyncContext?.(word.userAnswer || undefined));
         console.log(`Progress saved for word ${word.vocabularyId}: ${isCorrect ? 'correct' : 'incorrect'}`);
 
         setWords(prevWords => {
@@ -197,6 +203,7 @@ export const usePracticeSession = ({
         if (isCorrect) {
           recordDailyGoal(word.vocabularyId);
         }
+        onSynced?.();
       } catch (error) {
         console.error('Failed to save progress:', error);
       }
@@ -207,7 +214,7 @@ export const usePracticeSession = ({
     } else {
       triggerShake();
     }
-  }, [words, currentIndex, autoAdvance, triggerShake, onAttemptSaved, recordDailyGoal, recordCombo]);
+  }, [words, currentIndex, autoAdvance, triggerShake, onAttemptSaved, recordDailyGoal, recordCombo, buildSyncContext, onSynced]);
 
   const handleToggleSolution = useCallback(async () => {
     const word = words[currentIndex];
@@ -229,7 +236,7 @@ export const usePracticeSession = ({
 
     if (willShowSolution && wasNull && !word.progressSaved) {
       try {
-        await saveUserProgress(word.vocabularyId, false);
+        await saveUserProgress(word.vocabularyId, false, buildSyncContext?.(word.userAnswer || undefined));
         console.log(`Progress saved for word ${word.vocabularyId}: incorrect (solution shown)`);
 
         setWords(prevWords => {
@@ -244,11 +251,12 @@ export const usePracticeSession = ({
 
         await onAttemptSaved?.();
         recordCombo(false);
+        onSynced?.();
       } catch (error) {
         console.error('Failed to save progress:', error);
       }
     }
-  }, [currentIndex, words, onAttemptSaved, recordCombo]);
+  }, [currentIndex, words, onAttemptSaved, recordCombo, buildSyncContext, onSynced]);
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
