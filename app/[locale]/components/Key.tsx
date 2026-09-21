@@ -23,8 +23,10 @@ export const Key = memo(function Key({
   maxWidth = 'max-w-[40px] sm:max-w-[50px]',
   flex = 'flex-1'
 }: KeyProps) {
-  // Button takes full space with no gaps
-  const buttonClasses = `${flex} ${maxWidth} h-14 px-0.5 py-1 touch-manipulation [-webkit-tap-highlight-color:transparent]`;
+  // Button takes full space with no gaps. Shorter on mobile (still well above
+  // the 44px minimum touch target) since 5 rows of keys otherwise dominate a
+  // phone screen and push the word card below the fold.
+  const buttonClasses = `${flex} ${maxWidth} h-12 sm:h-14 px-0.5 py-1 touch-manipulation [-webkit-tap-highlight-color:transparent]`;
   
   // Inner span has the visual styling with rounded corners.
   // Pressing snaps instantly (duration-0) so the key visibly "lights up" the moment it registers;

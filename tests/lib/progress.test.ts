@@ -6,6 +6,7 @@ import {
   computeMasteryLevel,
   computeNextProgress,
   computeMasteryStats,
+  computeLifetimeWordsCorrect,
   selectUnmastered,
   normalizeVocabularyEntries,
   needsVocabularyReload,
@@ -168,6 +169,34 @@ describe('computeMasteryStats', () => {
     expect(result.total).toBe(1);
     expect(result.mastered).toBe(1);
     expect(result.percentage).toBe(100);
+  });
+});
+
+describe('computeLifetimeWordsCorrect', () => {
+  const progressWith = (vocabularyId: number, successCount: number): UserProgress => ({
+    vocabularyId,
+    successCount,
+    failCount: 0,
+    currentStreak: 0,
+    bestStreak: 0,
+    lastPracticed: '2026-01-01T00:00:00.000Z',
+    attemptHistory: [],
+    masteryLevel: 0,
+  });
+
+  it('is 0 with no progress records', () => {
+    expect(computeLifetimeWordsCorrect([])).toBe(0);
+  });
+
+  it('counts only words with at least one success, ever', () => {
+    const progress = [progressWith(1, 3), progressWith(2, 0), progressWith(3, 1)];
+    expect(computeLifetimeWordsCorrect(progress)).toBe(2);
+  });
+
+  it('is not scoped to a single level, unlike computeMasteryStats', () => {
+    // ids from very different level ranges (a1 vs c1), all counted together
+    const progress = [progressWith(1, 5), progressWith(20001, 2), progressWith(40001, 1)];
+    expect(computeLifetimeWordsCorrect(progress)).toBe(3);
   });
 });
 

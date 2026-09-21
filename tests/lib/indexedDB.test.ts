@@ -100,7 +100,17 @@ describe('lib/indexedDB', () => {
 
     it('returns zero percentage with no words loaded', async () => {
       const stats = await db.getMasteryStats();
-      expect(stats).toEqual({ total: 0, mastered: 0, percentage: 0 });
+      expect(stats).toEqual({ total: 0, mastered: 0, percentage: 0, lifetimeWordsCorrect: 0 });
+    });
+
+    it('counts lifetimeWordsCorrect across all levels, unlike total/mastered', async () => {
+      await db.importVocabulary(sampleEntries); // this "level" only has ids 1-3
+      await db.saveUserProgress(1, true); // this level, one success
+      await db.saveUserProgress(2, false); // this level, no success yet
+      await db.saveUserProgress(999, true); // a different level entirely
+
+      const stats = await db.getMasteryStats();
+      expect(stats.lifetimeWordsCorrect).toBe(2);
     });
   });
 

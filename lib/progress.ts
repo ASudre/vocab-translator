@@ -94,6 +94,16 @@ export const computeMasteryStats = (
 };
 
 /**
+ * Lifetime count of distinct words ever answered correctly at least once,
+ * across every level ever practiced (unlike computeMasteryStats, this is
+ * intentionally not scoped to one level's ids). successCount is a per-word
+ * counter that's never reset, so successCount > 0 means "gotten right at
+ * least once, ever."
+ */
+export const computeLifetimeWordsCorrect = (allProgress: UserProgress[]): number =>
+  allProgress.filter(p => p.successCount > 0).length;
+
+/**
  * Filter out mastered words and return a random selection of up to `count`
  * entries via Fisher-Yates shuffle. `random` is injectable so tests can pin
  * the shuffle outcome.

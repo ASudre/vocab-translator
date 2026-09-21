@@ -53,11 +53,11 @@ const WordHeader = memo(function WordHeader({
         {tClass(wordClass as 'adjective' | 'adverb' | 'interjection' | 'noun' | 'number' | 'phrase' | 'preposition' | 'pronoun' | 'verb')}
       </span>
 
-      <div className="text-center mb-8">
-        <div className="flex justify-center gap-2 mb-3">
+      <div className="text-center mb-4 sm:mb-8">
+        <div className="flex justify-center gap-2 mb-2 sm:mb-3">
           {renderAttemptDots()}
         </div>
-        <div className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4">
+        <div className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-2 sm:mb-4">
           {french}
         </div>
       </div>
@@ -72,7 +72,7 @@ export function VocabularyCard({
   const inputRef = useRef<HTMLInputElement>(null);
 
   return (
-    <div className={`relative bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-6 sm:p-8 md:p-10 transition-all ${
+    <div className={`relative bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-4 sm:p-8 md:p-10 transition-all ${
         word.isCorrect === true
           ? 'ring-4 ring-green-500 ring-offset-0'
           : word.isCorrect === false && !word.showSolution
