@@ -142,4 +142,20 @@ describe('SpanishKeyboard', () => {
     expect(onClear).not.toHaveBeenCalled();
     vi.useRealTimers();
   });
+
+  it('fires onBackspace only once on a touch tap, ignoring the ghost mouseup that follows on real devices', () => {
+    // Touch devices fire a compatibility mousedown+mouseup shortly after a
+    // real touch gesture, for pages that only listen for mouse events. The
+    // mousedown side is already ignored (touchUsedRef), but a prior bug let
+    // the ghost mouseup call endPress() directly, double-firing onBackspace.
+    const { onBackspace, onClear, key } = setup();
+
+    touchStart(key('←'), 0);
+    touchEnd(key('←'), 0, []);
+    fireEvent.mouseDown(key('←'));
+    fireEvent.mouseUp(key('←'));
+
+    expect(onBackspace).toHaveBeenCalledTimes(1);
+    expect(onClear).not.toHaveBeenCalled();
+  });
 });

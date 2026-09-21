@@ -89,7 +89,11 @@ export const Key = memo(function Key({
       data-key={value}
       onMouseDown={(e) => !disabled && onMouseAction(e, startPress)}
       onTouchStart={(e) => !disabled && onTouchAction(e, startPress)}
-      onMouseUp={() => !disabled && endPress()}
+      // Routed through onMouseAction (not called directly) so it's gated by
+      // the same touchUsedRef check as onMouseDown — otherwise the ghost
+      // mouseup browsers fire after a real touchend would call endPress()
+      // a second time and double-fire onPress.
+      onMouseUp={(e) => !disabled && onMouseAction(e, endPress)}
       onMouseLeave={() => !disabled && clearLongPressTimer()}
       onTouchEnd={() => !disabled && endPress()}
       onTouchCancel={() => !disabled && clearLongPressTimer()}
