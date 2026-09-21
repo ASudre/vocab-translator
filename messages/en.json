@@ -36,9 +36,8 @@
   "DailyGoal": {
     "progress": "{count} of {goal} today",
     "ariaLabel": "{count} of {goal} words answered correctly today",
-    "todayLabel": "{count}/{goal} today",
+    "todayLabel": "{count}/{goal}",
     "comboLabel": "{count} in a row",
-    "bestComboLabel": "Best: {count} in a row",
     "ariaLabelCompleted": "Today's goal reached: {count} of {goal} words. Current streak: {currentCombo} in a row. Best streak ever: {bestCombo} in a row."
   }
 }

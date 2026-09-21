@@ -38,10 +38,10 @@ export const DailyGoal = memo(function DailyGoal({ stats }: DailyGoalProps) {
             <span aria-hidden="true">✅</span> {t('todayLabel', { count, goal })}
           </span>
           <span className="flex items-center gap-1 text-amber-600 dark:text-amber-400">
-            <span aria-hidden="true">🔥</span> {t('comboLabel', { count: currentCombo })}
+            <span aria-hidden="true">🔥</span> {currentCombo}
           </span>
           <span className="flex items-center gap-1 text-indigo-600 dark:text-indigo-400">
-            <span aria-hidden="true">🏆</span> {t('bestComboLabel', { count: bestCombo })}
+            <span aria-hidden="true">🏆</span> {bestCombo}
           </span>
         </div>
       </div>
