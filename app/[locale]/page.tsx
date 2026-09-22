@@ -57,6 +57,7 @@ export default function Home() {
     const resolvedLevel = isCEFRLevel(stored) ? stored : 'a1';
     if (isCEFRLevel(stored)) {
       // Syncing from localStorage (unavailable during SSR) on mount, not derived from React state.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setLevel(stored);
     }
     setPendingWord(readPendingWord(resolvedLevel));

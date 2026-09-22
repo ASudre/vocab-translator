@@ -32,7 +32,9 @@ export default function Revision() {
   const [poolCount, setPoolCount] = useState(0);
   const [demotedCount, setDemotedCount] = useState(0);
   const [demotedTodayCount, setDemotedTodayCount] = useState(0);
-  const [levelsToLoad, setLevelsToLoad] = useState<CEFRLevel[]>([]);
+  // Only the 'all' scope needs an async lookup (getMasteredLevels); 'level'
+  // scope is derived directly from `level` below, with no effect needed.
+  const [masteredLevels, setMasteredLevels] = useState<CEFRLevel[]>([]);
   const { recordCorrect: recordRevisionGoalCorrect, ...revisionGoal } = useDailyGoal(REVISION_DAILY_GOAL_KEY, REVISION_DAILY_GOAL);
   const { recordAttempt: recordComboAttempt } = useCombo();
   const t = useTranslations('Revision');
@@ -56,6 +58,10 @@ export default function Revision() {
     const storedLevel = localStorage.getItem(LEVEL_STORAGE_KEY);
     const resolvedLevel = isCEFRLevel(storedLevel) ? storedLevel : 'a1';
     if (isCEFRLevel(storedLevel)) {
+      // Syncing from localStorage (an external system, unavailable during
+      // SSR) once on mount - not derived from React state, so this can't be
+      // moved to render or replaced by a dependency-driven effect.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setLevel(storedLevel);
     }
 
@@ -89,6 +95,9 @@ export default function Revision() {
     if (!restored) return;
 
     let cancelled = false;
+    // Clears stale counts from the previous scope/level immediately, rather
+    // than showing outdated gate status while the new query is in flight.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setGateStatus('loading');
 
     Promise.all([
@@ -110,21 +119,15 @@ export default function Revision() {
     };
   }, [restored, scopeLevels]);
 
-  // Which levels' JSON need to be resident for this scope: just the current
-  // level, or - for "all" - every level the user has ever mastered a word
-  // in, resolved from progress ids alone (works even before any entries are
-  // loaded this session; see getMasteredLevels).
+  // For "all" scope, resolve every level the user has ever mastered a word
+  // in, from progress ids alone (works even before any entries are loaded
+  // this session; see getMasteredLevels).
   useEffect(() => {
-    if (!restored || gateStatus !== 'unlocked') return;
-
-    if (scope === 'level') {
-      setLevelsToLoad([level]);
-      return;
-    }
+    if (!restored || gateStatus !== 'unlocked' || scope !== 'all') return;
 
     let cancelled = false;
     getMasteredLevels().then(levels => {
-      if (!cancelled) setLevelsToLoad(levels);
+      if (!cancelled) setMasteredLevels(levels);
     }).catch(error => {
       console.error('Failed to resolve mastered levels:', error);
     });
@@ -132,7 +135,11 @@ export default function Revision() {
     return () => {
       cancelled = true;
     };
-  }, [restored, gateStatus, scope, level]);
+  }, [restored, gateStatus, scope]);
+
+  // Which levels' JSON need to be resident for this scope: just the current
+  // level (no lookup needed), or the resolved set above for "all".
+  const levelsToLoad = scope === 'level' ? [level] : masteredLevels;
 
   const { ready } = useLevelData(levelsToLoad, restored && gateStatus === 'unlocked' && levelsToLoad.length > 0);
 
