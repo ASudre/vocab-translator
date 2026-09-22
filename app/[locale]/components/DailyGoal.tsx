@@ -31,7 +31,7 @@ export const DailyGoal = memo(function DailyGoal({ stats }: DailyGoalProps) {
     return <div className="h-[52px]" aria-hidden="true" />;
   }
 
-  const cardClasses = `bg-white dark:bg-gray-800 rounded-xl shadow-md p-2 sm:p-3 ${justCompleted ? 'animate-pop' : ''}`;
+  const cardClasses = `bg-white dark:bg-gray-800 rounded-xl shadow-md p-4 ${justCompleted ? 'animate-pop' : ''}`;
 
   if (completed) {
     return (

@@ -38,7 +38,7 @@ export const initDB = (): Promise<IDBDatabase> => {
     const request = indexedDB.open(DB_NAME, DB_VERSION);
 
     request.onerror = () => {
-      reject(new Error('Failed to open IndexedDB'));
+      reject(new Error(`Failed to open IndexedDB: ${request.error?.message || 'unknown error'}`));
     };
 
     request.onsuccess = () => {
