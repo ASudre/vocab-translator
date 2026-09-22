@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.2",
   "list": [
     {
       "id": 10001,
@@ -157,7 +157,7 @@
       "id": 10020,
       "spanish": "opinión",
       "english": "opinion",
-      "french": "avis",
+      "french": "avis (opinion)",
       "category": "Pensamiento",
       "class": "noun"
     },
@@ -243,7 +243,7 @@
     },
     {
       "id": 10031,
-      "spanish": "futuro",
+      "spanish": "futuro, porvenir",
       "english": "future",
       "french": "avenir",
       "category": "",
@@ -357,7 +357,7 @@
       "id": 10045,
       "spanish": "atención",
       "english": "attention",
-      "french": "attention",
+      "french": "attention (concentration)",
       "category": "",
       "class": "noun"
     },
@@ -405,7 +405,7 @@
       "id": 10051,
       "spanish": "modelo",
       "english": "model",
-      "french": "modèle",
+      "french": "modèle (référence)",
       "category": "",
       "class": "noun"
     },
@@ -427,7 +427,7 @@
     },
     {
       "id": 10054,
-      "spanish": "conducir",
+      "spanish": "conducir, manejar",
       "english": "to drive",
       "french": "conduire",
       "category": "Movimiento",
@@ -483,9 +483,9 @@
     },
     {
       "id": 10061,
-      "spanish": "guardar",
+      "spanish": "guardar, salvar",
       "english": "save",
-      "french": "enregistrer",
+      "french": "enregistrer (sauvegarder)",
       "category": "",
       "class": "verb"
     },
@@ -835,7 +835,7 @@
     },
     {
       "id": 10105,
-      "spanish": "adecuar",
+      "spanish": "adecuar, adaptar",
       "english": "adapt",
       "french": "adapter",
       "category": "Salud",
@@ -1195,7 +1195,7 @@
     },
     {
       "id": 10150,
-      "spanish": "memoria",
+      "spanish": "memoria, informe",
       "english": "report",
       "french": "rapport",
       "category": "",
@@ -1243,7 +1243,7 @@
     },
     {
       "id": 10156,
-      "spanish": "ayuntamiento",
+      "spanish": "ayuntamiento, municipalidad",
       "english": "city hall",
       "french": "mairie",
       "category": "",
@@ -1322,14 +1322,6 @@
       "class": "verb"
     },
     {
-      "id": 10166,
-      "spanish": "informe",
-      "english": "report",
-      "french": "rapport",
-      "category": "Rutinas",
-      "class": "noun"
-    },
-    {
       "id": 10167,
       "spanish": "acostumbrar",
       "english": "to get used to",
@@ -1365,7 +1357,7 @@
       "id": 10171,
       "spanish": "responsable",
       "english": "responsible",
-      "french": "responsable",
+      "french": "responsable (adjectif)",
       "category": "Personalidad",
       "class": "noun"
     },
@@ -1499,7 +1491,7 @@
     },
     {
       "id": 10188,
-      "spanish": "habitual",
+      "spanish": "habitual, usual",
       "english": "usual",
       "french": "habituel",
       "category": "",
@@ -1555,7 +1547,7 @@
     },
     {
       "id": 10195,
-      "spanish": "propietario",
+      "spanish": "propietario, dueño",
       "english": "owner",
       "french": "propriétaire",
       "category": "Trabajos",
@@ -1571,7 +1563,7 @@
     },
     {
       "id": 10197,
-      "spanish": "práctica",
+      "spanish": "práctica, práctico",
       "english": "practical",
       "french": "pratique",
       "category": "",
@@ -1579,7 +1571,7 @@
     },
     {
       "id": 10198,
-      "spanish": "maíz",
+      "spanish": "maíz, choclo",
       "english": "corn",
       "french": "maïs",
       "category": "Ingredientes",
@@ -1667,7 +1659,7 @@
     },
     {
       "id": 10209,
-      "spanish": "resolver",
+      "spanish": "resolver, solucionar",
       "english": "solve",
       "french": "résoudre",
       "category": "Pensamiento",
@@ -1749,7 +1741,7 @@
       "id": 10219,
       "spanish": "afectar",
       "english": "affect",
-      "french": "affecter",
+      "french": "affecter (émotion)",
       "category": "",
       "class": "verb"
     },
@@ -1845,7 +1837,7 @@
       "id": 10231,
       "spanish": "basar",
       "english": "to base",
-      "french": "fonder",
+      "french": "fonder (baser)",
       "category": "",
       "class": "verb"
     },
@@ -1885,7 +1877,7 @@
       "id": 10236,
       "spanish": "cuidado",
       "english": "care",
-      "french": "attention",
+      "french": "attention (prudence)",
       "category": "Salud",
       "class": "noun"
     },
@@ -1933,7 +1925,7 @@
       "id": 10242,
       "spanish": "fundar",
       "english": "to found",
-      "french": "fonder",
+      "french": "fonder (créer)",
       "category": "Historia",
       "class": "verb"
     },
@@ -2010,14 +2002,6 @@
       "class": "verb"
     },
     {
-      "id": 10252,
-      "spanish": "adaptar",
-      "english": "adapt",
-      "french": "adapter",
-      "category": "Cambio",
-      "class": "verb"
-    },
-    {
       "id": 10253,
       "spanish": "presidente",
       "english": "president",
@@ -2027,7 +2011,7 @@
     },
     {
       "id": 10254,
-      "spanish": "encender",
+      "spanish": "encender, prendar",
       "english": "turn on",
       "french": "allumer",
       "category": "Tecnología",
@@ -2141,7 +2125,7 @@
       "id": 10268,
       "spanish": "marcha",
       "english": "march",
-      "french": "marche",
+      "french": "marche (promenade)",
       "category": "Movimiento",
       "class": "noun"
     },
@@ -2253,7 +2237,7 @@
       "id": 10282,
       "spanish": "patrón",
       "english": "pattern",
-      "french": "modèle",
+      "french": "modèle (gabarit)",
       "category": "",
       "class": "noun"
     },
@@ -2291,7 +2275,7 @@
     },
     {
       "id": 10287,
-      "spanish": "tamaño",
+      "spanish": "tamaño, talla",
       "english": "size",
       "french": "taille",
       "category": "Cantidad y medida",
@@ -2304,14 +2288,6 @@
       "french": "naissance",
       "category": "Familia",
       "class": "noun"
-    },
-    {
-      "id": 10289,
-      "spanish": "práctico",
-      "english": "practical",
-      "french": "pratique",
-      "category": "",
-      "class": "adjective"
     },
     {
       "id": 10290,
@@ -2331,7 +2307,7 @@
     },
     {
       "id": 10292,
-      "spanish": "comprobar",
+      "spanish": "comprobar, revisar",
       "english": "check",
       "french": "vérifier",
       "category": "",
@@ -2491,7 +2467,7 @@
     },
     {
       "id": 10312,
-      "spanish": "zumo",
+      "spanish": "zumo, jugo",
       "english": "juice",
       "french": "jus",
       "category": "Comida",
@@ -2507,7 +2483,7 @@
     },
     {
       "id": 10314,
-      "spanish": "tela",
+      "spanish": "tela, tejido",
       "english": "fabric",
       "french": "tissu",
       "category": "Ropa",
@@ -2619,7 +2595,7 @@
     },
     {
       "id": 10328,
-      "spanish": "arreglar",
+      "spanish": "arreglar, reparar",
       "english": "fix",
       "french": "réparer",
       "category": "",
@@ -2635,7 +2611,7 @@
     },
     {
       "id": 10330,
-      "spanish": "imprescindible",
+      "spanish": "imprescindible, indispensable",
       "english": "essential",
       "french": "indispensable",
       "category": "",
@@ -2661,7 +2637,7 @@
       "id": 10333,
       "spanish": "escenario",
       "english": "scenario",
-      "french": "scène",
+      "french": "scène (estrade)",
       "category": "Arte y cultura",
       "class": "noun"
     },
@@ -3197,7 +3173,7 @@
       "id": 10400,
       "spanish": "destinar",
       "english": "allocate",
-      "french": "affecter",
+      "french": "affecter (attribuer)",
       "category": "",
       "class": "verb"
     },
@@ -3243,7 +3219,7 @@
     },
     {
       "id": 10406,
-      "spanish": "evento",
+      "spanish": "evento, acontecimiento",
       "english": "event",
       "french": "événement",
       "category": "",
@@ -3280,14 +3256,6 @@
       "french": "réfrigérateur",
       "category": "Casa",
       "class": "noun"
-    },
-    {
-      "id": 10411,
-      "spanish": "solucionar",
-      "english": "resolve",
-      "french": "résoudre",
-      "category": "",
-      "class": "verb"
     },
     {
       "id": 10412,
@@ -3442,14 +3410,6 @@
       "class": "noun"
     },
     {
-      "id": 10431,
-      "spanish": "acontecimiento",
-      "english": "event",
-      "french": "événement",
-      "category": "",
-      "class": "noun"
-    },
-    {
       "id": 10432,
       "spanish": "cuello",
       "english": "neck",
@@ -3493,7 +3453,7 @@
       "id": 10437,
       "spanish": "escena",
       "english": "scene",
-      "french": "scène",
+      "french": "scène (moment)",
       "category": "Arte y cultura",
       "class": "noun"
     },
@@ -3851,7 +3811,7 @@
     },
     {
       "id": 10482,
-      "spanish": "discutir",
+      "spanish": "discutir, conversar",
       "english": "to discuss",
       "french": "discuter",
       "category": "Comunicación",
@@ -3925,7 +3885,7 @@
       "id": 10491,
       "spanish": "abrazar",
       "english": "to hug",
-      "french": "embrasser",
+      "french": "embrasser (étreindre)",
       "category": "Relaciones",
       "class": "verb"
     },
@@ -4157,7 +4117,7 @@
       "id": 10520,
       "spanish": "besar",
       "english": "to kiss",
-      "french": "embrasser",
+      "french": "embrasser (bisou)",
       "category": "Relaciones",
       "class": "verb"
     },
@@ -4251,7 +4211,7 @@
     },
     {
       "id": 10532,
-      "spanish": "periodo",
+      "spanish": "periodo, período",
       "english": "period",
       "french": "période",
       "category": "",
@@ -4493,7 +4453,7 @@
       "id": 10562,
       "spanish": "asiento",
       "english": "seat",
-      "french": "siège",
+      "french": "siège (chaise)",
       "category": "",
       "class": "noun"
     },
@@ -4507,7 +4467,7 @@
     },
     {
       "id": 10564,
-      "spanish": "pastel",
+      "spanish": "pastel, tarta",
       "english": "cake",
       "french": "gâteau",
       "category": "Comidas",
@@ -4573,7 +4533,7 @@
       "id": 10572,
       "spanish": "grabar",
       "english": "record",
-      "french": "enregistrer",
+      "french": "enregistrer (audio/vidéo)",
       "category": "Tecnología",
       "class": "verb"
     },
@@ -4680,14 +4640,6 @@
       "french": "pourcentage",
       "category": "Cantidad y medida",
       "class": "noun"
-    },
-    {
-      "id": 10586,
-      "spanish": "salvar",
-      "english": "save",
-      "french": "enregistrer",
-      "category": "",
-      "class": "verb"
     },
     {
       "id": 10587,
@@ -5261,7 +5213,7 @@
       "id": 10658,
       "spanish": "autónomo",
       "english": "self-employed",
-      "french": "indépendant",
+      "french": "indépendant (travailleur)",
       "category": "Trabajos",
       "class": "adjective"
     },
@@ -5621,7 +5573,7 @@
       "id": 10703,
       "spanish": "inicio",
       "english": "home",
-      "french": "Accueil",
+      "french": "accueil (site web)",
       "category": "",
       "class": "noun"
     },
@@ -5669,7 +5621,7 @@
       "id": 10709,
       "spanish": "sede",
       "english": "headquarters",
-      "french": "siège",
+      "french": "siège (bureau)",
       "category": "Trabajos",
       "class": "noun"
     },
@@ -5749,7 +5701,7 @@
       "id": 10719,
       "spanish": "independiente",
       "english": "independent",
-      "french": "indépendant",
+      "french": "indépendant (général)",
       "category": "Personalidad",
       "class": "adjective"
     },
@@ -5808,14 +5760,6 @@
       "french": "amateur",
       "category": "Aficiones",
       "class": "noun"
-    },
-    {
-      "id": 10727,
-      "spanish": "manejar",
-      "english": "drive",
-      "french": "conduire",
-      "category": "Vehículos",
-      "class": "verb"
     },
     {
       "id": 10728,
@@ -6010,14 +5954,6 @@
       "class": "noun"
     },
     {
-      "id": 10752,
-      "spanish": "dueño",
-      "english": "owner",
-      "french": "propriétaire",
-      "category": "Trabajos",
-      "class": "noun"
-    },
-    {
       "id": 10753,
       "spanish": "instalación",
       "english": "installation",
@@ -6186,14 +6122,6 @@
       "class": "adverb"
     },
     {
-      "id": 10774,
-      "spanish": "período",
-      "english": "period",
-      "french": "période",
-      "category": "",
-      "class": "noun"
-    },
-    {
       "id": 10775,
       "spanish": "ahorro",
       "english": "savings",
@@ -6255,14 +6183,6 @@
       "english": "belly button",
       "french": "nombril",
       "category": "Cuerpo",
-      "class": "noun"
-    },
-    {
-      "id": 10783,
-      "spanish": "tarta",
-      "english": "cake",
-      "french": "gâteau",
-      "category": "Comida",
       "class": "noun"
     },
     {
@@ -6349,17 +6269,9 @@
       "id": 10794,
       "spanish": "registrar",
       "english": "register",
-      "french": "enregistrer",
+      "french": "enregistrer (inscrire)",
       "category": "",
       "class": "verb"
-    },
-    {
-      "id": 10795,
-      "spanish": "indispensable",
-      "english": "essential",
-      "french": "indispensable",
-      "category": "",
-      "class": "adjective"
     },
     {
       "id": 10796,
@@ -6469,7 +6381,7 @@
       "id": 10809,
       "spanish": "acogida",
       "english": "reception",
-      "french": "accueil",
+      "french": "accueil (réception)",
       "category": "",
       "class": "noun"
     },
@@ -6511,14 +6423,6 @@
       "english": "to comb",
       "french": "se coiffer",
       "category": "Higiene",
-      "class": "verb"
-    },
-    {
-      "id": 10815,
-      "spanish": "conversar",
-      "english": "chat",
-      "french": "discuter",
-      "category": "Comunicación",
       "class": "verb"
     },
     {
@@ -6619,7 +6523,7 @@
     },
     {
       "id": 10828,
-      "spanish": "archivo",
+      "spanish": "archivo, fichero",
       "english": "file",
       "french": "fichier",
       "category": "Tecnología",
@@ -7258,14 +7162,6 @@
       "class": "adjective"
     },
     {
-      "id": 10908,
-      "spanish": "talla",
-      "english": "size",
-      "french": "taille",
-      "category": "Ropa",
-      "class": "noun"
-    },
-    {
       "id": 10909,
       "spanish": "corriente",
       "english": "current",
@@ -7339,7 +7235,7 @@
     },
     {
       "id": 10918,
-      "spanish": "vencer",
+      "spanish": "vencer, derrotar",
       "english": "to win",
       "french": "vaincre",
       "category": "Deporte",
@@ -7357,7 +7253,7 @@
       "id": 10920,
       "spanish": "aviso",
       "english": "notice",
-      "french": "avis",
+      "french": "avis (annonce)",
       "category": "Comunicación",
       "class": "noun"
     },
@@ -7384,14 +7280,6 @@
       "french": "exclusif",
       "category": "",
       "class": "adjective"
-    },
-    {
-      "id": 10924,
-      "spanish": "jugo",
-      "english": "juice",
-      "french": "jus",
-      "category": "Comida",
-      "class": "noun"
     },
     {
       "id": 10925,
@@ -7488,14 +7376,6 @@
       "french": "occidental",
       "category": "Geografía",
       "class": "adjective"
-    },
-    {
-      "id": 10937,
-      "spanish": "revisar",
-      "english": "review",
-      "french": "vérifier",
-      "category": "",
-      "class": "verb"
     },
     {
       "id": 10938,
@@ -7627,7 +7507,7 @@
     },
     {
       "id": 10954,
-      "spanish": "apertura",
+      "spanish": "apertura, abertura",
       "english": "opening",
       "french": "ouverture",
       "category": "",
@@ -7683,7 +7563,7 @@
     },
     {
       "id": 10961,
-      "spanish": "urgencia",
+      "spanish": "urgencia, emergencia",
       "english": "emergency",
       "french": "urgence",
       "category": "Salud",
@@ -8163,7 +8043,7 @@
     },
     {
       "id": 11021,
-      "spanish": "cansancio",
+      "spanish": "cansancio, fatiga",
       "english": "fatigue",
       "french": "fatigue",
       "category": "Salud",
@@ -8232,14 +8112,6 @@
       "french": "flore",
       "category": "Naturaleza",
       "class": "noun"
-    },
-    {
-      "id": 11030,
-      "spanish": "reparar",
-      "english": "repair",
-      "french": "réparer",
-      "category": "Herramientas",
-      "class": "verb"
     },
     {
       "id": 11031,
@@ -8362,14 +8234,6 @@
       "class": "interjection"
     },
     {
-      "id": 11046,
-      "spanish": "tejido",
-      "english": "fabric",
-      "french": "tissu",
-      "category": "Ropa",
-      "class": "noun"
-    },
-    {
       "id": 11047,
       "spanish": "extinción",
       "english": "extinction",
@@ -8426,27 +8290,11 @@
       "class": "noun"
     },
     {
-      "id": 11054,
-      "spanish": "derrotar",
-      "english": "defeat",
-      "french": "vaincre",
-      "category": "Conflicto",
-      "class": "verb"
-    },
-    {
       "id": 11055,
       "spanish": "inconveniente",
       "english": "drawback",
       "french": "inconvénient",
       "category": "",
-      "class": "noun"
-    },
-    {
-      "id": 11056,
-      "spanish": "choclo",
-      "english": "corn",
-      "french": "maïs",
-      "category": "Ingredientes",
       "class": "noun"
     },
     {
@@ -8461,7 +8309,7 @@
       "id": 11058,
       "spanish": "manager",
       "english": "manager",
-      "french": "responsable",
+      "french": "responsable (personne)",
       "category": "Trabajos",
       "class": "noun"
     },
@@ -8611,7 +8459,7 @@
     },
     {
       "id": 11077,
-      "spanish": "chao",
+      "spanish": "chao, chau",
       "english": "Bye",
       "french": "salut",
       "category": "Saludos",
@@ -8874,14 +8722,6 @@
       "class": "noun"
     },
     {
-      "id": 11110,
-      "spanish": "chau",
-      "english": "Bye",
-      "french": "salut",
-      "category": "Saludos",
-      "class": "interjection"
-    },
-    {
       "id": 11111,
       "spanish": "crimen",
       "english": "crime",
@@ -8891,7 +8731,7 @@
     },
     {
       "id": 11112,
-      "spanish": "aparcamiento",
+      "spanish": "aparcamiento, parking",
       "english": "parking lot",
       "french": "parking",
       "category": "Espacios",
@@ -9022,14 +8862,6 @@
       "spanish": "cable",
       "english": "cable",
       "french": "câble",
-      "category": "Tecnología",
-      "class": "noun"
-    },
-    {
-      "id": 11129,
-      "spanish": "puesta",
-      "english": "post",
-      "french": "proposition",
       "category": "Tecnología",
       "class": "noun"
     },
@@ -9181,7 +9013,7 @@
       "id": 11148,
       "spanish": "mestizo",
       "english": "mixed-race",
-      "french": "métis",
+      "french": "métis (indigène/européen)",
       "category": "Sociedad",
       "class": "adjective"
     },
@@ -9211,7 +9043,7 @@
     },
     {
       "id": 11152,
-      "spanish": "expediente",
+      "spanish": "expediente, carpeta",
       "english": "file",
       "french": "dossier",
       "category": "Trabajos",
@@ -9351,14 +9183,6 @@
       "english": "headline",
       "french": "titulaire",
       "category": "Comunicación",
-      "class": "noun"
-    },
-    {
-      "id": 11170,
-      "spanish": "porvenir",
-      "english": "future",
-      "french": "avenir",
-      "category": "",
       "class": "noun"
     },
     {
@@ -9674,14 +9498,6 @@
       "class": "adjective"
     },
     {
-      "id": 11210,
-      "spanish": "fatiga",
-      "english": "fatigue",
-      "french": "fatigue",
-      "category": "Salud",
-      "class": "noun"
-    },
-    {
       "id": 11211,
       "spanish": "urbanización",
       "english": "urban development",
@@ -9759,14 +9575,6 @@
       "english": "squid",
       "french": "calmar",
       "category": "Comida",
-      "class": "noun"
-    },
-    {
-      "id": 11221,
-      "spanish": "fichero",
-      "english": "file",
-      "french": "fichier",
-      "category": "Tecnología",
       "class": "noun"
     },
     {
@@ -10011,7 +9819,7 @@
     },
     {
       "id": 11252,
-      "spanish": "alpinismo",
+      "spanish": "alpinismo, montañismo",
       "english": "mountaineering",
       "french": "alpinisme",
       "category": "Deporte",
@@ -10122,14 +9930,6 @@
       "class": "noun"
     },
     {
-      "id": 11266,
-      "spanish": "parking",
-      "english": "parking",
-      "french": "parking",
-      "category": "Espacios",
-      "class": "noun"
-    },
-    {
       "id": 11267,
       "spanish": "viceversa",
       "english": "conversely",
@@ -10215,14 +10015,6 @@
       "english": "crime",
       "french": "criminalité",
       "category": "Conflicto",
-      "class": "noun"
-    },
-    {
-      "id": 11278,
-      "spanish": "carpeta",
-      "english": "folder",
-      "french": "dossier",
-      "category": "Escuela",
       "class": "noun"
     },
     {
@@ -10445,7 +10237,7 @@
       "id": 11306,
       "spanish": "escalón",
       "english": "step",
-      "french": "marche",
+      "french": "marche (escalier)",
       "category": "Construcción",
       "class": "noun"
     },
@@ -10810,14 +10602,6 @@
       "class": "adjective"
     },
     {
-      "id": 11352,
-      "spanish": "montañismo",
-      "english": "mountaineering",
-      "french": "alpinisme",
-      "category": "Deporte",
-      "class": "noun"
-    },
-    {
       "id": 11353,
       "spanish": "alcachofa",
       "english": "artichoke",
@@ -10861,7 +10645,7 @@
       "id": 11358,
       "spanish": "mulato",
       "english": "mulatto",
-      "french": "métis",
+      "french": "métis (africain/européen)",
       "category": "Sociedad",
       "class": "adjective"
     },
@@ -10898,14 +10682,6 @@
       "class": "noun"
     },
     {
-      "id": 11363,
-      "spanish": "usual",
-      "english": "usual",
-      "french": "habituel",
-      "category": "",
-      "class": "adjective"
-    },
-    {
       "id": 11364,
       "spanish": "irónico",
       "english": "ironic",
@@ -10914,28 +10690,12 @@
       "class": "adjective"
     },
     {
-      "id": 11365,
-      "spanish": "abertura",
-      "english": "opening",
-      "french": "ouverture",
-      "category": "",
-      "class": "noun"
-    },
-    {
       "id": 11366,
       "spanish": "compás",
       "english": "compass",
       "french": "compas",
       "category": "Herramientas",
       "class": "noun"
-    },
-    {
-      "id": 11367,
-      "spanish": "prendar",
-      "english": "to turn on",
-      "french": "allumer",
-      "category": "",
-      "class": "verb"
     },
     {
       "id": 11368,
@@ -10976,14 +10736,6 @@
       "french": "abolir",
       "category": "Derecho",
       "class": "verb"
-    },
-    {
-      "id": 11373,
-      "spanish": "emergencia",
-      "english": "emergency",
-      "french": "urgence",
-      "category": "Salud",
-      "class": "noun"
     },
     {
       "id": 11374,
@@ -11096,14 +10848,6 @@
       "french": "détacher",
       "category": "",
       "class": "verb"
-    },
-    {
-      "id": 11388,
-      "spanish": "municipalidad",
-      "english": "municipality",
-      "french": "mairie",
-      "category": "Política",
-      "class": "noun"
     },
     {
       "id": 11389,

@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "list": [
     {
       "id": 30001,
@@ -27,7 +27,7 @@
     },
     {
       "id": 30004,
-      "spanish": "dudar",
+      "spanish": "dudar, vacilar",
       "english": "to hesitate",
       "french": "hésiter",
       "category": "Pensamiento",
@@ -67,7 +67,7 @@
     },
     {
       "id": 30009,
-      "spanish": "convenir",
+      "spanish": "convenir, pactar",
       "english": "agree",
       "french": "convenir",
       "category": "",
@@ -235,7 +235,7 @@
     },
     {
       "id": 30030,
-      "spanish": "traslado",
+      "spanish": "traslado, transferencia",
       "english": "transfer",
       "french": "transfert",
       "category": "Viajes",
@@ -283,7 +283,7 @@
     },
     {
       "id": 30036,
-      "spanish": "conveniente",
+      "spanish": "conveniente, oportuno",
       "english": "appropriate",
       "french": "opportun",
       "category": "",
@@ -445,7 +445,7 @@
       "id": 30056,
       "spanish": "demanda",
       "english": "lawsuit",
-      "french": "demande",
+      "french": "demande (juridique)",
       "category": "Derecho",
       "class": "noun"
     },
@@ -507,7 +507,7 @@
     },
     {
       "id": 30064,
-      "spanish": "reto",
+      "spanish": "reto, desafío",
       "english": "challenge",
       "french": "défi",
       "category": "",
@@ -693,7 +693,7 @@
       "id": 30087,
       "spanish": "gasolina",
       "english": "gasoline",
-      "french": "essence",
+      "french": "essence (carburant)",
       "category": "Vehículos",
       "class": "noun"
     },
@@ -813,7 +813,7 @@
       "id": 30102,
       "spanish": "petición",
       "english": "request",
-      "french": "demande",
+      "french": "demande (requête)",
       "category": "Comunicación",
       "class": "noun"
     },
@@ -867,7 +867,7 @@
     },
     {
       "id": 30109,
-      "spanish": "reclamación",
+      "spanish": "reclamación, reclamo",
       "english": "complaint",
       "french": "réclamation",
       "category": "",
@@ -979,7 +979,7 @@
     },
     {
       "id": 30123,
-      "spanish": "emisión",
+      "spanish": "emisión, difusión",
       "english": "broadcast",
       "french": "diffusion",
       "category": "Comunicación",
@@ -1075,7 +1075,7 @@
     },
     {
       "id": 30135,
-      "spanish": "liderar",
+      "spanish": "liderar, encabezar",
       "english": "lead",
       "french": "diriger",
       "category": "Trabajos",
@@ -1149,7 +1149,7 @@
       "id": 30144,
       "spanish": "evaluar",
       "english": "evaluate",
-      "french": "évaluer",
+      "french": "évaluer (juger)",
       "category": "Pensamiento",
       "class": "verb"
     },
@@ -1173,7 +1173,7 @@
       "id": 30147,
       "spanish": "promocionar",
       "english": "promote",
-      "french": "promouvoir",
+      "french": "promouvoir (publicité)",
       "category": "Economía",
       "class": "verb"
     },
@@ -1221,7 +1221,7 @@
       "id": 30153,
       "spanish": "estrenar",
       "english": "premiere",
-      "french": "lancer",
+      "french": "lancer (produit)",
       "category": "Arte y cultura",
       "class": "verb"
     },
@@ -1435,7 +1435,7 @@
     },
     {
       "id": 30180,
-      "spanish": "potenciar",
+      "spanish": "potenciar, reforzar",
       "english": "enhance",
       "french": "renforcer",
       "category": "",
@@ -1539,7 +1539,7 @@
     },
     {
       "id": 30193,
-      "spanish": "toque",
+      "spanish": "toque, tacto",
       "english": "touch",
       "french": "toucher",
       "category": "Percepción",
@@ -1573,7 +1573,7 @@
       "id": 30197,
       "spanish": "hostal",
       "english": "hostel",
-      "french": "auberge",
+      "french": "auberge (hébergement)",
       "category": "Viajes",
       "class": "noun"
     },
@@ -1637,7 +1637,7 @@
       "id": 30205,
       "spanish": "cubierta",
       "english": "cover",
-      "french": "couverture",
+      "french": "couverture (objet)",
       "category": "",
       "class": "noun"
     },
@@ -2074,14 +2074,6 @@
       "class": "adjective"
     },
     {
-      "id": 30260,
-      "spanish": "difusión",
-      "english": "dissemination",
-      "french": "diffusion",
-      "category": "Comunicación",
-      "class": "noun"
-    },
-    {
       "id": 30261,
       "spanish": "caldo",
       "english": "broth",
@@ -2115,7 +2107,7 @@
     },
     {
       "id": 30265,
-      "spanish": "rebajar",
+      "spanish": "rebajar, mermar",
       "english": "reduce",
       "french": "réduire",
       "category": "Economía",
@@ -2357,7 +2349,7 @@
       "id": 30295,
       "spanish": "esencia",
       "english": "essence",
-      "french": "essence",
+      "french": "essence (nature)",
       "category": "",
       "class": "noun"
     },
@@ -2618,14 +2610,6 @@
       "class": "noun"
     },
     {
-      "id": 30328,
-      "spanish": "desafío",
-      "english": "challenge",
-      "french": "défi",
-      "category": "",
-      "class": "noun"
-    },
-    {
       "id": 30329,
       "spanish": "decisivo",
       "english": "decisive",
@@ -2869,7 +2853,7 @@
       "id": 30359,
       "spanish": "cobertura",
       "english": "coverage",
-      "french": "couverture",
+      "french": "couverture (réseau)",
       "category": "",
       "class": "noun"
     },
@@ -2891,7 +2875,7 @@
     },
     {
       "id": 30362,
-      "spanish": "normativa",
+      "spanish": "normativa, regulación",
       "english": "regulations",
       "french": "réglementation",
       "category": "Derecho",
@@ -2997,7 +2981,7 @@
       "id": 30375,
       "spanish": "expectativa",
       "english": "expectation",
-      "french": "prévision",
+      "french": "prévision (attente)",
       "category": "Pensamiento",
       "class": "noun"
     },
@@ -3011,7 +2995,7 @@
     },
     {
       "id": 30377,
-      "spanish": "entretenimiento",
+      "spanish": "entretenimiento, diversión",
       "english": "entertainment",
       "french": "divertissement",
       "category": "Aficiones",
@@ -3146,14 +3130,6 @@
       "class": "verb"
     },
     {
-      "id": 30394,
-      "spanish": "tacto",
-      "english": "touch",
-      "french": "toucher",
-      "category": "Percepción",
-      "class": "noun"
-    },
-    {
       "id": 30395,
       "spanish": "patín",
       "english": "skate",
@@ -3253,7 +3229,7 @@
       "id": 30407,
       "spanish": "sobrepasar",
       "english": "exceed",
-      "french": "dépasser",
+      "french": "dépasser (limite)",
       "category": "Cantidad y medida",
       "class": "verb"
     },
@@ -3267,7 +3243,7 @@
     },
     {
       "id": 30409,
-      "spanish": "cercanía",
+      "spanish": "cercanía, proximidad",
       "english": "closeness",
       "french": "proximité",
       "category": "Relaciones",
@@ -3437,7 +3413,7 @@
       "id": 30430,
       "spanish": "decepcionar",
       "english": "to disappoint",
-      "french": "décevoir",
+      "french": "décevoir (tristesse)",
       "category": "Emociones",
       "class": "verb"
     },
@@ -3498,14 +3474,6 @@
       "class": "adjective"
     },
     {
-      "id": 30438,
-      "spanish": "diversión",
-      "english": "fun",
-      "french": "divertissement",
-      "category": "Aficiones",
-      "class": "noun"
-    },
-    {
       "id": 30439,
       "spanish": "olvido",
       "english": "forgetfulness",
@@ -3517,7 +3485,7 @@
       "id": 30440,
       "spanish": "calificar",
       "english": "to grade",
-      "french": "évaluer",
+      "french": "évaluer (noter)",
       "category": "Escuela",
       "class": "verb"
     },
@@ -3539,7 +3507,7 @@
     },
     {
       "id": 30443,
-      "spanish": "arder",
+      "spanish": "arder, abrasar",
       "english": "to burn",
       "french": "brûler",
       "category": "",
@@ -3611,7 +3579,7 @@
     },
     {
       "id": 30452,
-      "spanish": "cría",
+      "spanish": "cría, ganadería",
       "english": "rearing",
       "french": "élevage",
       "category": "Animales",
@@ -3661,7 +3629,7 @@
       "id": 30458,
       "spanish": "apartado",
       "english": "section",
-      "french": "paragraphe",
+      "french": "paragraphe (section)",
       "category": "Información",
       "class": "noun"
     },
@@ -3719,14 +3687,6 @@
       "english": "to plan",
       "french": "planifier",
       "category": "Pensamiento",
-      "class": "verb"
-    },
-    {
-      "id": 30466,
-      "spanish": "pactar",
-      "english": "agree",
-      "french": "convenir",
-      "category": "",
       "class": "verb"
     },
     {
@@ -3867,7 +3827,7 @@
     },
     {
       "id": 30484,
-      "spanish": "evidenciar",
+      "spanish": "evidenciar, resaltar",
       "english": "demonstrate",
       "french": "mettre en évidence",
       "category": "",
@@ -3949,7 +3909,7 @@
       "id": 30494,
       "spanish": "previsión",
       "english": "forecast",
-      "french": "prévision",
+      "french": "prévision (calcul)",
       "category": "",
       "class": "noun"
     },
@@ -3979,7 +3939,7 @@
     },
     {
       "id": 30498,
-      "spanish": "sostener",
+      "spanish": "sostener, sustentar",
       "english": "support",
       "french": "soutenir",
       "category": "",
@@ -4010,14 +3970,6 @@
       "class": "verb"
     },
     {
-      "id": 30502,
-      "spanish": "ganadería",
-      "english": "livestock farming",
-      "french": "élevage",
-      "category": "",
-      "class": "noun"
-    },
-    {
       "id": 30503,
       "spanish": "penicilina",
       "english": "penicillin",
@@ -4043,7 +3995,7 @@
     },
     {
       "id": 30506,
-      "spanish": "financiar",
+      "spanish": "financiar, costear",
       "english": "to finance",
       "french": "financer",
       "category": "Economía",
@@ -4093,7 +4045,7 @@
       "id": 30512,
       "spanish": "expulsar",
       "english": "expel",
-      "french": "expulser",
+      "french": "expulser (personne/pays)",
       "category": "",
       "class": "verb"
     },
@@ -4293,7 +4245,7 @@
       "id": 30537,
       "spanish": "ascender",
       "english": "to be promoted",
-      "french": "promouvoir",
+      "french": "promouvoir (carrière)",
       "category": "Trabajos",
       "class": "verb"
     },
@@ -4421,7 +4373,7 @@
       "id": 30553,
       "spanish": "arrojar",
       "english": "to throw",
-      "french": "lancer",
+      "french": "lancer (objet)",
       "category": "Movimiento",
       "class": "verb"
     },
@@ -4504,14 +4456,6 @@
       "french": "acquisition",
       "category": "Economía",
       "class": "noun"
-    },
-    {
-      "id": 30564,
-      "spanish": "reforzar",
-      "english": "strengthen",
-      "french": "renforcer",
-      "category": "",
-      "class": "verb"
     },
     {
       "id": 30565,
@@ -5059,7 +5003,7 @@
     },
     {
       "id": 30633,
-      "spanish": "retribución",
+      "spanish": "retribución, remuneración",
       "english": "compensation",
       "french": "rémunération",
       "category": "Trabajos",
@@ -5133,7 +5077,7 @@
       "id": 30642,
       "spanish": "trascender",
       "english": "to transcend",
-      "french": "dépasser",
+      "french": "dépasser (transcender)",
       "category": "Pensamiento",
       "class": "verb"
     },
@@ -5325,13 +5269,13 @@
       "id": 30666,
       "spanish": "defraudar",
       "english": "to defraud",
-      "french": "décevoir",
+      "french": "décevoir (trahison)",
       "category": "Derecho",
       "class": "verb"
     },
     {
       "id": 30667,
-      "spanish": "torcer",
+      "spanish": "torcer, retorcer",
       "english": "twist",
       "french": "tordre",
       "category": "",
@@ -5442,14 +5386,6 @@
       "class": "adjective"
     },
     {
-      "id": 30681,
-      "spanish": "resaltar",
-      "english": "highlight",
-      "french": "mettre en évidence",
-      "category": "",
-      "class": "verb"
-    },
-    {
       "id": 30682,
       "spanish": "aspiración",
       "english": "aspiration",
@@ -5472,14 +5408,6 @@
       "french": "rôle de premier plan",
       "category": "",
       "class": "noun"
-    },
-    {
-      "id": 30685,
-      "spanish": "oportuno",
-      "english": "timely",
-      "french": "opportun",
-      "category": "",
-      "class": "adjective"
     },
     {
       "id": 30686,
@@ -5541,7 +5469,7 @@
       "id": 30693,
       "spanish": "reja",
       "english": "grate",
-      "french": "grille",
+      "french": "grille (métal)",
       "category": "Construcción",
       "class": "noun"
     },
@@ -5589,7 +5517,7 @@
       "id": 30699,
       "spanish": "párrafo",
       "english": "paragraph",
-      "french": "paragraphe",
+      "french": "paragraphe (texte)",
       "category": "Literatura",
       "class": "noun"
     },
@@ -5875,7 +5803,7 @@
     },
     {
       "id": 30735,
-      "spanish": "currículo",
+      "spanish": "currículo, curriculum",
       "english": "resume",
       "french": "CV",
       "category": "Trabajos",
@@ -5944,14 +5872,6 @@
       "french": "répression",
       "category": "Política",
       "class": "noun"
-    },
-    {
-      "id": 30744,
-      "spanish": "retorcer",
-      "english": "twist",
-      "french": "tordre",
-      "category": "",
-      "class": "verb"
     },
     {
       "id": 30745,
@@ -6106,22 +6026,6 @@
       "class": "noun"
     },
     {
-      "id": 30764,
-      "spanish": "sustentar",
-      "english": "support",
-      "french": "soutenir",
-      "category": "",
-      "class": "verb"
-    },
-    {
-      "id": 30765,
-      "spanish": "curriculum",
-      "english": "resume",
-      "french": "CV",
-      "category": "Trabajos",
-      "class": "noun"
-    },
-    {
       "id": 30766,
       "spanish": "intimidar",
       "english": "intimidate",
@@ -6203,7 +6107,7 @@
     },
     {
       "id": 30776,
-      "spanish": "estafar",
+      "spanish": "estafar, timar",
       "english": "to swindle",
       "french": "escroquer",
       "category": "Derecho",
@@ -6269,7 +6173,7 @@
       "id": 30784,
       "spanish": "desembocar",
       "english": "to flow into",
-      "french": "déboucher",
+      "french": "déboucher (rivière)",
       "category": "Geografía",
       "class": "verb"
     },
@@ -6386,14 +6290,6 @@
       "class": "verb"
     },
     {
-      "id": 30799,
-      "spanish": "proximidad",
-      "english": "proximity",
-      "french": "proximité",
-      "category": "Espacios",
-      "class": "noun"
-    },
-    {
       "id": 30800,
       "spanish": "sabio",
       "english": "wise",
@@ -6451,7 +6347,7 @@
     },
     {
       "id": 30807,
-      "spanish": "quema",
+      "spanish": "quema, quemadura",
       "english": "burn",
       "french": "brûlure",
       "category": "",
@@ -6520,14 +6416,6 @@
       "french": "choc",
       "category": "Emociones",
       "class": "noun"
-    },
-    {
-      "id": 30816,
-      "spanish": "costear",
-      "english": "to pay for",
-      "french": "financer",
-      "category": "Economía",
-      "class": "verb"
     },
     {
       "id": 30817,
@@ -6631,14 +6519,6 @@
       "english": "consonant",
       "french": "consonne",
       "category": "Comunicación",
-      "class": "noun"
-    },
-    {
-      "id": 30830,
-      "spanish": "transferencia",
-      "english": "transfer",
-      "french": "transfert",
-      "category": "Economía",
       "class": "noun"
     },
     {
@@ -7018,14 +6898,6 @@
       "class": "noun"
     },
     {
-      "id": 30878,
-      "spanish": "quemadura",
-      "english": "burn",
-      "french": "brûlure",
-      "category": "Salud",
-      "class": "noun"
-    },
-    {
       "id": 30879,
       "spanish": "albergar",
       "english": "to host",
@@ -7072,14 +6944,6 @@
       "french": "régler",
       "category": "Escuela",
       "class": "verb"
-    },
-    {
-      "id": 30885,
-      "spanish": "reclamo",
-      "english": "claim",
-      "french": "réclamation",
-      "category": "Derecho",
-      "class": "noun"
     },
     {
       "id": 30886,
@@ -7143,14 +7007,6 @@
       "english": "raffle",
       "french": "tombola",
       "category": "Aficiones",
-      "class": "noun"
-    },
-    {
-      "id": 30894,
-      "spanish": "remuneración",
-      "english": "compensation",
-      "french": "rémunération",
-      "category": "Trabajos",
       "class": "noun"
     },
     {
@@ -7274,14 +7130,6 @@
       "class": "noun"
     },
     {
-      "id": 30910,
-      "spanish": "encabezar",
-      "english": "lead",
-      "french": "diriger",
-      "category": "",
-      "class": "verb"
-    },
-    {
       "id": 30911,
       "spanish": "zapata",
       "english": "shoe sole",
@@ -7381,7 +7229,7 @@
       "id": 30923,
       "spanish": "cuadrícula",
       "english": "grid",
-      "french": "grille",
+      "french": "grille (tableau)",
       "category": "",
       "class": "noun"
     },
@@ -7845,7 +7693,7 @@
       "id": 30981,
       "spanish": "destapar",
       "english": "uncover",
-      "french": "déboucher",
+      "french": "déboucher (bouteille)",
       "category": "",
       "class": "verb"
     },
@@ -7879,14 +7727,6 @@
       "english": "tune in",
       "french": "se mettre à l'écoute",
       "category": "Comunicación",
-      "class": "verb"
-    },
-    {
-      "id": 30986,
-      "spanish": "vacilar",
-      "english": "to hesitate",
-      "french": "hésiter",
-      "category": "Pensamiento",
       "class": "verb"
     },
     {
@@ -8155,7 +7995,7 @@
     },
     {
       "id": 31020,
-      "spanish": "concursante",
+      "spanish": "concursante, aspirante",
       "english": "contestant",
       "french": "candidat",
       "category": "Aficiones",
@@ -8253,7 +8093,7 @@
       "id": 31032,
       "spanish": "parador",
       "english": "rest stop",
-      "french": "auberge",
+      "french": "auberge (route)",
       "category": "Viajes",
       "class": "noun"
     },
@@ -8264,14 +8104,6 @@
       "french": "ralentir",
       "category": "",
       "class": "verb"
-    },
-    {
-      "id": 31034,
-      "spanish": "aspirante",
-      "english": "candidate",
-      "french": "candidat",
-      "category": "Trabajos",
-      "class": "noun"
     },
     {
       "id": 31035,
@@ -8402,14 +8234,6 @@
       "class": "adjective"
     },
     {
-      "id": 31051,
-      "spanish": "regulación",
-      "english": "regulation",
-      "french": "réglementation",
-      "category": "Derecho",
-      "class": "noun"
-    },
-    {
       "id": 31052,
       "spanish": "secularización",
       "english": "secularization",
@@ -8422,14 +8246,6 @@
       "spanish": "abanicar",
       "english": "to fan",
       "french": "éventer",
-      "category": "",
-      "class": "verb"
-    },
-    {
-      "id": 31054,
-      "spanish": "abrasar",
-      "english": "scorch",
-      "french": "brûler",
       "category": "",
       "class": "verb"
     },
@@ -8541,7 +8357,7 @@
       "id": 31068,
       "spanish": "desahuciar",
       "english": "evict",
-      "french": "expulser",
+      "french": "expulser (logement)",
       "category": "Derecho",
       "class": "verb"
     },
@@ -8576,14 +8392,6 @@
       "french": "ingestion",
       "category": "Salud",
       "class": "noun"
-    },
-    {
-      "id": 31073,
-      "spanish": "mermar",
-      "english": "diminish",
-      "french": "réduire",
-      "category": "",
-      "class": "verb"
     },
     {
       "id": 31074,
@@ -8840,14 +8648,6 @@
       "french": "contre-attaque",
       "category": "Deporte",
       "class": "noun"
-    },
-    {
-      "id": 31106,
-      "spanish": "timar",
-      "english": "to swindle, to con",
-      "french": "escroquer",
-      "category": "Derecho",
-      "class": "verb"
     },
     {
       "id": 31107,

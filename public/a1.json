@@ -1,5 +1,5 @@
 {
-  "version": "1.0.12",
+  "version": "1.0.14",
   "list": [
     {
       "id": 1,
@@ -579,7 +579,7 @@
     },
     {
       "id": 73,
-      "spanish": "sándwich",
+      "spanish": "sándwich, bocadillo",
       "english": "sandwich",
       "french": "sandwich",
       "category": "Comida",
@@ -1163,7 +1163,7 @@
     },
     {
       "id": 146,
-      "spanish": "vaso",
+      "spanish": "vaso, vidrio, cristal",
       "english": "glass",
       "french": "verre",
       "category": "Comidas",
@@ -1322,14 +1322,6 @@
       "class": "noun"
     },
     {
-      "id": 166,
-      "spanish": "pelo, cabello",
-      "english": "hair",
-      "french": "cheveu",
-      "category": "Cabeza",
-      "class": "noun"
-    },
-    {
       "id": 167,
       "spanish": "frente",
       "english": "forehead",
@@ -1389,7 +1381,7 @@
       "id": 174,
       "spanish": "muerto",
       "english": "dead",
-      "french": "mort",
+      "french": "mort (adjectif)",
       "category": "Salud",
       "class": "noun"
     },
@@ -1651,7 +1643,7 @@
     },
     {
       "id": 207,
-      "spanish": "apartamento",
+      "spanish": "apartamento, piso",
       "english": "apartment",
       "french": "appartement",
       "category": "Casa",
@@ -1691,7 +1683,7 @@
     },
     {
       "id": 212,
-      "spanish": "pared",
+      "spanish": "pared, muro",
       "english": "wall",
       "french": "mur",
       "category": "Casa",
@@ -1731,7 +1723,7 @@
     },
     {
       "id": 217,
-      "spanish": "habitación",
+      "spanish": "habitación, cuarto",
       "english": "room",
       "french": "chambre",
       "category": "Casa",
@@ -1867,7 +1859,7 @@
     },
     {
       "id": 234,
-      "spanish": "televisor",
+      "spanish": "televisor, televisión",
       "english": "television, TV",
       "french": "télévision",
       "category": "Muebles",
@@ -1891,7 +1883,7 @@
     },
     {
       "id": 237,
-      "spanish": "pantalón",
+      "spanish": "pantalón, pantalones",
       "english": "pants, trousers",
       "french": "pantalon",
       "category": "Ropa",
@@ -2091,7 +2083,7 @@
     },
     {
       "id": 262,
-      "spanish": "descansarse",
+      "spanish": "descansarse, descansar",
       "english": "to rest",
       "french": "se reposer",
       "category": "Rutinas",
@@ -2205,7 +2197,7 @@
       "id": 276,
       "spanish": "pizarra",
       "english": "board, blackboard",
-      "french": "tableau",
+      "french": "tableau (école)",
       "category": "Escuela",
       "class": "noun"
     },
@@ -2259,7 +2251,7 @@
     },
     {
       "id": 283,
-      "spanish": "matemáticas",
+      "spanish": "matemáticas, matemática",
       "english": "mathematics, math",
       "french": "mathématiques",
       "category": "Escuela",
@@ -2299,7 +2291,7 @@
     },
     {
       "id": 288,
-      "spanish": "lengua",
+      "spanish": "lengua, idioma",
       "english": "language",
       "french": "langue",
       "category": "Escuela",
@@ -2731,7 +2723,7 @@
     },
     {
       "id": 342,
-      "spanish": "coche",
+      "spanish": "coche, carro",
       "english": "car",
       "french": "voiture",
       "category": "Vehículos",
@@ -2931,7 +2923,7 @@
     },
     {
       "id": 367,
-      "spanish": "hostal",
+      "spanish": "hostal, albergue",
       "english": "hostel, guesthouse",
       "french": "auberge",
       "category": "Viajes",
@@ -3061,7 +3053,7 @@
       "id": 383,
       "spanish": "bosque",
       "english": "forest, woods",
-      "french": "forêt",
+      "french": "forêt (bois)",
       "category": "Naturaleza",
       "class": "noun"
     },
@@ -3683,7 +3675,7 @@
     },
     {
       "id": 461,
-      "spanish": "sentarse",
+      "spanish": "sentarse, sentar",
       "english": "to sit",
       "french": "s'asseoir",
       "category": "Movimiento",
@@ -3693,7 +3685,7 @@
       "id": 462,
       "spanish": "volar",
       "english": "to fly",
-      "french": "voler",
+      "french": "voler (dans les airs)",
       "category": "Movimiento",
       "class": "verb"
     },
@@ -3795,7 +3787,7 @@
     },
     {
       "id": 475,
-      "spanish": "tener",
+      "spanish": "tener, haber",
       "english": "to have",
       "french": "avoir",
       "category": "Acciónes",
@@ -3805,7 +3797,7 @@
       "id": 476,
       "spanish": "gustar",
       "english": "to like",
-      "french": "aimer",
+      "french": "aimer (apprécier)",
       "category": "Acciónes",
       "class": "verb"
     },
@@ -4019,7 +4011,7 @@
     },
     {
       "id": 503,
-      "spanish": "pájaro",
+      "spanish": "pájaro, ave",
       "english": "bird",
       "french": "oiseau",
       "category": "Animales",
@@ -4347,7 +4339,7 @@
     },
     {
       "id": 544,
-      "spanish": "bonito",
+      "spanish": "bonito, hermoso, guapo, bello",
       "english": "pretty, nice",
       "french": "beau",
       "category": "Adjetivos",
@@ -4373,7 +4365,7 @@
       "id": 547,
       "spanish": "limpio",
       "english": "clean",
-      "french": "propre",
+      "french": "propre (propreté)",
       "category": "Adjetivos",
       "class": "adjective"
     },
@@ -4405,7 +4397,7 @@
       "id": 551,
       "spanish": "pequeño",
       "english": "small, little",
-      "french": "petit",
+      "french": "petit (général)",
       "category": "Adjetivos",
       "class": "adjective"
     },
@@ -4507,7 +4499,7 @@
     },
     {
       "id": 564,
-      "spanish": "aquí",
+      "spanish": "aquí, acá",
       "english": "here",
       "french": "ici",
       "category": "Adverbios",
@@ -4515,7 +4507,7 @@
     },
     {
       "id": 565,
-      "spanish": "allí",
+      "spanish": "allí, allá",
       "english": "there",
       "french": "là-bas",
       "category": "Adverbios",
@@ -4699,7 +4691,7 @@
     },
     {
       "id": 588,
-      "spanish": "sobre",
+      "spanish": "sobre, encima",
       "english": "about, on, over",
       "french": "sur",
       "category": "Pronombres",
@@ -4877,7 +4869,7 @@
       "id": 611,
       "spanish": "amar",
       "english": "to love",
-      "french": "aimer",
+      "french": "aimer (amour)",
       "category": "",
       "class": "verb"
     },
@@ -4891,7 +4883,7 @@
     },
     {
       "id": 613,
-      "spanish": "a menudo",
+      "spanish": "a menudo, menudo",
       "english": "often",
       "french": "souvent",
       "category": "",
@@ -4925,13 +4917,13 @@
       "id": 617,
       "spanish": "aprender",
       "english": "to learn",
-      "french": "apprendre",
+      "french": "apprendre (étudier)",
       "category": "",
       "class": "verb"
     },
     {
       "id": 618,
-      "spanish": "área",
+      "spanish": "área, zona",
       "english": "area",
       "french": "zone",
       "category": "",
@@ -5019,7 +5011,7 @@
     },
     {
       "id": 629,
-      "spanish": "banda",
+      "spanish": "grupo, banda",
       "english": "band",
       "french": "groupe",
       "category": "",
@@ -5051,7 +5043,7 @@
     },
     {
       "id": 633,
-      "spanish": "bolsa",
+      "spanish": "bolsa, saco",
       "english": "bag",
       "french": "sac",
       "category": "",
@@ -5466,14 +5458,6 @@
       "class": "conjunction"
     },
     {
-      "id": 688,
-      "spanish": "cuarto, habitación",
-      "english": "room",
-      "french": "chambre",
-      "category": "",
-      "class": "noun"
-    },
-    {
       "id": 689,
       "spanish": "cultura",
       "english": "culture",
@@ -5507,15 +5491,7 @@
     },
     {
       "id": 693,
-      "spanish": "debe",
-      "english": "should",
-      "french": "devrait",
-      "category": "",
-      "class": "modal"
-    },
-    {
-      "id": 694,
-      "spanish": "debería",
+      "spanish": "debe, debería",
       "english": "should",
       "french": "devrait",
       "category": "",
@@ -5683,7 +5659,7 @@
     },
     {
       "id": 715,
-      "spanish": "diferente",
+      "spanish": "diferente, distinto",
       "english": "different",
       "french": "différent",
       "category": "",
@@ -5701,7 +5677,7 @@
       "id": 717,
       "spanish": "discutir",
       "english": "to argue",
-      "french": "discuter",
+      "french": "discuter (débattre)",
       "category": "",
       "class": "verb"
     },
@@ -5818,28 +5794,12 @@
       "class": "adjective"
     },
     {
-      "id": 732,
-      "spanish": "empezar",
-      "english": "to start",
-      "french": "commencer",
-      "category": "",
-      "class": "verb"
-    },
-    {
       "id": 733,
       "spanish": "empresa",
       "english": "company",
       "french": "entreprise",
       "category": "",
       "class": "noun"
-    },
-    {
-      "id": 734,
-      "spanish": "encima",
-      "english": "on top of",
-      "french": "sur",
-      "category": "",
-      "class": "preposition"
     },
     {
       "id": 735,
@@ -5875,7 +5835,7 @@
     },
     {
       "id": 739,
-      "spanish": "entender",
+      "spanish": "entender, comprender",
       "english": "to understand",
       "french": "comprendre",
       "category": "",
@@ -6189,7 +6149,7 @@
       "id": 778,
       "spanish": "frase",
       "english": "phrase",
-      "french": "phrase",
+      "french": "phrase (courte)",
       "category": "",
       "class": "noun"
     },
@@ -6203,7 +6163,7 @@
     },
     {
       "id": 780,
-      "spanish": "fruta",
+      "spanish": "fruta, fruto",
       "english": "fruit",
       "french": "fruit",
       "category": "",
@@ -6235,7 +6195,7 @@
     },
     {
       "id": 784,
-      "spanish": "ganar",
+      "spanish": "ganar, gana",
       "english": "to win",
       "french": "gagner",
       "category": "",
@@ -6251,7 +6211,7 @@
     },
     {
       "id": 786,
-      "spanish": "genial",
+      "spanish": "genial, estupendo",
       "english": "great",
       "french": "génial",
       "category": "",
@@ -6307,7 +6267,7 @@
     },
     {
       "id": 793,
-      "spanish": "gratis",
+      "spanish": "gratis, gratuito",
       "english": "free",
       "french": "gratuit",
       "category": "",
@@ -6320,14 +6280,6 @@
       "french": "gris",
       "category": "",
       "class": "adjective"
-    },
-    {
-      "id": 795,
-      "spanish": "grupo",
-      "english": "group",
-      "french": "groupe",
-      "category": "",
-      "class": "noun"
     },
     {
       "id": 796,
@@ -6376,14 +6328,6 @@
       "french": "fait",
       "category": "",
       "class": "noun"
-    },
-    {
-      "id": 802,
-      "spanish": "hermoso",
-      "english": "beautiful",
-      "french": "beau",
-      "category": "",
-      "class": "adjective"
     },
     {
       "id": 803,
@@ -6562,16 +6506,8 @@
       "class": "noun"
     },
     {
-      "id": 826,
-      "spanish": "jugo",
-      "english": "juice",
-      "french": "jus",
-      "category": "",
-      "class": "noun"
-    },
-    {
       "id": 827,
-      "spanish": "juntos",
+      "spanish": "juntos, junto",
       "english": "together",
       "french": "ensemble",
       "category": "",
@@ -6653,7 +6589,7 @@
       "id": 837,
       "spanish": "llegar",
       "english": "to arrive",
-      "french": "arriver",
+      "french": "arriver (lieu)",
       "category": "",
       "class": "verb"
     },
@@ -6923,16 +6859,8 @@
     },
     {
       "id": 871,
-      "spanish": "mucho",
+      "spanish": "mucho, muchos",
       "english": "much",
-      "french": "beaucoup",
-      "category": "",
-      "class": "pronoun"
-    },
-    {
-      "id": 872,
-      "spanish": "muchos",
-      "english": "many",
       "french": "beaucoup",
       "category": "",
       "class": "pronoun"
@@ -7099,7 +7027,7 @@
     },
     {
       "id": 894,
-      "spanish": "obtener",
+      "spanish": "obtener, conseguir",
       "english": "to obtain",
       "french": "obtenir",
       "category": "",
@@ -7179,9 +7107,9 @@
     },
     {
       "id": 904,
-      "spanish": "oración, frase",
+      "spanish": "oración",
       "english": "sentence",
-      "french": "phrase",
+      "french": "phrase (grammaire)",
       "category": "",
       "class": "noun"
     },
@@ -7213,7 +7141,7 @@
       "id": 908,
       "spanish": "otra vez",
       "english": "again",
-      "french": "encore",
+      "french": "encore (répétition)",
       "category": "",
       "class": "adverb"
     },
@@ -7254,14 +7182,6 @@
       "spanish": "palabra",
       "english": "word",
       "french": "mot",
-      "category": "",
-      "class": "noun"
-    },
-    {
-      "id": 914,
-      "spanish": "pantalones",
-      "english": "pants",
-      "french": "pantalon",
       "category": "",
       "class": "noun"
     },
@@ -7315,7 +7235,7 @@
     },
     {
       "id": 922,
-      "spanish": "pedido",
+      "spanish": "pedido, orden",
       "english": "order",
       "french": "commande",
       "category": "",
@@ -7427,7 +7347,7 @@
     },
     {
       "id": 936,
-      "spanish": "plan",
+      "spanish": "plan, plano",
       "english": "plan",
       "french": "plan",
       "category": "",
@@ -7517,7 +7437,7 @@
       "id": 947,
       "spanish": "precio",
       "english": "price",
-      "french": "prix",
+      "french": "prix (argent)",
       "category": "",
       "class": "noun"
     },
@@ -7613,7 +7533,7 @@
       "id": 959,
       "spanish": "propio",
       "english": "own",
-      "french": "propre",
+      "french": "propre (possession)",
       "category": "",
       "class": "adjective"
     },
@@ -7675,7 +7595,7 @@
     },
     {
       "id": 967,
-      "spanish": "quedarse",
+      "spanish": "quedarse, quedar",
       "english": "to stay",
       "french": "rester",
       "category": "",
@@ -7707,7 +7627,7 @@
     },
     {
       "id": 971,
-      "spanish": "quizás",
+      "spanish": "quizás, quizá",
       "english": "maybe",
       "french": "peut-être",
       "category": "",
@@ -7795,7 +7715,7 @@
     },
     {
       "id": 982,
-      "spanish": "relajarse",
+      "spanish": "relajarse, relajar",
       "english": "to relax",
       "french": "se détendre",
       "category": "",
@@ -7811,7 +7731,7 @@
     },
     {
       "id": 984,
-      "spanish": "responder",
+      "spanish": "responder, contestar",
       "english": "to answer",
       "french": "répondre",
       "category": "",
@@ -7883,7 +7803,7 @@
     },
     {
       "id": 993,
-      "spanish": "saludable",
+      "spanish": "saludable, sano",
       "english": "healthy",
       "french": "sain",
       "category": "",
@@ -8045,7 +7965,7 @@
       "id": 1013,
       "spanish": "suceder",
       "english": "to happen",
-      "french": "arriver",
+      "french": "arriver (événement)",
       "category": "",
       "class": "verb"
     },
@@ -8058,18 +7978,10 @@
       "class": "adverb"
     },
     {
-      "id": 1015,
-      "spanish": "sur",
-      "english": "on",
-      "french": "sur",
-      "category": "",
-      "class": "preposition"
-    },
-    {
       "id": 1016,
       "spanish": "también",
       "english": "also",
-      "french": "aussi",
+      "french": "aussi (également)",
       "category": "",
       "class": "adverb"
     },
@@ -8098,14 +8010,6 @@
       "class": "noun"
     },
     {
-      "id": 1020,
-      "spanish": "televisión",
-      "english": "television",
-      "french": "télévision",
-      "category": "",
-      "class": "noun"
-    },
-    {
       "id": 1021,
       "spanish": "tema",
       "english": "topic",
@@ -8117,7 +8021,7 @@
       "id": 1022,
       "spanish": "tener que",
       "english": "to have to",
-      "french": "devoir",
+      "french": "devoir (obligation)",
       "category": "",
       "class": "verb"
     },
@@ -8131,7 +8035,7 @@
     },
     {
       "id": 1024,
-      "spanish": "terminar",
+      "spanish": "terminar, acabar",
       "english": "to finish",
       "french": "terminer",
       "category": "",
@@ -8181,7 +8085,7 @@
       "id": 1030,
       "spanish": "todavía",
       "english": "still",
-      "french": "encore",
+      "french": "encore (toujours)",
       "category": "",
       "class": "adverb"
     },
@@ -8323,17 +8227,9 @@
     },
     {
       "id": 1049,
-      "spanish": "video",
+      "spanish": "video, vídeo",
       "english": "video",
       "french": "vidéo",
-      "category": "",
-      "class": "noun"
-    },
-    {
-      "id": 1050,
-      "spanish": "vidrio",
-      "english": "glass",
-      "french": "verre",
       "category": "",
       "class": "noun"
     },
@@ -8421,23 +8317,15 @@
       "id": 1061,
       "spanish": "tan",
       "english": "so",
-      "french": "aussi",
+      "french": "aussi (comparaison)",
       "category": "",
       "class": "adverb"
-    },
-    {
-      "id": 1062,
-      "spanish": "quedar",
-      "english": "to remain",
-      "french": "rester",
-      "category": "",
-      "class": "verb"
     },
     {
       "id": 1063,
       "spanish": "deber",
       "english": "duty",
-      "french": "devoir",
+      "french": "devoir (nom)",
       "category": "",
       "class": "verb"
     },
@@ -8482,14 +8370,6 @@
       "class": "adverb"
     },
     {
-      "id": 1069,
-      "spanish": "usar",
-      "english": "use",
-      "french": "utiliser",
-      "category": "",
-      "class": "verb"
-    },
-    {
       "id": 1070,
       "spanish": "verdad",
       "english": "truth",
@@ -8504,14 +8384,6 @@
       "french": "au moins",
       "category": "",
       "class": "adverb"
-    },
-    {
-      "id": 1072,
-      "spanish": "sentar",
-      "english": "sit down",
-      "french": "s'asseoir",
-      "category": "Acciónes",
-      "class": "verb"
     },
     {
       "id": 1073,
@@ -8634,14 +8506,6 @@
       "class": "adjective"
     },
     {
-      "id": 1088,
-      "spanish": "utilizar",
-      "english": "use",
-      "french": "utiliser",
-      "category": "",
-      "class": "verb"
-    },
-    {
       "id": 1089,
       "spanish": "existir",
       "english": "to exist",
@@ -8651,19 +8515,11 @@
     },
     {
       "id": 1090,
-      "spanish": "chico",
+      "spanish": "chico, muchacho",
       "english": "boy",
       "french": "garçon",
       "category": "",
       "class": "noun"
-    },
-    {
-      "id": 1091,
-      "spanish": "conseguir",
-      "english": "to get",
-      "french": "obtenir",
-      "category": "",
-      "class": "verb"
     },
     {
       "id": 1092,
@@ -8672,14 +8528,6 @@
       "french": "intéresser",
       "category": "Emociones",
       "class": "verb"
-    },
-    {
-      "id": 1093,
-      "spanish": "zona",
-      "english": "area",
-      "french": "zone",
-      "category": "Espacios",
-      "class": "noun"
     },
     {
       "id": 1094,
@@ -8696,14 +8544,6 @@
       "french": "enchanter",
       "category": "Emociones",
       "class": "verb"
-    },
-    {
-      "id": 1096,
-      "spanish": "piso",
-      "english": "apartment",
-      "french": "appartement",
-      "category": "Casa",
-      "class": "noun"
     },
     {
       "id": 1097,
@@ -8744,14 +8584,6 @@
       "french": "ancien",
       "category": "Historia",
       "class": "adjective"
-    },
-    {
-      "id": 1102,
-      "spanish": "acabar",
-      "english": "to finish",
-      "french": "terminer",
-      "category": "",
-      "class": "verb"
     },
     {
       "id": 1103,
@@ -8978,18 +8810,10 @@
       "class": "adjective"
     },
     {
-      "id": 1131,
-      "spanish": "junto",
-      "english": "together",
-      "french": "ensemble",
-      "category": "",
-      "class": "adjective"
-    },
-    {
       "id": 1132,
       "spanish": "ah",
       "english": "uh",
-      "french": "ah",
+      "french": "ah (surprise)",
       "category": "",
       "class": "interjection"
     },
@@ -9032,14 +8856,6 @@
       "french": "réponse",
       "category": "Comunicación",
       "class": "noun"
-    },
-    {
-      "id": 1138,
-      "spanish": "andar",
-      "english": "walk",
-      "french": "marcher",
-      "category": "Movimiento",
-      "class": "verb"
     },
     {
       "id": 1139,
@@ -9138,16 +8954,8 @@
       "class": "noun"
     },
     {
-      "id": 1151,
-      "spanish": "idioma",
-      "english": "language",
-      "french": "langue",
-      "category": "Comunicación",
-      "class": "noun"
-    },
-    {
       "id": 1152,
-      "spanish": "noticia",
+      "spanish": "noticia, actualidad",
       "english": "news",
       "french": "actualité",
       "category": "Comunicación",
@@ -9181,7 +8989,7 @@
       "id": 1156,
       "spanish": "vuelta",
       "english": "lap",
-      "french": "tour",
+      "french": "le tour",
       "category": "Deporte",
       "class": "noun"
     },
@@ -9197,7 +9005,7 @@
       "id": 1158,
       "spanish": "muerte",
       "english": "death",
-      "french": "mort",
+      "french": "mort (nom)",
       "category": "",
       "class": "noun"
     },
@@ -9213,7 +9021,7 @@
       "id": 1160,
       "spanish": "paso",
       "english": "step",
-      "french": "étape",
+      "french": "étape (déplacement)",
       "category": "",
       "class": "noun"
     },
@@ -9247,14 +9055,6 @@
       "english": "participate",
       "french": "participer",
       "category": "",
-      "class": "verb"
-    },
-    {
-      "id": 1165,
-      "spanish": "contestar",
-      "english": "reply",
-      "french": "répondre",
-      "category": "Comunicación",
       "class": "verb"
     },
     {
@@ -9302,14 +9102,6 @@
       "spanish": "probar",
       "english": "try",
       "french": "tester",
-      "category": "",
-      "class": "verb"
-    },
-    {
-      "id": 1172,
-      "spanish": "comenzar",
-      "english": "get started",
-      "french": "commencer",
       "category": "",
       "class": "verb"
     },
@@ -9370,14 +9162,6 @@
       "class": "noun"
     },
     {
-      "id": 1180,
-      "spanish": "comprender",
-      "english": "understand",
-      "french": "comprendre",
-      "category": "Pensamiento",
-      "class": "verb"
-    },
-    {
       "id": 1181,
       "spanish": "suerte",
       "english": "good luck",
@@ -9432,14 +9216,6 @@
       "french": "s'amuser",
       "category": "Aficiones",
       "class": "verb"
-    },
-    {
-      "id": 1188,
-      "spanish": "fruto",
-      "english": "fruit",
-      "french": "fruit",
-      "category": "Frutas",
-      "class": "noun"
     },
     {
       "id": 1189,
@@ -9522,14 +9298,6 @@
       "class": "verb"
     },
     {
-      "id": 1199,
-      "spanish": "gana",
-      "english": "win",
-      "french": "gagner",
-      "category": "",
-      "class": "noun"
-    },
-    {
       "id": 1200,
       "spanish": "cuidar",
       "english": "take care of",
@@ -9573,7 +9341,7 @@
       "id": 1205,
       "spanish": "faltar",
       "english": "to be absent",
-      "french": "manquer",
+      "french": "manquer (absence)",
       "category": "",
       "class": "verb"
     },
@@ -9613,7 +9381,7 @@
       "id": 1210,
       "spanish": "cuadro",
       "english": "painting",
-      "french": "tableau",
+      "french": "tableau (peinture)",
       "category": "Arte y cultura",
       "class": "noun"
     },
@@ -9643,17 +9411,9 @@
     },
     {
       "id": 1214,
-      "spanish": "enorme",
+      "spanish": "enorme, tremendo",
       "english": "huge",
       "french": "énorme",
-      "category": "",
-      "class": "adjective"
-    },
-    {
-      "id": 1215,
-      "spanish": "guapo",
-      "english": "handsome",
-      "french": "beau",
       "category": "",
       "class": "adjective"
     },
@@ -9760,14 +9520,6 @@
       "french": "caractère",
       "category": "Personalidad",
       "class": "noun"
-    },
-    {
-      "id": 1229,
-      "spanish": "distinto",
-      "english": "different",
-      "french": "différent",
-      "category": "",
-      "class": "adjective"
     },
     {
       "id": 1230,
@@ -9930,14 +9682,6 @@
       "class": "noun"
     },
     {
-      "id": 1250,
-      "spanish": "caminar",
-      "english": "to walk",
-      "french": "marcher",
-      "category": "Movimiento",
-      "class": "verb"
-    },
-    {
       "id": 1251,
       "spanish": "nivel",
       "english": "level",
@@ -9960,14 +9704,6 @@
       "french": "détective",
       "category": "Trabajos",
       "class": "noun"
-    },
-    {
-      "id": 1254,
-      "spanish": "descansar",
-      "english": "rest",
-      "french": "se reposer",
-      "category": "Rutinas",
-      "class": "verb"
     },
     {
       "id": 1255,
@@ -9997,7 +9733,7 @@
       "id": 1258,
       "spanish": "premio",
       "english": "prize",
-      "french": "prix",
+      "french": "prix (récompense)",
       "category": "",
       "class": "noun"
     },
@@ -10016,14 +9752,6 @@
       "french": "se mettre d'accord",
       "category": "",
       "class": "verb"
-    },
-    {
-      "id": 1261,
-      "spanish": "bello",
-      "english": "beautiful",
-      "french": "beau",
-      "category": "",
-      "class": "adjective"
     },
     {
       "id": 1262,
@@ -10165,7 +9893,7 @@
       "id": 1279,
       "spanish": "ay",
       "english": "oh",
-      "french": "ah",
+      "french": "ah (douleur)",
       "category": "",
       "class": "interjection"
     },
@@ -10258,14 +9986,6 @@
       "class": "verb"
     },
     {
-      "id": 1291,
-      "spanish": "allá",
-      "english": "over there",
-      "french": "là-bas",
-      "category": "",
-      "class": "adverb"
-    },
-    {
       "id": 1292,
       "spanish": "indígena",
       "english": "indigenous",
@@ -10339,7 +10059,7 @@
     },
     {
       "id": 1301,
-      "spanish": "papá",
+      "spanish": "papá, papi",
       "english": "Dad",
       "french": "papa",
       "category": "Familia",
@@ -10351,14 +10071,6 @@
       "english": "separate",
       "french": "séparer",
       "category": "Relaciones",
-      "class": "verb"
-    },
-    {
-      "id": 1303,
-      "spanish": "relajar",
-      "english": "relax",
-      "french": "se détendre",
-      "category": "Salud mental",
       "class": "verb"
     },
     {
@@ -10419,7 +10131,7 @@
     },
     {
       "id": 1311,
-      "spanish": "americano",
+      "spanish": "americano, estadounidense",
       "english": "American",
       "french": "américain",
       "category": "Nacionalidad",
@@ -10480,14 +10192,6 @@
       "french": "couvrir",
       "category": "",
       "class": "verb"
-    },
-    {
-      "id": 1319,
-      "spanish": "quizá",
-      "english": "maybe",
-      "french": "peut-être",
-      "category": "",
-      "class": "adverb"
     },
     {
       "id": 1320,
@@ -10699,7 +10403,7 @@
     },
     {
       "id": 1346,
-      "spanish": "sonreír",
+      "spanish": "sonreír, sonrisa",
       "english": "to smile",
       "french": "sourire",
       "category": "Emociones",
@@ -10725,7 +10429,7 @@
       "id": 1349,
       "spanish": "robar",
       "english": "to steal",
-      "french": "voler",
+      "french": "voler (dérober)",
       "category": "Conflicto",
       "class": "verb"
     },
@@ -10800,14 +10504,6 @@
       "french": "se taire",
       "category": "Comunicación",
       "class": "verb"
-    },
-    {
-      "id": 1359,
-      "spanish": "orden",
-      "english": "order",
-      "french": "commande",
-      "category": "",
-      "class": "noun"
     },
     {
       "id": 1360,
@@ -10890,14 +10586,6 @@
       "class": "noun"
     },
     {
-      "id": 1370,
-      "spanish": "detener",
-      "english": "stop",
-      "french": "arrêter",
-      "category": "",
-      "class": "verb"
-    },
-    {
       "id": 1371,
       "spanish": "infantil",
       "english": "children's",
@@ -10907,7 +10595,7 @@
     },
     {
       "id": 1372,
-      "spanish": "llama",
+      "spanish": "llama, llamada",
       "english": "call",
       "french": "appel",
       "category": "Comunicación",
@@ -10920,14 +10608,6 @@
       "french": "personnage",
       "category": "Arte y cultura",
       "class": "noun"
-    },
-    {
-      "id": 1374,
-      "spanish": "sano",
-      "english": "healthy",
-      "french": "sain",
-      "category": "Salud",
-      "class": "adjective"
     },
     {
       "id": 1375,
@@ -10975,14 +10655,6 @@
       "english": "original",
       "french": "original",
       "category": "",
-      "class": "adjective"
-    },
-    {
-      "id": 1381,
-      "spanish": "gratuito",
-      "english": "free",
-      "french": "gratuit",
-      "category": "Economía",
       "class": "adjective"
     },
     {
@@ -11106,14 +10778,6 @@
       "class": "noun"
     },
     {
-      "id": 1397,
-      "spanish": "llamada",
-      "english": "call",
-      "french": "appel",
-      "category": "Comunicación",
-      "class": "noun"
-    },
-    {
       "id": 1398,
       "spanish": "dulce",
       "english": "sweet",
@@ -11149,16 +10813,8 @@
       "id": 1402,
       "spanish": "palacio",
       "english": "palace",
-      "french": "palais",
+      "french": "palais (bâtiment)",
       "category": "Historia",
-      "class": "noun"
-    },
-    {
-      "id": 1403,
-      "spanish": "muchacho",
-      "english": "boy",
-      "french": "garçon",
-      "category": "",
       "class": "noun"
     },
     {
@@ -11226,14 +10882,6 @@
       "class": "adjective"
     },
     {
-      "id": 1412,
-      "spanish": "menudo",
-      "english": "often",
-      "french": "souvent",
-      "category": "",
-      "class": "noun"
-    },
-    {
       "id": 1413,
       "spanish": "excelente",
       "english": "excellent",
@@ -11255,14 +10903,6 @@
       "english": "route",
       "french": "itinéraire",
       "category": "Viajes",
-      "class": "noun"
-    },
-    {
-      "id": 1416,
-      "spanish": "bocadillo",
-      "english": "sandwich",
-      "french": "sandwich",
-      "category": "Comidas",
       "class": "noun"
     },
     {
@@ -11323,7 +10963,7 @@
     },
     {
       "id": 1424,
-      "spanish": "cruzar",
+      "spanish": "cruzar, atravesar",
       "english": "to cross",
       "french": "traverser",
       "category": "Movimiento",
@@ -11352,14 +10992,6 @@
       "french": "universitaire",
       "category": "Escuela",
       "class": "adjective"
-    },
-    {
-      "id": 1428,
-      "spanish": "sonrisa",
-      "english": "smile",
-      "french": "sourire",
-      "category": "Emociones",
-      "class": "noun"
     },
     {
       "id": 1429,
@@ -11399,14 +11031,6 @@
       "english": "nightclub",
       "french": "boîte de nuit",
       "category": "Aficiones",
-      "class": "noun"
-    },
-    {
-      "id": 1434,
-      "spanish": "actualidad",
-      "english": "News",
-      "french": "actualité",
-      "category": "Información",
       "class": "noun"
     },
     {
@@ -11629,7 +11253,7 @@
       "id": 1462,
       "spanish": "canal",
       "english": "channel",
-      "french": "chaîne",
+      "french": "chaîne (télé)",
       "category": "Comunicación",
       "class": "noun"
     },
@@ -11709,7 +11333,7 @@
       "id": 1472,
       "spanish": "selva",
       "english": "jungle",
-      "french": "forêt",
+      "french": "forêt (jungle)",
       "category": "Naturaleza",
       "class": "noun"
     },
@@ -11802,14 +11426,6 @@
       "class": "noun"
     },
     {
-      "id": 1484,
-      "spanish": "vídeo",
-      "english": "video",
-      "french": "vidéo",
-      "category": "Tecnología",
-      "class": "noun"
-    },
-    {
       "id": 1485,
       "spanish": "presentación",
       "english": "presentation",
@@ -11834,18 +11450,10 @@
       "class": "adjective"
     },
     {
-      "id": 1488,
-      "spanish": "estupendo",
-      "english": "great",
-      "french": "génial",
-      "category": "",
-      "class": "adjective"
-    },
-    {
       "id": 1489,
       "spanish": "charlar",
       "english": "chat",
-      "french": "discuter",
+      "french": "discuter (bavarder)",
       "category": "Comunicación",
       "class": "verb"
     },
@@ -11858,14 +11466,6 @@
       "class": "noun"
     },
     {
-      "id": 1491,
-      "spanish": "atravesar",
-      "english": "to cross",
-      "french": "traverser",
-      "category": "Movimiento",
-      "class": "verb"
-    },
-    {
       "id": 1492,
       "spanish": "maravilla",
       "english": "wonder",
@@ -11875,9 +11475,9 @@
     },
     {
       "id": 1493,
-      "spanish": "enterar",
+      "spanish": "enterarse",
       "english": "find out",
-      "french": "apprendre",
+      "french": "apprendre (une nouvelle)",
       "category": "Comunicación",
       "class": "verb"
     },
@@ -11986,14 +11586,6 @@
       "class": "noun"
     },
     {
-      "id": 1507,
-      "spanish": "acá",
-      "english": "here",
-      "french": "ici",
-      "category": "",
-      "class": "adverb"
-    },
-    {
       "id": 1508,
       "spanish": "divorciar",
       "english": "to get a divorce",
@@ -12005,7 +11597,7 @@
       "id": 1509,
       "spanish": "etapa",
       "english": "stage",
-      "french": "étape",
+      "french": "étape (phase)",
       "category": "",
       "class": "noun"
     },
@@ -12077,7 +11669,7 @@
       "id": 1518,
       "spanish": "saludo",
       "english": "greeting",
-      "french": "salut",
+      "french": "salut (nom)",
       "category": "Saludos",
       "class": "noun"
     },
@@ -12149,7 +11741,7 @@
       "id": 1527,
       "spanish": "extrañar",
       "english": "to miss",
-      "french": "manquer",
+      "french": "manquer (nostalgie)",
       "category": "Emociones",
       "class": "verb"
     },
@@ -12192,14 +11784,6 @@
       "french": "gastronomie",
       "category": "Comida",
       "class": "noun"
-    },
-    {
-      "id": 1533,
-      "spanish": "haber",
-      "english": "to have",
-      "french": "avoir",
-      "category": "",
-      "class": "verb"
     },
     {
       "id": 1534,
@@ -12290,14 +11874,6 @@
       "class": "adjective"
     },
     {
-      "id": 1545,
-      "spanish": "nene",
-      "english": "kid",
-      "french": "bébé",
-      "category": "Familia",
-      "class": "noun"
-    },
-    {
       "id": 1546,
       "spanish": "rural",
       "english": "rural",
@@ -12314,28 +11890,12 @@
       "class": "adjective"
     },
     {
-      "id": 1548,
-      "spanish": "estadounidense",
-      "english": "American",
-      "french": "américain",
-      "category": "Nacionalidad",
-      "class": "adjective"
-    },
-    {
       "id": 1549,
       "spanish": "bajito",
       "english": "short",
-      "french": "petit",
+      "french": "petit (personne)",
       "category": "Cuerpo",
       "class": "adjective"
-    },
-    {
-      "id": 1550,
-      "spanish": "cristal",
-      "english": "glass",
-      "french": "verre",
-      "category": "",
-      "class": "noun"
     },
     {
       "id": 1551,
@@ -12434,14 +11994,6 @@
       "class": "adjective"
     },
     {
-      "id": 1563,
-      "spanish": "carro",
-      "english": "car",
-      "french": "voiture",
-      "category": "Vehículos",
-      "class": "noun"
-    },
-    {
       "id": 1564,
       "spanish": "ruina",
       "english": "ruin",
@@ -12453,7 +12005,7 @@
       "id": 1565,
       "spanish": "cadena",
       "english": "chain",
-      "french": "chaîne",
+      "french": "chaîne (objet)",
       "category": "",
       "class": "noun"
     },
@@ -12714,14 +12266,6 @@
       "class": "verb"
     },
     {
-      "id": 1598,
-      "spanish": "plano",
-      "english": "plan",
-      "french": "plan",
-      "category": "",
-      "class": "noun"
-    },
-    {
       "id": 1599,
       "spanish": "calefacción",
       "english": "heating",
@@ -12731,9 +12275,9 @@
     },
     {
       "id": 1600,
-      "spanish": "ola",
+      "spanish": "hola",
       "english": "Hi",
-      "french": "Salut",
+      "french": "salut (interjection)",
       "category": "Naturaleza",
       "class": "noun"
     },
@@ -12949,7 +12493,7 @@
       "id": 1627,
       "spanish": "torre",
       "english": "tower",
-      "french": "tour",
+      "french": "la tour",
       "category": "Construcción",
       "class": "noun"
     },
@@ -13018,14 +12562,6 @@
       "class": "adjective"
     },
     {
-      "id": 1636,
-      "spanish": "ave",
-      "english": "bird",
-      "french": "oiseau",
-      "category": "Animales",
-      "class": "noun"
-    },
-    {
       "id": 1637,
       "spanish": "alcohol",
       "english": "alcohol",
@@ -13080,22 +12616,6 @@
       "french": "fasciner",
       "category": "Emociones",
       "class": "verb"
-    },
-    {
-      "id": 1644,
-      "spanish": "tremendo",
-      "english": "tremendous",
-      "french": "énorme",
-      "category": "",
-      "class": "adjective"
-    },
-    {
-      "id": 1645,
-      "spanish": "muro",
-      "english": "wall",
-      "french": "mur",
-      "category": "Construcción",
-      "class": "noun"
     },
     {
       "id": 1646,
@@ -13226,14 +12746,6 @@
       "class": "noun"
     },
     {
-      "id": 1662,
-      "spanish": "saco",
-      "english": "bag",
-      "french": "sac",
-      "category": "",
-      "class": "noun"
-    },
-    {
       "id": 1663,
       "spanish": "zapatilla",
       "english": "sneaker",
@@ -13256,14 +12768,6 @@
       "french": "suédois",
       "category": "Nacionalidad",
       "class": "adjective"
-    },
-    {
-      "id": 1666,
-      "spanish": "matemática",
-      "english": "mathematics",
-      "french": "mathématiques",
-      "category": "Escuela",
-      "class": "noun"
     },
     {
       "id": 1667,
@@ -13458,14 +12962,6 @@
       "class": "verb"
     },
     {
-      "id": 1691,
-      "spanish": "albergue",
-      "english": "hostel",
-      "french": "auberge",
-      "category": "Viajes",
-      "class": "noun"
-    },
-    {
       "id": 1692,
       "spanish": "batería",
       "english": "battery",
@@ -13485,7 +12981,7 @@
       "id": 1694,
       "spanish": "paladar",
       "english": "palate",
-      "french": "palais",
+      "french": "palais (bouche)",
       "category": "Comida",
       "class": "noun"
     },
@@ -13496,14 +12992,6 @@
       "french": "belge",
       "category": "Nacionalidad",
       "class": "adjective"
-    },
-    {
-      "id": 1696,
-      "spanish": "papi",
-      "english": "daddy",
-      "french": "papa",
-      "category": "Familia",
-      "class": "noun"
     },
     {
       "id": 1697,

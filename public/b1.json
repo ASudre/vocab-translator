@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "list": [
     {
       "id": 20001,
@@ -435,7 +435,7 @@
     },
     {
       "id": 20055,
-      "spanish": "integrar",
+      "spanish": "integrar, incorporar",
       "english": "integrate",
       "french": "intégrer",
       "category": "Sociedad",
@@ -445,7 +445,7 @@
       "id": 20056,
       "spanish": "negar",
       "english": "to deny",
-      "french": "refuser",
+      "french": "refuser (nier)",
       "category": "Comunicación",
       "class": "verb"
     },
@@ -491,7 +491,7 @@
     },
     {
       "id": 20062,
-      "spanish": "transmitir",
+      "spanish": "transmitir, difundir",
       "english": "broadcast",
       "french": "diffuser",
       "category": "Comunicación",
@@ -499,7 +499,7 @@
     },
     {
       "id": 20063,
-      "spanish": "ámbito",
+      "spanish": "ámbito, dominio",
       "english": "scope",
       "french": "domaine",
       "category": "",
@@ -731,7 +731,7 @@
     },
     {
       "id": 20092,
-      "spanish": "eliminar",
+      "spanish": "eliminar, borrar",
       "english": "delete",
       "french": "supprimer",
       "category": "Tecnología",
@@ -803,7 +803,7 @@
     },
     {
       "id": 20101,
-      "spanish": "bailarín",
+      "spanish": "bailarín, danzante, bailante",
       "english": "dancer",
       "french": "danseur",
       "category": "Arte y cultura",
@@ -851,7 +851,7 @@
     },
     {
       "id": 20107,
-      "spanish": "argumento",
+      "spanish": "argumento, trama",
       "english": "plot",
       "french": "intrigue",
       "category": "Literatura",
@@ -963,7 +963,7 @@
     },
     {
       "id": 20121,
-      "spanish": "club",
+      "spanish": "club, peña",
       "english": "club",
       "french": "club",
       "category": "Aficiones",
@@ -1003,7 +1003,7 @@
     },
     {
       "id": 20126,
-      "spanish": "implicar",
+      "spanish": "implicar, comportar",
       "english": "imply",
       "french": "impliquer",
       "category": "",
@@ -1043,7 +1043,7 @@
     },
     {
       "id": 20131,
-      "spanish": "distinguir",
+      "spanish": "distinguir, diferenciar",
       "english": "to distinguish",
       "french": "distinguer",
       "category": "Pensamiento",
@@ -1155,7 +1155,7 @@
     },
     {
       "id": 20145,
-      "spanish": "sustituir",
+      "spanish": "sustituir, reemplazar",
       "english": "replace",
       "french": "remplacer",
       "category": "",
@@ -1218,14 +1218,6 @@
       "class": "verb"
     },
     {
-      "id": 20153,
-      "spanish": "incorporar",
-      "english": "incorporate",
-      "french": "intégrer",
-      "category": "",
-      "class": "verb"
-    },
-    {
       "id": 20154,
       "spanish": "funcionamiento",
       "english": "operation",
@@ -1243,7 +1235,7 @@
     },
     {
       "id": 20156,
-      "spanish": "informático",
+      "spanish": "informático, informática",
       "english": "computer science",
       "french": "informatique",
       "category": "Tecnología",
@@ -1335,14 +1327,6 @@
       "english": "extract",
       "french": "extraire",
       "category": "",
-      "class": "verb"
-    },
-    {
-      "id": 20168,
-      "spanish": "borrar",
-      "english": "delete",
-      "french": "supprimer",
-      "category": "Tecnología",
       "class": "verb"
     },
     {
@@ -1741,7 +1725,7 @@
       "id": 20218,
       "spanish": "percibir",
       "english": "to perceive",
-      "french": "percevoir",
+      "french": "percevoir (sentir)",
       "category": "Percepción",
       "class": "verb"
     },
@@ -2043,7 +2027,7 @@
     },
     {
       "id": 20256,
-      "spanish": "detallar",
+      "spanish": "detallar, aclarar",
       "english": "describe in detail",
       "french": "préciser",
       "category": "Comunicación",
@@ -2474,22 +2458,6 @@
       "class": "verb"
     },
     {
-      "id": 20310,
-      "spanish": "dominio",
-      "english": "domain",
-      "french": "domaine",
-      "category": "Comunicación",
-      "class": "noun"
-    },
-    {
-      "id": 20311,
-      "spanish": "difundir",
-      "english": "spread",
-      "french": "diffuser",
-      "category": "Arte y cultura",
-      "class": "verb"
-    },
-    {
       "id": 20312,
       "spanish": "homenaje",
       "english": "tribute",
@@ -2893,7 +2861,7 @@
       "id": 20362,
       "spanish": "bruto",
       "english": "gross",
-      "french": "brut",
+      "french": "brut (montant)",
       "category": "Derecho",
       "class": "adjective"
     },
@@ -2965,7 +2933,7 @@
       "id": 20371,
       "spanish": "rechazar",
       "english": "reject",
-      "french": "refuser",
+      "french": "refuser (rejeter)",
       "category": "Relaciones",
       "class": "verb"
     },
@@ -3056,14 +3024,6 @@
       "french": "pistolet",
       "category": "Comunicación",
       "class": "noun"
-    },
-    {
-      "id": 20383,
-      "spanish": "aclarar",
-      "english": "clarify",
-      "french": "préciser",
-      "category": "Casa",
-      "class": "verb"
     },
     {
       "id": 20384,
@@ -3642,14 +3602,6 @@
       "class": "adjective"
     },
     {
-      "id": 20456,
-      "spanish": "diferenciar",
-      "english": "distinguish",
-      "french": "distinguer",
-      "category": "Pensamiento",
-      "class": "verb"
-    },
-    {
       "id": 20457,
       "spanish": "despistar",
       "english": "throw off the trail",
@@ -3765,7 +3717,7 @@
       "id": 20471,
       "spanish": "recaudar",
       "english": "collect",
-      "french": "percevoir",
+      "french": "percevoir (argent)",
       "category": "Economía",
       "class": "verb"
     },
@@ -3835,7 +3787,7 @@
     },
     {
       "id": 20480,
-      "spanish": "eslogan",
+      "spanish": "eslogan, eslógan",
       "english": "slogan",
       "french": "slogan",
       "category": "Comunicación",
@@ -3882,14 +3834,6 @@
       "class": "noun"
     },
     {
-      "id": 20486,
-      "spanish": "peña",
-      "english": "club",
-      "french": "club",
-      "category": "Aficiones",
-      "class": "noun"
-    },
-    {
       "id": 20487,
       "spanish": "entonación",
       "english": "intonation",
@@ -3899,18 +3843,10 @@
     },
     {
       "id": 20488,
-      "spanish": "ají",
+      "spanish": "ají, guindilla",
       "english": "chili pepper",
       "french": "piment",
       "category": "Ingredientes",
-      "class": "noun"
-    },
-    {
-      "id": 20489,
-      "spanish": "informática",
-      "english": "computer science",
-      "french": "informatique",
-      "category": "Tecnología",
       "class": "noun"
     },
     {
@@ -5013,7 +4949,7 @@
       "id": 20627,
       "spanish": "volador",
       "english": "flying",
-      "french": "volant",
+      "french": "volant (qui vole)",
       "category": "",
       "class": "noun"
     },
@@ -5365,7 +5301,7 @@
       "id": 20671,
       "spanish": "tropa",
       "english": "troop",
-      "french": "troupe",
+      "french": "troupe (militaire)",
       "category": "Personalidad",
       "class": "noun"
     },
@@ -5493,7 +5429,7 @@
       "id": 20687,
       "spanish": "crudo",
       "english": "crude",
-      "french": "brut",
+      "french": "brut (matière)",
       "category": "",
       "class": "adjective"
     },
@@ -6243,7 +6179,7 @@
     },
     {
       "id": 20781,
-      "spanish": "tasca",
+      "spanish": "tasca, cantina",
       "english": "tavern",
       "french": "bistro",
       "category": "Cambio",
@@ -6370,14 +6306,6 @@
       "class": "verb"
     },
     {
-      "id": 20797,
-      "spanish": "comportar",
-      "english": "entail",
-      "french": "impliquer",
-      "category": "",
-      "class": "verb"
-    },
-    {
       "id": 20798,
       "spanish": "montaje",
       "english": "assembly",
@@ -6442,14 +6370,6 @@
       "class": "adjective"
     },
     {
-      "id": 20806,
-      "spanish": "jeta",
-      "english": "face",
-      "french": "fille",
-      "category": "Cabeza",
-      "class": "noun"
-    },
-    {
       "id": 20807,
       "spanish": "clavo",
       "english": "nail",
@@ -6464,14 +6384,6 @@
       "french": "facturer",
       "category": "Economía",
       "class": "verb"
-    },
-    {
-      "id": 20809,
-      "spanish": "eslógan",
-      "english": "slogan",
-      "french": "slogan",
-      "category": "Comunicación",
-      "class": "noun"
     },
     {
       "id": 20810,
@@ -6527,14 +6439,6 @@
       "english": "popularity",
       "french": "popularité",
       "category": "",
-      "class": "noun"
-    },
-    {
-      "id": 20817,
-      "spanish": "guindilla",
-      "english": "chili pepper",
-      "french": "piment",
-      "category": "Ingredientes",
       "class": "noun"
     },
     {
@@ -6688,14 +6592,6 @@
       "french": "cinéaste",
       "category": "Arte y cultura",
       "class": "noun"
-    },
-    {
-      "id": 20837,
-      "spanish": "reemplazar",
-      "english": "replace",
-      "french": "remplacer",
-      "category": "",
-      "class": "verb"
     },
     {
       "id": 20838,
@@ -6997,7 +6893,7 @@
       "id": 20875,
       "spanish": "comparsa",
       "english": "parade group",
-      "french": "troupe",
+      "french": "troupe (spectacle)",
       "category": "Arte y cultura",
       "class": "noun"
     },
@@ -7434,14 +7330,6 @@
       "class": "verb"
     },
     {
-      "id": 20930,
-      "spanish": "cantina",
-      "english": "bar",
-      "french": "bistro",
-      "category": "Espacios",
-      "class": "noun"
-    },
-    {
       "id": 20931,
       "spanish": "anteojo",
       "english": "spectacles",
@@ -7770,14 +7658,6 @@
       "class": "noun"
     },
     {
-      "id": 20972,
-      "spanish": "danzante",
-      "english": "dancer",
-      "french": "danseur",
-      "category": "Arte y cultura",
-      "class": "noun"
-    },
-    {
       "id": 20973,
       "spanish": "skin",
       "english": "skin",
@@ -7791,14 +7671,6 @@
       "english": "cable",
       "french": "cap",
       "category": "Herramientas",
-      "class": "noun"
-    },
-    {
-      "id": 20975,
-      "spanish": "trama",
-      "english": "plot",
-      "french": "intrigue",
-      "category": "Literatura",
       "class": "noun"
     },
     {
@@ -7853,7 +7725,7 @@
       "id": 20982,
       "spanish": "volante",
       "english": "flyer",
-      "french": "volant",
+      "french": "volant (voiture)",
       "category": "Comunicación",
       "class": "noun"
     },
@@ -7872,14 +7744,6 @@
       "french": "fusiller",
       "category": "Conflicto",
       "class": "verb"
-    },
-    {
-      "id": 20985,
-      "spanish": "bailante",
-      "english": "dancer",
-      "french": "danseur",
-      "category": "Arte y cultura",
-      "class": "adjective"
     },
     {
       "id": 20986,

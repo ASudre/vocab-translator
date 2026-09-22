@@ -74,4 +74,28 @@ describe('vocabulary data contract (public/*.json)', () => {
     expect(missingInFr).toEqual([]);
     expect(missingInEn).toEqual([]);
   });
+
+  it('never asks the same French prompt (same word, same class) for two different Spanish answers', () => {
+    // The word-class badge is the only thing that disambiguates two entries
+    // sharing a French prompt (e.g. a noun vs. a verb) — so within the same
+    // class, a French word must map to exactly one accepted answer, or a
+    // learner has no way to know which meaning is being asked (see e.g.
+    // "prix" -> precio/premio, fixed by splitting into "prix (argent)" /
+    // "prix (récompense)"; genuine synonyms like "jus" -> jugo/zumo are
+    // merged into one comma-separated entry instead of two).
+    const byLevelFrenchClass = new Map<string, Set<string>>();
+
+    for (const entry of allEntries) {
+      const key = `${entry.level}::${entry.french.trim().toLowerCase()}::${entry.class}`;
+      const answerSet = [...new Set(entry.spanish.split(',').map(s => s.trim().toLowerCase()))].sort().join('|');
+      if (!byLevelFrenchClass.has(key)) byLevelFrenchClass.set(key, new Set());
+      byLevelFrenchClass.get(key)!.add(answerSet);
+    }
+
+    const ambiguous = [...byLevelFrenchClass.entries()]
+      .filter(([, answerSets]) => answerSets.size > 1)
+      .map(([key, answerSets]) => `${key} -> ${[...answerSets].join(' vs ')}`);
+
+    expect(ambiguous).toEqual([]);
+  });
 });

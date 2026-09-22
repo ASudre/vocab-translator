@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "list": [
     {
       "id": 40001,
@@ -251,7 +251,7 @@
     },
     {
       "id": 40032,
-      "spanish": "modificar",
+      "spanish": "modificar, alterar",
       "english": "edit",
       "french": "modifier",
       "category": "",
@@ -794,14 +794,6 @@
       "class": "noun"
     },
     {
-      "id": 40100,
-      "spanish": "alterar",
-      "english": "alter",
-      "french": "modifier",
-      "category": "Cambio",
-      "class": "verb"
-    },
-    {
       "id": 40101,
       "spanish": "tonelada",
       "english": "metric ton",
@@ -1027,7 +1019,7 @@
     },
     {
       "id": 40129,
-      "spanish": "justificar",
+      "spanish": "justificar, fundamentar",
       "english": "justify",
       "french": "justifier",
       "category": "",
@@ -1067,7 +1059,7 @@
     },
     {
       "id": 40134,
-      "spanish": "vínculo",
+      "spanish": "vínculo, vinculación",
       "english": "link",
       "french": "lien",
       "category": "Relaciones",
@@ -1133,7 +1125,7 @@
       "id": 40142,
       "spanish": "portar",
       "english": "carry",
-      "french": "porter",
+      "french": "porter (objet)",
       "category": "",
       "class": "verb"
     },
@@ -1931,7 +1923,7 @@
     },
     {
       "id": 40242,
-      "spanish": "enfoque",
+      "spanish": "enfoque, planteamiento",
       "english": "approach",
       "french": "approche",
       "category": "Pensamiento",
@@ -3221,7 +3213,7 @@
       "id": 40403,
       "spanish": "púa",
       "english": "pick",
-      "french": "pique",
+      "french": "une pique (objet pointu)",
       "category": "Música",
       "class": "noun"
     },
@@ -3530,14 +3522,6 @@
       "class": "noun"
     },
     {
-      "id": 40442,
-      "spanish": "planteamiento",
-      "english": "approach",
-      "french": "approche",
-      "category": "Pensamiento",
-      "class": "noun"
-    },
-    {
       "id": 40443,
       "spanish": "recaer",
       "english": "fall back",
@@ -3794,14 +3778,6 @@
       "class": "verb"
     },
     {
-      "id": 40475,
-      "spanish": "vinculación",
-      "english": "engagement",
-      "french": "lien",
-      "category": "Relaciones",
-      "class": "noun"
-    },
-    {
       "id": 40476,
       "spanish": "emergente",
       "english": "emerging",
@@ -3883,7 +3859,7 @@
     },
     {
       "id": 40486,
-      "spanish": "inundación",
+      "spanish": "inundación, aluvión",
       "english": "flood",
       "french": "inondation",
       "category": "Clima",
@@ -3957,7 +3933,7 @@
       "id": 40495,
       "spanish": "autoría",
       "english": "authorship",
-      "french": "paternité",
+      "french": "paternité (œuvre)",
       "category": "Literatura",
       "class": "noun"
     },
@@ -4035,7 +4011,7 @@
     },
     {
       "id": 40505,
-      "spanish": "folio",
+      "spanish": "folio, lámina",
       "english": "folio",
       "french": "feuille",
       "category": "",
@@ -4157,7 +4133,7 @@
       "id": 40520,
       "spanish": "pique",
       "english": "bite",
-      "french": "pique",
+      "french": "le pique (cartes)",
       "category": "",
       "class": "noun"
     },
@@ -4597,7 +4573,7 @@
       "id": 40575,
       "spanish": "gestar",
       "english": "to carry a child",
-      "french": "porter",
+      "french": "porter (grossesse)",
       "category": "Salud",
       "class": "verb"
     },
@@ -4623,14 +4599,6 @@
       "english": "slowness",
       "french": "lenteur",
       "category": "Movimiento",
-      "class": "noun"
-    },
-    {
-      "id": 40579,
-      "spanish": "lámina",
-      "english": "sheet",
-      "french": "feuille",
-      "category": "",
       "class": "noun"
     },
     {
@@ -5154,14 +5122,6 @@
       "class": "verb"
     },
     {
-      "id": 40645,
-      "spanish": "aluvión",
-      "english": "flood",
-      "french": "inondation",
-      "category": "Naturaleza",
-      "class": "noun"
-    },
-    {
       "id": 40646,
       "spanish": "antiséptico",
       "english": "antiseptic",
@@ -5402,14 +5362,6 @@
       "class": "noun"
     },
     {
-      "id": 40676,
-      "spanish": "fundamentar",
-      "english": "justify",
-      "french": "justifier",
-      "category": "Pensamiento",
-      "class": "verb"
-    },
-    {
       "id": 40677,
       "spanish": "gremio",
       "english": "guild",
@@ -5501,7 +5453,7 @@
       "id": 40688,
       "spanish": "paternidad",
       "english": "paternity",
-      "french": "paternité",
+      "french": "paternité (père)",
       "category": "Familia",
       "class": "noun"
     },
