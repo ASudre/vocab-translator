@@ -32,13 +32,10 @@ export const DailyGoal = memo(function DailyGoal({ stats }: DailyGoalProps) {
   }
 
   const cardClasses = `bg-white dark:bg-gray-800 rounded-xl shadow-md p-4 ${justCompleted ? 'animate-pop' : ''}`;
-  // Correct answers keep accumulating past the goal (e.g. 11/10) once it's
-  // met, but the badge should read as "goal reached", not overflow past 100%.
-  const displayCount = Math.min(count, goal);
   const percentage = goal > 0 ? Math.min(100, Math.round((count / goal) * 100)) : 0;
   const ariaLabel = completed
-    ? t('ariaLabelCompleted', { count: displayCount, goal, masteredToday })
-    : t('ariaLabel', { count: displayCount, goal, masteredToday });
+    ? t('ariaLabelCompleted', { count, goal, masteredToday })
+    : t('ariaLabel', { count, goal, masteredToday });
 
   return (
     <div className={cardClasses} title={ariaLabel} aria-label={ariaLabel}>
@@ -49,7 +46,7 @@ export const DailyGoal = memo(function DailyGoal({ stats }: DailyGoalProps) {
         <span
           className={`flex items-center gap-1 ${completed ? 'text-green-600 dark:text-green-400' : 'text-gray-500 dark:text-gray-400 font-normal'}`}
         >
-          <span aria-hidden="true">🎯</span> {displayCount}/{goal}
+          <span aria-hidden="true">🎯</span> {count}/{goal}
         </span>
         <span className="flex items-center gap-1 text-indigo-600 dark:text-indigo-400">
           {masteredToday} <MasteryDots />

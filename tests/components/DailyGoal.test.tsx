@@ -30,12 +30,11 @@ describe('DailyGoal', () => {
     expect(container.querySelector('.bg-gray-200')).toBeInTheDocument();
   });
 
-  it('caps the displayed count at the goal once correct answers exceed it', () => {
+  it('keeps counting words found past the goal instead of capping at it', () => {
     const { container } = renderWithIntl(
       <DailyGoal stats={{ ...baseStats, count: 11, completed: true, masteredToday: 4 }} />
     );
-    expect(container.textContent).toContain('10/10');
-    expect(container.textContent).not.toContain('11/10');
+    expect(container.textContent).toContain('11/10');
   });
 
   it('replaces the bar with a compact two-stat summary once completed', () => {
