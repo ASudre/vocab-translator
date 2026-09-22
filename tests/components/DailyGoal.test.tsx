@@ -18,18 +18,31 @@ describe('DailyGoal', () => {
     expect(container.textContent).toBe('');
   });
 
+  it("labels the card as today's stats", () => {
+    renderWithIntl(<DailyGoal stats={baseStats} />);
+    expect(screen.getByText("Aujourd'hui")).toBeInTheDocument();
+  });
+
   it('shows the in-progress count and mastered-today badge when not completed', () => {
-    renderWithIntl(<DailyGoal stats={{ ...baseStats, masteredToday: 2 }} />);
-    expect(screen.getByText(/3 sur 10 aujourd'hui/)).toBeInTheDocument();
-    expect(screen.getByText('3/10')).toBeInTheDocument();
+    const { container } = renderWithIntl(<DailyGoal stats={{ ...baseStats, masteredToday: 2 }} />);
+    expect(container.textContent).toContain('3/10');
     expect(screen.getByText('2')).toBeInTheDocument();
+    expect(container.querySelector('.bg-gray-200')).toBeInTheDocument();
+  });
+
+  it('caps the displayed count at the goal once correct answers exceed it', () => {
+    const { container } = renderWithIntl(
+      <DailyGoal stats={{ ...baseStats, count: 11, completed: true, masteredToday: 4 }} />
+    );
+    expect(container.textContent).toContain('10/10');
+    expect(container.textContent).not.toContain('11/10');
   });
 
   it('replaces the bar with a compact two-stat summary once completed', () => {
     const { container } = renderWithIntl(
       <DailyGoal stats={{ ...baseStats, count: 10, completed: true, masteredToday: 4 }} />
     );
-    expect(screen.getByText('10/10')).toBeInTheDocument();
+    expect(container.textContent).toContain('10/10');
     expect(screen.getByText('4')).toBeInTheDocument();
     // The in-progress bar must be gone.
     expect(container.querySelector('.bg-gray-200')).not.toBeInTheDocument();

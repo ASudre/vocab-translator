@@ -34,9 +34,8 @@
     "on": "out of"
   },
   "DailyGoal": {
-    "progress": "{count} of {goal} today",
+    "heading": "Today",
     "ariaLabel": "{count} of {goal} words answered correctly today. {masteredToday} words mastered today.",
-    "todayLabel": "{count}/{goal}",
     "ariaLabelCompleted": "Today's goal reached: {count} of {goal} words. {masteredToday} words mastered today."
   }
 }
