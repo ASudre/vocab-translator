@@ -42,7 +42,7 @@ export const DailyGoal = memo(function DailyGoal({ stats }: DailyGoalProps) {
       >
         <div className="flex items-center justify-between flex-wrap gap-x-3 gap-y-1 text-xs font-bold">
           <span className="flex items-center gap-1 text-green-600 dark:text-green-400">
-            <span aria-hidden="true">✅</span> {t('todayLabel', { count, goal })}
+            <span aria-hidden="true">🎯</span> {t('todayLabel', { count, goal })}
           </span>
           <span className="flex items-center gap-1 text-indigo-600 dark:text-indigo-400">
             {masteredToday} <MasteryDots />
