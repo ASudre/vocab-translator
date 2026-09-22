@@ -1,4 +1,5 @@
 import { UserProgress, VocabularyEntry } from './indexedDB';
+import { localDayKey } from './dailyGoal';
 
 /** Number of most-recent attempts retained per word. */
 export const ATTEMPT_HISTORY_SIZE = 3;
@@ -102,6 +103,19 @@ export const computeMasteryStats = (
  */
 export const computeLifetimeWordsCorrect = (allProgress: UserProgress[]): number =>
   allProgress.filter(p => p.successCount > 0).length;
+
+/**
+ * Count of words mastered (3 consecutive correct answers) on `today`, across
+ * every level. Mastered words are excluded from future selection (see
+ * selectUnmastered), so a word's masteryLevel only reaches MASTERY_THRESHOLD
+ * once — lastPracticed at that moment is exactly when it got completed.
+ */
+export const computeMasteredToday = (allProgress: UserProgress[], today: Date = new Date()): number => {
+  const todayKey = localDayKey(today);
+  return allProgress.filter(
+    p => p.masteryLevel === MASTERY_THRESHOLD && localDayKey(new Date(p.lastPracticed)) === todayKey
+  ).length;
+};
 
 /**
  * Filter out mastered words and return a random selection of up to `count`

@@ -19,32 +19,29 @@ export default function Home() {
   const [levelRestored, setLevelRestored] = useState(false);
   const [pendingWord, setPendingWord] = useState<TranslationResult | null>(null);
   const { words, setWords, loading, fetchWords, initialized } = useVocabularyDB(level, 10, levelRestored, pendingWord);
-  const [masteryStats, setMasteryStats] = useState({ total: 0, mastered: 0, percentage: 0, lifetimeWordsCorrect: 0 });
+  const [masteryStats, setMasteryStats] = useState({ total: 0, mastered: 0, percentage: 0, lifetimeWordsCorrect: 0, masteredToday: 0 });
   const { recordCorrect: recordDailyGoalCorrect, ...dailyGoal } = useDailyGoal();
-  const { recordAttempt: recordComboAttempt, ...combo } = useCombo();
-  // useDailyGoal/useCombo return a fresh object every render (their record*
-  // callbacks are stable, but the wrapping objects aren't), which would
-  // defeat DailyGoal's memo() on every keystroke. Pass down only the
+  const { recordAttempt: recordComboAttempt } = useCombo();
+  // useDailyGoal returns a fresh object every render (its recordCorrect
+  // callback is stable, but the wrapping object isn't), which would defeat
+  // DailyGoal's memo() on every keystroke. Pass down only the
   // display-relevant primitives, memoized on their own values.
   const statsDisplay = useMemo(
     () => ({
-      ready: dailyGoal.ready && combo.ready,
+      ready: dailyGoal.ready,
       count: dailyGoal.count,
       goal: dailyGoal.goal,
       completed: dailyGoal.completed,
       justCompleted: dailyGoal.justCompleted,
-      currentCombo: combo.currentCombo,
-      bestCombo: combo.best,
+      masteredToday: masteryStats.masteredToday,
     }),
     [
       dailyGoal.ready,
-      combo.ready,
       dailyGoal.count,
       dailyGoal.goal,
       dailyGoal.completed,
       dailyGoal.justCompleted,
-      combo.currentCombo,
-      combo.best,
+      masteryStats.masteredToday,
     ]
   );
   const {

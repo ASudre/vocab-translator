@@ -7,6 +7,7 @@ import {
   computeNextProgress,
   computeMasteryStats,
   computeLifetimeWordsCorrect,
+  computeMasteredToday,
   selectUnmastered,
   normalizeVocabularyEntries,
   needsVocabularyReload,
@@ -197,6 +198,42 @@ describe('computeLifetimeWordsCorrect', () => {
     // ids from very different level ranges (a1 vs c1), all counted together
     const progress = [progressWith(1, 5), progressWith(20001, 2), progressWith(40001, 1)];
     expect(computeLifetimeWordsCorrect(progress)).toBe(3);
+  });
+});
+
+describe('computeMasteredToday', () => {
+  const progressAt = (vocabularyId: number, masteryLevel: number, lastPracticed: string): UserProgress => ({
+    vocabularyId,
+    successCount: masteryLevel,
+    failCount: 0,
+    currentStreak: masteryLevel,
+    bestStreak: masteryLevel,
+    lastPracticed,
+    attemptHistory: [],
+    masteryLevel,
+  });
+
+  const today = new Date('2026-03-05T12:00:00.000Z');
+
+  it('is 0 with no progress records', () => {
+    expect(computeMasteredToday([], today)).toBe(0);
+  });
+
+  it('counts only words mastered (3 consecutive successes) last practiced today', () => {
+    const progress = [
+      progressAt(1, MASTERY_THRESHOLD, '2026-03-05T08:00:00.000Z'), // mastered today
+      progressAt(2, MASTERY_THRESHOLD, '2026-03-04T08:00:00.000Z'), // mastered yesterday
+      progressAt(3, 2, '2026-03-05T08:00:00.000Z'), // not yet mastered
+    ];
+    expect(computeMasteredToday(progress, today)).toBe(1);
+  });
+
+  it('is not scoped to a single level', () => {
+    const progress = [
+      progressAt(1, MASTERY_THRESHOLD, '2026-03-05T08:00:00.000Z'),
+      progressAt(40001, MASTERY_THRESHOLD, '2026-03-05T09:00:00.000Z'),
+    ];
+    expect(computeMasteredToday(progress, today)).toBe(2);
   });
 });
 

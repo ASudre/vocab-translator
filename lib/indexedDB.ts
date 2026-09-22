@@ -1,4 +1,4 @@
-import { computeLifetimeWordsCorrect, computeMasteryStats, computeNextProgress, MASTERY_THRESHOLD, normalizeVocabularyEntries, needsVocabularyReload, selectUnmastered } from './progress';
+import { computeLifetimeWordsCorrect, computeMasteredToday, computeMasteryStats, computeNextProgress, MASTERY_THRESHOLD, normalizeVocabularyEntries, needsVocabularyReload, selectUnmastered } from './progress';
 
 const DB_NAME = 'VocabTranslatorDB';
 const DB_VERSION = 5;
@@ -338,7 +338,7 @@ export const getAllUserProgress = async (): Promise<UserProgress[]> => {
   });
 };
 
-export const getMasteryStats = async (): Promise<{ total: number; mastered: number; percentage: number; lifetimeWordsCorrect: number }> => {
+export const getMasteryStats = async (): Promise<{ total: number; mastered: number; percentage: number; lifetimeWordsCorrect: number; masteredToday: number }> => {
   const db = await initDB();
 
   return new Promise((resolve, reject) => {
@@ -362,6 +362,7 @@ export const getMasteryStats = async (): Promise<{ total: number; mastered: numb
         resolve({
           ...computeMasteryStats(currentLevelIds, allProgress),
           lifetimeWordsCorrect: computeLifetimeWordsCorrect(allProgress),
+          masteredToday: computeMasteredToday(allProgress),
         });
       };
 
