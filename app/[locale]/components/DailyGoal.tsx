@@ -1,6 +1,14 @@
 import { memo } from 'react';
 import { useTranslations } from 'next-intl';
 
+const MasteryDots = () => (
+  <span className="flex gap-0.5" aria-hidden="true">
+    <span className="w-1.5 h-1.5 rounded-full bg-green-500"></span>
+    <span className="w-1.5 h-1.5 rounded-full bg-green-500"></span>
+    <span className="w-1.5 h-1.5 rounded-full bg-green-500"></span>
+  </span>
+);
+
 interface DailyGoalProps {
   stats: {
     ready: boolean;
@@ -37,7 +45,7 @@ export const DailyGoal = memo(function DailyGoal({ stats }: DailyGoalProps) {
             <span aria-hidden="true">✅</span> {t('todayLabel', { count, goal })}
           </span>
           <span className="flex items-center gap-1 text-indigo-600 dark:text-indigo-400">
-            <span aria-hidden="true">🏅</span> {masteredToday}
+            {masteredToday} <MasteryDots />
           </span>
         </div>
       </div>
@@ -54,7 +62,7 @@ export const DailyGoal = memo(function DailyGoal({ stats }: DailyGoalProps) {
           <span aria-hidden="true">🎯</span> {t('progress', { count, goal })}
         </span>
         <span className="text-xs font-bold text-indigo-600 dark:text-indigo-400 flex items-center gap-1">
-          <span aria-hidden="true">🏅</span> {masteredToday}
+          {masteredToday} <MasteryDots />
         </span>
       </div>
       <div className="flex items-center gap-3">
