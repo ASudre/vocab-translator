@@ -46,7 +46,7 @@ export const DailyGoal = memo(function DailyGoal({ stats }: DailyGoalProps) {
         <span
           className={`flex items-center gap-1 ${completed ? 'text-green-600 dark:text-green-400' : 'text-gray-500 dark:text-gray-400 font-normal'}`}
         >
-          <span aria-hidden="true">🎯</span> {count}/{goal}
+          {count}/{goal} <span aria-hidden="true">🎯</span>
         </span>
         <span className="flex items-center gap-1 text-indigo-600 dark:text-indigo-400">
           {masteredToday} <MasteryDots />
