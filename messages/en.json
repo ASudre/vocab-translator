@@ -46,11 +46,13 @@
     "scopeLevel": "This level",
     "scopeAll": "All levels",
     "scopeToggleLabel": "Words to revise",
-    "poolCount": "{count} mastered words"
+    "poolCount": "{count} mastered words",
+    "backToLearning": "{count} words sent back to learning"
   },
   "RevisionGoal": {
     "heading": "Today's revision",
     "ariaLabel": "{count} of {goal} words revised today.",
-    "ariaLabelCompleted": "Revision goal reached: {count} of {goal} words."
+    "ariaLabelCompleted": "Revision goal reached: {count} of {goal} words.",
+    "backToLearningToday": "{count} words sent back to learning today"
   }
 }

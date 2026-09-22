@@ -230,6 +230,33 @@ describe('lib/indexedDB', () => {
       expect(await db.countMastered(['a1'])).toBe(2);
       expect(await db.countMastered(null)).toBe(3);
     });
+
+    it('countDemoted counts words sent back to learning by a wrong answer, scoped by level', async () => {
+      await masterWord(1); // a1
+      await masterWord(2); // a1
+      await masterWord(20001); // b1
+      await db.saveUserProgress(1, false); // demotes word 1, still level a1
+
+      expect(await db.countDemoted(['a1'])).toBe(1);
+      expect(await db.countDemoted(['b1'])).toBe(0);
+      expect(await db.countDemoted(null)).toBe(1);
+    });
+
+    it('countDemoted excludes a currently mastered word and a word never mastered', async () => {
+      await masterWord(1); // stays mastered
+      await db.saveUserProgress(2, false); // never mastered
+
+      expect(await db.countDemoted(null)).toBe(0);
+    });
+
+    it('countDemotedToday counts a real-time demotion (happening now, so it counts as today), scoped by level', async () => {
+      await masterWord(1); // a1
+      await db.saveUserProgress(1, false); // demoted just now
+
+      expect(await db.countDemotedToday(['a1'])).toBe(1);
+      expect(await db.countDemotedToday(['b1'])).toBe(0);
+      expect(await db.countDemotedToday(null)).toBe(1);
+    });
   });
 
   describe('getMasteryStats', () => {

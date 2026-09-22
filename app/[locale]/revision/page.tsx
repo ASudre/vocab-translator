@@ -7,7 +7,7 @@ import { useLevelData } from '@/hooks/useLevelData';
 import { usePracticeSession, WordSource } from '@/hooks/usePracticeSession';
 import { useDailyGoal } from '@/hooks/useDailyGoal';
 import { useCombo } from '@/hooks/useCombo';
-import { getMasteredVocabulary, getMasteredLevels, countMastered } from '@/lib/indexedDB';
+import { getMasteredVocabulary, getMasteredLevels, countMastered, countDemoted, countDemotedToday } from '@/lib/indexedDB';
 import { LEVEL_STORAGE_KEY, isCEFRLevel, readPendingWord } from '@/lib/pendingWord';
 import { REVISION_DAILY_GOAL_KEY, REVISION_DAILY_GOAL } from '@/lib/dailyGoal';
 import { readRevisionScope, writeRevisionScope, RevisionScope } from '@/lib/revisionScope';
@@ -30,6 +30,8 @@ export default function Revision() {
   const [pendingWord, setPendingWord] = useState<TranslationResult | null>(null);
   const [gateStatus, setGateStatus] = useState<'loading' | 'locked' | 'unlocked'>('loading');
   const [poolCount, setPoolCount] = useState(0);
+  const [demotedCount, setDemotedCount] = useState(0);
+  const [demotedTodayCount, setDemotedTodayCount] = useState(0);
   const [levelsToLoad, setLevelsToLoad] = useState<CEFRLevel[]>([]);
   const { recordCorrect: recordRevisionGoalCorrect, ...revisionGoal } = useDailyGoal(REVISION_DAILY_GOAL_KEY, REVISION_DAILY_GOAL);
   const { recordAttempt: recordComboAttempt } = useCombo();
@@ -89,10 +91,16 @@ export default function Revision() {
     let cancelled = false;
     setGateStatus('loading');
 
-    countMastered(scopeLevels).then(count => {
+    Promise.all([
+      countMastered(scopeLevels),
+      countDemoted(scopeLevels),
+      countDemotedToday(scopeLevels),
+    ]).then(([mastered, demoted, demotedToday]) => {
       if (cancelled) return;
-      setPoolCount(count);
-      setGateStatus(count >= REQUIRED_MASTERED ? 'unlocked' : 'locked');
+      setPoolCount(mastered);
+      setDemotedCount(demoted);
+      setDemotedTodayCount(demotedToday);
+      setGateStatus(mastered >= REQUIRED_MASTERED ? 'unlocked' : 'locked');
     }).catch(error => {
       console.error('Failed to count mastered vocabulary:', error);
     });
@@ -128,9 +136,16 @@ export default function Revision() {
 
   const { ready } = useLevelData(levelsToLoad, restored && gateStatus === 'unlocked' && levelsToLoad.length > 0);
 
-  const refreshPoolCount = useCallback(async () => {
+  const refreshCounts = useCallback(async () => {
     try {
-      setPoolCount(await countMastered(scopeLevels));
+      const [mastered, demoted, demotedToday] = await Promise.all([
+        countMastered(scopeLevels),
+        countDemoted(scopeLevels),
+        countDemotedToday(scopeLevels),
+      ]);
+      setPoolCount(mastered);
+      setDemotedCount(demoted);
+      setDemotedTodayCount(demotedToday);
     } catch (error) {
       console.error('Failed to count mastered vocabulary:', error);
     }
@@ -163,7 +178,7 @@ export default function Revision() {
     pendingWord,
     recordCombo: recordComboAttempt,
     recordDailyGoal: recordRevisionGoalCorrect,
-    onAttemptSaved: refreshPoolCount,
+    onAttemptSaved: refreshCounts,
   });
 
   const sessionComplete = gateStatus === 'unlocked' && ready && fetchedOnce && !loading && words.length === 0;
@@ -176,10 +191,11 @@ export default function Revision() {
         scope={scope}
         onScopeChange={handleScopeChange}
         poolCount={poolCount}
+        demotedCount={demotedCount}
       />
       <main className="flex-1 overflow-y-auto container mx-auto px-4 py-4">
         <div className="mb-4">
-          <RevisionGoal stats={goalDisplay} />
+          <RevisionGoal stats={goalDisplay} demotedToday={demotedTodayCount} />
         </div>
 
         {gateStatus === 'locked' && (

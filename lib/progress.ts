@@ -72,6 +72,12 @@ export const computeNextProgress = (
       newMasteryLevel === MASTERY_THRESHOLD && existing.masteryLevel !== MASTERY_THRESHOLD
         ? now
         : existing.masteredAt;
+    // demotedAt marks the moment a word most recently transitioned OUT of
+    // mastery (a revision miss). See computeDemotedToday.
+    const demotedAt =
+      newMasteryLevel !== MASTERY_THRESHOLD && existing.masteryLevel === MASTERY_THRESHOLD
+        ? now
+        : existing.demotedAt;
 
     return {
       id: existing.id,
@@ -84,6 +90,7 @@ export const computeNextProgress = (
       attemptHistory: newAttemptHistory,
       masteryLevel: newMasteryLevel,
       masteredAt,
+      demotedAt,
     };
   }
 
@@ -144,6 +151,44 @@ export const computeMasteredToday = (allProgress: UserProgress[], today: Date = 
   const todayKey = localDayKey(today);
   return allProgress.filter(
     p => p.masteryLevel === MASTERY_THRESHOLD && p.masteredAt && localDayKey(new Date(p.masteredAt)) === todayKey
+  ).length;
+};
+
+/**
+ * Words currently sitting below mastery despite having been mastered at some
+ * point before - i.e. a revision wrong answer sent them back to learning,
+ * regardless of when. masteredAt survives a demotion as a stale marker (see
+ * computeNextProgress), so its mere presence on a currently-unmastered word
+ * is exactly that signal - this all-time count needs no extra field.
+ * `levels === null` counts across every level, matching the convention
+ * countMastered/getMasteredVocabulary use.
+ */
+export const computeDemotedCount = (allProgress: UserProgress[], levels: CEFRLevel[] | null): number =>
+  allProgress.filter(p =>
+    p.masteryLevel !== MASTERY_THRESHOLD &&
+    p.masteredAt !== undefined &&
+    (levels === null || levels.includes(levelForVocabularyId(p.vocabularyId)))
+  ).length;
+
+/**
+ * Words demoted (sent back to learning by a revision miss) specifically on
+ * `today`. Unlike computeDemotedCount, this needs demotedAt - the moment a
+ * word most recently transitioned OUT of mastery - since masteredAt alone
+ * can't say when the demotion happened. Rows demoted before this field
+ * existed simply have no demotedAt and are never counted, which is correct:
+ * whether they were demoted "today" is unknowable.
+ */
+export const computeDemotedToday = (
+  allProgress: UserProgress[],
+  today: Date = new Date(),
+  levels: CEFRLevel[] | null = null
+): number => {
+  const todayKey = localDayKey(today);
+  return allProgress.filter(p =>
+    p.masteryLevel !== MASTERY_THRESHOLD &&
+    p.demotedAt &&
+    localDayKey(new Date(p.demotedAt)) === todayKey &&
+    (levels === null || levels.includes(levelForVocabularyId(p.vocabularyId)))
   ).length;
 };
 

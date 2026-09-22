@@ -11,6 +11,7 @@ interface RevisionTopBarProps {
   scope: RevisionScope;
   onScopeChange: (scope: RevisionScope) => void;
   poolCount: number;
+  demotedCount: number;
 }
 
 export const RevisionTopBar = memo(function RevisionTopBar({
@@ -19,6 +20,7 @@ export const RevisionTopBar = memo(function RevisionTopBar({
   scope,
   onScopeChange,
   poolCount,
+  demotedCount,
 }: RevisionTopBarProps) {
   const t = useTranslations('Revision');
 
@@ -57,13 +59,24 @@ export const RevisionTopBar = memo(function RevisionTopBar({
               </button>
             </div>
           </div>
-          <div
-            className="flex items-center gap-1 text-xs font-medium text-gray-500 dark:text-gray-400"
-            title={t('poolCount', { count: poolCount })}
-            aria-label={t('poolCount', { count: poolCount })}
-          >
-            {poolCount}
-            <MasteryDots />
+          <div className="flex items-center gap-3">
+            <div
+              className="flex items-center gap-1 text-xs font-medium text-gray-500 dark:text-gray-400"
+              title={t('poolCount', { count: poolCount })}
+              aria-label={t('poolCount', { count: poolCount })}
+            >
+              {poolCount}
+              <MasteryDots />
+            </div>
+            {demotedCount > 0 && (
+              <div
+                className="flex items-center gap-1 text-xs font-medium text-amber-600 dark:text-amber-400"
+                title={t('backToLearning', { count: demotedCount })}
+                aria-label={t('backToLearning', { count: demotedCount })}
+              >
+                {demotedCount} <span aria-hidden="true">↩</span>
+              </div>
+            )}
           </div>
         </div>
       </div>

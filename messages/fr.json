@@ -46,11 +46,13 @@
     "scopeLevel": "Ce niveau",
     "scopeAll": "Tous les niveaux",
     "scopeToggleLabel": "Mots à réviser",
-    "poolCount": "{count} mots maîtrisés"
+    "poolCount": "{count} mots maîtrisés",
+    "backToLearning": "{count} mots repartis en apprentissage"
   },
   "RevisionGoal": {
     "heading": "Révision du jour",
     "ariaLabel": "{count} mots sur {goal} révisés aujourd'hui.",
-    "ariaLabelCompleted": "Objectif de révision atteint : {count} mots sur {goal}."
+    "ariaLabelCompleted": "Objectif de révision atteint : {count} mots sur {goal}.",
+    "backToLearningToday": "{count} mots repartis en apprentissage aujourd'hui"
   }
 }

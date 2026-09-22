@@ -10,9 +10,11 @@ interface RevisionGoalProps {
     completed: boolean;
     justCompleted: boolean;
   };
+  /** Words sent back to learning by a revision miss today - see computeDemotedToday. */
+  demotedToday: number;
 }
 
-export const RevisionGoal = memo(function RevisionGoal({ stats }: RevisionGoalProps) {
+export const RevisionGoal = memo(function RevisionGoal({ stats, demotedToday }: RevisionGoalProps) {
   const t = useTranslations('RevisionGoal');
   const { ready, count, goal, completed, justCompleted } = stats;
 
@@ -29,6 +31,16 @@ export const RevisionGoal = memo(function RevisionGoal({ stats }: RevisionGoalPr
       completed={completed}
       justCompleted={justCompleted}
       ariaLabel={ariaLabel}
+      right={
+        demotedToday > 0 ? (
+          <span
+            className="flex items-center gap-1 text-amber-600 dark:text-amber-400"
+            title={t('backToLearningToday', { count: demotedToday })}
+          >
+            {demotedToday} <span aria-hidden="true">↩</span>
+          </span>
+        ) : undefined
+      }
     />
   );
 });

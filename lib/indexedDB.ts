@@ -1,4 +1,6 @@
 import {
+  computeDemotedCount,
+  computeDemotedToday,
   computeLifetimeWordsCorrect,
   computeMasteredToday,
   computeMasteryStats,
@@ -39,6 +41,8 @@ export interface UserProgress {
   masteryLevel: number;
   /** Set only on the transition into MASTERY_THRESHOLD; see lib/progress.ts. */
   masteredAt?: string;
+  /** Set only on the transition out of MASTERY_THRESHOLD (a revision miss); see lib/progress.ts. */
+  demotedAt?: string;
 }
 
 let dbInstance: IDBDatabase | null = null;
@@ -353,6 +357,42 @@ export const countMastered = async (levels: CEFRLevel[] | null): Promise<number>
 
     request.onerror = () => {
       reject(new Error('Failed to count mastered vocabulary'));
+    };
+  });
+};
+
+/** Count of words currently below mastery that were mastered before - i.e. sent back to learning by a revision wrong answer. */
+export const countDemoted = async (levels: CEFRLevel[] | null): Promise<number> => {
+  const db = await initDB();
+
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction([PROGRESS_STORE_NAME], 'readonly');
+    const request = transaction.objectStore(PROGRESS_STORE_NAME).getAll();
+
+    request.onsuccess = () => {
+      resolve(computeDemotedCount(request.result as UserProgress[], levels));
+    };
+
+    request.onerror = () => {
+      reject(new Error('Failed to count demoted vocabulary'));
+    };
+  });
+};
+
+/** Count of words demoted (sent back to learning) specifically today. */
+export const countDemotedToday = async (levels: CEFRLevel[] | null): Promise<number> => {
+  const db = await initDB();
+
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction([PROGRESS_STORE_NAME], 'readonly');
+    const request = transaction.objectStore(PROGRESS_STORE_NAME).getAll();
+
+    request.onsuccess = () => {
+      resolve(computeDemotedToday(request.result as UserProgress[], new Date(), levels));
+    };
+
+    request.onerror = () => {
+      reject(new Error('Failed to count words demoted today'));
     };
   });
 };

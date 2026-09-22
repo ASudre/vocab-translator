@@ -8,6 +8,8 @@ import {
   computeMasteryStats,
   computeLifetimeWordsCorrect,
   computeMasteredToday,
+  computeDemotedCount,
+  computeDemotedToday,
   levelForVocabularyId,
   pickRandom,
   selectUnmastered,
@@ -183,7 +185,7 @@ describe('computeNextProgress', () => {
     expect(result.masteredAt).toBe('2026-01-01T00:00:00.000Z');
   });
 
-  it('preserves the stale masteredAt when a mastered word is demoted by a wrong answer', () => {
+  it('preserves the stale masteredAt and sets demotedAt when a mastered word is demoted by a wrong answer', () => {
     const existing: UserProgress = {
       id: 1,
       vocabularyId: 42,
@@ -202,6 +204,45 @@ describe('computeNextProgress', () => {
     // demoted word's leftover masteredAt is never read until it re-masters
     // and overwrites it.
     expect(result.masteredAt).toBe('2026-01-01T00:00:00.000Z');
+    expect(result.demotedAt).toBe('2026-03-05T00:00:00.000Z');
+  });
+
+  it('does not move demotedAt on a repeated wrong answer while already below mastery', () => {
+    const existing: UserProgress = {
+      id: 1,
+      vocabularyId: 42,
+      successCount: 3,
+      failCount: 1,
+      currentStreak: 0,
+      bestStreak: 3,
+      lastPracticed: '2026-03-05T00:00:00.000Z',
+      attemptHistory: [true, true, false],
+      masteryLevel: 0,
+      masteredAt: '2026-01-01T00:00:00.000Z',
+      demotedAt: '2026-03-05T00:00:00.000Z',
+    };
+    const result = computeNextProgress(existing, false, '2026-03-06T00:00:00.000Z');
+    expect(result.demotedAt).toBe('2026-03-05T00:00:00.000Z');
+  });
+
+  it('leaves the stale demotedAt in place after re-mastering (unread once masteryLevel is back to MASTERY_THRESHOLD)', () => {
+    const existing: UserProgress = {
+      id: 1,
+      vocabularyId: 42,
+      successCount: 3,
+      failCount: 1,
+      currentStreak: 2,
+      bestStreak: 3,
+      lastPracticed: '2026-03-06T00:00:00.000Z',
+      attemptHistory: [true, true],
+      masteryLevel: 2,
+      masteredAt: '2026-01-01T00:00:00.000Z',
+      demotedAt: '2026-03-05T00:00:00.000Z',
+    };
+    const result = computeNextProgress(existing, true, '2026-03-07T00:00:00.000Z');
+    expect(result.masteryLevel).toBe(MASTERY_THRESHOLD);
+    expect(result.masteredAt).toBe('2026-03-07T00:00:00.000Z');
+    expect(result.demotedAt).toBe('2026-03-05T00:00:00.000Z');
   });
 });
 
@@ -317,6 +358,98 @@ describe('computeMasteredToday', () => {
       progressAt(40001, MASTERY_THRESHOLD, '2026-03-05T09:00:00.000Z'),
     ];
     expect(computeMasteredToday(progress, today)).toBe(2);
+  });
+});
+
+describe('computeDemotedCount', () => {
+  const progressAt = (vocabularyId: number, masteryLevel: number, masteredAt: string | undefined): UserProgress => ({
+    vocabularyId,
+    successCount: masteryLevel,
+    failCount: 0,
+    currentStreak: masteryLevel,
+    bestStreak: masteryLevel,
+    lastPracticed: '2026-03-05T08:00:00.000Z',
+    attemptHistory: [],
+    masteryLevel,
+    masteredAt,
+  });
+
+  it('is 0 with no progress records', () => {
+    expect(computeDemotedCount([], null)).toBe(0);
+  });
+
+  it('counts a word below mastery that has a stale masteredAt (demoted after a revision miss)', () => {
+    const progress = [progressAt(1, 0, '2026-01-01T00:00:00.000Z')];
+    expect(computeDemotedCount(progress, null)).toBe(1);
+  });
+
+  it('does not count a currently mastered word', () => {
+    const progress = [progressAt(1, MASTERY_THRESHOLD, '2026-01-01T00:00:00.000Z')];
+    expect(computeDemotedCount(progress, null)).toBe(0);
+  });
+
+  it('does not count a word that has never been mastered (no masteredAt)', () => {
+    const progress = [progressAt(1, 1, undefined)];
+    expect(computeDemotedCount(progress, null)).toBe(0);
+  });
+
+  it('scopes to the given levels when not null', () => {
+    const progress = [
+      progressAt(1, 0, '2026-01-01T00:00:00.000Z'), // a1
+      progressAt(20001, 0, '2026-01-01T00:00:00.000Z'), // b1
+    ];
+    expect(computeDemotedCount(progress, ['a1'])).toBe(1);
+    expect(computeDemotedCount(progress, null)).toBe(2);
+  });
+});
+
+describe('computeDemotedToday', () => {
+  const progressDemotedAt = (vocabularyId: number, masteryLevel: number, demotedAt: string | undefined): UserProgress => ({
+    vocabularyId,
+    successCount: masteryLevel,
+    failCount: 1,
+    currentStreak: masteryLevel,
+    bestStreak: 3,
+    lastPracticed: demotedAt ?? '2026-03-05T08:00:00.000Z',
+    attemptHistory: [],
+    masteryLevel,
+    masteredAt: '2026-01-01T00:00:00.000Z',
+    demotedAt,
+  });
+
+  const today = new Date('2026-03-05T12:00:00.000Z');
+
+  it('is 0 with no progress records', () => {
+    expect(computeDemotedToday([], today)).toBe(0);
+  });
+
+  it('counts only words demoted today, not on another day', () => {
+    const progress = [
+      progressDemotedAt(1, 0, '2026-03-05T08:00:00.000Z'), // demoted today
+      progressDemotedAt(2, 0, '2026-03-04T08:00:00.000Z'), // demoted yesterday
+    ];
+    expect(computeDemotedToday(progress, today)).toBe(1);
+  });
+
+  it('does not count a word demoted today that has since been re-mastered', () => {
+    const progress = [
+      { ...progressDemotedAt(1, MASTERY_THRESHOLD, '2026-03-05T08:00:00.000Z'), masteryLevel: MASTERY_THRESHOLD },
+    ];
+    expect(computeDemotedToday(progress, today)).toBe(0);
+  });
+
+  it('does not count a word with no demotedAt (never demoted, or demoted before this field existed)', () => {
+    const progress = [progressDemotedAt(1, 0, undefined)];
+    expect(computeDemotedToday(progress, today)).toBe(0);
+  });
+
+  it('scopes to the given levels when not null', () => {
+    const progress = [
+      progressDemotedAt(1, 0, '2026-03-05T08:00:00.000Z'), // a1
+      progressDemotedAt(20001, 0, '2026-03-05T09:00:00.000Z'), // b1
+    ];
+    expect(computeDemotedToday(progress, today, ['a1'])).toBe(1);
+    expect(computeDemotedToday(progress, today, null)).toBe(2);
   });
 });
 
