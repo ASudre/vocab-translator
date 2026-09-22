@@ -2,24 +2,56 @@ import { CEFR_LEVELS, CEFRLevel, TranslationResult } from '@/hooks/useVocabulary
 
 export const LEVEL_STORAGE_KEY = 'vocabDB_selectedLevel';
 
-export const pendingWordKey = (level: CEFRLevel) => `vocabDB_pendingWord_${level}`;
+/**
+ * `sessionKey` identifies one practice session's word queue: a CEFR level
+ * for learning (e.g. 'a1'), or 'revise_a1' / 'revise_all' for revision - see
+ * usePracticeSession. Passing a bare level yields a byte-identical key to
+ * before, so existing stored pending words survive.
+ */
+export const pendingWordKey = (sessionKey: string) => `vocabDB_pendingWord_${sessionKey}`;
 
 export const isCEFRLevel = (value: string | null): value is CEFRLevel =>
   value !== null && (CEFR_LEVELS as readonly string[]).includes(value);
 
 /**
  * Read back whichever word was mid-attempt when the app last closed, for the
- * given level. Self-heals on malformed JSON (clears the stored key), but
+ * given session. Self-heals on malformed JSON (clears the stored key), but
  * does not validate the shape of well-formed JSON.
  */
-export const readPendingWord = (level: CEFRLevel): TranslationResult | null => {
-  const raw = localStorage.getItem(pendingWordKey(level));
+export const readPendingWord = (sessionKey: string): TranslationResult | null => {
+  const raw = localStorage.getItem(pendingWordKey(sessionKey));
   if (!raw) return null;
 
   try {
     return JSON.parse(raw) as TranslationResult;
   } catch {
-    localStorage.removeItem(pendingWordKey(level));
+    localStorage.removeItem(pendingWordKey(sessionKey));
     return null;
   }
+};
+
+/**
+ * Persist the word currently on screen but not yet answered, so force-
+ * quitting the app can't be used to dodge it (a fresh shuffle would
+ * otherwise quietly drop it). Attempt state is deliberately reset to blank:
+ * this snapshot represents "still owed", not whatever partial answer was
+ * typed.
+ */
+export const writePendingWord = (sessionKey: string, word: TranslationResult): void => {
+  localStorage.setItem(pendingWordKey(sessionKey), JSON.stringify({
+    vocabularyId: word.vocabularyId,
+    spanish: word.spanish,
+    french: word.french,
+    class: word.class,
+    category: word.category,
+    userAnswer: '',
+    isCorrect: null,
+    showSolution: false,
+    attemptHistory: word.attemptHistory,
+    progressSaved: false,
+  }));
+};
+
+export const clearPendingWord = (sessionKey: string): void => {
+  localStorage.removeItem(pendingWordKey(sessionKey));
 };

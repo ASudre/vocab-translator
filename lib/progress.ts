@@ -1,11 +1,30 @@
 import { UserProgress, VocabularyEntry } from './indexedDB';
 import { localDayKey } from './dailyGoal';
+import { CEFR_LEVELS, CEFRLevel } from './levels';
 
 /** Number of most-recent attempts retained per word. */
 export const ATTEMPT_HISTORY_SIZE = 3;
 
 /** Number of trailing consecutive successes required to consider a word mastered. */
 export const MASTERY_THRESHOLD = 3;
+
+/**
+ * Every level's ids fall inside a dedicated 10000-wide block (a1: 0-9999,
+ * a2: 10000-19999, ...), enforced by tests/data/vocabulary.test.ts. This
+ * lets a word's level be recovered from its id alone, which the v6
+ * IndexedDB migration relies on to backfill VocabularyEntry.level for rows
+ * that predate the field, and which the revision page relies on to resolve
+ * which levels' JSON to (re)load for a mastered-id whose entry isn't
+ * resident yet.
+ */
+export const levelForVocabularyId = (id: number): CEFRLevel => {
+  const block = Math.floor(id / 10000);
+  const level = CEFR_LEVELS[block];
+  if (!level) {
+    throw new Error(`No CEFR level maps to vocabulary id ${id}`);
+  }
+  return level;
+};
 
 /**
  * Append a new attempt to the rolling history, keeping only the most recent
@@ -45,6 +64,14 @@ export const computeNextProgress = (
     const newCurrentStreak = isCorrect ? existing.currentStreak + 1 : 0;
     const newBestStreak = Math.max(existing.bestStreak, newCurrentStreak);
     const newAttemptHistory = appendAttempt(existing.attemptHistory, isCorrect);
+    const newMasteryLevel = computeMasteryLevel(newAttemptHistory);
+    // masteredAt marks the moment a word most recently transitioned INTO
+    // mastery, so it (unlike lastPracticed) isn't disturbed by later
+    // revision attempts on an already-mastered word. See computeMasteredToday.
+    const masteredAt =
+      newMasteryLevel === MASTERY_THRESHOLD && existing.masteryLevel !== MASTERY_THRESHOLD
+        ? now
+        : existing.masteredAt;
 
     return {
       id: existing.id,
@@ -55,11 +82,13 @@ export const computeNextProgress = (
       bestStreak: newBestStreak,
       lastPracticed: now,
       attemptHistory: newAttemptHistory,
-      masteryLevel: computeMasteryLevel(newAttemptHistory),
+      masteryLevel: newMasteryLevel,
+      masteredAt,
     };
   }
 
   const attemptHistory = appendAttempt(undefined, isCorrect);
+  const masteryLevel = computeMasteryLevel(attemptHistory);
 
   return {
     vocabularyId: -1, // caller must overwrite with the real vocabularyId
@@ -69,7 +98,8 @@ export const computeNextProgress = (
     bestStreak: isCorrect ? 1 : 0,
     lastPracticed: now,
     attemptHistory,
-    masteryLevel: computeMasteryLevel(attemptHistory),
+    masteryLevel,
+    masteredAt: masteryLevel === MASTERY_THRESHOLD ? now : undefined,
   };
 };
 
@@ -106,37 +136,61 @@ export const computeLifetimeWordsCorrect = (allProgress: UserProgress[]): number
 
 /**
  * Count of words mastered (3 consecutive correct answers) on `today`, across
- * every level. Mastered words are excluded from future selection (see
- * selectUnmastered), so a word's masteryLevel only reaches MASTERY_THRESHOLD
- * once — lastPracticed at that moment is exactly when it got completed.
+ * every level. Unlike lastPracticed, masteredAt only moves on the transition
+ * INTO mastery, so revising an already-mastered word on the revision page
+ * doesn't inflate this count.
  */
 export const computeMasteredToday = (allProgress: UserProgress[], today: Date = new Date()): number => {
   const todayKey = localDayKey(today);
   return allProgress.filter(
-    p => p.masteryLevel === MASTERY_THRESHOLD && localDayKey(new Date(p.lastPracticed)) === todayKey
+    p => p.masteryLevel === MASTERY_THRESHOLD && p.masteredAt && localDayKey(new Date(p.masteredAt)) === todayKey
   ).length;
 };
 
 /**
- * Filter out mastered words and return a random selection of up to `count`
- * entries via Fisher-Yates shuffle. `random` is injectable so tests can pin
- * the shuffle outcome.
+ * Return a random selection of up to `count` entries via Fisher-Yates
+ * shuffle. `random` is injectable so tests can pin the shuffle outcome.
  */
-export const selectUnmastered = (
-  allVocab: VocabularyEntry[],
-  masteredIds: Set<number>,
-  count: number,
-  random: () => number = Math.random
-): VocabularyEntry[] => {
-  const unmastered = allVocab.filter(vocab => !masteredIds.has(vocab.id));
-
-  const shuffled = [...unmastered];
+export const pickRandom = <T,>(entries: T[], count: number, random: () => number = Math.random): T[] => {
+  const shuffled = [...entries];
   for (let i = shuffled.length - 1; i > 0; i--) {
     const j = Math.floor(random() * (i + 1));
     [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
   }
 
   return shuffled.slice(0, count);
+};
+
+/** Filter out mastered words and return a random selection of up to `count`. */
+export const selectUnmastered = (
+  allVocab: VocabularyEntry[],
+  masteredIds: Set<number>,
+  count: number,
+  random: () => number = Math.random
+): VocabularyEntry[] =>
+  pickRandom(allVocab.filter(vocab => !masteredIds.has(vocab.id)), count, random);
+
+/**
+ * Order mastered words oldest-practiced-first for revision, and return up to
+ * `count`. lastPracticed updates on every attempt regardless of mode, so a
+ * word not yet revised sits at the moment it was mastered (lastPracticed ===
+ * masteredAt then), and any correct revision answer pushes it to the back of
+ * the queue by bumping lastPracticed again - no separate "last reviewed"
+ * field needed.
+ */
+export const selectMastered = (
+  allVocab: VocabularyEntry[],
+  masteredProgress: Pick<UserProgress, 'vocabularyId' | 'lastPracticed'>[],
+  count: number
+): VocabularyEntry[] => {
+  const vocabById = new Map(allVocab.map(entry => [entry.id, entry]));
+
+  return masteredProgress
+    .slice()
+    .sort((a, b) => a.lastPracticed.localeCompare(b.lastPracticed))
+    .map(p => vocabById.get(p.vocabularyId))
+    .filter((entry): entry is VocabularyEntry => entry !== undefined)
+    .slice(0, count);
 };
 
 /** Raw shape accepted from a level's JSON file: either a bare array or { list: [...] }. */
@@ -162,10 +216,13 @@ export interface RawVocabularyEntry {
 /**
  * Normalize a level's JSON payload (either a bare array of entries or
  * { list: [...] }, with either lowercase or accented-capitalized field
- * names) into the canonical VocabularyEntry shape.
+ * names) into the canonical VocabularyEntry shape, stamped with the level
+ * it was loaded for (the vocabulary store now holds every visited level at
+ * once, so entries need to say which level they belong to).
  */
 export const normalizeVocabularyEntries = (
-  jsonData: RawVocabularyJSON | RawVocabularyEntry[]
+  jsonData: RawVocabularyJSON | RawVocabularyEntry[],
+  level: CEFRLevel
 ): VocabularyEntry[] => {
   const rawData: RawVocabularyEntry[] = Array.isArray(jsonData) ? jsonData : jsonData.list || [];
 
@@ -176,22 +233,23 @@ export const normalizeVocabularyEntries = (
     Français: entry.french || entry.Français || '',
     Category: entry.category || entry.Category || '',
     Class: entry.class || entry.Class || '',
+    level,
   }));
 };
 
 /**
  * Decide whether a level's vocabulary needs to be (re)loaded into
- * IndexedDB: either nothing is loaded yet, a different level is active, or
- * the stored version doesn't match the fetched JSON's version.
+ * IndexedDB: either that level isn't loaded yet, or its stored version
+ * doesn't match the fetched JSON's version. Scoped per-level (rather than to
+ * whatever level was last active) since the vocabulary store now keeps every
+ * visited level resident at once.
  */
 export const needsVocabularyReload = (params: {
-  count: number;
-  activeLevel: string | null;
-  level: string;
+  levelCount: number;
   storedVersion: string | null;
   jsonVersion: string;
 }): boolean => {
-  const { count, activeLevel, level, storedVersion, jsonVersion } = params;
-  if (count === 0) return true;
-  return activeLevel !== level || storedVersion !== jsonVersion;
+  const { levelCount, storedVersion, jsonVersion } = params;
+  if (levelCount === 0) return true;
+  return storedVersion !== jsonVersion;
 };

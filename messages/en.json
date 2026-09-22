@@ -9,10 +9,6 @@
     "retryMessage": "Try again! 💪",
     "hintPrefix": "Hint: Starts with"
   },
-  "Home": {
-    "masteryProgress": "Mastery Progress",
-    "masteredWords": "words mastered (3 consecutive successes)"
-  },
   "SpanishKeyboard": {
     "space": "space"
   },
@@ -37,5 +33,24 @@
     "heading": "Today",
     "ariaLabel": "{count} of {goal} words answered correctly today. {masteredToday} words mastered today.",
     "ariaLabelCompleted": "Today's goal reached: {count} of {goal} words. {masteredToday} words mastered today."
+  },
+  "Nav": {
+    "learn": "Learn",
+    "revise": "Revise",
+    "ariaLabel": "Main navigation"
+  },
+  "Revision": {
+    "gateTitle": "Keep learning!",
+    "gateBody": "You need {required} mastered words to unlock revision. You have {mastered}.",
+    "sessionComplete": "Revision session complete for today 🎉",
+    "scopeLevel": "This level",
+    "scopeAll": "All levels",
+    "scopeToggleLabel": "Words to revise",
+    "poolCount": "{count} mastered words"
+  },
+  "RevisionGoal": {
+    "heading": "Today's revision",
+    "ariaLabel": "{count} of {goal} words revised today.",
+    "ariaLabelCompleted": "Revision goal reached: {count} of {goal} words."
   }
 }

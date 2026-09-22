@@ -1,7 +1,19 @@
-import { computeLifetimeWordsCorrect, computeMasteredToday, computeMasteryStats, computeNextProgress, MASTERY_THRESHOLD, normalizeVocabularyEntries, needsVocabularyReload, selectUnmastered } from './progress';
+import {
+  computeLifetimeWordsCorrect,
+  computeMasteredToday,
+  computeMasteryStats,
+  computeNextProgress,
+  levelForVocabularyId,
+  MASTERY_THRESHOLD,
+  normalizeVocabularyEntries,
+  needsVocabularyReload,
+  selectMastered,
+  selectUnmastered,
+} from './progress';
+import { CEFRLevel } from './levels';
 
 const DB_NAME = 'VocabTranslatorDB';
-const DB_VERSION = 5;
+const DB_VERSION = 6;
 const STORE_NAME = 'vocabulary';
 const PROGRESS_STORE_NAME = 'userProgress';
 
@@ -12,6 +24,7 @@ export interface VocabularyEntry {
   Français: string;
   Category: string;
   Class: string;
+  level: CEFRLevel;
 }
 
 export interface UserProgress {
@@ -24,6 +37,8 @@ export interface UserProgress {
   lastPracticed: string;
   attemptHistory: boolean[];
   masteryLevel: number;
+  /** Set only on the transition into MASTERY_THRESHOLD; see lib/progress.ts. */
+  masteredAt?: string;
 }
 
 let dbInstance: IDBDatabase | null = null;
@@ -41,58 +56,105 @@ export const initDB = (): Promise<IDBDatabase> => {
       reject(new Error(`Failed to open IndexedDB: ${request.error?.message || 'unknown error'}`));
     };
 
+    // A version bump can't apply while another tab still has an older
+    // connection open; without this, that tab's open() request would hang
+    // forever instead of settling.
+    request.onblocked = () => {
+      reject(new Error('IndexedDB upgrade is blocked by another open connection (close other tabs and retry)'));
+    };
+
     request.onsuccess = () => {
       dbInstance = request.result;
+      // A later version bump from another tab invalidates this connection;
+      // close it so that tab's upgrade can proceed instead of blocking forever.
+      dbInstance.onversionchange = () => {
+        dbInstance?.close();
+        dbInstance = null;
+      };
       resolve(dbInstance);
     };
 
     request.onupgradeneeded = (event) => {
       const db = (event.target as IDBOpenDBRequest).result;
-      
-      if (!db.objectStoreNames.contains(STORE_NAME)) {
-        const objectStore = db.createObjectStore(STORE_NAME, { 
-          keyPath: 'id'
-        });
-        
-        objectStore.createIndex('Category', 'Category', { unique: false });
-        objectStore.createIndex('Class', 'Class', { unique: false });
-      }
-      
-      // Migration for version 5: recreate vocabulary store to remove auto-increment
-      // User progress is preserved since vocabulary order remains the same (IDs will match)
-      if (db.objectStoreNames.contains(STORE_NAME) && event.oldVersion < 5) {
-        db.deleteObjectStore(STORE_NAME);
-        const objectStore = db.createObjectStore(STORE_NAME, { 
-          keyPath: 'id'
-        });
-        
-        objectStore.createIndex('Category', 'Category', { unique: false });
-        objectStore.createIndex('Class', 'Class', { unique: false });
-        
+      const tx = (event.target as IDBOpenDBRequest).transaction!;
+      const oldVersion = event.oldVersion;
+
+      const recreateVocabStore = (): IDBObjectStore => {
+        if (db.objectStoreNames.contains(STORE_NAME)) {
+          db.deleteObjectStore(STORE_NAME);
+        }
+        const store = db.createObjectStore(STORE_NAME, { keyPath: 'id' });
+        store.createIndex('Category', 'Category', { unique: false });
+        store.createIndex('Class', 'Class', { unique: false });
+        store.createIndex('level', 'level', { unique: false });
+        return store;
+      };
+
+      if (oldVersion === 0) {
+        recreateVocabStore();
+      } else if (oldVersion < 5) {
+        // Migration for version 5: recreate vocabulary store to remove auto-increment.
+        // User progress is preserved since vocabulary order remains the same (IDs will match)
+        recreateVocabStore();
         console.log('Vocabulary store migrated to use stable IDs from JSON');
+      } else if (oldVersion < 6) {
+        // Migration for version 6: the store now keeps every visited level
+        // resident at once (instead of clearing on level switch), so each
+        // entry needs to say which level it belongs to. Existing entries
+        // predate the field; recover it from the id block (see
+        // levelForVocabularyId) rather than losing the cached data.
+        const vocabStore = tx.objectStore(STORE_NAME);
+        if (!vocabStore.indexNames.contains('level')) {
+          vocabStore.createIndex('level', 'level', { unique: false });
+        }
+        vocabStore.openCursor().onsuccess = (cursorEvent) => {
+          const cursor = (cursorEvent.target as IDBRequest<IDBCursorWithValue | null>).result;
+          if (!cursor) return;
+          const entry = cursor.value as VocabularyEntry;
+          if (!entry.level) {
+            cursor.update({ ...entry, level: levelForVocabularyId(entry.id) });
+          }
+          cursor.continue();
+        };
       }
 
       if (!db.objectStoreNames.contains(PROGRESS_STORE_NAME)) {
-        const progressStore = db.createObjectStore(PROGRESS_STORE_NAME, { 
-          keyPath: 'id', 
-          autoIncrement: true 
+        const progressStore = db.createObjectStore(PROGRESS_STORE_NAME, {
+          keyPath: 'id',
+          autoIncrement: true
         });
-        
+
         progressStore.createIndex('vocabularyId', 'vocabularyId', { unique: true });
         progressStore.createIndex('lastPracticed', 'lastPracticed', { unique: false });
         progressStore.createIndex('masteryLevel', 'masteryLevel', { unique: false });
-      }
-      
-      if (db.objectStoreNames.contains(PROGRESS_STORE_NAME) && event.oldVersion < 4) {
-        const tx = (event.target as IDBOpenDBRequest).transaction!;
+      } else {
         const progressStore = tx.objectStore(PROGRESS_STORE_NAME);
-        
-        if (progressStore.indexNames.contains('isMastered')) {
-          progressStore.deleteIndex('isMastered');
+
+        if (oldVersion < 4) {
+          if (progressStore.indexNames.contains('isMastered')) {
+            progressStore.deleteIndex('isMastered');
+          }
+
+          if (!progressStore.indexNames.contains('masteryLevel')) {
+            progressStore.createIndex('masteryLevel', 'masteryLevel', { unique: false });
+          }
         }
-        
-        if (!progressStore.indexNames.contains('masteryLevel')) {
-          progressStore.createIndex('masteryLevel', 'masteryLevel', { unique: false });
+
+        if (oldVersion > 0 && oldVersion < 6) {
+          // Migration for version 6: masteredAt marks the moment a word most
+          // recently transitioned into mastery (see lib/progress.ts). Under
+          // the pre-v6 invariant a word reached mastery exactly once, so
+          // lastPracticed at that moment IS the mastery moment - backfill it
+          // exactly, not as a heuristic.
+          progressStore.openCursor().onsuccess = (cursorEvent) => {
+            const cursor = (cursorEvent.target as IDBRequest<IDBCursorWithValue | null>).result;
+            if (!cursor) return;
+            const progress = cursor.value as UserProgress;
+            if (progress.masteryLevel === MASTERY_THRESHOLD && !progress.masteredAt) {
+              cursor.update({ ...progress, masteredAt: progress.lastPracticed });
+            }
+            cursor.continue();
+          };
         }
       }
     };
@@ -101,7 +163,7 @@ export const initDB = (): Promise<IDBDatabase> => {
 
 export const importVocabulary = async (data: VocabularyEntry[]): Promise<void> => {
   const db = await initDB();
-  
+
   return new Promise((resolve, reject) => {
     const transaction = db.transaction([STORE_NAME], 'readwrite');
     const objectStore = transaction.objectStore(STORE_NAME);
@@ -115,15 +177,17 @@ export const importVocabulary = async (data: VocabularyEntry[]): Promise<void> =
       reject(new Error('Failed to import vocabulary'));
     };
 
+    // put (not add): levels loaded more than once (e.g. a version bump) must
+    // overwrite in place now that the store isn't cleared before every load.
     data.forEach(entry => {
-      objectStore.add(entry);
+      objectStore.put(entry);
     });
   });
 };
 
 export const getVocabularyCount = async (): Promise<number> => {
   const db = await initDB();
-  
+
   return new Promise((resolve, reject) => {
     const transaction = db.transaction([STORE_NAME], 'readonly');
     const objectStore = transaction.objectStore(STORE_NAME);
@@ -139,44 +203,163 @@ export const getVocabularyCount = async (): Promise<number> => {
   });
 };
 
-export const getUnmasteredVocabulary = async (count: number): Promise<VocabularyEntry[]> => {
+export const getVocabularyCountForLevel = async (level: CEFRLevel): Promise<number> => {
   const db = await initDB();
-  
+
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction([STORE_NAME], 'readonly');
+    const levelIndex = transaction.objectStore(STORE_NAME).index('level');
+    const countRequest = levelIndex.count(IDBKeyRange.only(level));
+
+    countRequest.onsuccess = () => {
+      resolve(countRequest.result);
+    };
+
+    countRequest.onerror = () => {
+      reject(new Error('Failed to count vocabulary entries for level'));
+    };
+  });
+};
+
+export const getUnmasteredVocabulary = async (level: CEFRLevel, count: number): Promise<VocabularyEntry[]> => {
+  const db = await initDB();
+
   return new Promise((resolve, reject) => {
     const transaction = db.transaction([STORE_NAME, PROGRESS_STORE_NAME], 'readonly');
     const vocabStore = transaction.objectStore(STORE_NAME);
     const progressStore = transaction.objectStore(PROGRESS_STORE_NAME);
     const masteryIndex = progressStore.index('masteryLevel');
-    
+    const levelIndex = vocabStore.index('level');
+
     const masteredRequest = masteryIndex.getAll(IDBKeyRange.only(MASTERY_THRESHOLD));
-    
+
     masteredRequest.onsuccess = () => {
       const masteredProgress = masteredRequest.result as UserProgress[];
       const masteredVocabIds = new Set(masteredProgress.map(p => p.vocabularyId));
-      
-      const getAllVocabRequest = vocabStore.getAll();
-      
-      getAllVocabRequest.onsuccess = () => {
-        const allVocab = getAllVocabRequest.result as VocabularyEntry[];
-        const selected = selectUnmastered(allVocab, masteredVocabIds, count);
+
+      const getLevelVocabRequest = levelIndex.getAll(IDBKeyRange.only(level));
+
+      getLevelVocabRequest.onsuccess = () => {
+        const levelVocab = getLevelVocabRequest.result as VocabularyEntry[];
+        const selected = selectUnmastered(levelVocab, masteredVocabIds, count);
 
         resolve(selected);
       };
-      
-      getAllVocabRequest.onerror = () => {
+
+      getLevelVocabRequest.onerror = () => {
         reject(new Error('Failed to fetch vocabulary'));
       };
     };
-    
+
     masteredRequest.onerror = () => {
       reject(new Error('Failed to fetch mastered vocabulary'));
     };
   });
 };
 
+/**
+ * Mastered words available for revision, oldest-practiced-first (see
+ * selectMastered). `levels === null` pools across every CEFR level the user
+ * has ever mastered a word in; otherwise the pool is restricted to the given
+ * levels. `excludeIds` (words already served this session) is filtered out
+ * before ordering, so repeated calls advance through the queue instead of
+ * returning the same stale front of the line every time. Progress can
+ * outlive its entry's residency (a mastered level not (re)loaded yet this
+ * session) - such ids are simply dropped rather than surfaced with missing
+ * text.
+ */
+export const getMasteredVocabulary = async (
+  levels: CEFRLevel[] | null,
+  count: number,
+  excludeIds: number[] = []
+): Promise<VocabularyEntry[]> => {
+  const db = await initDB();
+
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction([STORE_NAME, PROGRESS_STORE_NAME], 'readonly');
+    const vocabStore = transaction.objectStore(STORE_NAME);
+    const progressStore = transaction.objectStore(PROGRESS_STORE_NAME);
+    const masteryIndex = progressStore.index('masteryLevel');
+
+    const masteredRequest = masteryIndex.getAll(IDBKeyRange.only(MASTERY_THRESHOLD));
+
+    masteredRequest.onsuccess = () => {
+      const excluded = new Set(excludeIds);
+      const masteredProgress = (masteredRequest.result as UserProgress[])
+        .filter(p => !excluded.has(p.vocabularyId));
+
+      if (masteredProgress.length === 0) {
+        resolve([]);
+        return;
+      }
+
+      const getAllVocabRequest = vocabStore.getAll();
+
+      getAllVocabRequest.onsuccess = () => {
+        const allVocab = (getAllVocabRequest.result as VocabularyEntry[])
+          .filter(entry => levels === null || levels.includes(entry.level));
+
+        resolve(selectMastered(allVocab, masteredProgress, count));
+      };
+
+      getAllVocabRequest.onerror = () => {
+        reject(new Error('Failed to fetch vocabulary'));
+      };
+    };
+
+    masteredRequest.onerror = () => {
+      reject(new Error('Failed to fetch mastered vocabulary'));
+    };
+  });
+};
+
+/** Every CEFR level the user has mastered at least one word in, derived from ids alone (no entry residency required). */
+export const getMasteredLevels = async (): Promise<CEFRLevel[]> => {
+  const db = await initDB();
+
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction([PROGRESS_STORE_NAME], 'readonly');
+    const masteryIndex = transaction.objectStore(PROGRESS_STORE_NAME).index('masteryLevel');
+    const request = masteryIndex.getAll(IDBKeyRange.only(MASTERY_THRESHOLD));
+
+    request.onsuccess = () => {
+      const masteredProgress = request.result as UserProgress[];
+      const levels = new Set(masteredProgress.map(p => levelForVocabularyId(p.vocabularyId)));
+      resolve([...levels]);
+    };
+
+    request.onerror = () => {
+      reject(new Error('Failed to fetch mastered levels'));
+    };
+  });
+};
+
+/** Count of mastered words in scope, for the revision page's "master N words first" gate. */
+export const countMastered = async (levels: CEFRLevel[] | null): Promise<number> => {
+  const db = await initDB();
+
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction([PROGRESS_STORE_NAME], 'readonly');
+    const masteryIndex = transaction.objectStore(PROGRESS_STORE_NAME).index('masteryLevel');
+    const request = masteryIndex.getAll(IDBKeyRange.only(MASTERY_THRESHOLD));
+
+    request.onsuccess = () => {
+      const masteredProgress = request.result as UserProgress[];
+      const count = levels === null
+        ? masteredProgress.length
+        : masteredProgress.filter(p => levels.includes(levelForVocabularyId(p.vocabularyId))).length;
+      resolve(count);
+    };
+
+    request.onerror = () => {
+      reject(new Error('Failed to count mastered vocabulary'));
+    };
+  });
+};
+
 export const clearVocabulary = async (): Promise<void> => {
   const db = await initDB();
-  
+
   return new Promise((resolve, reject) => {
     const transaction = db.transaction([STORE_NAME], 'readwrite');
     const objectStore = transaction.objectStore(STORE_NAME);
@@ -193,23 +376,38 @@ export const clearVocabulary = async (): Promise<void> => {
   });
 };
 
+export const clearVocabularyLevel = async (level: CEFRLevel): Promise<void> => {
+  const db = await initDB();
+
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction([STORE_NAME], 'readwrite');
+    const levelIndex = transaction.objectStore(STORE_NAME).index('level');
+    const cursorRequest = levelIndex.openCursor(IDBKeyRange.only(level));
+
+    cursorRequest.onsuccess = () => {
+      const cursor = cursorRequest.result;
+      if (cursor) {
+        cursor.delete();
+        cursor.continue();
+      }
+    };
+
+    transaction.oncomplete = () => resolve();
+    transaction.onerror = () => reject(new Error('Failed to clear vocabulary level'));
+  });
+};
+
 /**
- * Force reload vocabulary from JSON
- * Clears existing vocabulary and reloads from the JSON file
+ * Force reload one level's vocabulary from JSON, clearing only that level.
  */
-export const forceReloadVocabulary = async (jsonPath: string, level: string): Promise<void> => {
+export const forceReloadVocabulary = async (jsonPath: string, level: CEFRLevel): Promise<void> => {
   try {
-    console.log('Force reloading vocabulary...');
+    console.log(`Force reloading vocabulary level ${level}...`);
 
-    // Clear existing vocabulary
-    await clearVocabulary();
-
-    // Clear the lastUpdate flag
-    localStorage.removeItem('vocabDB_lastUpdate');
-
-    // Reload from JSON
+    await clearVocabularyLevel(level);
+    localStorage.removeItem(`vocabDB_version_${level}`);
     await loadVocabularyFromJSON(jsonPath, level);
-    
+
     console.log('Vocabulary force reloaded successfully');
   } catch (error) {
     console.error('Error force reloading vocabulary:', error);
@@ -217,7 +415,7 @@ export const forceReloadVocabulary = async (jsonPath: string, level: string): Pr
   }
 };
 
-export const loadVocabularyFromJSON = async (jsonPath: string, level: string): Promise<void> => {
+export const loadVocabularyFromJSON = async (jsonPath: string, level: CEFRLevel): Promise<void> => {
   try {
     console.log('Checking vocabulary version...');
     const response = await fetch(jsonPath);
@@ -229,31 +427,30 @@ export const loadVocabularyFromJSON = async (jsonPath: string, level: string): P
     const jsonData = await response.json();
     const jsonVersion = jsonData.version || '1.0.0';
     const storedVersion = localStorage.getItem(`vocabDB_version_${level}`);
-    const activeLevel = localStorage.getItem('vocabDB_activeLevel');
 
-    // Check if we need to reload: level switched, or this level's data changed
-    const count = await getVocabularyCount();
-    const needsReload = needsVocabularyReload({ count, activeLevel, level, storedVersion, jsonVersion });
+    // Scoped to this level alone: the store now keeps every visited level
+    // resident at once, so another level being loaded must not block or
+    // clear this one.
+    const levelCount = await getVocabularyCountForLevel(level);
+    const needsReload = needsVocabularyReload({ levelCount, storedVersion, jsonVersion });
 
     if (!needsReload) {
       console.log(`Vocabulary already loaded (level ${level}, version ${storedVersion})`);
       return;
     }
 
-    if (count > 0) {
-      console.log(`Loading level ${level} (was ${activeLevel}, version ${storedVersion} → ${jsonVersion}). Reloading vocabulary...`);
-      await clearVocabulary();
+    if (levelCount > 0) {
+      console.log(`Reloading level ${level} (version ${storedVersion} → ${jsonVersion})...`);
+      await clearVocabularyLevel(level);
     } else {
       console.log(`Loading vocabulary level ${level}, version ${jsonVersion}...`);
     }
 
-    const data: VocabularyEntry[] = normalizeVocabularyEntries(jsonData);
+    const data: VocabularyEntry[] = normalizeVocabularyEntries(jsonData, level);
 
     await importVocabulary(data);
 
-    // Store the version and active level
     localStorage.setItem(`vocabDB_version_${level}`, jsonVersion);
-    localStorage.setItem('vocabDB_activeLevel', level);
 
     console.log(`Vocabulary level ${level} (version ${jsonVersion}) successfully loaded into IndexedDB`);
   } catch (error) {
@@ -264,7 +461,7 @@ export const loadVocabularyFromJSON = async (jsonPath: string, level: string): P
 
 export const getUserProgress = async (vocabularyId: number): Promise<UserProgress | null> => {
   const db = await initDB();
-  
+
   return new Promise((resolve, reject) => {
     const transaction = db.transaction([PROGRESS_STORE_NAME], 'readonly');
     const objectStore = transaction.objectStore(PROGRESS_STORE_NAME);
@@ -283,7 +480,7 @@ export const getUserProgress = async (vocabularyId: number): Promise<UserProgres
 
 export const saveUserProgress = async (vocabularyId: number, isCorrect: boolean): Promise<void> => {
   const db = await initDB();
-  
+
   return new Promise((resolve, reject) => {
     const transaction = db.transaction([PROGRESS_STORE_NAME], 'readwrite');
     const objectStore = transaction.objectStore(PROGRESS_STORE_NAME);
@@ -322,7 +519,7 @@ export const saveUserProgress = async (vocabularyId: number, isCorrect: boolean)
 
 export const getAllUserProgress = async (): Promise<UserProgress[]> => {
   const db = await initDB();
-  
+
   return new Promise((resolve, reject) => {
     const transaction = db.transaction([PROGRESS_STORE_NAME], 'readonly');
     const objectStore = transaction.objectStore(PROGRESS_STORE_NAME);
@@ -338,22 +535,22 @@ export const getAllUserProgress = async (): Promise<UserProgress[]> => {
   });
 };
 
-export const getMasteryStats = async (): Promise<{ total: number; mastered: number; percentage: number; lifetimeWordsCorrect: number; masteredToday: number }> => {
+export const getMasteryStats = async (level: CEFRLevel): Promise<{ total: number; mastered: number; percentage: number; lifetimeWordsCorrect: number; masteredToday: number }> => {
   const db = await initDB();
 
   return new Promise((resolve, reject) => {
     const transaction = db.transaction([STORE_NAME, PROGRESS_STORE_NAME], 'readonly');
     const vocabStore = transaction.objectStore(STORE_NAME);
     const progressStore = transaction.objectStore(PROGRESS_STORE_NAME);
+    const levelIndex = vocabStore.index('level');
 
     // The progress store accumulates records across every level ever
-    // practiced (it's never cleared on level switch), while vocabStore only
-    // holds the currently loaded level's words. Get this level's ids so
-    // progress from other levels doesn't leak into its stats.
-    const getAllKeysRequest = vocabStore.getAllKeys();
+    // practiced (it's never cleared), while total/mastered below must be
+    // scoped to this level's ids alone.
+    const getLevelKeysRequest = levelIndex.getAllKeys(IDBKeyRange.only(level));
 
-    getAllKeysRequest.onsuccess = () => {
-      const currentLevelIds = new Set(getAllKeysRequest.result as number[]);
+    getLevelKeysRequest.onsuccess = () => {
+      const currentLevelIds = new Set(getLevelKeysRequest.result as number[]);
 
       const getAllProgressRequest = progressStore.getAll();
 
@@ -371,7 +568,7 @@ export const getMasteryStats = async (): Promise<{ total: number; mastered: numb
       };
     };
 
-    getAllKeysRequest.onerror = () => {
+    getLevelKeysRequest.onerror = () => {
       reject(new Error('Failed to get vocabulary ids'));
     };
   });

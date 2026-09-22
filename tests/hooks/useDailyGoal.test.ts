@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
 import { renderHook, act } from '@testing-library/react';
-import { DAILY_GOAL_STORAGE_KEY, localDayKey } from '@/lib/dailyGoal';
+import { LEARNING_DAILY_GOAL_KEY, REVISION_DAILY_GOAL_KEY, localDayKey } from '@/lib/dailyGoal';
 
 // useDailyGoal caches the current DailyGoalState at module scope (required
 // so useSyncExternalStore's getSnapshot can return a stable reference across
@@ -31,14 +31,14 @@ describe('useDailyGoal', () => {
 
   it('restores an existing count for today', () => {
     const today = localDayKey(new Date());
-    localStorage.setItem(DAILY_GOAL_STORAGE_KEY, JSON.stringify({ day: today, ids: [1, 2, 3] }));
+    localStorage.setItem(LEARNING_DAILY_GOAL_KEY, JSON.stringify({ day: today, ids: [1, 2, 3] }));
 
     const { result } = renderHook(() => useDailyGoal());
     expect(result.current.count).toBe(3);
   });
 
   it('does not restore a count left over from a previous day', () => {
-    localStorage.setItem(DAILY_GOAL_STORAGE_KEY, JSON.stringify({ day: '2000-01-01', ids: [1, 2, 3] }));
+    localStorage.setItem(LEARNING_DAILY_GOAL_KEY, JSON.stringify({ day: '2000-01-01', ids: [1, 2, 3] }));
 
     const { result } = renderHook(() => useDailyGoal());
     expect(result.current.count).toBe(0);
@@ -51,7 +51,7 @@ describe('useDailyGoal', () => {
     expect(result.current.count).toBe(1);
 
     const today = localDayKey(new Date());
-    expect(JSON.parse(localStorage.getItem(DAILY_GOAL_STORAGE_KEY)!)).toEqual({ day: today, ids: [42] });
+    expect(JSON.parse(localStorage.getItem(LEARNING_DAILY_GOAL_KEY)!)).toEqual({ day: today, ids: [42] });
   });
 
   it('recordCorrect does not double-count the same word', () => {
@@ -71,6 +71,16 @@ describe('useDailyGoal', () => {
 
     expect(result.current.count).toBe(10);
     expect(result.current.completed).toBe(true);
+  });
+
+  it('keeps a different storage key fully independent (learning vs. revision)', () => {
+    const learning = renderHook(() => useDailyGoal(LEARNING_DAILY_GOAL_KEY));
+    const revision = renderHook(() => useDailyGoal(REVISION_DAILY_GOAL_KEY));
+
+    act(() => learning.result.current.recordCorrect(1));
+
+    expect(learning.result.current.count).toBe(1);
+    expect(revision.result.current.count).toBe(0);
   });
 
   it('shares state across multiple mounted instances', () => {

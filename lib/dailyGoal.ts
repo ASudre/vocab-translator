@@ -1,6 +1,10 @@
 export const DAILY_GOAL = 10;
 
-export const DAILY_GOAL_STORAGE_KEY = 'vocabDB_dailyGoal';
+/** Same literal as before parameterization, so existing learning-goal data survives. */
+export const LEARNING_DAILY_GOAL_KEY = 'vocabDB_dailyGoal';
+
+export const REVISION_DAILY_GOAL = 10;
+export const REVISION_DAILY_GOAL_KEY = 'vocabDB_revisionDailyGoal';
 
 export interface DailyGoalState {
   /** 'YYYY-MM-DD', local calendar day this state belongs to. */
@@ -28,21 +32,22 @@ const isValidState = (value: unknown): value is DailyGoalState => {
 };
 
 /**
- * Read today's goal state, self-healing to a fresh empty state whenever
+ * Read today's goal state for the given storage key (learning and revision
+ * each track their own), self-healing to a fresh empty state whenever
  * nothing is stored, the stored day doesn't match today (a new day always
  * starts empty), or the stored value is malformed JSON or the wrong shape.
  * Malformed JSON also clears the key, mirroring readPendingWord.
  */
-export const readDailyGoal = (todayKey: string): DailyGoalState => {
+export const readDailyGoal = (storageKey: string, todayKey: string): DailyGoalState => {
   const fresh: DailyGoalState = { day: todayKey, ids: [] };
-  const raw = localStorage.getItem(DAILY_GOAL_STORAGE_KEY);
+  const raw = localStorage.getItem(storageKey);
   if (!raw) return fresh;
 
   let parsed: unknown;
   try {
     parsed = JSON.parse(raw);
   } catch {
-    localStorage.removeItem(DAILY_GOAL_STORAGE_KEY);
+    localStorage.removeItem(storageKey);
     return fresh;
   }
 
@@ -54,9 +59,9 @@ export const readDailyGoal = (todayKey: string): DailyGoalState => {
  * Wrapped in try/catch so a full or disabled localStorage (Safari private
  * mode, iOS quota) can't surface as a failed answer.
  */
-export const writeDailyGoal = (state: DailyGoalState): void => {
+export const writeDailyGoal = (storageKey: string, state: DailyGoalState): void => {
   try {
-    localStorage.setItem(DAILY_GOAL_STORAGE_KEY, JSON.stringify(state));
+    localStorage.setItem(storageKey, JSON.stringify(state));
   } catch (error) {
     console.error('Failed to save daily goal progress:', error);
   }

@@ -20,9 +20,9 @@ describe('lib/indexedDB', () => {
   });
 
   const sampleEntries: VocabularyEntry[] = [
-    { id: 1, English: 'hello', Español: 'hola', Français: 'bonjour', Category: 'greeting', Class: 'interjection' },
-    { id: 2, English: 'goodbye', Español: 'adios', Français: 'au revoir', Category: 'greeting', Class: 'interjection' },
-    { id: 3, English: 'cat', Español: 'gato', Français: 'chat', Category: 'animal', Class: 'noun' },
+    { id: 1, English: 'hello', Español: 'hola', Français: 'bonjour', Category: 'greeting', Class: 'interjection', level: 'a1' },
+    { id: 2, English: 'goodbye', Español: 'adios', Français: 'au revoir', Category: 'greeting', Class: 'interjection', level: 'a1' },
+    { id: 3, English: 'cat', Español: 'gato', Français: 'chat', Category: 'animal', Class: 'noun', level: 'a1' },
   ];
 
   describe('importVocabulary / getVocabularyCount / clearVocabulary', () => {
@@ -34,6 +34,42 @@ describe('lib/indexedDB', () => {
 
       await db.clearVocabulary();
       expect(await db.getVocabularyCount()).toBe(0);
+    });
+
+    it('is idempotent: importing the same id twice overwrites rather than throwing', async () => {
+      await db.importVocabulary(sampleEntries);
+      await db.importVocabulary([{ ...sampleEntries[0], Français: 'salut' }]);
+
+      expect(await db.getVocabularyCount()).toBe(3);
+      const words = await db.getUnmasteredVocabulary('a1', 10);
+      expect(words.find(w => w.id === 1)?.Français).toBe('salut');
+    });
+  });
+
+  describe('multi-level residency', () => {
+    it('keeps a level resident after a different level is loaded, unlike the old clear-on-switch behavior', async () => {
+      await db.importVocabulary(sampleEntries); // level a1
+      await db.importVocabulary([
+        { id: 10001, English: 'yes', Español: 'si', Français: 'oui', Category: 'basic', Class: 'adverb', level: 'a2' },
+      ]);
+
+      expect(await db.getVocabularyCountForLevel('a1')).toBe(3);
+      expect(await db.getVocabularyCountForLevel('a2')).toBe(1);
+
+      const a1Words = await db.getUnmasteredVocabulary('a1', 10);
+      expect(a1Words.map(w => w.id).sort()).toEqual([1, 2, 3]);
+    });
+
+    it('clearVocabularyLevel only removes the given level, leaving others intact', async () => {
+      await db.importVocabulary(sampleEntries); // level a1
+      await db.importVocabulary([
+        { id: 10001, English: 'yes', Español: 'si', Français: 'oui', Category: 'basic', Class: 'adverb', level: 'a2' },
+      ]);
+
+      await db.clearVocabularyLevel('a1');
+
+      expect(await db.getVocabularyCountForLevel('a1')).toBe(0);
+      expect(await db.getVocabularyCountForLevel('a2')).toBe(1);
     });
   });
 
@@ -51,7 +87,7 @@ describe('lib/indexedDB', () => {
       });
     });
 
-    it('accumulates attempts into the rolling mastery calculation', async () => {
+    it('accumulates attempts into the rolling mastery calculation and sets masteredAt on reaching mastery', async () => {
       await db.saveUserProgress(1, true);
       await db.saveUserProgress(1, true);
       await db.saveUserProgress(1, true);
@@ -59,6 +95,7 @@ describe('lib/indexedDB', () => {
       const progress = await db.getUserProgress(1);
       expect(progress?.masteryLevel).toBe(3);
       expect(progress?.attemptHistory).toEqual([true, true, true]);
+      expect(progress?.masteredAt).toBe(progress?.lastPracticed);
     });
 
     it('returns null for a word with no recorded progress', async () => {
@@ -73,57 +110,167 @@ describe('lib/indexedDB', () => {
       await db.saveUserProgress(1, true);
       await db.saveUserProgress(1, true); // word 1 is now mastered (level 3)
 
-      const unmastered = await db.getUnmasteredVocabulary(10);
+      const unmastered = await db.getUnmasteredVocabulary('a1', 10);
       const ids = unmastered.map(w => w.id).sort();
       expect(ids).toEqual([2, 3]);
     });
 
     it('returns all words when none are mastered', async () => {
       await db.importVocabulary(sampleEntries);
-      const unmastered = await db.getUnmasteredVocabulary(10);
+      const unmastered = await db.getUnmasteredVocabulary('a1', 10);
       expect(unmastered).toHaveLength(3);
+    });
+
+    it('never returns words from a different level', async () => {
+      await db.importVocabulary(sampleEntries); // level a1
+      await db.importVocabulary([
+        { id: 10001, English: 'yes', Español: 'si', Français: 'oui', Category: 'basic', Class: 'adverb', level: 'a2' },
+      ]);
+
+      const unmastered = await db.getUnmasteredVocabulary('a1', 10);
+      expect(unmastered.map(w => w.id)).not.toContain(10001);
+    });
+  });
+
+  describe('getMasteredVocabulary / getMasteredLevels / countMastered', () => {
+    const masterWord = async (id: number) => {
+      await db.saveUserProgress(id, true);
+      await db.saveUserProgress(id, true);
+      await db.saveUserProgress(id, true);
+    };
+
+    // saveUserProgress stamps lastPracticed from the real clock, which isn't
+    // controllable enough to pin an ordering test. Insert a fully-formed
+    // mastered row directly (bypassing saveUserProgress) so lastPracticed can
+    // be set explicitly.
+    const insertMasteredAt = async (vocabularyId: number, lastPracticed: string) => {
+      const rawDb: IDBDatabase = await new Promise((resolve, reject) => {
+        const request = indexedDB.open('VocabTranslatorDB');
+        request.onsuccess = () => resolve(request.result);
+        request.onerror = () => reject(request.error);
+      });
+      await new Promise<void>((resolve, reject) => {
+        const tx = rawDb.transaction(['userProgress'], 'readwrite');
+        tx.objectStore('userProgress').add({
+          vocabularyId,
+          successCount: 3,
+          failCount: 0,
+          currentStreak: 3,
+          bestStreak: 3,
+          lastPracticed,
+          attemptHistory: [true, true, true],
+          masteryLevel: 3,
+          masteredAt: lastPracticed,
+        });
+        tx.oncomplete = () => resolve();
+        tx.onerror = () => reject(tx.error);
+      });
+      rawDb.close();
+    };
+
+    it('orders results oldest-practiced-first, so a stale mastered word surfaces before a recently revised one', async () => {
+      await db.importVocabulary(sampleEntries); // ids 1-3, level a1
+      await insertMasteredAt(2, '2026-01-01T00:00:00.000Z');
+      await insertMasteredAt(1, '2026-01-02T00:00:00.000Z');
+      await insertMasteredAt(3, '2026-01-03T00:00:00.000Z');
+
+      const mastered = await db.getMasteredVocabulary(['a1'], 10);
+      expect(mastered.map(w => w.id)).toEqual([2, 1, 3]);
+    });
+
+    it('excludeIds advances the queue instead of repeating the same front words', async () => {
+      await db.importVocabulary(sampleEntries);
+      await insertMasteredAt(2, '2026-01-01T00:00:00.000Z');
+      await insertMasteredAt(1, '2026-01-02T00:00:00.000Z');
+
+      expect((await db.getMasteredVocabulary(['a1'], 1, [2])).map(w => w.id)).toEqual([1]);
+    });
+
+    it('returns only mastered, currently resident words', async () => {
+      await db.importVocabulary(sampleEntries); // ids 1-3, level a1
+      await masterWord(1);
+
+      const mastered = await db.getMasteredVocabulary(['a1'], 10);
+      expect(mastered.map(w => w.id)).toEqual([1]);
+    });
+
+    it('scopes to the given levels when not null', async () => {
+      await db.importVocabulary(sampleEntries); // level a1
+      await db.importVocabulary([
+        { id: 10001, English: 'yes', Español: 'si', Français: 'oui', Category: 'basic', Class: 'adverb', level: 'a2' },
+      ]);
+      await masterWord(1); // a1
+      await masterWord(10001); // a2
+
+      expect((await db.getMasteredVocabulary(['a1'], 10)).map(w => w.id)).toEqual([1]);
+      expect((await db.getMasteredVocabulary(null, 10)).map(w => w.id).sort()).toEqual([1, 10001]);
+    });
+
+    it('drops mastered ids whose entry is not resident (level not loaded yet)', async () => {
+      // Progress for a word from a level whose entries were never imported
+      // in this session - getMasteredVocabulary must skip it, not throw or
+      // surface a word with missing text.
+      await masterWord(20001); // b1, never imported
+
+      expect(await db.getMasteredVocabulary(null, 10)).toEqual([]);
+    });
+
+    it('getMasteredLevels derives levels from mastered ids alone, without needing entries resident', async () => {
+      await masterWord(1); // a1
+      await masterWord(20001); // b1
+
+      expect((await db.getMasteredLevels()).sort()).toEqual(['a1', 'b1']);
+    });
+
+    it('countMastered counts by level, scoped or across all levels', async () => {
+      await masterWord(1); // a1
+      await masterWord(2); // a1
+      await masterWord(20001); // b1
+
+      expect(await db.countMastered(['a1'])).toBe(2);
+      expect(await db.countMastered(null)).toBe(3);
     });
   });
 
   describe('getMasteryStats', () => {
-    it('scopes stats to the currently loaded level, ignoring progress from other levels', async () => {
-      await db.importVocabulary(sampleEntries); // this "level" only has ids 1-3
+    it('scopes stats to the given level, ignoring progress from other levels', async () => {
+      await db.importVocabulary(sampleEntries); // level a1, ids 1-3
       await db.saveUserProgress(1, true);
       await db.saveUserProgress(1, true);
       await db.saveUserProgress(1, true); // word 1: mastered
-      await db.saveUserProgress(999, true); // word from a different level, should not count
+      await db.saveUserProgress(20001, true); // word from a different level, should not count
 
-      const stats = await db.getMasteryStats();
+      const stats = await db.getMasteryStats('a1');
       expect(stats.total).toBe(3);
       expect(stats.mastered).toBe(1);
     });
 
     it('returns zero percentage with no words loaded', async () => {
-      const stats = await db.getMasteryStats();
+      const stats = await db.getMasteryStats('a1');
       expect(stats).toEqual({ total: 0, mastered: 0, percentage: 0, lifetimeWordsCorrect: 0, masteredToday: 0 });
     });
 
     it('counts lifetimeWordsCorrect across all levels, unlike total/mastered', async () => {
-      await db.importVocabulary(sampleEntries); // this "level" only has ids 1-3
+      await db.importVocabulary(sampleEntries); // level a1, ids 1-3
       await db.saveUserProgress(1, true); // this level, one success
       await db.saveUserProgress(2, false); // this level, no success yet
-      await db.saveUserProgress(999, true); // a different level entirely
+      await db.saveUserProgress(20001, true); // a different level entirely
 
-      const stats = await db.getMasteryStats();
+      const stats = await db.getMasteryStats('a1');
       expect(stats.lifetimeWordsCorrect).toBe(2);
     });
 
     it('counts masteredToday across all levels, for words mastered today', async () => {
-      await db.importVocabulary(sampleEntries); // this "level" only has ids 1-3
+      await db.importVocabulary(sampleEntries); // level a1, ids 1-3
       await db.saveUserProgress(1, true);
       await db.saveUserProgress(1, true);
       await db.saveUserProgress(1, true); // word 1: mastered today
       await db.saveUserProgress(2, true); // word 2: not yet mastered
-      await db.saveUserProgress(999, true);
-      await db.saveUserProgress(999, true);
-      await db.saveUserProgress(999, true); // a different level, mastered today too
+      await db.saveUserProgress(20001, true);
+      await db.saveUserProgress(20001, true);
+      await db.saveUserProgress(20001, true); // a different level, mastered today too
 
-      const stats = await db.getMasteryStats();
+      const stats = await db.getMasteryStats('a1');
       expect(stats.masteredToday).toBe(2);
     });
   });
@@ -146,10 +293,9 @@ describe('lib/indexedDB', () => {
       await db.loadVocabularyFromJSON('/a1.json', 'a1');
       expect(await db.getVocabularyCount()).toBe(1);
       expect(localStorage.getItem('vocabDB_version_a1')).toBe('1.0.0');
-      expect(localStorage.getItem('vocabDB_activeLevel')).toBe('a1');
     });
 
-    it('does not reload when the same level and version are already active', async () => {
+    it('does not reload when the same level and version are already loaded', async () => {
       mockFetch({ version: '1.0.0', list: [{ id: 1, spanish: 'hola' }] });
       await db.loadVocabularyFromJSON('/a1.json', 'a1');
 
@@ -171,9 +317,74 @@ describe('lib/indexedDB', () => {
       expect(localStorage.getItem('vocabDB_version_a1')).toBe('1.0.1');
     });
 
+    it('loading a second level does not clear or reload the first', async () => {
+      mockFetch({ version: '1.0.0', list: [{ id: 1, spanish: 'hola' }] });
+      await db.loadVocabularyFromJSON('/a1.json', 'a1');
+
+      mockFetch({ version: '1.0.0', list: [{ id: 10001, spanish: 'si' }] });
+      await db.loadVocabularyFromJSON('/a2.json', 'a2');
+
+      expect(await db.getVocabularyCountForLevel('a1')).toBe(1);
+      expect(await db.getVocabularyCountForLevel('a2')).toBe(1);
+    });
+
     it('throws when the fetch response is not ok', async () => {
       vi.stubGlobal('fetch', vi.fn().mockResolvedValue({ ok: false, statusText: 'Not Found' }));
       await expect(db.loadVocabularyFromJSON('/missing.json', 'a1')).rejects.toThrow();
+    });
+  });
+
+  describe('v6 migration', () => {
+    it('backfills VocabularyEntry.level (from the id block) and UserProgress.masteredAt (from lastPracticed) on an existing v5 database', async () => {
+      // Simulate an existing user's on-disk v5 data by opening the same
+      // database by hand, bypassing lib/indexedDB's own (v6) schema, and
+      // writing rows in the pre-migration shape: no `level` on the
+      // vocabulary entry, no `masteredAt` on the mastered progress row.
+      const legacyDb: IDBDatabase = await new Promise((resolve, reject) => {
+        const request = indexedDB.open('VocabTranslatorDB', 5);
+        request.onupgradeneeded = (event) => {
+          const upgradeDb = (event.target as IDBOpenDBRequest).result;
+          const vocabStore = upgradeDb.createObjectStore('vocabulary', { keyPath: 'id' });
+          vocabStore.createIndex('Category', 'Category', { unique: false });
+          vocabStore.createIndex('Class', 'Class', { unique: false });
+          const progressStore = upgradeDb.createObjectStore('userProgress', { keyPath: 'id', autoIncrement: true });
+          progressStore.createIndex('vocabularyId', 'vocabularyId', { unique: true });
+          progressStore.createIndex('lastPracticed', 'lastPracticed', { unique: false });
+          progressStore.createIndex('masteryLevel', 'masteryLevel', { unique: false });
+        };
+        request.onsuccess = () => resolve(request.result);
+        request.onerror = () => reject(request.error);
+      });
+
+      await new Promise<void>((resolve, reject) => {
+        const tx = legacyDb.transaction(['vocabulary', 'userProgress'], 'readwrite');
+        tx.objectStore('vocabulary').add({
+          id: 10001, English: 'yes', Español: 'si', Français: 'oui', Category: 'basic', Class: 'adverb',
+        });
+        tx.objectStore('userProgress').add({
+          vocabularyId: 10001,
+          successCount: 3,
+          failCount: 0,
+          currentStreak: 3,
+          bestStreak: 3,
+          lastPracticed: '2026-01-01T00:00:00.000Z',
+          attemptHistory: [true, true, true],
+          masteryLevel: 3,
+        });
+        tx.oncomplete = () => resolve();
+        tx.onerror = () => reject(tx.error);
+      });
+      legacyDb.close();
+
+      // Any lib/indexedDB.ts call now opens the same on-disk database at
+      // DB_VERSION 6, triggering the upgrade under test.
+      expect(await db.getVocabularyCountForLevel('a2')).toBe(1);
+
+      const [entry] = await db.getMasteredVocabulary(['a2'], 10);
+      expect(entry).toMatchObject({ id: 10001, level: 'a2' });
+
+      const progress = await db.getUserProgress(10001);
+      expect(progress?.masteredAt).toBe('2026-01-01T00:00:00.000Z');
     });
   });
 });

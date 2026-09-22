@@ -9,10 +9,6 @@
     "retryMessage": "Réessaye ! 💪",
     "hintPrefix": "Indice: Commence par"
   },
-  "Home": {
-    "masteryProgress": "Progression de maîtrise",
-    "masteredWords": "mots maîtrisés (3 réussites consécutives)"
-  },
   "SpanishKeyboard": {
     "space": "espacio"
   },
@@ -37,5 +33,24 @@
     "heading": "Aujourd'hui",
     "ariaLabel": "{count} mots sur {goal} correctement répondus aujourd'hui. {masteredToday} mots maîtrisés aujourd'hui.",
     "ariaLabelCompleted": "Objectif du jour atteint : {count} mots sur {goal}. {masteredToday} mots maîtrisés aujourd'hui."
+  },
+  "Nav": {
+    "learn": "Apprendre",
+    "revise": "Réviser",
+    "ariaLabel": "Navigation principale"
+  },
+  "Revision": {
+    "gateTitle": "Continue à apprendre !",
+    "gateBody": "Il te faut {required} mots maîtrisés pour débloquer la révision. Tu en as {mastered}.",
+    "sessionComplete": "Séance de révision terminée pour aujourd'hui 🎉",
+    "scopeLevel": "Ce niveau",
+    "scopeAll": "Tous les niveaux",
+    "scopeToggleLabel": "Mots à réviser",
+    "poolCount": "{count} mots maîtrisés"
+  },
+  "RevisionGoal": {
+    "heading": "Révision du jour",
+    "ariaLabel": "{count} mots sur {goal} révisés aujourd'hui.",
+    "ariaLabelCompleted": "Objectif de révision atteint : {count} mots sur {goal}."
   }
 }

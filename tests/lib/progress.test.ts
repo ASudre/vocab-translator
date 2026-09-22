@@ -8,11 +8,29 @@ import {
   computeMasteryStats,
   computeLifetimeWordsCorrect,
   computeMasteredToday,
+  levelForVocabularyId,
+  pickRandom,
   selectUnmastered,
+  selectMastered,
   normalizeVocabularyEntries,
   needsVocabularyReload,
 } from '@/lib/progress';
 import { UserProgress, VocabularyEntry } from '@/lib/indexedDB';
+
+describe('levelForVocabularyId', () => {
+  it('maps an id to the level whose 10000-wide block contains it', () => {
+    expect(levelForVocabularyId(1)).toBe('a1');
+    expect(levelForVocabularyId(1737)).toBe('a1');
+    expect(levelForVocabularyId(10001)).toBe('a2');
+    expect(levelForVocabularyId(20993)).toBe('b1');
+    expect(levelForVocabularyId(30001)).toBe('b2');
+    expect(levelForVocabularyId(40708)).toBe('c1');
+  });
+
+  it('throws for an id outside every known block', () => {
+    expect(() => levelForVocabularyId(50000)).toThrow();
+  });
+});
 
 describe('appendAttempt', () => {
   it('appends to an empty/undefined history', () => {
@@ -128,6 +146,63 @@ describe('computeNextProgress', () => {
     expect(result.attemptHistory).toEqual([true, true, true]);
     expect(result.masteryLevel).toBe(MASTERY_THRESHOLD);
   });
+
+  it('sets masteredAt on the transition into mastery', () => {
+    const existing: UserProgress = {
+      id: 1,
+      vocabularyId: 42,
+      successCount: 2,
+      failCount: 0,
+      currentStreak: 2,
+      bestStreak: 2,
+      lastPracticed: '2026-01-01T00:00:00.000Z',
+      attemptHistory: [true, true],
+      masteryLevel: 2,
+    };
+    const result = computeNextProgress(existing, true, '2026-01-02T00:00:00.000Z');
+    expect(result.masteryLevel).toBe(MASTERY_THRESHOLD);
+    expect(result.masteredAt).toBe('2026-01-02T00:00:00.000Z');
+  });
+
+  it('does not move masteredAt when an already-mastered word is answered correctly again (revision)', () => {
+    const existing: UserProgress = {
+      id: 1,
+      vocabularyId: 42,
+      successCount: 3,
+      failCount: 0,
+      currentStreak: 3,
+      bestStreak: 3,
+      lastPracticed: '2026-01-01T00:00:00.000Z',
+      attemptHistory: [true, true, true],
+      masteryLevel: 3,
+      masteredAt: '2026-01-01T00:00:00.000Z',
+    };
+    const result = computeNextProgress(existing, true, '2026-03-05T00:00:00.000Z');
+    expect(result.masteryLevel).toBe(MASTERY_THRESHOLD);
+    expect(result.lastPracticed).toBe('2026-03-05T00:00:00.000Z');
+    expect(result.masteredAt).toBe('2026-01-01T00:00:00.000Z');
+  });
+
+  it('preserves the stale masteredAt when a mastered word is demoted by a wrong answer', () => {
+    const existing: UserProgress = {
+      id: 1,
+      vocabularyId: 42,
+      successCount: 3,
+      failCount: 0,
+      currentStreak: 3,
+      bestStreak: 3,
+      lastPracticed: '2026-01-01T00:00:00.000Z',
+      attemptHistory: [true, true, true],
+      masteryLevel: 3,
+      masteredAt: '2026-01-01T00:00:00.000Z',
+    };
+    const result = computeNextProgress(existing, false, '2026-03-05T00:00:00.000Z');
+    expect(result.masteryLevel).toBe(0);
+    // Stale on purpose: computeMasteredToday gates on masteryLevel === 3, so a
+    // demoted word's leftover masteredAt is never read until it re-masters
+    // and overwrites it.
+    expect(result.masteredAt).toBe('2026-01-01T00:00:00.000Z');
+  });
 });
 
 describe('computeMasteryStats', () => {
@@ -202,7 +277,7 @@ describe('computeLifetimeWordsCorrect', () => {
 });
 
 describe('computeMasteredToday', () => {
-  const progressAt = (vocabularyId: number, masteryLevel: number, lastPracticed: string): UserProgress => ({
+  const progressAt = (vocabularyId: number, masteryLevel: number, masteredAt: string | undefined, lastPracticed = masteredAt ?? '2026-03-05T08:00:00.000Z'): UserProgress => ({
     vocabularyId,
     successCount: masteryLevel,
     failCount: 0,
@@ -211,6 +286,7 @@ describe('computeMasteredToday', () => {
     lastPracticed,
     attemptHistory: [],
     masteryLevel,
+    masteredAt,
   });
 
   const today = new Date('2026-03-05T12:00:00.000Z');
@@ -219,13 +295,20 @@ describe('computeMasteredToday', () => {
     expect(computeMasteredToday([], today)).toBe(0);
   });
 
-  it('counts only words mastered (3 consecutive successes) last practiced today', () => {
+  it('counts only words mastered (3 consecutive successes) with masteredAt today', () => {
     const progress = [
       progressAt(1, MASTERY_THRESHOLD, '2026-03-05T08:00:00.000Z'), // mastered today
       progressAt(2, MASTERY_THRESHOLD, '2026-03-04T08:00:00.000Z'), // mastered yesterday
-      progressAt(3, 2, '2026-03-05T08:00:00.000Z'), // not yet mastered
+      progressAt(3, 2, undefined), // not yet mastered
     ];
     expect(computeMasteredToday(progress, today)).toBe(1);
+  });
+
+  it('does not count a word mastered yesterday but revised (lastPracticed bumped) today', () => {
+    const progress = [
+      progressAt(1, MASTERY_THRESHOLD, '2026-03-04T08:00:00.000Z', '2026-03-05T09:00:00.000Z'),
+    ];
+    expect(computeMasteredToday(progress, today)).toBe(0);
   });
 
   it('is not scoped to a single level', () => {
@@ -237,51 +320,97 @@ describe('computeMasteredToday', () => {
   });
 });
 
-describe('selectUnmastered', () => {
-  const vocab: VocabularyEntry[] = [1, 2, 3, 4, 5].map(id => ({
+describe('pickRandom', () => {
+  const entries = [1, 2, 3, 4, 5];
+
+  it('returns at most `count` entries', () => {
+    expect(pickRandom(entries, 2, () => 0)).toHaveLength(2);
+  });
+
+  it('returns fewer than `count` when the pool is smaller', () => {
+    expect(pickRandom(entries, 10, () => 0)).toHaveLength(5);
+  });
+
+  it('is deterministic for a fixed random function (regression pin, not a claim about shuffle quality)', () => {
+    const a = pickRandom(entries, 5, () => 0.5);
+    const b = pickRandom(entries, 5, () => 0.5);
+    expect(a).toEqual(b);
+  });
+});
+
+const makeVocab = (ids: number[], level: VocabularyEntry['level'] = 'a1'): VocabularyEntry[] =>
+  ids.map(id => ({
     id,
     English: `en${id}`,
     Español: `es${id}`,
     Français: `fr${id}`,
     Category: 'cat',
     Class: 'noun',
+    level,
   }));
+
+describe('selectUnmastered', () => {
+  const vocab = makeVocab([1, 2, 3, 4, 5]);
 
   it('excludes mastered word ids', () => {
     const result = selectUnmastered(vocab, new Set([1, 2]), 10, () => 0);
     expect(result.map(v => v.id).sort()).toEqual([3, 4, 5]);
   });
 
-  it('returns at most `count` entries', () => {
-    const result = selectUnmastered(vocab, new Set(), 2, () => 0);
-    expect(result).toHaveLength(2);
-  });
-
-  it('returns fewer than `count` when the pool is smaller', () => {
-    const result = selectUnmastered(vocab, new Set([1, 2, 3, 4]), 10, () => 0);
-    expect(result).toHaveLength(1);
-    expect(result[0].id).toBe(5);
-  });
-
   it('returns an empty array when every word is mastered', () => {
     const result = selectUnmastered(vocab, new Set([1, 2, 3, 4, 5]), 10, () => 0);
     expect(result).toEqual([]);
   });
+});
 
-  it('is deterministic for a fixed random function (regression pin, not a claim about shuffle quality)', () => {
-    const a = selectUnmastered(vocab, new Set(), 5, () => 0.5);
-    const b = selectUnmastered(vocab, new Set(), 5, () => 0.5);
-    expect(a).toEqual(b);
+describe('selectMastered', () => {
+  const vocab = makeVocab([1, 2, 3, 4, 5]);
+  const practicedAt = (vocabularyId: number, lastPracticed: string) => ({ vocabularyId, lastPracticed });
+
+  it('orders results oldest-practiced-first', () => {
+    const progress = [
+      practicedAt(1, '2026-03-03T00:00:00.000Z'),
+      practicedAt(2, '2026-03-01T00:00:00.000Z'),
+      practicedAt(3, '2026-03-02T00:00:00.000Z'),
+    ];
+    const result = selectMastered(vocab, progress, 10);
+    expect(result.map(v => v.id)).toEqual([2, 3, 1]);
+  });
+
+  it('only includes ids with mastered progress, ignoring the rest of allVocab', () => {
+    const progress = [practicedAt(1, '2026-03-01T00:00:00.000Z'), practicedAt(2, '2026-03-02T00:00:00.000Z')];
+    const result = selectMastered(vocab, progress, 10);
+    expect(result.map(v => v.id)).toEqual([1, 2]);
+  });
+
+  it('drops a mastered id whose vocabulary entry is not in allVocab', () => {
+    const progress = [practicedAt(1, '2026-03-01T00:00:00.000Z'), practicedAt(999, '2026-03-02T00:00:00.000Z')];
+    const result = selectMastered(vocab, progress, 10);
+    expect(result.map(v => v.id)).toEqual([1]);
+  });
+
+  it('returns at most `count`, keeping the oldest', () => {
+    const progress = [
+      practicedAt(1, '2026-03-03T00:00:00.000Z'),
+      practicedAt(2, '2026-03-01T00:00:00.000Z'),
+      practicedAt(3, '2026-03-02T00:00:00.000Z'),
+    ];
+    const result = selectMastered(vocab, progress, 2);
+    expect(result.map(v => v.id)).toEqual([2, 3]);
+  });
+
+  it('returns an empty array when nothing is mastered', () => {
+    expect(selectMastered(vocab, [], 10)).toEqual([]);
   });
 });
 
 describe('normalizeVocabularyEntries', () => {
-  it('normalizes a bare array using lowercase field names', () => {
+  it('normalizes a bare array using lowercase field names, stamped with the given level', () => {
     const result = normalizeVocabularyEntries([
       { id: 1, spanish: 'hola', french: 'bonjour', english: 'hello', category: 'greeting', class: 'interjection' },
-    ]);
+    ], 'a1');
     expect(result).toEqual([
-      { id: 1, English: 'hello', Español: 'hola', Français: 'bonjour', Category: 'greeting', Class: 'interjection' },
+      { id: 1, English: 'hello', Español: 'hola', Français: 'bonjour', Category: 'greeting', Class: 'interjection', level: 'a1' },
     ]);
   });
 
@@ -289,36 +418,32 @@ describe('normalizeVocabularyEntries', () => {
     const result = normalizeVocabularyEntries({
       version: '1.0.0',
       list: [{ id: 2, Español: 'adios', Français: 'au revoir', English: 'goodbye', Category: 'greeting', Class: 'interjection' }],
-    });
+    }, 'a2');
     expect(result).toEqual([
-      { id: 2, English: 'goodbye', Español: 'adios', Français: 'au revoir', Category: 'greeting', Class: 'interjection' },
+      { id: 2, English: 'goodbye', Español: 'adios', Français: 'au revoir', Category: 'greeting', Class: 'interjection', level: 'a2' },
     ]);
   });
 
   it('defaults missing fields to an empty string', () => {
-    const result = normalizeVocabularyEntries([{ id: 3 }]);
-    expect(result).toEqual([{ id: 3, English: '', Español: '', Français: '', Category: '', Class: '' }]);
+    const result = normalizeVocabularyEntries([{ id: 3 }], 'a1');
+    expect(result).toEqual([{ id: 3, English: '', Español: '', Français: '', Category: '', Class: '', level: 'a1' }]);
   });
 
   it('returns an empty array when list is missing from an object payload', () => {
-    expect(normalizeVocabularyEntries({ version: '1.0.0' })).toEqual([]);
+    expect(normalizeVocabularyEntries({ version: '1.0.0' }, 'a1')).toEqual([]);
   });
 });
 
 describe('needsVocabularyReload', () => {
-  it('reloads when nothing is currently loaded', () => {
-    expect(needsVocabularyReload({ count: 0, activeLevel: null, level: 'a1', storedVersion: null, jsonVersion: '1.0.0' })).toBe(true);
+  it('reloads when the level has nothing loaded yet', () => {
+    expect(needsVocabularyReload({ levelCount: 0, storedVersion: null, jsonVersion: '1.0.0' })).toBe(true);
   });
 
-  it('does not reload when the same level and version are already loaded', () => {
-    expect(needsVocabularyReload({ count: 10, activeLevel: 'a1', level: 'a1', storedVersion: '1.0.0', jsonVersion: '1.0.0' })).toBe(false);
-  });
-
-  it('reloads when the active level differs', () => {
-    expect(needsVocabularyReload({ count: 10, activeLevel: 'a1', level: 'a2', storedVersion: '1.0.0', jsonVersion: '1.0.0' })).toBe(true);
+  it('does not reload when the level is loaded and its version matches', () => {
+    expect(needsVocabularyReload({ levelCount: 10, storedVersion: '1.0.0', jsonVersion: '1.0.0' })).toBe(false);
   });
 
   it('reloads when the stored version differs from the fetched version', () => {
-    expect(needsVocabularyReload({ count: 10, activeLevel: 'a1', level: 'a1', storedVersion: '1.0.0', jsonVersion: '1.0.1' })).toBe(true);
+    expect(needsVocabularyReload({ levelCount: 10, storedVersion: '1.0.0', jsonVersion: '1.0.1' })).toBe(true);
   });
 });

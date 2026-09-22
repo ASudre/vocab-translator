@@ -3,6 +3,11 @@ import { screen, waitFor, fireEvent, act } from '@testing-library/react';
 import { IDBFactory } from 'fake-indexeddb';
 import { renderWithIntl } from '../helpers/renderWithIntl';
 
+// Home renders BottomNav, which calls next/navigation's usePathname - real
+// only inside the App Router, so it's mocked here the same way as in
+// tests/components/BottomNav.test.tsx.
+vi.mock('next/navigation', () => ({ usePathname: () => '/fr/' }));
+
 const vocabPayload = {
   version: '1.0.0',
   list: [

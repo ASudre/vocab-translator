@@ -75,6 +75,17 @@ describe('vocabulary data contract (public/*.json)', () => {
     expect(missingInEn).toEqual([]);
   });
 
+  it('keeps every level\'s ids inside its dedicated 10000-wide block, so a level is derivable from an id alone', () => {
+    // lib/progress.ts's levelForVocabularyId relies on this block layout to
+    // migrate existing userProgress rows (which have no stored level) and to
+    // resolve which levels' JSON to load for an "all levels" revision pool.
+    const blockOf = (id: number) => Math.floor(id / 10000);
+    const expectedBlock: Record<string, number> = { a1: 0, a2: 1, b1: 2, b2: 3, c1: 4 };
+
+    const offenders = allEntries.filter(e => blockOf(e.id) !== expectedBlock[e.level]);
+    expect(offenders.map(e => `${e.level}#${e.id} -> block ${blockOf(e.id)}, expected ${expectedBlock[e.level]}`)).toEqual([]);
+  });
+
   it('never asks the same French prompt (same word, same class) for two different Spanish answers', () => {
     // The word-class badge is the only thing that disambiguates two entries
     // sharing a French prompt (e.g. a noun vs. a verb) — so within the same

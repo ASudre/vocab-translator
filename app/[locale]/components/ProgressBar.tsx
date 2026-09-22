@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import { MasteryDots } from './MasteryDots';
 
 interface ProgressBarProps {
   masteryStats: {
@@ -16,11 +17,7 @@ export function ProgressBar({ masteryStats }: ProgressBarProps) {
         <span className="text-xs text-gray-500 dark:text-gray-400">
           {masteryStats.mastered} {t('on')} {masteryStats.total}
         </span>
-        <span className="flex gap-0.5 ml-1">
-          <span className="w-1.5 h-1.5 rounded-full bg-green-500"></span>
-          <span className="w-1.5 h-1.5 rounded-full bg-green-500"></span>
-          <span className="w-1.5 h-1.5 rounded-full bg-green-500"></span>
-        </span>
+        <MasteryDots className="ml-1" />
       </div>
       <div className="flex items-center gap-3">
         <span className="w-1.5 h-1.5 rounded-full bg-green-500"></span>

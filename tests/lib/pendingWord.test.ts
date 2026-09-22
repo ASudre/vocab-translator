@@ -1,10 +1,15 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import { LEVEL_STORAGE_KEY, pendingWordKey, isCEFRLevel, readPendingWord } from '@/lib/pendingWord';
+import { LEVEL_STORAGE_KEY, pendingWordKey, isCEFRLevel, readPendingWord, writePendingWord, clearPendingWord } from '@/lib/pendingWord';
 
 describe('pendingWordKey', () => {
-  it('namespaces the key per level', () => {
+  it('namespaces the key per session, and a bare level stays byte-identical (back-compat)', () => {
     expect(pendingWordKey('a1')).toBe('vocabDB_pendingWord_a1');
     expect(pendingWordKey('c1')).toBe('vocabDB_pendingWord_c1');
+  });
+
+  it('supports non-level session keys, e.g. revision', () => {
+    expect(pendingWordKey('revise_a1')).toBe('vocabDB_pendingWord_revise_a1');
+    expect(pendingWordKey('revise_all')).toBe('vocabDB_pendingWord_revise_all');
   });
 });
 
@@ -59,5 +64,49 @@ describe('readPendingWord', () => {
   it('is scoped per level', () => {
     localStorage.setItem(pendingWordKey('a1'), JSON.stringify({ vocabularyId: 1 }));
     expect(readPendingWord('a2')).toBeNull();
+  });
+});
+
+describe('writePendingWord / clearPendingWord', () => {
+  beforeEach(() => {
+    localStorage.clear();
+  });
+
+  it('stores a word with attempt state reset to blank, keyed by session', () => {
+    writePendingWord('a1', {
+      vocabularyId: 1,
+      spanish: 'hola',
+      french: 'bonjour',
+      class: 'interjection',
+      category: 'greeting',
+      userAnswer: 'ho', // in-progress typing - must not be persisted
+      isCorrect: null,
+      showSolution: false,
+      attemptHistory: [true, false],
+      progressSaved: false,
+    });
+
+    expect(readPendingWord('a1')).toEqual({
+      vocabularyId: 1,
+      spanish: 'hola',
+      french: 'bonjour',
+      class: 'interjection',
+      category: 'greeting',
+      userAnswer: '',
+      isCorrect: null,
+      showSolution: false,
+      attemptHistory: [true, false],
+      progressSaved: false,
+    });
+  });
+
+  it('clearPendingWord removes only the given session', () => {
+    writePendingWord('a1', { vocabularyId: 1, spanish: 'hola', french: 'bonjour', class: 'interjection', category: 'greeting' });
+    writePendingWord('revise_a1', { vocabularyId: 2, spanish: 'adios', french: 'au revoir', class: 'interjection', category: 'greeting' });
+
+    clearPendingWord('a1');
+
+    expect(readPendingWord('a1')).toBeNull();
+    expect(readPendingWord('revise_a1')).not.toBeNull();
   });
 });
