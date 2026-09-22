@@ -59,7 +59,7 @@ export const RevisionTopBar = memo(function RevisionTopBar({
               </button>
             </div>
           </div>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 flex-col">
             <div
               className="flex items-center gap-1 text-xs font-medium text-gray-500 dark:text-gray-400"
               title={t('poolCount', { count: poolCount })}
@@ -68,15 +68,13 @@ export const RevisionTopBar = memo(function RevisionTopBar({
               {poolCount}
               <MasteryDots />
             </div>
-            {demotedCount > 0 && (
-              <div
-                className="flex items-center gap-1 text-xs font-medium text-amber-600 dark:text-amber-400"
-                title={t('backToLearning', { count: demotedCount })}
-                aria-label={t('backToLearning', { count: demotedCount })}
-              >
-                {demotedCount} <span aria-hidden="true">↩</span>
-              </div>
-            )}
+            <div
+              className="flex items-center gap-1 text-xs font-medium text-amber-600 dark:text-amber-400"
+              title={t('backToLearning', { count: demotedCount })}
+              aria-label={t('backToLearning', { count: demotedCount })}
+            >
+              {demotedCount} <span aria-hidden="true">↩</span>
+            </div>
           </div>
         </div>
       </div>
