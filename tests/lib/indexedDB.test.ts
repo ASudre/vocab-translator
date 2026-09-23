@@ -364,9 +364,9 @@ describe('lib/indexedDB', () => {
   describe('v6 migration', () => {
     it('backfills VocabularyEntry.level (from the id block) and UserProgress.masteredAt (from lastPracticed) on an existing v5 database', async () => {
       // Simulate an existing user's on-disk v5 data by opening the same
-      // database by hand, bypassing lib/indexedDB's own (v6) schema, and
-      // writing rows in the pre-migration shape: no `level` on the
-      // vocabulary entry, no `masteredAt` on the mastered progress row.
+      // database by hand, bypassing lib/indexedDB's own schema, and writing
+      // rows in the pre-migration shape: no `level` on the vocabulary
+      // entry, no `masteredAt` on the mastered progress row.
       const legacyDb: IDBDatabase = await new Promise((resolve, reject) => {
         const request = indexedDB.open('VocabTranslatorDB', 5);
         request.onupgradeneeded = (event) => {
@@ -403,8 +403,8 @@ describe('lib/indexedDB', () => {
       });
       legacyDb.close();
 
-      // Any lib/indexedDB.ts call now opens the same on-disk database at
-      // DB_VERSION 6, triggering the upgrade under test.
+      // Any lib/indexedDB.ts call now opens the same on-disk database at the
+      // current DB_VERSION, triggering the upgrade under test.
       expect(await db.getVocabularyCountForLevel('a2')).toBe(1);
 
       const [entry] = await db.getMasteredVocabulary(['a2'], 10);
@@ -412,6 +412,171 @@ describe('lib/indexedDB', () => {
 
       const progress = await db.getUserProgress(10001);
       expect(progress?.masteredAt).toBe('2026-01-01T00:00:00.000Z');
+    });
+  });
+
+  describe('sync queue (outbox)', () => {
+    it('does not enqueue an attempt when saveUserProgress is called without a syncContext (logged out)', async () => {
+      await db.saveUserProgress(1, true);
+      expect(await db.getSyncQueue()).toEqual([]);
+    });
+
+    it('enqueues an attempt in the same call that records progress, when logged in', async () => {
+      await db.saveUserProgress(1, true, { userId: 'user-1', level: 'a1', userAnswer: 'hola' });
+
+      const progress = await db.getUserProgress(1);
+      expect(progress).not.toBeNull();
+
+      const queue = await db.getSyncQueue();
+      expect(queue).toHaveLength(1);
+      expect(queue[0]).toMatchObject({
+        userId: 'user-1',
+        vocabularyId: 1,
+        level: 'a1',
+        isCorrect: true,
+        userAnswer: 'hola',
+      });
+      expect(typeof queue[0].id).toBe('string');
+      expect(queue[0].id.length).toBeGreaterThan(0);
+    });
+
+    it('queues one entry per attempt', async () => {
+      // Not asserting order: the store's keyPath is a random client-generated
+      // uuid, so getAll() returns key order, not insertion order. That's
+      // fine — the server replays by answeredAt, not by push order.
+      await db.saveUserProgress(1, true, { userId: 'user-1', level: 'a1' });
+      await db.saveUserProgress(2, false, { userId: 'user-1', level: 'a1' });
+
+      const queue = await db.getSyncQueue();
+      expect(queue.map(e => e.vocabularyId).sort()).toEqual([1, 2]);
+    });
+
+    it('removeSyncQueueEntries clears only the acknowledged entries', async () => {
+      await db.saveUserProgress(1, true, { userId: 'user-1', level: 'a1' });
+      await db.saveUserProgress(2, true, { userId: 'user-1', level: 'a1' });
+
+      const [first, second] = await db.getSyncQueue();
+      await db.removeSyncQueueEntries([first.id]);
+
+      const remaining = await db.getSyncQueue();
+      expect(remaining.map(e => e.id)).toEqual([second.id]);
+    });
+  });
+
+  describe('mergeServerProgress', () => {
+    it('creates a local row for a word with no existing local progress', async () => {
+      await db.mergeServerProgress([{
+        vocabularyId: 5,
+        successCount: 3,
+        failCount: 1,
+        currentStreak: 2,
+        bestStreak: 2,
+        attemptHistory: [true, true],
+        masteryLevel: 2,
+        lastPracticed: '2026-01-01T00:00:00.000Z',
+      }]);
+
+      const progress = await db.getUserProgress(5);
+      expect(progress).toMatchObject({ vocabularyId: 5, successCount: 3, masteryLevel: 2 });
+    });
+
+    it('overwrites an existing local row while preserving its local autoIncrement id', async () => {
+      await db.saveUserProgress(1, true); // local id 1, successCount 1
+      const before = await db.getUserProgress(1);
+
+      await db.mergeServerProgress([{
+        vocabularyId: 1,
+        successCount: 10,
+        failCount: 2,
+        currentStreak: 0,
+        bestStreak: 4,
+        attemptHistory: [false, false],
+        masteryLevel: 0,
+        lastPracticed: '2026-02-01T00:00:00.000Z',
+      }]);
+
+      const after = await db.getUserProgress(1);
+      expect(after?.id).toBe(before?.id);
+      expect(after).toMatchObject({ successCount: 10, failCount: 2, masteryLevel: 0 });
+    });
+
+    it('leaves local-only progress rows (not present in the server snapshot) untouched', async () => {
+      await db.saveUserProgress(1, true);
+      await db.saveUserProgress(2, true);
+
+      await db.mergeServerProgress([{
+        vocabularyId: 1,
+        successCount: 99,
+        failCount: 0,
+        currentStreak: 1,
+        bestStreak: 1,
+        attemptHistory: [true],
+        masteryLevel: 1,
+        lastPracticed: '2026-01-01T00:00:00.000Z',
+      }]);
+
+      const untouched = await db.getUserProgress(2);
+      expect(untouched?.successCount).toBe(1);
+    });
+  });
+
+  describe('v5 -> v7 migration (sync queue)', () => {
+    it('adds the syncQueue store without touching existing userProgress data', async () => {
+      vi.resetModules();
+      const factory = new IDBFactory();
+      (globalThis as unknown as { indexedDB: IDBFactory }).indexedDB = factory;
+
+      // Simulate a device that already has a v5 database (pre-sync-queue) with progress in it.
+      await new Promise<void>((resolve, reject) => {
+        const request = factory.open('VocabTranslatorDB', 5);
+        request.onupgradeneeded = () => {
+          const database = request.result;
+          database.createObjectStore('vocabulary', { keyPath: 'id' });
+          const progressStore = database.createObjectStore('userProgress', { keyPath: 'id', autoIncrement: true });
+          progressStore.createIndex('vocabularyId', 'vocabularyId', { unique: true });
+          progressStore.createIndex('lastPracticed', 'lastPracticed', { unique: false });
+          progressStore.createIndex('masteryLevel', 'masteryLevel', { unique: false });
+        };
+        request.onsuccess = () => {
+          const database = request.result;
+          const tx = database.transaction('userProgress', 'readwrite');
+          tx.objectStore('userProgress').add({
+            vocabularyId: 42,
+            successCount: 5,
+            failCount: 1,
+            currentStreak: 2,
+            bestStreak: 3,
+            lastPracticed: '2026-01-01T00:00:00.000Z',
+            attemptHistory: [true, true],
+            masteryLevel: 2,
+          });
+          tx.oncomplete = () => {
+            database.close();
+            resolve();
+          };
+          tx.onerror = () => reject(tx.error);
+        };
+        request.onerror = () => reject(request.error);
+      });
+
+      const migratedDb = await import('@/lib/indexedDB');
+
+      const preserved = await migratedDb.getUserProgress(42);
+      expect(preserved).toMatchObject({ vocabularyId: 42, successCount: 5, masteryLevel: 2 });
+
+      // The syncQueue store exists and is usable.
+      expect(await migratedDb.getSyncQueue()).toEqual([]);
+    });
+  });
+
+  describe('clearUserProgressAndQueue', () => {
+    it('clears both userProgress and the sync queue, for an identity switch to a different account', async () => {
+      await db.saveUserProgress(1, true, { userId: 'user-1', level: 'a1' });
+
+      await db.clearUserProgressAndQueue();
+
+      expect(await db.getUserProgress(1)).toBeNull();
+      expect(await db.getSyncQueue()).toEqual([]);
     });
   });
 });

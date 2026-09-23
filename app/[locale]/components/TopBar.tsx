@@ -2,6 +2,7 @@ import { memo } from 'react';
 import { CEFRLevel } from '@/hooks/useVocabularyDB';
 import { ProgressBar } from './ProgressBar';
 import { LevelSelector } from './LevelSelector';
+import { AccountButton } from './AccountButton';
 
 interface TopBarProps {
   masteryStats: {
@@ -22,6 +23,7 @@ export const TopBar = memo(function TopBar({ masteryStats, level, onLevelChange 
           <div className="flex-1 pl-4">
             <ProgressBar masteryStats={masteryStats} />
           </div>
+          <AccountButton />
         </div>
       </div>
     </div>

@@ -15,9 +15,18 @@ import {
 import { CEFRLevel } from './levels';
 
 const DB_NAME = 'VocabTranslatorDB';
-const DB_VERSION = 6;
+// 7, not 6: this app already shipped a v6 schema (level field + masteredAt
+// backfill, no syncQueue) before the auth/sync feature - which independently
+// needed a v6 of its own (syncQueue store, no level/masteredAt backfill) to
+// land on top of a pre-v5 schema. Reusing 6 for the merged schema would mean
+// onupgradeneeded never fires for anyone already sitting at either "v6" -
+// IndexedDB only upgrades on a version *increase*. Bumping to 7 guarantees
+// every existing installation (pre-v5, mid-session v6, or otherwise) is
+// upgraded to the one true combined schema below.
+const DB_VERSION = 7;
 const STORE_NAME = 'vocabulary';
 const PROGRESS_STORE_NAME = 'userProgress';
+const SYNC_QUEUE_STORE_NAME = 'syncQueue';
 
 export interface VocabularyEntry {
   id: number;
@@ -43,6 +52,21 @@ export interface UserProgress {
   masteredAt?: string;
   /** Set only on the transition out of MASTERY_THRESHOLD (a revision miss); see lib/progress.ts. */
   demotedAt?: string;
+}
+
+/**
+ * One answered word queued for the server. `id` is a client-generated uuid
+ * that also serves as the attempt's id, so a retried push is idempotent
+ * server-side. Only created while logged in (see saveUserProgress).
+ */
+export interface SyncQueueEntry {
+  id: string;
+  userId: string;
+  vocabularyId: number;
+  level: string;
+  isCorrect: boolean;
+  userAnswer: string | null;
+  answeredAt: string;
 }
 
 let dbInstance: IDBDatabase | null = null;
@@ -102,11 +126,10 @@ export const initDB = (): Promise<IDBDatabase> => {
         recreateVocabStore();
         console.log('Vocabulary store migrated to use stable IDs from JSON');
       } else if (oldVersion < 6) {
-        // Migration for version 6: the store now keeps every visited level
-        // resident at once (instead of clearing on level switch), so each
-        // entry needs to say which level it belongs to. Existing entries
-        // predate the field; recover it from the id block (see
-        // levelForVocabularyId) rather than losing the cached data.
+        // Entries from before the store kept every visited level resident at
+        // once (instead of clearing on level switch) predate the `level`
+        // field; recover it from the id block (see levelForVocabularyId)
+        // rather than losing the cached data.
         const vocabStore = tx.objectStore(STORE_NAME);
         if (!vocabStore.indexNames.contains('level')) {
           vocabStore.createIndex('level', 'level', { unique: false });
@@ -145,11 +168,11 @@ export const initDB = (): Promise<IDBDatabase> => {
         }
 
         if (oldVersion > 0 && oldVersion < 6) {
-          // Migration for version 6: masteredAt marks the moment a word most
-          // recently transitioned into mastery (see lib/progress.ts). Under
-          // the pre-v6 invariant a word reached mastery exactly once, so
-          // lastPracticed at that moment IS the mastery moment - backfill it
-          // exactly, not as a heuristic.
+          // masteredAt marks the moment a word most recently transitioned
+          // into mastery (see lib/progress.ts). Under the invariant that
+          // held before this field existed, a word reached mastery exactly
+          // once, so lastPracticed at that moment IS the mastery moment -
+          // backfill it exactly, not as a heuristic.
           progressStore.openCursor().onsuccess = (cursorEvent) => {
             const cursor = (cursorEvent.target as IDBRequest<IDBCursorWithValue | null>).result;
             if (!cursor) return;
@@ -160,6 +183,13 @@ export const initDB = (): Promise<IDBDatabase> => {
             cursor.continue();
           };
         }
+      }
+
+      // Unconditional (not gated on oldVersion): correct for every upgrade
+      // path precisely because DB_VERSION's bump to 7 guarantees this
+      // handler runs at least once for anyone who doesn't have it yet.
+      if (!db.objectStoreNames.contains(SYNC_QUEUE_STORE_NAME)) {
+        db.createObjectStore(SYNC_QUEUE_STORE_NAME, { keyPath: 'id' });
       }
     };
   });
@@ -518,11 +548,24 @@ export const getUserProgress = async (vocabularyId: number): Promise<UserProgres
   });
 };
 
-export const saveUserProgress = async (vocabularyId: number, isCorrect: boolean): Promise<void> => {
+/** Context needed to also queue this attempt for the server. Omit while logged out. */
+export interface SyncContext {
+  userId: string;
+  level: string;
+  userAnswer?: string;
+}
+
+export const saveUserProgress = async (
+  vocabularyId: number,
+  isCorrect: boolean,
+  syncContext?: SyncContext | null
+): Promise<void> => {
   const db = await initDB();
+  const now = new Date().toISOString();
 
   return new Promise((resolve, reject) => {
-    const transaction = db.transaction([PROGRESS_STORE_NAME], 'readwrite');
+    const storeNames = syncContext ? [PROGRESS_STORE_NAME, SYNC_QUEUE_STORE_NAME] : [PROGRESS_STORE_NAME];
+    const transaction = db.transaction(storeNames, 'readwrite');
     const objectStore = transaction.objectStore(PROGRESS_STORE_NAME);
     const index = objectStore.index('vocabularyId');
     const getRequest = index.get(vocabularyId);
@@ -531,7 +574,7 @@ export const saveUserProgress = async (vocabularyId: number, isCorrect: boolean)
       const existingProgress = getRequest.result as UserProgress | undefined;
 
       const progressData: UserProgress = {
-        ...computeNextProgress(existingProgress, isCorrect, new Date().toISOString()),
+        ...computeNextProgress(existingProgress, isCorrect, now),
         vocabularyId,
       };
 
@@ -539,6 +582,22 @@ export const saveUserProgress = async (vocabularyId: number, isCorrect: boolean)
         objectStore.put(progressData);
       } else {
         objectStore.add(progressData);
+      }
+
+      // Enqueued in the same transaction as the progress write so an
+      // attempt can never be recorded locally without also being queued
+      // for the server.
+      if (syncContext) {
+        const queueEntry: SyncQueueEntry = {
+          id: crypto.randomUUID(),
+          userId: syncContext.userId,
+          vocabularyId,
+          level: syncContext.level,
+          isCorrect,
+          userAnswer: syncContext.userAnswer ?? null,
+          answeredAt: now,
+        };
+        transaction.objectStore(SYNC_QUEUE_STORE_NAME).add(queueEntry);
       }
     };
 
@@ -611,5 +670,82 @@ export const getMasteryStats = async (level: CEFRLevel): Promise<{ total: number
     getLevelKeysRequest.onerror = () => {
       reject(new Error('Failed to get vocabulary ids'));
     };
+  });
+};
+
+export const getSyncQueue = async (): Promise<SyncQueueEntry[]> => {
+  const db = await initDB();
+
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction([SYNC_QUEUE_STORE_NAME], 'readonly');
+    const getAllRequest = transaction.objectStore(SYNC_QUEUE_STORE_NAME).getAll();
+
+    getAllRequest.onsuccess = () => resolve(getAllRequest.result);
+    getAllRequest.onerror = () => reject(new Error('Failed to read sync queue'));
+  });
+};
+
+/** Removes acknowledged entries once the server has confirmed it stored them. */
+export const removeSyncQueueEntries = async (ids: string[]): Promise<void> => {
+  if (ids.length === 0) return;
+  const db = await initDB();
+
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction([SYNC_QUEUE_STORE_NAME], 'readwrite');
+    const objectStore = transaction.objectStore(SYNC_QUEUE_STORE_NAME);
+    ids.forEach(id => objectStore.delete(id));
+
+    transaction.oncomplete = () => resolve();
+    transaction.onerror = () => reject(new Error('Failed to clear synced queue entries'));
+  });
+};
+
+/**
+ * Merges a server progress snapshot into IndexedDB: server rows win for
+ * words the server knows about, local-only rows are left untouched (they
+ * get re-offered as baseline on the next sync — see hooks/useSync.ts).
+ * Looks up by the vocabularyId index rather than inventing an `id`, since
+ * that index is unique and the store's autoIncrement `id` is local-only.
+ */
+export const mergeServerProgress = async (rows: Omit<UserProgress, 'id'>[]): Promise<void> => {
+  if (rows.length === 0) return;
+  const db = await initDB();
+
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction([PROGRESS_STORE_NAME], 'readwrite');
+    const objectStore = transaction.objectStore(PROGRESS_STORE_NAME);
+    const index = objectStore.index('vocabularyId');
+
+    rows.forEach(row => {
+      const getRequest = index.get(row.vocabularyId);
+      getRequest.onsuccess = () => {
+        const existing = getRequest.result as UserProgress | undefined;
+        if (existing) {
+          objectStore.put({ ...row, id: existing.id });
+        } else {
+          objectStore.add(row);
+        }
+      };
+    });
+
+    transaction.oncomplete = () => resolve();
+    transaction.onerror = () => reject(new Error('Failed to merge server progress'));
+  });
+};
+
+/**
+ * Called when a different account logs in on this device: the previous
+ * account's local progress must not leak into the new account's view.
+ */
+export const clearUserProgressAndQueue = async (): Promise<void> => {
+  const db = await initDB();
+
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction([PROGRESS_STORE_NAME, SYNC_QUEUE_STORE_NAME], 'readwrite');
+    transaction.objectStore(PROGRESS_STORE_NAME).clear();
+    transaction.objectStore(SYNC_QUEUE_STORE_NAME).clear();
+
+    transaction.oncomplete = () => resolve();
+    transaction.onerror = () => reject(new Error('Failed to clear local progress'));
   });
 };
