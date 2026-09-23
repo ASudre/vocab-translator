@@ -103,6 +103,48 @@ describe('lib/indexedDB', () => {
     });
   });
 
+  describe('restoreUserProgress', () => {
+    it('writes the given rows, readable back afterwards', async () => {
+      await db.restoreUserProgress([{
+        vocabularyId: 1,
+        successCount: 3,
+        failCount: 0,
+        currentStreak: 3,
+        bestStreak: 3,
+        lastPracticed: '2026-01-01T00:00:00.000Z',
+        attemptHistory: [true, true, true],
+        masteryLevel: 3,
+        masteredAt: '2026-01-01T00:00:00.000Z',
+      }]);
+
+      expect(await db.getUserProgress(1)).toMatchObject({ vocabularyId: 1, masteryLevel: 3 });
+    });
+
+    it('replaces existing local progress rather than merging with it', async () => {
+      await db.saveUserProgress(1, true); // a pre-existing local row not present in the restore
+
+      await db.restoreUserProgress([{
+        vocabularyId: 2,
+        successCount: 1,
+        failCount: 0,
+        currentStreak: 1,
+        bestStreak: 1,
+        lastPracticed: '2026-01-01T00:00:00.000Z',
+        attemptHistory: [true],
+        masteryLevel: 1,
+      }]);
+
+      expect(await db.getUserProgress(1)).toBeNull();
+      expect(await db.getUserProgress(2)).toMatchObject({ vocabularyId: 2, masteryLevel: 1 });
+    });
+
+    it('clears local progress when restoring an empty backup', async () => {
+      await db.saveUserProgress(1, true);
+      await db.restoreUserProgress([]);
+      expect(await db.getUserProgress(1)).toBeNull();
+    });
+  });
+
   describe('getUnmasteredVocabulary', () => {
     it('excludes words at mastery level 3', async () => {
       await db.importVocabulary(sampleEntries);

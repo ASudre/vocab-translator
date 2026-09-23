@@ -61,6 +61,19 @@
     "signedOutBody": "Connecte-toi avec Google pour garder ta progression liée à ton compte.",
     "cosmeticNotice": "Connexion affichée uniquement pour l'instant - la progression n'est pas encore liée à ton compte.",
     "signOut": "Se déconnecter",
-    "notConfigured": "La connexion Google n'est pas encore configurée."
+    "notConfigured": "La connexion Google n'est pas encore configurée.",
+    "driveHeading": "Sauvegarde",
+    "driveBody": "Sauvegarde ta progression sur ton Google Drive, ou restaure-la sur un nouvel appareil. Cela remplace les données de l'application par la sauvegarde restaurée.",
+    "backupButton": "Sauvegarder sur Drive",
+    "restoreButton": "Restaurer depuis Drive",
+    "restoreConfirm": "Restaurer la sauvegarde du {date} ? Cela va écraser ta progression actuelle sur cet appareil.",
+    "driveStatusRequestingAccess": "En attente de l'accès à Google Drive...",
+    "driveStatusUploading": "Sauvegarde en cours...",
+    "driveStatusDownloading": "Téléchargement de la sauvegarde...",
+    "driveStatusBackupSuccess": "Sauvegardé ✓",
+    "driveStatusRestoreSuccess": "Progression restaurée ✓",
+    "driveStatusNotFound": "Aucune sauvegarde trouvée sur ton Drive.",
+    "driveStatusInvalid": "Ce fichier de sauvegarde n'a pas pu être lu.",
+    "driveStatusError": "Une erreur est survenue. Réessaye."
   }
 }

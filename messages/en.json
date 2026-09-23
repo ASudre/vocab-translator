@@ -61,6 +61,19 @@
     "signedOutBody": "Sign in with Google to keep your progress with your account.",
     "cosmeticNotice": "Signed in for display only for now - progress isn't linked to your account yet.",
     "signOut": "Sign out",
-    "notConfigured": "Google sign-in isn't configured yet."
+    "notConfigured": "Google sign-in isn't configured yet.",
+    "driveHeading": "Backup",
+    "driveBody": "Save your progress to your Google Drive, or restore it on a new device. This replaces the app's data with whatever backup you restore.",
+    "backupButton": "Back up to Drive",
+    "restoreButton": "Restore from Drive",
+    "restoreConfirm": "Restore the backup from {date}? This will overwrite your current progress on this device.",
+    "driveStatusRequestingAccess": "Waiting for Google Drive access...",
+    "driveStatusUploading": "Backing up...",
+    "driveStatusDownloading": "Downloading backup...",
+    "driveStatusBackupSuccess": "Backed up ✓",
+    "driveStatusRestoreSuccess": "Progress restored ✓",
+    "driveStatusNotFound": "No backup found in your Drive yet.",
+    "driveStatusInvalid": "That backup file couldn't be read.",
+    "driveStatusError": "Something went wrong. Please try again."
   }
 }

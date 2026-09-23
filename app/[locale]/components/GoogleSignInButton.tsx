@@ -1,25 +1,9 @@
 'use client';
 
-import Script from 'next/script';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import { useTranslations } from 'next-intl';
 import { useGoogleAuth } from '@/hooks/useGoogleAuth';
-
-declare global {
-  interface Window {
-    google?: {
-      accounts: {
-        id: {
-          initialize: (config: {
-            client_id: string;
-            callback: (response: { credential: string }) => void;
-          }) => void;
-          renderButton: (parent: HTMLElement, options: Record<string, unknown>) => void;
-        };
-      };
-    };
-  }
-}
+import { useGoogleScriptLoaded } from '@/hooks/useGoogleScriptLoaded';
 
 // Baked in at build time (this app is statically exported - no runtime env).
 const GOOGLE_CLIENT_ID = process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID;
@@ -28,13 +12,14 @@ const GOOGLE_CLIENT_ID = process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID;
  * Renders Google's own "Sign in with Google" button. The script and the
  * button markup are Google's; this component's only job is wiring the
  * credential callback into useGoogleAuth (decode-only, not verified - see
- * lib/googleAuth.ts).
+ * lib/googleAuth.ts). The script itself is loaded once by the page (see
+ * profile/page.tsx) so it's shared with the Drive backup feature.
  */
 export function GoogleSignInButton() {
   const t = useTranslations('Profile');
   const { signInWithCredential } = useGoogleAuth();
+  const scriptLoaded = useGoogleScriptLoaded();
   const buttonRef = useRef<HTMLDivElement>(null);
-  const [scriptLoaded, setScriptLoaded] = useState(false);
 
   useEffect(() => {
     if (!scriptLoaded || !GOOGLE_CLIENT_ID || !buttonRef.current || !window.google) return;
@@ -58,14 +43,5 @@ export function GoogleSignInButton() {
     );
   }
 
-  return (
-    <>
-      <Script
-        src="https://accounts.google.com/gsi/client"
-        strategy="afterInteractive"
-        onLoad={() => setScriptLoaded(true)}
-      />
-      <div ref={buttonRef} />
-    </>
-  );
+  return <div ref={buttonRef} />;
 }

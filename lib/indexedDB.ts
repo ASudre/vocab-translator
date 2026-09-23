@@ -575,6 +575,27 @@ export const getAllUserProgress = async (): Promise<UserProgress[]> => {
   });
 };
 
+/**
+ * Replaces all local progress with the given rows - e.g. restoring a Google
+ * Drive backup. Clears the store first (rather than merging) so stale
+ * local-only rows don't linger alongside the restored ones, matching a
+ * "restore this backup" mental model rather than a sync.
+ */
+export const restoreUserProgress = async (rows: Omit<UserProgress, 'id'>[]): Promise<void> => {
+  const db = await initDB();
+
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction([PROGRESS_STORE_NAME], 'readwrite');
+    const objectStore = transaction.objectStore(PROGRESS_STORE_NAME);
+
+    objectStore.clear();
+    rows.forEach(row => objectStore.add(row));
+
+    transaction.oncomplete = () => resolve();
+    transaction.onerror = () => reject(new Error('Failed to restore progress'));
+  });
+};
+
 export const getMasteryStats = async (level: CEFRLevel): Promise<{ total: number; mastered: number; percentage: number; lifetimeWordsCorrect: number; masteredToday: number }> => {
   const db = await initDB();
 
