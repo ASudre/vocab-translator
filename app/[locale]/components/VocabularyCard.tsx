@@ -49,7 +49,7 @@ const WordHeader = memo(function WordHeader({
 
   return (
     <>
-      <span className="absolute top-2 right-2 px-2 py-1 text-xs font-semibold rounded-full bg-indigo-100 dark:bg-indigo-900 text-indigo-700 dark:text-indigo-300">
+      <span className="absolute top-4 right-4 px-2 py-1 text-xs font-semibold rounded-full bg-indigo-100 dark:bg-indigo-900 text-indigo-700 dark:text-indigo-300">
         {tClass(wordClass as 'adjective' | 'adverb' | 'interjection' | 'noun' | 'number' | 'phrase' | 'preposition' | 'pronoun' | 'verb')}
       </span>
 
@@ -72,7 +72,7 @@ export function VocabularyCard({
   const inputRef = useRef<HTMLInputElement>(null);
 
   return (
-    <div className={`relative bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-2 sm:p-8 md:p-12 transition-all ${word.isCorrect === true
+    <div className={`relative bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-4 sm:p-8 md:p-12 transition-all ${word.isCorrect === true
       ? 'ring-4 ring-green-500 ring-offset-0'
       : word.isCorrect === false && !word.showSolution
         ? 'ring-4 ring-red-500 ring-offset-0'
