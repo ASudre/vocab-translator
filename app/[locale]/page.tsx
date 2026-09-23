@@ -128,11 +128,11 @@ export default function Home() {
 
   return (
     <>
-      <div className="container mx-auto p-4 flex flex-col gap-4">
+      <div className="container mx-auto pt-4 px-4 flex flex-col gap-4">
         <TopBar masteryStats={masteryStats} level={level} onLevelChange={handleLevelChange} />
         <DailyGoal stats={statsDisplay} />
       </div>
-      <main className="flex-1 overflow-y-auto container mx-auto px-4">
+      <main className="flex-1 overflow-y-auto container mx-auto px-4 pt-4 pb-4">
         <PracticeArea
           words={words}
           currentWord={currentWord}
