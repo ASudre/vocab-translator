@@ -188,8 +188,6 @@ export default function Revision() {
         )}
       </main>
 
-      <BottomNav />
-
       <FixedKeyboard
         hasCurrentWord={!!currentWord}
         showSolution={currentWord?.showSolution || false}
@@ -200,6 +198,8 @@ export default function Revision() {
         onToggleSolution={handleToggleSolution}
         onNext={goToNext}
       />
+
+      <BottomNav />
     </>
   );
 }

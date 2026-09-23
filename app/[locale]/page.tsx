@@ -141,8 +141,6 @@ export default function Home() {
         />
       </main>
 
-      <BottomNav />
-
       <FixedKeyboard
         hasCurrentWord={!!currentWord}
         showSolution={currentWord?.showSolution || false}
@@ -153,6 +151,8 @@ export default function Home() {
         onToggleSolution={handleToggleSolution}
         onNext={goToNext}
       />
+
+      <BottomNav />
     </>
   );
 }
