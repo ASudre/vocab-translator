@@ -158,11 +158,11 @@ export default function Revision() {
 
   return (
     <>
-      <div className="container mx-auto pt-4 px-4 pb-4 flex flex-col gap-4">
+      <div className="container mx-auto pt-4 px-4 pb-2 flex flex-col gap-4">
         <TopBar masteryStats={masteryStats} level={level} onLevelChange={handleLevelChange} />
         <RevisionGoal stats={goalDisplay} demotedToday={demotedTodayCount} />
       </div>
-      <main className="flex-1 overflow-y-auto overflow-x-hidden container mx-auto px-4 pb-6">
+      <main className="flex-1 overflow-y-auto overflow-x-hidden container mx-auto px-4 pb-6 pt-2">
         {gateStatus === 'locked' && (
           <div className="bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-6 sm:p-8 text-center">
             <h2 className="text-lg font-bold text-gray-900 dark:text-white mb-2">{t('gateTitle')}</h2>
