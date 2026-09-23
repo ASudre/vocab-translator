@@ -8,7 +8,6 @@ import {
   computeMasteryStats,
   computeLifetimeWordsCorrect,
   computeMasteredToday,
-  computeDemotedCount,
   computeDemotedToday,
   levelForVocabularyId,
   pickRandom,
@@ -361,48 +360,6 @@ describe('computeMasteredToday', () => {
   });
 });
 
-describe('computeDemotedCount', () => {
-  const progressAt = (vocabularyId: number, masteryLevel: number, masteredAt: string | undefined): UserProgress => ({
-    vocabularyId,
-    successCount: masteryLevel,
-    failCount: 0,
-    currentStreak: masteryLevel,
-    bestStreak: masteryLevel,
-    lastPracticed: '2026-03-05T08:00:00.000Z',
-    attemptHistory: [],
-    masteryLevel,
-    masteredAt,
-  });
-
-  it('is 0 with no progress records', () => {
-    expect(computeDemotedCount([], null)).toBe(0);
-  });
-
-  it('counts a word below mastery that has a stale masteredAt (demoted after a revision miss)', () => {
-    const progress = [progressAt(1, 0, '2026-01-01T00:00:00.000Z')];
-    expect(computeDemotedCount(progress, null)).toBe(1);
-  });
-
-  it('does not count a currently mastered word', () => {
-    const progress = [progressAt(1, MASTERY_THRESHOLD, '2026-01-01T00:00:00.000Z')];
-    expect(computeDemotedCount(progress, null)).toBe(0);
-  });
-
-  it('does not count a word that has never been mastered (no masteredAt)', () => {
-    const progress = [progressAt(1, 1, undefined)];
-    expect(computeDemotedCount(progress, null)).toBe(0);
-  });
-
-  it('scopes to the given levels when not null', () => {
-    const progress = [
-      progressAt(1, 0, '2026-01-01T00:00:00.000Z'), // a1
-      progressAt(20001, 0, '2026-01-01T00:00:00.000Z'), // b1
-    ];
-    expect(computeDemotedCount(progress, ['a1'])).toBe(1);
-    expect(computeDemotedCount(progress, null)).toBe(2);
-  });
-});
-
 describe('computeDemotedToday', () => {
   const progressDemotedAt = (vocabularyId: number, masteryLevel: number, demotedAt: string | undefined): UserProgress => ({
     vocabularyId,
@@ -420,7 +377,7 @@ describe('computeDemotedToday', () => {
   const today = new Date('2026-03-05T12:00:00.000Z');
 
   it('is 0 with no progress records', () => {
-    expect(computeDemotedToday([], today)).toBe(0);
+    expect(computeDemotedToday([], today, 'a1')).toBe(0);
   });
 
   it('counts only words demoted today, not on another day', () => {
@@ -428,28 +385,29 @@ describe('computeDemotedToday', () => {
       progressDemotedAt(1, 0, '2026-03-05T08:00:00.000Z'), // demoted today
       progressDemotedAt(2, 0, '2026-03-04T08:00:00.000Z'), // demoted yesterday
     ];
-    expect(computeDemotedToday(progress, today)).toBe(1);
+    expect(computeDemotedToday(progress, today, 'a1')).toBe(1);
   });
 
   it('does not count a word demoted today that has since been re-mastered', () => {
     const progress = [
       { ...progressDemotedAt(1, MASTERY_THRESHOLD, '2026-03-05T08:00:00.000Z'), masteryLevel: MASTERY_THRESHOLD },
     ];
-    expect(computeDemotedToday(progress, today)).toBe(0);
+    expect(computeDemotedToday(progress, today, 'a1')).toBe(0);
   });
 
   it('does not count a word with no demotedAt (never demoted, or demoted before this field existed)', () => {
     const progress = [progressDemotedAt(1, 0, undefined)];
-    expect(computeDemotedToday(progress, today)).toBe(0);
+    expect(computeDemotedToday(progress, today, 'a1')).toBe(0);
   });
 
-  it('scopes to the given levels when not null', () => {
+  it('scopes to the given level', () => {
     const progress = [
       progressDemotedAt(1, 0, '2026-03-05T08:00:00.000Z'), // a1
       progressDemotedAt(20001, 0, '2026-03-05T09:00:00.000Z'), // b1
     ];
-    expect(computeDemotedToday(progress, today, ['a1'])).toBe(1);
-    expect(computeDemotedToday(progress, today, null)).toBe(2);
+    expect(computeDemotedToday(progress, today, 'a1')).toBe(1);
+    expect(computeDemotedToday(progress, today, 'b1')).toBe(1);
+    expect(computeDemotedToday(progress, today, 'a2')).toBe(0);
   });
 });
 

@@ -1,5 +1,4 @@
 import {
-  computeDemotedCount,
   computeDemotedToday,
   computeLifetimeWordsCorrect,
   computeMasteredToday,
@@ -263,17 +262,15 @@ export const getUnmasteredVocabulary = async (level: CEFRLevel, count: number): 
 
 /**
  * Mastered words available for revision, oldest-practiced-first (see
- * selectMastered). `levels === null` pools across every CEFR level the user
- * has ever mastered a word in; otherwise the pool is restricted to the given
- * levels. `excludeIds` (words already served this session) is filtered out
- * before ordering, so repeated calls advance through the queue instead of
- * returning the same stale front of the line every time. Progress can
- * outlive its entry's residency (a mastered level not (re)loaded yet this
- * session) - such ids are simply dropped rather than surfaced with missing
- * text.
+ * selectMastered), restricted to the given level. `excludeIds` (words
+ * already served this session) is filtered out before ordering, so repeated
+ * calls advance through the queue instead of returning the same stale front
+ * of the line every time. Progress can outlive its entry's residency (the
+ * level not (re)loaded yet this session) - such ids are simply dropped
+ * rather than surfaced with missing text.
  */
 export const getMasteredVocabulary = async (
-  levels: CEFRLevel[] | null,
+  level: CEFRLevel,
   count: number,
   excludeIds: number[] = []
 ): Promise<VocabularyEntry[]> => {
@@ -301,7 +298,7 @@ export const getMasteredVocabulary = async (
 
       getAllVocabRequest.onsuccess = () => {
         const allVocab = (getAllVocabRequest.result as VocabularyEntry[])
-          .filter(entry => levels === null || levels.includes(entry.level));
+          .filter(entry => entry.level === level);
 
         resolve(selectMastered(allVocab, masteredProgress, count));
       };
@@ -317,52 +314,8 @@ export const getMasteredVocabulary = async (
   });
 };
 
-/** Every CEFR level the user has mastered at least one word in, derived from ids alone (no entry residency required). */
-export const getMasteredLevels = async (): Promise<CEFRLevel[]> => {
-  const db = await initDB();
-
-  return new Promise((resolve, reject) => {
-    const transaction = db.transaction([PROGRESS_STORE_NAME], 'readonly');
-    const masteryIndex = transaction.objectStore(PROGRESS_STORE_NAME).index('masteryLevel');
-    const request = masteryIndex.getAll(IDBKeyRange.only(MASTERY_THRESHOLD));
-
-    request.onsuccess = () => {
-      const masteredProgress = request.result as UserProgress[];
-      const levels = new Set(masteredProgress.map(p => levelForVocabularyId(p.vocabularyId)));
-      resolve([...levels]);
-    };
-
-    request.onerror = () => {
-      reject(new Error('Failed to fetch mastered levels'));
-    };
-  });
-};
-
-/** Count of mastered words in scope, for the revision page's "master N words first" gate. */
-export const countMastered = async (levels: CEFRLevel[] | null): Promise<number> => {
-  const db = await initDB();
-
-  return new Promise((resolve, reject) => {
-    const transaction = db.transaction([PROGRESS_STORE_NAME], 'readonly');
-    const masteryIndex = transaction.objectStore(PROGRESS_STORE_NAME).index('masteryLevel');
-    const request = masteryIndex.getAll(IDBKeyRange.only(MASTERY_THRESHOLD));
-
-    request.onsuccess = () => {
-      const masteredProgress = request.result as UserProgress[];
-      const count = levels === null
-        ? masteredProgress.length
-        : masteredProgress.filter(p => levels.includes(levelForVocabularyId(p.vocabularyId))).length;
-      resolve(count);
-    };
-
-    request.onerror = () => {
-      reject(new Error('Failed to count mastered vocabulary'));
-    };
-  });
-};
-
-/** Count of words currently below mastery that were mastered before - i.e. sent back to learning by a revision wrong answer. */
-export const countDemoted = async (levels: CEFRLevel[] | null): Promise<number> => {
+/** Count of words demoted (sent back to learning) today, scoped to the given level. */
+export const countDemotedToday = async (level: CEFRLevel): Promise<number> => {
   const db = await initDB();
 
   return new Promise((resolve, reject) => {
@@ -370,25 +323,7 @@ export const countDemoted = async (levels: CEFRLevel[] | null): Promise<number> 
     const request = transaction.objectStore(PROGRESS_STORE_NAME).getAll();
 
     request.onsuccess = () => {
-      resolve(computeDemotedCount(request.result as UserProgress[], levels));
-    };
-
-    request.onerror = () => {
-      reject(new Error('Failed to count demoted vocabulary'));
-    };
-  });
-};
-
-/** Count of words demoted (sent back to learning) specifically today. */
-export const countDemotedToday = async (levels: CEFRLevel[] | null): Promise<number> => {
-  const db = await initDB();
-
-  return new Promise((resolve, reject) => {
-    const transaction = db.transaction([PROGRESS_STORE_NAME], 'readonly');
-    const request = transaction.objectStore(PROGRESS_STORE_NAME).getAll();
-
-    request.onsuccess = () => {
-      resolve(computeDemotedToday(request.result as UserProgress[], new Date(), levels));
+      resolve(computeDemotedToday(request.result as UserProgress[], new Date(), level));
     };
 
     request.onerror = () => {

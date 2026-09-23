@@ -155,40 +155,24 @@ export const computeMasteredToday = (allProgress: UserProgress[], today: Date = 
 };
 
 /**
- * Words currently sitting below mastery despite having been mastered at some
- * point before - i.e. a revision wrong answer sent them back to learning,
- * regardless of when. masteredAt survives a demotion as a stale marker (see
- * computeNextProgress), so its mere presence on a currently-unmastered word
- * is exactly that signal - this all-time count needs no extra field.
- * `levels === null` counts across every level, matching the convention
- * countMastered/getMasteredVocabulary use.
- */
-export const computeDemotedCount = (allProgress: UserProgress[], levels: CEFRLevel[] | null): number =>
-  allProgress.filter(p =>
-    p.masteryLevel !== MASTERY_THRESHOLD &&
-    p.masteredAt !== undefined &&
-    (levels === null || levels.includes(levelForVocabularyId(p.vocabularyId)))
-  ).length;
-
-/**
  * Words demoted (sent back to learning by a revision miss) specifically on
- * `today`. Unlike computeDemotedCount, this needs demotedAt - the moment a
- * word most recently transitioned OUT of mastery - since masteredAt alone
- * can't say when the demotion happened. Rows demoted before this field
- * existed simply have no demotedAt and are never counted, which is correct:
- * whether they were demoted "today" is unknowable.
+ * `today`, scoped to the given level. Needs demotedAt - the moment a word
+ * most recently transitioned OUT of mastery - since masteredAt alone can't
+ * say when the demotion happened. Rows demoted before this field existed
+ * simply have no demotedAt and are never counted, which is correct: whether
+ * they were demoted "today" is unknowable.
  */
 export const computeDemotedToday = (
   allProgress: UserProgress[],
   today: Date = new Date(),
-  levels: CEFRLevel[] | null = null
+  level: CEFRLevel
 ): number => {
   const todayKey = localDayKey(today);
   return allProgress.filter(p =>
     p.masteryLevel !== MASTERY_THRESHOLD &&
     p.demotedAt &&
     localDayKey(new Date(p.demotedAt)) === todayKey &&
-    (levels === null || levels.includes(levelForVocabularyId(p.vocabularyId)))
+    levelForVocabularyId(p.vocabularyId) === level
   ).length;
 };
 

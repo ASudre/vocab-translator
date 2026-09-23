@@ -43,12 +43,7 @@
   "Revision": {
     "gateTitle": "Keep learning!",
     "gateBody": "You need {required} mastered words to unlock revision. You have {mastered}.",
-    "sessionComplete": "Revision session complete for today 🎉",
-    "scopeLevel": "This level",
-    "scopeAll": "All levels",
-    "scopeToggleLabel": "Words to revise",
-    "poolCount": "{count} mastered words",
-    "backToLearning": "{count} words sent back to learning"
+    "sessionComplete": "Revision session complete for today 🎉"
   },
   "RevisionGoal": {
     "heading": "Today's revision",

@@ -34,15 +34,17 @@ export const GoalCard = memo(function GoalCard({
 
   return (
     <div className={cardClasses} title={ariaLabel} aria-label={ariaLabel}>
-      <div className="text-[10px] font-semibold uppercase tracking-wide text-gray-400 dark:text-gray-500 mb-1">
-        {heading}
-      </div>
-      <div className="flex items-center justify-between text-xs font-bold">
-        <span
-          className={`flex items-center gap-1 ${completed ? 'text-green-600 dark:text-green-400' : 'text-gray-500 dark:text-gray-400 font-normal'}`}
-        >
-          {count}/{goal} <span aria-hidden="true">🎯</span>
-        </span>
+      <div className="flex items-center justify-between gap-2">
+        <div className="flex items-baseline gap-2 min-w-0">
+          <span className="text-[10px] font-semibold uppercase tracking-wide text-gray-400 dark:text-gray-500 truncate">
+            {heading}
+          </span>
+          <span
+            className={`flex items-center gap-1 text-xs font-bold ${completed ? 'text-green-600 dark:text-green-400' : 'text-gray-500 dark:text-gray-400 font-normal'}`}
+          >
+            {count}/{goal} <span aria-hidden="true">🎯</span>
+          </span>
+        </div>
         {right}
       </div>
       {!completed && (

@@ -7,34 +7,27 @@ import { useLevelData } from '@/hooks/useLevelData';
 import { usePracticeSession, WordSource } from '@/hooks/usePracticeSession';
 import { useDailyGoal } from '@/hooks/useDailyGoal';
 import { useCombo } from '@/hooks/useCombo';
-import { getMasteredVocabulary, getMasteredLevels, countMastered, countDemoted, countDemotedToday } from '@/lib/indexedDB';
+import { getMasteredVocabulary, getMasteryStats, countDemotedToday } from '@/lib/indexedDB';
 import { LEVEL_STORAGE_KEY, isCEFRLevel, readPendingWord } from '@/lib/pendingWord';
 import { REVISION_DAILY_GOAL_KEY, REVISION_DAILY_GOAL } from '@/lib/dailyGoal';
-import { readRevisionScope, writeRevisionScope, RevisionScope } from '@/lib/revisionScope';
 import { PracticeArea } from '../components/PracticeArea';
 import { FixedKeyboard } from '../components/FixedKeyboard';
-import { RevisionTopBar } from '../components/RevisionTopBar';
+import { TopBar } from '../components/TopBar';
 import { RevisionGoal } from '../components/RevisionGoal';
 import { BottomNav } from '../components/BottomNav';
 
-/** Mastered words required in scope before revision unlocks - below this, a daily count goal isn't meaningfully completable. */
+/** Mastered words required in this level before revision unlocks - below this, a daily count goal isn't meaningfully completable. */
 const REQUIRED_MASTERED = 10;
 
-const sessionKeyFor = (scope: RevisionScope, level: CEFRLevel): string =>
-  scope === 'all' ? 'revise_all' : `revise_${level}`;
+const sessionKeyFor = (level: CEFRLevel): string => `revise_${level}`;
 
 export default function Revision() {
   const [level, setLevel] = useState<CEFRLevel>('a1');
-  const [scope, setScope] = useState<RevisionScope>('level');
   const [restored, setRestored] = useState(false);
   const [pendingWord, setPendingWord] = useState<TranslationResult | null>(null);
   const [gateStatus, setGateStatus] = useState<'loading' | 'locked' | 'unlocked'>('loading');
-  const [poolCount, setPoolCount] = useState(0);
-  const [demotedCount, setDemotedCount] = useState(0);
+  const [masteryStats, setMasteryStats] = useState({ total: 0, mastered: 0, percentage: 0 });
   const [demotedTodayCount, setDemotedTodayCount] = useState(0);
-  // Only the 'all' scope needs an async lookup (getMasteredLevels); 'level'
-  // scope is derived directly from `level` below, with no effect needed.
-  const [masteredLevels, setMasteredLevels] = useState<CEFRLevel[]>([]);
   const { recordCorrect: recordRevisionGoalCorrect, ...revisionGoal } = useDailyGoal(REVISION_DAILY_GOAL_KEY, REVISION_DAILY_GOAL);
   const { recordAttempt: recordComboAttempt } = useCombo();
   const t = useTranslations('Revision');
@@ -51,9 +44,9 @@ export default function Revision() {
   );
 
   // Restore the previously selected level (shared with the learning page)
-  // and revision scope after mount, before letting anything load. Reading
-  // localStorage during SSR would mismatch the prerendered HTML and break
-  // hydration (this app is statically exported).
+  // after mount, before letting anything load. Reading localStorage during
+  // SSR would mismatch the prerendered HTML and break hydration (this app is
+  // statically exported).
   useEffect(() => {
     const storedLevel = localStorage.getItem(LEVEL_STORAGE_KEY);
     const resolvedLevel = isCEFRLevel(storedLevel) ? storedLevel : 'a1';
@@ -65,107 +58,80 @@ export default function Revision() {
       setLevel(storedLevel);
     }
 
-    const resolvedScope = readRevisionScope();
-    setScope(resolvedScope);
-
-    setPendingWord(readPendingWord(sessionKeyFor(resolvedScope, resolvedLevel)));
+    setPendingWord(readPendingWord(sessionKeyFor(resolvedLevel)));
     setRestored(true);
   }, []);
 
   const handleLevelChange = useCallback((newLevel: CEFRLevel) => {
     setLevel(newLevel);
     localStorage.setItem(LEVEL_STORAGE_KEY, newLevel);
-    setPendingWord(readPendingWord(sessionKeyFor(scope, newLevel)));
-  }, [scope]);
+    setPendingWord(readPendingWord(sessionKeyFor(newLevel)));
+  }, []);
 
-  const handleScopeChange = useCallback((newScope: RevisionScope) => {
-    setScope(newScope);
-    writeRevisionScope(newScope);
-    setPendingWord(readPendingWord(sessionKeyFor(newScope, level)));
-  }, [level]);
+  // Vocabulary for the current level is loaded unconditionally (not gated on
+  // unlock status): the shared TopBar's ProgressBar needs an accurate
+  // `total` even while locked, and getMasteryStats below reads mastered
+  // counts from this same store.
+  const { ready } = useLevelData([level], restored);
 
-  // `null` means "every level the user has ever mastered a word in" - the
-  // same convention getMasteredVocabulary/countMastered use.
-  const scopeLevels = useMemo(() => (scope === 'all' ? null : [level]), [scope, level]);
-
-  // Re-checked only when the scope/level actually changes, not continuously:
-  // a wrong answer demoting a word mid-session can drop the pool below
-  // REQUIRED_MASTERED without re-locking an already-unlocked session.
+  // Only re-checked once vocab for this level is resident (getMasteryStats
+  // needs it to scope `total`/`mastered` to this level's ids), and when the
+  // level actually changes - not continuously: a wrong answer demoting a
+  // word mid-session can drop the pool below REQUIRED_MASTERED without
+  // re-locking an already-unlocked session.
   useEffect(() => {
-    if (!restored) return;
+    if (!restored || !ready) return;
 
     let cancelled = false;
-    // Clears stale counts from the previous scope/level immediately, rather
-    // than showing outdated gate status while the new query is in flight.
+    // Clears stale counts from the previous level immediately, rather than
+    // showing outdated gate status while the new query is in flight.
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setGateStatus('loading');
 
     Promise.all([
-      countMastered(scopeLevels),
-      countDemoted(scopeLevels),
-      countDemotedToday(scopeLevels),
-    ]).then(([mastered, demoted, demotedToday]) => {
+      getMasteryStats(level),
+      countDemotedToday(level),
+    ]).then(([stats, demotedToday]) => {
       if (cancelled) return;
-      setPoolCount(mastered);
-      setDemotedCount(demoted);
+      setMasteryStats(stats);
       setDemotedTodayCount(demotedToday);
-      setGateStatus(mastered >= REQUIRED_MASTERED ? 'unlocked' : 'locked');
+      setGateStatus(stats.mastered >= REQUIRED_MASTERED ? 'unlocked' : 'locked');
     }).catch(error => {
-      console.error('Failed to count mastered vocabulary:', error);
+      console.error('Failed to load mastery stats:', error);
     });
 
     return () => {
       cancelled = true;
     };
-  }, [restored, scopeLevels]);
-
-  // For "all" scope, resolve every level the user has ever mastered a word
-  // in, from progress ids alone (works even before any entries are loaded
-  // this session; see getMasteredLevels).
-  useEffect(() => {
-    if (!restored || gateStatus !== 'unlocked' || scope !== 'all') return;
-
-    let cancelled = false;
-    getMasteredLevels().then(levels => {
-      if (!cancelled) setMasteredLevels(levels);
-    }).catch(error => {
-      console.error('Failed to resolve mastered levels:', error);
-    });
-
-    return () => {
-      cancelled = true;
-    };
-  }, [restored, gateStatus, scope]);
-
-  // Which levels' JSON need to be resident for this scope: just the current
-  // level (no lookup needed), or the resolved set above for "all".
-  const levelsToLoad = scope === 'level' ? [level] : masteredLevels;
-
-  const { ready } = useLevelData(levelsToLoad, restored && gateStatus === 'unlocked' && levelsToLoad.length > 0);
+  }, [restored, ready, level]);
 
   const refreshCounts = useCallback(async () => {
     try {
-      const [mastered, demoted, demotedToday] = await Promise.all([
-        countMastered(scopeLevels),
-        countDemoted(scopeLevels),
-        countDemotedToday(scopeLevels),
+      const [stats, demotedToday] = await Promise.all([
+        getMasteryStats(level),
+        countDemotedToday(level),
       ]);
-      setPoolCount(mastered);
-      setDemotedCount(demoted);
+      setMasteryStats(stats);
       setDemotedTodayCount(demotedToday);
     } catch (error) {
-      console.error('Failed to count mastered vocabulary:', error);
+      console.error('Failed to load mastery stats:', error);
     }
-  }, [scopeLevels]);
+  }, [level]);
+
+  // Distinct from `ready` (vocab loaded): words are only fetched once the
+  // gate has actually unlocked, so a still-locked session can't populate
+  // `currentWord` and make the (always-rendered) keyboard interactive behind
+  // the gate card.
+  const sessionReady = ready && gateStatus === 'unlocked';
 
   const source: WordSource = useMemo(() => ({
-    sessionKey: sessionKeyFor(scope, level),
-    ready,
+    sessionKey: sessionKeyFor(level),
+    ready: sessionReady,
     fetchBatch: async (count, excludeIds) => {
-      const entries = await getMasteredVocabulary(scopeLevels, count, excludeIds);
+      const entries = await getMasteredVocabulary(level, count, excludeIds);
       return toTranslationResults(entries);
     },
-  }), [scope, level, ready, scopeLevels]);
+  }), [level, sessionReady]);
 
   const {
     words,
@@ -188,18 +154,11 @@ export default function Revision() {
     onAttemptSaved: refreshCounts,
   });
 
-  const sessionComplete = gateStatus === 'unlocked' && ready && fetchedOnce && !loading && words.length === 0;
+  const sessionComplete = sessionReady && fetchedOnce && !loading && words.length === 0;
 
   return (
     <>
-      <RevisionTopBar
-        level={level}
-        onLevelChange={handleLevelChange}
-        scope={scope}
-        onScopeChange={handleScopeChange}
-        poolCount={poolCount}
-        demotedCount={demotedCount}
-      />
+      <TopBar masteryStats={masteryStats} level={level} onLevelChange={handleLevelChange} />
       <main className="flex-1 overflow-y-auto container mx-auto px-4 py-4">
         <div className="mb-4">
           <RevisionGoal stats={goalDisplay} demotedToday={demotedTodayCount} />
@@ -209,7 +168,7 @@ export default function Revision() {
           <div className="bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-6 sm:p-8 text-center">
             <h2 className="text-lg font-bold text-gray-900 dark:text-white mb-2">{t('gateTitle')}</h2>
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              {t('gateBody', { mastered: poolCount, required: REQUIRED_MASTERED })}
+              {t('gateBody', { mastered: masteryStats.mastered, required: REQUIRED_MASTERED })}
             </p>
           </div>
         )}

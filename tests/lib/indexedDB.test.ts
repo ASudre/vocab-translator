@@ -174,7 +174,7 @@ describe('lib/indexedDB', () => {
     });
   });
 
-  describe('getMasteredVocabulary / getMasteredLevels / countMastered', () => {
+  describe('getMasteredVocabulary / countDemotedToday', () => {
     const masterWord = async (id: number) => {
       await db.saveUserProgress(id, true);
       await db.saveUserProgress(id, true);
@@ -216,7 +216,7 @@ describe('lib/indexedDB', () => {
       await insertMasteredAt(1, '2026-01-02T00:00:00.000Z');
       await insertMasteredAt(3, '2026-01-03T00:00:00.000Z');
 
-      const mastered = await db.getMasteredVocabulary(['a1'], 10);
+      const mastered = await db.getMasteredVocabulary('a1', 10);
       expect(mastered.map(w => w.id)).toEqual([2, 1, 3]);
     });
 
@@ -225,18 +225,18 @@ describe('lib/indexedDB', () => {
       await insertMasteredAt(2, '2026-01-01T00:00:00.000Z');
       await insertMasteredAt(1, '2026-01-02T00:00:00.000Z');
 
-      expect((await db.getMasteredVocabulary(['a1'], 1, [2])).map(w => w.id)).toEqual([1]);
+      expect((await db.getMasteredVocabulary('a1', 1, [2])).map(w => w.id)).toEqual([1]);
     });
 
     it('returns only mastered, currently resident words', async () => {
       await db.importVocabulary(sampleEntries); // ids 1-3, level a1
       await masterWord(1);
 
-      const mastered = await db.getMasteredVocabulary(['a1'], 10);
+      const mastered = await db.getMasteredVocabulary('a1', 10);
       expect(mastered.map(w => w.id)).toEqual([1]);
     });
 
-    it('scopes to the given levels when not null', async () => {
+    it('scopes to the given level', async () => {
       await db.importVocabulary(sampleEntries); // level a1
       await db.importVocabulary([
         { id: 10001, English: 'yes', Español: 'si', Français: 'oui', Category: 'basic', Class: 'adverb', level: 'a2' },
@@ -244,8 +244,8 @@ describe('lib/indexedDB', () => {
       await masterWord(1); // a1
       await masterWord(10001); // a2
 
-      expect((await db.getMasteredVocabulary(['a1'], 10)).map(w => w.id)).toEqual([1]);
-      expect((await db.getMasteredVocabulary(null, 10)).map(w => w.id).sort()).toEqual([1, 10001]);
+      expect((await db.getMasteredVocabulary('a1', 10)).map(w => w.id)).toEqual([1]);
+      expect((await db.getMasteredVocabulary('a2', 10)).map(w => w.id)).toEqual([10001]);
     });
 
     it('drops mastered ids whose entry is not resident (level not loaded yet)', async () => {
@@ -254,50 +254,15 @@ describe('lib/indexedDB', () => {
       // surface a word with missing text.
       await masterWord(20001); // b1, never imported
 
-      expect(await db.getMasteredVocabulary(null, 10)).toEqual([]);
-    });
-
-    it('getMasteredLevels derives levels from mastered ids alone, without needing entries resident', async () => {
-      await masterWord(1); // a1
-      await masterWord(20001); // b1
-
-      expect((await db.getMasteredLevels()).sort()).toEqual(['a1', 'b1']);
-    });
-
-    it('countMastered counts by level, scoped or across all levels', async () => {
-      await masterWord(1); // a1
-      await masterWord(2); // a1
-      await masterWord(20001); // b1
-
-      expect(await db.countMastered(['a1'])).toBe(2);
-      expect(await db.countMastered(null)).toBe(3);
-    });
-
-    it('countDemoted counts words sent back to learning by a wrong answer, scoped by level', async () => {
-      await masterWord(1); // a1
-      await masterWord(2); // a1
-      await masterWord(20001); // b1
-      await db.saveUserProgress(1, false); // demotes word 1, still level a1
-
-      expect(await db.countDemoted(['a1'])).toBe(1);
-      expect(await db.countDemoted(['b1'])).toBe(0);
-      expect(await db.countDemoted(null)).toBe(1);
-    });
-
-    it('countDemoted excludes a currently mastered word and a word never mastered', async () => {
-      await masterWord(1); // stays mastered
-      await db.saveUserProgress(2, false); // never mastered
-
-      expect(await db.countDemoted(null)).toBe(0);
+      expect(await db.getMasteredVocabulary('b1', 10)).toEqual([]);
     });
 
     it('countDemotedToday counts a real-time demotion (happening now, so it counts as today), scoped by level', async () => {
       await masterWord(1); // a1
       await db.saveUserProgress(1, false); // demoted just now
 
-      expect(await db.countDemotedToday(['a1'])).toBe(1);
-      expect(await db.countDemotedToday(['b1'])).toBe(0);
-      expect(await db.countDemotedToday(null)).toBe(1);
+      expect(await db.countDemotedToday('a1')).toBe(1);
+      expect(await db.countDemotedToday('b1')).toBe(0);
     });
   });
 
@@ -449,7 +414,7 @@ describe('lib/indexedDB', () => {
       // DB_VERSION 6, triggering the upgrade under test.
       expect(await db.getVocabularyCountForLevel('a2')).toBe(1);
 
-      const [entry] = await db.getMasteredVocabulary(['a2'], 10);
+      const [entry] = await db.getMasteredVocabulary('a2', 10);
       expect(entry).toMatchObject({ id: 10001, level: 'a2' });
 
       const progress = await db.getUserProgress(10001);
