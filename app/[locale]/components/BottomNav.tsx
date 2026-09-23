@@ -6,10 +6,10 @@ import { useLocale, useTranslations } from 'next-intl';
 
 /**
  * Plain next/link with manually locale-prefixed hrefs, not next-intl's
- * createNavigation: with only two routes, no middleware, and
+ * createNavigation: with only three routes, no middleware, and
  * trailingSlash: true, that helper would be a second source of routing
- * truth for no gain. Link's automatic prefetch also pulls the revision
- * route's chunk into the service worker's runtime cache as soon as this nav
+ * truth for no gain. Link's automatic prefetch also pulls each route's
+ * chunk into the service worker's runtime cache as soon as this nav
  * renders, which is what makes an offline first visit to it work.
  */
 export function BottomNav() {
@@ -19,11 +19,14 @@ export function BottomNav() {
 
   const learnHref = `/${locale}/`;
   const reviseHref = `/${locale}/revision/`;
+  const profileHref = `/${locale}/profile/`;
   // usePathname can return null outside a full router context (e.g. during
-  // some static-generation edge cases); treat that as "not the revise tab"
+  // some static-generation edge cases); treat that as "not on this tab"
   // rather than throwing.
-  const isReviseActive = (pathname ?? '').startsWith(`/${locale}/revision`);
-  const isLearnActive = !isReviseActive;
+  const path = pathname ?? '';
+  const isReviseActive = path.startsWith(`/${locale}/revision`);
+  const isProfileActive = path.startsWith(`/${locale}/profile`);
+  const isLearnActive = !isReviseActive && !isProfileActive;
 
   const tabClasses = (active: boolean) =>
     `flex-1 flex flex-col items-center gap-0.5 py-2 text-xs font-semibold ${active ? 'text-indigo-600 dark:text-indigo-400' : 'text-gray-500 dark:text-gray-400'
@@ -43,6 +46,10 @@ export function BottomNav() {
         <Link href={reviseHref} className={tabClasses(isReviseActive)} aria-current={isReviseActive ? 'page' : undefined}>
           <span aria-hidden="true">🔁</span>
           {t('revise')}
+        </Link>
+        <Link href={profileHref} className={tabClasses(isProfileActive)} aria-current={isProfileActive ? 'page' : undefined}>
+          <span aria-hidden="true">👤</span>
+          {t('profile')}
         </Link>
       </div>
     </nav>

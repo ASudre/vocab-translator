@@ -37,6 +37,7 @@
   "Nav": {
     "learn": "Learn",
     "revise": "Revise",
+    "profile": "Profile",
     "ariaLabel": "Main navigation"
   },
   "Revision": {
@@ -54,5 +55,12 @@
     "ariaLabel": "{count} of {goal} words revised today.",
     "ariaLabelCompleted": "Revision goal reached: {count} of {goal} words.",
     "backToLearningToday": "{count} words sent back to learning today"
+  },
+  "Profile": {
+    "heading": "Profile",
+    "signedOutBody": "Sign in with Google to keep your progress with your account.",
+    "cosmeticNotice": "Signed in for display only for now - progress isn't linked to your account yet.",
+    "signOut": "Sign out",
+    "notConfigured": "Google sign-in isn't configured yet."
   }
 }

@@ -37,6 +37,7 @@
   "Nav": {
     "learn": "Apprendre",
     "revise": "Réviser",
+    "profile": "Profil",
     "ariaLabel": "Navigation principale"
   },
   "Revision": {
@@ -54,5 +55,12 @@
     "ariaLabel": "{count} mots sur {goal} révisés aujourd'hui.",
     "ariaLabelCompleted": "Objectif de révision atteint : {count} mots sur {goal}.",
     "backToLearningToday": "{count} mots repartis en apprentissage aujourd'hui"
+  },
+  "Profile": {
+    "heading": "Profil",
+    "signedOutBody": "Connecte-toi avec Google pour garder ta progression liée à ton compte.",
+    "cosmeticNotice": "Connexion affichée uniquement pour l'instant - la progression n'est pas encore liée à ton compte.",
+    "signOut": "Se déconnecter",
+    "notConfigured": "La connexion Google n'est pas encore configurée."
   }
 }
