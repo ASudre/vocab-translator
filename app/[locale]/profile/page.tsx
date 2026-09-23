@@ -39,14 +39,6 @@ export default function Profile() {
         onLoad={markGoogleScriptLoaded}
       />
 
-      <div className="w-full border-b border-gray-200 dark:border-gray-700">
-        <div className="container mx-auto">
-          <div className="p-2">
-            <h1 className="text-lg font-bold text-gray-900 dark:text-white">{t('heading')}</h1>
-          </div>
-        </div>
-      </div>
-
       <main className="flex-1 overflow-y-auto container mx-auto px-2 py-2 space-y-4">
         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-6 sm:p-8 text-center">
           {!ready ? null : profile ? (

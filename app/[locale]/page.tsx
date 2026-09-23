@@ -128,12 +128,11 @@ export default function Home() {
 
   return (
     <>
-      <TopBar masteryStats={masteryStats} level={level} onLevelChange={handleLevelChange} />
+      <div className="container mx-auto p-2 flex flex-col gap-2">
+        <TopBar masteryStats={masteryStats} level={level} onLevelChange={handleLevelChange} />
+        <DailyGoal stats={statsDisplay} />
+      </div>
       <main className="flex-1 overflow-y-auto container mx-auto px-2 py-2">
-        <div className="mb-2">
-          <DailyGoal stats={statsDisplay} />
-        </div>
-
         <PracticeArea
           words={words}
           currentWord={currentWord}
