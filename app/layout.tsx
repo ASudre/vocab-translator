@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { RegisterSW } from "./register-sw";
@@ -19,14 +19,6 @@ export const metadata: Metadata = {
   title: "Palabras",
   description: "Apprenez l'espagnol avec des traductions interactives. Pratiquez le vocabulaire et suivez vos progrès.",
   manifest: '/manifest.json',
-  themeColor: '#4F46E5',
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    maximumScale: 1,
-    userScalable: false,
-    viewportFit: 'cover',
-  },
   other: {
     'screen-orientation': 'portrait',
   },
@@ -39,6 +31,18 @@ export const metadata: Metadata = {
     icon: '/icon.svg',
     apple: '/icon-192.png',
   },
+};
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+  viewportFit: 'cover',
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#ffffff' },
+    { media: '(prefers-color-scheme: dark)', color: '#0a0a0a' },
+  ],
 };
 
 export default function RootLayout({
