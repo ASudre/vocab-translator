@@ -39,7 +39,7 @@ export default function Profile() {
         onLoad={markGoogleScriptLoaded}
       />
 
-      <main className="flex-1 overflow-y-auto container mx-auto px-4 py-4 space-y-4">
+      <main className="flex-1 overflow-y-auto overflow-x-hidden container mx-auto px-4 py-4 pb-6 space-y-4">
         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-4 sm:p-6 text-center">
           {!ready ? null : profile ? (
             <div className="flex flex-col items-center gap-2">

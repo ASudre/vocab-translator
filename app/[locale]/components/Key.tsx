@@ -65,7 +65,7 @@ export const Key = memo(function Key({
     longPressFiredRef.current = false;
   };
   // Button takes full space with no gaps.
-  const buttonClasses = `${flex} ${maxWidth} h-14 sm:h-16 px-0.5 py-0.5 touch-manipulation [-webkit-tap-highlight-color:transparent]`;
+  const buttonClasses = `${flex} ${maxWidth} h-12 sm:h-14 px-0.5 py-0.5 touch-manipulation [-webkit-tap-highlight-color:transparent]`;
 
   // Inner span has the visual styling with rounded corners.
   // Pressing snaps instantly (duration-0) so the key visibly "lights up" the moment it registers;
