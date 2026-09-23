@@ -49,7 +49,7 @@ const WordHeader = memo(function WordHeader({
 
   return (
     <>
-      <span className="absolute top-4 right-4 px-2 py-1 text-xs font-semibold rounded-full bg-indigo-100 dark:bg-indigo-900 text-indigo-700 dark:text-indigo-300">
+      <span className="absolute top-4 right-4 px-2 py-1 text-sm font-semibold rounded-full bg-indigo-100 dark:bg-indigo-900 text-indigo-700 dark:text-indigo-300">
         {tClass(wordClass as 'adjective' | 'adverb' | 'interjection' | 'noun' | 'number' | 'phrase' | 'preposition' | 'pronoun' | 'verb')}
       </span>
 
