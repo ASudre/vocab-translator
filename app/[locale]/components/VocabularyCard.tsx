@@ -49,15 +49,15 @@ const WordHeader = memo(function WordHeader({
 
   return (
     <>
-      <span className="absolute top-2 right-2 px-2 py-1 text-s font-semibold rounded-full bg-indigo-100 dark:bg-indigo-900 text-indigo-700 dark:text-indigo-300">
+      <span className="absolute top-2 right-2 px-2 py-1 text-xs font-semibold rounded-full bg-indigo-100 dark:bg-indigo-900 text-indigo-700 dark:text-indigo-300">
         {tClass(wordClass as 'adjective' | 'adverb' | 'interjection' | 'noun' | 'number' | 'phrase' | 'preposition' | 'pronoun' | 'verb')}
       </span>
 
-      <div className="text-center mb-4 sm:mb-8">
-        <div className="flex justify-center gap-2 mb-2 sm:mb-3">
+      <div className="text-center mb-2 sm:mb-8">
+        <div className="flex justify-center gap-2 mt-2 mb-2 sm:mb-3">
           {renderAttemptDots()}
         </div>
-        <div className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-2 sm:mb-4">
+        <div className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-2 sm:mb-2">
           {french}
         </div>
       </div>
@@ -72,11 +72,11 @@ export function VocabularyCard({
   const inputRef = useRef<HTMLInputElement>(null);
 
   return (
-    <div className={`relative bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-4 sm:p-8 md:p-12 transition-all ${word.isCorrect === true
-        ? 'ring-4 ring-green-500 ring-offset-0'
-        : word.isCorrect === false && !word.showSolution
-          ? 'ring-4 ring-red-500 ring-offset-0'
-          : ''
+    <div className={`relative bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-2 sm:p-8 md:p-12 transition-all ${word.isCorrect === true
+      ? 'ring-4 ring-green-500 ring-offset-0'
+      : word.isCorrect === false && !word.showSolution
+        ? 'ring-4 ring-red-500 ring-offset-0'
+        : ''
       }`}>
       <WordHeader wordClass={word.class} french={word.french} attemptHistory={word.attemptHistory} />
 
@@ -92,9 +92,9 @@ export function VocabularyCard({
         autoCapitalize="off"
         spellCheck="false"
         inputMode="none"
-        className={`w-full px-4 py-4 text-lg text-center border-2 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-transparent dark:bg-gray-700 dark:text-white disabled:bg-gray-100 dark:disabled:bg-gray-900 disabled:cursor-not-allowed caret-transparent ${word.showSolution ? 'border-blue-500 dark:border-blue-400 text-blue-600 dark:text-blue-400 font-bold' :
-            word.isCorrect === true ? 'border-green-500 dark:border-green-400 text-green-600 dark:text-green-400 font-bold' :
-              'border-gray-300 dark:border-gray-600'
+        className={`w-full px-2 py-2 text-lg text-center border-2 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-transparent dark:bg-gray-700 dark:text-white disabled:bg-gray-100 dark:disabled:bg-gray-900 disabled:cursor-not-allowed caret-transparent ${word.showSolution ? 'border-blue-500 dark:border-blue-400 text-blue-600 dark:text-blue-400 font-bold' :
+          word.isCorrect === true ? 'border-green-500 dark:border-green-400 text-green-600 dark:text-green-400 font-bold' :
+            'border-gray-300 dark:border-gray-600'
           }`}
       />
 

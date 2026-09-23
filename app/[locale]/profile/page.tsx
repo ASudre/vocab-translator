@@ -41,13 +41,13 @@ export default function Profile() {
 
       <div className="w-full border-b border-gray-200 dark:border-gray-700">
         <div className="container mx-auto">
-          <div className="p-4">
+          <div className="p-2">
             <h1 className="text-lg font-bold text-gray-900 dark:text-white">{t('heading')}</h1>
           </div>
         </div>
       </div>
 
-      <main className="flex-1 overflow-y-auto container mx-auto px-4 py-4 space-y-4">
+      <main className="flex-1 overflow-y-auto container mx-auto px-2 py-2 space-y-4">
         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-6 sm:p-8 text-center">
           {!ready ? null : profile ? (
             <div className="flex flex-col items-center gap-3">
@@ -71,7 +71,7 @@ export default function Profile() {
               <button
                 type="button"
                 onClick={signOut}
-                className="mt-2 px-4 py-2 rounded-lg text-sm font-semibold bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200"
+                className="mt-2 px-2 py-2 rounded-lg text-sm font-semibold bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200"
               >
                 {t('signOut')}
               </button>
@@ -85,22 +85,22 @@ export default function Profile() {
         </div>
 
         {profile && (
-          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-4 sm:p-6">
+          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-2 sm:p-6">
             <h2 className="text-sm font-bold text-gray-900 dark:text-white mb-1">{t('driveHeading')}</h2>
-            <p className="text-xs text-gray-500 dark:text-gray-400 mb-4">{t('driveBody')}</p>
+            <p className="text-xs text-gray-500 dark:text-gray-400 mb-2">{t('driveBody')}</p>
 
             <div className="flex flex-col sm:flex-row gap-2">
               <button
                 type="button"
                 onClick={backup}
-                className="flex-1 px-4 py-2 rounded-lg text-sm font-semibold bg-indigo-600 text-white"
+                className="flex-1 px-2 py-2 rounded-lg text-sm font-semibold bg-indigo-600 text-white"
               >
                 {t('backupButton')}
               </button>
               <button
                 type="button"
                 onClick={handleRestore}
-                className="flex-1 px-4 py-2 rounded-lg text-sm font-semibold bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200"
+                className="flex-1 px-2 py-2 rounded-lg text-sm font-semibold bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200"
               >
                 {t('restoreButton')}
               </button>

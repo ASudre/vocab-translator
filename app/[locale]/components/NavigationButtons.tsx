@@ -30,7 +30,7 @@ export function NavigationButtons({
       {/* New words button */}
       <button
         onClick={onNewWords}
-        className="px-4 py-2 flex items-center gap-2 bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-600 rounded-full transition-all shadow-sm hover:shadow-md text-sm font-medium"
+        className="px-2 py-2 flex items-center gap-2 bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-600 rounded-full transition-all shadow-sm hover:shadow-md text-sm font-medium"
         title="Charger de nouveaux mots"
       >
         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

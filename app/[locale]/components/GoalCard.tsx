@@ -29,7 +29,7 @@ export const GoalCard = memo(function GoalCard({
     return <div className="h-[52px]" aria-hidden="true" />;
   }
 
-  const cardClasses = `bg-white dark:bg-gray-800 rounded-xl shadow-md p-4 ${justCompleted ? 'animate-pop' : ''}`;
+  const cardClasses = `bg-white dark:bg-gray-800 rounded-xl shadow-md p-2 ${justCompleted ? 'animate-pop' : ''}`;
   const percentage = goal > 0 ? Math.min(100, Math.round((count / goal) * 100)) : 0;
 
   return (

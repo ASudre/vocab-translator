@@ -159,8 +159,8 @@ export default function Revision() {
   return (
     <>
       <TopBar masteryStats={masteryStats} level={level} onLevelChange={handleLevelChange} />
-      <main className="flex-1 overflow-y-auto container mx-auto px-4 py-4">
-        <div className="mb-4">
+      <main className="flex-1 overflow-y-auto container mx-auto px-2 py-2">
+        <div className="mb-2">
           <RevisionGoal stats={goalDisplay} demotedToday={demotedTodayCount} />
         </div>
 
