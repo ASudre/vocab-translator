@@ -13,13 +13,20 @@ const urlsToCache = [
 ];
 
 self.addEventListener('install', (event) => {
-  // Force the waiting service worker to become the active service worker
-  self.skipWaiting();
-  
+  // Don't skipWaiting here: let the new worker sit in "waiting" until all
+  // tabs/instances using the old one are closed, so an update never yanks
+  // control away in the middle of a session. It activates naturally on the
+  // next cold start, or immediately if told to via the message below.
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then((cache) => cache.addAll(urlsToCache))
   );
+});
+
+self.addEventListener('message', (event) => {
+  if (event.data?.type === 'SKIP_WAITING') {
+    self.skipWaiting();
+  }
 });
 
 self.addEventListener('fetch', (event) => {
