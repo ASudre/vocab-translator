@@ -18,7 +18,7 @@ export const TopBar = memo(function TopBar({ masteryStats, level, onLevelChange 
     <div className="container mx-auto">
       <div className="flex items-center justify-start rounded-xl gap-2">
         <LevelSelector level={level} onChange={onLevelChange} />
-        <div className="flex-1">
+        <div className="flex-1 px-2">
           <ProgressBar masteryStats={masteryStats} />
         </div>
       </div>

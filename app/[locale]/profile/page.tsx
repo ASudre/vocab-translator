@@ -40,9 +40,9 @@ export default function Profile() {
       />
 
       <main className="flex-1 overflow-y-auto container mx-auto px-4 py-4 space-y-4">
-        <div className="bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-6 sm:p-8 text-center">
+        <div className="bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-4 sm:p-6 text-center">
           {!ready ? null : profile ? (
-            <div className="flex flex-col items-center gap-3">
+            <div className="flex flex-col items-center gap-2">
               {/* Plain <img>, not next/image: a remote Google avatar under a
                   statically exported site would otherwise need the image
                   optimizer, which has no server to run on. */}
@@ -76,35 +76,35 @@ export default function Profile() {
           )}
         </div>
 
-        {profile && (
-          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-2 sm:p-6">
-            <h2 className="text-sm font-bold text-gray-900 dark:text-white mb-1">{t('driveHeading')}</h2>
-            <p className="text-xs text-gray-500 dark:text-gray-400 mb-2">{t('driveBody')}</p>
+        {/* {profile && ( */}
+        <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-4 sm:p-6">
+          <h2 className="text-sm font-bold text-gray-900 dark:text-white mb-1">{t('driveHeading')}</h2>
+          <p className="text-xs text-gray-500 dark:text-gray-400 mb-4">{t('driveBody')}</p>
 
-            <div className="flex flex-col sm:flex-row gap-2">
-              <button
-                type="button"
-                onClick={backup}
-                className="flex-1 px-2 py-2 rounded-lg text-sm font-semibold bg-indigo-600 text-white"
-              >
-                {t('backupButton')}
-              </button>
-              <button
-                type="button"
-                onClick={handleRestore}
-                className="flex-1 px-2 py-2 rounded-lg text-sm font-semibold bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200"
-              >
-                {t('restoreButton')}
-              </button>
-            </div>
-
-            {driveStatusText[driveStatus] && (
-              <p className="mt-3 text-xs text-center text-gray-500 dark:text-gray-400">
-                {driveStatusText[driveStatus]}
-              </p>
-            )}
+          <div className="flex flex-col sm:flex-row gap-4">
+            <button
+              type="button"
+              onClick={backup}
+              className="flex-1 px-2 py-2 rounded-lg text-sm font-semibold bg-indigo-600 text-white"
+            >
+              {t('backupButton')}
+            </button>
+            <button
+              type="button"
+              onClick={handleRestore}
+              className="flex-1 px-2 py-2 rounded-lg text-sm font-semibold bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200"
+            >
+              {t('restoreButton')}
+            </button>
           </div>
-        )}
+
+          {driveStatusText[driveStatus] && (
+            <p className="mt-3 text-xs text-center text-gray-500 dark:text-gray-400">
+              {driveStatusText[driveStatus]}
+            </p>
+          )}
+        </div>
+        {/* )} */}
       </main>
 
       <BottomNav />
