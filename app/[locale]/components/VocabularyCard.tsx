@@ -1,4 +1,4 @@
-import { memo, useRef } from 'react';
+import { memo, useEffect, useRef } from 'react';
 import { useTranslations } from 'next-intl';
 import { TranslationResult } from '@/hooks/useVocabularyDB';
 
@@ -70,6 +70,21 @@ export function VocabularyCard({
 }: VocabularyCardProps) {
   const t = useTranslations('VocabularyCard');
   const inputRef = useRef<HTMLInputElement>(null);
+  const displayValue = word.showSolution || word.isCorrect === true ? word.spanish : (word.userAnswer || '');
+
+  useEffect(() => {
+    const resync = () => {
+      if (inputRef.current && inputRef.current.value !== displayValue) {
+        inputRef.current.value = displayValue;
+      }
+    };
+    document.addEventListener('visibilitychange', resync);
+    window.addEventListener('pageshow', resync);
+    return () => {
+      document.removeEventListener('visibilitychange', resync);
+      window.removeEventListener('pageshow', resync);
+    };
+  }, [displayValue]);
 
   return (
     <div className={`relative bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-4 sm:p-8 md:p-12 transition-all ${word.isCorrect === true
@@ -83,7 +98,7 @@ export function VocabularyCard({
       <input
         ref={inputRef}
         type="text"
-        value={word.showSolution || word.isCorrect === true ? word.spanish : (word.userAnswer || '')}
+        value={displayValue}
         readOnly
         placeholder={t('inputPlaceholder')}
         disabled={word.isCorrect === true || word.showSolution}

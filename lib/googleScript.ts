@@ -26,6 +26,8 @@ declare global {
   }
 }
 
+const SCRIPT_SRC = 'https://accounts.google.com/gsi/client';
+
 let loaded = false;
 const listeners = new Set<() => void>();
 
@@ -39,4 +41,34 @@ export const isGoogleScriptLoaded = (): boolean => loaded;
 export const subscribeGoogleScript = (onChange: () => void): (() => void) => {
   listeners.add(onChange);
   return () => listeners.delete(onChange);
+};
+
+let loadPromise: Promise<void> | null = null;
+
+/**
+ * Injects the GSI script on demand instead of on every profile page visit,
+ * so a signed-in user (no sign-in button to render) only pulls it over the
+ * network the moment they actually use Drive backup/restore - see
+ * GoogleSignInButton.tsx and hooks/useGoogleDrive.ts. Idempotent: safe to
+ * call from multiple call sites.
+ */
+export const loadGoogleScript = (): Promise<void> => {
+  if (loaded) return Promise.resolve();
+  if (loadPromise) return loadPromise;
+
+  loadPromise = new Promise((resolve, reject) => {
+    const script = document.createElement('script');
+    script.src = SCRIPT_SRC;
+    script.async = true;
+    script.onload = () => {
+      markGoogleScriptLoaded();
+      resolve();
+    };
+    script.onerror = () => {
+      loadPromise = null;
+      reject(new Error('Failed to load Google script'));
+    };
+    document.head.appendChild(script);
+  });
+  return loadPromise;
 };

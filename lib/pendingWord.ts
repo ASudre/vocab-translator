@@ -32,10 +32,10 @@ export const readPendingWord = (sessionKey: string): TranslationResult | null =>
 
 /**
  * Persist the word currently on screen but not yet answered, so force-
- * quitting the app can't be used to dodge it (a fresh shuffle would
- * otherwise quietly drop it). Attempt state is deliberately reset to blank:
- * this snapshot represents "still owed", not whatever partial answer was
- * typed.
+ * quitting the app (or navigating to another tab, which unmounts this page
+ * and its React state) can't be used to dodge it - a fresh shuffle would
+ * otherwise quietly drop it. Whatever has been typed so far is kept as-is,
+ * so switching tabs and coming back resumes mid-attempt.
  */
 export const writePendingWord = (sessionKey: string, word: TranslationResult): void => {
   localStorage.setItem(pendingWordKey(sessionKey), JSON.stringify({
@@ -44,7 +44,7 @@ export const writePendingWord = (sessionKey: string, word: TranslationResult): v
     french: word.french,
     class: word.class,
     category: word.category,
-    userAnswer: '',
+    userAnswer: word.userAnswer || '',
     isCorrect: null,
     showSolution: false,
     attemptHistory: word.attemptHistory,

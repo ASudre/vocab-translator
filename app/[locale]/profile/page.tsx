@@ -1,10 +1,8 @@
 'use client';
 
-import Script from 'next/script';
 import { useTranslations } from 'next-intl';
 import { useGoogleAuth } from '@/hooks/useGoogleAuth';
 import { useGoogleDrive } from '@/hooks/useGoogleDrive';
-import { markGoogleScriptLoaded } from '@/lib/googleScript';
 import { GoogleSignInButton } from '../components/GoogleSignInButton';
 import { BottomNav } from '../components/BottomNav';
 
@@ -30,15 +28,6 @@ export default function Profile() {
 
   return (
     <>
-      {/* Shared by GoogleSignInButton (accounts.id) and the Drive backup
-          feature (accounts.oauth2) below - loaded once, unconditionally, so
-          both are ready regardless of sign-in state. */}
-      <Script
-        src="https://accounts.google.com/gsi/client"
-        strategy="afterInteractive"
-        onLoad={markGoogleScriptLoaded}
-      />
-
       <main className="flex-1 overflow-y-auto overflow-x-hidden container mx-auto px-4 py-4 pb-6 space-y-4">
         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-4 sm:p-6 text-center">
           {!ready ? null : profile ? (

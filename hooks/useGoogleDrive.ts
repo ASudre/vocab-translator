@@ -1,5 +1,5 @@
 import { useCallback, useRef, useState } from 'react';
-import { useGoogleScriptLoaded } from '@/hooks/useGoogleScriptLoaded';
+import { loadGoogleScript } from '@/lib/googleScript';
 import { DRIVE_SCOPE, findBackupFile, uploadBackup, downloadBackup } from '@/lib/googleDrive';
 import { buildBackupPayload, parseBackupPayload } from '@/lib/backup';
 import { getAllUserProgress, restoreUserProgress } from '@/lib/indexedDB';
@@ -30,13 +30,12 @@ interface TokenClient {
  * permission - Google prompts for it distinctly, the first time it's used.
  */
 export const useGoogleDrive = () => {
-  const scriptLoaded = useGoogleScriptLoaded();
   const [status, setStatus] = useState<DriveStatus>('idle');
   const tokenClientRef = useRef<TokenClient | null>(null);
   const pendingTokenRef = useRef<{ resolve: (token: string) => void; reject: (error: Error) => void } | null>(null);
 
   const getTokenClient = useCallback((): TokenClient | null => {
-    if (!scriptLoaded || !GOOGLE_CLIENT_ID || !window.google) return null;
+    if (!GOOGLE_CLIENT_ID || !window.google) return null;
     if (tokenClientRef.current) return tokenClientRef.current;
 
     tokenClientRef.current = window.google.accounts.oauth2.initTokenClient({
@@ -54,15 +53,19 @@ export const useGoogleDrive = () => {
       },
     });
     return tokenClientRef.current;
-  }, [scriptLoaded]);
+  }, []);
 
+  /** Loads the shared GSI script on first use (see lib/googleScript.ts) so
+   *  it's not fetched until the user actually asks for Drive backup/restore. */
   const getAccessToken = useCallback((): Promise<string> => {
-    const client = getTokenClient();
-    if (!client) return Promise.reject(new Error('Google API not ready'));
+    return loadGoogleScript().then(() => {
+      const client = getTokenClient();
+      if (!client) return Promise.reject(new Error('Google API not ready'));
 
-    return new Promise((resolve, reject) => {
-      pendingTokenRef.current = { resolve, reject };
-      client.requestAccessToken();
+      return new Promise<string>((resolve, reject) => {
+        pendingTokenRef.current = { resolve, reject };
+        client.requestAccessToken();
+      });
     });
   }, [getTokenClient]);
 

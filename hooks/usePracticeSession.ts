@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { TranslationResult } from '@/hooks/useVocabularyDB';
 import { useCardNavigation } from '@/hooks/useCardNavigation';
 import { checkAnswerCorrectness } from '@/lib/helpers';
@@ -121,6 +121,18 @@ export const usePracticeSession = ({
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentWord?.vocabularyId, currentWord?.progressSaved, source.sessionKey]);
+
+  const currentWordRef = useRef(currentWord);
+  currentWordRef.current = currentWord;
+
+  useEffect(() => {
+    return () => {
+      const word = currentWordRef.current;
+      if (word && !word.progressSaved) {
+        writePendingWord(source.sessionKey, word);
+      }
+    };
+  }, [source.sessionKey]);
 
   const handleKeyPress = useCallback((key: string) => {
     setWords(prevWords => {
