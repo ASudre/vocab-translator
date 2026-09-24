@@ -1,6 +1,33 @@
 import { memo, useRef } from 'react';
+import type { SVGProps } from 'react';
 import { useTranslations } from 'next-intl';
 import { Key } from './Key';
+
+// Inline SVGs, same rationale as BottomNav's icons: a handful of glyphs
+// don't justify an icon library dependency or an extra offline-cache chunk.
+function BackspaceIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" {...props}>
+      <path d="M22 3H7c-.69 0-1.23.35-1.59.88L0 12l5.41 8.11c.36.53.9.89 1.59.89h15c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2.59 12.59L18 17l-3-3-3 3-1.41-1.41L13.17 12 10.17 9l1.41-1.41 3 3 3-3L19 9l-3 3 3 3z" />
+    </svg>
+  );
+}
+
+function EnterIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" {...props}>
+      <path d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z" />
+    </svg>
+  );
+}
+
+function NextIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" {...props}>
+      <path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z" />
+    </svg>
+  );
+}
 
 interface SpanishKeyboardProps {
   onKeyPress: (key: string) => void;
@@ -53,7 +80,7 @@ export const SpanishKeyboard = memo(function SpanishKeyboard({ onKeyPress, onBac
 
   return (
     <div
-      className="bg-gray-100 dark:bg-gray-700 select-none"
+      className="bg-gray-100 dark:bg-gray-900 select-none p-1"
       onTouchEnd={handleTouchEnd}
       onTouchCancel={handleTouchEnd}
     >
@@ -97,12 +124,17 @@ export const SpanishKeyboard = memo(function SpanishKeyboard({ onKeyPress, onBac
         ))}
       </div>
 
-      {/* Third row: an invisible spacer on the left matches backspace's
-          width on the right (both w-[15%], vs. w-[10%] for a letter), which
-          centers the 7 letters while keeping every letter the same width as
-          the rows above. Holding backspace (instead of a separate button)
-          clears the whole answer, so there's no destructive key sitting
-          right above the solution bulb where a mistap could wipe it. */}
+      {/* Third row: an invisible spacer on the left matches the backspace
+          div's width on the right (both w-[15%], vs. w-[10%] for a
+          letter) — the two must sum to exactly 100% with the 7 letters
+          (15+70+15) so the row has no leftover/negative space, which is
+          what centers the letters and keeps them the same width as the
+          rows above. Backspace lives in its own div (rather than sizing
+          the Key directly) so its inner padding/margin can be tuned
+          without touching that 15/70/15 balance. Holding backspace
+          (instead of a separate button) clears the whole answer, so
+          there's no destructive key sitting right above the solution
+          bulb where a mistap could wipe it. */}
       <div className="flex">
         <div aria-hidden="true" className="flex-none w-[15%]" />
         {['z', 'x', 'c', 'v', 'b', 'n', 'm'].map((key) => (
@@ -115,23 +147,27 @@ export const SpanishKeyboard = memo(function SpanishKeyboard({ onKeyPress, onBac
             flex="flex-none w-[10%]"
           />
         ))}
-        <Key
-          value="←"
-          onPress={onBackspace}
-          onLongPress={onClear}
-          onMouseAction={handleMouseAction}
-          onTouchAction={handleKeyAction}
-          variant="danger"
-          disabled={showSolution}
-          flex="flex-none w-[15%]"
-          className="text-2xl font-bold"
-        />
+        <div className="flex-none w-[15%] flex pl-2">
+          <Key
+            value={<BackspaceIcon className="h-6 w-6" />}
+            ariaLabel={t('backspace')}
+            onPress={onBackspace}
+            onLongPress={onClear}
+            onMouseAction={handleMouseAction}
+            onTouchAction={handleKeyAction}
+            variant="danger"
+            disabled={showSolution}
+            flex="flex-1"
+            maxWidth=""
+          />
+        </div>
       </div>
 
       {/* Space and enter row */}
       <div className="flex justify-center">
         <Key
-          value={showSolution ? '→' : '💡'}
+          value={showSolution ? <NextIcon className="h-5 w-5" /> : '💡'}
+          ariaLabel={showSolution ? t('next') : t('hint')}
           onPress={showSolution ? onNext : onToggleSolution}
           onMouseAction={handleMouseAction}
           onTouchAction={handleKeyAction}
@@ -148,7 +184,8 @@ export const SpanishKeyboard = memo(function SpanishKeyboard({ onKeyPress, onBac
           maxWidth=""
         />
         <Key
-          value="↵"
+          value={<EnterIcon className="h-6 w-6" />}
+          ariaLabel={t('enter')}
           onPress={onEnter}
           onMouseAction={handleMouseAction}
           onTouchAction={handleKeyAction}

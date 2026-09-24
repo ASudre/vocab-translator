@@ -10,7 +10,11 @@
     "hintPrefix": "Hint: Starts with"
   },
   "SpanishKeyboard": {
-    "space": "space"
+    "space": "space",
+    "backspace": "Backspace",
+    "enter": "Enter",
+    "hint": "Show hint",
+    "next": "Next word"
   },
   "WordClass": {
     "adjective": "adjective",

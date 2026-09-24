@@ -1,7 +1,10 @@
 import React, { memo, useRef } from 'react';
 
 interface KeyProps {
-  value: string;
+  value: React.ReactNode;
+  // Accessible name and data-key identifier. Defaults to `value` when it's a
+  // plain string (a letter key); required for keys whose value is an icon.
+  ariaLabel?: string;
   onPress: () => void;
   onMouseAction: (e: React.MouseEvent, action: () => void) => void;
   onTouchAction: (e: React.TouchEvent, action: () => void) => void;
@@ -18,6 +21,7 @@ interface KeyProps {
 
 export const Key = memo(function Key({
   value,
+  ariaLabel,
   onPress,
   onMouseAction,
   onTouchAction,
@@ -29,6 +33,7 @@ export const Key = memo(function Key({
   maxWidth = '',
   flex = 'flex-1'
 }: KeyProps) {
+  const label = ariaLabel ?? (typeof value === 'string' ? value : undefined);
   const longPressTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const longPressFiredRef = useRef(false);
 
@@ -64,13 +69,13 @@ export const Key = memo(function Key({
     }
     longPressFiredRef.current = false;
   };
-  // Button takes full space with no gaps.
-  const buttonClasses = `${flex} ${maxWidth} h-12 sm:h-14 px-0.5 py-0.5 touch-manipulation [-webkit-tap-highlight-color:transparent]`;
+  // Padding on the button (not the inner span) creates the visible gap between keys.
+  const buttonClasses = `${flex} ${maxWidth} h-12 sm:h-14 px-[3px] py-[4px] touch-manipulation [-webkit-tap-highlight-color:transparent]`;
 
   // Inner span has the visual styling with rounded corners.
   // Pressing snaps instantly (duration-0) so the key visibly "lights up" the moment it registers;
   // releasing eases back over 150ms so it doesn't feel abrupt.
-  const innerBaseClasses = 'w-full h-full flex items-center justify-center rounded-lg font-semibold text-xl shadow-sm transition-[transform,background-color] duration-150 active:duration-0 active:scale-90';
+  const innerBaseClasses = 'w-full h-full flex items-center justify-center rounded-md font-normal text-xl shadow-[0_2px_0_rgba(0,0,0,0.3)] transition-[transform,background-color] duration-150 active:duration-0 active:scale-90 active:shadow-none';
 
   const variantClasses = {
     default: 'bg-white dark:bg-gray-600 hover:bg-gray-200 dark:hover:bg-gray-500 active:bg-gray-300 dark:active:bg-gray-400 text-gray-900 dark:text-white',
@@ -86,7 +91,8 @@ export const Key = memo(function Key({
 
   return (
     <button
-      data-key={value}
+      data-key={label}
+      aria-label={label}
       onMouseDown={(e) => !disabled && onMouseAction(e, startPress)}
       onTouchStart={(e) => !disabled && onTouchAction(e, startPress)}
       // Routed through onMouseAction (not called directly) so it's gated by

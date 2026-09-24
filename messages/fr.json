@@ -10,7 +10,11 @@
     "hintPrefix": "Indice: Commence par"
   },
   "SpanishKeyboard": {
-    "space": "espacio"
+    "space": "espacio",
+    "backspace": "Effacer",
+    "enter": "Valider",
+    "hint": "Afficher l'indice",
+    "next": "Mot suivant"
   },
   "WordClass": {
     "adjective": "adjectif",

@@ -75,11 +75,11 @@ export function BottomNav() {
   const isLearnActive = !isReviseActive && !isProfileActive;
 
   const tabClasses = (active: boolean) =>
-    `flex-1 flex flex-col items-center gap-1 py-2 text-xs font-semibold transition-colors ${active ? 'text-indigo-600 dark:text-indigo-400' : 'text-gray-500 dark:text-gray-400'
+    `flex-1 flex flex-col items-center gap-0.5 py-1.5 text-xs font-semibold transition-colors ${active ? 'text-indigo-600 dark:text-indigo-400' : 'text-gray-500 dark:text-gray-400'
     }`;
 
   const iconWrapperClasses = (active: boolean) =>
-    `flex items-center justify-center h-8 w-12 rounded-full transition-colors ${active ? 'bg-indigo-50 dark:bg-indigo-500/15' : ''
+    `flex items-center justify-center h-7 w-11 rounded-full transition-colors ${active ? 'bg-indigo-50 dark:bg-indigo-500/15' : ''
     }`;
 
   return (
@@ -91,19 +91,19 @@ export function BottomNav() {
       <div className="container mx-auto max-w-2xl flex">
         <Link href={learnHref} className={tabClasses(isLearnActive)} aria-current={isLearnActive ? 'page' : undefined}>
           <span className={iconWrapperClasses(isLearnActive)}>
-            <LearnIcon active={isLearnActive} className="h-5 w-5" aria-hidden="true" />
+            <LearnIcon active={isLearnActive} className="h-[18px] w-[18px]" aria-hidden="true" />
           </span>
           {t('learn')}
         </Link>
         <Link href={reviseHref} className={tabClasses(isReviseActive)} aria-current={isReviseActive ? 'page' : undefined}>
           <span className={iconWrapperClasses(isReviseActive)}>
-            <ReviseIcon active={isReviseActive} className="h-5 w-5" aria-hidden="true" />
+            <ReviseIcon active={isReviseActive} className="h-[18px] w-[18px]" aria-hidden="true" />
           </span>
           {t('revise')}
         </Link>
         <Link href={profileHref} className={tabClasses(isProfileActive)} aria-current={isProfileActive ? 'page' : undefined}>
           <span className={iconWrapperClasses(isProfileActive)}>
-            <ProfileIcon active={isProfileActive} className="h-5 w-5" aria-hidden="true" />
+            <ProfileIcon active={isProfileActive} className="h-[18px] w-[18px]" aria-hidden="true" />
           </span>
           {t('profile')}
         </Link>

@@ -24,9 +24,9 @@ const setup = () => {
     />
   );
 
-  // Key's clickable surface (and the data-key attribute) is the <button>;
-  // its label text lives in a child <span>, so resolve up to the button.
-  const key = (label: string) => screen.getByText(label).closest('button')!;
+  // Matches by accessible name, which is the visible text for a letter key
+  // and the explicit aria-label for an icon key (backspace, enter, ...).
+  const key = (label: string) => screen.getByRole('button', { name: label });
 
   return { onKeyPress, onBackspace, onClear, onEnter, onToggleSolution, onNext, key };
 };
@@ -103,15 +103,15 @@ describe('SpanishKeyboard', () => {
     fireEvent.mouseDown(key('espacio'));
     expect(onKeyPress).toHaveBeenCalledWith(' ');
 
-    fireEvent.mouseDown(key('↵'));
+    fireEvent.mouseDown(key('Valider'));
     expect(onEnter).toHaveBeenCalledTimes(1);
   });
 
   it('fires onBackspace on a quick tap of the backspace key', () => {
     const { onBackspace, onClear, key } = setup();
 
-    fireEvent.mouseDown(key('←'));
-    fireEvent.mouseUp(key('←'));
+    fireEvent.mouseDown(key('Effacer'));
+    fireEvent.mouseUp(key('Effacer'));
 
     expect(onBackspace).toHaveBeenCalledTimes(1);
     expect(onClear).not.toHaveBeenCalled();
@@ -121,9 +121,9 @@ describe('SpanishKeyboard', () => {
     vi.useFakeTimers();
     const { onBackspace, onClear, key } = setup();
 
-    fireEvent.mouseDown(key('←'));
+    fireEvent.mouseDown(key('Effacer'));
     vi.advanceTimersByTime(500);
-    fireEvent.mouseUp(key('←'));
+    fireEvent.mouseUp(key('Effacer'));
 
     expect(onClear).toHaveBeenCalledTimes(1);
     expect(onBackspace).not.toHaveBeenCalled();
@@ -134,8 +134,8 @@ describe('SpanishKeyboard', () => {
     vi.useFakeTimers();
     const { onBackspace, onClear, key } = setup();
 
-    fireEvent.mouseDown(key('←'));
-    fireEvent.mouseLeave(key('←'));
+    fireEvent.mouseDown(key('Effacer'));
+    fireEvent.mouseLeave(key('Effacer'));
     vi.advanceTimersByTime(500);
 
     expect(onBackspace).not.toHaveBeenCalled();
@@ -150,10 +150,10 @@ describe('SpanishKeyboard', () => {
     // the ghost mouseup call endPress() directly, double-firing onBackspace.
     const { onBackspace, onClear, key } = setup();
 
-    touchStart(key('←'), 0);
-    touchEnd(key('←'), 0, []);
-    fireEvent.mouseDown(key('←'));
-    fireEvent.mouseUp(key('←'));
+    touchStart(key('Effacer'), 0);
+    touchEnd(key('Effacer'), 0, []);
+    fireEvent.mouseDown(key('Effacer'));
+    fireEvent.mouseUp(key('Effacer'));
 
     expect(onBackspace).toHaveBeenCalledTimes(1);
     expect(onClear).not.toHaveBeenCalled();
