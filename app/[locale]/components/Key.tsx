@@ -75,7 +75,7 @@ export const Key = memo(function Key({
   // Inner span has the visual styling with rounded corners.
   // Pressing snaps instantly (duration-0) so the key visibly "lights up" the moment it registers;
   // releasing eases back over 150ms so it doesn't feel abrupt.
-  const innerBaseClasses = 'w-full h-full flex items-center justify-center rounded-md font-normal text-xl shadow-[0_2px_0_rgba(0,0,0,0.3)] transition-[transform,background-color] duration-150 active:duration-0 active:scale-90 active:shadow-none';
+  const innerBaseClasses = 'w-full h-full flex items-center justify-center rounded-md font-normal text-xl transition-[transform,background-color] duration-150 active:duration-0 active:scale-90';
 
   const variantClasses = {
     default: 'bg-white dark:bg-gray-600 hover:bg-gray-200 dark:hover:bg-gray-500 active:bg-gray-300 dark:active:bg-gray-400 text-gray-900 dark:text-white',
