@@ -72,14 +72,14 @@ describe('writePendingWord / clearPendingWord', () => {
     localStorage.clear();
   });
 
-  it('stores a word with attempt state reset to blank, keyed by session', () => {
+  it('stores a word keyed by session, keeping in-progress typing (so tab-switch-and-back resumes mid-attempt)', () => {
     writePendingWord('a1', {
       vocabularyId: 1,
       spanish: 'hola',
       french: 'bonjour',
       class: 'interjection',
       category: 'greeting',
-      userAnswer: 'ho', // in-progress typing - must not be persisted
+      userAnswer: 'ho',
       isCorrect: null,
       showSolution: false,
       attemptHistory: [true, false],
@@ -92,12 +92,29 @@ describe('writePendingWord / clearPendingWord', () => {
       french: 'bonjour',
       class: 'interjection',
       category: 'greeting',
-      userAnswer: '',
+      userAnswer: 'ho',
       isCorrect: null,
       showSolution: false,
       attemptHistory: [true, false],
       progressSaved: false,
     });
+  });
+
+  it('defaults userAnswer to blank when none was in progress', () => {
+    writePendingWord('a1', {
+      vocabularyId: 1,
+      spanish: 'hola',
+      french: 'bonjour',
+      class: 'interjection',
+      category: 'greeting',
+      userAnswer: '',
+      isCorrect: null,
+      showSolution: false,
+      attemptHistory: [],
+      progressSaved: false,
+    });
+
+    expect(readPendingWord('a1')?.userAnswer).toBe('');
   });
 
   it('clearPendingWord removes only the given session', () => {
